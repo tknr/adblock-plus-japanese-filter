@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 5wlq94uk+rPTjk7i2BXCNA
-! Last modified: 01 Mar 2010 10:20 JST
+! Checksum: 0pEAie4/UTCaES4OtM33dw
+! Last modified: 01 Mar 2010 14:44 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
