@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 6TK55Q/rl/TxDqjgtcM+5A
-! Last modified: 01 Mar 2010 10:20 JST
+! Checksum: VD8qX5MJPCUVgHY7UqUUiA
+! Last modified: 01 Mar 2010 17:54 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -137,6 +137,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||advg.jp/$third-party
 ||adviva.net^$third-party
 ||adwires.com^$third-party
+||af-board.com^$third-party
+||af-market.com^$third-party
 ||affiliate-b.com^$third-party
 ||agilemedia.jp^$third-party
 ||ad.agilemedia.jp^
@@ -149,6 +151,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||b-click.net^$third-party
 ||bannerbridge.net^$third-party
 ||ad.bannerconnect.net^
+||banner-server.info^$third-party
 ||bbchat.tv^$third-party
 ||bidvertiser.com^$third-party
 ||blogads.com^$third-party
@@ -181,6 +184,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||e-planning.net^$third-party
 ||adingo.jp.eimg.jp^
 ||now.eloqua.com^
+||e-nls.com^$third-party
 ||etology.com^$third-party
 ||ezbbs.net/*/sample*/img/
 ||fastclick.net^$third-party
@@ -241,6 +245,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||refeed.net^$third-party
 ||revsci.net^$third-party
 ||rssad.jp^$third-party
+||sbs-ad.com^$third-party
 ||scanscout.com^$third-party
 ||scorecardresearch.com^$third-party
 ||seoparts.com^$third-party
