@@ -22,6 +22,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ad.ameba.jp^
 ||adnet.asahi.com/ad/
 ||afpbb.com/*/banner$image
+||agri-biz.jp^*banner
 ||ad.ascii.jp^
 ||atmarkit.co.jp/ad/
 ||ocp.cbsnews.com^
@@ -818,6 +819,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 100shiki.com###text-5
 100shiki.com###text-5 + *
 afpbb.com##div[id^="ads"]
+agri-biz.jp##div[id^="banner_"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
 ascii.jp##div#bargain
