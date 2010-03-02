@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 5emFrJXsOooASYFdHScDSQ
-! Last modified: 02 Mar 2010 16:45 JST
+! Checksum: lcBAszDWYXQTV1yLs1Q0Ug
+! Last modified: 02 Mar 2010 17:29 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -96,8 +96,10 @@ INSERT_RANDOM_NUMBER_HERE
 ||biz/openx/
 ||ru:8080/
 ||203.86.249.80^
+||210.135.99.84^
 ||210.155.151.148^
 ||103092804.com^
+||find.2ch.net/*_banner_
 ||2mdn.net/viewad/
 ||2o7.net/$third-party
 ||a-pagerank.net^$third-party
@@ -118,6 +120,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adjustnetwork.com^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
+||adpath.net^$third-party
 ||adresult.jp^$third-party
 ||adrevolver.com^$third-party
 ||ads.adjust-net.jp^
@@ -393,9 +396,10 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//203.86.249.80/"]
 ##a[href*="//210.155.151.148/"]
 ##a[href*="px.a8.net/svt/ejp"]
-##a[href*="adjustnetwork.com/aan/"]
-##a[href*="//cou.adjust-net.jp"]
 ##a[href*=".accesstrade.net/at/c.html"]
+##a[href*="//cou.adjust-net.jp"]
+##a[href*="adjustnetwork.com/aan/"]
+##a[href*="adpath.net/click?"]
 ##a[href*=".advg.jp/"]
 ##a[href*="//sos.allabout.co.jp"]
 ##a[href*="amazon.co.jp/gp/product/"][href*="tag=amazon0599-22"]
@@ -429,6 +433,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//itpro.nikkeibp.co.jp/as/"]
 ##a[href*=".overture.co.jp/ja_JP/legal/"]
 ##a[href*=".overture.com/d/sr/"]
+##a[href*="p-advg.com/adpCnt/"]
 ##a[href*="pheedo.jp/feeds/"]
 ##a[href*=".afl.rakuten.co.jp/"]
 ##a[href*="rssad.jp/trendmatch/"]
