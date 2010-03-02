@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: lcBAszDWYXQTV1yLs1Q0Ug
-! Last modified: 02 Mar 2010 17:29 JST
+! Checksum: lcKlyoZds5QFrHy6HTIqKA
+! Last modified: 02 Mar 2010 17:55 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -279,6 +279,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||valuecommerce.com^$third-party
 ||veritrans.co.jp/bcon/
 ||rws.weblio.jp^$third-party
+||xmax.jp^$third-party
 ||ax.xrea.com^$third-party
 ||logoole.yahoo.co.jp^$third-party
 ||ov.yahoo.co.jp^
@@ -408,6 +409,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="jp.brothersoft.com"]
 ##a[href*=".brothersoft.jp"]
 ##a[href*=".counter-hosting.com"]
+##a[href*="dmm.co.jp/hit."]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*=".ebis.ne.jp"][href*="_rd."]
 ##a[href*="//ever-adsense.com"]
@@ -445,6 +447,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="ck.valuecommerce.com/"]
 ##a[href*="visionavi.net/motivation/"]
 ##a[href*="//blog.with2.net/link."]
+##a[href*="xmax.jp/click/"]
 ##a[href*="ard.yahoo.com"]
 ##a[href*="lrd.yahoo.com"]
 ##a[href*="//ard.yahoo.co.jp"]
