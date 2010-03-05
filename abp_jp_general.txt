@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: c40qST5bMu/MZg/tGXlBEQ
-! Last modified: 03 Mar 2010 20:35 JST
+! Checksum: b6kbRnJxaAVMWgxdmLuIsw
+! Last modified: 05 Mar 2010 15:51 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -546,7 +546,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="google_afc_"]
 ##*[id^="pr-"]:not(*[id="pr-root"][class^="dct-"])
 ##*[id^="PR-"]
-##*[id^="pr_"]
+! ~books.com.tw##*[id^="pr_"]
 ##*[id^="PR_"]
 ##*[id*="adsense"]
 ##*[id*="AdSense"]
