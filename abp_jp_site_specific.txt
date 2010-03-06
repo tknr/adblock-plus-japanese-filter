@@ -928,6 +928,7 @@ ime.nu,ime.st##a[href*="/redirect.html"]
 ime.nu,ime.st##body > br:last-of-type ~ *:not(hr)
 web-tan.forum.impressrd.jp##div#textad-top
 web-tan.forum.impressrd.jp##div.textad-top
+infoseek.co.jp###isweb-lite-adbanner
 investwalker.jp##td[bgcolor="#ffeedd"]
 jbpress.ismedia.jp###pr2
 jbpress.ismedia.jp###vbox
