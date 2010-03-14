@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: RruNnSYzShflfOzlIWm/aQ
-! Last modified: 14 Mar 2010 15:27 JST
+! Checksum: P1T6aO8ELSI8/djs1n+hRw
+! Last modified: 14 Mar 2010 16:09 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -64,11 +64,11 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||kyoto-np.co.jp/koukoku/
 ||ad.lifehacker.jp^
 ||c.live.com^
+||adv.livedoor.com^
+||click.livedoor.com^
 ||livedoor.jp/js/c.js
 ||livedoor.jp/js/c2.js
 ||livedoor.jp/js/google_jp.js
-||adv.livedoor.com^
-||click.livedoor.com^
 ||ad.lolipop.jp^
 ||mainichi.jp/js/an.js
 ||ad.mainichi.jp^
@@ -968,6 +968,7 @@ lifehacker.jp##[class^="randomSelect_"]
 livedoor.com###today-site
 livedoor.com###osusume
 livedoor.com###otoku-info
+livedoor.com###ranking-amazon
 livedoor.com##.powerd-by-google
 livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
 mainichi.jp###SuperBanner
