@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: je/hSzqB8nCm/JbacCFG3Q
-! Last modified: 13 Mar 2010 16:52 JST
+! Checksum: uWBcfUHr1ZqsEYBbmV2U3w
+! Last modified: 14 Mar 2010 15:27 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -433,7 +433,6 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//search.jword.jp"]
 ##a[href*="//click.linksynergy.com"]
 ##a[href*=".liveads.jp/widgets_src/"]
-##a[href*="click.livedoor.com"]
 ##a[href*=".loka.jp"]
 ##a[href*=".mediaplex.com"]
 ##a[href*="//ads.mixi.jp"]
