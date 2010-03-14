@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: THDFJiNI3izHSiROx84//w
-! Last modified: 15 Mar 2010 00:37 JST
+! Checksum: sV/KoEztZT6i+7AkYDvs0A
+! Last modified: 15 Mar 2010 01:13 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -938,12 +938,6 @@ itarchitect.jp##div.ads-textLine
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
-nicovideo.jp###web_pc_prime
-nikkeibp.co.jp##div#subcontent > div[style="width: 300px; height: 300px; margin-top: 10px;"]
-itpro.nikkeibp.co.jp###subContent .rectangle
-itpro.nikkeibp.co.jp##*[href^="/data/"]
-itpro.nikkeibp.co.jp##div#leaf_datascope
-itpro.nikkeibp.co.jp##div.leaf_datascope
 j-cast.com##div#entry-bottom
 j-cast.com##div.entry-bottom
 j-cast.com##div[id^="RCCompanyIR"]
@@ -972,6 +966,7 @@ livedoor.com###ranking-amazon
 livedoor.com##.powerd-by-google
 livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
 search.livedoor.com###content h3
+search.livedoor.com###menu > div:first-child
 search.livedoor.com##div.searchresult_sponsor
 mainichi.jp###SuperBanner
 mainichi.jp##.Ad
@@ -1003,13 +998,19 @@ namaan.net###listing_top
 netanswerplus.saisoncard.co.jp##div[class^="banner"]
 newsweek.com##.inline-promo-link
 newsweekjapan.jp##div#sideAdPanel
+nicovideo.jp###web_pc_prime
 nifty.com###subBnr
 nikkeibp.co.jp###relatedPR
 nikkeibp.co.jp##div[class*="_adsense"]
+nikkeibp.co.jp##div#subcontent > div[style="width: 300px; height: 300px; margin-top: 10px;"]
 business.nikkeibp.co.jp##div#manageInfo2
 business.nikkeibp.co.jp##div#articlekeyword
 business.nikkeibp.co.jp##div.articlekeyword
 business.nikkeibp.co.jp##p.bunner
+itpro.nikkeibp.co.jp###subContent .rectangle
+itpro.nikkeibp.co.jp##*[href^="/data/"]
+itpro.nikkeibp.co.jp##div#leaf_datascope
+itpro.nikkeibp.co.jp##div.leaf_datascope
 ninja.co.jp##div#box_m
 ninja.co.jp##div#box_t
 ninja.co.jp##div.attention
