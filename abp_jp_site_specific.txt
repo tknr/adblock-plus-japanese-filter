@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: sV/KoEztZT6i+7AkYDvs0A
-! Last modified: 15 Mar 2010 01:13 JST
+! Checksum: aCbZ5QqsB5jm52jyvNf/Eg
+! Last modified: 15 Mar 2010 20:13 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -878,6 +878,9 @@ coliss.com##div#sidebar > div.block02:first-child
 computerworld.jp##div#ad1line
 computerworld.jp##div.ad1line
 computerworld.jp##div.adver
+coojin.com###ad_right
+coojin.com###ad_top
+coojin.com###big_main > div.auctions
 cybersyndrome.net##TABLE[cellspacing="2"][cellpadding="2"][border="0"][align="left"]
 cybozu.net###recommend-top-txt > li:last-child
 diamond.jp##a[href^="//web.diamond.jp/rd/"]
