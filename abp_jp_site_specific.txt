@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: aCbZ5QqsB5jm52jyvNf/Eg
-! Last modified: 15 Mar 2010 20:13 JST
+! Checksum: BIkaB/ggzNEQBaTZMUMn0w
+! Last modified: 17 Mar 2010 18:21 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -938,9 +938,6 @@ jbpress.ismedia.jp###vbox
 jbpress.ismedia.jp###pr1
 jbpress.ismedia.jp##ul.platinum-text
 itarchitect.jp##div.ads-textLine
-marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
-marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
-marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
 j-cast.com##div#entry-bottom
 j-cast.com##div.entry-bottom
 j-cast.com##div[id^="RCCompanyIR"]

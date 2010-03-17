@@ -22,7 +22,7 @@ my $file = $ARGV[0];
 my $data = readFile($file);
 
 my $time    = localtime;
-my $strTime = $time->strftime("%d %b %Y %R JST");
+my $strTime = $time->strftime("%d %b %Y %H:%M JST");
 die "[ERR] Failed to Generate Date String!" unless $strTime;
 
 # Replace already existing "! Last modified: %e %b %Y %R JST"
