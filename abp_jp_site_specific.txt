@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: BIkaB/ggzNEQBaTZMUMn0w
-! Last modified: 17 Mar 2010 18:21 JST
+! Checksum: Z+OGfDS7fP2hU5IFy8aWwg
+! Last modified: 17 Mar 2010 19:47 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1028,6 +1028,7 @@ jp.reuters.com###adArticleText
 jp.reuters.com###bannerad
 jp.reuters.com##.adArticleText
 jp.reuters.com##.bannerad
+president.jp.reuters.com##div.prad
 rue89japon.com##*[id^="ad_"]
 sankei.jp.msn.com##div#pt
 sanspo.com##div#lBoard2
