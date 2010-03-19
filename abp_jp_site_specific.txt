@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: YRYTSPwhUptghFzFN2UR1Q
-! Last modified: 18 Mar 2010 02:56 JST
+! Checksum: GyrPguSocLcGzmqpJ3xF7A
+! Last modified: 20 Mar 2010 00:22 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1009,6 +1009,7 @@ business.nikkeibp.co.jp##div#articlekeyword
 business.nikkeibp.co.jp##div.articlekeyword
 business.nikkeibp.co.jp##p.bunner
 itpro.nikkeibp.co.jp###subContent .rectangle
+itpro.nikkeibp.co.jp###subContent .rightRectangle
 itpro.nikkeibp.co.jp##*[href^="/data/"]
 itpro.nikkeibp.co.jp##div#leaf_datascope
 itpro.nikkeibp.co.jp##div.leaf_datascope
