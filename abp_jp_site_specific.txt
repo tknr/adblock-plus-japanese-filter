@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: GyrPguSocLcGzmqpJ3xF7A
-! Last modified: 20 Mar 2010 00:22 JST
+! Checksum: Er+UrIjxJxy29CAIY3Ew1w
+! Last modified: 20 Mar 2010 23:17 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -909,6 +909,9 @@ gci-klug.jp##*[class*="AdsBox"]
 gigafree.net###spl
 gigafree.net##.spl
 gigazine.net##*[src*="/tnemesitrevda/"]
+gihyo.jp###contentHotspot
+gihyo.jp###secondary > div.textPR
+gihyo.jp###secondary > div.banner
 blog.goo.ne.jp###mod-advertising
 blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
