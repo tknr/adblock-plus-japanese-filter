@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: JpYElxap/Z+iieIqDP1tnw
-! Last modified: 18 Mar 2010 20:00 JST
+! Checksum: YvG2VjZGNLptRtXZ7UHteg
+! Last modified: 22 Mar 2010 03:59 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -8,8 +8,8 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
+! Project committers: lostincarnation
 ! Project contributors: resubew
-! Filter contributors: lostincarnation
 !
 affiliate$third-party
 INSERT_RANDOM_NUMBER_HERE
@@ -205,10 +205,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||fmpub.net^$third-party
 ||relart.fresheye.com^
 ||getchu.com/*banner^$third-party
-||google.co.jp/uds/stats?
-||google.com/uds/stats?
-||id.google.com/verify/$third-party
-||id.google.co.jp/verify/$third-party
 ||google-analytics.com^$third-party,domain=~aguse.jp|~web-cache.chocomaru.com
 ||googleadservices.com^$third-party
 ||googlesyndication.com/pagead/

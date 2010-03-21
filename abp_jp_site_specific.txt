@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: CJfpUVjoqUmjOgpiSL8lrg
-! Last modified: 21 Mar 2010 20:28 JST
+! Checksum: yjlS6iDmfO2LDdQfNZomTw
+! Last modified: 22 Mar 2010 03:59 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -8,8 +8,8 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
+! Project committers: lostincarnation
 ! Project contributors: resubew
-! Filter contributors: lostincarnation
 !
 $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
 */ads/techcrunch
@@ -38,13 +38,17 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||dw.com.com^$third-party
 ||computerworld.jp/cgi-bin/pa?r=
 ||dmm.co.jp/bana/$third-party
+||freeserv.dukascopy.com/advert/
 ||e-words.jp/adcom.
 ||fc2.com^*janre.js
 ||fc2.com/pv.
 ||analyzer*.fc2.com^*ana
-||freeserv.dukascopy.com/advert/
 ||ad.goo.ne.jp^
 ||log000.goo.ne.jp^
+||google.co.jp/uds/stats?
+||google.com/uds/stats?
+||id.google.com/verify/$third-party
+||id.google.co.jp/verify/$third-party
 ||red.hatena.ne.jp/ad
 ||ad.hatena.ne.jp^
 ||ad-hatena.jp^
