@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: uo4j0TrJTKw6i4BqTbzc+w
-! Last modified: 23 Mar 2010 16:03 JST
+! Checksum: nPouhJj8y9ScsWScbfflHQ
+! Last modified: 24 Mar 2010 02:20 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1114,6 +1114,7 @@ yahoo.co.jp##div[class^="ad"]
 yahoo.co.jp##div[class^="pr300"]
 yahoo.co.jp##div[class^="prCenter"]
 yahoo.co.jp##div.pos-lrec
+yahoo.co.jp##div.prCT
 yahoo.co.jp##div.yschec
 yahoo.co.jp##div.yschspns
 blogs.yahoo.co.jp##a.blog_IMp
