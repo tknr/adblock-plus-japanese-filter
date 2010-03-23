@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 9HplNmEfgEK1plc7VR883Q
-! Last modified: 23 Mar 2010 00:21 JST
+! Checksum: uo4j0TrJTKw6i4BqTbzc+w
+! Last modified: 23 Mar 2010 16:03 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1097,6 +1097,8 @@ vector.co.jp##div[id^="shop_"]
 vector.co.jp###softDetail ~ *
 vector.co.jp###v_sub > noscript + div.article:first-of-type
 virtualdub.org##*[alt$="Ad]"]
+special.visualzoo.com###sidebar > div.side_banner
+special.visualzoo.com###container > div.banner_area
 ! yahoo.co.jp##div#adLrec
 ! yahoo.co.jp##div#adRp
 yahoo.co.jp##div[id^="ad"]:not([id^="addr"])
