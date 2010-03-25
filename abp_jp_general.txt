@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: kzDUf1sDMv0gSRPVJYLjiA
-! Last modified: 26 Mar 2010 09:02 JST
+! Checksum: M8cqAeBF/eM8StO4bigQNw
+! Last modified: 26 Mar 2010 09:06 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -350,7 +350,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###textad
 ###textAd
 ~justin.tv##.ad
-##.AD
+~mail.google.com##.AD
 ##.ad-text
 ##.AD-text
 ##.ad_text
@@ -378,7 +378,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.flashAD
 ##.gAdsense
 ! ~sbigroup.co.jp##.pr
-##.PR
+~mail.google.com##.PR
 ##.pr-txt
 ##.PR-txt
 ##.pr_txt
