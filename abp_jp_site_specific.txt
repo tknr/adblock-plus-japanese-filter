@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: dEhbAbL8lobLlVjNgt2lLQ
-! Last modified: 26 3 2010 13:43 JST
+! Checksum: NHfLzgVsO/PJdGxDL7Y3cQ
+! Last modified: 27 3 2010 12:21 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -992,6 +992,10 @@ mainichi.jp##.SquareAd
 mainichi.jp##*[class^="ArticleAd"]
 mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
 mapion.co.jp###adTxtInMain
+markezine.jp###header > div.navi > div
+markezine.jp###searcharea + div
+markezine.jp###searcharea + div + div
+markezine.jp###ranking + div
 marsflag.com###head ~ a[href*="?bannerad_"]
 marsflag.com###head ~ img
 marsflag.com###contLeft > h2.colTitle1 ~ table.resutlTable[onclick*="ad_clk"]
