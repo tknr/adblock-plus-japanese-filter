@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: EmDqRRA9oL0bRnU6iV19TA
-! Last modified: 29 3 2010 10:53 JST
+! Checksum: vJOSYE6YjdmF9CVhE0kNwA
+! Last modified: 29 3 2010 12:18 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -875,6 +875,7 @@ bizmakoto.jp,itmedia.co.jp##div.signboard
 bizmakoto.jp,itmedia.co.jp##strong.logo
 cgdigg.com##div.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
+chosunonline.com###postsub > div.ad300x250
 cnet.com##a[href*="//offers.cnet.com/redir?"]
 cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
