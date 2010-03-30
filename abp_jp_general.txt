@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: CjS+JdUUSjdug3O+W+cQjQ
-! Last modified: 30 3 2010 03:55 JST
+! Checksum: cnhPWZeQ7VB8nIKj5aCobw
+! Last modified: 30 3 2010 13:54 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -448,6 +448,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="i2i.jp/click."]
 ##a[href*="infocart.jp/"]
 ##a[href*=".impressit.co.jp/reader.php"]
+##a[href*=".info-style.co.jp"]
 ##a[href*="infotop.jp/click."]
 ##a[href*="//ngs.impress.co.jp"]
 ##a[href*="//click.j-a-net.jp"]
