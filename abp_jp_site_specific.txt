@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: IgyPySpyCzoAgXdBWxYIuQ
-! Last modified: 04 4 2010 00:00 JST
+! Checksum: O6w9CsMF0KcguoeGfx/3fQ
+! Last modified: 04 4 2010 00:03 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -832,10 +832,10 @@ agri-biz.jp##div[id^="banner_"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
 ascii.jp##div#bargain
+ascii.jp##div#prWindow
 ascii.jp##div#sideL
 ascii.jp##div.bargain
 ascii.jp##div.sideL
-ascii.jp##div.prWindow
 ashinari.com###area-bnrtext
 ashinari.com##.area-bnrtext
 atmarkit.co.jp##div#crec
