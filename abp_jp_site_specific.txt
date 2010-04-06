@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: FI0OIGAWuHFvT7LgLQzPfg
-! Last modified: 06 4 2010 12:43 JST
+! Checksum: fZwP4R43VNZeg2/ZmyLJEw
+! Last modified: 2010-04-06 16:03:17 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1077,6 +1077,7 @@ sophia-it.com##.shin3
 sophia-it.com##*[class^="banner"]
 sourceforge.jp###adaptive-prtext
 sourceforge.jp###adbar>.sidebar-ad-text~div:nth-of-type(2)
+sourceforge.jp###adbar > :first-child
 sourceforge.jp##div[style="height: 250px;"]
 stackasterisk.jp##table.tableCaution
 technobahn.com##*[src*=".technobahn.com/cgi-bin/dart/display"]
