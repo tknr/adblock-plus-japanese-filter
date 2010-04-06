@@ -1,16 +1,16 @@
 ﻿#!/usr/bin/perl
 
-#############################################################################
-# This script updates date string like "! Last modified: 08 Feb 2010 13:49 JST"#
-#                                                                           #
-# To add or update date string, run the script like this:                   #
-#                                                                           #
-#   perl updateDateString.pl subscription.txt                               #
-#                                                                           #
-# Note: your subscription file should be saved in UTF-8 encoding, otherwise #
-#       the generated checksum might be incorrect.                          #
-#                                                                           #
-#############################################################################
+###################################################################################
+# This script updates date string like "! Last modified: 2010-04-06 14:03:42 JST" #
+#                                                                                 #
+# To add or update date string, run the script like this:                         #
+#                                                                                 #
+#   perl updateDateString.pl subscription.txt                                     #
+#                                                                                 #
+# Note: your subscription file should be saved in UTF-8 encoding, otherwise       #
+#       the generated checksum might be incorrect.                                #
+#                                                                                 #
+###################################################################################
 
 use strict;
 use warnings;
@@ -27,7 +27,7 @@ my $strTime = $time->strftime("%F %T JST");
 
 die "[ERR] Failed to Generate Date String!" unless $strTime;
 
-# Replace already existing "! Last modified: %e %b %Y %R JST"
+# Replace already existing "! Last modified: DATE TIME JST"
 $data =~ s/^.*!\s*Last\s+modified[\s\-:]+([\w\+\/=]+).*$/! Last modified: $strTime/gmi;
 
 writeFile($file, $data);
