@@ -5,10 +5,10 @@
 #                                                                           #
 # To add or update date string, run the script like this:                   #
 #                                                                           #
-#   perl addDateString.pl subscription.txt                                  #
+#   perl updateDateString.pl subscription.txt                               #
 #                                                                           #
 # Note: your subscription file should be saved in UTF-8 encoding, otherwise #
-# the generated checksum might be incorrect.                                #
+#       the generated checksum might be incorrect.                          #
 #                                                                           #
 #############################################################################
 
@@ -21,8 +21,10 @@ die "Usage: $^X $0 subscription.txt\n" unless @ARGV;
 my $file = $ARGV[0];
 my $data = readFile($file);
 
-my $time    = localtime;
-my $strTime = $time->strftime("%d %b %Y %H:%M JST");
+my $time    = localtime();
+# my $strTime = $time->strftime("%d %b %Y %H:%M JST");
+my $strTime = $time->strftime("%F %T JST");
+
 die "[ERR] Failed to Generate Date String!" unless $strTime;
 
 # Replace already existing "! Last modified: %e %b %Y %R JST"
