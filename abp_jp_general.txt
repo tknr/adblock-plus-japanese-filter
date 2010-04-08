@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: lS0doTHstEfOzBPKopo3bA
-! Last modified: 2010-04-07 22:40:04 JST
+! Checksum: qv041Iqk2TT+4q7H0NzvIw
+! Last modified: 2010-04-08 23:18:58 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -520,11 +520,11 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/lsplus."]
 ##a[href*="/pr-"]
 ##a[href*="/PR-"]
-!~cr.mufg.jp##a[href*="/pr."]
+! ~cr.mufg.jp##a[href*="/pr."]
 ##a[href*="/PR."]
-!~smbc-card.com##a[href*="/pr/"]
+! ~smbc-card.com##a[href*="/pr/"]
 ##a[href*="/PR/"]
-##a[href*="/pr_"]
+! ~sanyeicorp.com##a[href*="/pr_"]
 ##a[href*="/PR_"]
 ##a[href*="/splash/"]
 ##a[href*="_ad."]
@@ -544,8 +544,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="_ADS_"]
 ##a[href*="_pr."]
 ##a[href*="_PR."]
-##a[href*="_pr/"]
-!~twitter.com##a[href*="_PR/"]
+! ~twitter.com##a[href*="_pr/"]
+! ~twitter.com##a[href*="_PR/"]
 ##a[href*="_pr_"]
 ##a[href*="_PR_"]
 ##img[alt^="[pr-"]
@@ -745,7 +745,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[src*="/PR."]
 ! ~sbigroup.co.jp##*[src*="/pr/"]
 ##*[src*="/PR/"]
-!~victorinox.co.jp##*[src*="/pr_"]
+! ~victorinox.co.jp##*[src*="/pr_"]
 ##*[src*="/PR_"]
 ##*[src*="_ad."]
 ##*[src*="_AD."]
