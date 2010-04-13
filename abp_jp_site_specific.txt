@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: AKdTNSmBO8y8KxmFyQNmnA
-! Last modified: 2010-04-13 08:40:00 JST
+! Checksum: YB/VZ6DHzJC4D1ppjOph5A
+! Last modified: 2010-04-14 03:45:38 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -833,6 +833,7 @@ ameblo.jp###eco_head
 ascii.jp###bargain
 ascii.jp###prWindow
 ascii.jp###sideL
+ascii.jp###spMenu
 ascii.jp##div.bargain
 ascii.jp##div.sideL
 ashinari.com###area-bnrtext
