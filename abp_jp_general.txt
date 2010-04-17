@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: CEE8xRTe62eJIgYYMXwIbQ
-! Last modified: 2010-04-17 23:37:04 JST
+! Checksum: Cr9z4yU20OdYkIU95p1A/w
+! Last modified: 2010-04-18 00:37:30 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -77,7 +77,6 @@ INSERT_RANDOM_NUMBER_HERE
 */sponsor/
 */trans_pixel.
 */txt_ad.
-*/tynt.js
 */urchin.js
 */www/delivery/
 |http://ad.
@@ -301,6 +300,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||script.trackword.net^$third-party
 ||trafficgate.net^$third-party
 ||trustclick.ne.jp^$third-party
+||tynt.com^$third-party
 ||undertone.com^$third-party
 ||valuecommerce.com^$third-party
 ||veritrans.co.jp/bcon/
