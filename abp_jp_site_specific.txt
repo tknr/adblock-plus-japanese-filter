@@ -63,6 +63,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||itmedia.co.jp/*/fyi/
 ||itmedia.co.jp/*/pr_mobileshop
 ||itmedia.co.jp/css/fl$script
+||itmedia.co.jp/*/licenseonline$image
 ||dlv.itmedia.jp^
 ||img.itmedia.jp^
 ||jugem.jp/ad/
