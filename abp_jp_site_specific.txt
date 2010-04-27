@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: sG8kqbKu6M/ZFggG6gHrrw
-! Last modified: 2010-04-27 09:58:00 JST
+! Checksum: fTuf2nYyzAxl+bXkv00Z0w
+! Last modified: 2010-04-27 10:07:25 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1014,6 +1014,7 @@ moongift.jp###right > div.subcontainer div.job-board
 mooter.co.jp###cluster + table[cellpadding="0"]
 mooter.co.jp##td[width="230"][valign="top"]
 jp.msn.com##div[id^="ads"]
+musen-lan.com##br + table[width="150"][cellpadding="2"] ~ table[width="150"][cellpadding="2"]
 mycom.co.jp###adspecial
 mycom.co.jp##.adspecial
 mycom.co.jp##a[href*="adspecial"]
