@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Checksum: bN16zAMIxzq1UB0YlJluMw
+! Checksum: J13Djf6Z0+HcmpfxLyIE8w
 ! Last modified: 2010-05-07 16:59 JST
 !
 ! Japanese General Filter
