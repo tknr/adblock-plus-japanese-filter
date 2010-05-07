@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: P1YflcVFxBL0BOznyqkBpA
-! Last modified: 2010-05-07 10:47:19 JST
+!  Checksum: cH87prvOSXU1mGNUojW4QA
+! Last modified: 2010-05-07 16:50:00 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -38,6 +38,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||creamu.com*^rsswidget.
 ||dw.com.com^$third-party
 ||computerworld.jp/cgi-bin/pa?r=
+||customize.dtiserv.com^$third-party
 ||freeserv.dukascopy.com/advert/
 ||e-words.jp/adcom.
 ||fc2.com^*janre.js
@@ -89,6 +90,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||musen-lan.com/speed/banner/
 ||kali.mycom.co.jp^
 ||netsecurity.ne.jp/bnr/
+||new-akiba.com/special/
 ||bwp.news.com^
 ||newsweekjapan.jp/images/common/rectangle_$image
 ||newsweekjapan.jp/images/common/*Ad.$image

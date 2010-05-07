@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: kF+LyIgav0fqpsw5gIYa1g
-! Last modified: 2010-05-05 00:02:58 JST
+!  Checksum: kiJCwTcXlrIzJXi+YfuSaA
+! Last modified: 2010-05-07 16:50:00 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -208,6 +208,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||doubleclick.net^$third-party
 ||ad.doubleclick.net^
 ||ad.jp.doubleclick.net^
+||dti-ranker.com^$third-party
 ||ebis.ne.jp^$third-party
 ||enquisite.com^$third-party
 ||ero-tube.jp^$third-party
@@ -259,6 +260,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mediaplex.com^$third-party
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
+||motionlink.jp^$third-party
 ||movie-file.net^$third-party
 ||newzia.jp^$third-party
 ||nuggad.net^$third-party
@@ -291,6 +293,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||scanscout.com^$third-party
 ||scorecardresearch.com^$third-party
 ||seoparts.com^$third-party
+||seo-stats.$third-party
+||seostats.net$third-party
 ||smartadserver.com^$third-party
 ||shinobi.jp/ufo/$third-party
 ||axad.shinobi.jp^
