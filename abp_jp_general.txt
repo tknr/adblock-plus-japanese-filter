@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: GZDb/8l8HPCQAawZJhdLUQ
-! Last modified: 2010-05-07 20:18 JST
+! Checksum: 9wq/UVbDaTmXYPCUZZWHiQ
+! Last modified: 2010-05-08 00:12:57 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -181,6 +181,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.bannerconnect.net^
 ||banner-server.info^$third-party
 ||bbchat.tv^$third-party
+||become.co.jp^$third-party
 ||bidvertiser.com^$third-party
 ||blocam.jp^$third-party
 ||blogads.com^$third-party
@@ -326,6 +327,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||adult-monster.webwindow.jp^$third-party
 ||wmh0.com^$third-party
 ||woopra.com^$third-party
+||xlisting.co.jp^$third-party
+||xlisting.jp^$third-party
 ||track.xmax.jp^
 ||ax.xrea.com^$third-party
 ||logoole.yahoo.co.jp^$third-party
