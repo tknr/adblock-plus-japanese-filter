@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: VUq1aqGuurEueEdTVIMe7Q
-! Last modified: 2010-05-07 17:54 JST
+! Checksum: eVmStn9qV9HjJEIBPRpGlw
+! Last modified: 2010-05-08 00:28:06 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -21,7 +21,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||count.2ch.net^
 ||track.47news.jp^
 ||ad.ameba.jp^
-||adimpkwd.excite.co.jp^
 ||adnet.asahi.com/ad/
 ||afpbb.com/*/banner$image
 ||agri-biz.jp^*banner
@@ -42,6 +41,8 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||customize.dtiserv.com^
 ||freeserv.dukascopy.com/advert/
 ||e-words.jp/adcom.
+||excite.co.jp/search/combined/
+||adimpkwd.excite.co.jp^
 ||fc2.com^*janre.js
 ||fc2.com/pv.
 ||analyzer*.fc2.com^*ana
@@ -921,6 +922,9 @@ e-words.jp###sidebox
 e-words.jp##div.l
 e-words.jp##div.sidebox
 eetimes.jp##div.prsbox
+excite.co.jp###resultsBody > div.hit > *[id*="awg"]
+excite.co.jp###resultsBody > div.hit > *[id*="jls"]
+excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
 ferret-plus.com###prinfo
 gci-klug.jp##*[class*="AdBox"]
