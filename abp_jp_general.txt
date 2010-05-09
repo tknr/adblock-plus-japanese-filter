@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: RaBG5cOLawTEgrwoLNpfHg
-! Last modified: 2010-05-09 20:16:42 JST
+! Checksum: lXA4nrQwV8EyO6mufjRkdw
+! Last modified: 2010-05-10 02:26:59 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -219,8 +219,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||enquisite.com^$third-party
 ||ero-tube.jp^$third-party
 ||doubleclick.net/activity
-||googleads.g.doubleclick.net^
-||pubads.g.doubleclick.net^
+||g.doubleclick.net^
 ||affiliate.dtiserv.com^$third-party
 ||bannercode.dtiserv2.com^
 ||e-pagerank.net^$third-party
@@ -338,7 +337,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||by.i.analytics.yahoo.co.jp^
 ||marketingsolutions.yahoo.com^$third-party
 ||yieldbuild.com^$third-party
-||ad.yieldmanager.com^
+||yieldmanager.com^$third-party
 ||yimg.jp/images/analytics/js/ywa.
 ||ziyu.net^$third-party
 ! #################### Samurai Factory START ####################
