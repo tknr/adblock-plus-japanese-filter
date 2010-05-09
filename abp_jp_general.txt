@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 9wq/UVbDaTmXYPCUZZWHiQ
-! Last modified: 2010-05-08 00:12:57 JST
+! Checksum: 6DWkrbFcl0u/zD8a/MvDSA
+! Last modified: 2010-05-09 12:00:00 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -341,6 +341,18 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.yieldmanager.com^
 ||yimg.jp/images/analytics/js/ywa.
 ||ziyu.net^$third-party
+! #################### Samurai Factory START ####################
+.biz/ufo/$third-party
+.com/ufo/$third-party
+.jp/ufo/$third-party
+.net/ufo/$third-party
+.org/ufo/$third-party
+.biz/Zen?$third-party
+.com/Zen?$third-party
+.jp/Zen?$third-party
+.net/Zen?$third-party
+.org/Zen?$third-party
+! #################### Samurai Factory END ####################
 ~login.mail.goo.ne.jp###ad
 ###ad1
 ###ad2
