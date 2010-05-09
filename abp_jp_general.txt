@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: lXA4nrQwV8EyO6mufjRkdw
-! Last modified: 2010-05-10 02:26:59 JST
+! Checksum: GpufT7yH23Ftp/hBpDKOaQ
+! Last modified: 2010-05-10 03:04:38 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -143,6 +143,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adjustnetwork.com^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
+||adnxs.com^$third-party
 ||adpath.net^$third-party
 ||adplan-ds.com^$third-party
 ||adresult.jp^$third-party
@@ -190,6 +191,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||blogpeta.jp^$third-party
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
+||burstnet.com^$third-party
 ||cetrk.com^
 ||chartbeat.com^$third-party
 ||clicktale.net^$third-party
@@ -197,6 +199,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||cmcore.com^$third-party
 ||cnzz.com^$third-party
 ||collective-media.net^$third-party
+||contextweb.com^$third-party
 ||coremetrics.com^$third-party
 ||counter-hosting.com^$third-party
 ||criteo.com^$third-party
@@ -283,6 +286,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||pointroll.com^$third-party
 ||ppc-direct.com^$third-party
 ||precisionclick.com^$third-party
+||pubmatic.com^$third-party
 ||qlook.net^$third-party
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
@@ -314,6 +318,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||az.trackword.net^
 ||script.trackword.net^$third-party
 ||trafficgate.net^$third-party
+||trafficmp.com^$third-party
 ||trustclick.ne.jp^$third-party
 ||tynt.com^$third-party
 ||undertone.com^$third-party
@@ -339,6 +344,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||yieldbuild.com^$third-party
 ||yieldmanager.com^$third-party
 ||yimg.jp/images/analytics/js/ywa.
+||zedo.com^$third-party
 ||ziyu.net^$third-party
 ! #################### Samurai Factory START ####################
 .biz/ufo/$third-party
