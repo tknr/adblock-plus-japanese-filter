@@ -294,9 +294,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||sbs-ad.com^$third-party
 ||scanscout.com^$third-party
 ||scorecardresearch.com^$third-party
-||seoparts.com^$third-party
-||seo-stats.$third-party
-||seostats.net^$third-party
 ||smartadserver.com^$third-party
 ||axad.shinobi.jp^
 ||bar1.shinobi.jp^
