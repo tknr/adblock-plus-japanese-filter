@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: GpufT7yH23Ftp/hBpDKOaQ
-! Last modified: 2010-05-10 03:04:38 JST
+! Checksum: x1FyK0ExJoIsEWq5trav/w
+! Last modified: 2010-05-10 03:39:58 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -134,6 +134,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad-trak2.jp^$third-party
 ||ad-v.jp/$third-party
 ||adadvisor.net^$third-party
+||adblade.com^$third-party
 ||adbrite.com^$third-party
 ||adbutterfly.com^$third-party
 ||adcentriconline.com^$third-party
@@ -192,6 +193,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
 ||burstnet.com^$third-party
+||casalemedia.com^$third-party
 ||cetrk.com^
 ||chartbeat.com^$third-party
 ||clicktale.net^$third-party
@@ -277,6 +279,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ads.osdn.jp^
 ||openx.net^$third-party
 ||openx.org^$third-party
+||optmd.com^$third-party
 ||overture.com^$third-party
 ||overture.co.jp^$third-party
 ||p-advg.com^$third-party
@@ -298,6 +301,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||revsci.net^$third-party
 ||rssad.jp^$third-party
 ||research-artisan.com^$third-party
+||rubiconproject.com^$third-party
 ||sbs-ad.com^$third-party
 ||scanscout.com^$third-party
 ||scorecardresearch.com^$third-party
@@ -319,6 +323,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||script.trackword.net^$third-party
 ||trafficgate.net^$third-party
 ||trafficmp.com^$third-party
+||tribalfusion.com^$third-party
 ||trustclick.ne.jp^$third-party
 ||tynt.com^$third-party
 ||undertone.com^$third-party
