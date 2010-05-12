@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: oywJX84ov/+QpNOp8KlFeg
-! Last modified: 2010-05-12 22:09:18 JST
+! Checksum: wmdtl029FSanKu/3Fi2W4g
+! Last modified: 2010-05-13 03:31:02 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -229,23 +229,19 @@ INSERT_RANDOM_NUMBER_HERE
 ||dlsite.com^$third-party
 ||dmm.co.jp^$third-party
 ||doubleclick.net^$third-party
-||ad.doubleclick.net^
-||ad.jp.doubleclick.net^
 ||dti-ranker.com^$third-party
-||dtmpub.com^$third-party
-||ebis.ne.jp^$third-party
-||yieldmanager.edgesuite.net^$third-party
-||enquisite.com^$third-party
-||ero-tube.jp^$third-party
-||doubleclick.net/activity
-||g.doubleclick.net^
 ||affiliate.dtiserv.com^$third-party
 ||bannercode.dtiserv2.com^
+||dtmpub.com^$third-party
+||e-nls.com^$third-party
 ||e-pagerank.net^$third-party
 ||e-planning.net^$third-party
+||ebis.ne.jp^$third-party
+||yieldmanager.edgesuite.net^$third-party
 ||adingo.jp.eimg.jp^
 ||now.eloqua.com^
-||e-nls.com^$third-party
+||enquisite.com^$third-party
+||ero-tube.jp^$third-party
 ||etology.com^$third-party
 ||ezbbs.net/*/sample*/img/
 ||fastclick.net^$third-party
