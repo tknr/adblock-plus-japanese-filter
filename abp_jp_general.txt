@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 8mG3xpaZtKBdUPiM7e1itA
-! Last modified: 2010-05-16 17:06:40 JST
+! Checksum: GR4Zo9Zj1Oxv5/ptZud01A
+! Last modified: 2010-05-17 16:34:17 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -17,16 +17,18 @@ INSERT_RANDOM_NUMBER_HERE
 ?*tracking=
 */__utm.gif
 */__utm.js
+*/ad/ad.js
+*/ad/ads.js
+*/ad/banner
+*/ad/control
+*/ad/load_ad
+*/ad/show
 */ad_banner
 */ad_iframe
 */ad_img.
 */ad_layout
 */ad_plugin
 */ad_timer.js
-*/ad/banner
-*/ad/control
-*/ad/load_ad
-*/ad/show
 */adbanner
 */adframe_
 */adFunction
@@ -35,6 +37,8 @@ INSERT_RANDOM_NUMBER_HERE
 */AdLantisLoader.
 */adListing
 */admodoki.
+*/ads/ad.js
+*/ads/ads.js
 */ads-common.
 */adserver
 */advertise
@@ -81,6 +85,8 @@ INSERT_RANDOM_NUMBER_HERE
 */imgs/ads/
 */imgs/ads-
 */imgs/ads_
+*/js/ad.js
+*/js/ads.js
 */js/google_banner.js
 */kokoku/
 */koukoku/
@@ -93,6 +99,8 @@ INSERT_RANDOM_NUMBER_HERE
 */overture_im.
 */pagead/
 */pr_img/
+*/s/ad.js
+*/s/ads.js
 ! */s_code.js$domain=~sonystyle.com
 */settings/ad.
 */sfga.js
