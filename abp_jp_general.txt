@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: SbWKb5JzEN6eV+5hfWeTSA
-! Last modified: 2010-05-19 00:50:40 JST
+! Checksum: KyPiAi227Ohu/FSknZDA+w
+! Last modified: 2010-05-19 01:49:43 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -747,7 +747,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class*="-ADS-"]
 ##*[class*="-pr-"]
 ##*[class*="-PR-"]
-##*[class*="_ad_"]
+~gamespot.com##*[class*="_ad_"]
 ##*[class*="_AD_"]
 ##*[class*="_ads_"]
 ##*[class*="_ADs_"]
