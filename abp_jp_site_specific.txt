@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: DtXkYZpM74jqL55Y7oiKbg
-! Last modified: 2010-05-19 03:43:46 JST
+! Checksum: FJu7pLFJWjZbfnOpXgqy3w
+! Last modified: 2010-05-19 03:51:03 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -32,7 +32,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||agri-biz.jp^*banner
 ||ad.ascii.jp^
 ||atmarkit.co.jp/ad/
-||ocp.cbsnews.com^
 ||log.chosunjns.com^
 ||ad.chosunonline.com^
 ||cnet.com/ads/
