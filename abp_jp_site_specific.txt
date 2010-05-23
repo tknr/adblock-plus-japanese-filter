@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: IKfDTsqTP8UhyzmrWulPTw
-! Last modified: 2010-05-23 01:27:14 JST
+! Checksum: NLbVIZTgvZYgfMkIsVdiew
+! Last modified: 2010-05-23 12:32:01 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -369,6 +369,7 @@ mycom.co.jp##*[src*="kali.mycom.co.jp"]
 nakanohito.jp###paddingside > div#header + div#padding
 namaan.net###listing_top
 netadreport.com###amn_banner
+netadreport.com###toptext
 netadreport.com##.bottom
 netanswerplus.saisoncard.co.jp##div[class^="banner"]
 newsweek.com##.inline-promo-link
