@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: ilYNOZco97+fcyIYLXzmTQ
-! Last modified: 2010-05-26 23:59:42 JST
+! Checksum: ptoqrjQpBiTOIyxG8FKhTw
+! Last modified: 2010-05-28 12:01:55 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -757,7 +757,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class*="OVERTURE"]
 ##*[class*="prtext"]
 ##*[class*="PRtext"]
-##*[class*="sponsor"]
+~bbc.co.uk##*[class*="sponsor"]
 ##*[class*="Sponsor"]
 ##*[class*="SPONSOR"]
 ##*[class*="-ad-"]
