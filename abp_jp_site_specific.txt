@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: LG0bxketiRk/5haArckB4w
-! Last modified: 2010-05-28 13:58:12 JST
+! Checksum: gioZmG9BcbhxkmqaiFxQYw
+! Last modified: 2010-05-31 15:26:42 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -13,6 +13,7 @@
 !
 $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
 */ads/techcrunch
+*/cnet_scode.
 */cnwk.1d/Ads/
 */js/dw.js
 */myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
@@ -230,6 +231,9 @@ cnet.com##a[href*="//offers.cnet.com/redir?"]
 cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
 ! cnet.com##a[href*="//dw.com.com/redir?"]
+japan.cnet.com##div[class^="block_large_top"]
+japan.cnet.com###top_recommend
+japan.cnet.com##.story_photoreport
 codezine.jp###shoeisha_gnavi
 codezine.jp##div.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
@@ -313,9 +317,6 @@ j-cast.com##div[id^="RCCompanyIR"]
 j-cast.com##div[id^="RCAscii"]
 j-cast.com##div[id^="RCChumokuJoho"]
 j-cast.com##div[id^="MCAd"]
-japan.cnet.com##div[class^="block_large_top"]
-japan.zdnet.com###ad_smartlink
-japan.zdnet.com##div.ad_smartlink
 jiji.com##img[src$="/images/spacer.gif"]
 jorudan.co.jp##a[href*="//book.jorudan.co.jp/cgi-bin/"] ~ *
 jorudan.co.jp##div.bookList
@@ -506,3 +507,5 @@ yomiuri.co.jp##a[href*=".yomiuri.co.jp/adv/"]
 yomiuri.co.jp##div[class*="-txtad-"]
 youtube.com###results-main-content > div.searchView
 youtube.com###results-main-content > div[class="list-view"]:first-child
+japan.zdnet.com###ad_smartlink
+japan.zdnet.com##div.ad_smartlink
