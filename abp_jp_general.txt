@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: bqa2gVPjNQzs8wGxLy4neA
-! Last modified: 2010-06-02 08:47:42 JST
+! Checksum: 6fEojPJfS1TDca2EG4kAKg
+! Last modified: 2010-06-02 13:22:45 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -416,6 +416,23 @@ INSERT_RANDOM_NUMBER_HERE
 ||yimg.jp/images/analytics/
 ||zedo.com^$third-party
 ||ziyu.net^$third-party
+! #################### ValueClick alias domains: 216.34.207.62 START ####################
+||afcyhf.com^
+||anrdoezrs.net^
+||awltovhc.com^
+||commission-junction.com^
+||dpbolvw.net^
+||emjcd.com^
+||ftjcfx.com^
+||jdoqocy.com^
+||kdukvh.com^
+||kqzyfj.com^
+||lduhtrp.net^
+||qksrv.net^
+||qksz.net^
+||tkqlhce.com^
+||tqlkg.com^
+! #################### ValueClick alias domains: 216.34.207.62 END ####################
 ! #################### Samurai Factory START ####################
 .biz/ufo/$third-party
 .com/ufo/$third-party
