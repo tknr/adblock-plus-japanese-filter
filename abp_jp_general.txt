@@ -23,7 +23,6 @@ INSERT_RANDOM_NUMBER_HERE
 */ad/banner
 */ad/control
 */ad/load_ad
-*/ad/pr_img/
 */ad/show
 */ad_area.
 */ad_banner
