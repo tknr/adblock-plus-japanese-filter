@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: WfTTTxyvmtk09vVF+pCKZg
-! Last modified: 2010-06-04 16:56:37 JST
+! Checksum: 7z/BvObKKQ33ia/+Wg+ZNQ
+! Last modified: 2010-06-05 14:34:00 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -341,6 +341,7 @@ livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
 search.livedoor.com###content h3
 search.livedoor.com###menu > div:first-child
 search.livedoor.com##div.searchresult_sponsor
+mag2.com###prsite
 mainichi.jp###SuperBanner
 mainichi.jp##.Ad
 mainichi.jp##.AdAA
