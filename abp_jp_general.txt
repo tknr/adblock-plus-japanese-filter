@@ -90,6 +90,7 @@ INSERT_RANDOM_NUMBER_HERE
 */imgs/ads/
 */imgs/ads-
 */imgs/ads_
+*/ivw/CP/
 */js/ad.js
 */js/ads.js
 */js/google_banner.
