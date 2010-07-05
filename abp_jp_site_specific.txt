@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: iF+PILWIWnjdeI7KOv3+SQ
-! Last modified: 2010-06-26 23:52:46 JST
+! Checksum: Edvg8OPG8Z1q0w9m+5YCQA
+! Last modified: 2010-07-06 05:28:20 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -135,6 +135,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ad.rbbtoday.com^
 ||ad.response.jp^
 ||ritlweb.com/jad.
+||robtex.com/ext/ads/
 ||saisoncard.co.jp/netanswer/kakakucom/
 ||saisoncard.co.jp/netanswer/na_top/if_banner
 ||ac.saisoncard.co.jp^
