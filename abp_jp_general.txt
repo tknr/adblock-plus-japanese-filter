@@ -179,6 +179,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||redir.adap.tv^$third-party
 ||buysellads.com^$third-party
 ||csolution.jp^$third-party
+||d-064.com$third-party
 ||ad4u.drecom.jp^
 ||rss.drecom.jp/*banner/$third-party
 ||ad-trak2.jp^$third-party
@@ -421,6 +422,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||veritrans.co.jp/bcon/
 ||wa-track.com^$third-party
 ||webantenna.info^$third-party
+||webdo.co.jp$third-party
 ||rws.weblio.jp^$third-party
 ||webtrends.com^$third-party
 ||adult-monster.webwindow.jp^$third-party
