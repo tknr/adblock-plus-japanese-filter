@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: XTIR0QMxm8VZOZ4WKNtbFw
-! Last modified: 2010-08-09 23:45:45 JST
+! Checksum: zYgYdLQIsYErTcQcfVhx+A
+! Last modified: 2010-08-10 18:49:41 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -24,6 +24,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 */sa/infospace.
 */settings/ad.js
 */wiredv-
+||jp/adcast$third-party
 |http://mads.
 |https://mads.
 |http://ocp.
@@ -166,6 +167,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||d.ustream.tv^
 ||vector.co.jp/vpack/*banner
 ||ad.wiredvision.jp^
+||stats.wordpress.com^
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||imgj.xrea.com/xa.j
