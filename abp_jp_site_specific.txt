@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: zYgYdLQIsYErTcQcfVhx+A
-! Last modified: 2010-08-10 18:49:41 JST
+! Checksum: 8UMfPoPJgAoFMwxyMfei6Q
+! Last modified: 2010-08-11 22:28:31 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -482,6 +482,8 @@ toyokeizai.net##div[class^="rightBnr"]
 toyokeizai.net##div.mt35
 traders.co.jp###side_banner
 traders.co.jp##div.side_banner
+traders.co.jp##.topix_wrapper > .topix_main:first-child
+traders.co.jp##.table_f_fund+table tr:nth-of-type(3)
 translink.co.jp###barAD
 twitter.com##.promoted-trend
 vector.co.jp##div[id^="gad_"]
