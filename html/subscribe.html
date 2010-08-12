@@ -26,7 +26,6 @@
  #owners a, #members a { white-space: nowrap; }
 
   </style>
-  <script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
 </head>
 <body class="t1">
 <div class="gbh" style="left: 0pt;"></div>
@@ -83,30 +82,23 @@ Support browsers that contribute to open source, try <a href="http://www.firefox
 <p><a href="https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog" rel="nofollow">更新履歴 (Change Log)</a></p>
 </div>
 </div>
-<script type="text/javascript">
-/**
- * Reports analytics.
- * It checks for the analytics functionality (window._gat) every 100ms
- * until the analytics script is fully loaded in order to invoke siteTracker.
- */
-function _CS_reportAnalytics() {
- window.setTimeout(function() {
- if (window._gat) {
- try {
- siteTracker = _gat._getTracker(CS_ANALYTICS_ACCOUNT);
- siteTracker._trackPageview();
- } catch (e) {}
- var projectTracker = _gat._getTracker("UA-5848167-4");
-projectTracker._initData();
-projectTracker._trackPageview();
- } else {
- _CS_reportAnalytics();
- }
- }, 100); 
-</script>
 <div style="position: absolute; top: 20px; left: 812px; display: none;"
  id="menuDiv-projects-dropdown" class="menuDiv instance0">
 <div style="display: none;" class="menuCategory default"></div>
 </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5848167-4']);
+  _gaq.push(['_setDomainName', '.googlecode.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
