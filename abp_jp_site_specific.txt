@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: w+/rpmnd55Wl/H+7/9Xb9A
-! Last modified: 2010-08-16 20:44:57 JST
+! Checksum: OOG/GJr04H/WUPZ9sTFp/Q
+! Last modified: 2010-08-17 10:22:16 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -469,6 +469,9 @@ technobahn.com##tr.ch[id^="taw"]
 technobahn.com##tr.ch[id^="taw"]+tr
 technorati.jp###DARTinline
 technorati.jp##div.DARTinline
+teesoft.info###top-bottom
+teesoft.info###uniblue
+teesoft.info###footer-800
 thinkit.co.jp##img[src$="pr_bar.gif"]
 thinkit.co.jp###mini_tieup
 thinkit.co.jp###table7
