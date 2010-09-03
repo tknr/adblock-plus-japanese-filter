@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 3O5ez3FatA+6lKHgotZXuQ
-! Last modified: 2010-09-01 23:48:30 JST
+! Checksum: N9lgUoWclW5t7Xee+7htMQ
+! Last modified: 2010-09-03 14:08:05 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -310,6 +310,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
 ||hitomedia.jp/GT/
 ||hitslink.com^$third-party
+||hubspot.com^$third-party
 |http://ac*.i2i.jp^
 |https://ac*.i2i.jp^
 |http://rc*.i2i.jp^
