@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: FakxRkAEkt6jBQJig2wpeg
-! Last modified: 2010-09-08 16:14:46 JST
+! Checksum: 7DQy3dtA2NGf/jQ0DLKBYg
+! Last modified: 2010-09-10 17:28:27 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -257,7 +257,6 @@ cnet.com##a[href*="//adlog.com.com"]
 ! cnet.com##a[href*="//dw.com.com/redir?"]
 japan.cnet.com##div[class^="block_large_top"]
 japan.cnet.com###top_recommend
-japan.cnet.com##.story_photoreport
 codezine.jp###shoeisha_gnavi
 codezine.jp##div.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
