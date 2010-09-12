@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 7DQy3dtA2NGf/jQ0DLKBYg
-! Last modified: 2010-09-10 17:28:27 JST
+! Checksum: gfRawpZ/1frsBcGtH4qJ0Q
+! Last modified: 2010-09-12 16:22:58 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -487,6 +487,7 @@ thinkit.jp###seo
 thinkit.jp##div.seo
 thinkit.jp###megatext
 tomshardware.com##div.basicCentral-elm.clearfix
+toyokeizai.net###centerside > .pr
 toyokeizai.net##div.sideBnr
 toyokeizai.net##div.sideBnr ~ div
 toyokeizai.net##div.sidePr
