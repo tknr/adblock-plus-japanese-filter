@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: YiuOAXb125WKVli/CQPGRA
-! Last modified: 2010-09-20 19:32:07 JST
+! Checksum: EKSZGH07L8g7JV8u4McNcw
+! Last modified: 2010-09-21 00:06:48 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -183,6 +183,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||vector.co.jp/vpack/*banner
 ||ad.wiredvision.jp^
 ||stats.wordpress.com^
+||ad.wsod.com^
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||imgj.xrea.com/xa.j
@@ -202,6 +203,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||yeas.yahoo.co
 ||yjaxc.yahoo.co
 ||yimg.jp/bdv/
+||ads.yimg.com^
 ||zdnet.com/ads/
 ||adcl.japan.zdnet.com^
 100shiki.com###text-5
