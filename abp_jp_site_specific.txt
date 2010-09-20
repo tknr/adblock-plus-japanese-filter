@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: EKSZGH07L8g7JV8u4McNcw
-! Last modified: 2010-09-21 00:06:48 JST
+! Checksum: 4INJuqcC1je63gW5YgYqUw
+! Last modified: 2010-09-21 08:32:37 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -437,6 +437,7 @@ ninja.co.jp###box_t
 ninja.co.jp##div.attention
 ninja.co.jp##div.box_m
 ninja.co.jp##div.box_t
+oreilly.co.jp##.adv
 pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
 peer2peer.blog79.fc2.com###newentrys
