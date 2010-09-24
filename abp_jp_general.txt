@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: UetnPr6YEAI5aq7CRICjNg
-! Last modified: 2010-09-24 02:27:30 JST
+! Checksum: h8q7UEdo7Ny7gjDttfsGXQ
+! Last modified: 2010-09-25 02:26:50 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -815,7 +815,8 @@ INSERT_RANDOM_NUMBER_HERE
 ! ##*[id$="-PR"]
 ##*[id$="_ad"]
 ##*[id$="_AD"]
-##*[id$="_ads"]
+! Added an exclusion for facebook.com "float:right" problem("pagelet_ads" is probably reserved for AD in the future).
+##*[id$="_ads"]:not([id="pagelet_ads"])
 ##*[id$="_ADs"]
 ##*[id$="_ADS"]
 ! ##*[id$="_pr"]
