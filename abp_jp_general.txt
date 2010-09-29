@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: DVRPyDGWJjlGnKldK82xVw
-! Last modified: 2010-09-25 02:42:10 JST
+! Checksum: WYB/I+IOK80A4uKXCJjyFg
+! Last modified: 2010-09-30 01:13:10 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -8,7 +8,7 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
-! Project committers: lostincarnation
+! Project committers: lostincarnation, looter
 ! Project contributors: resubew, kabipantu
 !
 _sponsor_
