@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: Zjo/Q4Vl1TlJWXRtxVyLmg
-! Last modified: 2010-09-30 01:13:10 JST
+! Checksum: oeHIlLjd+sYsB2v29x94tQ
+! Last modified: 2010-09-30 20:53:59 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -361,7 +361,7 @@ jiji.com##img[src$="/images/spacer.gif"]
 jorudan.co.jp##a[href*="//book.jorudan.co.jp/cgi-bin/"] ~ *
 jorudan.co.jp##div.bookList
 jorudan.co.jp##div.imgBanner
-kakaku.com##.alignC
+kakaku.com###mainRight .alignC
 kakaku.com##.prBn
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
