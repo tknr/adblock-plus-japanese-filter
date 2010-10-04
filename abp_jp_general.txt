@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: zcLf7soLJhGO9zx5p1OHtA
-! Last modified: 2010-10-04 21:22:23 JST
+! Checksum: Hz21bV1X9G1D/BdBBWi2Ag
+! Last modified: 2010-10-04 21:49:50 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -629,6 +629,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="adpath.net/click?"]
 ##a[href*=".advg.jp/"]
 ##a[href*="//ad.agilemedia.jp"]
+##a[href*="ainte.jp/cid/"]
 ##a[href*="//sos.allabout.co.jp"]
 ##a[href*=".bb-chat.tv/"]
 ##a[href*="bidders.co.jp/pitem/"][href*="/aff/"]
@@ -676,6 +677,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="ck.valuecommerce.com/"]
 ##a[href*="visionavi.net/motivation/"]
 ##a[href*="//blog.with2.net/link."]
+##a[href*="world-auctions.org/?aid="]
 ##a[href*="xmax.jp/click/"]
 ##a[href*="ard.yahoo.com"]
 ##a[href*="lrd.yahoo.com"]
