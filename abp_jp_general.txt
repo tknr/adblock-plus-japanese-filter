@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: IuqdsWKuRjIHOPlZIEoHNA
-! Last modified: 2010-10-10 22:10:57 JST
+! Checksum: x4b74kw0H930m/aGWW769g
+! Last modified: 2010-10-10 22:26:23 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -490,6 +490,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||yieldmanager.com^$third-party
 ||yimg.jp/images/analytics/
 ||zedo.com^$third-party
+||zenback.jp^$third-party
 ||ziyu.net^$third-party
 ! #################### ValueClick alias domains: 216.34.207.62 START ####################
 ||afcyhf.com^
