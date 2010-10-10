@@ -649,6 +649,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="dmm.co.jp/hit."]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*=".ebis.ne.jp"][href*="_rd."]
+##a[href*=".ebis.ne.jp"][href*="/tr_"]
 ##a[href*="//ever-adsense.com"]
 ##a[href*="//ever-click.com"]
 ##a[href*="//ever-clix.com"]
