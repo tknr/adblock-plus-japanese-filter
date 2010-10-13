@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: qqWVUTtLmqVJKKfvIZ9WfQ
-! Last modified: 2010-10-11 22:40:44 JST
+! Checksum: /hzzB2VvZD5aAMOomo33tQ
+! Last modified: 2010-10-14 00:49:20 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -487,6 +487,8 @@ seo-stats.net###sidebar
 seo-stats.net##div.sidebar
 slideshare.net##div.noAdForLead
 slideshare.net##div.container > div.last
+smashinghub.com##.adleft
+smashinghub.com##.adright
 sophia-it.com##.adtx
 sophia-it.com##.shin3
 sophia-it.com##*[class^="banner"]
