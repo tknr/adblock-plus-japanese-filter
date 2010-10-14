@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: OhSyqqZoTcNf9NMYYkikOw
-! Last modified: 2010-10-14 20:59:57 JST
+! Checksum: X/egws1WkODNEjydIBJ42Q
+! Last modified: 2010-10-14 21:03:07 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -560,8 +560,8 @@ yahoo.co.jp##div.prCT
 yahoo.co.jp##div.yschec
 yahoo.co.jp##div.yschspns
 blogs.yahoo.co.jp##a.blog_IMp
-search.yahoo.co.jp##div#So2
-search.yahoo.co.jp##div#So3
+search.yahoo.co.jp###So2
+search.yahoo.co.jp###So3
 finance.yahoo.com###yfi_ysm
 finance.yahoo.com###ygma
 finance.yahoo.com##div.yfi_ysm
