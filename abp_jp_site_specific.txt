@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 9LwhAqvO+dVpSQ/J+nLGPw
-! Last modified: 2010-10-14 19:12:50 JST
+! Checksum: 9uCmhVjSjVnuhPdAA1hoHA
+! Last modified: 2010-10-14 20:44:02 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -50,6 +50,8 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||visualscience.external.bbc.co.uk^
 ||biglobe.ne.jp/beacon/
 ||go.biglobe.ne.jp^
+||bing.com/c.$image
+||bing.com/fd/ls/
 ||log.chosunjns.com^
 ||ad.chosunonline.com^
 ||cnet.com/ads/
