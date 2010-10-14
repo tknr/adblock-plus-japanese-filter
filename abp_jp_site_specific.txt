@@ -94,6 +94,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||log000.goo.ne.jp^
 ||x.goo.ne.jp^
 ||x5.goo.ne.jp^
+||clients1.google.co*/generate_204
 ||id.google.co*/verify/
 ||video-stats.video.google.com^
 ||red.hatena.ne.jp/ad
@@ -212,6 +213,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||yjaxc.yahoo.co
 ||yimg.jp/bdv/
 ||ads.yimg.com^
+||youtube.com/generate_204
 ||zdnet.com/ads/
 ||adcl.japan.zdnet.com^
 100shiki.com###flip1+div
