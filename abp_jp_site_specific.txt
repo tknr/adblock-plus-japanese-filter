@@ -160,9 +160,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ad.ntv.co.jp^
 ||ads.osdn.jp^
 ||ads.pimote.net^
-||pitatto.rakuten.co.jp/image/banner
 ||ads*.pixiv.net^
 ||ads*.pixiv.org^
+||pitatto.rakuten.co.jp/image/banner
 ||rd.rakuten.co.jp/js/p_code.js
 ||rd.rakuten.co.jp/p/
 ||rakuten-static.com^*/prm_sender.
