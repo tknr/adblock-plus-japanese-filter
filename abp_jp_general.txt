@@ -373,6 +373,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||link-trade.net^$third-party
 ||linksynergy.com^$third-party
 ||liveads.jp^$third-party
+||anews.livedoor.biz^$third-party
 ||logtwit.com^$third-party
 |http://*.loka.jp^$third-party
 ||magma-analytics.com^$third-party
