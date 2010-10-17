@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: rQWfcll2gDTS9MASHruBrQ
-! Last modified: 2010-10-18 03:19:49 JST
+! Checksum: q4SUqQm0Row2CAD7CcVtVA
+! Last modified: 2010-10-18 03:26:14 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -702,7 +702,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".overture.com/d/sr/"]
 ##a[href*="p-advg.com/adpCnt/"]
 ##a[href*="pheedo.jp/feeds/"]
-##a[href*=".afl.rakuten.co.jp/"]
+! ##a[href*=".afl.rakuten.co.jp/"]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
 ##a[href*=".tcs-asp.net/"]
