@@ -166,6 +166,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||rakuten.co.jp/js/catalyst/
 ||rakuten.co.jp/js/p_code.js
 ||rakuten.co.jp/js/pr/
+||rakuten.co.jp/opt/*/ad_
 ||pitatto.rakuten.co.jp^
 ||plaza.rakuten.co.jp/swf/login.swf
 ||rd.rakuten.co.jp/p/
