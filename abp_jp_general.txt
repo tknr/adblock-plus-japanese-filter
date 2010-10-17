@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: myL1yt3iQK8BQVEdQoZpug
-! Last modified: 2010-10-17 20:55:49 JST
+! Checksum: UZYK0IKTwyi6lSUUibMR5g
+! Last modified: 2010-10-18 01:18:12 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -124,7 +124,7 @@ INSERT_RANDOM_NUMBER_HERE
 */pr_img/
 */s/ad.js
 */s/ads.js
-! */s_code.js$domain=~sonystyle.com
+! */s_code$domain=~sonystyle.com
 */settings/ad.
 */sfga.js
 */show_ads.
