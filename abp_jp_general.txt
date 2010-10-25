@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: WGvPXrQGdT+zsBElPMqRRA
-! Last modified: 2010-10-25 08:16:45 JST
+! Checksum: 3qvFnb5f1VJaEI8Ar1GxQQ
+! Last modified: 2010-10-25 18:24:30 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -686,6 +686,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".counter-hosting.com"]
 ##a[href*=".csolution.jp/"][href*="//cm-"]
 ##a[href*="dmm.co.jp/hit."]
+##a[href*="dmm.com/click."]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*=".ebis.ne.jp"][href*="_rd."]
 ##a[href*=".ebis.ne.jp"][href*="/tr_"]
