@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: UWu+aYxdTNXgHeEFeJvLsw
-! Last modified: 2010-10-28 00:33:49 JST
+! Checksum: qTaAvZ/XXOICUocp2hu2aA
+! Last modified: 2010-10-29 16:46:22 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -38,6 +38,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||afpbb.com/*/banner
 ||a-img.afpbb.com^
 ||agri-biz.jp^*banner
+||alfalfalfa.com/headline$subdocument
 ||act.ameba.jp^
 ||ad.ameba.jp^
 ||adstatic.ameba.jp^
@@ -117,6 +118,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||itmedia.co.jp/*/licenseonline$image
 ||dlv.itmedia.jp^
 ||img.itmedia.jp^
+||jin115.com/rss$subdocument
 ||jugem.jp/ad/
 ||ad.jugem.jp^
 ||notice.kakaku.com^
@@ -125,6 +127,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ad.land.to^
 ||ad.lifehacker.jp^
 ||c.live.com^
+||news4vip.livedoor.biz/rss$subdocument
 ||adv.livedoor.com^
 ||click.livedoor.com^
 ||livedoor.jp/js/c.js
@@ -333,6 +336,7 @@ excite.co.jp###resultsBody > div.hit > *[id*="awg"]
 excite.co.jp###resultsBody > div.hit > *[id*="jls"]
 excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
+workingnews.blog117.fc2.com##.free_area
 ferret-plus.com###prinfo
 gci-klug.jp##*[class*="AdBox"]
 gci-klug.jp##*[class*="AdsBox"]
@@ -342,6 +346,8 @@ gigazine.net##*[src*="/tnemesitrevda/"]
 gihyo.jp###contentHotspot
 gihyo.jp###secondary > div.textPR
 gihyo.jp###secondary > div.banner
+gizmodo.jp##.entrybox
+gizmodo.jp##.headline
 blog.goo.ne.jp###mod-advertising
 blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
@@ -351,6 +357,7 @@ www.google.com,www.google.co.jp###tads.c
 www.google.com,www.google.co.jp###tadsb.c
 www.google.com,www.google.co.jp###rhs_block
 www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
+hamusoku.com##.topbox
 hatena.ne.jp###info-header
 hatena.ne.jp##.list.ad
 a.hatena.ne.jp##h1:first-of-type ~ ol:first-of-type
@@ -471,6 +478,7 @@ pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
 peer2peer.blog79.fc2.com###newentrys
 peer2peer.blog79.fc2.com##div.newentrys
+workingnews.blog117.fc2.com##.free_area
 phpspot.org###rightbar
 phpspot.org##div[style*="border: 1px solid rgb(240, 240, 240); padding: 4px 4px 4px 10px; text-align: left; margin-top: 5px; background-color: rgb(255, 248, 221);"]
 phpspot.org##div[style="border-bottom: 1px solid rgb(242, 242, 242); padding: 4px; background-color: rgb(255, 255, 255); margin-bottom: 6px;"]
