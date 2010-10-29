@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: K5wdmoJwoJn7vOURpyPTAQ
-! Last modified: 2010-10-30 06:36:33 JST
+! Checksum: HWEitGZ7gzx0COeuJs50Hg
+! Last modified: 2010-10-30 06:55:05 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -337,6 +337,8 @@ excite.co.jp###resultsBody > div.hit > *[id*="awg"]
 excite.co.jp###resultsBody > div.hit > *[id*="jls"]
 excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
+chitekizaisan.blog28.fc2.com##.free-area1
+chitekizaisan.blog28.fc2.com##.free-area2
 workingnews.blog117.fc2.com##.free_area
 ferret-plus.com###prinfo
 gci-klug.jp##*[class*="AdBox"]
