@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: hBaFbXjhHeP8OpbStuUPfQ
-! Last modified: 2010-10-31 03:31:29 JST
+! Checksum: x0CwXWD0mkNkapF7YFqekA
+! Last modified: 2010-10-31 03:39:13 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -287,7 +287,7 @@ bizmakoto.jp,itmedia.co.jp##div.signboard
 bizmakoto.jp,itmedia.co.jp##strong.logo
 bspeedtest.jp##td > table[width="385"] ~ *
 number.bunshun.jp##.banner-area
-burusoku-vip.com##.column-inner-2
+burusoku-vip.com##.column-inner-2 > .column-inner-2
 cgdigg.com##div.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
 chosunonline.com###infotext
