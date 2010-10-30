@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: eEPa+MhMNNfkqgfY5CkOFg
-! Last modified: 2010-10-31 03:10:17 JST
+! Checksum: hBaFbXjhHeP8OpbStuUPfQ
+! Last modified: 2010-10-31 03:31:29 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -287,6 +287,7 @@ bizmakoto.jp,itmedia.co.jp##div.signboard
 bizmakoto.jp,itmedia.co.jp##strong.logo
 bspeedtest.jp##td > table[width="385"] ~ *
 number.bunshun.jp##.banner-area
+burusoku-vip.com##.column-inner-2
 cgdigg.com##div.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
 chosunonline.com###infotext
@@ -463,7 +464,6 @@ nifty.com###subBnr
 nikkeibp.co.jp##.relatedPR
 nikkeibp.co.jp##div[class*="_adsense"]
 nikkeibp.co.jp###subcontent > div[style="width: 300px; height: 300px; margin-top: 10px;"]
-burusoku-vip.com##.column-inner-2
 business.nikkeibp.co.jp###articlekeyword
 business.nikkeibp.co.jp###Dignio
 business.nikkeibp.co.jp###manageInfo2
