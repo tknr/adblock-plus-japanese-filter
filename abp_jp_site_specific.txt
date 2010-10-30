@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 0uXTjvSkeaOwpt/vXCig/A
-! Last modified: 2010-10-30 07:05:35 JST
+! Checksum: eEPa+MhMNNfkqgfY5CkOFg
+! Last modified: 2010-10-31 03:10:17 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -439,6 +439,8 @@ marsflag.com###contLeft > h2.colTitle1 ~ table.resutlTable[onclick*="ad_clk"]
 mooter.co.jp###cluster + table[cellpadding="0"]
 mooter.co.jp##td[width="230"][valign="top"]
 jp.msn.com##div[id^="ads"]
+mudainodqnment.ldblog.jp##.menu_cont3
+mudainodqnment.ldblog.jp##.menu_title3
 musen-lan.com##br + table[width="150"][cellpadding="2"] ~ table[width="150"][cellpadding="2"]
 musen-lan.com##td[width="130"]
 mycom.co.jp###adspecial
@@ -461,6 +463,7 @@ nifty.com###subBnr
 nikkeibp.co.jp##.relatedPR
 nikkeibp.co.jp##div[class*="_adsense"]
 nikkeibp.co.jp###subcontent > div[style="width: 300px; height: 300px; margin-top: 10px;"]
+burusoku-vip.com##.column-inner-2
 business.nikkeibp.co.jp###articlekeyword
 business.nikkeibp.co.jp###Dignio
 business.nikkeibp.co.jp###manageInfo2
