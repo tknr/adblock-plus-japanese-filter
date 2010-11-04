@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 10RH/Pv7rE9GmUOm+Y8/gQ
-! Last modified: 2010-11-04 18:40:59 JST
+! Checksum: Cr0pNB4A4LEK6Br8yV7FMA
+! Last modified: 2010-11-05 05:31:19 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -24,7 +24,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 */p.e-words.jp/type
 */s_code.js$domain=itmedia.co.jp
 */sa/infospace.
-*/settings/ad.js
+*/settings/ad.$script
 */sideparts/b_joy_$image
 */wiredv-
 ||jp/adcast$third-party
@@ -131,12 +131,13 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||news4vip.livedoor.biz/rss$subdocument
 ||adv.livedoor.com^
 ||click.livedoor.com^
-||livedoor.jp/js/c.js
-||livedoor.jp/js/c2.js
-||livedoor.jp/js/google_jp.js
-||livedoor.jp/js/lcslog.js
+||livedoor.jp/js/c.$script
+||livedoor.jp/js/c2.$script
+||livedoor.jp/js/google_jp.$script
+||livedoor.jp/js/lcslog.$script
+||livedoor.jp/js/load_lcs.$script
 ||ad.lolipop.jp^
-||mainichi.jp/js/an.js
+||mainichi.jp/js/an.$script
 ||ad.mainichi.jp^
 ||an.mainichi.jp^
 ||marsflag.com/adimg/
@@ -170,7 +171,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ads*.pixiv.org^
 ||rakuten.co.jp/js/adjs/
 ||rakuten.co.jp/js/catalyst/
-||rakuten.co.jp/js/p_code.js
+||rakuten.co.jp/js/p_code.$script
 ||rakuten.co.jp/js/pr/
 ||rakuten.co.jp/*/ad_
 ||pitatto.rakuten.co.jp^
