@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: pPoO2NeUflmDx93rlxxGXA
-! Last modified: 2010-11-07 17:15:56 JST
+! Checksum: 6V9NzhJgk8vUREWJH3k5/Q
+! Last modified: 2010-11-11 15:22:47 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -113,7 +113,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||ad-hatena.jp^
 ||oas.heise.de^
 ||rl.heise.de^
-||ideaxidea.com/*coupon_*banner
+||ideaxidea.com/*_banner.
 ||ngs.impress.co.jp^
 ||ad.watch.impress.co.jp^
 ||ad.impressbm.co.jp^
