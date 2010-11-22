@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: uOYthPk9pfthxmy7GdMbTA
-! Last modified: 2010-11-23 05:18:05 JST
+! Checksum: E75YYMurkY8AAmrOpy+rxg
+! Last modified: 2010-11-23 05:34:38 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -558,6 +558,7 @@ thinkit.co.jp###table7
 thinkit.co.jp###seo
 thinkit.co.jp##.banner
 thinkit.co.jp##.block.block-block:not(#block-block-9):not(#block-block-25)
+thinkit.co.jp##.view-tieup-articles
 thinkit.co.jp##img[src$="pr_bar.gif"]
 thinkit.co.jp##td.mini_tieup
 thinkit.co.jp##td.table7
