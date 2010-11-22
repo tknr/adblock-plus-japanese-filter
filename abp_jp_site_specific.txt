@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: q+chAzW7P8XnbZNxcuUGcA
-! Last modified: 2010-11-22 20:21:24 JST
+! Checksum: b5EWjI6jud0sIZoQd763Sg
+! Last modified: 2010-11-22 21:46:35 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -140,7 +140,8 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||click.livedoor.com^
 ||livedoor.jp/js/c.$script
 ||livedoor.jp/js/c2.$script
-||livedoor.jp/js/google_jp.$script
+||livedoor.jp/js/google_jp.
+||livedoor.jp/js/google_plugin.
 ||livedoor.jp/js/lcslog.$script
 ||livedoor.jp/js/load_lcs.$script
 ||ad.lolipop.jp^
