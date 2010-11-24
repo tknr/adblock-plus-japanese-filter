@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: UuE69WhGZeoy+3D+atVJfg
-! Last modified: 2010-11-25 03:37:17 JST
+! Checksum: W5kNIyHdzVAW/BMUcdbp3g
+! Last modified: 2010-11-25 03:41:45 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -590,6 +590,7 @@ special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area
 ! yahoo.co.jp###adLrec
 ! yahoo.co.jp###adRp
+yahoo.co.jp###centralPosition
 yahoo.co.jp###commerce
 yahoo.co.jp##div[id^="ad"]:not([id^="addr"])
 yahoo.co.jp##div[id^="modAd"]
