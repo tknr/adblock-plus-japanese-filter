@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: kg703VFWO4TL9n5TypjWqg
-! Last modified: 2010-11-25 22:48:44 JST
+! Checksum: XYx2o+QCOoFFsB6igjmKJw
+! Last modified: 2010-11-28 03:21:53 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -213,7 +213,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||traders.co.jp/image/banner/
 ||traders.co.jp/images/bn/
 ||traders.co.jp/images/relative/
-||twitteranalyzer.com/FBSiteClient/floating-window/
+||twitteranalyzer.com/FBSiteClient/
 ||twitteranalyzer.com/Images/VideochatsBanner/
 ||d.ustream.tv^
 ||d-ssl.ustream.tv^
