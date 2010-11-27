@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: vcCaj1neA8gzQE6PrsWujg
-! Last modified: 2010-11-27 20:13:29 JST
+! Checksum: 3/1RkooD+go5jh9ao4nMoA
+! Last modified: 2010-11-27 20:42:36 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -74,6 +74,8 @@ INSERT_RANDOM_NUMBER_HERE
 */foresee/$script
 */foresee.$script
 */foresee-$script
+*/gemius/
+*/gemius.
 */generate_204
 */getsatisfaction.com^$third-party
 */googlead
@@ -163,6 +165,7 @@ INSERT_RANDOM_NUMBER_HERE
 */webtrends.
 */webtrends/
 */www/delivery/
+*/xgemius.
 |http://ad.
 |https://ad.
 |http://ad-cdn.
