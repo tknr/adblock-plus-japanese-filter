@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: XYx2o+QCOoFFsB6igjmKJw
-! Last modified: 2010-11-28 03:21:53 JST
+! Checksum: cDVhQAfeqQ0XzJfyaSVYmA
+! Last modified: 2010-11-28 20:26:50 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -278,6 +278,7 @@ atmarkit.co.jp##div.ttl-techtarget
 atmarkit.co.jp##div[id^="rcspSFlash"]
 atmarkit.co.jp##div[id^="rrec"]
 atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
+atpages.jp##body > div:first-of-type
 bioimpact.jp###pr
 bioimpact.jp##div[class^="sn-box"]
 bizmakoto.jp,itmedia.co.jp###banner
