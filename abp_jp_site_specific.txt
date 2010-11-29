@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: IzPy11CRDo2/RbndC4D1bQ
-! Last modified: 2010-11-30 07:27:58 JST
+! Checksum: XKMMWbO3ta7OSIxJLuIXHQ
+! Last modified: 2010-11-30 07:35:14 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -424,6 +424,7 @@ marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
 kget.jp##*[class^="ad"]
 lifehacker.jp###ranking_key
 lifehacker.jp##.entrybox
+lifehacker.jp##.headline
 lifehacker.jp##.other_menu
 lifehacker.jp##[id^="randomSelect_"]
 lifehacker.jp##[class^="randomSelect_"]
