@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: Wi01xpD2EFSaURHBCfz4sg
-! Last modified: 2010-12-01 01:40:21 JST
+! Checksum: HJS1blZtNdT2pWF6QDd3eA
+! Last modified: 2010-12-01 02:03:01 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -89,6 +89,19 @@ INSERT_RANDOM_NUMBER_HERE
 */image/ad/
 */image/ad-
 */image/ad_
+*/image/ad120.$image
+*/image/ad125.$image
+*/image/ad160.$image
+*/image/ad180.$image
+*/image/ad234.$image
+*/image/ad240.$image
+*/image/ad250.$image
+*/image/ad300.$image
+*/image/ad336.$image
+*/image/ad468.$image
+*/image/ad720.$image
+*/image/ad728.$image
+*/image/ad88.$image
 */image/ads/
 */image/ads-
 */image/ads_
@@ -96,9 +109,19 @@ INSERT_RANDOM_NUMBER_HERE
 */images/ad/
 */images/ad-
 */images/ad_
+*/images/ad120.$image
+*/images/ad125.$image
 */images/ad160.$image
+*/images/ad180.$image
+*/images/ad234.$image
+*/images/ad240.$image
+*/images/ad250.$image
 */images/ad300.$image
+*/images/ad336.$image
 */images/ad468.$image
+*/images/ad720.$image
+*/images/ad728.$image
+*/images/ad88.$image
 */images/ads/
 */images/ads-
 */images/ads_
@@ -109,6 +132,19 @@ INSERT_RANDOM_NUMBER_HERE
 */img/ad/
 */img/ad-
 */img/ad_
+*/img/ad120.$image
+*/img/ad125.$image
+*/img/ad160.$image
+*/img/ad180.$image
+*/img/ad234.$image
+*/img/ad240.$image
+*/img/ad250.$image
+*/img/ad300.$image
+*/img/ad336.$image
+*/img/ad468.$image
+*/img/ad720.$image
+*/img/ad728.$image
+*/img/ad88.$image
 */img/ads/
 */img/ads-
 */img/ads_
@@ -119,6 +155,19 @@ INSERT_RANDOM_NUMBER_HERE
 */imgs/ad/
 */imgs/ad-
 */imgs/ad_
+*/imgs/ad120.$image
+*/imgs/ad125.$image
+*/imgs/ad160.$image
+*/imgs/ad180.$image
+*/imgs/ad234.$image
+*/imgs/ad240.$image
+*/imgs/ad250.$image
+*/imgs/ad300.$image
+*/imgs/ad336.$image
+*/imgs/ad468.$image
+*/imgs/ad720.$image
+*/imgs/ad728.$image
+*/imgs/ad88.$image
 */imgs/ads/
 */imgs/ads-
 */imgs/ads_
