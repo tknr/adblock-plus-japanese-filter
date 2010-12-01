@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: XN8lwYAhPqinG9fr3MNd5g
-! Last modified: 2010-11-30 10:51:39 JST
+! Checksum: qd441LkKcJQavFtmxTKNeQ
+! Last modified: 2010-12-01 14:03:42 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -97,6 +97,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||fc2.com/pv.
 ||affiliate.fc2.com^
 ||analyzer*.fc2.com^*/ana/
+||counter*.fc2.com^$~image
 ||media3.fc2.com^
 ||ads.forbes.com^
 ||freett.com/_Freett/
