@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: gb8kkzZ6QaUMzxESDRi7BQ
-! Last modified: 2010-12-01 14:50:53 JST
+! Checksum: zzayCNm63o+imtWJDh7i1g
+! Last modified: 2010-12-02 09:19:01 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -369,6 +369,7 @@ gigazine.net##*[src*="/tnemesitrevda/"]
 gihyo.jp###contentHotspot
 gihyo.jp###secondary > div.textPR
 gihyo.jp###secondary > div.banner
+gizmodo.com###header
 gizmodo.jp##.entrybox
 gizmodo.jp##.headline
 blog.goo.ne.jp###mod-advertising
