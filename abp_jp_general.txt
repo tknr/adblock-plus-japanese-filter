@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 5SqemaJB9YF7q2KOgNcpFg
-! Last modified: 2010-12-08 13:05:24 JST
+! Checksum: b9PWl4YPfgSBefQnS1J7wA
+! Last modified: 2010-12-08 13:13:53 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -276,7 +276,7 @@ INSERT_RANDOM_NUMBER_HERE
 |https://*.a8.net^$third-party
 ||accesstrade.net^$third-party
 ||ad-cloud.jp^$third-party
-||redir.adap.tv^$third-party
+||adap.tv^$third-party
 ||addfreestats.com^$third-party
 ||alexa.com^$third-party
 ||automatic-link.net^
