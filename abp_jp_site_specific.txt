@@ -207,6 +207,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||seesaa.jp/match/
 ||match.seesaa.jp^
 ||shopping-search.jp^$third-party
+||ads.sixapart.com^
 ||so-net.ne.jp/tv/advertisement/
 ||so-net.ne.jp/omn-js/
 ||so-net.ne.jp/tv/gtv/img/banner/
