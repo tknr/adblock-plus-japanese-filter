@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: UVmafn2YxzBgs+UMJLB33Q
-! Last modified: 2010-12-10 20:27:23 JST
+! Checksum: ailtpSSpXAdEoVzOgqOSag
+! Last modified: 2010-12-12 19:37:39 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1115,6 +1115,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.pr_txt
 ##.PR_txt
 ##.randomBanner
+##.tdftad
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
