@@ -46,6 +46,7 @@ INSERT_RANDOM_NUMBER_HERE
 */adinfo/
 */AdLantisLoader.
 */adListing
+*/adlog.
 */admodoki.
 */ads/ad.js
 */ads/ads.js
