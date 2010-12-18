@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: UpQosq5hHr0ldWHq/DELBw
-! Last modified: 2010-12-18 22:58:31 JST
+! Checksum: 0R0pQFBb5xsmCX2stbGhxg
+! Last modified: 2010-12-18 23:38:13 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -639,6 +639,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||wmh0.com^$third-party
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
+||wowzio.com^$third-party
+||wowzio.net^$third-party
 ||xlisting.co.jp^$third-party
 ||xlisting.jp^$third-party
 ||xmax.jp/$third-party
@@ -688,7 +690,7 @@ INSERT_RANDOM_NUMBER_HERE
 .jp/Zen?$third-party
 .net/Zen?$third-party
 .org/Zen?$third-party
-! Expanded because this filters are too generic, reported by Wladimir( Thanks ).
+! Expanded because these filters are too generic, reported by Wladimir( Thanks ).
 !! .biz/bin/$third-party
 !! .com/bin/$third-party
 !! .jp/bin/$third-party
