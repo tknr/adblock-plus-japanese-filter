@@ -196,7 +196,8 @@ INSERT_RANDOM_NUMBER_HERE
 */munchkin.
 */newzia/
 */omn-js/
-*/omniture
+*/omniture.
+*/OmnitureActionSource.
 */omniunih.
 */overture.
 */overture_
