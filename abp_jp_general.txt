@@ -457,6 +457,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||hitomedia.jp/GT/
 ||hitslink.com^$third-party
 ||hubspot.com^$third-party
+||i-mobile.co.jp^$third-party
 |http://ac*.i2i.jp^
 |https://ac*.i2i.jp^
 |http://rc*.i2i.jp^
