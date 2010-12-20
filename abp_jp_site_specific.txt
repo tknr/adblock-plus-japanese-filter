@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: tbPCcQkzDjIDT7yiTsC4Yw
-! Last modified: 2010-12-20 16:15:39 JST
+! Checksum: q3zJa5G7ClUaQicaO4mQfA
+! Last modified: 2010-12-21 00:35:18 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -643,7 +643,7 @@ mail.yahoo.co.jp##div.lbadspr
 mail.yahoo.co.jp##div[class$="topfilled"]
 quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
-yomiuri.co.jp##a[href*=".yomiuri.co.jp/adv/"]
+yomiuri.co.jp##a[href*="/adv/"]
 yomiuri.co.jp##div[class*="-txtad-"]
 youtube.com###results-main-content > div.searchView
 youtube.com###results-main-content > div[class="list-view"]:first-child
