@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: SbhviEiXk2uO8Iq0eD4SzQ
-! Last modified: 2010-12-17 01:16:54 JST
+! Checksum: tbPCcQkzDjIDT7yiTsC4Yw
+! Last modified: 2010-12-20 16:15:39 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -167,7 +167,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||new-akiba.com/special/
 ||bwp.news.com^
 ||newsweekjapan.jp/images/common/rectangle_$image
-||newsweekjapan.jp/images/common/*Ad.$image
+||newsweekjapan.jp/images/common/sideAd.$image
 ||nicovideo.jp/api/getad
 ||ad.nicovideo.jp^
 ||uad-api.nicovideo.jp^
