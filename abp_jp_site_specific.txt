@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: vFUPlSXHUcA7QvlOmw5lJA
-! Last modified: 2010-12-21 02:11:22 JST
+! Checksum: 1TdcnL5Yapw7sm2+YjhWfA
+! Last modified: 2010-12-21 14:03:20 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -15,11 +15,12 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 */ads/techcrunch
 */cnet_scode.
 */cnwk.1d/Ads/
-*/img/pr_icon.$domain=diamond.jp
+*/img/pr_.$domain=diamond.jp
 */js/dw.js
 */kakakuad/
 */myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 */news_top_point_pr.
+*/oo/$domain=zai.diamond.jp
 */p.e-words.jp/type
 */s_code.js$domain=itmedia.co.jp
 */sa/infospace.
@@ -346,9 +347,8 @@ diamond.jp##div[class*="box"][class*="dolplus"]
 diamond.jp##div[class*="box"][class*="side_business-info"]
 diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
-zai.diamond.jp##div.rightBox_5 + div
-zai.diamond.jp##div.rightBox_9
-zai.diamond.jp##a[href*="/redir/tieup"]
+zai.diamond.jp##a[href*="campaign"]
+zai.diamond.jp##a[href*="/oo/"]
 e-words.jp###l
 e-words.jp##div.ladsby
 e-words.jp##div.ladsby ~ table
