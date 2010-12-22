@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: fbeIa9AyRRbHlbBgCVCTkg
-! Last modified: 2010-12-22 02:51:50 JST
+! Checksum: /favUew3ug1AJoXcI0OASw
+! Last modified: 2010-12-23 02:01:13 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -234,7 +234,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||imgj.xrea.com/xa.j
-||bc.yahoo.com/b?P=
+||bc.yahoo.com^
 ||geo.yahoo.com^
 ||b1.yahoo.co.jp^
 ||b2.yahoo.co.jp^
@@ -245,6 +245,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ||b7.yahoo.co.jp^
 ||b8.yahoo.co.jp^
 ||b9.yahoo.co.jp^
+||bc.geocities.yahoo.co.jp/js/
 ||beacon.search.yahoo.co
 ||dcs.yahoo.co
 ||yeas.yahoo.co
