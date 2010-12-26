@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: zB8IveyRU79kFAiebOiqmA
-! Last modified: 2010-12-26 20:08:20 JST
+! Checksum: ASqrfivvvSDSYe9IbRMakg
+! Last modified: 2010-12-26 20:34:26 JST
 !
 ! Japanese General Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1236,30 +1236,30 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="-AD."]
 ##a[href*="-ad/"]
 ##a[href*="-AD/"]
+##a[href*="//adcl."]
 ##a[href*="-ads-"]
 ##a[href*="-ADs-"]
 ##a[href*="-ADS-"]
-! False Positive: altech-ads.com
-!##a[href*="-ads."]
+! ~altech-ads.com##a[href*="-ads."]
 ##a[href*="-ADs."]
 ##a[href*="-ADS."]
 ##a[href*="-ads/"]
 ##a[href*="-ADs/"]
 ##a[href*="-ADS/"]
+##a[href*="/?adv="]
+##a[href*="/advt."]
+##a[href*="&aff="]
+##a[href*="?aff="]
+##a[href*="affiliate"]
+##a[href*="clickad?"]
+##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="-pr-"]
 ##a[href*="-PR-"]
 ##a[href*="-pr."]
 ##a[href*="-PR."]
 ##a[href*="-pr/"]
 ##a[href*="-PR/"]
-##a[href*="&aff="]
-##a[href*="?aff="]
-##a[href*="affiliate"]
 ##a[href*="sponsor"]
-##a[href*="INSERT_RANDOM_NUMBER_HERE"]
-##a[href*="//adcl."]
-##a[href*="/?adv="]
-##a[href*="/advt."]
 ##a[href*="/bin/gg?"]
 ##a[href*="/click.ng/"]
 ##a[href*="/event.ng/"]
