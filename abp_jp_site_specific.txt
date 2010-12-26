@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 88iU+mJo/1bw0tmP0y8FtQ
-! Last modified: 2010-12-24 16:50:20 JST
+! Checksum: LrvaSoJODlYsBwAIAuYqRQ
+! Last modified: 2010-12-26 21:11:34 JST
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -8,8 +8,8 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
-! Project committers: lostincarnation, looter
-! Project contributors: resubew, kabipantu
+! Project committers: lostincarnation, looter, resubew
+! Project contributors: kabipantu
 !
 $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
 */200_200.$image,domain=premium.nikkeibp.co.jp
@@ -605,6 +605,8 @@ vector.co.jp##div[class^="gad_"]
 vector.co.jp##div[id^="shop_"]
 vector.co.jp###softDetail ~ *
 vector.co.jp###v_sub > noscript + div.article:first-of-type
+www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
+www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
 virtualdub.org##*[alt$="Ad]"]
 special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area

@@ -8,8 +8,8 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
-! Project committers: lostincarnation, looter
-! Project contributors: resubew, kabipantu
+! Project committers: lostincarnation, looter, resubew
+! Project contributors: kabipantu
 !
 .kissinsights.com/
 ?*referer=$image,script
