@@ -1,6 +1,7 @@
 [Adblock Plus 1.1]
-! Checksum: iRZpJhWSUBQPGzEtaobbqQ
-! Last modified: 2010-12-27 16:17:45 JST
+! Checksum: oYckgpIrBFCPKxbhqG8A7w
+! Last modified: 2010-12-28 04:37:30 JST
+! Redirect: https://adblock-plus-japanese-filter.googlecode.com/hg/abp_jp_paranoid.txt
 !
 ! Japanese Site-Specific Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
