@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: rtywhYMt+13WVXqTosiicQ
-! Last modified: 2010-12-29 17:29:28 JST
+! Checksum: xrInf7LgatimpVuhDrwSVA
+! Last modified: 2010-12-29 18:42:21 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1828,13 +1828,14 @@ bizmakoto.jp,itmedia.co.jp###osusume
 bizmakoto.jp,itmedia.co.jp###r-txtfil
 bizmakoto.jp,itmedia.co.jp###red
 bizmakoto.jp,itmedia.co.jp###signboard
+bizmakoto.jp,itmedia.co.jp##.endkwd
+bizmakoto.jp,itmedia.co.jp##.endwpp
+bizmakoto.jp,itmedia.co.jp##.logoarea
+bizmakoto.jp,itmedia.co.jp##.r-txtfil
+bizmakoto.jp,itmedia.co.jp##.rcsp
+bizmakoto.jp,itmedia.co.jp##.signboard
 bizmakoto.jp,itmedia.co.jp##div[id^="ISAL"]
 bizmakoto.jp,itmedia.co.jp##div[id^="pr"]
-bizmakoto.jp,itmedia.co.jp##div.endwpp
-bizmakoto.jp,itmedia.co.jp##div.logoarea
-bizmakoto.jp,itmedia.co.jp##div.r-txtfil
-bizmakoto.jp,itmedia.co.jp##div.rcsp
-bizmakoto.jp,itmedia.co.jp##div.signboard
 bizmakoto.jp,itmedia.co.jp##strong.logo
 bspeedtest.jp##td > table[width="385"] ~ *
 number.bunshun.jp##.banner-area
