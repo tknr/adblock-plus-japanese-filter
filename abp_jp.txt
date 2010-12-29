@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: KDWdVOVdN54FyAnUMUr18A
-! Last modified: 2010-12-29 23:31:02 JST
+! Checksum: B1+SgWbfVyYuLLAA9g7W6A
+! Last modified: 2010-12-29 23:52:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -860,6 +860,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||refeed.net^$third-party
 ||reinvigorate.net^$third-party
 ||ad.response.jp^
+||revouninstaller.com/flash/header.$object
+||revouninstaller.com/images/holiday_special.$image
 ||revsci.net^$third-party
 ||rssad.jp^$third-party
 ||research-artisan.com^$third-party
@@ -2054,6 +2056,8 @@ jp.reuters.com###bannerad
 jp.reuters.com##.adArticleText
 jp.reuters.com##.bannerad
 president.jp.reuters.com##div.prad
+revouninstaller.com##.header-flash
+revouninstaller.com##.row-banner
 robtex.com##.dst > div[style*="width: 728px;"][style*="height: 90px;"]
 robtex.com##.div0 > div[style*="height: 285px;"][style*="width: 804px;"]
 rue89japon.com##*[id^="ad_"]
