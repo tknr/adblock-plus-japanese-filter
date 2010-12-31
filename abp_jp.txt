@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: hVbhM8xZtlBL++gf74Jflg
-! Last modified: 2010-12-31 22:33:00 JST
+! Checksum: zmrfN2XDvQakutTgJ+AW/g
+! Last modified: 2011-01-01 04:30:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -553,6 +553,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adlog.com.com^
 ||dw.com.com^$third-party
 ||dw-eu.com.com^$third-party
+||img.com.com/b.$image
 ||rok.com.com^
 ||computerworld.jp/cgi-bin/pa?r=
 ||contextweb.com^$third-party
