@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: uNqvn+Y+xk+IuZBC5wovSw
-! Last modified: 2011-01-02 15:36:10 JST
+! Checksum: Q2uAwtzLvjUlMuDoCI7Buw
+! Last modified: 2011-01-02 17:10:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -128,8 +128,10 @@ INSERT_RANDOM_NUMBER_HERE
 */advertise/
 */advertise_
 */adview.
+*/affiliate/
 */affiliatebanner/
 */affiliatebanners/
+*/affiliates/
 */afr.php?
 */ajs.php?zoneid=
 */analytics.$third-party
@@ -169,6 +171,8 @@ INSERT_RANDOM_NUMBER_HERE
 */gemius/
 */gemius.
 */generate_204
+*/get_banner.
+*/get_banner/
 */getsatisfaction.com^$third-party
 */googlead-
 */googlead.
@@ -980,6 +984,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
 ||ad.wsod.com^
+||www.co.cc^$third-party
 ||xlisting.co.jp^$third-party
 ||xlisting.jp^$third-party
 ||xmax.jp/$third-party
