@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: br44yjDpbzYLBtXqClNVBw
-! Last modified: 2011-01-02 04:57:47 JST
+! Checksum: uNqvn+Y+xk+IuZBC5wovSw
+! Last modified: 2011-01-02 15:36:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2138,6 +2138,7 @@ traders.co.jp##.topix_wrapper > .topix_main:first-child
 traders.co.jp##.table_f_fund+table tr:nth-of-type(3)
 translink.co.jp###barAD
 twitter.com##.promoted-trend
+twitteranalyzer.com###BannerHolder
 uniangel.info###cgi
 uniangel.info###globalheader
 vector.co.jp##a[href*="//vafs.vector.co.jp/"]
