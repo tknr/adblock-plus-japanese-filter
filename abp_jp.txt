@@ -1577,6 +1577,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="p-advg.com/adpCnt/"]
 ##a[href*="pheedo.jp/feeds/"]
 ##a[href*=".afl.rakuten.co.jp/"]
+##a[href*="//rd.rakuten.co.jp/s/?"]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
 ##a[href*=".tcs-asp.net/"]
@@ -1683,7 +1684,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="deteql"]
 ##*[id^="gAdsense"]
 ##*[id^="google_afc_"]
-! ##*[id^="pr-"]:not(*[id="pr-root"][class^="dct-"])
+! ##*:not([id="pr-root"][class^="dct-"])[id^="pr-"]
 ! ##*[id^="PR-"]
 ! ~books.com.tw##*[id^="pr_"]
 ! ##*[id^="PR_"]
@@ -1738,7 +1739,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class^="ad-"]
 ##*[class^="AD-"]
 ##*[class^="ad_"]
-##*[class^="AD_"]:not(body):not(table)
+##*:not(body):not(table)[class^="AD_"]
 ##*[class^="ads-"]
 ##*[class^="ADs-"]
 ##*[class^="ADS-"]
@@ -2140,7 +2141,7 @@ toyokeizai.net##div.mt35
 traders.co.jp###side_banner
 traders.co.jp##div.side_banner
 traders.co.jp##.contents_title_w > :last-child
-traders.co.jp##.contents_with_right_w tr > td[colspan="5"]:not([height]):not([align]):not([bgcolor])
+traders.co.jp##.contents_with_right_w tr > td[colspan="5"]:not([height][align][bgcolor])
 traders.co.jp##.topix_wrapper > .topix_main:first-child
 traders.co.jp##.table_f_fund+table tr:nth-of-type(3)
 translink.co.jp###barAD
@@ -2165,7 +2166,7 @@ special.visualzoo.com###container > div.banner_area
 ! yahoo.co.jp###adRp
 yahoo.co.jp###centralPosition
 yahoo.co.jp###commerce
-yahoo.co.jp##div[id^="ad"]:not([id^="addr"])
+yahoo.co.jp##div:not([id^="addr"])[id^="ad"]
 yahoo.co.jp##div[id^="modAd"]
 ! 2010-11-05: Temporarily commented out a false positive reported by nurupo
 ! yahoo.co.jp##div[id^="uhd"]
