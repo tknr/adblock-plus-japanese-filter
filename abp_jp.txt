@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: MzPd7LMYMvZbQ7ixbeOtJw
-! Last modified: 2011-01-04 04:29:56 JST
+! Checksum: hcEyiKnrFRgLrH4HguIRSA
+! Last modified: 2011-01-04 05:37:42 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -315,6 +315,7 @@ INSERT_RANDOM_NUMBER_HERE
 */overture.
 */overture/
 */overture_
+*/OvertureSS.
 */p.e-words.jp/type
 */pagead/
 */piwik.js
@@ -763,6 +764,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mainichi.jp/js/an.$script
 ||ad.mainichi.jp^
 ||an.mainichi.jp^
+||mapion.co.jp^*/ad/
 ||marketo.com^$third-party
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
