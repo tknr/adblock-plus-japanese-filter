@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: chg1iBbxjLMeWclYPUKAcw
-! Last modified: 2011-01-03 02:35:02 JST
+! Checksum: soFfWDZjgSvA6HhqLLyPqA
+! Last modified: 2011-01-04 03:45:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1455,7 +1455,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###prTxt
 ###textad
 ###textAd
-~justin.tv,~rocketnews24.com##.ad
+~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ~mail.google.com##.AD
 ##.ad-text
 ##.AD-text
@@ -2007,6 +2007,7 @@ mainichi.jp##.NaviAd
 mainichi.jp##.SquareAd
 mainichi.jp##*[class^="ArticleAd"]
 mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
+mapion.co.jp###adTop
 mapion.co.jp###adTxtInMain
 markezine.jp###header > div.navi > div
 markezine.jp###searcharea + div
