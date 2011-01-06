@@ -938,6 +938,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||statcounter.com^$third-party
 ||surphace.com^$third-party
 ||suteki-tool.com/pr
+||svlu.net^
 ||t3leads.com^$third-party
 ||tacoda.net^$third-party
 ||ad.targetingmarketplace.com^
