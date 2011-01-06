@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: CM0PcabLHwO/a+asc5b7Ag
-! Last modified: 2011-01-06 02:07:14 JST
+! Checksum: iEKpYaq96YYXPbGVSlpbsw
+! Last modified: 2011-01-07 02:50:51 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1693,7 +1693,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="deteql"]
 ##*[id^="gAdsense"]
 ##*[id^="google_afc_"]
-! ##*:not([id="pr-root"][class^="dct-"])[id^="pr-"]
+! ##*:not([id="pr-root"]):not([class^="dct-"])[id^="pr-"]
 ! ##*[id^="PR-"]
 ! ~books.com.tw##*[id^="pr_"]
 ! ##*[id^="PR_"]
@@ -2152,7 +2152,7 @@ toyokeizai.net##div.mt35
 traders.co.jp###side_banner
 traders.co.jp##div.side_banner
 traders.co.jp##.contents_title_w > :last-child
-traders.co.jp##.contents_with_right_w tr > td[colspan="5"]:not([height][align][bgcolor])
+traders.co.jp##.contents_with_right_w tr > td:not([height]):not([align]):not([bgcolor])[colspan="5"]
 traders.co.jp##.topix_wrapper > .topix_main:first-child
 traders.co.jp##.table_f_fund+table tr:nth-of-type(3)
 translink.co.jp###barAD
