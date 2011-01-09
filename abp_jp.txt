@@ -2049,6 +2049,8 @@ netanswerplus.saisoncard.co.jp##div[class^="banner"]
 netcraft.com###netcraft-links-bottom
 newsweek.com##.inline-promo-link
 newsweekjapan.jp###sideAdPanel
+nicovideo.jp###ichiba_placeholder
+nicovideo.jp###ichiba_placeholder + div
 nicovideo.jp###web_pc_prime
 nifty.com###subBnr
 nikkeibp.co.jp##.relatedPR
