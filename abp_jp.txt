@@ -499,6 +499,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ameblo.jp/accesslog/
 ||amiami.jp^$third-party
 ||anchorfree.net^$third-party
+||aolcdn.com/js/mg2.$script
 ||aolcdn.com/omniunih.$script
 ||apserver.net^$third-party
 ||adnet.asahi.com/ad/
