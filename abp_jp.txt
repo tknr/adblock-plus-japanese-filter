@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: V1dE25qrEGewj8KPiN5bJQ
-! Last modified: 2011-01-11 00:53:06 JST
+! Checksum: 0Eih+pfeMzC3HPw9A3NK0Q
+! Last modified: 2011-01-11 01:04:06 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1920,6 +1920,7 @@ e-words.jp###sidebox
 e-words.jp##div.l
 e-words.jp##div.sidebox
 eetimes.jp##div.prsbox
+excite.co.jp###amazonPickup
 excite.co.jp###resultsBody > div.hit > *[id*="awg"]
 excite.co.jp###resultsBody > div.hit > *[id*="jls"]
 excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
