@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 8GQFcBP2U0rluI/o1qi1cA
-! Last modified: 2011-01-10 06:41:58 JST
+! Checksum: V1dE25qrEGewj8KPiN5bJQ
+! Last modified: 2011-01-11 00:53:06 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1453,6 +1453,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###block_whitepaper
 ###defaultAd
 ###flashAD
+###overture_cm
 ! ~oricomall.com###pr
 ###PR
 ###pr-area
@@ -1470,6 +1471,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##.ad_text
 ##.AD_text
 ##.ad_top
+##.ad300
+##.ad728
 ##.adbox
 ##.adBox
 ##.AdBox
@@ -1483,6 +1486,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.ADs
 ##.ADS
 ##.ads_adingo
+##.adText
 ##.adtitle
 ##.adtop
 ##.adurl
@@ -1919,6 +1923,7 @@ eetimes.jp##div.prsbox
 excite.co.jp###resultsBody > div.hit > *[id*="awg"]
 excite.co.jp###resultsBody > div.hit > *[id*="jls"]
 excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
+excite.co.jp##a[href*="&target=ss"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
 chitekizaisan.blog28.fc2.com##.free-area1
 chitekizaisan.blog28.fc2.com##.free-area2
