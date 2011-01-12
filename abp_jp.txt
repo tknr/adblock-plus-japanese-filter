@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: rvjQoxNjSKFf3eBS9RJWnQ
-! Last modified: 2011-01-12 21:02:18 JST
+! Checksum: oFAFs7lArIH1nMs3W/+/UA
+! Last modified: 2011-01-13 01:50:09 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -140,6 +140,7 @@ INSERT_RANDOM_NUMBER_HERE
 */analyticsid.$third-party
 */AS3AdPlayer.
 */avw.php?zoneid=
+*/banner140.$third-party
 */beacon-
 */beacon.
 */beacon/
