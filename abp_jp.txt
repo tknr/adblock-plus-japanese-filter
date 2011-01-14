@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: tGqOLH/9s5P+MWLFOvNt2w
-! Last modified: 2011-01-15 03:14:42 JST
+! Checksum: 3AIYu2QgUzZ43PGHNC2c9A
+! Last modified: 2011-01-15 03:22:46 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2035,6 +2035,7 @@ lifehacker.jp##.headline
 lifehacker.jp##.other_menu
 lifehacker.jp##[id^="randomSelect_"]
 lifehacker.jp##[class^="randomSelect_"]
+livedoor.com###become
 livedoor.com###today-site
 livedoor.com###osusume
 livedoor.com###otoku-info
