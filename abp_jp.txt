@@ -922,7 +922,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||bar*.shinobi.jp^
 ||ct*.shinobi.jp^$~image
 ||vis*.shinobi.jp^$~image
-||shinystat.com^$third-party
+||shinystat.com^$~image
 ||shopping-search.jp^$third-party
 ||sitebro.jp^$third-party
 ||sitemeter.com^$third-party
