@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: Vryh3OF7fQlQI/DAJnMu+A
-! Last modified: 2011-01-16 00:39:02 JST
+! Checksum: apC2JAJC++YeCW8sJfSpgw
+! Last modified: 2011-01-16 02:33:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -11,6 +11,7 @@
 ! Project committers: lostincarnation, looter, resubew
 ! Project contributors: kabipantu
 !
+! #################### URL Fragment START ####################
 $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
 .kissinsights.com/
 ?*referer=$image,script
@@ -415,6 +416,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||jp/openx
 ||net/openx
 ||tv/openx
+! #################### URL Fragment END ####################
+! #################### Domain optionally with path START ####################
 ||203.86.249.80^
 ||210.135.99.84^
 ||210.155.151.148^
@@ -452,7 +455,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||adjustnetwork.com^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
+||ad-maker.info^
 ||admeld.com^$third-party
+||admob.com^$third-party
 ||adnxs.com^$third-party
 ||adpath.net^$third-party
 ||adplan-ds.com^$third-party
@@ -1055,7 +1060,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||zedo.com^$third-party
 ||zenback.jp^$third-party
 ||ziyu.net^$third-party
-! #################### ValueClick alias domains: 216.34.207.62 START ####################
+! ========== ValueClick alias domains: 216.34.207.62 START ==========
 ||afcyhf.com^
 ||anrdoezrs.net^
 ||awltovhc.com^
@@ -1071,8 +1076,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||qksz.net^
 ||tkqlhce.com^
 ||tqlkg.com^
-! #################### ValueClick alias domains: 216.34.207.62 END ####################
-! #################### Samurai Factory START ####################
+! ========== ValueClick alias domains: 216.34.207.62 END ==========
+! ========== Samurai Factory START ==========
 ||shinobi.jp/bin/
 ||shinobi.jp/ufo/
 ||shinobi.jp/Zen?
@@ -1439,7 +1444,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||nekonikoban.org/bin/
 ||oiran.org/bin/
 ||ukime.org/bin/
-! #################### Samurai Factory END ####################
+! ========== Samurai Factory END ==========
+! #################### Domain optionally with path END ####################
+! #################### Element Hiding Filter START ####################
 ~login.mail.goo.ne.jp###ad
 ###ad1
 ###ad2
@@ -1533,7 +1540,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.randomBanner
 ##.tdftad
 ~kent-web.com##a[href="http://www.kent-web.com/"]
-! ==================== Part of keyword START in ##a[href*=" ====================
+! #################### Part of keyword START in ##a[href*=" ####################
 ##a[href*="&ad="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
@@ -1626,7 +1633,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/splash/"]
 ##a[href*="sponsor"]
 ##a[href*="utm_source=ad"]
-! ==================== Part of URL START in ##a[href*=" ====================
+! #################### Part of URL START in ##a[href*=" ####################
 ##a[href*="/bin/gg?"]
 ##a[href*="/click.ng/"]
 ##a[href*="/event.ng/"]
@@ -1704,7 +1711,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//rd.ane.yahoo.co.jp/rd?"]
 ##a[href*="//yjaxcrd.yahoo.co.jp"]
 ##a[href*=".ziyu.net/jump."]
-! ==================== Part of URL END in ##a[href*=" ====================
+! #################### Part of URL END in ##a[href*=" ####################
 ##img[alt^="[pr-"]
 ##img[alt^="[PR-"]
 ##img[alt^="[pr_"]
