@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: cMDHZ6XIW0/itSWenwMWxQ
-! Last modified: 2011-01-17 03:08:18 JST
+! Checksum: Qzd8cCuxeCR6oz9f2HdiQA
+! Last modified: 2011-01-17 07:50:50 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -884,6 +884,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||precisionclick.com^$third-party
 ||pubmatic.com^$third-party
 ||pulse360.com^$third-party
+||pya.cc/banner/bb_
 ||qlook.net^$third-party
 ||qsstats.com^
 ||quantserve.com^$third-party
@@ -2143,6 +2144,7 @@ phpspot.org##div[style*="border: 1px solid rgb(240, 240, 240); padding: 4px 4px 
 phpspot.org##div[style="border-bottom: 1px solid rgb(242, 242, 242); padding: 4px; background-color: rgb(255, 255, 255); margin-bottom: 6px;"]
 phpspot.org##div[style="border-top: 1px solid rgb(242, 242, 242); padding: 4px; background-color: rgb(255, 255, 255); margin-bottom: 6px;"]
 publickey.jp,publickey1.jp##.topbanner
+pya.cc##.tk
 jp.reuters.com###adArticleText
 jp.reuters.com###bannerad
 jp.reuters.com##.adArticleText
