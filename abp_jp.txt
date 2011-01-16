@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: apC2JAJC++YeCW8sJfSpgw
-! Last modified: 2011-01-16 02:33:24 JST
+! Checksum: OAiN60FgjfA/riw/EKEDlQ
+! Last modified: 2011-01-17 01:55:04 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2092,6 +2092,7 @@ mycom.co.jp##a[href*="adspecial"]
 mycom.co.jp##a[href*="kali.mycom.co.jp"]
 mycom.co.jp##*[src*="adspecial"]
 mycom.co.jp##*[src*="kali.mycom.co.jp"]
+download.hr##a[href*="myotherdrive.com/dyn/file/"]
 nakanohito.jp###paddingside > div#header + div#padding
 namaan.net###listing_top
 netadreport.com###amn_banner
