@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: OAiN60FgjfA/riw/EKEDlQ
-! Last modified: 2011-01-17 01:55:04 JST
+! Checksum: cMDHZ6XIW0/itSWenwMWxQ
+! Last modified: 2011-01-17 03:08:18 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -614,6 +614,10 @@ INSERT_RANDOM_NUMBER_HERE
 ||doubleverify.com^$third-party
 ||ad4u.drecom.jp^
 ||rss.drecom.jp/*banner/$third-party
+||dt00.net^
+||dt03.net^
+||dt07.net^
+||dt08.net^
 ||dti-ranker.com^$third-party
 ||analyzer.dtiblog.com^
 ||customize.dtiserv.com^
@@ -789,6 +793,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.mainichi.jp^
 ||an.mainichi.jp^
 ||mapion.co.jp^*/ad/
+||marketgid.com^$third-party
+||marketgid.info^$third-party
+||marketgid.ru^$third-party
 ||marketo.com^$third-party
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
@@ -796,6 +803,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mcnt.jp/
 ||media6degrees.com^$third-party
 ||mediaplex.com^$third-party
+||mgid.com^$third-party
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
 ||millioncounter.com^$~image
