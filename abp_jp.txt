@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: Qzd8cCuxeCR6oz9f2HdiQA
-! Last modified: 2011-01-17 07:50:50 JST
+! Checksum: 5G+M0EymdE/YsfKYRaVa2A
+! Last modified: 2011-01-17 20:55:50 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1952,6 +1952,9 @@ cybozu.net###recommend-top-txt > li:last-child
 cyzo.com##.r_sidebanner
 diamond.jp###pr1
 diamond.jp###pr2
+diamond.jp###special-underline
+diamond.jp###special-upperline
+diamond.jp###sptopics
 diamond.jp###sub-column > img
 diamond.jp###sub-column > table
 diamond.jp##.diamondonline-plus
