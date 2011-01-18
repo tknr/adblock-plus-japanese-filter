@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: bRUZm1La9xBPtMEbvw5jjw
-! Last modified: 2011-01-18 09:55:57 JST
+! Checksum: 9sbzoXsso8QFV0FilNvGog
+! Last modified: 2011-01-19 07:54:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1968,6 +1968,7 @@ diamond.jp##div[class*="box"][class*="dolplus"]
 diamond.jp##div[class*="box"][class*="side_business-info"]
 diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
+zai.diamond.jp##.pickup
 zai.diamond.jp##*[class*="campaign"]
 zai.diamond.jp##a[href*="campaign"]
 zai.diamond.jp##a[href*="/oo/"]
