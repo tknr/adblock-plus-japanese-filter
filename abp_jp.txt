@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: EvFKrSZQB3ePJf8fC1A53Q
-! Last modified: 2011-01-20 05:37:26 JST
+! Checksum: KpXrmqdORkYiZqwsVuXeWg
+! Last modified: 2011-01-20 08:30:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1657,6 +1657,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//cou.adjust-net.jp"]
 ##a[href*="adjustnetwork.com/aan/"]
 ##a[href*="adpath.net/click?"]
+##a[href*="adsmarket.com/click/"]
 ##a[href*=".advg.jp/"]
 ##a[href*="//ad.agilemedia.jp"]
 ##a[href*="ainte.jp/cid/"]
