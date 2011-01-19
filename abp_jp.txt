@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: KpXrmqdORkYiZqwsVuXeWg
-! Last modified: 2011-01-20 08:30:45 JST
+! Checksum: 5ZlNQlxZ16Jw7/zcIe2/mw
+! Last modified: 2011-01-20 08:43:39 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1033,6 +1033,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.xrea.com^
 ||ax.xrea.com^$third-party
 ||imgj.xrea.com/xa.j
+||xtendmedia.com^$third-party
 ||yahoo.co.jp/js/geov2.$script
 ||yahoo.co.jp/js/no.$script
 ||yahoo.co.jp/js/sq.$script
@@ -1718,6 +1719,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//blog.with2.net/link."]
 ##a[href*="world-auctions.org/?aid="]
 ##a[href*="xmax.jp/click/"]
+##a[href=*"xtendmedia.com/clk?"]
 ##a[href*="ard.yahoo.com"]
 ##a[href*="lrd.yahoo.com"]
 ##a[href*="//ard.yahoo.co.jp"]
