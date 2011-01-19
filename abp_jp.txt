@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 9sbzoXsso8QFV0FilNvGog
-! Last modified: 2011-01-19 07:54:45 JST
+! Checksum: 3YHJOAixHh3UX+4VRIB6jQ
+! Last modified: 2011-01-19 18:01:55 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1668,6 +1668,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".brothersoft.jp"]
 ##a[href*=".counter-hosting.com"]
 ##a[href*=".csolution.jp/"][href*="//cm-"]
+##a[href*="dlsite.com/dlaf/=/link/"]
 ##a[href*="dmm.co.jp/hit."]
 ##a[href*="dmm.com/click."]
 ##a[href*="//ad.doubleclick.net"]
