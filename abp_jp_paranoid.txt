@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 3aF+flJ5zFIWHDJAGQK66A
-! Last modified: 2011-01-19 19:36:41 JST
+! Checksum: Jp4FoUyjyzCzlrfLaHkl7g
+! Last modified: 2011-01-20 17:25:31 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -8,7 +8,7 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Expires: 12 hours
 ! Project owners: k2japan
-! Project committers: lostincarnation, looter, resubew, kabipantu, tanahata
+! Project committers: kabipantu, looter, lostincarnation, resubew, tanahata
 ! Project contributors: 
 !
 /s_code.js$domain=~sonystyle.com
