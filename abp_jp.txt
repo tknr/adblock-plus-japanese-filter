@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 5bIRpmnpIz75nybMOdmVvg
-! Last modified: 2011-01-20 17:25:31 JST
+! Checksum: 7hbQmlpThhtYIYRef8KVqA
+! Last modified: 2011-01-21 16:12:35 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1507,6 +1507,9 @@ INSERT_RANDOM_NUMBER_HERE
 ###prTxt
 ###textad
 ###textAd
+###textAds
+###topAd
+###topAds
 ~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ~mail.google.com##.AD
 ##.ad_left
@@ -1555,6 +1558,10 @@ INSERT_RANDOM_NUMBER_HERE
 ##.PR_txt
 ##.randomBanner
 ##.tdftad
+##.textAd
+##.textAds
+##.topAd
+##.topAds
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ! #################### Part of keyword START in ##a[href*=" ####################
 ##a[href*="&ad="]
