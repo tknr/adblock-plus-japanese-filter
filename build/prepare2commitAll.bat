@@ -10,4 +10,4 @@
 @perl ../pl/validateChecksum.pl ../abp_jp.txt
 @perl ../pl/validateChecksum.pl ../abp_jp_paranoid.txt
 
-@pause
+@rem @pause

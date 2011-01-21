@@ -7,4 +7,4 @@
 @rem ######## Validate Checksum ########
 @perl ../pl/validateChecksum.pl ../abp_jp.txt
 
-@pause
+@rem @pause
