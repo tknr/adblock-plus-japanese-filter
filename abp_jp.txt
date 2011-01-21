@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: D9HhtiqKbwYTCqH6fvTHLg
-! Last modified: 2011-01-21 16:30:43 JST
+! Checksum: 0CH8mj3Y0fNIjJDkBQ2jIA
+! Last modified: 2011-01-21 16:35:06 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2164,6 +2164,7 @@ oreilly.co.jp##.adv
 pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
 pcworld.com###shoppingMod
+pcworld.com##.storyList
 pcworld.com##div[id$="Ad"]
 pcworld.com##div[id$="Ads"]
 pcworld.com##div[class$="Ad"]
