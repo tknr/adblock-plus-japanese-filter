@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 3DCtWez8vM2FJG1MEVFVsg
-! Last modified: 2011-01-22 22:24:55 JST
+! Checksum: 3LNkWfzsqdZaHweqWHfuTw
+! Last modified: 2011-01-23 08:44:44 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2121,6 +2121,7 @@ marsflag.com###head ~ img
 marsflag.com###contLeft > h2.colTitle1 ~ table.resutlTable[onclick*="ad_clk"]
 mooter.co.jp###cluster + table[cellpadding="0"]
 mooter.co.jp##td[width="230"][valign="top"]
+jp.msn.com##.kanrenBox
 jp.msn.com##div[id^="ads"]
 mudainodqnment.ldblog.jp##.menu_cont3
 mudainodqnment.ldblog.jp##.menu_title3
