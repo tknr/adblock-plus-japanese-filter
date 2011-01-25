@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: /z1Slj9aX/LKfVDncJW+Fg
-! Last modified: 2011-01-25 09:58:08 JST
+! Checksum: s49mjkRyGdKZpBaZg0Sw+w
+! Last modified: 2011-01-25 20:59:33 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1924,14 +1924,15 @@ atmarkit.co.jp###monosp
 atmarkit.co.jp###PR-ITR
 atmarkit.co.jp###rspecial
 atmarkit.co.jp###ttl-techtarget
-atmarkit.co.jp##div.crec
-atmarkit.co.jp##div.frec
-atmarkit.co.jp##div.kyujin
-atmarkit.co.jp##div.monosp
-atmarkit.co.jp##div.rspecial
-atmarkit.co.jp##div.ttl-techtarget
-atmarkit.co.jp##div[id^="rcspSFlash"]
-atmarkit.co.jp##div[id^="rrec"]
+atmarkit.co.jp##.crec
+atmarkit.co.jp##.frec
+atmarkit.co.jp##.kyujin
+atmarkit.co.jp##.monosp
+atmarkit.co.jp##.pr-l
+atmarkit.co.jp##.rspecial
+atmarkit.co.jp##.ttl-techtarget
+atmarkit.co.jp##*[id^="rcspSFlash"]
+atmarkit.co.jp##*[id^="rrec"]
 atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
 atpages.jp##body > div:first-of-type
 bioimpact.jp###pr
