@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: 5LDcitt2jFQECXrO8iWkLA
-! Last modified: 2011-01-27 22:13:55 JST
+! Checksum: 8x963c2CBj7Yd1tQKfMLkg
+! Last modified: 2011-01-28 00:37:41 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1047,6 +1047,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||wowzio.net^$third-party
 ||ad.wsod.com^
 ||www.co.cc^$third-party
+||wysistat.com^$third-party
 ||xlisting.co.jp^$third-party
 ||xlisting.jp^$third-party
 ||xmax.jp/$third-party
