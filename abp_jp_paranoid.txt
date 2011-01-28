@@ -26,3 +26,5 @@ nicovideo.jp###ichiba_placeholder + div
 ||livedoor.jp/js/blog_search_frame.$script
 ||seesaa.jp/js/trace_searcher.$script
 ||so-net.ne.jp/search/javascripts/research/
+! ========== Suspicious ==========
+||0pb.org^
