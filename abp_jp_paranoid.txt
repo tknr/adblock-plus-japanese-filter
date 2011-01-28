@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: Jp4FoUyjyzCzlrfLaHkl7g
-! Last modified: 2011-01-20 17:25:31 JST
+! Checksum: MFOdytGkfDNvvtKk4hO9uw
+! Last modified: 2011-01-28 13:53:23 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
