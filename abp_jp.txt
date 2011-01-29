@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: K/LhkrUsNN5dy88+myr2uw
-! Last modified: 2011-01-29 16:35:21 JST
+! Checksum: wam786gYwdZRlGjcmuyxCQ
+! Last modified: 2011-01-30 02:58:04 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -678,6 +678,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||affiliate.fc2.com^
 ||analyzer*.fc2.com/ana/
 ||counter*.fc2.com/$~image
+||media.fc2.com^
 ||media3.fc2.com^
 ||fetchback.com^$third-party
 ||tracking.fathomseo.com^
