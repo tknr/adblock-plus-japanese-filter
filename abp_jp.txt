@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: /yDk1b74/ptVAkX4N1ziQg
-! Last modified: 2011-01-30 03:13:23 JST
+! Checksum: xt4J8BamU6rjdgHare9PYQ
+! Last modified: 2011-01-30 11:53:11 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -312,7 +312,8 @@ INSERT_RANDOM_NUMBER_HERE
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 /news_top_point_pr.
-/newzia/*
+! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
+! /newzia/*
 /omn-js/*
 /omniture-
 /omniture.
