@@ -1,6 +1,6 @@
 [Adblock Plus 1.1]
-! Checksum: xt4J8BamU6rjdgHare9PYQ
-! Last modified: 2011-01-30 11:53:11 JST
+! Checksum: G0qn7mXtA8xEy2z9XNBhsg
+! Last modified: 2011-01-30 14:54:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -14,16 +14,6 @@
 ! #################### URL Fragment START ####################
 $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
 .kissinsights.com/
-?*ad_type=
-?*affid=
-?*referer=$image,script
-?*tracking=
-_ad_leaf.$script
-_overture_
-_sponsor_
-affiliate$third-party
-click_count
-INSERT_RANDOM_NUMBER_HERE
 //openx.
 /200_200.$image,domain=premium.nikkeibp.co.jp
 /__utm.gif
@@ -116,6 +106,7 @@ INSERT_RANDOM_NUMBER_HERE
 /adsense.
 /adsense/*
 /adsense_
+/adserve/*
 /adserver-
 /adserver.
 /adserver/*
@@ -166,6 +157,7 @@ INSERT_RANDOM_NUMBER_HERE
 /count.js$script
 /counter.$script
 /css/ads.css
+/customads/*
 /d2ptoolbar/*
 /delivery/avw.php
 /delivery/ajs.php
@@ -373,6 +365,17 @@ INSERT_RANDOM_NUMBER_HERE
 /wiredv-
 /www/delivery/*
 /xgemius.
+?*ad_type=
+?*affid=
+?*referer=$image,script
+?*tracking=
+_ad_leaf.$script
+_customads_
+_overture_
+_sponsor_
+affiliate$third-party
+click_count
+INSERT_RANDOM_NUMBER_HERE
 |http://ad.
 |https://ad.
 |http://ad-cdn.
