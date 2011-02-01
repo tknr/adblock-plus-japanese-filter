@@ -1,6 +1,6 @@
-[Adblock Plus 1.1]
-! Checksum: g2Pd26YpJ9sJHlVOy3sl2g
-! Last modified: 2011-02-01 10:32:19 JST
+[Adblock Plus 1.2]
+! Checksum: 5R4e2tkousQwwNd256Qtiw
+! Last modified: 2011-02-01 17:56:58 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -11,19 +11,24 @@
 ! Project committers: kabipantu, looter, lostincarnation, resubew, tanahata
 ! Project contributors: 
 !
-! #################### Generic filters START ###################################
+! ########## Default white list START ################################
+@@||reports.adblockplus.org^$elemhide
+! ---------- Default white list END ----------------------------------
+!
+!
+! ########## Generic filters START ###################################
 /1x1.gif
 /1x1.jpg
 /1x1.jpeg
 /1x1.png
-! -------------------- Generic filters END -------------------------------------
+! ---------- Generic filters END -------------------------------------
 ! 
-! #################### Suspicious START ########################################
+! ########## Suspicious START ########################################
 ||0pb.org^
-! -------------------- Suspicious END ------------------------------------------
+! ---------- Suspicious END ------------------------------------------
 ! 
 ! 
-! #################### Each Domain START #######################################
+! ########## Each Domain START #######################################
 ! ===== Omniture SiteCatalyst ===== START =====
 /s_code.js$domain=~sonystyle.com
 ! ----- Omniture SiteCatalyst ----- END -----
@@ -49,4 +54,4 @@ nicovideo.jp###ichiba_placeholder + div
 ||so-net.ne.jp/search/javascripts/research/
 ! ----- RE-search float ----- END -----
 ! 
-! -------------------- Each Domain END -----------------------------------------
+! ---------- Each Domain END -----------------------------------------
