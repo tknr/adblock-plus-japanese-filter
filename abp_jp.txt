@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: uW7GXVgfHBU8z64esBn0Sg
-! Last modified: 2011-02-01 17:56:58 JST
+! Checksum: eiS7trc3WbdmPnqD0uN7HQ
+! Last modified: 2011-02-01 19:39:58 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -616,6 +616,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||conviva.com^$third-party
 ||coremetrics.com^$third-party
 ||counter-hosting.com^$third-party
+||cpalead.com^$third-party
 ||cpmstar.com^$third-party
 ||cpxadroit.com^$third-party
 ||cpxinteractive.com^$third-party
@@ -1758,6 +1759,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="jp.brothersoft.com"]
 ##a[href*=".brothersoft.jp"]
 ##a[href*=".counter-hosting.com"]
+##a[href*=".cpalead.com"]
 ##a[href*=".csolution.jp/"][href*="//cm-"]
 ##a[href*="dlsite.com/dlaf/=/link/"]
 ##a[href*="dmm.co.jp/hit."]
