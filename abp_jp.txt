@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: OURyhxLF7roFwgt3CmiaEA
-! Last modified: 2011-02-02 21:50:22 JST
+! Checksum: 3BXsp23dv35Fkl/zOSlnKw
+! Last modified: 2011-02-03 14:47:46 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2273,8 +2273,7 @@ jp.reuters.com##.bannerad
 president.jp.reuters.com##div.prad
 revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
-robtex.com##.dst > div[style*="width: 728px;"][style*="height: 90px;"]
-robtex.com##.div0 > div[style*="height: 285px;"][style*="width: 804px;"]
+robtex.com##*[id^="xad"]
 rue89japon.com##*[id^="ad_"]
 sankei.jp.msn.com###pt
 sanspo.com###lBoard2
