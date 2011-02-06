@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: bH7jaDhzdBbX8YklIzbBeg
-! Last modified: 2011-02-06 14:08:13 JST
+! Checksum: Wc94t4WO/49qFLHcudSWeg
+! Last modified: 2011-02-06 15:15:51 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1775,6 +1775,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//ad.agilemedia.jp"]
 ##a[href*="ainte.jp/cid/"]
 ##a[href*="//sos.allabout.co.jp"]
+##a[href*="auc-life.org/?"]
 ##a[href*=".bb-chat.tv/"]
 ##a[href*="partner.become.co.jp/rd"]
 ##a[href*="best-select.biz/cc"]
@@ -1816,6 +1817,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//ads.mixi.jp"]
 ##a[href*="mobile-click.org"]
 ##a[href*="//itpro.nikkeibp.co.jp/as/"]
+##a[href*="okone.jp/?"]
 ##a[href*=".overture.co.jp/ja_JP/legal/"]
 ##a[href*=".overture.com/d/sr/"]
 ##a[href*="p-advg.com/adpCnt/"]
