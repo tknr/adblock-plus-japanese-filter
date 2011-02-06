@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: DZ0U0/gEhY1M92B0r904PA
-! Last modified: 2011-02-06 19:59:38 JST
+! Checksum: PhP/BDKhXQfpLUpLX0noWw
+! Last modified: 2011-02-06 22:20:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -178,6 +178,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /foresee/$script
 /gemius/*
 /gemius.
+/gen_204
 /generate_204
 /get_banner.
 /get_banner/*
@@ -744,6 +745,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||googletagservices.com^
 ||gremz.com^$third-party
 ||csi.gstatic.com^
+||guzeloyunlar.web.tr^$third-party
 ||gyutto.jp/data/*banner_img^$third-party
 ||ad.hatena.ne.jp^
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
