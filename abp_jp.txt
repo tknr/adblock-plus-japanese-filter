@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: WYWxLDRrryhagSIOhMmZag
-! Last modified: 2011-02-07 03:21:16 JST
+! Checksum: 7wa38+iWjsk/6V+AlyRJ3Q
+! Last modified: 2011-02-07 13:24:30 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -729,6 +729,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||fusionads.net^$third-party
 ||garss.jp^$third-party
 ||gemius.pl^
+||gendai.net/img/banner/
 ||getchu.com/*banner^
 ||getclicky.com^$third-party
 ||gigafree.net/ga.$script
@@ -2132,6 +2133,7 @@ workingnews.blog117.fc2.com##.free_area
 ferret-plus.com###prinfo
 gci-klug.jp##*[class*="AdBox"]
 gci-klug.jp##*[class*="AdsBox"]
+gendai.net##*[id^="adingo_"]
 gigafree.net###spl
 gigafree.net##.spl
 gigazine.net##*[src*="/tnemesitrevda/"]
