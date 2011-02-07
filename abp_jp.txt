@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: sE4Po6IJH8QtcIGgETwNkA
-! Last modified: 2011-02-07 20:45:24 JST
+! Checksum: JMgwKFQBVWxTWHHWSDbZ8A
+! Last modified: 2011-02-07 21:19:12 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1125,7 +1125,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||xlisting.co.jp^$third-party
-||xlisting.jp^$third-party
+||xlisting.jp^
 ||xmatch.com^$third-party
 ||xmax.jp/$third-party
 ||xrea.com/ad_
@@ -1810,7 +1810,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//ever-click.com"]
 ##a[href*="//ever-clix.com"]
 ##a[href*="//ever-website.com"]
-##a[href*="//g.subcul.net"]
+##a[href*=".google.co.jp/aclk?sa="]
+##a[href*=".google.com/aclk?sa="]
 ##a[href*="i2i.jp/click."]
 ##a[href*="infocart.jp/"]
 ##a[href*=".impressit.co.jp/reader.php"]
@@ -1839,6 +1840,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="//searchpartner.jp/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
+##a[href*="//g.subcul.net"]
 ##a[href*=".super-search.jp/"]
 ##a[href*=".tcs-asp.net/"]
 ##a[href*=".trafficgate.net/"]
@@ -1848,6 +1850,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="visionavi.net/motivation/"]
 ##a[href*="//blog.with2.net/link."]
 ##a[href*="world-auctions.org/?aid="]
+##a[href*="//rd.xlisting.jp"]
 ##a[href*="xmax.jp/click/"]
 ##a[href*="xtendmedia.com/clk?"]
 ##a[href*="ard.yahoo.com"]
