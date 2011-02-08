@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: eXAourvxgrMixlfLCe8qiw
-! Last modified: 2011-02-08 23:52:35 JST
+! Checksum: nieBkWoEPETMyUR/HGF2KQ
+! Last modified: 2011-02-08 23:56:57 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1812,6 +1812,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//ever-website.com"]
 ##a[href*=".google.co.jp/aclk?sa="]
 ##a[href*=".google.com/aclk?sa="]
+##a[href*=".googlesyndication.com/aclk?sa="]
 ##a[href*="i2i.jp/click."]
 ##a[href*="infocart.jp/"]
 ##a[href*=".impressit.co.jp/reader.php"]
