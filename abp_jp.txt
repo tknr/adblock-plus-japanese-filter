@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: Qk7i6gGrfHTitdNuSFspUA
-! Last modified: 2011-02-08 21:56:32 JST
+! Checksum: 7B7JeEwXB6G8sMvFkBaQTQ
+! Last modified: 2011-02-08 23:25:07 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2156,7 +2156,7 @@ blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
 books.google.com,books.google.co.jp###main_content + td
 maps.google.com,maps.google.co.jp###mclip
-mail.google.com##div[id=":kc"]
+mail.google.com##div[id=":ku"]
 www.google.com,www.google.co.jp###tads.c
 www.google.com,www.google.co.jp###tadsb.c
 www.google.com,www.google.co.jp###rhs_block
