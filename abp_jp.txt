@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: r/asXJUGD77Hi4zZMC77eA
-! Last modified: 2011-02-08 12:32:42 JST
+! Checksum: +cksU3zA2IwbtimrMtZqnw
+! Last modified: 2011-02-08 14:04:48 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -382,6 +382,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 _ad_leaf.$script
 _customads_
 _overture_
+_request_ad.
 _sponsor_
 affiliate$third-party
 click_count
@@ -1168,7 +1169,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||yimg.com^*/js/geov3.$script
 ||ads.yimg.com^
 ||youtube.com/generate_204
-||youtube.com/js/*_watch_*_ad.
 ||youtube.com/s?
 !False Positive(dammy 1x1 placeholder for css spriting) ||ytimg.com/yt/img/pixel-
 ||ytimg.com/yt/swfbin/ad-
