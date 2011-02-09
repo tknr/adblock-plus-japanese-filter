@@ -2162,7 +2162,6 @@ blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
 books.google.com,books.google.co.jp###main_content + td
 maps.google.com,maps.google.co.jp###mclip
-mail.google.com##.oM
 www.google.com,www.google.co.jp###tads.c
 www.google.com,www.google.co.jp###tadsb.c
 www.google.com,www.google.co.jp###rhs_block
