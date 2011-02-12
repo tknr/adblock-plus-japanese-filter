@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: Kq0K7itNMXu+9jQCFmPgHQ
-! Last modified: 2011-02-12 19:56:07 JST
+! Checksum: Gj42ib6/HYTuJEflwLJ3qg
+! Last modified: 2011-02-12 20:06:12 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -13,6 +13,7 @@
 !
 ! ########## Default white list START ################################
 @@||reports.adblockplus.org^$elemhide
+@@||indeep76.com^$elemhide
 ! ---------- Default white list END ----------------------------------
 !
 !
