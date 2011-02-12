@@ -509,6 +509,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adsfac.us^$third-party
 ||adshuffle.com^$third-party
 ||adsonar.com^$third-party
+||adsurve.com^
 ||adtech.de^$third-party
 ||adtechus.com^$third-party
 ||adtracker.jp^
