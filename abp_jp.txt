@@ -575,6 +575,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||automatic-link.net^
 ||av-comparatives.org/images/banners/
 ||avazu.net^
+||avazudsp.net^$third-party
 ||aweber.com^
 ||awempire.com^$third-party
 ||ad.axyzconductor.jp^
