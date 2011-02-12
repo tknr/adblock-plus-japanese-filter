@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: Mav68MU9kmlXO33a9bw1wA
-! Last modified: 2011-02-11 18:58:47 JST
+! Checksum: yJxPl66XKPaXihL0L9uCUg
+! Last modified: 2011-02-12 11:01:58 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -697,6 +697,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||now.eloqua.com^
 ||email-match.com^$third-party
 ||enquisite.com^$third-party
+||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
 ||etology.com^$third-party
 ||etracker.de^
