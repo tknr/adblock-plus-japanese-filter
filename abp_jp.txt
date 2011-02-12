@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: ZXu4TiHNbODqV2IxwjKQ3A
-! Last modified: 2011-02-12 14:00:18 JST
+! Checksum: p4jRScdZG8yP8FKc1s/sbw
+! Last modified: 2011-02-12 14:24:46 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -175,6 +175,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /event.ems/*
 /event_call.htm?
 /ea.js
+/exitPopup.$script
 /flashbanner.swf
 /foresee-$script
 /foresee.$script
