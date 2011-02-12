@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: kFECu5xBImedTYfRW5yZJw
-! Last modified: 2011-02-12 14:27:23 JST
+! Checksum: MnZyHb4Tei1TtR+PO9s60Q
+! Last modified: 2011-02-12 19:39:47 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -772,6 +772,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
 ||red.hatena.ne.jp/ad
 ||red3.hatena.ne.jp/ad
+||hatid.com^
 ||oas.heise.de^
 ||rl.heise.de^
 ||hikiwake.com^
@@ -875,6 +876,7 @@ INSERT_RANDOM_NUMBER_HERE
 |http://*.loka.jp^$third-party
 ||ad.lolipop.jp^
 ||luxup.ru^
+||lzjl.com^
 ||magma-analytics.com^$third-party
 ||mainichi.jp/js/an.$script
 ||ad.mainichi.jp^
@@ -919,6 +921,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mybuys.com^$third-party
 ||kali.mycom.co.jp^
 ||mylinkbox.com^$third-party
+||myroitracking.com^
 ||mythings.com^$third-party
 ||nakanohito.jp/ap/
 ||nakanohito.jp/b1/
@@ -1125,6 +1128,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||veritrans.co.jp/bcon/
 ||videosz.com^$third-party
 ||visistat.com^$third-party
+||visitorpath.com^$third-party
 ||w55c.net^
 ||wa-track.com^$third-party
 ||web-stat.com^$third-party
