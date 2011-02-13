@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: HuD7jmkXJ6hOU107J1TWRg
-! Last modified: 2011-02-12 22:06:47 JST
+! Checksum: X5S52bUC13oUluiDjMzL4A
+! Last modified: 2011-02-13 21:49:09 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2207,6 +2207,7 @@ b.hatena.ne.jp##div.nikkei-body
 b.hatena.ne.jp##div.sidebar > div[class^="curvebox-"]
 b.hatena.ne.jp##div[id^="afs"]
 q.hatena.ne.jp###related-keyword ~ *
+q.hatena.ne.jp##.job
 jp.ibtimes.com###ad300
 jp.ibtimes.com###pressrelease
 jp.ibtimes.com###superbanner
