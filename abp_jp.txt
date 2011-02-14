@@ -1094,6 +1094,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||news020.sppd.ne.jp/blog/html/rss$subdocument
 ||spylog.com^
 ||statcounter.com^$third-party
+||statistik-gallup.net^
 ||superfish.com^$third-party
 ||surphace.com^$third-party
 ||suteki-tool.com/pr
