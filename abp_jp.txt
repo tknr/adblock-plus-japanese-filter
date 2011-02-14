@@ -490,6 +490,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adbull.com^$third-party
 ||adbutterfly.com^$third-party
 ||adcentriconline.com^$third-party
+||adcolo.com^$third-party
 ||addfreestats.com^$third-party
 ||adecn.com^$third-party
 ||adengage.com^$third-party
