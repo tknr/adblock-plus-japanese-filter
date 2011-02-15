@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: MkIR3kMraTbbF8DxPja1bA
-! Last modified: 2011-02-15 12:08:17 JST
+! Checksum: wOGGhkoB7N/lHLeTddGErA
+! Last modified: 2011-02-16 03:31:37 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1934,139 +1934,139 @@ INSERT_RANDOM_NUMBER_HERE
 ##img[alt$="-PR]"]
 ##img[alt$="_pr]"]
 ##img[alt$="_PR]"]
-##*[id^="ad-"]
-##*[id^="AD-"]
-~japan.cnet.com,~japan.zdnet.com,~pc-zero.jp##*[id^="ad_"]
-##*[id^="AD_"]
-##*[id^="adBox"]
-##*[id^="ads-"]
-##*[id^="ADs-"]
-##*[id^="ADS-"]
-##*[id^="ads_"]
-##*[id^="ADs_"]
-##*[id^="ADS_"]
-##*[id^="deqwas"]
-##*[id^="deteql"]
-##*[id^="gAdsense"]
-##*[id^="google_afc_"]
-! ##*:not([id="pr-root"]):not([class^="dct-"])[id^="pr-"]
-! ##*[id^="PR-"]
-! ~books.com.tw##*[id^="pr_"]
-! ##*[id^="PR_"]
-##*[id*="adsense"]
-##*[id*="AdSense"]
-##*[id*="advertisement"]
-##*[id*="Advertisement"]
-##*[id*="ADVERTISEMENT"]
-##*[id*="advertising"]
-##*[id*="Advertising"]
-##*[id*="ADVERTISING"]
-##*[id*="affiliate"]
-##*[id*="Affiliate"]
-##*[id*="AFFILIATE"]
-##*[id*="overture"]
-##*[id*="Overture"]
-##*[id*="OVERTURE"]
-! ##*[id*="prtext"]
-! ##*[id*="PRtext"]
-! ##*[id*="prText"]
-##*[id*="sponsor"]
-##*[id*="Sponsor"]
-##*[id*="SPONSOR"]
-~foreignaffairs.com##*[id*="-ad-"]
-##*[id*="-AD-"]
-##*[id*="-ads-"]
-##*[id*="-ADs-"]
-##*[id*="-ADS-"]
-! ##*[id*="-pr-"]
-! ##*[id*="-PR-"]
-~video.fc2.com##*[id*="_ad_"]
-##*[id*="_AD_"]
-##*[id*="_ads_"]
-##*[id*="_ADs_"]
-##*[id*="_ADS_"]
-! ##*[id*="_pr_"]
-! ##*[id*="_PR_"]
-##*[id$="-ad"]
-##*[id$="-AD"]
-##*[id$="-ads"]
-##*[id$="-ADs"]
-##*[id$="-ADS"]
-! ~kakaku.com##*[id$="-pr"]
-! ##*[id$="-PR"]
-##*[id$="_ad"]
-##*[id$="_AD"]
-##*[id$="_ads"]
-##*[id$="_ADs"]
-##*[id$="_ADS"]
-! ##*[id$="_pr"]
-! ##*[id$="_PR"]
-##*[class^="ad-"]
-##*[class^="AD-"]
-##*[class^="ad_"]
-##*:not(body):not(table)[class^="AD_"]
-##*[class^="adBox"]
-##*[class^="ads-"]
-##*[class^="ADs-"]
-##*[class^="ADS-"]
-##*[class^="ads_"]
-##*[class^="ADs_"]
-##*[class^="ADS_"]
-##*[class^="deqwas"]
-##*[class^="deteql"]
-##*[class^="google-ads"]
-! ##*[class^="pr-"]
-! ##*[class^="PR-"]
-! ##*[class^="pr_"]
-! ##*[class^="PR_"]
-~wikia.com##*[class*="adsense"]
-##*[class*="AdSense"]
-##*[class*="advertisement"]
-##*[class*="Advertisement"]
-##*[class*="ADVERTISEMENT"]
-##*[class*="advertising"]
-##*[class*="Advertising"]
-##*[class*="ADVERTISING"]
-##*[class*="AdWords"]
-##*[class*="affiliate"]
-##*[class*="Affiliate"]
-##*[class*="AFFILIATE"]
-##*[class*="overture"]
-##*[class*="Overture"]
-##*[class*="OVERTURE"]
-! ##*[class*="prtext"]
-! ##*[class*="PRtext"]
-~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]
-##*[class*="Sponsor"]
-##*[class*="SPONSOR"]
-~foreignaffairs.com##*[class*="-ad-"]
-##*[class*="-AD-"]
-##*[class*="-ads-"]
-##*[class*="-ADs-"]
-##*[class*="-ADS-"]
-! ##*[class*="-pr-"]
-! ##*[class*="-PR-"]
-~gamespot.com##*[class*="_ad_"]
-##*[class*="_AD_"]
-##*[class*="_ads_"]
-##*[class*="_ADs_"]
-##*[class*="_ADS_"]
-! ##*[class*="_pr_"]
-! ##*[class*="_PR_"]
-##*[class$="-ad"]
-##*[class$="-AD"]
-##*[class$="-ads"]
-##*[class$="-ADs"]
-##*[class$="-ADS"]
-! ##*[class$="-pr"]
-! ##*[class$="-PR"]
-~itoyokado.co.jp##*[class$="_ad"]
-##*[class$="_AD"]
-##*[class$="_ads"]
-##*[class$="_ADs"]
-##*[class$="_ADS"]
-! ##*[class$="_pr"]
-! ##*[class$="_PR"]
+##*[id^="ad-"]:not(body)
+##*[id^="AD-"]:not(body)
+~japan.cnet.com,~japan.zdnet.com,~pc-zero.jp##*[id^="ad_"]:not(body)
+##*[id^="AD_"]:not(body)
+##*[id^="adBox"]:not(body)
+##*[id^="ads-"]:not(body)
+##*[id^="ADs-"]:not(body)
+##*[id^="ADS-"]:not(body)
+##*[id^="ads_"]:not(body)
+##*[id^="ADs_"]:not(body)
+##*[id^="ADS_"]:not(body)
+##*[id^="deqwas"]:not(body)
+##*[id^="deteql"]:not(body)
+##*[id^="gAdsense"]:not(body)
+##*[id^="google_afc_"]:not(body)
+! ##*:not([id="pr-root"]):not([class^="dct-"])[id^="pr-"]:not(body)
+! ##*[id^="PR-"]:not(body)
+! ~books.com.tw##*[id^="pr_"]:not(body)
+! ##*[id^="PR_"]:not(body)
+##*[id*="adsense"]:not(body)
+##*[id*="AdSense"]:not(body)
+##*[id*="advertisement"]:not(body)
+##*[id*="Advertisement"]:not(body)
+##*[id*="ADVERTISEMENT"]:not(body)
+##*[id*="advertising"]:not(body)
+##*[id*="Advertising"]:not(body)
+##*[id*="ADVERTISING"]:not(body)
+##*[id*="affiliate"]:not(body)
+##*[id*="Affiliate"]:not(body)
+##*[id*="AFFILIATE"]:not(body)
+##*[id*="overture"]:not(body)
+##*[id*="Overture"]:not(body)
+##*[id*="OVERTURE"]:not(body)
+! ##*[id*="prtext"]:not(body)
+! ##*[id*="PRtext"]:not(body)
+! ##*[id*="prText"]:not(body)
+##*[id*="sponsor"]:not(body)
+##*[id*="Sponsor"]:not(body)
+##*[id*="SPONSOR"]:not(body)
+~foreignaffairs.com##*[id*="-ad-"]:not(body)
+##*[id*="-AD-"]:not(body)
+##*[id*="-ads-"]:not(body)
+##*[id*="-ADs-"]:not(body)
+##*[id*="-ADS-"]:not(body)
+! ##*[id*="-pr-"]:not(body)
+! ##*[id*="-PR-"]:not(body)
+~video.fc2.com##*[id*="_ad_"]:not(body)
+##*[id*="_AD_"]:not(body)
+##*[id*="_ads_"]:not(body)
+##*[id*="_ADs_"]:not(body)
+##*[id*="_ADS_"]:not(body)
+! ##*[id*="_pr_"]:not(body)
+! ##*[id*="_PR_"]:not(body)
+##*[id$="-ad"]:not(body)
+##*[id$="-AD"]:not(body)
+##*[id$="-ads"]:not(body)
+##*[id$="-ADs"]:not(body)
+##*[id$="-ADS"]:not(body)
+! ~kakaku.com##*[id$="-pr"]:not(body)
+! ##*[id$="-PR"]:not(body)
+##*[id$="_ad"]:not(body)
+##*[id$="_AD"]:not(body)
+##*[id$="_ads"]:not(body)
+##*[id$="_ADs"]:not(body)
+##*[id$="_ADS"]:not(body)
+! ##*[id$="_pr"]:not(body)
+! ##*[id$="_PR"]:not(body)
+##*[class^="ad-"]:not(body)
+##*[class^="AD-"]:not(body)
+##*[class^="ad_"]:not(body)
+##*:not(body):not(table)[class^="AD_"]:not(body)
+##*[class^="adBox"]:not(body)
+##*[class^="ads-"]:not(body)
+##*[class^="ADs-"]:not(body)
+##*[class^="ADS-"]:not(body)
+##*[class^="ads_"]:not(body)
+##*[class^="ADs_"]:not(body)
+##*[class^="ADS_"]:not(body)
+##*[class^="deqwas"]:not(body)
+##*[class^="deteql"]:not(body)
+##*[class^="google-ads"]:not(body)
+! ##*[class^="pr-"]:not(body)
+! ##*[class^="PR-"]:not(body)
+! ##*[class^="pr_"]:not(body)
+! ##*[class^="PR_"]:not(body)
+~wikia.com##*[class*="adsense"]:not(body)
+##*[class*="AdSense"]:not(body)
+##*[class*="advertisement"]:not(body)
+##*[class*="Advertisement"]:not(body)
+##*[class*="ADVERTISEMENT"]:not(body)
+##*[class*="advertising"]:not(body)
+##*[class*="Advertising"]:not(body)
+##*[class*="ADVERTISING"]:not(body)
+##*[class*="AdWords"]:not(body)
+##*[class*="affiliate"]:not(body)
+##*[class*="Affiliate"]:not(body)
+##*[class*="AFFILIATE"]:not(body)
+##*[class*="overture"]:not(body)
+##*[class*="Overture"]:not(body)
+##*[class*="OVERTURE"]:not(body)
+! ##*[class*="prtext"]:not(body)
+! ##*[class*="PRtext"]:not(body)
+~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body)
+##*[class*="Sponsor"]:not(body)
+##*[class*="SPONSOR"]:not(body)
+~foreignaffairs.com##*[class*="-ad-"]:not(body)
+##*[class*="-AD-"]:not(body)
+##*[class*="-ads-"]:not(body)
+##*[class*="-ADs-"]:not(body)
+##*[class*="-ADS-"]:not(body)
+! ##*[class*="-pr-"]:not(body)
+! ##*[class*="-PR-"]:not(body)
+~gamespot.com##*[class*="_ad_"]:not(body)
+##*[class*="_AD_"]:not(body)
+##*[class*="_ads_"]:not(body)
+##*[class*="_ADs_"]:not(body)
+##*[class*="_ADS_"]:not(body)
+! ##*[class*="_pr_"]:not(body)
+! ##*[class*="_PR_"]:not(body)
+##*[class$="-ad"]:not(body)
+##*[class$="-AD"]:not(body)
+##*[class$="-ads"]:not(body)
+##*[class$="-ADs"]:not(body)
+##*[class$="-ADS"]:not(body)
+! ##*[class$="-pr"]:not(body)
+! ##*[class$="-PR"]:not(body)
+~itoyokado.co.jp##*[class$="_ad"]:not(body)
+##*[class$="_AD"]:not(body)
+##*[class$="_ads"]:not(body)
+##*[class$="_ADs"]:not(body)
+##*[class$="_ADS"]:not(body)
+! ##*[class$="_pr"]:not(body)
+! ##*[class$="_PR"]:not(body)
 ! ---------- Element Hiding END --------------------------------------
 ! 
 ! ==================== Element Hiding with domains START ========================
@@ -2100,8 +2100,8 @@ atmarkit.co.jp##.monosp
 atmarkit.co.jp##.pr-l
 atmarkit.co.jp##.rspecial
 atmarkit.co.jp##.ttl-techtarget
-atmarkit.co.jp##*[id^="rcspSFlash"]
-atmarkit.co.jp##*[id^="rrec"]
+atmarkit.co.jp##*[id^="rcspSFlash"]:not(body)
+atmarkit.co.jp##*[id^="rrec"]:not(body)
 atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
 biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
 news.biglobe.ne.jp##.praTB
@@ -2177,7 +2177,7 @@ diamond.jp##div[class*="box"][class*="side_business-info"]
 diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
 zai.diamond.jp##.pickup
-zai.diamond.jp##*[class*="campaign"]
+zai.diamond.jp##*[class*="campaign"]:not(body)
 zai.diamond.jp##a[href*="campaign"]
 zai.diamond.jp##a[href*="/oo/"]
 e-words.jp###l
@@ -2199,12 +2199,12 @@ chitekizaisan.blog28.fc2.com##.free-area2
 minisoku.blog97.fc2.com###headline
 workingnews.blog117.fc2.com##.free_area
 ferret-plus.com###prinfo
-gci-klug.jp##*[class*="AdBox"]
-gci-klug.jp##*[class*="AdsBox"]
-gendai.net##*[id^="adingo_"]
+gci-klug.jp##*[class*="AdBox"]:not(body)
+gci-klug.jp##*[class*="AdsBox"]:not(body)
+gendai.net##*[id^="adingo_"]:not(body)
 gigafree.net###spl
 gigafree.net##.spl
-gigazine.net##*[src*="/tnemesitrevda/"]
+gigazine.net##*[src*="/tnemesitrevda/"]:not(body)
 gihyo.jp###contentHotspot
 gihyo.jp###secondary > div.textPR
 gihyo.jp###secondary > div.banner
@@ -2268,7 +2268,7 @@ kakaku.com##.prBn
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
-kget.jp##*[class^="ad"]
+kget.jp##*[class^="ad"]:not(body)
 lavasoft.jp###firstpagebanner
 lifehacker.com###header
 lifehacker.jp###ranking_key
@@ -2296,7 +2296,7 @@ mainichi.jp##.AdGraph
 mainichi.jp##.AffAD
 mainichi.jp##.NaviAd
 mainichi.jp##.SquareAd
-mainichi.jp##*[class^="ArticleAd"]
+mainichi.jp##*[class^="ArticleAd"]:not(body)
 mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
 mapion.co.jp###adTop
 mapion.co.jp###adTxtInMain
@@ -2319,8 +2319,8 @@ mycom.co.jp###adspecial
 mycom.co.jp##.adspecial
 mycom.co.jp##a[href*="adspecial"]
 mycom.co.jp##a[href*="kali.mycom.co.jp"]
-mycom.co.jp##*[src*="adspecial"]
-mycom.co.jp##*[src*="kali.mycom.co.jp"]
+mycom.co.jp##*[src*="adspecial"]:not(body)
+mycom.co.jp##*[src*="kali.mycom.co.jp"]:not(body)
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
 nakanohito.jp###paddingside > div#header + div#padding
 namaan.net###listing_top
@@ -2344,7 +2344,7 @@ business.nikkeibp.co.jp##p.bunner
 business.nikkeibp.co.jp##.otoGuidance
 itpro.nikkeibp.co.jp###subContent .rectangle
 itpro.nikkeibp.co.jp###subContent .rightRectangle
-itpro.nikkeibp.co.jp##*[href^="/data/"]
+itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body)
 itpro.nikkeibp.co.jp###leaf_datascope
 itpro.nikkeibp.co.jp##div.leaf_datascope
 ninja.co.jp###box_m
@@ -2378,8 +2378,8 @@ jp.reuters.com##.bannerad
 president.jp.reuters.com##div.prad
 revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
-robtex.com##*[id^="xad"]
-rue89japon.com##*[id^="ad_"]
+robtex.com##*[id^="xad"]:not(body)
+rue89japon.com##*[id^="ad_"]:not(body)
 sankei.jp.msn.com###pt
 sanspo.com###lBoard2
 sanspo.com##div.lBoard2
@@ -2404,15 +2404,15 @@ smashinghub.com##.adleft
 smashinghub.com##.adright
 sophia-it.com##.adtx
 sophia-it.com##.shin3
-sophia-it.com##*[class^="banner"]
+sophia-it.com##*[class^="banner"]:not(body)
 sourceforge.jp###adaptive-prtext
 sourceforge.jp###adbar>.sidebar-ad-text~div:nth-of-type(2)
 sourceforge.jp###adbar > :first-child
 sourceforge.jp##div[style="height: 250px;"]
 stackasterisk.jp##table.tableCaution
-tbs.co.jp##*[id^="banner-"]
+tbs.co.jp##*[id^="banner-"]:not(body)
 tbs.co.jp###promotion
-technobahn.com##*[src*=".technobahn.com/cgi-bin/dart/display"]
+technobahn.com##*[src*=".technobahn.com/cgi-bin/dart/display"]:not(body)
 technobahn.com##a[href*=".technobahn.com/cgi-bin/dart/click"]
 technobahn.com##tr.ch[id^="taw"]
 technobahn.com##tr.ch[id^="taw"]+tr
@@ -2461,7 +2461,7 @@ www.vector.co.jp###top_special
 www.vector.co.jp###top_special + center
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
-virtualdub.org##*[alt$="Ad]"]
+virtualdub.org##*[alt$="Ad]"]:not(body)
 special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area
 ! yahoo.co.jp###adLrec
@@ -2495,9 +2495,9 @@ finance.yahoo.com##div.yfi_ysm
 finance.yahoo.com##div.ygma
 finance.yahoo.co.jp##div.sqbFiAd
 login.yahoo.co.jp###yregtxt
-mail.yahoo.co.jp##*[id^="dashview"]
-mail.yahoo.co.jp##*[id^="jpwelcomeinsideyahoo"]
-mail.yahoo.co.jp##*[id^="jpwelcomeym"]
+mail.yahoo.co.jp##*[id^="dashview"]:not(body)
+mail.yahoo.co.jp##*[id^="jpwelcomeinsideyahoo"]:not(body)
+mail.yahoo.co.jp##*[id^="jpwelcomeym"]:not(body)
 mail.yahoo.co.jp###lbadspr
 mail.yahoo.co.jp##div.dashcontent
 mail.yahoo.co.jp##div.lbadspr
