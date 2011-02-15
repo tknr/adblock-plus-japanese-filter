@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: z2rR/LqIDJ40BewQ8pTZeQ
-! Last modified: 2011-02-15 04:15:56 JST
+! Checksum: MkIR3kMraTbbF8DxPja1bA
+! Last modified: 2011-02-15 12:08:17 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -719,6 +719,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||enquisite.com^$third-party
 ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
+||esecure-transaction.com^
 ||etology.com^$third-party
 ||etracker.de^
 ||everestjs.net^
@@ -1003,6 +1004,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.pitta.ne.jp^
 ||ads*.pixiv.net^
 ||ads*.pixiv.org^
+||plugin-x.com^$third-party
 ||pochioku.jp^$third-party
 ||pointroll.com^$third-party
 ||ponpare.jp^$third-party
@@ -1180,6 +1182,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.wsod.com^
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
+||xcams.com^$third-party
 ||xlisting.co.jp^$third-party
 ||xlisting.jp^
 ||xmatch.com^$third-party
