@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 70UhQ+BvqEcSbME/TqPFPQ
-! Last modified: 2011-02-18 13:22:19 JST
+! Checksum: xsAmqkvAKH8Q72oXcaTlsw
+! Last modified: 2011-02-18 16:48:26 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2235,6 +2235,7 @@ www.google.com,www.google.co.jp###tadsb.c
 ! false positive: When searching for "1x1" or 0 result, no contents displays... Reported by liesel.einstein
 ! www.google.com,www.google.co.jp###topstuff
 www.google.com,www.google.co.jp###wmxmsg
+www.google.com,www.google.co.jp##.ra
 www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
 www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
 hamusoku.com##.topbox
