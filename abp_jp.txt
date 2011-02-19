@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 6q2h6QgUAsA/tYX4gmR9dw
-! Last modified: 2011-02-19 16:56:18 JST
+! Checksum: Z16V8rz797hk6e9VXs0fNw
+! Last modified: 2011-02-19 17:23:00 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1237,6 +1237,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||yieldmanager.com^$third-party
 ||yimg.jp/bdv/
 ||yimg.jp/images/analytics/
+||yimg.jp/images/*/pr/
 ||yimg.com^*/js/geov3.$script
 ||ads.yimg.com^
 ||youtube.com/s?
@@ -2490,6 +2491,7 @@ yahoo.co.jp##div[id^="modAd"]
 ! 2010-11-05: Temporarily commented out a false positive reported by nurupo
 ! yahoo.co.jp##div[id^="uhd"]
 yahoo.co.jp###pos-lrec
+yahoo.co.jp###promoareaM
 yahoo.co.jp###tct
 yahoo.co.jp###yjcatspns
 yahoo.co.jp###yschec
