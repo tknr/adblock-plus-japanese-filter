@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 8Sh+2UhRUDuUMLhiImoJfQ
-! Last modified: 2011-02-20 02:44:59 JST
+! Checksum: wzLncwZqonNxHC0Ur2RIHA
+! Last modified: 2011-02-20 22:37:51 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -72,6 +72,7 @@ nicovideo.jp###ichiba_placeholder + div
 !
 ! ===== Annoying Live Chat (Don't pop up for everyone!) ===== START =====
 ||53kf.com^$third-party
+||livechatinc.net^
 ! ----- Annoying Live Chat (Don't pop up for everyone!) ----- END -----
 !
 ! ===== Annoying Toolbar ===== START =====
