@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: TZWGFQA+KOXSyzdKLABnAA
-! Last modified: 2011-02-20 14:10:59 JST
+! Checksum: XknbfnsudJIJWM/nE1S67Q
+! Last modified: 2011-02-20 15:18:51 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1857,6 +1857,12 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="sponsor"]
 ##a[href*="utm_medium=ad"]
 ##a[href*="utm_source=ad"]
+##a[href*="/?vpab0"]
+##a[href*="/?vpca0"]
+##a[href*="/?vpch0"]
+##a[href*="/?vpcy0"]
+##a[href*="/?vpcz0"]
+##a[href*="/?vpee0"]
 ! ---------- Links with keywords END ----------
 ! ========== Links with URLs START ==========
 ##a[href*="/bin/gg?"]
@@ -1918,6 +1924,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".liutilities.com/affcb/"]
 ##a[href*=".liveads.jp/widgets_src/"]
 ##a[href*=".loka.jp"]
+##a[href*="media-b.jp/hbcount/"]
 ##a[href*=".mediaplex.com"]
 ##a[href*="//ads.mixi.jp"]
 ##a[href*="mobile-click.org"]
