@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: wzLncwZqonNxHC0Ur2RIHA
-! Last modified: 2011-02-20 22:37:51 JST
+! Checksum: kN8xRqI/I7jDsbDIVWemcw
+! Last modified: 2011-02-20 23:11:34 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -50,6 +50,21 @@ nicovideo.jp###ichiba_placeholder
 nicovideo.jp###ichiba_placeholder + div
 ! ----- nicovideo.jp AD (?_?) ----- END -----
 ! 
+! ---------- Each Domain END -----------------------------------------
+!
+!
+! ########## Annoyance START #########################################
+!
+! ===== geoip ===== START =====
+/geoip.js$third-party
+||maxmind.com^$third-party
+! ----- geoip ----- END -----
+!
+! ===== Live Chat (Don't pop up for everyone!) ===== START =====
+||53kf.com^$third-party
+||livechatinc.net^
+! ----- Live Chat (Don't pop up for everyone!) ----- END -----
+!
 ! ===== Search keyword tapping ===== START =====
 ||excite.co.jp/jp/succession/front/scroll.$script
 ||search.livedoor.com/research/
@@ -60,24 +75,9 @@ nicovideo.jp###ichiba_placeholder + div
 ||so-net.ne.jp/search/javascripts/research/
 ! ----- Search keyword tapping ----- END -----
 ! 
-! ---------- Each Domain END -----------------------------------------
-!
-!
-! ########## Annoyance START #########################################
-!
-! ===== Annoying geoip ===== START =====
-/geoip.js$third-party
-||maxmind.com^$third-party
-! ----- Annoying geoip ----- END -----
-!
-! ===== Annoying Live Chat (Don't pop up for everyone!) ===== START =====
-||53kf.com^$third-party
-||livechatinc.net^
-! ----- Annoying Live Chat (Don't pop up for everyone!) ----- END -----
-!
-! ===== Annoying Toolbar ===== START =====
+! ===== Toolbar ===== START =====
 ||wibiya.com^$third-party
-! ----- Annoying Toolbar ----- END -----
+! ----- Toolbar ----- END -----
 !
 ! ---------- Annoyance END -------------------------------------------
 !
