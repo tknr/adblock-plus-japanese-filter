@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: +Tvj1d4jdXpVy31Whc0bsg
-! Last modified: 2011-02-22 04:31:03 JST
+! Checksum: EyKV9fH+tDY8x46cw6mWhg
+! Last modified: 2011-02-22 05:13:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -367,6 +367,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /showads.
 /sideparts/b_joy_$image
 /sitestratos/ss_
+/snare.js
 /sponsor-
 /sponsor.
 /sponsor/*
@@ -832,6 +833,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||i2iserv.com^$third-party
 ||ideaxidea.com/*_banner.
 ||idol-gallery.net^$third-party
+||iesnare.com^
 ||imageporter.com^$third-party
 ||imlive.com^$third-party
 ||impact-ad.jp^$third-party
