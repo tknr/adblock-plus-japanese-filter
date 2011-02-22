@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: sMBeZCPtjilGBWSuRE3cSA
-! Last modified: 2011-02-21 17:57:51 JST
+! Checksum: n3sZHKTmivmt0Sa4JE0LBw
+! Last modified: 2011-02-22 15:49:16 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -75,7 +75,11 @@ nicovideo.jp###ichiba_placeholder + div
 ||seesaa.jp/js/trace_searcher.$script
 ||so-net.ne.jp/search/javascripts/research/
 ! ----- Search keyword tapping ----- END -----
-! 
+!
+! ===== Stealth Link Converter for the sake of Affiliate ===== START =====
+||viglink.com^$third-party
+! ----- Stealth Link Converter for the sake of Affiliate ----- END -----
+!
 ! ===== Toolbar ===== START =====
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
