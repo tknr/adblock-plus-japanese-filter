@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: n3sZHKTmivmt0Sa4JE0LBw
-! Last modified: 2011-02-22 15:49:16 JST
+! Checksum: edPt/YcEzZhSgBXcej/Fog
+! Last modified: 2011-02-23 01:17:19 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -88,5 +88,4 @@ nicovideo.jp###ichiba_placeholder + div
 !
 !
 ! ########## Suspicious START ########################################
-||0pb.org^
 ! ---------- Suspicious END ------------------------------------------
