@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: hWBCp4Mz8pwghy9Z2upvXA
-! Last modified: 2011-02-23 01:25:20 JST
+! Checksum: MBX4NmzpevJVfBV2yEi2fw
+! Last modified: 2011-02-23 01:29:13 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -189,7 +189,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /flashbanner.swf
 /foresee-$script
 /foresee.$script
-/foresee/$script
+/foresee/*$script
 /gemius/*
 /gemius.
 /gen_204
