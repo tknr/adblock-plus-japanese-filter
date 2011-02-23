@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: fD/ce5UG8RV3ory/iFXQ7Q
-! Last modified: 2011-02-23 11:45:35 JST
+! Checksum: UYRSBWS/IwMwykMcL54N6A
+! Last modified: 2011-02-23 13:28:50 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -928,6 +928,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||livejasmin.com/freechat/
 ||livejasmin.com/iframes/___ljlad/
 ||creatives.livejasmin.com^
+||liveuniversenetwork.com^
 ||logtwit.com^$third-party
 |http://*.loka.jp^$third-party
 ||lolipop.jp/ralite/
