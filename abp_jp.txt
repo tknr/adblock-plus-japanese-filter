@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: qrOGlzvwIWKuMkLvLl+3bg
-! Last modified: 2011-02-24 00:39:49 JST
+! Checksum: YILMV6PBFacpkpGZk25zJQ
+! Last modified: 2011-02-24 20:46:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2415,9 +2415,7 @@ newsweek.com##.inline-promo-link
 newsweekjapan.jp###sideAdPanel
 nicovideo.jp###web_pc_prime
 nifty.com###subBnr
-nikkeibp.co.jp##.relatedPR
-nikkeibp.co.jp##div[class*="_adsense"]
-nikkeibp.co.jp###subcontent > div[style="width: 300px; height: 300px; margin-top: 10px;"]
+nikkeibp.co.jp##.header-banner
 business.nikkeibp.co.jp###articlekeyword
 business.nikkeibp.co.jp###Dignio
 business.nikkeibp.co.jp###manageInfo2
