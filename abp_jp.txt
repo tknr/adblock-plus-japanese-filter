@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: q/mhZYkf62nTOBxwTkMGsQ
-! Last modified: 2011-02-26 17:49:22 JST
+! Checksum: 2B1BN2y19yhgBiEVeW81wA
+! Last modified: 2011-02-26 18:19:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2227,7 +2227,7 @@ bizmakoto.jp,itmedia.co.jp###mobileshop
 bizmakoto.jp,itmedia.co.jp###osusumepc
 bizmakoto.jp,itmedia.co.jp###osusume
 bizmakoto.jp,itmedia.co.jp###r-txtfil
-bizmakoto.jp,itmedia.co.jp###red
+! false positive 2011-02-26: bizmakoto.jp,itmedia.co.jp###red
 bizmakoto.jp,itmedia.co.jp###signboard
 bizmakoto.jp,itmedia.co.jp##.endkwd
 bizmakoto.jp,itmedia.co.jp##.endwpp
