@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: oh0kZzS6by2z+u0NNIJQ/w
-! Last modified: 2011-02-26 18:57:58 JST
+! Checksum: 5HoJktmVbobQFTu5Ucg4jg
+! Last modified: 2011-02-26 22:04:48 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2080,7 +2080,7 @@ INSERT_RANDOM_NUMBER_HERE
 ! ##*[id*="prtext"]:not(body)
 ! ##*[id*="PRtext"]:not(body)
 ! ##*[id*="prText"]:not(body)
-##*[id*="sponsor"]:not(body)
+~accuweather.com##*[id*="sponsor"]:not(body)
 ##*[id*="Sponsor"]:not(body)
 ##*[id*="SPONSOR"]:not(body)
 ~foreignaffairs.com##*[id*="-ad-"]:not(body)
