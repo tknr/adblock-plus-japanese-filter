@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: w6HCWMzAzEP3B8stj/j0Vg
-! Last modified: 2011-02-26 22:47:56 JST
+! Checksum: dTArA4SNhp6iPSvgXIFnIg
+! Last modified: 2011-02-27 05:42:35 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2330,14 +2330,15 @@ blog.goo.ne.jp###mod-global-header-l > a:last-of-type
 books.google.com,books.google.co.jp###main_content + td
 maps.google.com,maps.google.co.jp###mclip
 www.google.com,www.google.co.jp###mbEnd
+www.google.com,www.google.co.jp###rtpl
 www.google.com,www.google.co.jp###tads.c
 www.google.com,www.google.co.jp###tadsb.c
-! false positive: When searching for "1x1" or 0 result, no contents displays... Reported by liesel.einstein
+! false positive: When searching for "1x1" or 0 result, no contents is displayed... Reported by liesel.einstein
 ! www.google.com,www.google.co.jp###topstuff
 www.google.com,www.google.co.jp###wmxmsg
 www.google.com,www.google.co.jp##.ra
 www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
-www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
+! Eliminated for the deference between FF3.x and FF4: www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
 hamusoku.com##.topbox
 hatena.ne.jp###info-header
 hatena.ne.jp##.list.ad
