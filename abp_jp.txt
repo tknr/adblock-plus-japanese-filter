@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: rrpQU5DpFnOUmNmOmqyIjw
-! Last modified: 2011-02-27 20:54:25 JST
+! Checksum: KhSLeRq7yIArBn8GnNtJjQ
+! Last modified: 2011-02-27 22:19:15 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -511,7 +511,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||210.135.99.84^
 ||210.155.151.148^
 ||0info.net^$third-party
-||0pb.org^
+||0pb.org/
 ||103092804.com^
 ||20serve.com^
 ||247realmedia.com^$third-party
@@ -613,7 +613,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||allabout.co.jp/js/mtx/
 ||allabout.co.jp/Live/alliance/
 ||allabout.co.jp/pts/js/
-||am10.ru^$third-party
+||am10.ru/$third-party
 ||rcm-jp.amazon.co.jp^$third-party
 ||amazonaws.com/*.cetrk.com/
 ||ameba.jp/common_style/js/user/dropdown*$script
@@ -840,7 +840,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||getclicky.com^$third-party
 ||gigafree.net/ga.$script
 ||glam.com^$third-party
-||glam.jp^$third-party
+||glam.jp/$third-party
 ||glam.co.jp^$third-party
 ||glammedia.com^$third-party
 ||b.gnavi.co.jp^
@@ -939,7 +939,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||kavanga.ru^$third-party
 ||recommend.kbmj.com^
 ||keewurd.com^
-||kiev.ua^$third-party
+||kiev.ua/$third-party
 ||kissmetrics.com^$third-party
 ||kontera.com^$third-party
 ||kyoto-np.co.jp/koukoku/
@@ -1218,7 +1218,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||thatsping.com^$third-party
 ||thatsping.jp^
 ||theloungenet.com^$third-party
-||tjq.com^$third-party
+||tjq.com/$third-party
 ||tofour.net^$third-party
 ||tracer.jp^$third-party
 ||trackalyzer.com^
