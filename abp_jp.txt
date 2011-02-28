@@ -688,6 +688,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||buysellads.com^$third-party
 ||gostats.cachefly.net^
 ||camads.net^$third-party
+||captainad.com^$third-party
 ||casalemedia.com^$third-party
 ||cashtrafic.com^$third-party
 ||celebros-analytics.com^
