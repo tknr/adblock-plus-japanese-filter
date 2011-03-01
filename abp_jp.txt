@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 7qHYfOucpA10E6vucNWtzA
-! Last modified: 2011-03-01 16:42:44 JST
+! Checksum: Jq9cN1X31qw0nPVwPayDfg
+! Last modified: 2011-03-01 20:59:01 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2075,7 +2075,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##img[alt$="_PR]"]
 ##*[id^="ad-"]:not(body)
 ##*[id^="AD-"]:not(body)
-~japan.cnet.com,~japan.zdnet.com,~pc-zero.jp##*[id^="ad_"]:not(body)
+~pc-zero.jp##*[id^="ad_"]:not(body)
 ##*[id^="AD_"]:not(body)
 ##*[id^="adBox"]:not(body)
 ##*[id^="ads-"]:not(body)
@@ -2278,13 +2278,14 @@ cnet.com##a[href*="//offers.cnet.com/redir?"]
 cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
 ! cnet.com##a[href*="//dw.com.com/redir?"]
-japan.cnet.com###top_recommend
-japan.cnet.com##.menu_recruit
-japan.cnet.com##.tieup
-japan.cnet.com##a[href*="//japan.cnet.com/click/"]
-japan.cnet.com##a[href*="//japan.cnet.com/extra/"]
-japan.cnet.com##a[href*="//japan.zdnet.com/click/"]
-japan.cnet.com##div[class^="block_large_top"]
+japan.cnet.com,japan.zdnet.com##.tieup
+japan.cnet.com,japan.zdnet.com##.tieup_box
+japan.cnet.com,japan.zdnet.com##.tieup_list_box
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/extra/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
 codezine.jp###shoeisha_gnavi
 codezine.jp##div.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
@@ -2650,6 +2651,4 @@ yomiuri.co.jp##div[class*="-txtad-"]
 !old youtube.com###results-main-content > div.searchView
 !old youtube.com###results-main-content > div[class="list-view"]:first-child
 youtube.com##.ads-pyv
-japan.zdnet.com###ad_smartlink
-japan.zdnet.com##div.ad_smartlink
 ! ---------- Element Hiding with domains END --------------------------
