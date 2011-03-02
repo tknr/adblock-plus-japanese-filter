@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: ikhOHBOpOmt1neRzhDAUpw
-! Last modified: 2011-03-02 19:47:32 JST
+! Checksum: Pg4/xbGZ7LBgMBKPIImE9Q
+! Last modified: 2011-03-02 23:58:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2517,9 +2517,6 @@ peer2peer.blog79.fc2.com###newentrys
 peer2peer.blog79.fc2.com##div.newentrys
 workingnews.blog117.fc2.com##.free_area
 phpspot.org###rightbar
-phpspot.org##div[style*="border: 1px solid rgb(240, 240, 240); padding: 4px 4px 4px 10px; text-align: left; margin-top: 5px; background-color: rgb(255, 248, 221);"]
-phpspot.org##div[style="border-bottom: 1px solid rgb(242, 242, 242); padding: 4px; background-color: rgb(255, 255, 255); margin-bottom: 6px;"]
-phpspot.org##div[style="border-top: 1px solid rgb(242, 242, 242); padding: 4px; background-color: rgb(255, 255, 255); margin-bottom: 6px;"]
 publickey.jp,publickey1.jp##.topbanner
 pya.cc##.tk
 jp.reuters.com###adArticleText
@@ -2559,7 +2556,6 @@ sophia-it.com##*[class^="banner"]:not(body)
 sourceforge.jp###adaptive-prtext
 sourceforge.jp###adbar>.sidebar-ad-text~div:nth-of-type(2)
 sourceforge.jp###adbar > :first-child
-sourceforge.jp##div[style="height: 250px;"]
 stackasterisk.jp##table.tableCaution
 tbs.co.jp##*[id^="banner-"]:not(body)
 tbs.co.jp###promotion
