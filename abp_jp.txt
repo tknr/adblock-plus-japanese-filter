@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: yIg9Hl0kCey3I/yw272rug
-! Last modified: 2011-03-03 14:24:37 JST
+! Checksum: DexmG/OjFVUt0IYqJKvNJA
+! Last modified: 2011-03-03 15:16:17 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1000,6 +1000,7 @@ INSERT_RANDOM_NUMBER_HERE
 |http://*.loka.jp^$third-party
 ||lolipop.jp/ralite/
 ||ad.lolipop.jp^
+||lucastadvertising.com^
 ||luxup.ru^
 ||lzjl.com^
 ||magma-analytics.com^$third-party
