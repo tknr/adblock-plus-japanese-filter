@@ -909,6 +909,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ideaxidea.com/*_banner.
 ||idol-gallery.net^$third-party
 ||iesnare.com^
+||iivt.com^
 ||imageporter.com^$third-party
 ||imlive.com^$third-party
 ||impact-ad.jp^$third-party
