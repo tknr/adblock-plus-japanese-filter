@@ -379,6 +379,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /text_ad/*
 /text_ad_
 /textad.
+/tirjs2.$script
 /tracker/*$third-party
 /trackers/*$third-party
 /tracking-
