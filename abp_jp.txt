@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 08TiYQyvJissngYFB/snyQ
-! Last modified: 2011-03-03 16:08:26 JST
+! Checksum: jzlDJSbz9AWdwXqWRJ+VGg
+! Last modified: 2011-03-04 16:51:32 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -462,59 +462,89 @@ INSERT_RANDOM_NUMBER_HERE
 ||biz/adsv/
 ||biz/js.ng/
 ||biz/js/ad/
-||biz/openx
+||biz/openx-
+||biz/openx.
+||biz/openx/*
+||biz/openx_
 ||cc/ad.js
 ! ||cc/ads/
 ||cc/adsv/
 ||cc/js.ng/
 ||cc/js/ad/
-||cc/openx
+||cc/openx-
+||cc/openx.
+||cc/openx/*
+||cc/openx_
 ||com/ad.js
 ||com/ads/
 ||com/adsv/
 ||com/js.ng/
 ||com/js/ad/
-||com/openx
+||com/openx-
+||com/openx.
+||com/openx/*
+||com/openx_
 ||fm/ad.js
 ! ||fm/ads/
 ||fm/adsv/
 ||fm/js.ng/
 ||fm/js/ad/
-||fm/openx
+||fm/openx-
+||fm/openx.
+||fm/openx/*
+||fm/openx_
 ||info/ad.js
 ||info/ads/
 ||info/adsv/
 ||info/js.ng/
 ||info/js/ad/
-||info/openx
+||info/openx-
+||info/openx.
+||info/openx/*
+||info/openx_
 ||jp/ad.js
 ! ||jp/ads/
 ||jp/adsv/
 ||jp/adcast$third-party
 ||jp/js.ng/
 ||jp/js/ad/
-||jp/openx
+||jp/openx-
+||jp/openx.
+||jp/openx/*
+||jp/openx_
 ||net/ad.js
 ||net/ads/
 ||net/adsv/
 ||net/js.ng/
 ||net/js/ad/
-||net/openx
+||net/openx-
+||net/openx.
+||net/openx/*
+||net/openx_
 ||org/ad.js
 ||org/adsv/
 ||org/js.ng/
 ||org/js/ad/
-||org/openx
+||org/openx-
+||org/openx.
+||org/openx/*
+||org/openx_
 ||to/ad.js
 ||to/adsv/
 ||to/js.ng/
 ||to/js/ad/
-||to/openx
+||to/openx-
+||to/openx.
+||to/openx/*
+||to/openx_
 ||tv/ad.js
 ||tv/adsv/
 ||tv/js.ng/
 ||tv/js/ad/
-||tv/openx
+||tv/openx-
+||tv/openx.
+||tv/openx/*
+||tv/openx_
 ! ---------- URL Fragments END ---------------------------------------
 ! 
 ! ########## Domain optionally with path START #######################
