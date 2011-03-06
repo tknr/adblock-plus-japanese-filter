@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: s193ehSLTyqUJeBRwhBEMA
-! Last modified: 2011-03-06 11:26:32 JST
+! Checksum: 69yccUqj4FJI+eiX/7dgPQ
+! Last modified: 2011-03-06 12:05:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -894,6 +894,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||banners.freett.com^
 ||relart.fresheye.com^
 ||friendlyduck.com^$third-party
+||funwebproducts.com^
 ||fusionads.net^$third-party
 ||game-advertising-online.com^$third-party
 ||garss.jp^$third-party
@@ -951,6 +952,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||iesnare.com^
 ||iivt.com^
 ||imageporter.com^$third-party
+||imgfarm.com^
 ||imlive.com^$third-party
 ||impact-ad.jp^$third-party
 ||ngs.impress.co.jp^
@@ -1098,6 +1100,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mylinkbox.com^$third-party
 ||myroitracking.com^
 ||mythings.com^$third-party
+||mywebsearch.com^
 ||nakanohito.jp/ap/
 ||nakanohito.jp/b1/
 ||bsap.nakanohito.jp^
@@ -1169,6 +1172,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ponpare.jp^$third-party
 ||pop6.com^$third-party
 ||r.popin.cc^
+||popularscreensavers.com^
 ||banner1.pornhost.com^
 ||pornhublive.com^$third-party
 ||ppc-direct.com^$third-party
