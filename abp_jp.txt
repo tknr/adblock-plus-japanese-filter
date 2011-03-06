@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 4+29BSJeTZKRMpdFH0ZZKw
-! Last modified: 2011-03-05 19:52:29 JST
+! Checksum: s193ehSLTyqUJeBRwhBEMA
+! Last modified: 2011-03-06 11:26:32 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1185,11 +1185,11 @@ INSERT_RANDOM_NUMBER_HERE
 ||questionmarket.com^$third-party
 ||rakulog.com^$third-party
 ||rakuten.co.jp/*/ad/
+||rakuten.co.jp/*/ad_
 ||rakuten.co.jp/js/adjs/
 ||rakuten.co.jp/js/catalyst/
 ||rakuten.co.jp/js/p_code.$script
 ||rakuten.co.jp/js/pr/
-||rakuten.co.jp/*/ad_
 ||afl.rakuten.co.jp^$third-party
 ||affiliate.rakuten.co.jp^$third-party
 ||dynamic.rakuten.co.jp^
@@ -2081,6 +2081,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//j-a-net.jp/gateway/click.cgi"]
 ##a[href*="//cl.jlisting.jp"]
 ##a[href*="//search.jword.jp"]
+##a[href*="//kvors.com/click/?"]
 ##a[href*="//click.linksynergy.com"]
 ##a[href*=".liutilities.com/affcb/"]
 ##a[href*=".liveads.jp/widgets_src/"]
