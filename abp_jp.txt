@@ -734,6 +734,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||brandreachsys.com^$third-party
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
+||bubblestat.com^$third-party
 ||buddytv.com/ads/
 ||burstnet.com^$third-party
 ||buysellads.com^$third-party
