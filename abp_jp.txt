@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: siMnETezRgZ0ywU9e9ZGKg
-! Last modified: 2011-03-07 22:03:32 JST
+! Checksum: +tQHLejsyKgoxAIbNPs+cw
+! Last modified: 2011-03-08 09:27:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1250,6 +1250,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||match.seesaa.jp^
 ||seoparts.net^$third-party
 ||serving-sys.com^$third-party
+||shareasale.com^$third-party
 ||shendu.cc^$third-party
 ||axad.shinobi.jp^
 ||ba*.shinobi.jp^$~image
@@ -1936,6 +1937,7 @@ INSERT_RANDOM_NUMBER_HERE
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ! ========== Links with keywords START ==========
 ##a[href*="&ad="]
+##a[href*="&afftrack="]
 ##a[href*="?affid="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
@@ -2112,6 +2114,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="//rd.rakuten.co.jp/s/?"]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="//searchpartner.jp/"]
+##a[href*="shareasale.com/r."]
 ##a[href*=".softonic.jp/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
 ##a[href*="//g.subcul.net"]
