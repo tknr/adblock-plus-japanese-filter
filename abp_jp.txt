@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: sBmM7Td/RvJMt8GhjT8YXw
-! Last modified: 2011-03-09 14:22:33 JST
+! Checksum: XPCDlEkRhEN2I9AD/Z2rHA
+! Last modified: 2011-03-10 01:30:08 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -375,6 +375,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /show_ads.
 /show_ads_impl.
 /showads.
+/side_bnn.
+/side_bnn1.
+/side_bnn2.
 /sideparts/b_joy_$image
 /sitestratos/ss_
 /snare.js
@@ -388,6 +391,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /text_ad_
 /textad.
 /tirjs2.$script
+/top_bnn.
 /tracker/*$third-party
 /trackers/*$third-party
 /tracking-
