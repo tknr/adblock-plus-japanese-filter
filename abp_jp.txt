@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: BnnC0r63oJ+BwDBAGj85FQ
-! Last modified: 2011-03-09 12:00:23 JST
+! Checksum: M3/MxJu8vgXTO33EY5w3XQ
+! Last modified: 2011-03-09 12:12:54 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2134,7 +2134,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="xtendmedia.com/clk?"]
 ##a[href*="ard.yahoo.com"]
 ##a[href*="lrd.yahoo.com"]
-~chiebukuro.yahoo.co.jp##a[href*="//ard.yahoo.co.jp"]:not([href*="//disaster."])
+##a[href*="//ard.yahoo.co.jp"]:not([href*="//account."]):not([href*="//chiebukuro."]):not([href*="//disaster."]):not([href*="//help."]):not([href*="//login."]):not([href*="//www.yahoo.co.jp"])
 ##a[href*="//krd.yahoo.co.jp"]
 ##a[href*="//rd.ane.yahoo.co.jp/rd?"]
 ##a[href*="//yjaxcrd.yahoo.co.jp"]
