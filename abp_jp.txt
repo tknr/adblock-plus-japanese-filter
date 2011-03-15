@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 4FE+suL79JwoKuBTKcQlLg
-! Last modified: 2011-03-14 14:09:32 JST
+! Checksum: 7gTSQA4kvvwQs2DXVvBptw
+! Last modified: 2011-03-15 13:05:19 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2152,6 +2152,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="ap.valuecommerce.com/"]
 ##a[href*="ck.valuecommerce.com/"]
 ##a[href*="visionavi.net/motivation/"]
+##a[href*="//adrd.weblio.jp"]
 ##a[href*="//blog.with2.net/link."]
 ##a[href*="world-auctions.org/?aid="]
 ##a[href*="//rd.xlisting.jp"]
@@ -2709,6 +2710,7 @@ www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
 virtualdub.org##*[alt$="Ad]"]:not(body)
 special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area
+weblio.jp##.adHIWrp
 ! yahoo.co.jp###adLrec
 ! yahoo.co.jp###adRp
 yahoo.co.jp###centralPosition
