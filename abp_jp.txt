@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: zt6SoXv/LahVRVItlFrTJQ
-! Last modified: 2011-03-18 15:32:23 JST
+! Checksum: DDNaDH3hnk8U9sR1aNG38Q
+! Last modified: 2011-03-18 15:42:03 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -36,6 +36,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /180x180.gif|$first-party
 /A-affiliate2/*
 /abnl/?begun=
+/ad.php?id=
 /ad/ad.js
 /ad/ads.js
 /ad/af/bn/*
