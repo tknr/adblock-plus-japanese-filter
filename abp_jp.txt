@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: PkOn9u7MSTVZ77u2m+SaDA
-! Last modified: 2011-03-18 14:20:10 JST
+! Checksum: /kFiik4MaDPjGQLSirzUsw
+! Last modified: 2011-03-18 14:26:34 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -339,6 +339,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /linkshare/*
 /listingplus/*
 /liveads.
+/log1.js
 /logimg.$image
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
