@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: /Y66NEkbotbveiEwXOwtEA
-! Last modified: 2011-03-20 13:49:30 JST
+! Checksum: YBdfrsWxaggM9PRCoXYtnw
+! Last modified: 2011-03-21 21:54:22 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2079,6 +2079,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="/kokoku/"]
 ##a[href*="/lsplus."]
+##a[href*="/traffic.php?c="]
+##a[href*="/track/traffic.php?"]
 ! ~capote.posterous.com##a[href*="-pr-"]
 ##a[href*="-PR-"]
 ##a[href*="-pr."]
