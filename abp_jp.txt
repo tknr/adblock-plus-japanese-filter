@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: 6cdJCNlOBuAuvn/vcPuJqg
-! Last modified: 2011-03-22 13:24:20 JST
+! Checksum: HkMoSLkc7jpVFEIavZNuCw
+! Last modified: 2011-03-22 13:33:39 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1514,6 +1514,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||zenback.jp^*tracking.$third-party
 ||zero.kz/
 ||ziyu.net^$third-party
+||znews.su^$third-party
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
 ||afcyhf.com^
 ||anrdoezrs.net^
