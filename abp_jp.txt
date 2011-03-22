@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: HkMoSLkc7jpVFEIavZNuCw
-! Last modified: 2011-03-22 13:33:39 JST
+! Checksum: wb+S7LoI+f04H+EjrTrKag
+! Last modified: 2011-03-22 14:03:06 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -676,6 +676,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||af-board.com^$third-party
 ||af-market.com^$third-party
 ||af-system.net^$third-party
+||affarity.com^
 ||affiliate-b.com^$third-party
 ||afpbb.com/ads/
 ||afpbb.com/*/banner
@@ -1368,7 +1369,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.targetingmarketplace.com^
 ||tbn.ru^$third-party
 ||tcs-asp.net^$third-party
-||teasernet.com^
+||teasernet.com^$third-party
 ||technoratimedia.com^$third-party
 ||tenoad.com^$third-party
 ||textad.net^$third-party
