@@ -1,6 +1,6 @@
 [Adblock Plus 1.2]
-! Checksum: YBdfrsWxaggM9PRCoXYtnw
-! Last modified: 2011-03-21 21:54:22 JST
+! Checksum: 4nofdqE9FWsxnVbPSder4A
+! Last modified: 2011-03-22 13:06:21 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1240,6 +1240,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ppc-direct.com^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
+||program3.com^$third-party
 ||pubmatic.com^$third-party
 ||pulse360.com^$third-party
 ||pussycash.com^$third-party
@@ -2079,8 +2080,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="/kokoku/"]
 ##a[href*="/lsplus."]
-##a[href*="/traffic.php?c="]
 ##a[href*="/track/traffic.php?"]
+##a[href*="/traffic.php?c="]
 ! ~capote.posterous.com##a[href*="-pr-"]
 ##a[href*="-PR-"]
 ##a[href*="-pr."]
