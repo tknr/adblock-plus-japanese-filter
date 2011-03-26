@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: sjpdLtYpS/ObmAJhyUiXbg
-! Last modified: 2011-03-26 20:15:48 JST
+! Checksum: IuWX5ZCZORFadD3o+n2Img
+! Last modified: 2011-03-26 21:08:21 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -33,7 +33,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 -utm.ca.$script
 .ca.html
 .kissinsights.com/
-//openx.
 /200_200.$image,domain=premium.nikkeibp.co.jp
 /__onedot?c=
 /__utm.gif
@@ -42,6 +41,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /180x180.gif|$first-party
 /A-affiliate2/*
 /abnl/?begun=
+/ad.js
 /ad.php?id=
 /ad/ad.js
 /ad/ads.js
@@ -126,10 +126,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /adPlayer.
 /ads-common.
 /ads-iframe-
-/ads.php?
-/ads/ad.js
-/ads/ads.js
-/ads/techcrunch
+/ads/*
 /adsense-
 /adsense.
 /adsense/*
@@ -146,6 +143,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /adstream/*
 /adstream_
 /adshow.
+/adsv/*
 /adtrack.
 /advert/*
 /advertise-
@@ -162,7 +160,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /analytics.
 /analytics?$third-party
 /analyticsid.$third-party
-/api/ads/*
 /AS3AdPlayer.
 /avw.php?zoneid=
 /axyzsdk.$script
@@ -182,7 +179,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /bnr/pr_
 /camp_banner/bnr_
 /cgi-bin/ad/*
-/cgi-bin/ads/*
 /chartbeat.
 /clickheat-
 /clickheat.
@@ -190,7 +186,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /clickheat_
 /clicklog.
 /cnet_scode.
-/cnwk.1d/Ads/*
+/cnwk.1d/*
 /count.js
 /counter.$~image
 /counter/*$~image
@@ -249,7 +245,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /image/ad88.$image
 /image/ads-
 /image/ads.
-/image/ads/*
 /image/ads_
 /image/banner/*$third-party
 /image/banner-$third-party
@@ -274,7 +269,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /images/ad88.$image
 /images/ads-
 /images/ads.
-/images/ads/*
 /images/ads_
 /images/lansweeper.$image
 /images/SE2Banner.$image
@@ -298,7 +292,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /img/ad88.$image
 /img/ads-
 /img/ads.
-/img/ads/*
 /img/ads_
 /img/banner/*$third-party
 /img/banner-$third-party
@@ -326,7 +319,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /imgs/ad88.$image
 /imgs/ads-
 /imgs/ads.
-/imgs/ads/*
 /imgs/ads_
 /imgs/banner-$third-party
 /imgs/banner.$third-party
@@ -335,7 +327,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /intellitxt/*
 /ivw/CP/*
 /jlisting/*
+/js.ng/*
 /js/ad.js
+/js/ad/
 /js/ads.js
 /js/app/analytics/*
 /js/dw.js
@@ -362,6 +356,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /OmnitureActionSource.
 /omniunih.
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
+/openx.
+/openx/*
+/openx_
 /overture-
 /overture.
 /overture/*
@@ -379,7 +376,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ! false positive @ twitter.com /promos/random_
 /promoted_content/*
 /r.poptracking?
-/RealMedia/ads/*
+/RealMedia/*
 /right-ad-
 /s/ad.js
 /s/ads.js
@@ -495,94 +492,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||eulerian.
 ||openadext.
 ||surveys.$third-party
-||biz/ad.js
-||biz/ads/
-||biz/adsv/
-||biz/js.ng/
-||biz/js/ad/
-||biz/openx-
-||biz/openx.
-||biz/openx/*
-||biz/openx_
-||cc/ad.js
-! ||cc/ads/
-||cc/adsv/
-||cc/js.ng/
-||cc/js/ad/
-||cc/openx-
-||cc/openx.
-||cc/openx/*
-||cc/openx_
-||com/ad.js
-||com/ads/
-||com/adsv/
-||com/js.ng/
-||com/js/ad/
-||com/openx-
-||com/openx.
-||com/openx/*
-||com/openx_
-||fm/ad.js
-! ||fm/ads/
-||fm/adsv/
-||fm/js.ng/
-||fm/js/ad/
-||fm/openx-
-||fm/openx.
-||fm/openx/*
-||fm/openx_
-||info/ad.js
-||info/ads/
-||info/adsv/
-||info/js.ng/
-||info/js/ad/
-||info/openx-
-||info/openx.
-||info/openx/*
-||info/openx_
-||jp/ad.js
-! ||jp/ads/
-||jp/adsv/
-||jp/adcast$third-party
-||jp/js.ng/
-||jp/js/ad/
-||jp/openx-
-||jp/openx.
-||jp/openx/*
-||jp/openx_
-||net/ad.js
-||net/ads/
-||net/adsv/
-||net/js.ng/
-||net/js/ad/
-||net/openx-
-||net/openx.
-||net/openx/*
-||net/openx_
-||org/ad.js
-||org/adsv/
-||org/js.ng/
-||org/js/ad/
-||org/openx-
-||org/openx.
-||org/openx/*
-||org/openx_
-||to/ad.js
-||to/adsv/
-||to/js.ng/
-||to/js/ad/
-||to/openx-
-||to/openx.
-||to/openx/*
-||to/openx_
-||tv/ad.js
-||tv/adsv/
-||tv/js.ng/
-||tv/js/ad/
-||tv/openx-
-||tv/openx.
-||tv/openx/*
-||tv/openx_
 ! ---------- URL Fragments END ---------------------------------------
 ! 
 ! ########## Domain optionally with path START #######################
@@ -686,7 +595,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||af-system.net^$third-party
 ||affarity.com^
 ||affiliate-b.com^$third-party
-||afpbb.com/ads/
 ||afpbb.com/*/banner
 ||a-img.afpbb.com^
 ||afterdownload.com^$third-party
@@ -716,7 +624,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||ameblo.jp/accesslog/
 ||amiami.jp^$third-party
 ||anchorfree.net^$third-party
-||aolcdn.com/ads/
 ||aolcdn.com/js/mg2.$script
 ||aolcdn.com/omniunih.$script
 ||aolcdn.com/omniunih_$script
@@ -786,7 +693,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
 ||bubblestat.com^$third-party
-||buddytv.com/ads/
 ||burstnet.com^$third-party
 ||bus-t.com^$third-party
 ||buysellads.com^$third-party
@@ -1182,7 +1088,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||nastydollars.com^$third-party
 ||navegg.com^$third-party
 ||neolabs.kz^$third-party
-||netcraft.com/ads/
 ||netsecurity.ne.jp/bnr/
 ||netshelter.net^$third-party
 ||neudesicmediagroup.com^$third-party
@@ -1202,7 +1107,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||nikkeibp.co.jp^*/rPR_
 ||nikkeibp.co.jp^*/welcome$script
 ||bizad.nikkeibp.co.jp^
-||res.nimg.jp/img/ads/
 ||nimg.jp/js/ads.js?
 ||nnlian.info^$third-party
 ||nomura.co.jp/resource/image/sideparts/
@@ -1301,13 +1205,11 @@ INSERT_RANDOM_NUMBER_HERE
 ||reuters.com/resources/js/adFrequencyCapping.
 ||reuters.com/resources/js/dart.
 ||reuters.com/resources/js/introMessageRedirect.
-||reuters.com/resources/media/global/ads/
 ||revsci.net^$third-party
 ||rssad.jp^$third-party
 ||research-artisan.com^$third-party
 ||ritlweb.com/jad.
 ||rlcdn.com^
-||robtex.com/ext/ads/
 ||rtoaster.jp^$third-party
 ||ru4.com/$third-party
 ||rubiconproject.com^$third-party
@@ -1537,7 +1439,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||z5x.net/$third-party
 ||zanox.com^$third-party
 ||zanox-affiliate.de^$third-party
-||zdnet.com/ads/
 ||adcl.japan.zdnet.com^
 ||zedo.com^$third-party
 ||zenback.jp^*tracking.$third-party
