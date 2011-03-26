@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: xxrbmtfq7JVRIEnn+mvZ/g
-! Last modified: 2011-03-26 21:27:51 JST
+! Checksum: djgJ3Ut1MFIo2gdcRqfwCg
+! Last modified: 2011-03-26 21:47:09 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -31,7 +31,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 *$donottrack,image,~image
 -ads.ca.$script
 -utm.ca.$script
-.ca.html
+.ca.html|
 .kissinsights.com/
 /200_200.$image,domain=premium.nikkeibp.co.jp
 /__onedot?c=
@@ -43,9 +43,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /abnl/?begun=
 /ad.js
 /ad.php?id=
-/ad/ad.js
-/ad/ads.js
-/ad/af/bn/*
 /ad/banner-
 /ad/banner.
 /ad/banner/*
@@ -126,6 +123,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /adPlayer.
 /ads-common.
 /ads-iframe-
+/ads.$script,image
 /ads/*
 /adsense-
 /adsense.
@@ -249,7 +247,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /image/ad728.$image
 /image/ad88.$image
 /image/ads-
-/image/ads.
 /image/ads_
 /image/banner/*$third-party
 /image/banner-$third-party
@@ -273,7 +270,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /images/ad728.$image
 /images/ad88.$image
 /images/ads-
-/images/ads.
 /images/ads_
 /images/lansweeper.$image
 /images/SE2Banner.$image
@@ -296,7 +292,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /img/ad728.$image
 /img/ad88.$image
 /img/ads-
-/img/ads.
 /img/ads_
 /img/banner/*$third-party
 /img/banner-$third-party
@@ -323,7 +318,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /imgs/ad728.$image
 /imgs/ad88.$image
 /imgs/ads-
-/imgs/ads.
 /imgs/ads_
 /imgs/banner-$third-party
 /imgs/banner.$third-party
@@ -333,9 +327,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /ivw/CP/*
 /jlisting/*
 /js.ng/*
-/js/ad.js
 /js/ad/
-/js/ads.js
 /js/app/analytics/*
 /js/dw.js
 /js/google_banner.
@@ -383,8 +375,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /r.poptracking?
 /RealMedia/*
 /right-ad-
-/s/ad.js
-/s/ads.js
 /sa/infospace.
 /sdc.js
 /sdc1.js
@@ -463,8 +453,6 @@ INSERT_RANDOM_NUMBER_HERE
 |https://ad-cdn.
 |http://adimg.
 |https://adimg.
-|http://ads.
-|https://ads.
 |http://ads1.
 |https://ads1.
 |http://ads2.
@@ -1110,7 +1098,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||nikkeibp.co.jp^*/rPR_
 ||nikkeibp.co.jp^*/welcome$script
 ||bizad.nikkeibp.co.jp^
-||nimg.jp/js/ads.js?
 ||nnlian.info^$third-party
 ||nomura.co.jp/resource/image/sideparts/
 ||nsimg.net^
