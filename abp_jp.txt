@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Txay56yR/RxxKjs0TmU4kg
-! Last modified: 2011-03-26 22:30:14 JST
+! Checksum: Zsxj2J/bs6vr5Hzv3hfMSw
+! Last modified: 2011-03-27 17:20:07 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -449,35 +449,23 @@ _sponsor_
 INSERT_RANDOM_NUMBER_HERE
 |http://ad.
 |https://ad.
-|http://ad-cdn.
-|https://ad-cdn.
-|http://adimg.
-|https://adimg.
-|http://ads1.
-|https://ads1.
-|http://ads2.
-|https://ads2.
-|http://adcl.
-|https://adcl.
+||ad-cdn.
+||adimg.
+||ads1.
+||ads2.
+||adcl.
 |http://c.*/c.$image
 |https://c.*/c.$image
-|http://log0
-|http://hitlog
-|http://mads.
-|https://mads.
-|http://metrics.
-|https://metrics.
-|https://smetrics.
-|http://ocp.
-|https://ocp.
-|http://stats.$third-party
-|https://stats.$third-party
-|http://statistics.$third-party
-|https://statistics.$third-party
-|http://track.
-|https://track.
-|http://tracker.
-|https://tracker.
+||log0.
+||hitlog.
+||mads.
+||metrics.
+||smetrics.
+||ocp.
+||stats.$third-party
+||statistics.$third-party
+||track.
+||tracker.
 ||adserving.
 ||aff-images.
 ||eulerian.
@@ -497,7 +485,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||count.2ch.net^$~image
 ||find.2ch.net/*_banner_
 ||2mdn.net^$third-party
-||2o7.net/$third-party
+||2o7.net^$third-party
 ||33across.com^$third-party
 ||365ip.info^$third-party
 ||37see.com^$third-party
@@ -510,8 +498,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||8cnd.com^$third-party
 ||a-cast.jp^
 ||a-pagerank.net^$third-party
-|http://*.a8.net/$third-party
-|https://*.a8.net^$third-party
+||a8.net^$third-party
 ||accesstrade.net^$third-party
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
@@ -522,7 +509,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad-v.jp/$third-party
 ||ad4game.com^$third-party
 ||adadvisor.net^$third-party
-||adap.tv/$third-party
+||adap.tv^$third-party
 ||adaptiveblue.com^
 ||adblade.com^$third-party
 ||adbrite.com^$third-party
@@ -574,7 +561,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||advertisespace.com^$third-party
 ||advertising.com^$third-party
 ||advertstream.com^$third-party
-||advg.jp/$third-party
+||advg.jp^$third-party
 ||adviva.net^$third-party
 ||advmaker.ru^$third-party
 ||adwires.com^$third-party
@@ -603,7 +590,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||allabout.co.jp/js/mtx/
 ||allabout.co.jp/Live/alliance/
 ||allabout.co.jp/pts/js/
-||am10.ru/$third-party
+||am10.ru^$third-party
 ||rcm-jp.amazon.co.jp^$third-party
 ||amazonaws.com/*.cetrk.com/
 ||ameba.jp/common_style/js/user/dropdown*$script
@@ -694,7 +681,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||cwps.carview.co.jp^
 ||casalemedia.com^$third-party
 ||cashtrafic.com^$third-party
-||cbox.ws/$third-party
+||cbox.ws^$third-party
 ||celebros-analytics.com^
 ||cetrk.com^
 ||chango.com^$third-party
@@ -792,7 +779,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||e-planning.net^$third-party
 ||e-words.jp/adcom.
 ||ad.e-words.jp^
-||eads.to/$third-party
+||eads.to^$third-party
 ||ebis.ne.jp^$third-party
 ||ecnavi.jp/campaign/$third-party
 ||eco-tag.jp^
@@ -834,7 +821,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||affiliate.fc2.com^
 ||analyzer*.fc2.com/ana/
 ||analyzer*.fc2.com/analyzercook.
-||counter*.fc2.com/$~image
+||counter*.fc2.com^$~image
 ||media.fc2.com^
 ||media3.fc2.com^
 ||featuredusers.com^$third-party
@@ -863,7 +850,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||getclicky.com^$third-party
 ||gigafree.net/ga.$script
 ||glam.com^$third-party
-||glam.jp/$third-party
+||glam.jp^$third-party
 ||glam.co.jp^$third-party
 ||glammedia.com^$third-party
 ||b.gnavi.co.jp^
@@ -904,10 +891,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||hotlog.ru^$third-party
 ||hubspot.com^$third-party
 ||i-mobile.co.jp^$third-party
-|http://ac*.i2i.jp^
-|https://ac*.i2i.jp^
-|http://rc*.i2i.jp^
-|https://rc*.i2i.jp^
+||i2i.jp^$third-party
+||ac*.i2i.jp^
+||rc*.i2i.jp^
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
 ||ideaxidea.com/*_banner.
@@ -969,7 +955,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||kavanga.ru^$third-party
 ||recommend.kbmj.com^
 ||keewurd.com^
-||kiev.ua/$third-party
+||kiev.ua^$third-party
 ||kinwee.com^$third-party
 ||kissmetrics.com^$third-party
 ||kliknik.com^$third-party
@@ -1007,7 +993,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||liveuniversenetwork.com^
 ||loading321.com^
 ||logtwit.com^$third-party
-|http://*.loka.jp^$third-party
+||loka.jp^$third-party
 ||lolipop.jp/ralite/
 ||ad.lolipop.jp^
 ||loveplanet.ru^$third-party
@@ -1201,7 +1187,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ritlweb.com/jad.
 ||rlcdn.com^
 ||rtoaster.jp^$third-party
-||ru4.com/$third-party
+||ru4.com^$third-party
 ||rubiconproject.com^$third-party
 ||saisoncard.co.jp/netanswer/kakakucom/
 ||saisoncard.co.jp/netanswer/na_top/if_banner
@@ -1286,7 +1272,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||thatsping.com^$third-party
 ||thatsping.jp^
 ||theloungenet.com^$third-party
-||tjq.com/$third-party
+||tjq.com^$third-party
 ||tlbn.org^$third-party
 ||tofour.net^$third-party
 ||tracer.jp^$third-party
@@ -1372,7 +1358,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||xlisting.co.jp^$third-party
 ||xlisting.jp^
 ||xmatch.com^$third-party
-||xmax.jp/$third-party
+||xmax.jp^$third-party
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||ax.xrea.com^$third-party
@@ -1426,7 +1412,7 @@ INSERT_RANDOM_NUMBER_HERE
 !False Positive(dammy 1x1 placeholder for css spriting) ||ytimg.com/yt/img/pixel-
 ||ytimg.com/yt/swfbin/ad-
 ||ytimg.com/yt/swfbin/ad3-
-||z5x.net/$third-party
+||z5x.net^$third-party
 ||zanox.com^$third-party
 ||zanox-affiliate.de^$third-party
 ||adcl.japan.zdnet.com^

@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: AsZhC1oTAzP7iRB973E/Og
-! Last modified: 2011-03-26 20:15:48 JST
+! Checksum: z6R8MRuUPmJ6h2wpUVsrbg
+! Last modified: 2011-03-27 17:20:08 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -21,21 +21,17 @@
 !
 ! ########## Generic filters START ###################################
 *$donottrack,image,~image
-/1x1.gif
-/1x1.jpg
-/1x1.jpeg
-/1x1.png
+/1x1.$image
 /gen_204$domain=~maps.google.co.jp|~maps.google.com
 /generate_204
 !
 ! ===== Google Analytics ===== START =====
-/urchin.js
+/urchin.
 ! ----- Google Analytics ----- END -----
 !
 ! ===== Omniture SiteCatalyst ===== START =====
-/s_code.js$domain=~sonystyle.com
-/s_code.intl.$script
-/s_code_*.$script
+/s_code.$domain=~sonystyle.com
+/s_code_$script
 ! ----- Omniture SiteCatalyst ----- END -----
 ! 
 ! ---------- Generic filters END -------------------------------------
