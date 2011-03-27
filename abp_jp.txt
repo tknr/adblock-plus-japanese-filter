@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: d7Am2AoeNdFLdQQPr9bZJw
-! Last modified: 2011-03-27 17:28:21 JST
+! Checksum: XKI45/MSWmSvInKqGW/FrA
+! Last modified: 2011-03-27 17:36:16 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -478,7 +478,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||210.135.99.84^
 ||210.155.151.148^
 ||0info.net^$third-party
-||0pb.org/
+||0pb.org^
 ||103092804.com^
 ||20serve.com^
 ||247realmedia.com^$third-party
@@ -1011,7 +1011,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
 ||marsflag.com/adimg/
-||mcnt.jp/
+||mcnt.jp^
 ||media-servers.net^
 ||media6degrees.com^$third-party
 ||mediaplex.com^$third-party
@@ -1417,7 +1417,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adcl.japan.zdnet.com^
 ||zedo.com^$third-party
 ||zenback.jp^*tracking.$third-party
-||zero.kz/
+||zero.kz^
 ||ziyu.net^$third-party
 ||znews.su^$third-party
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
