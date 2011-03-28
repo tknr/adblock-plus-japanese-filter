@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: b7KyFBaW99XhdlVO9PGJlA
-! Last modified: 2011-03-28 17:44:37 JST
+! Checksum: 9xDtnXQ6J3t9lhz/IGd05A
+! Last modified: 2011-03-28 20:34:39 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1907,6 +1907,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.PR-txt
 ##.pr_txt
 ##.PR_txt
+##.promoted-videos
 ##.randomBanner
 ##.showcaseAd
 ##.spotlightAd
@@ -2712,7 +2713,5 @@ quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
 yomiuri.co.jp##a[href*="/adv/"]
 yomiuri.co.jp##div[class*="-txtad-"]
-!old youtube.com###results-main-content > div.searchView
-!old youtube.com###results-main-content > div[class="list-view"]:first-child
 youtube.com##.ads-pyv
 ! ---------- Element Hiding with domains END --------------------------
