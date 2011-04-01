@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: M6H3sPwpxvKs05tq1e6DZQ
-! Last modified: 2011-04-01 20:42:07 JST
+! Checksum: nGuYAk72edFwkkn0o3O4Rg
+! Last modified: 2011-04-01 21:00:55 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1344,6 +1344,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||w55c.net^
 ||wa-track.com^$third-party
 ||wahoha.com^
+||wb-rotator.com^
 ||web-stat.com^$third-party
 ||webantenna.info^$third-party
 ||webdo.co.jp^$third-party
@@ -1367,6 +1368,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||wowzio.net^$third-party
 ||ad.wsod.com^
 ||wt-rotator.biz^
+||wt-rotator.com^
+||wts-rotator.com^
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
