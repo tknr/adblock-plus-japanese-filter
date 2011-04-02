@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: nGuYAk72edFwkkn0o3O4Rg
-! Last modified: 2011-04-01 21:00:55 JST
+! Checksum: Ditd0ER1G8Zy0GujseuztQ
+! Last modified: 2011-04-02 16:00:26 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1938,7 +1938,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.topAds
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ! ========== Links with keywords START ==========
-##a[href*="&ad="]
+~famitsu.com##a[href*="&ad="]
 ##a[href*="&afftrack="]
 ##a[href*="?affid="]
 ##a[href*="-ad."]
