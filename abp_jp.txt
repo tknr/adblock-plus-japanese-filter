@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 0t/zPT0IA8GLW8vlbimSAg
-! Last modified: 2011-04-06 00:42:47 JST
+! Checksum: LSm9ph8lNfytYDWrxiZYlQ
+! Last modified: 2011-04-07 21:41:56 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -345,6 +345,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /liveads.
 /log1.js
 /logimg.$image
+/mtag_$third-party
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 /navad/delivery.
@@ -1344,6 +1345,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||undertone.com^$third-party
 ||ubcpm.com^
 ||unioncpm.com^$third-party
+||unitag.jp^$third-party
 ||urchin.com^$third-party
 ||usagc.org^$third-party
 ||d.ustream.tv^
