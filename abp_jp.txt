@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: EqS6pM2IK1Q6SQSgZojUYQ
-! Last modified: 2011-04-13 01:06:12 JST
+! Checksum: KduZmzE4NZqDc3vMW8i1CA
+! Last modified: 2011-04-13 02:12:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -768,6 +768,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||deqwas.net^
 ||deteql.net^
 ||zai.diamond.jp/oo/
+||directadvert.ru^$third-party
 ||dismas.jp^$third-party
 ||dl-rms.com^$third-party
 ||dlqm.net^$third-party
@@ -919,6 +920,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||hitslink.com^$third-party
 ||hoerbuch.in^
 ||hongfire.com/banner/
+||houmekredit.ru^
 ||gigazine1.hoster.jp/images/2
 ||analytics.hosting24.com^
 ||hotlog.ru^$third-party
@@ -928,6 +930,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||rc*.i2i.jp^
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
+||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
 ||idol-gallery.net^$third-party
 ||iesnare.com^
@@ -1228,6 +1231,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||rides.ac^$third-party
 ||ritlweb.com/jad.
 ||rlcdn.com^
+||rmbn.ru^$third-party
 ||rmdown.com/pc1.$image
 ||rtoaster.jp^$third-party
 ||ru4.com^$third-party
@@ -1357,6 +1361,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ucoz.ua^$third-party
 ||undertone.com^$third-party
 ||ubcpm.com^
+||ultrapay.net^$third-party
 ||unioncpm.com^$third-party
 ||unitag.jp^$third-party
 ||urchin.com^$third-party
