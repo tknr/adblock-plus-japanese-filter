@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: PXiHVeasDhyYqAN4PoO+0A
-! Last modified: 2011-04-13 22:11:17 JST
+! Checksum: tSmx4zBrm2fmcAtr4CEI+w
+! Last modified: 2011-04-13 22:28:54 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1109,6 +1109,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||navegg.com^$third-party
 ||neolabs.kz^$third-party
 ||netaxle.com^$third-party
+||netgy.com^$third-party
 ||netsecurity.ne.jp/bnr/
 ||netshelter.net^$third-party
 ||neudesicmediagroup.com^$third-party
