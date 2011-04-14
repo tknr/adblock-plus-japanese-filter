@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Pioaa5XryT7MeiDjiln/qA
-! Last modified: 2011-04-13 22:30:44 JST
+! Checksum: 8mF8kz9YwzXTDXKYWdEJHQ
+! Last modified: 2011-04-14 21:22:57 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2377,6 +2377,7 @@ atmarkit.co.jp##.rspecial
 atmarkit.co.jp##.ttl-techtarget
 atmarkit.co.jp##*[id^="rcspSFlash"]:not(body)
 atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
+atmarkit.co.jp##a[href*="/ct.php?id="]
 biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
 news.biglobe.ne.jp##.praTB
 bioimpact.jp###pr
