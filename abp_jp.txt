@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: ckrPsL+2T0p56JJ8BBUwAw
-! Last modified: 2011-04-18 19:44:02 JST
+! Checksum: Nh/cq+Rj+eLQOZHE3drMYQ
+! Last modified: 2011-04-18 19:48:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1941,7 +1941,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###textAds
 ###topAd
 ###topAds
-~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
+~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ~mail.google.com##.AD
 ##.ad_left
 ##.ad_right
