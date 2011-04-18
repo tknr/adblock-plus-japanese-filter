@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 6F7ANZ1PuyV/dkb4BkUR3Q
-! Last modified: 2011-03-31 23:43:50 JST
+! Checksum: +nyq83n3Jmg4yQ8rReJuvQ
+! Last modified: 2011-04-19 05:40:10 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -69,6 +69,11 @@ nicovideo.jp###ichiba_placeholder + div
 
 ! ########## Annoyance START #########################################
 
+! ===== Drag event interceptors ===== START =====
+/apture.$script
+||apture.com^$third-party
+! ----- Drag event interceptors ----- END -----
+
 ! ===== geoip ===== START =====
 /geoip.js$third-party
 ||maxmind.com^$third-party
@@ -91,9 +96,9 @@ nicovideo.jp###ichiba_placeholder + div
 ||so-net.ne.jp/search/javascripts/research/
 ! ----- Search keyword tapping ----- END -----
 
-! ===== Stealth Link Converter for the sake of Affiliate ===== START =====
+! ===== Stealth Link Converter for Affiliate ===== START =====
 ||viglink.com^$third-party
-! ----- Stealth Link Converter for the sake of Affiliate ----- END -----
+! ----- Stealth Link Converter for Affiliate ----- END -----
 
 ! ===== Toolbar ===== START =====
 ||wibiya.com^$third-party
