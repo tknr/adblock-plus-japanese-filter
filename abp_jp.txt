@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: zGVRB4c2VkYyHqfnmKSJig
-! Last modified: 2011-04-26 12:47:18 JST
+! Checksum: CQFncDFn78c+Nvr9QTxA6g
+! Last modified: 2011-04-26 12:54:52 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -395,6 +395,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ! false positive @ twitter.com /promos/random_
 /promoted_content/*
 /r.poptracking?
+/random_banner/*
 /RealMedia/*
 /right-ad-
 /sa/infospace.
