@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: CQFncDFn78c+Nvr9QTxA6g
-! Last modified: 2011-04-26 12:54:52 JST
+! Checksum: j7wGGjenNKD+58MQ+1zYRQ
+! Last modified: 2011-04-26 22:47:07 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1299,11 +1299,43 @@ INSERT_RANDOM_NUMBER_HERE
 ||shinobi.jp/analyze/
 ||analysis.shinobi.jp^
 ||axad.shinobi.jp^
-||ba*.shinobi.jp^$~image
-||bar*.shinobi.jp^
-||ct*.shinobi.jp^$~image
+||ba1.shinobi.jp^$~image
+||ba2.shinobi.jp^$~image
+||ba3.shinobi.jp^$~image
+||ba4.shinobi.jp^$~image
+||ba5.shinobi.jp^$~image
+||ba6.shinobi.jp^$~image
+||ba7.shinobi.jp^$~image
+||ba8.shinobi.jp^$~image
+||ba9.shinobi.jp^$~image
+||bar1.shinobi.jp^
+||bar2.shinobi.jp^
+||bar3.shinobi.jp^
+||bar4.shinobi.jp^
+||bar5.shinobi.jp^
+||bar6.shinobi.jp^
+||bar7.shinobi.jp^
+||bar8.shinobi.jp^
+||bar9.shinobi.jp^
+||ct1.shinobi.jp^$~image
+||ct2.shinobi.jp^$~image
+||ct3.shinobi.jp^$~image
+||ct4.shinobi.jp^$~image
+||ct5.shinobi.jp^$~image
+||ct6.shinobi.jp^$~image
+||ct7.shinobi.jp^$~image
+||ct8.shinobi.jp^$~image
+||ct9.shinobi.jp^$~image
 ||samurai.shinobi.jp^
-||vis*.shinobi.jp^$~image
+||vis1.shinobi.jp^$~image
+||vis2.shinobi.jp^$~image
+||vis3.shinobi.jp^$~image
+||vis4.shinobi.jp^$~image
+||vis5.shinobi.jp^$~image
+||vis6.shinobi.jp^$~image
+||vis7.shinobi.jp^$~image
+||vis8.shinobi.jp^$~image
+||vis9.shinobi.jp^$~image
 ||shinystat.com^$~image
 ||shopping-search.jp^$third-party
 ||silveregg.net^$third-party
