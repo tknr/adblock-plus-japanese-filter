@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: YcQx0BFbgzCWMkksRig42w
-! Last modified: 2011-04-28 15:23:43 JST
+! Checksum: B2zwrAUrFe64YC6nRLtrsA
+! Last modified: 2011-04-28 19:12:38 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2451,6 +2451,7 @@ biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
 news.biglobe.ne.jp##.praTB
 bioimpact.jp###pr
 bioimpact.jp##div[class^="sn-box"]
+bizmakoto.jp,itmedia.co.jp###amazon-item
 bizmakoto.jp,itmedia.co.jp###banner
 bizmakoto.jp,itmedia.co.jp###endwpp
 bizmakoto.jp,itmedia.co.jp###fyi
@@ -2463,6 +2464,7 @@ bizmakoto.jp,itmedia.co.jp###osusume
 bizmakoto.jp,itmedia.co.jp###r-txtfil
 ! false positive 2011-02-26: bizmakoto.jp,itmedia.co.jp###red
 bizmakoto.jp,itmedia.co.jp###signboard
+bizmakoto.jp,itmedia.co.jp##.cmsBox
 bizmakoto.jp,itmedia.co.jp##.endkwd
 bizmakoto.jp,itmedia.co.jp##.endwpp
 bizmakoto.jp,itmedia.co.jp##.logoarea
@@ -2602,7 +2604,6 @@ jbpress.ismedia.jp###vbox
 jbpress.ismedia.jp###pr1
 jbpress.ismedia.jp##ul.platinum-text
 itarchitect.jp##div.ads-textLine
-techtarget.itmedia.co.jp##.cmsBox
 j-cast.com###entry-bottom
 j-cast.com##div.entry-bottom
 j-cast.com##div[id^="RCCompanyIR"]
