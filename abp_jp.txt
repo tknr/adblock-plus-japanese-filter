@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 1AvYCtcAIonO/7fuU23IZA
-! Last modified: 2011-05-01 23:19:47 JST
+! Checksum: UJD1PDrimsEUYOEigRRu6w
+! Last modified: 2011-05-01 23:21:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1145,6 +1145,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||f*.nakanohito.jp^$script
 ||nasads.com^
 ||nastydollars.com^$third-party
+||navdmp.com^
 ||navegg.com^$third-party
 ||neolabs.kz^$third-party
 ||netaxle.com^$third-party
