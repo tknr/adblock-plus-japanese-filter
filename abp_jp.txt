@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 8nV9puHWCtlL54bfHeO53A
-! Last modified: 2011-05-01 22:43:11 JST
+! Checksum: mtsNjt/USzrAl/+7hmswQw
+! Last modified: 2011-05-01 23:06:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -470,6 +470,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /xgemius.
 ?ad_type=
 ?affid=
+?clickTAG=
 ! false positive @ twitter.com 2011-03-03: ?*promo_type=
 ?referer=$image,script
 ?trackid=$third-party
