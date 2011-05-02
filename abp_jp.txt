@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: vehSOhlmztG6K56QPLO9Fw
-! Last modified: 2011-05-01 23:23:15 JST
+! Checksum: JTO5bUEFLL7yl+znxWPAqQ
+! Last modified: 2011-05-02 19:09:12 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2800,6 +2800,7 @@ twitter.com##.promoted-trend
 twitteranalyzer.com###BannerHolder
 uniangel.info###cgi
 uniangel.info###globalheader
+ustream.tv###AdFreePromo
 ustream.tv##.channelContextAd
 vector.co.jp##a[href*="//vafs.vector.co.jp/"]
 vector.co.jp##div[id^="gad_"]
