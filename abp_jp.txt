@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: UAAkKiSHI4Zla7CHGhJYQg
-! Last modified: 2011-05-03 21:58:17 JST
+! Checksum: I+1m/wUinotrdpLPy3CraA
+! Last modified: 2011-05-03 23:02:11 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -362,6 +362,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /liveads.
 /log1.js
 /logimg.$image
+/marquee/*
 /mtag_$third-party
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
@@ -2055,6 +2056,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.randomBanner
 ##.showcaseAd
 ##.spotlightAd
+##.staticAd
 ##.tdftad
 ##.textAd
 ##.textAds
@@ -2424,6 +2426,7 @@ INSERT_RANDOM_NUMBER_HERE
 100shiki.com###text-5 + *
 afpbb.com##div[id^="ads"]
 agri-biz.jp##div[id^="banner_"]
+amazon.co.jp##.adNoOutline
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
 ascii.jp###bargain
