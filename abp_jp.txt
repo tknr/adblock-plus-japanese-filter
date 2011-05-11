@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: CuZQNwleo0Ria5sfXS0ZNQ
-! Last modified: 2011-05-11 15:45:18 JST
+! Checksum: DrXBOkwCQpGT2cKM+tC7rg
+! Last modified: 2011-05-11 15:48:32 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -398,6 +398,10 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /popunder.
 /popunder/*
 /popunder_
+/popunder2-
+/popunder2.
+/popunder2/*
+/popunder2_
 /popwin_
 /ppvtrack.
 ! /pr_ad/*
@@ -865,6 +869,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||elekted.com^
 ||now.eloqua.com^
 ||email-match.com^$third-party
+||emv2.com^
 ||enquisite.com^$third-party
 ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
