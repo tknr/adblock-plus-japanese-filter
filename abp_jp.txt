@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: JUS9HysdqC3vSTR9aNxufw
-! Last modified: 2011-05-12 18:42:56 JST
+! Checksum: ErybgmwfpEM0EmEBdmIlTw
+! Last modified: 2011-05-13 02:31:48 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -39,6 +39,10 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 -ads.ca.$script
 -PopUnder|
 -utm.ca.$script
+.beacon-
+.beacon.
+.beacon/
+.beacon_
 .ca.html|
 .kissinsights.com/
 /200_200.$image,domain=premium.nikkeibp.co.jp
@@ -470,6 +474,10 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /txt_ad/*
 /txt_ad_
 /uds/stats?
+/urchin-
+/urchin.
+/urchin/*
+/urchin_
 /view.gif?
 /view.png?
 /views.gif?
