@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: nhKCxE9vbVxDtpZrYiN05w
-! Last modified: 2011-05-11 21:13:56 JST
+! Checksum: +5sDb79Cku9p9sFlJI5/hw
+! Last modified: 2011-05-12 16:00:29 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2839,6 +2839,7 @@ toyokeizai.net##.mt35
 toyokeizai.net##.pr
 toyokeizai.net##.sideBnr
 toyokeizai.net##.sidePr
+toyokeizai.net##a[onClick*="pageTracker."]
 toyokeizai.net##div[class^="rightBnr"]
 translink.co.jp###barAD
 twitter.com##.promoted-account
