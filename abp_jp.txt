@@ -134,8 +134,8 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /adListings_
 /adlog.
 /admodoki.
-/adnetwork.html?
-/adnetworks.$script
+/adnetwork.
+/adnetworks.
 /adPlayer.
 /ads-common.
 /ads-iframe-
