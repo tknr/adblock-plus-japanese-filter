@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: eRcJbq9HkHggg8M7wQIOHw
-! Last modified: 2011-05-19 14:59:45 JST
+! Checksum: RBtKrrygutE6QFuI1S0EQA
+! Last modified: 2011-05-19 15:08:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -518,6 +518,17 @@ _overture/
 _overture_
 _request_ad.
 _sponsor_
+_sponsor.
+_sponser.
+_sponser1.
+_sponser2.
+_sponser3.
+_sponser4.
+_sponser5.
+_sponser6.
+_sponser7.
+_sponser8.
+_sponser9.
 _tracking-
 _tracking.
 _tracking/
