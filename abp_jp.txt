@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: RBtKrrygutE6QFuI1S0EQA
-! Last modified: 2011-05-19 15:08:14 JST
+! Checksum: ZpkMmPa4BN34Iw+yZVRC4A
+! Last modified: 2011-05-20 15:59:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2134,8 +2134,6 @@ INSERT_RANDOM_NUMBER_HERE
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ! ========== Links with keywords START ==========
 ~famitsu.com##a[href*="&ad="]
-##a[href*="&AFFILIATE="]
-##a[href*="&affiliate="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
 ~ipss.go.jp##a[href*="-ad/"]
@@ -2189,13 +2187,6 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="_ADS_"]
 ##a[href*="/?adv="]
 ##a[href*="/advt."]
-##a[href*="?af_code="]
-##a[href*="?afc="]
-##a[href*="&aff="]
-##a[href*="?aff="]
-##a[href*="?affid="]
-##a[href*="?afrno="]
-##a[href*="&afftrack="]
 ##a[href*="/adsv-"]
 ##a[href*="/adsv."]
 ##a[href*="/adsv/"]
@@ -2203,7 +2194,17 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/advertise."]
 ##a[href*="/advertise/"]
 ##a[href*="/A-affiliate2/"]
+##a[href*="?af_code="]
+##a[href*="?afc="]
+##a[href*="/aff.php?"]
+##a[href*="&aff="]
+##a[href*="?aff="]
+##a[href*="?affid="]
+##a[href*="&afftrack="]
+##a[href*="&AFFILIATE="]
+##a[href*="&affiliate="]
 ##a[href*="affiliate"]
+##a[href*="?afrno="]
 ##a[href*="/bizad."]
 ##a[href*="clickad?"]
 ##a[href*="/clink.php?"]
