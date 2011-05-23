@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: YEMUTUfr2lLyj4+gaUDprw
-! Last modified: 2011-05-23 14:47:23 JST
+! Checksum: 7Zuu6OlaLovj7HIvtoceEA
+! Last modified: 2011-05-23 15:06:04 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1272,6 +1272,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||pheedo.jp^$third-party
 ||picleet.com/inter_picleet.$script
 ||picleet.com/modalfiles/modal.$script
+||picleet.com/njoks_picleet.$script
 ||pillendienst.com^$third-party
 ||ads.pimote.net^
 ||ad.pitattomatch.com^
