@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Z+Wgjb1x9EoFFjh8VjYjvw
-! Last modified: 2011-05-25 01:32:09 JST
+! Checksum: cGzsJPT8J/wb8hPVIJBBCw
+! Last modified: 2011-05-25 03:20:28 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -12,6 +12,11 @@
 ! Project committers: kabipantu, looter, lostincarnation, resubew, tanahata
 ! Project contributors: 
 !
+! ########## Temporary white list START ################################
+! Can't open other folders in Yahoo Mail(no response...loading...white screen...) This bug occurs when blocking the following request: http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js
+@@||yimg.jp/bdv/yahoo/javascript/csc/*/lib2obf_b*.js
+! ---------- Temporary white list END ----------------------------------
+
 ! ########## Default white list START ################################
 @@/cnwk.1d/css/*
 @@||reports.adblockplus.org^$elemhide
