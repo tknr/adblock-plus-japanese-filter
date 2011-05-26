@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: N2xYjoV/8Q49DqwiWJpdmw
-! Last modified: 2011-05-27 00:15:16 JST
+! Checksum: uc1wJdW+bSiVHsFk3Rgeow
+! Last modified: 2011-05-27 01:07:40 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1198,6 +1198,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mobylog.jp^$third-party
 ||mochiads.com^$third-party
 ||mongoosemetrics.com^$third-party
+||webstats.motigo.com^$third-party
 ||mookie1.com^
 ||motionlink.jp^$third-party
 ||mouseflow.com^$third-party
@@ -1237,6 +1238,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||netgy.com^$third-party
 ||netsecurity.ne.jp/bnr/
 ||netshelter.net^$third-party
+||nedstatbasic.net^
 ||neudesicmediagroup.com^$third-party
 ||new-akiba.com/special/
 ||bwp.news.com^
@@ -1561,6 +1563,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||webdo.co.jp^$third-party
 ||webgiantmedia.com^$third-party
 ||rws.weblio.jp^$third-party
+||webstats4u.com^
 ||webtracker.jp^$third-party
 ||webtrends.com^$third-party
 ||webtrendslive.com^$third-party
