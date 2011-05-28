@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 3wozAyw1ySGtDyGAMgB/Iw
-! Last modified: 2011-05-28 12:25:13 JST
+! Checksum: 40bfxU8YbwF8r4szYkmPNA
+! Last modified: 2011-05-29 01:02:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2473,7 +2473,8 @@ INSERT_RANDOM_NUMBER_HERE
 ! ##*[id$="_PR"]:not(body)
 ##*[class^="ad-"]:not(body)
 ##*[class^="AD-"]:not(body)
-~collegehumor.com##*[class^="ad_"]:not(body)
+! False positive on each article at lifehacker.jp ; Background of Title is messed up with CSS spriting...
+~collegehumor.com,~lifehacker.jp##*[class^="ad_"]:not(body)
 ##*:not(body):not(table)[class^="AD_"]:not(body)
 ##*[class^="adBox"]:not(body)
 ##*[class^="ads-"]:not(body)
