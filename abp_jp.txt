@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 6G8lIKELDtX15syjXqJaPA
-! Last modified: 2011-05-28 12:13:12 JST
+! Checksum: 9qgjpeGGTOdY33FvPVyfcg
+! Last modified: 2011-05-28 12:20:12 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2194,6 +2194,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="_AD_"]
 ##a[href*="/adcl."]
 ##a[href*="/ADCLICK/"]
+##a[href*="?adid="]
+##a[href*="&adptg_"]
 ##a[href*="-ads-"]
 ##a[href*="-ADs-"]
 ##a[href*="-ADS-"]
@@ -2244,10 +2246,13 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="&affiliate="]
 ##a[href*="affiliate"]
 ##a[href*="?afrno="]
+##a[href*="/bin/gg?"]
 ##a[href*="/bizad."]
+##a[href*="/click.ng/"]
 ##a[href*="clickad?"]
 ##a[href*="/clink.php?"]
 ##a[href*="/clk.php?"]
+##a[href*="/event.ng/"]
 ##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="/kokoku/"]
 ##a[href*="/lsplus."]
@@ -2273,6 +2278,7 @@ INSERT_RANDOM_NUMBER_HERE
 ! ~twitter.com##a[href*="_PR/"]
 ! ~amazon.co.jp##a[href*="_pr_"]
 ##a[href*="_PR_"]
+##a[href*="/speedclicks/"]
 ! false positive 2011-03-07: ##a[href*="/splash/"]
 ##a[href*="sponsor"]
 ##a[href*="utm_medium=ad"]
@@ -2285,12 +2291,6 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/?vpee0"]
 ! ---------- Links with keywords END ----------
 ! ========== Links with URLs START ==========
-##a[href*="/bin/gg?"]
-##a[href*="/click.ng/"]
-##a[href*="/clk.php?"]
-##a[href*="/event.ng/"]
-##a[href*="/speedclicks/"]
-##a[href*="?adid="]
 ##a[href*="//203.86.249.80/"]
 ##a[href*="//210.155.151.148/"]
 ##a[href*="px.a8.net/svt/ejp"]
@@ -2301,7 +2301,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="adjustnetwork.com/aan/"]
 ##a[href*="adpath.net/click?"]
 ##a[href*="adsmarket.com/click/"]
-##a[href*=".advg.jp/"]
+##a[href*="//r.advg.jp/"]
 ##a[href*="//ad.agilemedia.jp"]
 ##a[href*="ainte.jp/cid/"]
 ##a[href*="//sos.allabout.co.jp"]
