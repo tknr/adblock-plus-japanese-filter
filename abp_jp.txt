@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: FGqItYus5Y7SSEehGTL4tg
-! Last modified: 2011-06-05 15:11:52 JST
+! Checksum: axJAz8hRrxmNhX/IzYRdzw
+! Last modified: 2011-06-05 15:16:35 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2557,7 +2557,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class$="-ad"]:not(body):not(input)
 ##*[class$="-AD"]:not(body):not(input)
 ! False positive in right column named "with-ads" of the flickr.com search result
-##*[class$="-ads"]:not(.with-ads):not(body):not(input)
+~flickr.com##*[class$="-ads"]:not(body):not(input)
 ##*[class$="-ADs"]:not(body):not(input)
 ##*[class$="-ADS"]:not(body):not(input)
 ! ##*[class$="-pr"]:not(body):not(input)
