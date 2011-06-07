@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: axJAz8hRrxmNhX/IzYRdzw
-! Last modified: 2011-06-05 15:16:35 JST
+! Checksum: p7+juTO7q8uqFgoiEOuguQ
+! Last modified: 2011-06-07 12:20:39 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -247,8 +247,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /css/ads.css
 /customads/*
 /d2ptoolbar/*
-/delivery/avw.php
-/delivery/ajs.php
+/delivery/avw.
+/delivery/ajs.
+/delivery/showid
 /do2icnk.
 /event.ems/*
 /event_call.htm?
@@ -1680,6 +1681,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ybx.yahoo.co.jp^
 ||mc.yandex.ru^
 ||yellowmedia.biz^$third-party
+||yfum.com^
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
 ||yieldmanager.com^$third-party
