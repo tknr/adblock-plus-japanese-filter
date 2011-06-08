@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: p7+juTO7q8uqFgoiEOuguQ
-! Last modified: 2011-06-07 12:20:39 JST
+! Checksum: hlG9XIc3H0zNLy7ck8XSrg
+! Last modified: 2011-06-08 13:42:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2725,8 +2725,8 @@ gihyo.jp###secondary > div.banner
 gizmodo.com,lifehacker.com###header
 gizmodo.jp,lifehacker.jp##.ad_premiumplan
 gizmodo.jp,lifehacker.jp##.date_header_premium
-gizmodo.jp,lifehacker.jp##.entrybox
-gizmodo.jp,lifehacker.jp##.headline
+gizmodo.jp, kotaku.jp,lifehacker.jp##.entrybox
+gizmodo.jp, kotaku.jp,lifehacker.jp##.headline
 goo.ne.jp##.sponser
 blog.goo.ne.jp###mod-advertising
 blog.goo.ne.jp##div.mod-entry-set-goo-ad
