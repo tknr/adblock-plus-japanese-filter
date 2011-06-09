@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: hlG9XIc3H0zNLy7ck8XSrg
-! Last modified: 2011-06-08 13:42:43 JST
+! Checksum: TenCvzBjiz/dkZ/HIaCKBA
+! Last modified: 2011-06-09 11:57:17 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -489,10 +489,10 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /top_bnn.
 /tracker/*$third-party
 /trackers/*$third-party
-/tracking-
-/tracking.
-/tracking/*
-/tracking_
+/tracking-$third-party
+/tracking.$third-party
+/tracking/*$third-party
+/tracking_$third-party
 /trackingAffilies.
 /trans_pixel.
 /txt_ad-
@@ -580,8 +580,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||ocp.
 ||stats.$third-party
 ||statistics.$third-party
-||track.
-||tracker.$domain=~cztorrent.net
+||track.$third-party
+||tracker.$third-party
+||tracking.$third-party
 ||adserving.
 ||aff-images.
 ||eulerian.
