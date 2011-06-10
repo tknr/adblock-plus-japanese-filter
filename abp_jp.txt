@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 57jed/EvoYPJsU/UDrzWuA
-! Last modified: 2011-06-10 12:58:02 JST
+! Checksum: YOeGeXWZyTIk9Q7sbgf90g
+! Last modified: 2011-06-10 13:03:08 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2887,8 +2887,8 @@ workingnews.blog117.fc2.com##.free_area
 phpspot.org###rightbar
 publickey.jp,publickey1.jp##.topbanner
 pya.cc##.tk
-rakuten.co.jp###srEsper
-rakuten.co.jp###srEsperHead
+rakuten.co.jp##*[id$="Esper"]
+rakuten.co.jp##*[id$="EsperHead"]
 rakuten.co.jp##*[id*="sponcer"]
 rakuten.co.jp##*[id*="Sponcer"]
 rakuten.co.jp##*[id^="sttl"]
