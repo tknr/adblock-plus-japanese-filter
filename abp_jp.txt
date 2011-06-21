@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: jxNkZYWZImRpVxoL3Fo1yA
-! Last modified: 2011-06-21 19:31:42 JST
+! Checksum: tfYzZ/K7sVMR5dSmxwMBbA
+! Last modified: 2011-06-22 03:07:40 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2485,7 +2485,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##img[alt$="_PR]"]
 ##*[id^="ad-"]:not(body):not(input)
 ##*[id^="AD-"]:not(body):not(input)
-~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
+! [Temp] Added fc2 exception to avoid a false positive at login pages. login-jack AD? Too bad experience to the customers.
+~fc2.com,~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
 ##*[id^="AD_"]:not(body):not(input)
 ##*[id^="adBox"]:not(body):not(input)
 ##*[id^="ads-"]:not(body):not(input)
