@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: MI3ykkofugh/qF2YVSmxWg
-! Last modified: 2011-06-21 19:21:29 JST
+! Checksum: An5VAm/H6loJ5iwA3j0cSw
+! Last modified: 2011-06-21 19:30:20 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2812,6 +2812,7 @@ ime.nu,ime.st##body > br:last-of-type ~ *:not(hr)
 web-tan.forum.impressrd.jp###textad-top
 web-tan.forum.impressrd.jp##div.textad-top
 infoseek.co.jp###isweb-lite-adbanner
+japan.internet.com###head-mid
 investwalker.jp##td[bgcolor="#ffeedd"]
 jbpress.ismedia.jp###pr2
 jbpress.ismedia.jp###vbox
