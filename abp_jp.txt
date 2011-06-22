@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: jxNkZYWZImRpVxoL3Fo1yA
-! Last modified: 2011-06-21 19:31:42 JST
+! Checksum: FHtnTzAkmb/VkZ6nu1nKTQ
+! Last modified: 2011-06-22 19:48:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2708,9 +2708,8 @@ codezine.jp###shoeisha_gnavi
 codezine.jp##div.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
 coliss.com###sidebar > div.block02:first-child
-computerworld.jp###ad1line
-computerworld.jp##div.ad1line
-computerworld.jp##div.adver
+computerworld.jp##.adve_rec
+computerworld.jp##.adver
 coojin.com###ad_right
 coojin.com###ad_top
 coojin.com###big_main > div.auctions
