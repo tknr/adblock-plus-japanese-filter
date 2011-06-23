@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: u8cVjMAVqoqfKSo4gs6WjQ
-! Last modified: 2011-06-23 20:08:34 JST
+! Checksum: vGcjnWqWCRC5fEDksm3dLA
+! Last modified: 2011-06-23 23:22:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3017,6 +3017,7 @@ toyokeizai.net##div[class^="rightBnr"]
 translink.co.jp###barAD
 twitter.com##.promoted-account
 twitter.com##.promoted-trend
+twitter.com##.promoted-tweet
 twitteranalyzer.com###BannerHolder
 uniangel.info###cgi
 uniangel.info###globalheader
