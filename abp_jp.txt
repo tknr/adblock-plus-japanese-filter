@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: hD9fn9LcgCIs4Ig5jGNa/g
-! Last modified: 2011-06-27 17:44:52 JST
+! Checksum: cUDzFFao619lppmY9CZAdw
+! Last modified: 2011-06-27 18:07:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -75,8 +75,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /_tracker.
 /180x180.gif|$first-party
 /A-affiliate2/*
-/adblock_plus.$domain=kino.to
 /abnl/?begun=
+/ad-image/*
+/ad-images/*
 /ad.js
 /ad.php?id=
 /ad/banner-
@@ -88,6 +89,14 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /ad/control.
 /ad/control/*
 /ad/control_
+/ad/image-
+/ad/image.
+/ad/image/*
+/ad/image_
+/ad/images-
+/ad/images.
+/ad/images/*
+/ad/images_
 /ad/index.
 /ad/load_ad-
 /ad/load_ad.
@@ -111,6 +120,14 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /ad_iframe.
 /ad_iframe/*
 /ad_iframe_
+/ad_image-
+/ad_image.
+/ad_image/*
+/ad_image_
+/ad_images-
+/ad_images.
+/ad_images/*
+/ad_images_
 /ad_img-
 /ad_img.
 /ad_img/*
@@ -130,6 +147,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /adbanner.
 /adbanner/*
 /adbanner_
+/adblock_plus.$domain=kino.to
 /adclick.
 /adframe-
 /adframe.
