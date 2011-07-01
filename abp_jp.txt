@@ -1519,6 +1519,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||a1.security-next.com^
 ||seesaa.jp/match/
 ||match.seesaa.jp^
+||seoparts.com^
 ||seoparts.net^$third-party
 ||serving-sys.com^$third-party
 ||shareasale.com^$third-party
