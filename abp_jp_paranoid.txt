@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: un77wZzeeTCj0aMqcE8qEQ
-! Last modified: 2011-06-22 20:35:48 JST
+! Checksum: V9ideMQLHR7oZnApqPHgew
+! Last modified: 2011-07-01 12:46:14 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -123,6 +123,7 @@ ustream.tv##.featuredContent
 ! ----- Stealth Link Converter for Affiliate sake ----- END -----
 
 ! ===== Toolbar ===== START =====
+||conduit.com^$third-party
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
 

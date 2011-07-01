@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: /Bto3ymKvAdEBvVf8sJD8A
-! Last modified: 2011-07-01 11:07:12 JST
+! Checksum: 3WO82fPZtCLiHiJUOPVHGA
+! Last modified: 2011-07-01 12:32:17 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -13,6 +13,8 @@
 ! Project contributors: 
 !
 ! ########## Temporary white list START ################################
+! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
+@@||uec.ac.jp/about/advertisement/$elemhide
 ! Can NOT open other folders in Yahoo Mail(no response...loading...white screen...) This bug occurs when blocking the following request: http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js
 @@||yimg.jp/bdv/yahoo/javascript/csc/*/lib2obf_b*.js
 ! Gyao Movie player does NOT start automatically
