@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: rqO7uod5ZWRX1hRvVcMY0A
-! Last modified: 2011-07-01 10:40:48 JST
+! Checksum: 8Bs93vFXUNu9oQnDrdt5Fw
+! Last modified: 2011-07-01 10:43:04 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1828,6 +1828,7 @@ INSERT_RANDOM_NUMBER_HERE
 ! ---------- ValueClick alias domains: 216.34.207.62 END ----------
 ! 
 ! ========== Samurai Factory START ==========
+||shinobi.jp/analyze/
 ||shinobi.jp/bin/
 ||shinobi.jp/ufo/
 ||shinobi.jp/Zen?
