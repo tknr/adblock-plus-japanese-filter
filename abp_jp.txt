@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 1C1dadeFpX2IFyCbtZV//A
-! Last modified: 2011-07-02 16:05:27 JST
+! Checksum: Kxc4o71+580UnGxHmjRpCA
+! Last modified: 2011-07-02 16:12:15 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2478,6 +2478,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".google.com/aclk?sa="]
 ##a[href*=".google.com%2Faclk%3Fsa%3D"]
 ##a[href*=".googlesyndication.com/aclk?sa="]
+##a[href*="harvest-z.jp"]
 ##a[href*="i2i.jp/click."]
 ##a[href*="infocart.jp/"]
 ##a[href*=".impressit.co.jp/reader.php"]
