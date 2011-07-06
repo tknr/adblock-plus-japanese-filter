@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 2LkGNT6H7ReV/9SEhReT4Q
-! Last modified: 2011-07-06 12:30:40 JST
+! Checksum: JXPnNGi1wyQcqAWGptFFWQ
+! Last modified: 2011-07-07 02:59:20 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2960,6 +2960,7 @@ mycom.co.jp##a[href*="kali.mycom.co.jp"]
 mycom.co.jp##*[src*="adspecial"]:not(body):not(input)
 mycom.co.jp##*[src*="kali.mycom.co.jp"]:not(body):not(input)
 download.hr###mediaget_box
+download.hr##.file_infoleft
 download.hr##a[href*="hotfile.com/dl/"]
 download.hr##a[href*="mediaget.com/torrent.php?r="]
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
