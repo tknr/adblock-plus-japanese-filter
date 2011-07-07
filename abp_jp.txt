@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Id87Rm05RZ/glB2GAZ0/TA
-! Last modified: 2011-07-07 12:27:37 JST
+! Checksum: 1C3QyMcTjryxdTSzQdyKcg
+! Last modified: 2011-07-07 12:58:11 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -13,6 +13,8 @@
 ! Project contributors: 
 !
 ! ########## Temporary white list START ################################
+! teacup.com uses adimg.teacup.com for normal JavaScript (?_?)...
+@@||teacup.com/rchat-common/
 ! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
 @@||uec.ac.jp/about/advertisement/$elemhide
 ! Can NOT open other folders in Yahoo Mail(no response...loading...white screen...) This bug occurs when blocking the following request: http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js
