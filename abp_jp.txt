@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 1C3QyMcTjryxdTSzQdyKcg
-! Last modified: 2011-07-07 12:58:11 JST
+! Checksum: DPz8KvYIBEA/X3SgB23GRw
+! Last modified: 2011-07-07 13:18:49 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -13,7 +13,7 @@
 ! Project contributors: 
 !
 ! ########## Temporary white list START ################################
-! teacup.com uses adimg.teacup.com for normal JavaScript (?_?)...
+! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
 @@||teacup.com/rchat-common/
 ! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
 @@||uec.ac.jp/about/advertisement/$elemhide
@@ -1313,6 +1313,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||megaupload.com/js/onhover.$script
 ||megaupload.com/mc.
 ||megavideo.com/js/onhover.$script
+||megavideo.com/mcad.
 ||mgid.com^$third-party
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
