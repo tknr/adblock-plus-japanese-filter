@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: HFTs1DlFOLpbuVoW+3gnQw
-! Last modified: 2011-07-10 13:56:25 JST
+! Checksum: 0UmBBeI6dYA9YIpmjNFxxA
+! Last modified: 2011-07-10 14:04:47 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -487,6 +487,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /popunder2.
 /popunder2/*
 /popunder2_
+/popup/promotion_
 /popwin_
 /ppvtrack.
 ! /pr_ad/*
