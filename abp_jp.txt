@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: vwfqXIydryqVDVh48GTT8g
-! Last modified: 2011-07-12 12:46:59 JST
+! Checksum: vEHXDJU+XoJ56O8LXVv5yw
+! Last modified: 2011-07-12 16:00:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1337,12 +1337,12 @@ INSERT_RANDOM_NUMBER_HERE
 ||mediarich.ws^$third-party
 ||medleyads.com^
 ||megaclick.com^$third-party
-||megaporn.com/video/js/onhover.$script
+||megaporn.com/*/onhover.$script
 ||megaupload.com^$third-party
-||megaupload.com/js/onhover.$script
+||megaupload.com/*/onhover.$script
 ||megaupload.com/mc.
 ||megavideo.com/ad_
-||megavideo.com/js/onhover.$script
+||megavideo.com/*/onhover.$script
 ||megavideo.com/mcad.
 ||megavideo.com/top.swf
 ||mgid.com^$third-party
