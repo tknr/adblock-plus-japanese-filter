@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: EBrR6gSNoac+oSe7EieIcg
-! Last modified: 2011-07-13 12:36:50 JST
+! Checksum: NAVYXV1rJ+N/UW7BlQsGhA
+! Last modified: 2011-07-14 21:50:21 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3157,47 +3157,41 @@ special.visualzoo.com###container > div.banner_area
 weblio.jp##.adHIWrp
 wired.jp###rectangle
 yahoo.com,yahoo.co.jp###northbanner
-! yahoo.co.jp###adLrec
-! yahoo.co.jp###adRp
 yahoo.co.jp###centralPosition
 yahoo.co.jp###commerce
-yahoo.co.jp##div[id^="ad"]:not([id^="addr"])
-yahoo.co.jp##div[id^="modAd"]
-! 2010-11-05: Temporarily commented out a false positive reported by nurupo
-! yahoo.co.jp##div[id^="uhd"]
-yahoo.co.jp###pos-lrec
 yahoo.co.jp###promoareaM
 yahoo.co.jp###tct
 yahoo.co.jp###yjcatspns
 yahoo.co.jp###yschec
 yahoo.co.jp###yschspns
-! yahoo.co.jp##div.adLrec
-! yahoo.co.jp##div.adRp
-yahoo.co.jp##div[class^="ad"]:not([class^="add"])
-yahoo.co.jp##div[class^="pr300"]
-yahoo.co.jp##div[class^="prCenter"]
-yahoo.co.jp##div.pos-lrec
-yahoo.co.jp##div.prCT
-yahoo.co.jp##div.yschec
-yahoo.co.jp##div.yschspns
+yahoo.co.jp##.prCT
+yahoo.co.jp##.yschec
+yahoo.co.jp##.yschspns
+yahoo.co.jp##*[id^="ad"]:not([id^="addr"])
+yahoo.co.jp##*[id^="modAd"]
+yahoo.co.jp##*[id^="pos-"]:not([id="pos-s"])
+yahoo.co.jp##*[class^="ad"]:not([class^="add"])
+yahoo.co.jp##*[class*="pos-"]
+yahoo.co.jp##*[class^="pr300"]
+yahoo.co.jp##*[class^="prCenter"]
 blogs.yahoo.co.jp##a.blog_IMp
 search.yahoo.co.jp##.ss
 finance.yahoo.com###yfi_ysm
 finance.yahoo.com###ygma
-finance.yahoo.com##div.yfi_ysm
-finance.yahoo.com##div.ygma
+finance.yahoo.com##.yfi_ysm
+finance.yahoo.com##.ygma
 finance.yahoo.co.jp##div.sqbFiAd
 login.yahoo.co.jp###yregtxt
+mail.yahoo.co.jp###lbadspr
+mail.yahoo.co.jp##.dashcontent
+mail.yahoo.co.jp##.lbadspr
 mail.yahoo.co.jp##*[id^="dashview"]:not(body):not(input)
 mail.yahoo.co.jp##*[id^="jpwelcomeinsideyahoo"]:not(body):not(input)
 mail.yahoo.co.jp##*[id^="jpwelcomeym"]:not(body):not(input)
-mail.yahoo.co.jp###lbadspr
-mail.yahoo.co.jp##div.dashcontent
-mail.yahoo.co.jp##div.lbadspr
-mail.yahoo.co.jp##div[class$="topfilled"]
+mail.yahoo.co.jp##*[class$="topfilled"]
 quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
 yomiuri.co.jp##a[href*="/adv/"]
-yomiuri.co.jp##div[class*="-txtad-"]
+yomiuri.co.jp##*[class*="-txtad-"]
 youtube.com##.ads-pyv
 ! ---------- Element Hiding with domains END --------------------------
