@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: SNUO5aGiZEV81UYBLxJ7PA
-! Last modified: 2011-07-19 14:02:51 JST
+! Checksum: vrvEO15CN//1G0lEt8oGoQ
+! Last modified: 2011-07-19 14:38:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2935,6 +2935,8 @@ www.google.com,www.google.co.jp###wmxmsg
 www.google.com,www.google.co.jp##.ra:not([class*="jb"])
 www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
 ! Eliminated for the deference between FF3.x and FF4: www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
+gqjapan.jp,wired.jp###rectangle
+gqjapan.jp,wired.jp###tile
 hamusoku.com##.topbox
 hatena.ne.jp###info-header
 hatena.ne.jp##.list.ad
@@ -3173,8 +3175,6 @@ virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
 special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area
 weblio.jp##.adHIWrp
-wired.jp###rectangle
-wired.jp###tile
 yahoo.com,yahoo.co.jp###northbanner
 yahoo.co.jp###centralPosition
 yahoo.co.jp###commerce
