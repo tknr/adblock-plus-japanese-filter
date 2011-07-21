@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: iZS5WetOxTS45oDnvMKTfA
-! Last modified: 2011-07-21 13:43:07 JST
+! Checksum: xNTl5c0YTPb8IGMUCPMqww
+! Last modified: 2011-07-21 16:03:20 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2931,17 +2931,16 @@ blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
 books.google.com,books.google.co.jp###main_content + td
 maps.google.com,maps.google.co.jp###mclip
-www.google.com,www.google.co.jp###mbEnd
-www.google.com,www.google.co.jp###rtpl
-www.google.com,www.google.co.jp###tads.c
-www.google.com,www.google.co.jp###tadsb.c
+encrypted.google.com,www.google.com,www.google.co.jp###mbEnd
+encrypted.google.com,www.google.com,www.google.co.jp###rtpl
+encrypted.google.com,www.google.com,www.google.co.jp###tads.c
+encrypted.google.com,www.google.com,www.google.co.jp###tadsb.c
 ! false positive: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
-! www.google.com,www.google.co.jp###topstuff
-www.google.com,www.google.co.jp###wmxmsg
+! encrypted.google.com,www.google.com,www.google.co.jp###topstuff
+encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
 ! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
-www.google.com,www.google.co.jp##.ra:not([class*="jb"])
-www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
-! Eliminated for the deference between FF3.x and FF4: www.google.com,www.google.co.jp##table[style="border: 1px solid rgb(51, 102, 153);"]
+encrypted.google.com,www.google.com,www.google.co.jp##.ra:not([class*="jb"])
+encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
 gqjapan.jp,wired.jp###rectangle
 gqjapan.jp,wired.jp###tile
 hamusoku.com##.topbox
