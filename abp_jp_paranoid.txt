@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: V9ideMQLHR7oZnApqPHgew
-! Last modified: 2011-07-01 12:46:14 JST
+! Checksum: cKCT7i9e4FTHq1/ZcHtlNg
+! Last modified: 2011-07-23 01:13:00 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -60,6 +60,11 @@ google.co.jp###vspb
 google.com##.vspib
 google.co.jp##.vspib
 ! ===== Google Instant Preview ===== END =====
+
+! ===== meebo ===== START =====
+! meebo is blocked because of tracking and its sibling meebolove.com
+||meebo.com^$third-party
+! ===== meebo ===== END =====
 
 ! ===== mycom.co.jp ===== START =====
 mycom.co.jp##a[href*="mycom.co.jp/cgi-bin/pr/"]
