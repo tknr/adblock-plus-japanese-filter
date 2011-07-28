@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: VchDnb90AdUz8nK8OfK1GA
-! Last modified: 2011-07-23 01:36:57 JST
+! Checksum: wBTcGgxJgCO+mbyr6oiScg
+! Last modified: 2011-07-28 13:04:42 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -94,6 +94,7 @@ ustream.tv##.featuredContent
 
 ! ===== Live chat or support ===== START =====
 ||53kf.com^$third-party
+||chatango.com^$third-party
 ||livechatinc.net^
 ||liveperson.net^$third-party
 ||shoutmix.com^$third-party
