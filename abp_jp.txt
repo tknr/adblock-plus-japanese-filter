@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 3SyuIeIu5L2OYbRQk3VakA
-! Last modified: 2011-07-29 14:44:42 JST
+! Checksum: mySnyrFGxcOtNNn4Cc2M6w
+! Last modified: 2011-07-29 15:39:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1784,8 +1784,10 @@ INSERT_RANDOM_NUMBER_HERE
 ! ||videoplaza.tv^
 ||videosz.com^$third-party
 ||vietad.vn^$third-party
+||viewablemedia.net^
 ||viglink.com^$third-party
 ||t.vimeo.com^
+||visiblemeasures.com^$third-party
 ||visistat.com^$third-party
 ||visit-x.net^$third-party
 ||visitorpath.com^$third-party
