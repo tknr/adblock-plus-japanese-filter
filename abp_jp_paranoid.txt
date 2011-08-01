@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: uNDbcxi2P4+xuYjyry3mrg
-! Last modified: 2011-07-29 16:14:49 JST
+! Checksum: eh44t+8zSisraOFw++d+8w
+! Last modified: 2011-08-01 20:26:27 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -44,6 +44,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ! ########## Each Domain START #######################################
 
 ! ===== Facebook external scripts ===== START =====
+||connect.facebook.com^$domain=~facebook.com
 ||connect.facebook.net^$domain=~facebook.com
 ||fbcdn.net^$domain=~facebook.com
 ! ----- Facebook external scripts ----- END -----
