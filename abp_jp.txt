@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: PTd3HUJq1S0JhsK6qOLukw
-! Last modified: 2011-08-03 13:40:15 JST
+! Checksum: CSRZx6p4FT1oyLeVmWtCjg
+! Last modified: 2011-08-03 14:08:25 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1014,6 +1014,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||dailymotion.com/logger/
 ||dailymotion.com/track/
 ||sense.dailymotion.com^
+||data-ero-advertising.com^
 ||datefree.com^$third-party
 ||ddestiny.ru^$third-party
 ||demandbase.com^$third-party
