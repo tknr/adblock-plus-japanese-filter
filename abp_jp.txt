@@ -1398,7 +1398,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||microad.jp^$third-party
 ||c.microsoft.com^
 ||millioncounter.com^$~image
-||minpos.com^
+||minpos.com^$third-party
 ||miraikensaku.jp^$third-party
 ||ads.mixi.jp^
 ||mixpanel.com^$third-party
