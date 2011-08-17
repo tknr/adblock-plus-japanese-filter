@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: v4BPcPy0fnEDwvmJm2p6qA
-! Last modified: 2011-08-17 13:41:38 JST
+! Checksum: mf0dO84AiT0V03nN6Rp+kA
+! Last modified: 2011-08-17 14:08:36 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -302,6 +302,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /delivery/avw.
 /delivery/ajs.
 /delivery/showid
+/demdex.$script
 /do2icnk.
 /eluminate.$script
 /event.ems/*
@@ -1008,6 +1009,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||creamu.com*^rsswidget.
 ||criteo.com^$third-party
 ||criteo.net^
+||crosspixel.net^$third-party
 ||crowdscience.com^$third-party
 ||cruiseflorida.com^$third-party
 ||crwdcntrl.net^
@@ -1032,6 +1034,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||datefree.com^$third-party
 ||ddestiny.ru^$third-party
 ||demandbase.com^$third-party
+||demdex.net^$third-party
 ||deqwas.net^
 ||deteql.net^
 ||diamond.jp/common/js/welcome.$script
