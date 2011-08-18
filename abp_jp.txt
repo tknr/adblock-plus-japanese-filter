@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 3JY5WK8icb3i874xnNEJ5g
-! Last modified: 2011-08-18 12:35:42 JST
+! Checksum: mBEP1rr1eIRVevbP6ToL3g
+! Last modified: 2011-08-19 03:41:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -523,7 +523,8 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /show_ad.
 /show_ads.
 /show_ads_impl.
-/show_afs_
+! False positive: No google custom search result. 2011-08-18
+! /show_afs_
 /showads.
 /side_bnn.
 /side_bnn1.
@@ -1203,7 +1204,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||x.goo.ne.jp^
 ||x5.goo.ne.jp^
 ||goodadvert.ru^$third-party
-||google.co*/afsonline/
+! False positive: No google custom search result. 2011-08-18
+! ||google.co*/afsonline/
 ! false positive 2011-02-26: ||google.co*/realtimepts?
 ||id.google.co*/verify/
 ||video-stats.video.google.com^
