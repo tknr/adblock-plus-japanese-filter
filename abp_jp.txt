@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: p84ltIlxw2461ljv7Yzvmg
-! Last modified: 2011-08-20 01:12:15 JST
+! Checksum: 5G86hh9Xzvipr+L4JuCRaw
+! Last modified: 2011-08-20 01:22:54 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3193,7 +3193,6 @@ revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
 robtex.com##*[id^="xad"]:not(body):not(input)
 rue89japon.com##*[id^="ad_"]:not(body):not(input)
-sankei.jp.msn.com###pt
 sanspo.com###lBoard2
 sanspo.com##div.lBoard2
 sbisec.co.jp##a[href*="/campaign"]
