@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 5G86hh9Xzvipr+L4JuCRaw
-! Last modified: 2011-08-20 01:22:54 JST
+! Checksum: 9Yv1SmDfGrpiPd6sMO0HQw
+! Last modified: 2011-08-20 01:30:37 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3121,6 +3121,9 @@ mooter.co.jp###cluster + table[cellpadding="0"]
 mooter.co.jp##td[width="230"][valign="top"]
 jp.msn.com##.kanrenBox
 jp.msn.com##div[id^="ads"]
+sankei.jp.msn.com###AD1line
+sankei.jp.msn.com###AD2line
+sankei.jp.msn.com##.adcenter
 mudainodqnment.ldblog.jp##.menu_cont3
 mudainodqnment.ldblog.jp##.menu_title3
 musen-lan.com##br + table[width="150"][cellpadding="2"] ~ table[width="150"][cellpadding="2"]
