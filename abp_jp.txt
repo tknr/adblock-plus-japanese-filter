@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: yIoE59h9WH6uTX+866Q37A
-! Last modified: 2011-08-20 12:14:58 JST
+! Checksum: 23SBa1F+qe/WdrvBKS6wdw
+! Last modified: 2011-08-20 12:42:08 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -587,6 +587,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /urchin.
 /urchin/*
 /urchin_
+/utag.$script
 /view.gif?
 /view.png?
 /views.gif?
