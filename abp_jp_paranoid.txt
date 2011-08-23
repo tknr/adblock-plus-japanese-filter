@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: BCM5pDOfdsp5sxdd517DEw
-! Last modified: 2011-08-04 03:45:57 JST
+! Checksum: +Y5MNw/zAuJdna24xxYfAA
+! Last modified: 2011-08-23 17:25:09 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -42,6 +42,10 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 
 
 ! ########## Each Domain START #######################################
+
+! ===== adf.ly(URL shortner with AD) killer ===== START =====
+##a[href*="//adf.ly/"]
+! ===== adf.ly(URL shortner with AD) killer ===== END =====
 
 ! ===== Amazon Affiliate killer (beta) ===== START =====
 ##a[href*="amazon."][href*="/exec/obidos/ASIN/"][href*="-22/"]
