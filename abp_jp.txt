@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: odVvMhc21jTiod3zcKAjgA
-! Last modified: 2011-08-24 13:17:30 JST
+! Checksum: ARbEQ9CDI3eCaNAMUfDDfw
+! Last modified: 2011-08-24 13:19:50 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -474,6 +474,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /koukoku/*
 /leaderboard_SWF
 /linkshare/*
+/linktracking.$script
 /listcollector/*$script
 /listingplus/*
 /liveads.
@@ -641,6 +642,7 @@ _google_afc-
 _google_afc.
 _google_afc/*
 _google_afc_
+_gtracking.$script
 _iframeBanner_
 _overture-
 _overture.
@@ -1461,6 +1463,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||mouseflow.com^$third-party
 ||movie-file.net^$third-party
 ||mreco.jp^
+||msn.com/br/*/navigation.$script
+||msn.com/br/*/report.$script
 ||ads1.msn.com^
 ||ads1.jp.msn.com^
 ||ads2.msn.com^
