@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: CgIfoiCQYDK89REGdiSOpA
-! Last modified: 2011-08-29 12:56:32 JST
+! Checksum: ihx67SN9I4DroX91g1XU6Q
+! Last modified: 2011-08-29 15:11:34 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -20,6 +20,9 @@
 @@||doubleclick.net/adj/imdb2.
 @@||imdb.com^*/doubleclick/*
 @@||media-imdb.com^*/ads.$script
+! False positive at psmk2.net. common.css isn't loaded if javascript is enabled and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=76 are blocked.
+@@||psmk2.net/data/js/adbg.$script
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 ! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
 @@||teacup.com/rchat-common/
 ! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
