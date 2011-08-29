@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: +Y5MNw/zAuJdna24xxYfAA
-! Last modified: 2011-08-23 17:25:09 JST
+! Checksum: mlfy30EVSWpICXgxxVFBug
+! Last modified: 2011-08-29 22:03:41 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -78,6 +78,8 @@ mycom.co.jp##a[href*="mycom.co.jp/cgi-bin/pr/"]
 ! ----- mycom.co.jp ----- END -----
 
 ! ===== nicovideo.jp AD (?_?) ===== START =====
+/ichiba_$domain=nicovideo.jp
+/ichiba.$domain=nicovideo.jp
 ||nicovideo.jp/api/getmarquee
 nicovideo.jp###ichiba_placeholder
 nicovideo.jp###ichiba_placeholder + div
