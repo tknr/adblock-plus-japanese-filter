@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: mlfy30EVSWpICXgxxVFBug
-! Last modified: 2011-08-29 22:03:41 JST
+! Checksum: gOUPCHXgcMX28PVntatPUg
+! Last modified: 2011-08-30 17:41:48 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -105,6 +105,10 @@ ustream.tv##.featuredContent
 /geoip.js$third-party
 ||maxmind.com^$third-party
 ! ----- geoip ----- END -----
+
+! ==== Link generator ==== START ====
+||widget.zenback.jp^$third-party
+! ==== Link generator ==== END ====
 
 ! ===== Live chat or support ===== START =====
 ||53kf.com^$third-party
