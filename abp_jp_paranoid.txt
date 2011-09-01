@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: rUoFcGqYBms1xYY1rYA2uQ
-! Last modified: 2011-09-01 11:59:14 JST
+! Checksum: GsUPM+mG86wF2zHeCbsPmw
+! Last modified: 2011-09-01 12:14:24 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -150,9 +150,6 @@ ustream.tv##.featuredContent
 
 
 ! ########## Suspicious START ########################################
-
-! lizamoon
-/ur.php|
 
 ! ---------- Suspicious END ------------------------------------------
 
