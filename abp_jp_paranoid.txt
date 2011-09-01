@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: GsUPM+mG86wF2zHeCbsPmw
-! Last modified: 2011-09-01 12:14:24 JST
+! Checksum: R6tDLAUnr0xnwF5D0Ojhnw
+! Last modified: 2011-09-01 13:10:06 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -35,6 +35,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 
 ! ===== Omniture SiteCatalyst ===== START =====
 /s_code.$domain=~sonystyle.com
+/s_code/*
 /s_code_$script
 ! ----- Omniture SiteCatalyst ----- END -----
 
