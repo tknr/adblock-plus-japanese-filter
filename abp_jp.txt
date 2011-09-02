@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: epmJvp8GGDYxxa1OCcfrgQ
-! Last modified: 2011-09-03 00:22:31 JST
+! Checksum: EvQQar4bQeL6S+fjXiUbaQ
+! Last modified: 2011-09-03 00:27:46 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -655,7 +655,10 @@ _AdPlugin.
 _AdPlugin/*
 _AdPlugin_
 _ads.htm
+_beacon-
 _beacon.
+_beacon/*
+_beacon_
 _clickforce_
 _customads_
 _google_afc-
