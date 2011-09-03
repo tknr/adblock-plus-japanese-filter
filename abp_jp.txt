@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: lUWT/z/0xHbVw0Y9lXI0kg
-! Last modified: 2011-09-03 19:15:47 JST
+! Checksum: dRwO4j/x99dmMrhbyUxJtw
+! Last modified: 2011-09-03 23:49:47 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2743,6 +2743,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".info-style.co.jp"]
 ##a[href*=".infoseek.co.jp/redirect?sv="]
 ##a[href*="infotop.jp/click."]
+##a[href*="infotop.jp/order."]
 ##a[href*="//ngs.impress.co.jp"]
 ##a[href*="//click.j-a-net.jp"]
 ##a[href*="//j-a-net.jp/gateway/click.cgi"]
