@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: zdkRQtusysMAiofy7jZC7w
-! Last modified: 2011-09-03 00:53:41 JST
+! Checksum: 4xQZsYujVyV4eZd5jBLhvQ
+! Last modified: 2011-09-03 12:54:40 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2664,7 +2664,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="-pr."]
 ##a[href*="-PR."]
 ##a[href*="-pr/"]
-##a[href*="-PR/"]
+! False positive at amazon.co.jp conflicting over product code like "...SM-JA48-PR/dp/..."
+~amazon.co.jp##a[href*="-PR/"]
 ! ~ipss.go.jp##a[href*="/pr-"]
 ##a[href*="/PR-"]
 ! ~cr.mufg.jp##a[href*="/pr."]
