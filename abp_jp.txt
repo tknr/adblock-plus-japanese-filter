@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: IR1BEDA6BacAH9ntjDbJhg
-! Last modified: 2011-09-04 21:32:48 JST
+! Checksum: Y4BxIGeb130ernMUIzGz0A
+! Last modified: 2011-09-05 13:29:45 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3125,6 +3125,7 @@ b.hatena.ne.jp##div.sidebar > div[class^="curvebox-"]
 b.hatena.ne.jp##div[id^="afs"]
 q.hatena.ne.jp###related-keyword ~ *
 q.hatena.ne.jp##.job
+hmv.co.jp##.tmplLogo
 hwinfo.com##a[href*="hwinfo.com/ref/"]
 jp.ibtimes.com###ad300
 jp.ibtimes.com###pressrelease
@@ -3163,6 +3164,7 @@ marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
 kabumap.com##.KM_VERS_TABLEAREA > div:not([id]):not([class])
 kget.jp##*[class^="ad"]:not([class*="add"]):not(body):not(input)
+l-tike.com###mhInner
 lavasoft.jp###firstpagebanner
 livedoor.com###become
 livedoor.com###today-site
