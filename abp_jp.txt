@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: JrsPAKJxsoyC+/Dn0De9Lw
-! Last modified: 2011-09-05 16:17:27 JST
+! Checksum: iasjJS12d1ybDW/js1aMlQ
+! Last modified: 2011-09-06 13:39:42 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -80,8 +80,15 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 -ads.ca.$script
 -beacon-
 -beacons-
+-log.
+-metrics.
 -PopUnder|
--utm.ca.$script
+-stat.
+-stats.
+-track.
+-tracker.
+-tracking.
+-utm.$script
 .adserver.
 .beacon-
 .beacon.
@@ -503,9 +510,11 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /listingplus/*
 /live_ad.
 /liveads.
-/log1.js
-/logimg.$image
+/log.
+/log1.
+/logimg.
 /marquee/*
+/metrics.
 /mtag_$third-party
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
@@ -587,7 +596,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /sponsors.
 /sponsors/*
 /sponsors_
+/stat.
 /statcounter.$~image
+/stats.
 /t2cn_ad.
 /text_ad-
 /text_ad.
@@ -597,12 +608,14 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /tirjs2.$script
 /toolbar/popup/*
 /top_bnn.
-/tracker/*$third-party
-/trackers/*$third-party
-/tracking-$third-party
-/tracking.$third-party
-/tracking/*$third-party
-/tracking_$third-party
+/track.
+/tracker.
+/tracker/*
+/trackers/*
+/tracking-
+/tracking.
+/tracking/*
+/tracking_
 /trackingAffilies.
 /trans_pixel.
 /trustclick.
@@ -700,33 +713,35 @@ _tracking.
 _tracking/
 _tracking_
 INSERT_RANDOM_NUMBER_HERE
+||ad-cdn.
 |http://ad.
 |https://ad.
-||ad-cdn.
+||adcl.
 ||adimg.
 ||ads.
 ||ads1.
 ||ads2.
-||adcl.
+||adserving.
+||aff-images.
 |http://c.*/c.$image
 |https://c.*/c.$image
-||log0.
+||eulerian.
 ||hitlog.
+||log.
+||log0.
 ||mads.
 ||maxymiser.$third-party
 ||metrics.
-||smetrics.
 ||ocp.
-||stats.$third-party
-||statistics.$third-party
-||track.$third-party
-||tracker.$third-party
-||tracking.$third-party
-||adserving.
-||aff-images.
-||eulerian.
 ||openadext.
+||smetrics.
+||stat.
+||stats.
+||statistics.
 ||surveys.$third-party
+||track.
+||tracker.
+||tracking.
 ||utm.
 ! ---------- URL Fragments END ---------------------------------------
 ! 
@@ -749,7 +764,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||365ip.info^$third-party
 ||37see.com^$third-party
 ||3gl.net^
-||track.47news.jp^
 ||4allclick.ru^
 ||51.la^$third-party
 ||51yes.com^$third-party
@@ -954,7 +968,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||banner-server.info^$third-party
 ||bannuncio.com^
 ||bb-static.com^
-||stats.bbc.co.uk^
 ||visualscience.external.bbc.co.uk^
 ||bbchat.tv^$third-party
 ||bbelements.com^$third-party
@@ -1025,12 +1038,10 @@ INSERT_RANDOM_NUMBER_HERE
 ||chartbeat.com^$third-party
 ||checkm8.com^$third-party
 ||cheernuts.com^$third-party
-||log.china.cn^
 ||chitika.com^$third-party
 ||chitika.net^
 ||chobirich.com^$third-party
 ||choi-m.com^$third-party
-||log.chosunjns.com^
 ||ad.chosunonline.com^
 ||cleanprint.net^
 ||click2cash.lt^$third-party
@@ -1167,7 +1178,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||egooad.com^$third-party
 ||adingo.jp.eimg.jp^
 ||ekitan.com/eco/
-||log.ekitan.com^
 ||elekted.com^
 ||now.eloqua.com^
 ||email-match.com^$third-party
@@ -1219,7 +1229,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||featuredusers.com^$third-party
 ||feedjit.com^$third-party
 ||fetchback.com^$third-party
-||tracking.fathomseo.com^
 ||promo.fileforum.com^
 ||fileserve.com/script/bannerTimer.$script
 ||filesonic.com/images/banners/
@@ -1297,7 +1306,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
 ||red.hatena.ne.jp^
 ||red3.hatena.ne.jp^
-||track.hatena.ne.jp^
 ||hatid.com^
 ||hazecash.com^$third-party
 ||hebdotop.com^$third-party
@@ -1406,7 +1414,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.jugem.jp^
 ||juiceadv.com^$third-party
 ||juicyads.com^$third-party
-||stats.justin.tv^
 ||jword.jp^$third-party
 ||kakaku.com/script/analytics/
 ||kakaku.com/script/kakakuad/
@@ -1576,7 +1583,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||nicovideo.jp/api/getad
 ||ad.nicovideo.jp^
 ||uad-api.nicovideo.jp^
-||track.nifty.com^
 ||adb.nikkei.co.jp/ad/
 ||nikkeibp.co.jp/img/rpt/
 ||nikkeibp.co.jp^*/ad.
@@ -1875,7 +1881,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||toplist.cz^$third-party
 ||tracer.jp^$third-party
 ||trackalyzer.com^
-||tracking.to^
 ||trackword.biz^$third-party
 ||trackword.net^$third-party
 ||traders.co.jp/image/banner/
@@ -1977,7 +1982,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||woopieapi.com/js/wa/
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
-||stats.wordpress.com^
 ||worldlogger.com^
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
