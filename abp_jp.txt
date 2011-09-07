@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: q4PYEFAnj1b3uPD3q0qtSA
-! Last modified: 2011-09-07 16:30:40 JST
+! Checksum: 8rI4h4XKTrikSjA+Zln1hQ
+! Last modified: 2011-09-07 17:24:56 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -811,7 +811,7 @@ _track/
 ! False positives at iGoogle are reported via Issue Reports: 2011-09-07
 _track_$domain=~google.com|~google.co.jp
 _tracker-
-_tracker.
+_tracker.$domain=~google.com|~google.co.jp
 _tracker/
 _tracker_
 _tracking-
