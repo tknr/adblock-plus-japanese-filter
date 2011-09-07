@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: lOXVT+41/bDmppT0Q8pdLg
-! Last modified: 2011-09-07 15:09:40 JST
+! Checksum: q4PYEFAnj1b3uPD3q0qtSA
+! Last modified: 2011-09-07 16:30:40 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -149,7 +149,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 .track.
 .track/
 .track_
-.tracker-
+.tracker-$domain=~tracker-software.com
 .tracker.
 .tracker/
 .tracker_
