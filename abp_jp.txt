@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 26s3om0XYoFquv6NWNx7OQ
-! Last modified: 2011-09-07 13:23:29 JST
+! Checksum: B66qzhHRYULYJYLnhzQwZw
+! Last modified: 2011-09-07 13:53:29 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -95,10 +95,11 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 -metrics/
 -metrics_
 -PopUnder|
--stat-
--stat.
--stat/
--stat_
+! Commented out to avoid false positives on static: 2011-09-07
+! -stat-
+! -stat.
+! -stat/
+! -stat_
 -stats-
 -stats.
 -stats/
@@ -135,10 +136,11 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 .metrics.
 .metrics/
 .metrics_
-.stat-
-.stat.
-.stat/
-.stat_
+! Commented out to avoid false positives on static: 2011-09-07
+! .stat-
+! .stat.
+! .stat/
+! .stat_
 .stats-
 .stats.
 .stats/
@@ -660,10 +662,11 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /sponsors.
 /sponsors/*
 /sponsors_
-/stat-
-/stat.$domain=~ameblo.jp|~ameba.jp
-/stat/*
-/stat_
+! Commented out to avoid false positives on static: 2011-09-07
+! /stat-
+! /stat.$domain=~ameblo.jp|~ameba.jp
+! /stat/*
+! /stat_
 /statcounter.$~image
 /stats-
 /stats.
@@ -792,10 +795,11 @@ _sponser6.
 _sponser7.
 _sponser8.
 _sponser9.
-_stat-
-_stat.
-_stat/
-_stat_
+! Commented out to avoid false positives on static: 2011-09-07
+! _stat-
+! _stat.
+! _stat/
+! _stat_
 _stats-
 _stats.
 _stats/
@@ -837,7 +841,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||openadext.
 ||pixel.
 ||smetrics.
-||stat.$domain=~ameblo.jp|~ameba.jp
+! Commented out to avoid false positives on static: 2011-09-07
+! ||stat.$domain=~ameblo.jp|~ameba.jp
 ||stats.
 ||statistics.
 ||surveys.$third-party
