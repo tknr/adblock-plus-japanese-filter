@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: MbqRjLIpFghNeerh7uX0ug
-! Last modified: 2011-09-10 16:35:09 JST
+! Checksum: 1rJK7Ckrhk96ndGohYwBbA
+! Last modified: 2011-09-10 16:36:50 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -204,6 +204,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /ad/show-
 /ad/show.
 /ad/show/*
+/ad/show?
 /ad/show_
 /ad_area-
 /ad_area.
