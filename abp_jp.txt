@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 3GItjEygSLdBJvhtcEwxgg
-! Last modified: 2011-09-11 22:24:34 JST
+! Checksum: y47unyzq7GJsmm/Z8lhJDQ
+! Last modified: 2011-09-12 13:11:05 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2083,7 +2083,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||vector.co.jp/vpack/*banner
 ||velmedia.net^
 ||ventivmedia.com^$third-party
-||veritrans.co.jp/bcon/
+||re.veritrans.co.jp^$third-party
 ||verticalacuity.com^$third-party
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
 ! ||videoplaza.tv^
