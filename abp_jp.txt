@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: RMJwNadJx8VGqWO2q3vKtg
-! Last modified: 2011-09-13 17:49:19 JST
+! Checksum: 89WLLobClaR2lXMlalpBXg
+! Last modified: 2011-09-13 19:45:41 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1160,6 +1160,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||boyfriendtv.com^$third-party
 ||brandreachsys.com^$third-party
 ||brazzers.com^$third-party
+||brightcove.com/1pix.
 ||brilig.com^$third-party
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
