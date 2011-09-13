@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: hEazAjx+YwCS3R/4ZCFdMA
-! Last modified: 2011-09-12 13:19:23 JST
+! Checksum: QUnbvVZt2hN5aPUE8Z2Rqg
+! Last modified: 2011-09-13 13:43:27 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -959,6 +959,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adresult.jp^$third-party
 ||adrevolver.com^$third-party
 ||adriver.ru^$third-party
+||adrocketmedia.com^
 ||adroll.com^$third-party
 ||adsbookie.com^$third-party
 ||adsbro.com^
@@ -1142,6 +1143,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||bluelithium.com^
 ||bmmetrix.com^
 ||boo-box.com^$third-party
+||boyfriendtv.com^$third-party
 ||brandreachsys.com^$third-party
 ||brazzers.com^$third-party
 ||brilig.com^$third-party
@@ -1337,6 +1339,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adimpkwd.excite.co.jp^
 ||p4p.excite.co.jp^
 ||exelator.com^
+||exgfnetwork.com^
 ||exoclick.com^$third-party
 ||exoplanetwar.com^$third-party
 ||exponential.com^$third-party
@@ -1370,6 +1373,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||fimserve.com^
 ||financialcontent.com^$third-party
 ||find-a.jp^$third-party
+||flashmediaportal.com^
 ||flashtalking.com^$third-party
 ||fliks.net^$third-party
 ||flirt4free.com^$third-party
@@ -1670,6 +1674,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||motionlink.jp^$third-party
 ||mouseflow.com^$third-party
 ||movie-file.net^$third-party
+||moviebox.com^$third-party
 ||mreco.jp^
 ||mreco0.jp^
 ||msn.com/br/*/navigation.$script
