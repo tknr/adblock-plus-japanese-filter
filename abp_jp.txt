@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: t2AskmQ2ZGf/5UFF20QWKQ
-! Last modified: 2011-09-13 19:52:27 JST
+! Checksum: E+rQmQi8yr7LJhPYATMMNw
+! Last modified: 2011-09-13 21:45:22 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -55,6 +55,7 @@
 @@||spreadthunderbird.com/files/affiliates/
 @@||spreadthunderbird.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
+@@||virustotal.hispasecsistemas.netdna-cdn.com^*/analysis-
 @@||wikipedia.org^$elemhide
 @@||yimg.com/zz/combo?
 ! ---------- Default white list END ----------------------------------
