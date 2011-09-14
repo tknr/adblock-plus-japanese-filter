@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: E+rQmQi8yr7LJhPYATMMNw
-! Last modified: 2011-09-13 21:45:22 JST
+! Checksum: t7851AHdvL5OLlpji4sNgw
+! Last modified: 2011-09-14 11:55:47 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -46,6 +46,7 @@
 @@||gstatic.com/analytics/
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
+@@||lavasoft.com^*/ad_aware/
 @@||mozilla.org/affiliates/
 @@||mozilla.org^$elemhide
 @@||researchmap.jp^*/counter/$stylesheet
@@ -2779,7 +2780,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/AD."]
 ##a[href*="/ad/"]
 ##a[href*="/AD/"]
-##a[href*="/ad_"]
+~lavasoft.com##a[href*="/ad_"]
 ##a[href*="/AD_"]
 ##a[href*="?ad="]
 ##a[href*="_ad."]
@@ -3009,7 +3010,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##img[alt$="_PR]"]
 ##*[id^="ad-"]:not(body):not(input)
 ##*[id^="AD-"]:not(body):not(input)
-~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
+~lavasoft.com,~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
 ##*[id^="AD_"]:not(body):not(input)
 ##*[id^="adBox"]:not(body):not(input)
 ##*[id^="ads-"]:not(body):not(input)
