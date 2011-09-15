@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: ZuOFK7JV24kPckZP0pwuyg
-! Last modified: 2011-09-15 14:55:01 JST
+! Checksum: kRKzbK0R0sL3nsfzcdtb6w
+! Last modified: 2011-09-15 17:49:09 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2922,7 +2922,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="bidders.co.jp/pitem/"][href*="/aff/"]
 ##a[href*="//bii.xii.jp/"]
 ##a[href*=".bingshopping.jp/price/isearch/"]
-##a[href*="jp.brothersoft.com"]
+##a[href*=".brothersoft.com"]
 ##a[href*=".brothersoft.jp"]
 ##a[href*="//refer.ccbill.com"]
 ##a[href*=".counter-hosting.com"]
