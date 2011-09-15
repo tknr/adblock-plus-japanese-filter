@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: sbEmE6rbJJEVy5Yg9wOjbA
-! Last modified: 2011-09-15 22:15:21 JST
+! Checksum: WV2IsoCy8AOHzhVhS2KuOw
+! Last modified: 2011-09-15 22:20:38 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3064,7 +3064,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id*="-ADS-"]:not(body):not(input)
 ! ##*[id*="-pr-"]:not(body):not(input)
 ! ##*[id*="-PR-"]:not(body):not(input)
-~video.fc2.com##*[id*="_ad_"]:not(body):not(input)
+~video.fc2.com##*[id*="_ad_"]:not(body):not(input):not([id*="no_ad"])
 ##*[id*="_AD_"]:not(body):not(input)
 ##*[id*="_ads_"]:not(body):not(input)
 ##*[id*="_ADs_"]:not(body):not(input)
