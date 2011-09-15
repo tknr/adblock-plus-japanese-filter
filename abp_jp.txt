@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: onExdr41VJuMLoCO4tSIGw
-! Last modified: 2011-09-15 14:01:40 JST
+! Checksum: RE76kEnPPozaazNnWs/GHg
+! Last modified: 2011-09-15 14:12:52 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -805,7 +805,7 @@ _iframeBanner_
 _log-
 _log.
 _log/
-_log_
+_log_$domain=~jp-bank-card.jp
 _metrics-
 _metrics.
 _metrics/
