@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Ms6kCB0gLPXYhzVnz5oSJw
-! Last modified: 2011-09-16 16:40:40 JST
+! Checksum: kBNl9dBZw9msRw3vDFgDXg
+! Last modified: 2011-09-16 16:47:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3382,6 +3382,9 @@ jorudan.co.jp##div.bookList
 jorudan.co.jp##div.imgBanner
 kakaku.com###mainRight .alignC
 kakaku.com##.prBn
+kanasoku.blog82.fc2.com###headline
+kanasoku.blog82.fc2.com###twitter_rank
+kanasoku.blog82.fc2.com##.entry_parma > .entry_body
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
