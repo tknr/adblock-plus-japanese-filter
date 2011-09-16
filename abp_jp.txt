@@ -1450,6 +1450,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||gigafree.net/ga.$script
 ||gigazine.asia^
 ||gigya.com^$third-party
+||girlsteachsex.com^$third-party
 ||glam.com^$third-party
 ||glam.jp^$third-party
 ||glam.co.jp^$third-party
