@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: hWmmEDXozFuQ24lvSPCl9Q
-! Last modified: 2011-09-16 16:30:59 JST
+! Checksum: jbCJXGciuKT9JCMfgDlORw
+! Last modified: 2011-09-16 16:39:07 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -347,6 +347,10 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /advertise.
 /advertise/*
 /advertise_
+/advertisement-
+/advertisement.
+/advertisement/*
+/advertisement_
 /adview-
 /adview.
 /adview/*
@@ -593,8 +597,14 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /linktracking.$script
 /listcollector/*$script
 /listingplus/*
+/live_ad-
 /live_ad.
-/liveads.
+/live_ad/*
+/live_ad_
+/LiveAds-
+/LiveAds.
+/LiveAds/*
+/LiveAds_
 ! A false positive at comodo.com is reported via Issue Report saying that a login button image is blocked: 2011-09-07
 /log-$domain=~comodo.com
 /log.
