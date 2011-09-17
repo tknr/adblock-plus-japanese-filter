@@ -675,6 +675,9 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /RealMedia/*
 /right-ad-
 /rss.$script
+/rss1.$script
+/rss2.$script
+/rss3.$script
 /sa/infospace.
 /sbi_recommend.$script
 /sdc.js
