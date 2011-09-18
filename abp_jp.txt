@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: W4n19hgSr7E6StPQpUt1HQ
-! Last modified: 2011-09-18 16:13:47 JST
+! Checksum: mNpJdRasb4ZRFzZqZLttBA
+! Last modified: 2011-09-19 02:11:14 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -641,6 +641,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /OmnitureActionSource.
 /omuniture/*
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
+/openx-
 /openx.
 /openx/*
 /openx_
