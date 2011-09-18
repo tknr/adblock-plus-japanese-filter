@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: gK64CHujMp6rcWP3EtlNAw
-! Last modified: 2011-09-18 14:49:38 JST
+! Checksum: z2bOYU9nS4bN2TswKaPNbQ
+! Last modified: 2011-09-18 14:52:18 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -21,7 +21,7 @@
 ! imdb.com sucks! To avoid false positives you have to load some AD scripts.
 @@||doubleclick.net/adj/imdb2.
 ! anime.biglobe.ne.jp uses "Regist Seen Logs" buttons, whose file name is "btn_feedback_log_xx.gif" 2011-09-18
-@@||anime.biglobe.ne.jp^*feedback_log_$image'
+@@||anime.biglobe.ne.jp^*feedback_log_$image
 @@||imdb.com^*/doubleclick/*
 ! jp-bank-card.jp names "jc_log_xx.gif" as login related images... orz 2011-09-15
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
