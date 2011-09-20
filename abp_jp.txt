@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 3wiMwRgJMYvM3KdU+IGEog
-! Last modified: 2011-09-20 04:35:22 JST
+! Checksum: NBcKPb85cDVNemixNAfrpg
+! Last modified: 2011-09-20 15:32:31 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -667,7 +667,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /p_code.$script
 /pagead/*
 /piwik.js
-/pixel.$domain=~pcgameshardware.de
+/pixel.$image,domain=~pcgameshardware.de
 /pixel?
 /playertracking/*
 /popunder-
