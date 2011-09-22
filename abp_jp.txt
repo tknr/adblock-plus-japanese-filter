@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 5yCwFAj5FR/Ox8+j3e8ADQ
-! Last modified: 2011-09-22 19:19:00 JST
+! Checksum: /B5jgpePb5KlGpEa5iwIIQ
+! Last modified: 2011-09-22 19:24:21 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -685,6 +685,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /popunder2/*
 /popunder2_
 /popundr.
+/popup.$script
 /popup/promotion_
 /popwin_
 /ppvtrack.
@@ -1915,6 +1916,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
 ||questionmarket.com^$third-party
+||r1fclick.com^
 ||rakulog.com^$third-party
 ||rakuten.co.jp/*/ad/
 ||rakuten.co.jp/*/ad_
