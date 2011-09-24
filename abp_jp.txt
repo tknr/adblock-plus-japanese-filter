@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: KEaNodx7jEZnFgonvF6FTA
-! Last modified: 2011-09-24 14:28:08 JST
+! Checksum: P/8DcA/9I4kmXhJhIeDNwA
+! Last modified: 2011-09-25 00:32:16 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -22,12 +22,7 @@
 @@||aolcdn.com/omniunih.$domain=autoblog.com
 ! imdb.com sucks! To avoid false positives you have to load some AD scripts.
 @@||doubleclick.net/adj/imdb2.
-! anime.biglobe.ne.jp uses "log" as history, which produce plenty of false positives 2011-09-22
-@@||anime.biglobe.ne.jp^*log.$object
-@@||anime.biglobe.ne.jp^*log_$image
 @@||imdb.com^*/doubleclick/*
-! jp-bank-card.jp names "jc_log_xx.gif" as login related images... orz 2011-09-15
-@@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
 @@||media-imdb.com^*/ads.$script
 ! Japanese biggest computer vendor uses cliant-side script to display RSS titles. It seems that they don't trust server-side performance of their own servers.
 @@||nec.co.jp^*/rss.$script
@@ -55,7 +50,6 @@
 @@||i.i.com.com/cnwk.1d/html/rb/
 @@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
-@@||sci.la.coocan.jp^*/log/
 @@||gstatic.com/analytics/
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
@@ -112,10 +106,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 -beacons.
 -beacons/
 -beacons_
--log-
--log.$domain=~twilog.org|~y-log.net
--log/
--log_
 -metrics-
 -metrics.
 -metrics/
@@ -156,10 +146,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 .beacons_
 .ca.html|
 .kissinsights.com/
-.log-
-.log.
-.log/
-.log_
 .metrics-
 .metrics.
 .metrics/
@@ -638,10 +624,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /LiveAds/*
 /LiveAds_
 ! A false positive at comodo.com is reported via Issue Report saying that a login button image is blocked: 2011-09-07
-/log-$domain=~comodo.com
-/log.
-/log/*
-/log_
 /log1.
 /logimg.
 /marquee/*
@@ -853,10 +835,6 @@ _google_afc/*
 _google_afc_
 _gtracking.$script
 _iframeBanner_
-_log-
-_log.
-_log/
-_log_
 _metrics-
 _metrics.
 _metrics/
