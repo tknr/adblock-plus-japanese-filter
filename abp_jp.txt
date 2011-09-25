@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: TE2HazLZbqIOXJJjXHuGYw
-! Last modified: 2011-09-25 15:36:47 JST
+! Checksum: cHZfUlW0z6updW6ygB+tPw
+! Last modified: 2011-09-25 15:59:58 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2747,6 +2747,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###adbox
 ###adBox
 ###AdBox
+###adPRtext
 ###adsbox
 ###adsBox
 ###AdsBox
@@ -2771,6 +2772,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###prbox
 ###prTxt
 ###sideadbnr
+###sideRecommend
 ###textad
 ###textAd
 ###textAds
@@ -2797,6 +2799,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.adbox
 ##.adBox
 ##.AdBox
+##.adPRtext
 ##.adsbox
 ##.adsBox
 ##.AdsBox
@@ -2835,6 +2838,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.randomBanner
 ##.showcaseAd
 ##.sideAd
+##.sideRecommend
 ##.sideTxtAd
 ##.spotlightAd
 ##.staticAd
@@ -2845,6 +2849,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.topAds
 ~kent-web.com##a[href="http://www.kent-web.com/"]
 ! ========== Links with keywords START ==========
+##a[href*="/A-affiliate2/"]
 ~famitsu.com##a[href*="&ad="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
@@ -2907,7 +2912,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/adsv_"]
 ##a[href*="/advertise."]
 ##a[href*="/advertise/"]
-##a[href*="/A-affiliate2/"]
+##a[href*="/advertising/"]
 ##a[href*="?af_code="]
 ##a[href*="?afc="]
 ##a[href*="/aff.php?"]
@@ -2932,8 +2937,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="/kokoku/"]
 ##a[href*="/lsplus."]
-##a[href*="/track/traffic.php?"]
-##a[href*="/traffic.php?c="]
+##a[href*="&partnerId="]
 ! ~capote.posterous.com##a[href*="-pr-"]
 ##a[href*="-PR-"]
 ##a[href*="-pr."]
@@ -2957,6 +2961,8 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="_PR_"]
 ##a[href*="/speedclicks/"]
 ! false positive 2011-03-07: ##a[href*="/splash/"]
+##a[href*="/track/traffic.php?"]
+##a[href*="/traffic.php?c="]
 ##a[href*="sponsor"]
 ##a[href*="utm_medium=ad"]
 ##a[href*="utm_source=ad"]
