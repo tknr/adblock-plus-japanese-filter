@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: X7MqXk5YbZ6qqTTTSxMW3g
-! Last modified: 2011-09-27 18:01:34 JST
+! Checksum: X1zy6MHBiY0XUlGv2c66Nw
+! Last modified: 2011-09-27 18:37:34 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1323,6 +1323,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||cyberwing.co.jp^$third-party
 ||ad.cyzo.com^
 ||d-064.com^$third-party
+||actracer.daiwahouse.co.jp^
 ||d03x2011.com^
 ||dailymotion.com*/masscast/
 ||dailymotion.com/behavior/
