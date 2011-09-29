@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: wIZtvTXJRN2a0XcrxgCFRQ
-! Last modified: 2011-09-29 04:56:56 JST
+! Checksum: QQ0M2JP1MFcMaohuRmh8tw
+! Last modified: 2011-09-29 15:04:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1949,7 +1949,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||rakuten.co.jp/camp/
 ||rakuten.co.jp/com/img/home/t.$image
 ||rakuten.co.jp/common00/
-||rakuten.co.jp/content/top-ajax/trans.$image
 ||rakuten.co.jp/js/adjs/
 ||rakuten.co.jp/js/catalyst/
 ||rakuten.co.jp/js/p_code.$script
