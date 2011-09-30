@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: ZxMtk7/L+JII11LBGNBeMQ
-! Last modified: 2011-09-30 16:51:46 JST
+! Checksum: qK3z0R4sLJt/ZHSkRLQoQA
+! Last modified: 2011-10-01 08:38:03 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -15,8 +15,6 @@
 ! ########## Temporary white list START ################################
 ! video-cdn.ea.com distributes mp4 videos with "&affiliateid="...
 @@.mp4?*&affiliateid=
-! .track. filter causes false positives with a jQuery Plugin named "JQUERY FORM TRACK CHANGES", at WTS in babelzilla.org 2011-09-19
-@@/jquery.form.track.changes.$script
 ! autoblog(AOL) sucks! It requires some trackings to render correctly, reported twice by Issue Report
 @@||aolcdn.com/js/mg2.$domain=autoblog.com
 @@||aolcdn.com/omniunih.$domain=autoblog.com
@@ -48,15 +46,12 @@
 @@/cnwk.1d/css/*
 @@||reports.adblockplus.org^$elemhide
 @@||advertban.com^$elemhide
-@@||amazon.*/shiptrack/
-@@||clustrmaps.com/stats/$first-party
 @@||i.i.com.com/cnwk.1d/html/rb/
 @@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
 @@||gstatic.com/analytics/
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
-@@||data.jma.go.jp^*/stats
 @@||lavasoft.com^$elemhide
 @@||lavasoft.com^*/ad_aware/
 @@||mozilla.org/affiliates/
@@ -67,7 +62,6 @@
 @@||spreadfirefox.jp/affiliates/
 @@||spreadthunderbird.com/files/affiliates/
 @@||spreadthunderbird.com^$elemhide
-@@||tbs.co.jp^*_stats.$stylesheet
 @@||virustotal.hispasecsistemas.netdna-cdn.com^*/analysis-
 @@||wikipedia.org^$elemhide
 @@||yimg.com^*/combo/
@@ -99,7 +93,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 &random=*&size=1x1&
 &referer=$image,script
 &trackid=$third-party
-&tracking=$third-party
 &view=ad&
 -ads.ca.$script
 -beacon-
@@ -120,22 +113,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ! -stat.
 ! -stat/
 ! -stat_
--stats-
--stats.
--stats/
--stats_
--track-
--track.
--track/
--track_
--tracker-
--tracker.
--tracker/
--tracker_
--tracking-
--tracking.
--tracking/
--tracking_
 -utm.$script
 .adsense-$domain=~google.com
 .adserver.
@@ -160,22 +137,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ! .stat.
 ! .stat/
 ! .stat_
-.stats-
-.stats.
-.stats/
-.stats_
-.track-
-.track.
-.track/
-.track_
-.tracker-$domain=~tracker-software.com
-.tracker.
-.tracker/
-.tracker_
-.tracking-
-.tracking.
-.tracking/
-.tracking_
 .TieupNotification.
 /200_200.$image,domain=premium.nikkeibp.co.jp
 ! false positive at lifehacker.com 2011-09-30
@@ -183,7 +144,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /__onedot?c=
 /__utm.
 /_a_cast.$script
-/_tracker.
 /180x180.gif|$first-party
 /A-affiliate2/*
 /abnl/?begun=
@@ -766,11 +726,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ! /stat/*
 ! /stat_
 /statcounter.$~image
-/stats-
-/stats.
-/stats/*
-/stats?
-/stats_
 /t2cn_ad.
 /text_ad-
 /text_ad.
@@ -780,21 +735,7 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 /tirjs2.$script
 /toolbar/popup/*
 /top_bnn.
-/track-
-/track.
-/track/*
-/track_
 /trackalyze.$script
-/tracker-
-/tracker.$domain=~dominos.com
-/trackers.
-/tracker/*$domain=~dominos.com
-/tracker_
-/trackers/*
-/tracking-
-/tracking.
-/tracking/*
-/tracking_
 /trackingAffilies.
 /trans_pixel.
 /trustclick.
@@ -850,7 +791,6 @@ $image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=im
 ?promo_type=
 ?referer=$image,script
 ?trackid=$third-party
-?tracking=$third-party
 _ad_leaf.$script
 _ad_loader.$script
 _ad_statistics-
@@ -901,23 +841,6 @@ _sponser9.
 ! _stat.
 ! _stat/
 ! _stat_
-_stats-
-_stats.
-_stats/
-_stats_
-_track-
-_track.
-_track/
-! False positives at iGoogle are reported via Issue Reports: 2011-09-07
-_track_$domain=~gmodules.com|~google.com|~google.co.jp
-_tracker-
-_tracker.$domain=~google.com|~google.co.jp
-_tracker/
-_tracker_
-_tracking-
-_tracking.
-_tracking/
-_tracking_
 INSERT_RANDOM_NUMBER_HERE
 ||ad-cdn.
 |http://ad.
@@ -940,7 +863,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||eulerian.
 ||hitlog.
 ||kanasoku.*/thumb/
-||log.
 ||log0.
 ||mads.
 ||maxymiser.$third-party
@@ -948,16 +870,10 @@ INSERT_RANDOM_NUMBER_HERE
 ||ocp.
 ||openadext.
 ||phpadsnew.
-||pixel.
 ||smetrics.
 ! Commented out to avoid false positives on static: 2011-09-07
 ! ||stat.$domain=~ameblo.jp|~ameba.jp
-||stats.
-||statistics.
 ||surveys.$third-party
-||track.
-||tracker.
-||tracking.
 ||utm.
 ! ---------- URL Fragments END ---------------------------------------
 ! 

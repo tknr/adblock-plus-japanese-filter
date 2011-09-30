@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: ZCj3kGKc1itXAzfb7RLfxg
-! Last modified: 2011-09-30 16:12:16 JST
+! Checksum: ZySQZIRXWwduc9X52AMbqA
+! Last modified: 2011-10-01 08:38:03 JST
 !
 ! Japanese Paranoid Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -20,28 +20,75 @@
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
 ! ---------- Temporary white list END ----------------------------------
 
+
 ! ########## Default white list START ################################
+@@/jquery.form.track.changes.$script
 @@||reports.adblockplus.org^$elemhide
+@@||amazon.*/shiptrack/
+@@||clustrmaps.com/stats/$first-party
 @@||sci.la.coocan.jp^*/log/
 @@||code.google.com^$elemhide
 @@||indeep76.com^$elemhide
+@@||data.jma.go.jp^*/stats
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
+@@||tbs.co.jp^*_stats.$stylesheet
 @@||wikipedia.org^$elemhide
 ! ---------- Default white list END ----------------------------------
 
 
-! ########## Generic filters START ###################################
+! ########## Adblock Plus config START ###############################
 browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommendbutton
 *$donottrack,image,~image
+! ---------- Adblock Plus config END ---------------------------------
+
+
+! ########## Generic filters START ###################################
+&tracking=$third-party
+
 -log-
 -log.$domain=~twilog.org|~y-log.net
 -log/
 -log_
+-stats-
+-stats.
+-stats/
+-stats_
+-track-
+-track.
+-track/
+-track_
+-tracker-
+-tracker.
+-tracker/
+-tracker_
+-tracking-
+-tracking.
+-tracking/
+-tracking_
+
 .log-
 .log.
 .log/
 .log_
+.stats-
+.stats.
+.stats/
+.stats_
+.track-
+.track.
+.track/
+.track_
+.tracker-$domain=~tracker-software.com
+.tracker.
+.tracker/
+.tracker_
+.tracking-
+.tracking.
+.tracking/
+.tracking_
+
+/_tracker.
 /1x1.$image
 /gen_204$domain=~maps.google.co.jp|~maps.google.com
 /generate_204
@@ -50,6 +97,58 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /log/*
 /log_
 /logger.
+/stats-
+/stats.
+/stats/*
+/stats?
+/stats_
+/track-
+/track.
+/track/*
+/track_
+/tracker-
+/tracker.$domain=~dominos.com
+/trackers.
+/tracker/*$domain=~dominos.com
+/tracker_
+/trackers/*
+/tracking-
+/tracking.
+/tracking/*
+/tracking_
+?tracking=$third-party
+
+_stats-
+_stats.
+_stats/
+_stats_
+_track-
+_track.
+_track/
+! False positives at iGoogle are reported via Issue Reports: 2011-09-07
+_track_$domain=~gmodules.com|~google.com|~google.co.jp
+_tracker-
+_tracker.$domain=~google.com|~google.co.jp
+_tracker/
+_tracker_
+_tracking-
+_tracking.
+_tracking/
+_tracking_
+
+||log.
+||pixel.
+||stats.
+||statistics.
+||track.
+||tracker.
+||tracking.
+
+! ---------- Generic filters END -------------------------------------
+
+
+! ##### Each Service START ###########################################
+
 ! ===== Omniture SiteCatalyst ===== START =====
 /s_code.$script
 /s_code2.$script
@@ -74,7 +173,7 @@ _s_code_$script
 _s_code2_$script
 ! ----- Omniture SiteCatalyst ----- END -----
 
-! ---------- Generic filters END -------------------------------------
+! ----- Each Service END ---------------------------------------------
 
 
 ! ########## Each Domain START #######################################
