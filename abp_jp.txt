@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: zgdgJtkYRApNU/ESGZoTWA
-! Last modified: 2011-10-03 23:09:25 JST
+! Checksum: jlzBXYwXJazxvlEx87nReA
+! Last modified: 2011-10-04 02:05:11 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1353,7 +1353,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||etology.com^$third-party
 ||etracker.com^
 ||etracker.de^
-||eurogrand.com^
+||eurogrand.com^$popup
 ||everestjs.net^
 ||evidon.com^
 ||ewoss.net^$third-party
@@ -1373,7 +1373,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||extreme-dm.com^
 ||eyewonder.com^$third-party
 ||ezbbs.net/*/sample*/img/
-||ezwebcam.com^
+||ezwebcam.com^$popup
 ||facebook.com/ai.php?
 ||facebook.com/plugins/recommendations.
 ||facebookofsex.com^$third-party
@@ -1527,7 +1527,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||wrapper.ign.com^
 ||iida.jp^*blogparts/
 ||iivt.com^
-||ilivid.com^
+||ilivid.com^$popup
 ||imagedunk.com/hiokax_
 ||imageporter.com^$third-party
 ||imageshack.us^$third-party
@@ -1648,7 +1648,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||livejasmin.com^$third-party
 ||livejasmin.com/freechat/
 ||livejasmin.com/iframes/___ljlad/
-||creatives.livejasmin.com^
+||creatives.livejasmin.com^$popup
 ||lphbs.com^
 ||liverail.com^$third-party
 ||liveundnackt.com^$third-party
@@ -1714,7 +1714,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||mixpanel.com^$third-party
 ||mlstat.com^
 ||mobilcom-debitel.de^
-||mobileraffles.com^
+||mobileraffles.com^$popup
 ||mobylog.jp^$third-party
 ||mochiads.com^$third-party
 ||mofos.com^$third-party
@@ -1834,7 +1834,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||p-advg.com^$third-party
 ||p-bxm.com^$third-party
 ||pardot.com^$third-party
-||partypoker.com^
+||partypoker.com^$popup
 ||pasadserver.com^$third-party
 ||pay-click.ru^$third-party
 ||pclicks.com^$third-party
@@ -2124,7 +2124,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||traffiliate.com^$third-party
 ||traffiq.com^$third-party
 ||traforet.ru^$third-party
-||travian.jp^
+||travian.jp^$popup
 ||trekmedia.net^
 ||tribalfusion.com^$third-party
 ||triggit.com^$third-party
@@ -2183,7 +2183,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||viewablemedia.net^
 ||viglink.com^$third-party
 ||t.vimeo.com^
-||virusbuster.jp^*trial/sem/
+||virusbuster.jp^*trial/sem/$popup
 ||visiblemeasures.com^$third-party
 ||visistat.com^$third-party
 ||visit-x.net^$third-party
@@ -2216,7 +2216,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||geoiplookup.wikimedia.org^
 ||wikiodeliv.com^
 ||pr.wikiwiki.jp^
-||williamhill.com^
+||williamhill.com^$popup
 ||ad.wiredvision.jp^
 ||with2.net^$third-party
 ||wmh0.com^$third-party
