@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: sPOldHCPYSDUYOqxF+fvNA
-! Last modified: 2011-10-03 14:03:34 JST
+! Checksum: vYIoQsw2aac2uiCIjcnkFg
+! Last modified: 2011-10-03 14:19:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2715,8 +2715,6 @@ INSERT_RANDOM_NUMBER_HERE
 !
 ! ########## Element Hiding START ####################################
 ~id.dwmail.jp,~login.mail.goo.ne.jp###ad
-###ad1
-###ad2
 ###AD
 ###ad_container
 ###ad_listing
@@ -2733,6 +2731,24 @@ INSERT_RANDOM_NUMBER_HERE
 ###ad_rs
 ###ad_top
 ###AD_top
+###AD1
+###AD2
+###AD3
+###AD4
+###AD5
+###AD6
+###AD7
+###AD8
+###AD9
+###ad1
+###ad2
+###ad3
+###ad4
+###ad5
+###ad6
+###ad7
+###ad8
+###ad9
 ###adAms
 ###adbox
 ###adBox
@@ -2785,8 +2801,26 @@ INSERT_RANDOM_NUMBER_HERE
 ##.ad_textlink_box
 ##.AD_text
 ##.ad_top
+##.AD1
+##.AD2
+##.AD3
+##.AD4
+##.AD5
+##.AD6
+##.AD7
+##.AD8
+##.AD9
+##.ad1
+##.ad2
+##.ad3
 ##.ad300
+##.ad4
+##.ad5
+##.ad6
+##.ad7
 ##.ad728
+##.ad8
+##.ad9
 ##.adbox
 ##.adBox
 ##.AdBox
