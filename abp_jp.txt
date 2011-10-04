@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Tm7UrNp2yiNAddQ/Xsyg0A
-! Last modified: 2011-10-04 13:22:34 JST
+! Checksum: JrgPzId9fs+oBnrJ40ZLlg
+! Last modified: 2011-10-04 13:24:24 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -71,7 +71,7 @@
 !
 ! ########## URL Fragments START #####################################
 *$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-*$popup,image,~image,domain=megaupload.com|megavideo.com|torrentbox.com
+*$popup,image,~image,domain=bitshare.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com
 
 &ad_id=
 &ad_size=
