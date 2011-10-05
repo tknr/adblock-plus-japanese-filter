@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: SMf4XTKbgIO+X7xkvecMMA
-! Last modified: 2011-10-04 22:19:17 JST
+! Checksum: GckVwvqZRcOy5ts8xJEmnw
+! Last modified: 2011-10-05 09:24:49 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3430,6 +3430,7 @@ encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
 ! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
 encrypted.google.com,www.google.com,www.google.co.jp##.ra:not([class*="jb"])
 encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
+encrypted.google.com,www.google.com,www.google.co.jp##a[href*="//ceron.jp/"]
 gqjapan.jp,wired.jp###rectangle
 gqjapan.jp,wired.jp###tile
 hamusoku.com##.topbox
