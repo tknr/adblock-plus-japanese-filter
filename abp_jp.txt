@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: hFEhIcjQGWlbQJNrghKF7w
-! Last modified: 2011-10-07 15:34:27 JST
+! Checksum: F/hv9As+wj1shrlfLhdFYQ
+! Last modified: 2011-10-07 15:36:35 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2222,7 +2222,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||wa-track.com^$third-party
 ||wahoha.com^
 ||washingtonpost.com^*/ad/
-||washingtonpost.com^*/otto/$script
+||washingtonpost.com^*/otto/
 ||watchmygf.net^$third-party
 ||wb-rotator.com^
 ||web-stat.com^$third-party
