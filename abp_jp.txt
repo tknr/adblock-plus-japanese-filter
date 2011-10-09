@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: rxYal+JNPxI2zqMsxfonHQ
-! Last modified: 2011-10-09 14:23:37 JST
+! Checksum: 4ndsrlJFNOn6ThPlfZm5oQ
+! Last modified: 2011-10-09 14:26:55 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -274,6 +274,7 @@
 /adinfo/*
 /adinfo_
 /AdLantisLoader.
+/adlayer.
 /adListing-
 /adListing.
 /adListing/*
