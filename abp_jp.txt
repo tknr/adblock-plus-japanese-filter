@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 4ndsrlJFNOn6ThPlfZm5oQ
-! Last modified: 2011-10-09 14:26:55 JST
+! Checksum: jWSE7mORWh0QFJlCMXz0gQ
+! Last modified: 2011-10-09 15:58:41 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -152,6 +152,7 @@
 /__onedot?c=
 /__utm.
 /_a_cast.$script
+/_search.js|$third-party
 /180x180.gif|$first-party
 /A-affiliate2/*
 /abnl/?begun=
@@ -911,6 +912,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||20serve.com^
 ||247realmedia.com^$third-party
 ||24log.ru^$third-party
+||24smile.org^
 ||count.2ch.net^$~image
 ||find.2ch.net/*_banner_
 ||2mdn.net^$third-party
@@ -1203,6 +1205,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ca-mpr.jp^
 ||gostats.cachefly.net^
 ||camads.net^$third-party
+||campeut.com^
 ||captainad.com^$third-party
 ||caribbeancomgirl.com^$third-party
 ||carview.co.jp/*_super_banner.
@@ -1660,6 +1663,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||banner.lardi-trans.com^
 ||leadforce1.com^
 ||adv.letitbit.net^
+||liendans.com^
 ||ad.lifehacker.jp^
 ||lifestats.ru^
 ||liftdna.com^$third-party
@@ -2099,6 +2103,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||spylog.com^
 ||spylog.ru^
 ||red.st-hatena.com^
+||st00.net^
 ||star-advertising.com^
 ||statcounter.com^$third-party
 ||statistik-gallup.net^
@@ -2144,6 +2149,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||tomsguide.com^*indexAjax.php?ctrl=ajax_price
 ||tomshardware.com^*indexAjax.php?ctrl=ajax_price
 ||toplist.cz^$third-party
+||toutiles.com^
 ||tracer.jp^$third-party
 ||trackalyzer.com^
 ||trackfeed.com^$third-party
