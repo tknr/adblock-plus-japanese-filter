@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: eSzyWjePJsx/hoOVqmp7kQ
-! Last modified: 2011-10-11 12:37:42 JST
+! Checksum: /VEE6jnYhPLxWfAZxhmz8A
+! Last modified: 2011-10-11 13:25:59 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -51,7 +51,8 @@
 @@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
 @@||conviva.com/crossdomain.xml
-@@||conviva.com/lpconfig/cfg/
+! There were False positives at http://www.youtube.com/oracle , which no longer exist 2011-10-11
+! @@||conviva.com/lpconfig/cfg/
 @@||gstatic.com/analytics/
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
