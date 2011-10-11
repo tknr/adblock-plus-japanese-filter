@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: /VEE6jnYhPLxWfAZxhmz8A
-! Last modified: 2011-10-11 13:25:59 JST
+! Checksum: NbYRhQs+pTvJU8ahNCYlnA
+! Last modified: 2011-10-11 13:41:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -50,8 +50,8 @@
 @@||i.i.com.com/cnwk.1d/html/rb/
 @@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
-@@||conviva.com/crossdomain.xml
 ! There were False positives at http://www.youtube.com/oracle , which no longer exist 2011-10-11
+! @@||conviva.com/crossdomain.xml
 ! @@||conviva.com/lpconfig/cfg/
 @@||gstatic.com/analytics/
 @@||hulu.*/site-player/
@@ -1270,6 +1270,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||conversionruler.com^$third-party
 ! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
 ! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
+! => Eliminated whitelists above because these false positives has gone, somehow 2011-10-11
+||conviva.com^$third-party
 ||livepass.conviva.com^
 ||boxz.cools4u.com^
 ||coremetrics.com^$third-party
