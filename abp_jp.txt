@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: r2Z9nXJtyV7cx+OULmDU2g
-! Last modified: 2011-10-13 12:47:00 JST
+! Checksum: MjeRlxaS0JbAesdmy5vvgg
+! Last modified: 2011-10-14 11:22:37 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -923,6 +923,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||365ip.info^$third-party
 ||37see.com^$third-party
 ||3gl.net^
+||track.47news.jp^
 ||4allclick.ru^
 ||51.la^$third-party
 ||51yes.com^$third-party
@@ -1149,6 +1150,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||bannuncio.com^
 ||bb-static.com^
 ||visualscience.external.bbc.co.uk^
+||stats.bbc.co.uk^
 ||bbchat.tv^$third-party
 ||bbelements.com^$third-party
 ||become.co.jp^$third-party
@@ -1227,10 +1229,12 @@ INSERT_RANDOM_NUMBER_HERE
 ||chartbeat.com^$third-party
 ||checkm8.com^$third-party
 ||cheernuts.com^$third-party
+||log.china.cn^
 ||chitika.com^$third-party
 ||chitika.net^
 ||chobirich.com^$third-party
 ||choi-m.com^$third-party
+||log.chosunjns.com^
 ||ad.chosunonline.com^
 ||cleanprint.net^
 ||click2cash.lt^$third-party
@@ -1382,6 +1386,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||egooad.com^$third-party
 ||adingo.jp.eimg.jp^
 ||ekitan.com/eco/
+||log.ekitan.com^
 ||elekted.com^
 ||eloqua.com^$third-party
 ||email-match.com^$third-party
@@ -1422,6 +1427,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||facebookofsex.com^$third-party
 ||fairfax.com.au^$third-party
 ||fastclick.net^
+||tracking.fathomseo.com^
 ||fc2.com^*/random.$script
 ||fc2.com^*janre.$script
 ||fc2.com/ad/
@@ -1524,6 +1530,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
 ||red.hatena.ne.jp^
 ||red3.hatena.ne.jp^
+||track.hatena.ne.jp^
 ||hatid.com^
 ||hazecash.com^$third-party
 ||hebdotop.com^$third-party
@@ -1645,6 +1652,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.jugem.jp^
 ||juiceadv.com^$third-party
 ||juicyads.com^$third-party
+||stats.justin.tv^
 ||jword.jp^$third-party
 ||kakaku.com/script/analytics/
 ||kakaku.com/script/kakakuad/
@@ -1834,6 +1842,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ad.nicovideo.jp^
 ||uad-api.nicovideo.jp^
 ||nielsen.com^$third-party
+||track.nifty.com^
 ||nikkeibp.co.jp^*-welcome.$script
 ||nikkeibp.co.jp^*/ad.
 ||nikkeibp.co.jp^*/rPR_
@@ -2166,6 +2175,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||tracer.jp^$third-party
 ||trackalyzer.com^
 ||trackfeed.com^$third-party
+||tracking.to^
 ||trackword.biz^$third-party
 ||trackword.net^$third-party
 ||traders.co.jp/image/banner/
@@ -2288,6 +2298,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||woopieapi.com/js/wa/
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
+||stats.wordpress.com^
 ||worldlogger.com^
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
