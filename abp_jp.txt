@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: sou6tR1vGXdY4cLO5i+aVg
-! Last modified: 2011-10-17 17:33:11 JST
+! Checksum: MOkxv9Xi0uAe082X2IIGVg
+! Last modified: 2011-10-17 17:36:59 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -622,6 +622,7 @@
 /koukoku/*
 /leaderboard_SWF
 /lg.php?bannerid=
+/lightningcast-
 /linkshare/*
 /linktracking.$script
 /listcollector/*$script
@@ -1698,7 +1699,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||lifestats.ru^
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party
-||lightningcast.net^
+||lightningcast.
 ||lijit.com^$third-party
 ||linezing.com^$third-party
 ||link-trade.net^$third-party
