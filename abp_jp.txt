@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: JBeytLBxOHFDs4d/4DtGXQ
-! Last modified: 2011-10-17 13:44:54 JST
+! Checksum: JaPZYaBcJfrSyczz3qf0nA
+! Last modified: 2011-10-17 16:55:04 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1390,7 +1390,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||ebuzzing.com^$third-party
 ||ecnavi.jp/campaign/$third-party
 ||eco-tag.jp^
-||edgefcs.net^
+! Commented out to avoid false positives with ooyala.com embeded movie player at jp.techcrunch.com 2011-10-17
+! ||edgefcs.net^
 ||yieldmanager.edgesuite.net^$third-party
 ||effectivemeasure.net^$third-party
 ||effiliation.com^$third-party
