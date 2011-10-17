@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: bv9fNiF0KiGhJ3eQSgsB+A
-! Last modified: 2011-10-17 19:17:34 JST
+! Checksum: rN8ni2UZZN56VsmMkH67sA
+! Last modified: 2011-10-17 20:13:10 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -20,6 +20,8 @@
 @@||aolcdn.com/omniunih.$domain=autoblog.com
 ! imdb.com sucks! To avoid false positives you have to load some AD scripts.
 @@||doubleclick.net/adj/imdb2.
+! Fix layout collapse 2011-10-17
+@@||fc2.com^*/kanasoku/advertisement.js
 @@||imdb.com^*/doubleclick/*
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
