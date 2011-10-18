@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 6vh9K5kQBktyK1XWza/0sA
-! Last modified: 2011-10-18 15:11:42 JST
+! Checksum: m8jdwBeq0TZf4IDHcPhuzQ
+! Last modified: 2011-10-18 20:32:20 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3540,6 +3540,7 @@ encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][styl
 encrypted.google.com,www.google.com,www.google.co.jp##a[href*="//ceron.jp/"]
 gqjapan.jp,wired.jp###rectangle
 gqjapan.jp,wired.jp###tile
+h-online.com##.teaser_priceinsight
 hamusoku.com##.topbox
 hatena.ne.jp###info-header
 hatena.ne.jp##.list.ad
