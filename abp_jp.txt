@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: d41OCbx0CPjJTdzklJDYQw
-! Last modified: 2011-10-18 14:46:09 JST
+! Checksum: 6vh9K5kQBktyK1XWza/0sA
+! Last modified: 2011-10-18 15:11:42 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -795,6 +795,8 @@
 /wiselog/*
 /wmcaudit.$script
 /wsl_ad_
+/wtbase.$script
+/wtinit.$script
 /www/delivery/*
 /X_Store/*$script
 /xgemius.
