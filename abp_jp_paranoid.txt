@@ -225,6 +225,7 @@ mycom.co.jp##a[href*="mycom.co.jp/cgi-bin/pr/"]
 /ichiba_$domain=nicovideo.jp
 /ichiba.$domain=nicovideo.jp
 ||nicovideo.jp/api/getmarquee
+||nimg.jp/swf/player/marqueeplayer.
 nicovideo.jp###ichiba_placeholder
 nicovideo.jp###ichiba_placeholder + div
 ! ----- nicovideo.jp AD (?_?) ----- END -----
