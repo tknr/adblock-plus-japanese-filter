@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 4jcwOr25+QpNXXrh98AaxQ
-! Last modified: 2011-10-23 14:01:05 JST
+! Checksum: E6JaazYkWW0FyT9jUPPEFg
+! Last modified: 2011-10-23 14:27:30 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -485,6 +485,7 @@
 /getads/*
 /getads_
 /getsatisfaction.com^$third-party
+/getSponsors?
 /google-ads_
 /google_ads
 /google_afc.
