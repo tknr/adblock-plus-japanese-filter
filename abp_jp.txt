@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: Se7GAiTZGFcfj36WtjtP+Q
-! Last modified: 2011-10-24 16:00:31 JST
+! Checksum: e2sMTzKlIGiwAYDWiK8XsA
+! Last modified: 2011-10-24 16:21:20 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -476,6 +476,7 @@
 /foresee-$script
 /foresee.$script
 /foresee/*$script
+/ga_social_tracking.$script
 /gads.$script
 /gemius/*
 /gemius.
