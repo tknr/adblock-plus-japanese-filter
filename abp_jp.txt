@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: jG3DFm3FsA4r8ck4EF/MEQ
-! Last modified: 2011-10-24 14:36:16 JST
+! Checksum: F6eZgXWtoZ/K4RrBA05Ayg
+! Last modified: 2011-10-24 14:40:43 JST
 !
 ! Japanese Filter
 ! URL: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -452,6 +452,7 @@
 /delivery/afr.
 /delivery/avw.
 /delivery/ajs.
+/delivery/impression?
 /delivery/showid
 /demdex.$script
 /DigiChat/*$third-party
