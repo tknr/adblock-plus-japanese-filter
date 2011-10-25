@@ -1,9 +1,9 @@
 [Adblock Plus 1.3]
-! Checksum: jyWYes8vfyGuOG/NqmTefg
-! Last modified: 2011-10-25 18:47:23 JST
+! Checksum: VOWdpfiI/ZINL2NZd85KRw
+! Last modified: 2011-10-25 19:36:00 JST
 !
 ! Japanese Filter
-! URL: https://code.google.com/p/adblock-plus-japanese-filter/
+! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content License: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
