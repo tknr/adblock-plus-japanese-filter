@@ -1,6 +1,6 @@
 [Adblock Plus 1.3]
-! Checksum: 1MP4KdrD9X3NLM/xsQ5anw
-! Last modified: 2011-10-27 17:21:12 JST
+! Checksum: HQ+xdDHo8sTtZg3bgLj+KQ
+! Last modified: 2011-10-27 17:28:02 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2377,6 +2377,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ngbn.net^$third-party
 ||nhncorp.jp^$third-party
 ||nicovideo.jp/api/getad
+||nicovideo.jp/res/js/ad_
 ||ad.nicovideo.jp^
 ! Commented out to avoid closing connection 2011-10-23
 ! ||ow.live.nicovideo.jp^
