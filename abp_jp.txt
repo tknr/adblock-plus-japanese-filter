@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: gW1d5VhOt7csfHUDukU68Q
-! Last modified: 2011-10-28 16:05:48 JST
+! Checksum: MLQ/ZjR3f9BNrQT3GgSMCg
+! Last modified: 2011-10-28 22:09:50 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2411,7 +2411,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||nikkeibp.co.jp/img/rpt/
 ||adb.nikkei.co.jp/ad/
 ||bizad.nikkeibp.co.jp^
-||res.nimg.jp/swf/appli/
+! ||res.nimg.jp/swf/appli/ cause false positives at app.nicovideo.jp
+||res.nimg.jp/swf/appli/$domain=~app.nicovideo.jp
 ||nnlian.info^$third-party
 ||nomura.co.jp/resource/image/sideparts/
 ||novamov.com^$third-party
