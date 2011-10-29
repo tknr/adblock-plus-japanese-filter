@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: XnykCyyVAmq2n8RuCQiHBQ
-! Last modified: 2011-10-29 17:30:07 JST
+! Checksum: jwxPF3drG10dz5KheF/MOw
+! Last modified: 2011-10-29 17:35:09 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1859,6 +1859,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||custom-click.net^$third-party
 ||cxense.com^$third-party
 ||cyber-traffic.net^$third-party
+||cybermedia.com.vn^$third-party
 ||cybermonitor.com^
 ||cyberwing.co.jp^$third-party
 ||ad.cyzo.com^
