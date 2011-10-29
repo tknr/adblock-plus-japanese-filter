@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: UGxWscmO/u/xx/7xjzvKfA
-! Last modified: 2011-10-29 16:32:23 JST
+! Checksum: y9ML+mpzbhYmc31/UG0G1g
+! Last modified: 2011-10-29 16:37:53 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2746,6 +2746,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||tlbn.org^$third-party
 ||tldadserv.com^$third-party
 ||tlvmedia.com^$third-party
+||tns-counter.ru^
 ||todocasino.com^$third-party
 ||tofour.net^$third-party
 ||tomsguide.com^*indexAjax.php?ctrl=ajax_price
