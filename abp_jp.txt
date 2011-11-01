@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: 6URqpxaHRMa3ahqd2ND4zw
-! Last modified: 2011-10-30 19:04:26 JST
+! Checksum: t3xT9b/NUFaF5LefZBtWEg
+! Last modified: 2011-11-01 12:32:40 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -117,6 +117,11 @@
 -beacons.
 -beacons/
 -beacons_
+-linkad-
+-linkad.
+-linkad/
+-linkad?
+-linkad_
 -metrics-
 -metrics.
 -metrics/
@@ -1026,6 +1031,11 @@
 /leaderboard_SWF
 /lg.php?bannerid=
 /lightningcast-
+/linkad-
+/linkad.
+/linkad/*
+/linkad?
+/linkad_
 /linkshare/*
 /linktracking.$script
 /listcollector/*$script
@@ -3905,7 +3915,7 @@ INSERT_RANDOM_NUMBER_HERE
 ~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body):not(input)
 ##*[class*="Sponsor"]:not(body):not(input)
 ##*[class*="SPONSOR"]:not(body):not(input)
-~foreignaffairs.com##*[class*="-ad-"]:not(body):not(input):not([class*="st-ad-"])
+~foreignaffairs.com##*[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
 ##*[class*="-AD-"]:not(body):not(input)
 ##*[class*="-ads-"]:not(body):not(input)
 ##*[class*="-ADs-"]:not(body):not(input)
