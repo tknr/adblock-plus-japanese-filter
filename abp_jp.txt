@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: ilEGCOELgoVFmIbIom+lGg
-! Last modified: 2011-11-03 16:15:20 JST
+! Checksum: OfSVVdbaCik8ekDtDnhotQ
+! Last modified: 2011-11-04 00:31:51 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4257,14 +4257,15 @@ nifty.com###subBnr
 business.nikkeibp.co.jp###articlekeyword
 business.nikkeibp.co.jp###Dignio
 business.nikkeibp.co.jp###manageInfo2
-business.nikkeibp.co.jp##div.articlekeyword
-business.nikkeibp.co.jp##p.bunner
+business.nikkeibp.co.jp##.articlekeyword
+business.nikkeibp.co.jp##.bunner
+business.nikkeibp.co.jp##.magGuidance3
 business.nikkeibp.co.jp##.otoGuidance
 itpro.nikkeibp.co.jp###subContent .rectangle
 itpro.nikkeibp.co.jp###subContent .rightRectangle
-itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
 itpro.nikkeibp.co.jp###leaf_datascope
-itpro.nikkeibp.co.jp##div.leaf_datascope
+itpro.nikkeibp.co.jp##.leaf_datascope
+itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
 ninja.co.jp###box_m
 ninja.co.jp###box_t
 ninja.co.jp##div.attention
