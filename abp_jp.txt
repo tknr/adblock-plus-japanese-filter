@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: YCXMRaA5/9naD0gpFs90lw
-! Last modified: 2011-11-04 17:21:14 JST
+! Checksum: hPR3fXx8akJqCCKXaFHjlg
+! Last modified: 2011-11-04 19:10:20 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4398,6 +4398,7 @@ virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
 special.visualzoo.com###sidebar > div.side_banner
 special.visualzoo.com###container > div.banner_area
 weblio.jp##.adHIWrp
+wsj.com##.adSummary
 yahoo.com,yahoo.co.jp###northbanner
 yahoo.co.jp###centralPosition
 yahoo.co.jp###clrEx
