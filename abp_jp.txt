@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: hPR3fXx8akJqCCKXaFHjlg
-! Last modified: 2011-11-04 19:10:20 JST
+! Checksum: K5vaRmO/nsPeN1zDQZ4Mlw
+! Last modified: 2011-11-04 20:19:39 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3416,8 +3416,9 @@ INSERT_RANDOM_NUMBER_HERE
 ! 
 !
 ! ########## Element Hiding START ####################################
-~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
 ###AD
+###Ad
+~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
 ###ad_container
 ###ad_listing
 ###ad-text
@@ -3453,18 +3454,26 @@ INSERT_RANDOM_NUMBER_HERE
 ###ad9
 ###adAms
 ###adArea
-###adbox
-###adBox
 ###AdBox
+###adBox
+###adbox
+###adLeft
+###adleft
 ###adPRtext
-###adsbox
-###adsBox
+###adRight
+###adright
 ###AdsBox
-###ads
-###ADs
+###adsBox
+###adsbox
 ###ADS
+###ADs
+###ads
+###adTop
+###adv
 ###advertise
 ###AMN-large-banner
+###bannerAd
+###bannerad
 ###block_whitepaper
 ###bottomAds
 ###bottomads
@@ -3482,28 +3491,31 @@ INSERT_RANDOM_NUMBER_HERE
 ###PR_txt
 ###prbox
 ###prTxt
+###prtxt
 ###sideadbnr
 ###sideRecommend
 ###textad
 ###textAd
+###textad-top
 ###textAds
 ###topAd
 ###topAds
-~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ~mail.google.com##.AD
+##.Ad
+~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ##.ad_banner
 ##.ad_left
 ##.ad_link
 ##.ad_right
-##.ad-text
 ##.AD-text
+##.ad-text
 ##.ad_rectangle
 ##.ad_square
 ##.ad_special_badge
+##.AD_text
 ##.ad_text
 ##.ad_textlink
 ##.ad_textlink_box
-##.AD_text
 ##.ad_top
 ##.AD1
 ##.AD2
@@ -3525,13 +3537,17 @@ INSERT_RANDOM_NUMBER_HERE
 ##.ad728
 ##.ad8
 ##.ad9
-##.adbox
-##.adBox
 ##.AdBox
+##.adBox
+##.adbox
+##.adLeft
+##.adleft
 ##.adPRtext
-##.adsbox
-##.adsBox
+##.adRight
+##.adright
 ##.AdsBox
+##.adsBox
+##.adsbox
 ##.addescription
 ##.adlantiss_frame
 ##.ads
@@ -3541,13 +3557,15 @@ INSERT_RANDOM_NUMBER_HERE
 ##.ads_adingo
 ##.adText
 ##.adtitle
+##.adTop
 ##.adtop
 ##.adurl
+##.adv
 ##.advert
 ##.AMN-sponsor-rolls
 ##.AMN-large-banner
-##.bannerad
 ##.bannerAd
+##.bannerad
 ##.block_whitepaper
 ##.defaultAd
 ##.flashAD
@@ -3559,14 +3577,15 @@ INSERT_RANDOM_NUMBER_HERE
 ##.leaderboardAd
 ! ~sbigroup.co.jp##.pr
 ! ~mail.google.com##.PR
-##.pr-txt
 ##.PR-txt
-##.pr_txt
+##.pr-txt
 ##.PR_txt
+##.pr_txt
 ##.prbox
 ##.promos
 ##.promoted-videos
 ##.prTxt
+##.prtxt
 ##.randomBanner
 ##.showcaseAd
 ##.sideAd
@@ -3577,6 +3596,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.staticAd
 ##.tdftad
 ##.textAd
+##.textad-top
 ##.textAds
 ##.topAd
 ##.topAds
@@ -4033,10 +4053,10 @@ blogos.com,news.livedoor.com###nav-theme
 bspeedtest.jp##td > table[width="385"] ~ *
 number.bunshun.jp##.banner-area
 burusoku-vip.com##.column-inner-2 > .column-inner-2
-cgdigg.com##div.sview + br + div
+cgdigg.com##.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
 chosunonline.com###infotext
-chosunonline.com###postsub > div.ad300x250
+chosunonline.com###postsub > .ad300x250
 cnet.com##a[href*="//offers.cnet.com/redir?"]
 cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
@@ -4050,14 +4070,12 @@ japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
 codezine.jp###shoeisha_gnavi
-codezine.jp##div.shoeisha_gnavi
+codezine.jp##.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
-coliss.com###sidebar > div.block02:first-child
+coliss.com###sidebar > .block02:first-child
 computerworld.jp##.adve_rec
 computerworld.jp##.adver
-coojin.com###ad_right
-coojin.com###ad_top
-coojin.com###big_main > div.auctions
+coojin.com###big_main > .auctions
 cybersyndrome.net##TABLE[cellspacing="2"][cellpadding="2"][border="0"][align="left"]
 cybozu.net###recommend-top-txt > li:last-child
 cyzo.com##.r_sidebanner
@@ -4072,7 +4090,7 @@ diamond.jp###sub-column > table
 diamond.jp##.diamondonline-plus
 diamond.jp##a[href*="diamond.jp/rd/"]
 diamond.jp##a[href*="diamond.ne.jp/?banner_id="]
-diamond.jp##div.section.special-topics
+diamond.jp##.section.special-topics
 diamond.jp##div[class*="ad-"][class*="section"]
 diamond.jp##div[class*="box"][class*="banner"]
 diamond.jp##div[class*="box"][class*="dolplus"]
@@ -4085,18 +4103,18 @@ zai.diamond.jp##*[class*="campaign"]:not(body):not(input)
 zai.diamond.jp##a[href*="campaign"]
 zai.diamond.jp##a[href*="/oo/cc/tieup/"]
 e-words.jp###l
-e-words.jp##div.ladsby
-e-words.jp##div.ladsby ~ table
+e-words.jp##.ladsby
+e-words.jp##.ladsby ~ table
 e-words.jp###sidebox
-e-words.jp##div.l
-e-words.jp##div.sidebox
-eetimes.jp##div.prsbox
+e-words.jp##.l
+e-words.jp##.sidebox
+eetimes.jp##.prsbox
 excite.co.jp###amazonPickup
 excite.co.jp###gameRanking
 excite.co.jp###popular_keywords_main
-excite.co.jp###resultsBody > div.hit > *[id*="awg"]
-excite.co.jp###resultsBody > div.hit > *[id*="jls"]
-excite.co.jp###resultsBody > div.hit > *[id*="jwd"]
+excite.co.jp###resultsBody > .hit > *[id*="awg"]
+excite.co.jp###resultsBody > .hit > *[id*="jls"]
+excite.co.jp###resultsBody > .hit > *[id*="jwd"]
 excite.co.jp###season-keywords
 excite.co.jp##a[href*="&target=ss"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
@@ -4116,16 +4134,14 @@ gigafree.net##.spl
 gigazine.net###headertop
 gigazine.net##*[src*="/tnemesitrevda/"]:not(body):not(input)
 gihyo.jp###contentHotspot
-gihyo.jp###secondary > div.textPR
-gihyo.jp###secondary > div.banner
+gihyo.jp###secondary > .textPR
+gihyo.jp###secondary > .banner
 gizmodo.com,lifehacker.com###header
 gizmodo.jp,lifehacker.jp##.ad_premiumplan
 gizmodo.jp,lifehacker.jp##.date_header_premium
 gizmodo.jp, kotaku.jp,lifehacker.jp##.entrybox
 gizmodo.jp, kotaku.jp,lifehacker.jp##.headline
 goo.ne.jp##.sponser
-blog.goo.ne.jp###mod-advertising
-blog.goo.ne.jp##div.mod-entry-set-goo-ad
 blog.goo.ne.jp###mod-global-header-l > a:last-of-type
 books.google.com,books.google.co.jp###main_content + td
 maps.google.com,maps.google.co.jp###mclip
@@ -4147,8 +4163,8 @@ hamusoku.com##.topbox
 hatena.ne.jp###info-header
 hatena.ne.jp##.list.ad
 a.hatena.ne.jp##h1:first-of-type ~ ol:first-of-type
-b.hatena.ne.jp##div.nikkei-body
-b.hatena.ne.jp##div.sidebar > div[class^="curvebox-"]
+b.hatena.ne.jp##.nikkei-body
+b.hatena.ne.jp##.sidebar > div[class^="curvebox-"]
 b.hatena.ne.jp##div[id^="afs"]
 q.hatena.ne.jp###related-keyword ~ *
 q.hatena.ne.jp##.job
@@ -4157,15 +4173,13 @@ hwinfo.com##a[href*="hwinfo.com/ref/"]
 jp.ibtimes.com###ad300
 jp.ibtimes.com###pressrelease
 jp.ibtimes.com###superbanner
-jp.ibtimes.com##div.ad300
-jp.ibtimes.com##div.pressrelease
-jp.ibtimes.com##div.superbanner
+jp.ibtimes.com##.ad300
+jp.ibtimes.com##.pressrelease
+jp.ibtimes.com##.superbanner
 jp.ibtimes.com###mailmg
 jp.ibtimes.com##li.mailmg
 ime.nu,ime.st##a[href*="/redirect.html"]
 ime.nu,ime.st##body > br:last-of-type ~ *:not(hr)
-web-tan.forum.impressrd.jp###textad-top
-web-tan.forum.impressrd.jp##div.textad-top
 infoseek.co.jp###isweb-lite-adbanner
 japan.internet.com###head-mid
 investwalker.jp##td[bgcolor="#ffeedd"]
@@ -4173,17 +4187,17 @@ jbpress.ismedia.jp###pr2
 jbpress.ismedia.jp###vbox
 jbpress.ismedia.jp###pr1
 jbpress.ismedia.jp##ul.platinum-text
-itarchitect.jp##div.ads-textLine
+itarchitect.jp##.ads-textLine
 j-cast.com###entry-bottom
-j-cast.com##div.entry-bottom
+j-cast.com##.entry-bottom
 j-cast.com##div[id^="RCCompanyIR"]
 j-cast.com##div[id^="RCAscii"]
 j-cast.com##div[id^="RCChumokuJoho"]
 j-cast.com##div[id^="MCAd"]
 jiji.com##img[src$="/images/spacer.gif"]
 jorudan.co.jp##a[href*="//book.jorudan.co.jp/cgi-bin/"] ~ *
-jorudan.co.jp##div.bookList
-jorudan.co.jp##div.imgBanner
+jorudan.co.jp##.bookList
+jorudan.co.jp##.imgBanner
 kakaku.com###mainRight .alignC
 kakaku.com##.prBn
 kanasoku.blog82.fc2.com###headline
@@ -4205,11 +4219,10 @@ livedoor.com##.powerd-by-google
 livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
 search.livedoor.com###content h3
 search.livedoor.com###menu > div:first-child
-search.livedoor.com##div.searchresult_sponsor
+search.livedoor.com##.searchresult_sponsor
 mag2.com###prsite
 mail.ru##.banner
 mainichi.jp###SuperBanner
-mainichi.jp##.Ad
 mainichi.jp##.AdAA
 mainichi.jp##.AdChumoku
 mainichi.jp##.AdGraph
@@ -4218,9 +4231,8 @@ mainichi.jp##.NaviAd
 mainichi.jp##.SquareAd
 mainichi.jp##*[class^="ArticleAd"]:not(body):not(input)
 mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
-mapion.co.jp###adTop
 mapion.co.jp###adTxtInMain
-markezine.jp###header > div.navi > div
+markezine.jp###header > .navi > div
 markezine.jp###searcharea + div
 markezine.jp###searcharea + div + div
 markezine.jp###ranking + div
@@ -4250,7 +4262,7 @@ download.hr##.file_infoleft
 download.hr##a[href*="hotfile.com/dl/"]
 download.hr##a[href*="mediaget.com/torrent.php?r="]
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
-nakanohito.jp###paddingside > div#header + div#padding
+nakanohito.jp###paddingside > #header + #padding
 namaan.net###listing_top
 netadreport.com###amn_banner
 netadreport.com###toptext
@@ -4278,11 +4290,10 @@ itpro.nikkeibp.co.jp##.leaf_datascope
 itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
 ninja.co.jp###box_m
 ninja.co.jp###box_t
-ninja.co.jp##div.attention
-ninja.co.jp##div.box_m
-ninja.co.jp##div.box_t
+ninja.co.jp##.attention
+ninja.co.jp##.box_m
+ninja.co.jp##.box_t
 openitonline.com,viewdocsonline.com##a[href*="/links/"]
-oreilly.co.jp##.adv
 pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
 pcworld.com###shoppingMod
@@ -4292,7 +4303,7 @@ pcworld.com##div[id$="Ads"]
 pcworld.com##div[class$="Ad"]
 pcworld.com##div[class$="Ads"]
 peer2peer.blog79.fc2.com###newentrys
-peer2peer.blog79.fc2.com##div.newentrys
+peer2peer.blog79.fc2.com##.newentrys
 workingnews.blog117.fc2.com##.free_area
 phpspot.org###rightbar
 publickey.jp,publickey1.jp##.topbanner
@@ -4303,35 +4314,29 @@ rakuten.co.jp##*[id*="sponcer"]
 rakuten.co.jp##*[id*="Sponcer"]
 rakuten.co.jp##*[id^="sttl"]
 jp.reuters.com###adArticleText
-jp.reuters.com###bannerad
 jp.reuters.com##.adArticleText
-jp.reuters.com##.bannerad
-president.jp.reuters.com##div.prad
+president.jp.reuters.com##.prad
 revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
 robtex.com##*[id^="xad"]:not(body):not(input)
 rue89japon.com##*[id^="ad_"]:not(body):not(input)
 sanspo.com###lBoard2
-sanspo.com##div.lBoard2
+sanspo.com##.lBoard2
 sbisec.co.jp##a[href*="/campaign"]
 sbisec.co.jp###topbannerarea_noflash_wrapper
 sbisec.co.jp##div[class^="home02_"]
 sbisec.co.jp##div[class^="linkBox0"]
 sbisec.co.jp##div[class^="prBox0"]
 sbisec.co.jp##div[class^="topBoxPr0"]
-sbisec.co.jp###main > form > div.mgt20
+sbisec.co.jp###main > form > .mgt20
 secunia.com###divTopbanner
 security-next.com##a[href*="cl="]
-security-next.com##div.text_ad_link
-security-next.com##div.prtxt
-security-next.com##div.sbboxad
+security-next.com##.sbboxad
 security-next.com##h5
 seo-stats.net###sidebar
-seo-stats.net##div.sidebar
+seo-stats.net##.sidebar
 slideshare.net##.medRecBottom2
 slideshare.net##.noAdForLead
-smashinghub.com##.adleft
-smashinghub.com##.adright
 software.com###promo_aside
 sophia-it.com##.adtx
 sophia-it.com##.shin3
@@ -4349,7 +4354,7 @@ technobahn.com##a[href*=".technobahn.com/cgi-bin/dart/click"]
 technobahn.com##tr.ch[id^="taw"]
 technobahn.com##tr.ch[id^="taw"]+tr
 technorati.jp###DARTinline
-technorati.jp##div.DARTinline
+technorati.jp##.DARTinline
 technozeast.com###rad
 teesoft.info###top-bottom
 teesoft.info###uniblue
@@ -4364,8 +4369,8 @@ thinkit.co.jp##.view-tieup-articles
 thinkit.co.jp##img[src$="pr_bar.gif"]
 thinkit.co.jp##td.mini_tieup
 thinkit.co.jp##td.table7
-thinkit.co.jp##div.seo
-tomshardware.com##div.basicCentral-elm.clearfix
+thinkit.co.jp##.seo
+tomshardware.com##.basicCentral-elm.clearfix
 toyokeizai.net##.mt35
 toyokeizai.net##.pr
 toyokeizai.net##.sideBnr
@@ -4389,14 +4394,14 @@ vector.co.jp##div[id^="gad_"]
 vector.co.jp##div[class^="gad_"]
 vector.co.jp##div[id^="shop_"]
 vector.co.jp###softDetail ~ *
-vector.co.jp###v_sub > noscript + div.article:first-of-type
+vector.co.jp###v_sub > noscript + .article:first-of-type
 www.vector.co.jp###top_special
 www.vector.co.jp###top_special + center
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
 virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
-special.visualzoo.com###sidebar > div.side_banner
-special.visualzoo.com###container > div.banner_area
+special.visualzoo.com###sidebar > .side_banner
+special.visualzoo.com###container > .banner_area
 weblio.jp##.adHIWrp
 wsj.com##.adSummary
 yahoo.com,yahoo.co.jp###northbanner
@@ -4432,7 +4437,7 @@ finance.yahoo.com###yfi_ysm
 finance.yahoo.com###ygma
 finance.yahoo.com##.yfi_ysm
 finance.yahoo.com##.ygma
-finance.yahoo.co.jp##div.sqbFiAd
+finance.yahoo.co.jp##.sqbFiAd
 login.yahoo.co.jp###yregtxt
 mail.yahoo.co.jp###lbadspr
 mail.yahoo.co.jp##.dashcontent
