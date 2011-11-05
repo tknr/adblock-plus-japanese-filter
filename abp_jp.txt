@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: vmhYBB3WxCsGIMGsdJRCow
-! Last modified: 2011-11-05 16:37:41 JST
+! Checksum: XBQOe6b703FUnziyxfhE4A
+! Last modified: 2011-11-05 16:39:58 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -856,6 +856,7 @@
 /hummingbird.
 /iad.$script
 /ifr.htm?size=
+/iframe_btn_banner?
 /iframeAd-
 /iframeAd.
 /iframeAd/*
