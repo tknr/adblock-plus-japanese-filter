@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: riq6hYlefpAt9UlK40Ht8w
-! Last modified: 2011-11-04 08:33:49 JST
+! Checksum: hEmiFFy+BxJxURzPJ2hPlQ
+! Last modified: 2011-11-05 17:25:30 JST
 !
 ! Japanese Paranoid Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -43,11 +43,13 @@
 
 ! ########## Adblock Plus config START ###############################
 browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommendbutton
-*$donottrack,image,~image
 ! ---------- Adblock Plus config END ---------------------------------
 
 
 ! ########## Generic filters START ###################################
+|http:*$donottrack,image,~image
+|https:*$donottrack,image,~image
+
 &tracking=$third-party
 
 -log-
