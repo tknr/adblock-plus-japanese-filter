@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: KN7LTCZLCv7gJAzzDoKtQw
-! Last modified: 2011-11-05 17:04:14 JST
+! Checksum: bhkjkaG9Siwwx6wjSYQbLQ
+! Last modified: 2011-11-05 17:20:46 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -989,6 +989,7 @@
 /imgs/banner/*$third-party
 /imgs/banner?$third-party
 /imgs/banner_$third-party
+/iml.php?zoneid=
 /inc_ad_
 /intellitxt-
 /intellitxt.
@@ -1127,6 +1128,8 @@
 /pixel?
 /playertracking/*
 /pop.php?zoneid=
+/popad/*
+/popads/*
 /popunder-
 /popunder.
 /popunder/*
