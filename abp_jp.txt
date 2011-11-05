@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: bhkjkaG9Siwwx6wjSYQbLQ
-! Last modified: 2011-11-05 17:20:46 JST
+! Checksum: /IsE33B3MsDwSGEPnz5leA
+! Last modified: 2011-11-05 17:32:19 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -181,6 +181,7 @@
 .org/pr_ad/*
 .org/pr_ad?
 .org/pr_ad_
+.php?zoneid=
 .poptracking?
 ! Commented out to avoid false positives on static: 2011-09-07
 ! .stat-
@@ -639,7 +640,8 @@
 /affiliates?$third-party
 /affiliates_$third-party
 /afr.php?
-/ajs.php?zoneid=
+! merged into .php?zoneid=
+! /ajs.php?zoneid=
 /ana/analyzer.
 /ana/processor.
 /ana2/analyzer.
@@ -659,7 +661,8 @@
 /at.js.$script
 /atrk.$third-party
 /AutoTracker.$script
-/avw.php?zoneid=
+! merged into .php?zoneid=
+! /avw.php?zoneid=
 /axyzsdk.$script
 /banads/*
 /banner_iframe-
@@ -989,7 +992,8 @@
 /imgs/banner/*$third-party
 /imgs/banner?$third-party
 /imgs/banner_$third-party
-/iml.php?zoneid=
+! merged into .php?zoneid=
+! /iml.php?zoneid=
 /inc_ad_
 /intellitxt-
 /intellitxt.
@@ -1127,7 +1131,8 @@
 /pixel.$image,domain=~pcgameshardware.de
 /pixel?
 /playertracking/*
-/pop.php?zoneid=
+! merged into .php?zoneid=
+! /pop.php?zoneid=
 /popad/*
 /popads/*
 /popunder-
