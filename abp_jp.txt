@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: rvawRF/AW1QlOF7ZTV1/6Q
-! Last modified: 2011-11-08 06:54:51 JST
+! Checksum: soyOGoZriv5oYlx7iAo7KA
+! Last modified: 2011-11-08 07:16:11 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -209,7 +209,8 @@
 /ad.asp|
 /ad.aspx?
 /ad.aspx|
-/ad.js
+! Commented out slow filters 2011-11-08
+! /ad.js
 /ad.php?id=
 /ad/200_
 /ad/banner-
@@ -660,7 +661,8 @@
 /analytics_$third-party
 /analyticsid.
 /AS3AdPlayer.
-/at.js.$script
+! Commented out slow filters 2011-11-08
+! /at.js.$script
 /atrk.$third-party
 /AutoTracker.$script
 ! merged into .php?zoneid=
@@ -791,7 +793,8 @@
 /eum/rum-$script
 /event.ems/*
 /event_call.htm?
-/ea.js
+! Commented out slow filters 2011-11-08
+! /ea.js
 /exitPopup.$script
 /fc.php?script=
 /flashbanner.swf
@@ -1004,14 +1007,16 @@
 /intellitxt/*
 /intellitxt?
 /intellitxt_
-/is_sc_$script
+! Commented out slow filters 2011-11-08
+! /is_sc_$script
 /ivw/CP/*
 /jlisting-
 /jlisting.
 /jlisting/*
 /jlisting?
 /jlisting_
-/js.ng/*
+! Commented out slow filters 2011-11-08
+! /js.ng/*
 ! Commented out slow filters like /js/ad 2011-11-08
 ! /js/ad-
 ! /js/ad.
@@ -1024,7 +1029,8 @@
 /js/banner/*
 /js/banner?
 /js/banner_
-/js/dw.js
+! Commented out slow filters 2011-11-08
+! /js/dw.js
 /js/google_banner.
 /js/omni-
 /js/omni.
@@ -2958,7 +2964,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||worldlogger.com^
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
-||ws.md^$third-party
+! Commented out slow filters 2011-11-08
+! ||ws.md^$third-party
 ||ad.wsod.com^
 ||wt-rotator.biz^
 ||wt-rotator.com^
