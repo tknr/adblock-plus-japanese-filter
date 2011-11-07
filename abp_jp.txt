@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: mNPMKZ0Q3FxMIvJ27MonLA
-! Last modified: 2011-11-07 04:26:35 JST
+! Checksum: /eqMjcgvVCFMUqKsw382nQ
+! Last modified: 2011-11-07 12:20:51 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1198,10 +1198,10 @@
 /right-ad/*
 /right-ad?
 /right-ad_
-/rss.$script
-/rss1.$script
-/rss2.$script
-/rss3.$script
+/rss.$script,subdocument
+/rss1.$script,subdocument
+/rss2.$script,subdocument
+/rss3.$script,subdocument
 /rssblogroll.
 /sa/infospace.
 /sbi_recommend.$script
