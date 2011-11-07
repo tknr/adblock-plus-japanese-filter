@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: O4csXtqK6S7xI0hkx5VUMQ
-! Last modified: 2011-11-08 06:52:33 JST
+! Checksum: rvawRF/AW1QlOF7ZTV1/6Q
+! Last modified: 2011-11-08 06:54:51 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4314,6 +4314,7 @@ nicovideo.jp###banner
 nicovideo.jp###web_pc_prime
 nicovideo.jp##.sidewallAd
 nifty.com###subBnr
+nikkeibp.co.jp##.media-campaign
 business.nikkeibp.co.jp###articlekeyword
 business.nikkeibp.co.jp###Dignio
 business.nikkeibp.co.jp###manageInfo2
@@ -4326,14 +4327,14 @@ itpro.nikkeibp.co.jp###subContent .rightRectangle
 itpro.nikkeibp.co.jp###leaf_datascope
 itpro.nikkeibp.co.jp##.leaf_datascope
 itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
+pc.nikkeibp.co.jp###bs_bigsky
+pc.nikkeibp.co.jp###visual_box_iframe_margin
 ninja.co.jp###box_m
 ninja.co.jp###box_t
 ninja.co.jp##.attention
 ninja.co.jp##.box_m
 ninja.co.jp##.box_t
 openitonline.com,viewdocsonline.com##a[href*="/links/"]
-pc.nikkeibp.co.jp###bs_bigsky
-pc.nikkeibp.co.jp###visual_box_iframe_margin
 pcworld.com###shoppingMod
 pcworld.com##.storyList
 pcworld.com##div[id$="Ad"]
