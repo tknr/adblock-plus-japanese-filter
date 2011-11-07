@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: /eqMjcgvVCFMUqKsw382nQ
-! Last modified: 2011-11-07 12:20:51 JST
+! Checksum: hoNbavXhcjhoAFGQqf2p7Q
+! Last modified: 2011-11-07 13:23:57 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1447,7 +1447,7 @@ _sponser9.
 ! _stat_
 INSERT_RANDOM_NUMBER_HERE
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|filesonic.jp|freakshare.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com
+|http:$popup,image,~image,domain=bitshare.com|filesonic.jp|freakshare.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|veoh.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2152,6 +2152,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||hey.lt^$third-party
 ||heyos.com^$third-party
 ||hikiwake.com^
+||himawari-group.co.jp^$popup,image,~image
+||himawari-group.co.jp/ad/
 ||histats.com^$third-party
 ||hit-parade.com^$third-party
 ||hit-sales.ru^$third-party
