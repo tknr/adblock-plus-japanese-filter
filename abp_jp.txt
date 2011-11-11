@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: /wfn2Ujp6zSK/RQbRuNXZA
-! Last modified: 2011-11-12 00:18:07 JST
+! Checksum: p2t/OF5ZlCz1gpgfbmzMCQ
+! Last modified: 2011-11-12 01:05:30 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -789,6 +789,9 @@
 /doubleclick/*
 /doubleclick?
 /doubleclick_
+/elqcfg.$script
+/elqimg.$script
+/elqimg2.$script
 /eluminate.$script
 /eum/rum.$script
 /eum/rum-$script
