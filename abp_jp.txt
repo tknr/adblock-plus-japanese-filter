@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: r45NP/tsypzgukodSJYgvQ
-! Last modified: 2011-11-11 20:25:21 JST
+! Checksum: vjch8gQcx9nKet23oi/beA
+! Last modified: 2011-11-11 20:46:17 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3953,7 +3953,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id*="-ADS-"]:not(body):not(input)
 ! ##*[id*="-pr-"]:not(body):not(input)
 ! ##*[id*="-PR-"]:not(body):not(input)
-~video.fc2.com,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
+~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
 ##*[id*="_AD_"]:not(body):not(input)
 ##*[id*="_ads_"]:not(body):not(input)
 ##*[id*="_ADs_"]:not(body):not(input)
