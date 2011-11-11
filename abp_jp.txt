@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: Ec4oJMYCUhGE0oJRvq1Otw
-! Last modified: 2011-11-11 17:14:45 JST
+! Checksum: h3VxxXKDwUiHhzNRduK//w
+! Last modified: 2011-11-11 19:34:31 JST
 !
 ! Japanese Filter
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1884,6 +1884,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||conduit-banners.com^
 ||conism.com^$third-party
 ||contentabc.com^
+||contentlink.co.kr^$third-party
 ||contextweb.com^$third-party
 ||conversionruler.com^$third-party
 ! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
@@ -2297,6 +2298,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||recommend.kbmj.com^
 ||keewurd.com^
 ||keyrun.cn^$third-party
+||keywordlink.co.kr^$third-party
 ||kiev.ua^$third-party
 ||kingdun.net^$third-party
 ||kinwee.com^$third-party
