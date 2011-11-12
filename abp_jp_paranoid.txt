@@ -1,8 +1,8 @@
 [Adblock Plus 1.3.10]
-! Checksum: hEmiFFy+BxJxURzPJ2hPlQ
-! Last modified: 2011-11-05 17:25:30 JST
+! Checksum: DM05yM/iFdVm2BqK87IH3A
+! Last modified: 2011-11-12 21:04:54 JST
 !
-! Japanese Paranoid Filter
+! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
