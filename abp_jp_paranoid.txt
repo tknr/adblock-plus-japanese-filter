@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: DM05yM/iFdVm2BqK87IH3A
-! Last modified: 2011-11-12 21:04:54 JST
+! Checksum: hNBkSrXxVvke75Az4gJ4Pw
+! Last modified: 2011-11-13 04:12:33 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -263,6 +263,14 @@ nicovideo.jp###ichiba
 nicovideo.jp###ichiba_placeholder
 nicovideo.jp###ichiba_placeholder + div
 ! ----- nicovideo.jp AD (?_?) ----- END -----
+
+! ===== nicovideo.jp probably useless scripts ===== EXPERIMENTAL ===== START =====
+! 2011-11-13
+||simg.jp/public/inc/watch_cb.$script
+||simg.jp/public/inc/watch.$script
+||simg.jp/public/inc/common_cb.$script
+||simg.jp/public/inc/user-press-tool.$script
+! ----- nicovideo.jp probably useless scripts ----- EXPERIMENTAL ----- END -----
 
 ! ===== rakuten affiliate stronger filter ===== START =====
 ||afl.rakuten.co.jp^
