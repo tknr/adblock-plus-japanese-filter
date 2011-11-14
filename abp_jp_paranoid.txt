@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: RWCibKrV5/HjnRmylhy++Q
-! Last modified: 2011-11-14 10:05:30 JST
+! Checksum: 8KA/uSymTH4ynQEMq23drQ
+! Last modified: 2011-11-14 20:26:58 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -270,7 +270,8 @@ nicovideo.jp###ichiba_placeholder + div
 
 ! ===== nicovideo.jp probably useless scripts ===== EXPERIMENTAL ===== START =====
 ! 2011-11-13
-||nimg.jp/js/watch.$script
+! False positive at www.nicovideo.jp , enlarge movie player fails... 2011-11-14
+! ||nimg.jp/js/watch.$script
 ||simg.jp/public/inc/watch_cb.$script
 ||simg.jp/public/inc/watch.$script
 ||simg.jp/public/inc/common_cb.$script
