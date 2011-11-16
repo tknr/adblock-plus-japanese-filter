@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: qJ9W/u96neg6Rwgm+lXQbg
-! Last modified: 2011-11-16 23:07:39 JST
+! Checksum: PB3Vqpx2Q9CGmeKKnSNmMw
+! Last modified: 2011-11-16 23:44:32 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4182,7 +4182,6 @@ coojin.com###big_main > .auctions
 cybersyndrome.net##TABLE[cellspacing="2"][cellpadding="2"][border="0"][align="left"]
 cybozu.net###recommend-top-txt > li:last-child
 cyzo.com##.r_sidebanner
-dailymotion.com##.masscast_box
 diamond.jp###article-sptopics
 diamond.jp###pr1
 diamond.jp###pr2
