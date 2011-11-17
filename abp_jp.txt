@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: IeEcqraBMPMQeSEawHHYjg
-! Last modified: 2011-11-17 12:52:45 JST
+! Checksum: XcsFCx9ZSzKwmqqhyPXY0w
+! Last modified: 2011-11-17 16:07:04 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4499,12 +4499,14 @@ urlvoid.com###content > *[style^="text-align: center;"]
 ustream.tv###AdFreePromo
 ustream.tv###getStartedBanner
 ustream.tv##.channelContextAd
+vector.co.jp###PCSHOP_listAD
+vector.co.jp###softDetail ~ *
+vector.co.jp###special-box
+vector.co.jp###v_sub > noscript + .article:first-of-type
 vector.co.jp##a[href*="//vafs.vector.co.jp/"]
 vector.co.jp##div[id^="gad_"]
 vector.co.jp##div[class^="gad_"]
 vector.co.jp##div[id^="shop_"]
-vector.co.jp###softDetail ~ *
-vector.co.jp###v_sub > noscript + .article:first-of-type
 www.vector.co.jp###top_special
 www.vector.co.jp###top_special + center
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
