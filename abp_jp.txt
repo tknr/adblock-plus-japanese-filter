@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: PJId4BM0MbrYCKfLMtHhLg
-! Last modified: 2011-11-19 04:55:54 JST
+! Checksum: lUN1LiIC0kTWSyBt+1FOTQ
+! Last modified: 2011-11-19 05:27:00 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -135,6 +135,11 @@
 -metrics/
 -metrics_
 -PopUnder|
+-sponsored-
+-sponsored.
+-sponsored/
+-sponsored?
+-sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! -stat-
 ! -stat.
@@ -186,6 +191,11 @@
 .org/pr_ad_
 .php?zoneid=
 .poptracking?
+.sponsored-
+.sponsored.
+.sponsored/
+.sponsored?
+.sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! .stat-
 ! .stat.
@@ -1276,6 +1286,11 @@
 /sponsor/*
 /sponsor?
 /sponsor_
+/sponsored-
+/sponsored.
+/sponsored/*
+/sponsored?
+/sponsored_
 /sponsors-
 /sponsors.
 /sponsors/*
@@ -1467,6 +1482,11 @@ _sponser6.
 _sponser7.
 _sponser8.
 _sponser9.
+_sponsored-
+_sponsored.
+_sponsored/*
+_sponsored?
+_sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! _stat-
 ! _stat.
