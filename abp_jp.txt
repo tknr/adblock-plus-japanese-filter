@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: FT1x0tVPNbi09r/qA/tLRQ
-! Last modified: 2011-11-20 13:54:42 JST
+! Checksum: VO8y6bDh3yQUYL3DLovocQ
+! Last modified: 2011-11-20 14:04:06 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -685,6 +685,7 @@
 ! /avw.php?zoneid=
 /axyzsdk.$script
 /banads/*
+/banner.$script
 /banner_iframe-
 /banner_iframe.
 /banner_iframe/*
@@ -711,6 +712,7 @@
 /bmv11.$script
 /bmv12.$script
 /bmv13.$script
+/bnr.$script
 /bnr/pr-
 /bnr/pr.
 /bnr/pr/*
