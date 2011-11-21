@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: YY0Y62ZM6cYLJHatGkJUag
-! Last modified: 2011-11-21 17:31:20 JST
+! Checksum: c9HHAwO0UUqmj5UQ3v2UhA
+! Last modified: 2011-11-21 17:35:45 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4016,6 +4016,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="ads-"]:not(body):not(input)
 ##*[id^="ADs-"]:not(body):not(input)
 ##*[id^="ADS-"]:not(body):not(input)
+! False positive with #ads_backsplashSkin at news.cnet.com reported via Issue Report 2011-11-21
 ##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
 ##*[id^="ADs_"]:not(body):not(input)
 ##*[id^="ADS_"]:not(body):not(input)
