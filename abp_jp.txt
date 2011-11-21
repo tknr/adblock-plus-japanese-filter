@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: HcyoC/ODb1aVm1PQB413KQ
-! Last modified: 2011-11-21 16:47:53 JST
+! Checksum: YY0Y62ZM6cYLJHatGkJUag
+! Last modified: 2011-11-21 17:31:20 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4016,7 +4016,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="ads-"]:not(body):not(input)
 ##*[id^="ADs-"]:not(body):not(input)
 ##*[id^="ADS-"]:not(body):not(input)
-##*[id^="ads_"]:not(body):not(input)
+##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
 ##*[id^="ADs_"]:not(body):not(input)
 ##*[id^="ADS_"]:not(body):not(input)
 ##*[id^="deqwas"]:not(body):not(input)
