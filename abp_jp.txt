@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: c9HHAwO0UUqmj5UQ3v2UhA
-! Last modified: 2011-11-21 17:35:45 JST
+! Checksum: 8otb31rwzvOp36M5cWaxHQ
+! Last modified: 2011-11-21 18:39:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4137,7 +4137,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class$="-ADS"]:not(body):not(input)
 ! ##*[class$="-pr"]:not(body):not(input)
 ! ##*[class$="-PR"]:not(body):not(input)
-~itoyokado.co.jp##*[class$="_ad"]:not(.gs_ad):not(body):not(input)
+~cnepub.com,~itoyokado.co.jp##*[class$="_ad"]:not(.gs_ad):not(body):not(input)
 ##*[class$="_AD"]:not(body):not(input)
 ##*[class$="_ad1"]:not(body):not(input)
 ##*[class$="_ads"]:not(body):not(input)
