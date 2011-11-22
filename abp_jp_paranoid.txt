@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: 5Z9bQl70XDW2tcUNSyqVIA
-! Last modified: 2011-11-23 03:50:13 JST
+! Checksum: cKodcz5T43KwJrtKkoxigQ
+! Last modified: 2011-11-23 04:01:35 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -18,8 +18,8 @@
 @@||anime.biglobe.ne.jp^*log_$image
 ! jp-bank-card.jp names "jc_log_xx.gif" as login related images... orz 2011-09-15
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
-! Rare false positives at ustream.tv/recorded/ with ?tracking=$third-party 2011-11-23
-@@||ustream.vo.llnwd.net^*.flv?tracking=
+! New false positives at ustream.tv/recorded/ with ?tracking=$third-party 2011-11-23
+@@||llnwd.net^*.flv?tracking=
 ! ---------- Temporary white list END ----------------------------------
 
 
