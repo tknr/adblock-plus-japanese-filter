@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: r6NXqJWjSdN2rn+De78IkQ
-! Last modified: 2011-11-23 18:36:07 JST
+! Checksum: e11vFkLhDFruS38AKiHUOg
+! Last modified: 2011-11-23 18:48:31 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1874,6 +1874,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||bluekai.com^$third-party
 ||bluelithium.com^
 ||bmmetrix.com^
+||bmnq.com^
 ||bnx.me^$third-party
 ||boo-box.com^$third-party
 ||boyfriendtv.com^$third-party
@@ -1906,6 +1907,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||file.cbs.co.kr^
 ||nad.cbs.co.kr^
 ||cbsinteractive.com/plugins/adp/
+||cdn-image.com^
 ||cedexis.com^$third-party
 ||celebros-analytics.com^
 ||cetrk.com^
