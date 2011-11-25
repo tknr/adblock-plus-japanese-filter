@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: y+8aYVJmQC0yA14F6023XQ
-! Last modified: 2011-11-24 13:57:46 JST
+! Checksum: 9r8Z4AG53wYhPahR4lLM/A
+! Last modified: 2011-11-25 09:03:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -801,6 +801,7 @@
 /customads_
 /customerIsLegality?
 /d2ptoolbar/*
+/dart.$script
 /data/js/ad
 /delivery/?zoneid=
 /delivery/afr.
