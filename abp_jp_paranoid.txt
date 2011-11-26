@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: mM3FiqiYOFys/W/QbobLWw
-! Last modified: 2011-11-25 12:51:37 JST
+! Checksum: s6Qc8yfd63KncGVpLe2a4A
+! Last modified: 2011-11-26 13:42:21 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -297,6 +297,10 @@ ustream.tv###FeaturedLiveBox
 ustream.tv###Takeover
 ustream.tv##.featuredContent
 ! ----- ustream.tv channel PR ----- START -----
+
+! ===== Yahoo ===== START =====
+www.yahoo.co.jp###local
+! ----- Yahoo ----- END -----
 
 ! ---------- Each Domain END -----------------------------------------
 
