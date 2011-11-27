@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: KnRf80TnkzTXBV3NikBmPw
-! Last modified: 2011-11-27 14:08:48 JST
+! Checksum: O+wczm5IeWaI11ccYDRsEQ
+! Last modified: 2011-11-27 14:11:36 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -73,6 +73,7 @@
 @@||lavasoft.com^$elemhide
 @@||lavasoft.com^*/ad_aware/
 @@||mozilla.com^$elemhide
+@@||mozilla.com/media/img/promo.
 @@||mozilla.org^$elemhide
 @@||mozilla.org/affiliates/
 @@||addons.mozilla.org/*/addon/adframe/$xmlhttprequest
