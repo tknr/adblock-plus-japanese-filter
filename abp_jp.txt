@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: B5vymB/XHqSAt5jy37TV2w
-! Last modified: 2011-11-27 16:10:28 JST
+! Checksum: JPFWpFCZPQl5V67Y/oLeKA
+! Last modified: 2011-11-27 16:36:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -36,6 +36,8 @@
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 ! False positives with combined script and stylesheet 2011-10-17
 @@||rottentomatoescdn.com/assets/*/ads.
+! False positive at store.steampowered.com . Layout collapse with /promo/* filter 2011-11-27
+@@||steampowered.com/public/css/promo/$stylesheet
 ! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
 @@||teacup.com/rchat-common/
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
