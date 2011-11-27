@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: 6L3Rr6YOERUtNazrZYCkVw
-! Last modified: 2011-11-27 15:36:58 JST
+! Checksum: B5vymB/XHqSAt5jy37TV2w
+! Last modified: 2011-11-27 16:10:28 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2382,6 +2382,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||joinsmsn.com/common/omniture/
 ||joinsmsn.com/sbox/
 ||jpg-server.com^$third-party
+||js-kit.com^
 ||jugao.com^$third-party
 ||jugem.jp/ad/
 ||ad.jugem.jp^
