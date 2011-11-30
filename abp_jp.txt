@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: I56pxFQVkbjaYj8AuFpidw
-! Last modified: 2011-11-30 15:13:28 JST
+! Checksum: 91HEwYi9Mk/kLG1UlhjOGw
+! Last modified: 2011-11-30 15:44:37 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1099,6 +1099,7 @@
 /koukoku/*
 /koukoku?
 /koukoku_
+/lcslog.$script
 /leaderboard_SWF
 /lg.php?bannerid=
 /lightningcast-
@@ -1126,7 +1127,7 @@
 /LiveAds/*
 /LiveAds?
 /LiveAds_
-! A false positive at comodo.com is reported via Issue Report saying that a login button image is blocked: 2011-09-07
+/load_lcs.$script
 /log1.
 /logimg-
 /logimg.
@@ -2453,8 +2454,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||livedoor.jp/js/c2.$script
 ||livedoor.jp/js/google_jp.
 ||livedoor.jp/js/google_plugin.
-||livedoor.jp/js/lcslog.$script
-||livedoor.jp/js/load_lcs.$script
 ||blog.livedoor.jp/*/settings/header.$script
 ||livejasmin.com^$popup
 ||lphbs.com^
