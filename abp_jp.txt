@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: oP4qhRWKh4sYiCvxwEyPPw
-! Last modified: 2011-11-30 16:23:19 JST
+! Checksum: 0m0Fq3Az5CdNaTz8PLcBGw
+! Last modified: 2011-11-30 16:34:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4002,6 +4002,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*=".mediaplex.com"]
 ##a[href*="//ads.mixi.jp"]
 ##a[href*="mobile-click.org"]
+##a[href*=".r.msn.com/?ld="]
 ##a[href*="//itpro.nikkeibp.co.jp/as/"]
 ##a[href*="okone.jp/?"]
 ##a[href*=".overture.co.jp/ja_JP/legal/"]
