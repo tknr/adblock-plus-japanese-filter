@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: +l19Xt7Xp2CgRWBGZM3ouw
-! Last modified: 2011-11-30 13:17:03 JST
+! Checksum: Y7M/bAt5tiwhue9HYqWDeA
+! Last modified: 2011-11-30 13:42:56 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1411,6 +1411,7 @@
 /xgemius.
 /xtclicks.$script
 /xtcore.$script
+/yim.$script,subdocument
 /ywa.$script
 =adtext.
 =advertisement&
@@ -1608,6 +1609,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||8cnd.com^$third-party
 ||a-cast.jp^
 ||a-pagerank.net^$third-party
+||a-q-f.com/openpc/yim.
 ||a433.com^$third-party
 ||a8.net^$third-party
 ||a9.com^$third-party
