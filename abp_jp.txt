@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: nY8oJMhpEDHmfycuwMfzBA
-! Last modified: 2011-11-30 16:04:24 JST
+! Checksum: oP4qhRWKh4sYiCvxwEyPPw
+! Last modified: 2011-11-30 16:23:19 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4563,6 +4563,8 @@ sourceforge.jp###adbar>.sidebar-ad-text~div:nth-of-type(2)
 sourceforge.jp###adbar > :first-child
 sourceforge.net##.recommended
 stackasterisk.jp##table.tableCaution
+surfcanyon.com###eastAds
+surfcanyon.com##.splink
 tabelog.com###targeting_restaurants
 tbs.co.jp##*[id^="banner-"]:not(body):not(input)
 tbs.co.jp###promotion
