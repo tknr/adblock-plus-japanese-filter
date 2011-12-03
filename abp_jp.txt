@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: 6gWkNqRzyseTB0pqozPBCA
-! Last modified: 2011-12-03 17:13:51 JST
+! Checksum: 4zsZ7GpicX2WtuTanU2A3w
+! Last modified: 2011-12-03 18:57:12 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4497,6 +4497,7 @@ nicovideo.jp###banner
 nicovideo.jp###web_pc_prime
 nicovideo.jp##.sidewallAd
 seiga.nicovideo.jp##a[href*="//rd.nicovideo.jp/cc/seiga_top/"]
+nifty.com###gifAD
 nifty.com###subBnr
 nikkeibp.co.jp##.media-campaign
 business.nikkeibp.co.jp###articlekeyword
