@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: AKD/eElF4YhlPwObxzULGg
-! Last modified: 2011-12-04 14:05:29 JST
+! Checksum: H32Si0T3zf0daeaRPJS7/A
+! Last modified: 2011-12-04 14:06:57 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2677,6 +2677,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||pgmediaserve.com^
 ||pheedo.jp^$third-party
 ||picadmedia.com^
+||picbucks.com^$popup
 ||picleet.com/*_picleet.$script
 ||picleet.com/modalfiles/modal.$script
 ||pillendienst.com^$third-party
