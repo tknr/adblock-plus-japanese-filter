@@ -2445,6 +2445,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||linkad.jp/tools/$object
 ||linkbucks.com^$popup,image,~image
 ||linkbucks.com^$third-party
+||linkbucksmedia.com^$third-party
 ||linksynergy.com^
 ||linkwithin.com^$third-party
 ||list.ru^$third-party
