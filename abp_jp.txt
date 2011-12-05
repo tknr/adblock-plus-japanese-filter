@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: elEk+acaNj7Q0h/36aTAUQ
-! Last modified: 2011-12-05 13:53:10 JST
+! Checksum: r4f+pKNkY0RiTHApn+X1Fw
+! Last modified: 2011-12-05 14:11:23 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1378,6 +1378,7 @@
 /txt_ads?
 /txt_ads_
 /udctrack.
+/uds/api/ads/*
 /uds/stats?
 /urchin-
 /urchin.
