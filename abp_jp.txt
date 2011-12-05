@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: vw3M0xZB5TS5VYEiP2fxvw
-! Last modified: 2011-12-04 14:49:42 JST
+! Checksum: yJyamx34I3TCyLS0KXEKnw
+! Last modified: 2011-12-05 13:41:12 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1577,6 +1577,7 @@ INSERT_RANDOM_NUMBER_HERE
 ! ---------- URL Fragments END ---------------------------------------
 ! 
 ! ########## Domain optionally with path START #######################
+||80.77.113.200^
 ||203.86.249.80^
 ||210.135.99.84^
 ||210.155.151.148^
