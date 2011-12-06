@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: ICTxKUGdYBsklz01mN0+/Q
-! Last modified: 2011-12-05 14:08:31 JST
+! Checksum: oRXT+AVZbj2wXjGDr/R1kQ
+! Last modified: 2011-12-06 11:38:34 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -304,6 +304,10 @@ nicovideo.jp###ichiba_placeholder + div
 ||afl.rakuten.co.jp^
 ##a[href*=".afl.rakuten.co.jp/"]
 ! ----- rakuten affiliate stronger filter ----- END -----
+
+! ===== twitter.com search result pages show unwanted popular images and videos in the side column ===== START =====
+||api.twitter.com^*search/*_facets.
+! ----- twitter.com search result pages show unwanted popular images and videos in the side column ----- END -----
 
 ! ===== ustream.tv channel PR ===== START =====
 ustream.tv###FeaturedLiveBox
