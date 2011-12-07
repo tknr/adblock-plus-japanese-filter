@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: 4ei27nMUv0ilkKXA0gTxYg
-! Last modified: 2011-12-07 16:23:30 JST
+! Checksum: UktfPahuGWoSnr/Snl3Zlw
+! Last modified: 2011-12-07 16:25:56 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -174,7 +174,7 @@
 .adriver.
 ! Preparing to move to whitelist 2011-12-07
 ! .adsense-$domain=~google.com
-! Moved to the whitelist 2011-12-07
+! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
 .adserver.
 .analytics-
@@ -570,7 +570,7 @@
 ! /adsense.$domain=~google.com
 ! /adsense/*$domain=~google.com
 ! /adsense_$domain=~google.com
-! Moved to the whitelist 2011-12-07
+! Domain-restricting options have moved to the whitelist 2011-12-07
 /adsense-
 /adsense.
 /adsense/*
