@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: DoKCCD9J3TW2phbGB2fdZg
-! Last modified: 2011-12-07 00:04:12 JST
+! Checksum: aHw/yX4i0Dmq5T3U+FZIpg
+! Last modified: 2011-12-07 14:11:44 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1137,6 +1137,7 @@
 /logimg/*
 /logimg?
 /logimg_
+/logwrite.$image,third-party
 /marquee/*
 /matc.$script
 /media?mid=
@@ -1591,7 +1592,9 @@ INSERT_RANDOM_NUMBER_HERE
 ||10clicks.com^$third-party
 ||1133.cc^$third-party
 ||123compteur.com^$third-party
+||12no3.com^
 ||20serve.com^
+||22no3.com^
 ||247realmedia.com^$third-party
 ||24log.ru^$third-party
 ||24smile.org^
