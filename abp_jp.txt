@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: Ml6SEEH7V5YSo6xQ4K5Lrw
-! Last modified: 2011-12-11 13:16:56 JST
+! Checksum: +a9HgIwIB+MGXZneWJADVw
+! Last modified: 2011-12-11 13:22:27 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -26,7 +26,7 @@
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
-@@||liverail.com/crossdomain.xml
+@@||liverail.com/crossdomain.xml|
 @@||liverail.com^*plugins/flowplayer/
 ! Flase positive at twitch.tv reported and resolved via Issue Report, Dec 11, 2011
 @@||vox-static.liverail.com/swf/*/admanager.$domain=twitch.tv
@@ -43,7 +43,7 @@
 ! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
 @@||teacup.com/rchat-common/
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
-@@||tubemogul.com/crossdomain.xml
+@@||tubemogul.com/crossdomain.xml|
 @@||tubemogul.com/bootloader/TubeMogulFlowPlayer.
 ! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
 @@||uec.ac.jp/about/advertisement/$elemhide
@@ -72,7 +72,7 @@
 @@||code.google.com^$elemhide
 ! There were False positives at www.youtube.com/oracle , which no longer exist 2011-10-11
 ! Another false positive with conviva filters found at ustream.tv, which brought the past commented out whitelists back into life, reported via Issue Report 2011-12-09
-@@||conviva.com/crossdomain.xml
+@@||conviva.com/crossdomain.xml|
 @@||conviva.com/lpconfig/cfg/
 ! A new rare false positive with conviva filters found at ustream.tv 2011-12-10
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
