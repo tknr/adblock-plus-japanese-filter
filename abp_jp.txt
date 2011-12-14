@@ -870,6 +870,7 @@
 ! Commented out slow filters 2011-11-08
 ! /ea.js
 /exitPopup.$script
+/external/$domain=amazon.co.jp|amazon.com
 /fc.php?script=
 /flashbanner.swf
 /foresee-$script
