@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: Xx7fPBpodG9aLCGk6k0qMw
-! Last modified: 2011-12-15 20:03:11 JST
+! Checksum: LJrI4jmjgsD/oB5514CJEw
+! Last modified: 2011-12-15 20:07:17 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1264,11 +1264,6 @@
 ! /pop.php?zoneid=
 /popad/*
 /popads/*
-/popover-$script
-/popover.$script
-/popover/*$script
-/popover?$script
-/popover_$script
 /popunder-
 /popunder.
 /popunder/*
