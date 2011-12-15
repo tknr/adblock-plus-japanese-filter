@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: Sf8iCYR6B9+sluSXl+BIIg
-! Last modified: 2011-12-15 17:32:17 JST
+! Checksum: 3CD+EfJaA6xqp4KgxVQgaA
+! Last modified: 2011-12-15 17:38:57 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -247,6 +247,7 @@
 /_search.js|$third-party
 /180x180.gif|$first-party
 /A-affiliate2/*
+/aan/*/ad/*
 /aan/*/amazon/*
 /abnl/?begun=
 /ad-image/*
@@ -260,6 +261,7 @@
 ! Commented out slow filters 2011-11-08
 ! /ad.js
 /ad.php?id=
+/ad/*&slot=
 /ad/200_
 /ad/banner-
 /ad/banner.
