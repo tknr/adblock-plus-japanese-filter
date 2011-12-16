@@ -1,6 +1,6 @@
-[Adblock Plus 1.3.10]
-! Checksum: nIj9LRMUaaKUMa1BkSQd1g
-! Last modified: 2011-12-16 23:26:03 JST
+[Adblock Plus 2.0]
+! Checksum: 6mmQV5afuWsgouz1muusyQ
+! Last modified: 2011-12-17 01:16:50 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
