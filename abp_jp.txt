@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.10]
-! Checksum: uzTr6bnCnhwspFSL1QzhFg
-! Last modified: 2011-12-16 13:46:28 JST
+! Checksum: 0g4UqcLFo7/cvOzQB4oGmw
+! Last modified: 2011-12-16 14:46:39 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4477,12 +4477,13 @@ h-online.com##.teaser_priceinsight
 hamusoku.com##.topbox
 hatena.ne.jp###asin-rel-item
 hatena.ne.jp###info-header
+hatena.ne.jp###odai-container
 hatena.ne.jp##.list.ad
 a.hatena.ne.jp##h1:first-of-type ~ ol:first-of-type
 b.hatena.ne.jp##.nikkei-body
 b.hatena.ne.jp##.sidebar > div[class^="curvebox-"]
 b.hatena.ne.jp##div[id^="afs"]
-d.hatena.ne.jp###odai-container
+d.hatena.ne.jp##.notice-container
 q.hatena.ne.jp###related-keyword ~ *
 q.hatena.ne.jp##.job
 hmv.co.jp##.tmplLogo
