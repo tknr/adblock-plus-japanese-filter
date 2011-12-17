@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ueCYEg4iBksAhl8gmyz8+g
-! Last modified: 2011-12-17 13:42:33 JST
+! Checksum: tRNdetbifWmwK/15QCIc7g
+! Last modified: 2011-12-17 13:47:33 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -46,6 +46,8 @@
 @@||virustotal.com/stats/
 @@||virustotal.hispasecsistemas.netdna-cdn.com/js/stats-$script
 @@||wikipedia.org^$elemhide
+! False positive at mail.live.com when you click folder on the side column, reported via Issue Report, Dec 17, 2011
+@@||wlxrs.com^*Popover.$script
 ! ---------- Default white list END ----------------------------------
 
 
