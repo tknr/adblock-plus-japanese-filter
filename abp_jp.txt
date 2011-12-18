@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: KvZd5CJMMTMo6kBh3tQe7A
-! Last modified: 2011-12-19 08:34:39 JST
+! Checksum: EW0dq65nGh2txUKu44nhFA
+! Last modified: 2011-12-19 08:56:28 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3708,6 +3708,7 @@ INSERT_RANDOM_NUMBER_HERE
 ###Ad
 ~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
 ###ad_container
+###ad_frame
 ###ad_listing
 ###ad-text
 ###AD-text
@@ -3747,6 +3748,8 @@ INSERT_RANDOM_NUMBER_HERE
 ###AdBox
 ###adBox
 ###adbox
+###adContainer
+###adFrame
 ###adLeft
 ###adleft
 ###adPRtext
