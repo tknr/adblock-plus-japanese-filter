@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: jnxkvxeVDqXfW4wY4W1RHA
-! Last modified: 2011-12-17 14:02:48 JST
+! Checksum: nSZlq92Xa6sDufaccp+j2w
+! Last modified: 2011-12-19 16:38:35 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -63,6 +63,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 
 &age=
 &sex=
+&slot=
 &tracking=$third-party
 
 -log-
@@ -139,6 +140,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /popup/*$script
 /popup?$script
 /popup_$script
+/slot-
+/slot.
+/slot/*
+/slot?
+/slot_
 /stats-
 /stats.
 /stats/*
@@ -169,6 +175,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 =female&
 
 ?log=
+?slot=
 ?tracking=$third-party
 
 _204?
