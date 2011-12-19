@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: uDMlOj8iCVXGDuA3K1sTdQ
-! Last modified: 2011-12-19 16:33:08 JST
+! Checksum: uqm0OrtgOXSf4GGGovIMZQ
+! Last modified: 2011-12-19 16:50:37 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -117,6 +117,11 @@
 &adpds_
 &adsize=
 &adslot=
+&adsource-
+&adsource.
+&adsource/*
+&adsource?
+&adsource_
 &adSpace=
 &adtype=
 &advTile=
@@ -606,6 +611,11 @@
 /adshow/*
 /adshow?
 /adshow_
+/adsource-
+/adsource.
+/adsource/*
+/adsource?
+/adsource_
 /adspace-
 /adspace.
 /adspace/*
@@ -1492,6 +1502,11 @@
 ?adpds_
 ?adsize=
 ?adslot=
+?adsource-
+?adsource.
+?adsource/*
+?adsource?
+?adsource_
 ?advTile=
 ?affid=
 ?banner_link=
@@ -1526,6 +1541,11 @@ _ads.
 _ads/
 _ads?
 _ads_
+_adsource-
+_adsource.
+_adsource/*
+_adsource?
+_adsource_
 _adv_img/
 _adv_imgs/
 _amazontcg_
