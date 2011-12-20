@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: nSZlq92Xa6sDufaccp+j2w
-! Last modified: 2011-12-19 16:38:35 JST
+! Checksum: jII9hItjonSlib6CVDITCQ
+! Last modified: 2011-12-20 13:05:11 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -368,6 +368,7 @@ www.yahoo.co.jp###local
 ! ----- geoip ----- END -----
 
 ! ==== Link generator ==== START ====
+||excite.co.jp/feed/news/js/$script
 ||widget.zenback.jp^$third-party
 ! ==== Link generator ==== END ====
 
