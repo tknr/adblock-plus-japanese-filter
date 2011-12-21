@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: CTt7zUMOaPqvFIEa7nkgkw
-! Last modified: 2011-12-22 04:06:25 JST
+! Checksum: 5sHDebZzBVWXKFdKb9eCNg
+! Last modified: 2011-12-22 04:13:37 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -849,7 +849,6 @@
 /counter?$~image
 /counter_$~image
 /csi?v=
-/css/ads.css
 /customad-
 /customad.
 /customad/*
@@ -1010,7 +1009,6 @@
 /image/ad728.$image
 /image/ad88.$image
 /image/ads-
-/image/ads.
 /image/ads/*
 /image/ads?
 /image/ads_
@@ -1039,7 +1037,6 @@
 /images/ad728.$image
 /images/ad88.$image
 /images/ads-
-/images/ads.
 /images/ads/*
 /images/ads?
 /images/ads_
@@ -1075,7 +1072,6 @@
 /img/ad728.$image
 /img/ad88.$image
 /img/ads-
-/img/ads.
 /img/ads/*
 /img/ads?
 /img/ads_
@@ -1108,7 +1104,6 @@
 /imgs/ad728.$image
 /imgs/ad88.$image
 /imgs/ads-
-/imgs/ads.
 /imgs/ads/*
 /imgs/ads?
 /imgs/ads_
