@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 1Sww27zjNjzSDVYJBItZrg
-! Last modified: 2011-12-22 03:58:52 JST
+! Checksum: CTt7zUMOaPqvFIEa7nkgkw
+! Last modified: 2011-12-22 04:06:25 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4634,6 +4634,7 @@ newsweek.com##.inline-promo-link
 newsweekjapan.jp###bnrHead
 newsweekjapan.jp###sideAdPanel
 nicovideo.jp###banner
+nicovideo.jp###Recommend
 nicovideo.jp###web_pc_prime
 nicovideo.jp##.sidewallAd
 seiga.nicovideo.jp##a[href*="//rd.nicovideo.jp/cc/seiga_top/"]
