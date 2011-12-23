@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lG1gK187Nq5/ZREindas3A
-! Last modified: 2011-12-23 23:07:58 JST
+! Checksum: Wazbc2Nbd6YH6YEzvOoAnw
+! Last modified: 2011-12-23 23:13:20 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1502,6 +1502,7 @@
 /xtclicks.$script
 /xtcore.$script
 /yim.$script,subdocument
+/ystat.
 /ywa.$script
 /zone?zid=
 =adtext.
