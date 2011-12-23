@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: pIthV8xoz5rLKih8gbDSRQ
-! Last modified: 2011-12-23 21:19:13 JST
+! Checksum: Y6J/S69oNfUJ/wRTDzHjVw
+! Last modified: 2011-12-23 22:27:23 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1437,6 +1437,11 @@
 /textads_
 /tii_ads.$script
 /tirjs2.$script
+/tizers-
+/tizers.
+/tizers/*
+/tizers?
+/tizers_
 /toolbar/popup/*
 /top_bnn.
 /trackalyze.$script
@@ -3089,6 +3094,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||tizer6.net^
 ||tizer7.net^
 ||tizer8.net^
+||tizerka.net^$third-party
 ||tjq.com^$third-party
 ||tlbn.org^$third-party
 ||tldadserv.com^$third-party
