@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 5sHDebZzBVWXKFdKb9eCNg
-! Last modified: 2011-12-22 04:13:37 JST
+! Checksum: RZCi/DXrGdXXV6lQTLTp4A
+! Last modified: 2011-12-23 19:50:27 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -217,6 +217,11 @@
 .com/pr_ad?
 .com/pr_ad_
 .impact-ad.jp/rc/
+.info/ad-
+.info/ad.
+.info/ad/
+.info/ad?
+.info/ad_
 .kissinsights.com/
 .metrics-
 .metrics.
