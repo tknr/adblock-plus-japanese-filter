@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: P8sznXUjthKFy99FigJScQ
-! Last modified: 2011-12-24 19:35:08 JST
+! Checksum: S71lruoHOft+WgiIHK14pQ
+! Last modified: 2011-12-24 19:51:52 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -732,6 +732,11 @@
 /affiliates/*$third-party
 /affiliates?$third-party
 /affiliates_$third-party
+/afiriate-$third-party
+/afiriate.$third-party
+/afiriate/*$third-party
+/afiriate?$third-party
+/afiriate_$third-party
 /afr.php?
 ! merged into .php?zoneid=
 ! /ajs.php?zoneid=
