@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Zv/+cGgdt3HZnnzwfm/igQ
-! Last modified: 2011-12-25 03:23:15 JST
+! Checksum: 6i9YZ/iioHQQxdosPG2G0w
+! Last modified: 2011-12-25 05:35:31 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3310,6 +3310,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||woniu666.com^$third-party
 ||woopieapi.com/ad/
 ||woopieapi.com/js/wa/
+||log.woopieapi.com^
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
 ||stats.wordpress.com^
