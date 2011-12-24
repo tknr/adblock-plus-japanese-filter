@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /xHwGvPgyEj2ymLNYo3lwg
-! Last modified: 2011-12-24 15:46:05 JST
+! Checksum: P8sznXUjthKFy99FigJScQ
+! Last modified: 2011-12-24 19:35:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -207,13 +207,13 @@
 .beacons_
 .biz/pr_ad-
 .biz/pr_ad.
-.biz/pr_ad/*
+.biz/pr_ad/
 .biz/pr_ad?
 .biz/pr_ad_
 .ca.html|
 .com/pr_ad-
 .com/pr_ad.
-.com/pr_ad/*
+.com/pr_ad/
 .com/pr_ad?
 .com/pr_ad_
 .impact-ad.jp/rc/
@@ -230,12 +230,12 @@
 .metrics_
 .net/pr_ad-
 .net/pr_ad.
-.net/pr_ad/*
+.net/pr_ad/
 .net/pr_ad?
 .net/pr_ad_
 .org/pr_ad-
 .org/pr_ad.
-.org/pr_ad/*
+.org/pr_ad/
 .org/pr_ad?
 .org/pr_ad_
 .php?zoneid=
@@ -263,183 +263,193 @@
 /aan/*/ad/*
 /aan/*/amazon/*
 /abnl/?begun=
-/ad-image/*
-/ad-images/*
-/ad-navi/ga/*
-/ad.act?
-/ad.asp?
-/ad.asp|
-/ad.aspx?
-/ad.aspx|
+|http:*/ad-
+|https:*/ad-
+! /ad-image/*
+! /ad-images/*
+! /ad-navi/ga/*
+|http:*/ad.
+|https:*/ad.
+! /ad.act?
+! /ad.asp?
+! /ad.asp|
+! /ad.aspx?
+! /ad.aspx|
 ! Commented out slow filters 2011-11-08
 ! /ad.js
-/ad.php?id=
-/ad/*&slot=
-/ad/200_
-/ad/banner-
-/ad/banner.
-/ad/banner/*
-/ad/banner?
-/ad/banner_
-/ad/click.
-/ad/control-
-/ad/control.
-/ad/control/*
-/ad/control?
-/ad/control_
-/ad/iframe-
-/ad/iframe.
-/ad/iframe/*
-/ad/iframe?
-/ad/iframe_
-/ad/iframes-
-/ad/iframes.
-/ad/iframes/*
-/ad/iframes?
-/ad/iframes_
-/ad/image-
-/ad/image.
-/ad/image/*
-/ad/image?
-/ad/image_
-/ad/images-
-/ad/images.
-/ad/images/*
-/ad/images?
-/ad/images_
-/ad/index-
-/ad/index.
-/ad/index/*
-/ad/index?
-/ad/index_
-/ad/load_ad-
-/ad/load_ad.
-/ad/load_ad/*
-/ad/load_ad?
-/ad/load_ad_
-/ad/pr_img-
-/ad/pr_img.
-/ad/pr_img/*
-/ad/pr_img?
-/ad/pr_img_
-/ad/preview-
-/ad/preview.
-/ad/preview/*
-/ad/preview?
-/ad/preview_
-/ad/show-
-/ad/show.
-/ad/show/*
-/ad/show?
-/ad/show_
-/ad?act=
-/ad?loc=
-/ad_agency-
-/ad_agency.
-/ad_agency/*
-/ad_agency?
-/ad_agency_
-/ad_area-
-/ad_area.
-/ad_area/*
-/ad_area?
-/ad_area_
-/ad_banner-
-/ad_banner.
-/ad_banner/*
-/ad_banner?
-/ad_banner_
-/ad_bottom-
-/ad_bottom.
-/ad_bottom/*
-/ad_bottom?
-/ad_bottom_
-/ad_box-
-/ad_box.
-/ad_box/*
-/ad_box?
-/ad_box_
-/ad_common-
-/ad_common.
-/ad_common/*
-/ad_common?
-/ad_common_
-/ad_iframe-
-/ad_iframe.
-/ad_iframe/*
-/ad_iframe?
-/ad_iframe_
-/ad_iframes-
-/ad_iframes.
-/ad_iframes/*
-/ad_iframes?
-/ad_iframes_
-/ad_image-
-/ad_image.
-/ad_image/*
-/ad_image?
-/ad_image_
-/ad_images-
-/ad_images.
-/ad_images/*
-/ad_images?
-/ad_images_
-/ad_img-
-/ad_img.
-/ad_img/*
-/ad_img?
-/ad_img_
-/ad_imgs-
-/ad_imgs.
-/ad_imgs/*
-/ad_imgs?
-/ad_imgs_
-/ad_insight-
-/ad_insight.
-/ad_insight/*
-/ad_insight?
-/ad_insight_
-/ad_keyword-
-/ad_keyword.
-/ad_keyword/*
-/ad_keyword?
-/ad_keyword_
-/ad_layout-
-/ad_layout.
-/ad_layout/*
-/ad_layout?
-/ad_layout_
-/ad_parts-
-/ad_parts.
-/ad_parts/*
-/ad_parts?
-/ad_parts_
-/ad_plugin-
-/ad_plugin.
-/ad_plugin/*
-/ad_plugin?
-/ad_plugin_
-/ad_statistics-
-/ad_statistics.
-/ad_statistics/*
-/ad_statistics?
-/ad_statistics_
-/ad_timer-
-/ad_timer.
-/ad_timer/*
-/ad_timer?
-/ad_timer_
-/ad_top-
-/ad_top.
-/ad_top/*
-/ad_top?
-/ad_top_
-/ad_tpl.
-/ad_view-
-/ad_view.
-/ad_view/*
-/ad_view?
-/ad_view_
+! /ad.php?id=
+|http:*/ad/
+|https:*/ad/
+! /ad/*&slot=
+! /ad/200_
+! /ad/banner-
+! /ad/banner.
+! /ad/banner/*
+! /ad/banner?
+! /ad/banner_
+! /ad/click.
+! /ad/control-
+! /ad/control.
+! /ad/control/*
+! /ad/control?
+! /ad/control_
+! /ad/iframe-
+! /ad/iframe.
+! /ad/iframe/*
+! /ad/iframe?
+! /ad/iframe_
+! /ad/iframes-
+! /ad/iframes.
+! /ad/iframes/*
+! /ad/iframes?
+! /ad/iframes_
+! /ad/image-
+! /ad/image.
+! /ad/image/*
+! /ad/image?
+! /ad/image_
+! /ad/images-
+! /ad/images.
+! /ad/images/*
+! /ad/images?
+! /ad/images_
+! /ad/index-
+! /ad/index.
+! /ad/index/*
+! /ad/index?
+! /ad/index_
+! /ad/load_ad-
+! /ad/load_ad.
+! /ad/load_ad/*
+! /ad/load_ad?
+! /ad/load_ad_
+! /ad/pr_img-
+! /ad/pr_img.
+! /ad/pr_img/*
+! /ad/pr_img?
+! /ad/pr_img_
+! /ad/preview-
+! /ad/preview.
+! /ad/preview/*
+! /ad/preview?
+! /ad/preview_
+! /ad/show-
+! /ad/show.
+! /ad/show/*
+! /ad/show?
+! /ad/show_
+|http:*/ad?
+|https:*/ad?
+! /ad?act=
+! /ad?loc=
+|http:*/ad_
+|https:*/ad_
+! /ad_agency-
+! /ad_agency.
+! /ad_agency/*
+! /ad_agency?
+! /ad_agency_
+! /ad_area-
+! /ad_area.
+! /ad_area/*
+! /ad_area?
+! /ad_area_
+! /ad_banner-
+! /ad_banner.
+! /ad_banner/*
+! /ad_banner?
+! /ad_banner_
+! /ad_bottom-
+! /ad_bottom.
+! /ad_bottom/*
+! /ad_bottom?
+! /ad_bottom_
+! /ad_box-
+! /ad_box.
+! /ad_box/*
+! /ad_box?
+! /ad_box_
+! /ad_common-
+! /ad_common.
+! /ad_common/*
+! /ad_common?
+! /ad_common_
+! /ad_iframe-
+! /ad_iframe.
+! /ad_iframe/*
+! /ad_iframe?
+! /ad_iframe_
+! /ad_iframes-
+! /ad_iframes.
+! /ad_iframes/*
+! /ad_iframes?
+! /ad_iframes_
+! /ad_image-
+! /ad_image.
+! /ad_image/*
+! /ad_image?
+! /ad_image_
+! /ad_images-
+! /ad_images.
+! /ad_images/*
+! /ad_images?
+! /ad_images_
+! /ad_img-
+! /ad_img.
+! /ad_img/*
+! /ad_img?
+! /ad_img_
+! /ad_imgs-
+! /ad_imgs.
+! /ad_imgs/*
+! /ad_imgs?
+! /ad_imgs_
+! /ad_insight-
+! /ad_insight.
+! /ad_insight/*
+! /ad_insight?
+! /ad_insight_
+! /ad_keyword-
+! /ad_keyword.
+! /ad_keyword/*
+! /ad_keyword?
+! /ad_keyword_
+! /ad_layout-
+! /ad_layout.
+! /ad_layout/*
+! /ad_layout?
+! /ad_layout_
+! /ad_parts-
+! /ad_parts.
+! /ad_parts/*
+! /ad_parts?
+! /ad_parts_
+! /ad_plugin-
+! /ad_plugin.
+! /ad_plugin/*
+! /ad_plugin?
+! /ad_plugin_
+! /ad_statistics-
+! /ad_statistics.
+! /ad_statistics/*
+! /ad_statistics?
+! /ad_statistics_
+! /ad_timer-
+! /ad_timer.
+! /ad_timer/*
+! /ad_timer?
+! /ad_timer_
+! /ad_top-
+! /ad_top.
+! /ad_top/*
+! /ad_top?
+! /ad_top_
+! /ad_tpl.
+! /ad_view-
+! /ad_view.
+! /ad_view/*
+! /ad_view?
+! /ad_view_
 /Ad160x600.
 /Ad300x600.
 /adbanner-
