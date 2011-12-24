@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ChcvY7EweTAZDXBX0rt7kQ
-! Last modified: 2011-12-24 15:46:05 JST
+! Checksum: Kb69o9czlCN2xM19nd1iJw
+! Last modified: 2011-12-24 19:57:55 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -66,6 +66,16 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 &slot=
 &tracking=$third-party
 
+-bnr-$third-party
+-bnr.$third-party
+-bnr/*$third-party
+-bnr?$third-party
+-bnr_$third-party
+-banner-$third-party
+-banner.$third-party
+-banner/*$third-party
+-banner?$third-party
+-banner_$third-party
 -log-
 -log.$domain=~twilog.org|~y-log.net
 -log/
@@ -92,6 +102,16 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 -tracking?
 -tracking_
 
+.bnr-$third-party
+.bnr.$third-party
+.bnr/*$third-party
+.bnr?$third-party
+.bnr_$third-party
+.banner-$third-party
+.banner.$third-party
+.banner/*$third-party
+.banner?$third-party
+.banner_$third-party
 .log-
 .log.
 .log/
@@ -118,8 +138,19 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .tracking?
 .tracking_
 
+
 /_tracker.
 /1x1.$image
+/bnr-$third-party
+/bnr.$third-party
+/bnr/*$third-party
+/bnr?$third-party
+/bnr_$third-party
+/banner-$third-party
+/banner.$third-party
+/banner/*$third-party
+/banner?$third-party
+/banner_$third-party
 /log-$domain=~comodo.com
 /log.
 /log/*
@@ -180,6 +211,16 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 
 _204?
 _204|
+_bnr-$third-party
+_bnr.$third-party
+_bnr/*$third-party
+_bnr?$third-party
+_bnr_$third-party
+_banner-$third-party
+_banner.$third-party
+_banner/*$third-party
+_banner?$third-party
+_banner_$third-party
 _log-
 _log.
 _log/
