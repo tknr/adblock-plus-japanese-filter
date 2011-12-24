@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: KJNst2HIDHm3tbT6Iwau1A
-! Last modified: 2011-12-24 21:34:23 JST
+! Checksum: cch84O0XQ1eSheQvuOBVYA
+! Last modified: 2011-12-24 22:30:32 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -24,7 +24,7 @@
 @@||doubleclick.net/adj/imdb2.
 ! Workaround to fix layout collapse 2011-10-17
 @@||fc2.com^*/kanasoku/advertisement.js
-@@||imdb.com^*/doubleclick/*
+@@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
@@ -119,7 +119,7 @@
 &adslot=
 &adsource-
 &adsource.
-&adsource/*
+&adsource/
 &adsource?
 &adsource_
 &adSpace=
@@ -1566,7 +1566,7 @@
 ?adslot=
 ?adsource-
 ?adsource.
-?adsource/*
+?adsource/
 ?adsource?
 ?adsource_
 ?advTile=
@@ -1604,7 +1604,7 @@
 ! _ad_statistics__adagency/
 _AdPlugin-
 _AdPlugin.
-_AdPlugin/*
+_AdPlugin/
 _AdPlugin?
 _AdPlugin_
 _ads-
@@ -1614,7 +1614,7 @@ _ads?
 _ads_
 _adsource-
 _adsource.
-_adsource/*
+_adsource/
 _adsource?
 _adsource_
 _adv_img/
@@ -1622,20 +1622,20 @@ _adv_imgs/
 _amazontcg_
 _beacon-
 _beacon.
-_beacon/*
+_beacon/
 _beacon?
 _beacon_
 _clickforce_
 _customads_
 _google_afc-
 _google_afc.
-_google_afc/*
+_google_afc/
 _google_afc?
 _google_afc_
 _gtracking.$script
 _iframeBanner-
 _iframeBanner.
-_iframeBanner/*
+_iframeBanner/
 _iframeBanner?
 _iframeBanner_
 _metrics-
