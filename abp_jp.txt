@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ajoue+E0S2FDy/nSL8wdsg
-! Last modified: 2011-12-25 21:34:56 JST
+! Checksum: Z+orXEn5XBFjDVjwfbJRvA
+! Last modified: 2011-12-25 21:41:13 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3029,6 +3029,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||scanscout.com^
 ||scorecardresearch.com^$third-party
 ||scour.com/services/getLocation/
+||sd1.fr^
 ||aa.sdo.com^
 ||aagw.sdo.com^
 ||search123.uk.com^
