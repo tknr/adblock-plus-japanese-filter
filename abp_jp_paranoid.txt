@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ygEdE/Sb/Pkcqbg/ypXeLw
-! Last modified: 2011-12-25 21:25:26 JST
+! Checksum: XGSPXtOoeTKQzQpobvrHJA
+! Last modified: 2011-12-25 22:00:28 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -181,6 +181,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /stats/*
 /stats?
 /stats_$domain=~blog.mozilla.com
+/stats2-
+/stats2.
+/stats2/*
+/stats2?
+/stats2_
 /track-
 /track.
 /track/*
