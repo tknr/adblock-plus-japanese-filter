@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: h5ufROJ0ISj6/CrOMtgT0g
-! Last modified: 2011-12-25 22:07:28 JST
+! Checksum: kWp15U3FuQ/BGxe+Pco0Ew
+! Last modified: 2011-12-25 22:21:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1706,7 +1706,7 @@ _sponsored_
 ! _stat_
 INSERT_RANDOM_NUMBER_HERE
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|filesonic.jp|freakshare.com|freshremix.ru|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|yourlib.net
+|http:$popup,image,~image,domain=bitshare.com|emule-island.ru|filesonic.jp|freakshare.com|freshremix.ru|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|yourlib.net
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -3178,7 +3178,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||textad.net^$third-party
 ||thatsping.com^$third-party
 ||thatsping.jp^
-||the-adult-company.com^$third-party
+||the-adult-company.com^$third-party,popup
 ||thefilter.com^$third-party
 ||theloungenet.com^$third-party
 ||tidaltv.com^$third-party
