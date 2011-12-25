@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: r/p/qsjacuyRMWhuwQCzxQ
-! Last modified: 2011-12-25 22:25:26 JST
+! Checksum: HqnbtKcl3IY6N/7eJhga5g
+! Last modified: 2011-12-25 22:28:44 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2303,6 +2303,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ebuzzing.com^$third-party
 ||ecnavi.jp/campaign/$third-party
 ||eco-tag.jp^
+||edenflirt.com^$third-party
 ! Commented out to avoid false positives with ooyala.com embeded movie player at jp.techcrunch.com 2011-10-17
 ! ||edgefcs.net^
 ||yieldmanager.edgesuite.net^$third-party
