@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: mLk0jAKrO2MUhCIbZtFEPw
-! Last modified: 2011-12-25 21:32:03 JST
+! Checksum: ajoue+E0S2FDy/nSL8wdsg
+! Last modified: 2011-12-25 21:34:56 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -493,6 +493,11 @@
 /adclicks/*
 /adclicks?
 /adclicks_
+/adcontext-
+/adcontext.
+/adcontext/*
+/adcontext?
+/adcontext_
 /adcontrol-
 /adcontrol.
 /adcontrol/*
@@ -610,7 +615,16 @@
 /ads/*
 /ads?
 /ads_
+/adscontext-
+/adscontext.
+/adscontext/*
+/adscontext?
+/adscontext_
+/adserving-
+/adserving.
 /adserving/*
+/adserving?
+/adserving_
 /adscore-
 /adscore.
 /adscore/*
