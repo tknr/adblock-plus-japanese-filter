@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: YxFL+zKyPX6n4EONFby8Bw
-! Last modified: 2011-12-25 21:52:45 JST
+! Checksum: h5ufROJ0ISj6/CrOMtgT0g
+! Last modified: 2011-12-25 22:07:28 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1810,6 +1810,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||acs86.com^
 ||actinside.com^
 ||activecore.jp^$third-party
+||acwebconnecting.com^$third-party
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
 ||ad-link.jp^$third-party
@@ -3330,6 +3331,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||williamhill.com^$popup
 ||ad.wiredvision.jp^
 ||with2.net^$third-party
+||wlresources.com^
 ||wmh0.com^$third-party
 ||woniu666.com^$third-party
 ||woopieapi.com/ad/
