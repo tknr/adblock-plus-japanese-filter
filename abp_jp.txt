@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8Gyw7rOcUZLV7cgx3YNwNA
-! Last modified: 2011-12-26 16:07:41 JST
+! Checksum: 3lXiS0tD6ZERyFZXVxLcnw
+! Last modified: 2011-12-26 17:31:43 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2696,6 +2696,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||luocbao.com/adv/
 ||luxup.ru^
 ||lzjl.com^
+||macsoft.jp/img/Banner1/
 ||magma-analytics.com^$third-party
 ||mail.ru^$third-party
 ||mainichi.jp/js/an.$script
@@ -4692,6 +4693,8 @@ livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
 search.livedoor.com###content h3
 search.livedoor.com###menu > div:first-child
 search.livedoor.com##.searchresult_sponsor
+macsoft.jp##.frame
+macsoft.jp##.simple
 mag2.com###prsite
 mail.ru##.banner
 mainichi.jp###SuperBanner
