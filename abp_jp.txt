@@ -4795,6 +4795,7 @@ rakuten.co.jp##*[id$="EsperHead"]
 rakuten.co.jp##*[id*="sponcer"]
 rakuten.co.jp##*[id*="Sponcer"]
 rakuten.co.jp##*[id^="sttl"]
+reddit.com##.organic-listing
 jp.reuters.com###adArticleText
 jp.reuters.com##.adArticleText
 president.jp.reuters.com##.prad
