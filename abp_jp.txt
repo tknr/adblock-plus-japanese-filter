@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: sP1MT/BK3g0zY3vH7yuAHw
-! Last modified: 2011-12-26 17:39:56 JST
+! Checksum: TcVUFfShxX1Xhcrs4TQ8Ng
+! Last modified: 2011-12-26 23:55:59 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1533,7 +1533,7 @@
 /view.png?
 /views.gif?
 /views.png?
-/vis_opt.
+/vis_opt.$script
 /wanalytics-
 /wanalytics/*
 /webtrack.
@@ -2161,7 +2161,6 @@ INSERT_RANDOM_NUMBER_HERE
 ||clicmanager.fr^$third-party
 ||np7beacon.cloudapp.net^
 ||cloudfront.net^*/storage.$object
-||cloudfront.net/vis_opt.$script
 ||club-ama.com^$third-party
 ||cmcore.com^$third-party
 ||mads.cnet.com^
