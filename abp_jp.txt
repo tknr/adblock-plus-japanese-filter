@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: TcVUFfShxX1Xhcrs4TQ8Ng
-! Last modified: 2011-12-26 23:55:59 JST
+! Checksum: Cp5W/nNUU4f7axkWu6j7QA
+! Last modified: 2011-12-27 02:41:49 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4036,6 +4036,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##.pr_txt
 ##.prbox
 ~apple.com##.promos
+##.promoted
 ##.promoted-videos
 ##.prTxt
 ##.prtxt
