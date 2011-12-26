@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VFIm1EvAnkf3Jx5l8BLGxQ
-! Last modified: 2011-12-26 14:31:26 JST
+! Checksum: r2rRJFRfd1t1CryTfm8zfw
+! Last modified: 2011-12-26 14:44:36 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2872,6 +2872,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||optify.net^$third-party
 ||optimizeadvert.biz^
 ||optimizely.com^$third-party
+||optinproject.com^
 ||optmd.com^$third-party
 ||orange-park.jp^$third-party
 ||osa.pl^
