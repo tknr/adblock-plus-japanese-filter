@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /izq+a46sPJ2PgWdCvYN/Q
-! Last modified: 2011-12-26 14:53:59 JST
+! Checksum: 8Gyw7rOcUZLV7cgx3YNwNA
+! Last modified: 2011-12-26 16:07:41 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -72,6 +72,8 @@
 @@||images.apple.com^*/promo_$domain=apple.com
 ! False positive at bitly.com reported via Issue Report 2011-11-22
 @@||bitly.com^*/css/metrics_
+! False positives with Adelie Penguin abbreviated to Ad, reported via Issue Report Dec 26, 2011
+@@||cloudfront.net^*/animal/obj_animal_*_Ad
 @@||i.i.com.com/cnwk.1d/html/rb/
 @@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
