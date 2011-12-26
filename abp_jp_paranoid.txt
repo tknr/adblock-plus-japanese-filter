@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: XGSPXtOoeTKQzQpobvrHJA
-! Last modified: 2011-12-25 22:00:28 JST
+! Checksum: ETfh3UpK5tz5z7SsfZua4A
+! Last modified: 2011-12-26 14:18:46 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -274,7 +274,7 @@ _tracking_
 ! ---------- Generic filters END -------------------------------------
 
 
-! ##### Each Service START ###########################################
+! ########## Each Service START ###########################################
 
 ! ===== Omniture SiteCatalyst ===== START =====
 /s_code-$script
