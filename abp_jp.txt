@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: w7FC3kC/3Aj5hGZzvDQ3Lw
-! Last modified: 2011-12-27 15:50:32 JST
+! Checksum: LRNFiSPEUTjegn2X8HAINg
+! Last modified: 2011-12-28 17:40:38 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4082,7 +4082,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="/ADCLICK/"]
 ##a[href*="?adid="]
 ##a[href*="&adptg_"]
-##a[href*="-ads-"]
+~blocklistpro.com##a[href*="-ads-"]
 ##a[href*="-ADs-"]
 ##a[href*="-ADS-"]
 ! ~altech-ads.com##a[href*="-ads."]
