@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: n/5NhlDNMmPn4ML2h3PFzw
-! Last modified: 2011-12-28 22:12:47 JST
+! Checksum: iTS2Y9Bnokd8qEoZFJqd3Q
+! Last modified: 2011-12-28 22:41:05 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1326,6 +1326,7 @@
 /piwik.js
 /pixel.$image,domain=~pcgameshardware.de
 /pixel?
+/pixel2.
 /playertracking/*
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
@@ -2517,6 +2518,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||t2.hulu.com^
 ||huluim.com/images/_.$image
 ||hunt4tunes.com^$popup
+||hurra.com^$third-party
 ||hyperion.gawker.com^
 ||hyperpromote.com^
 ||i-mobile.co.jp^$third-party
