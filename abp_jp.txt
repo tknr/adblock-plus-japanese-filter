@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: p+RuQz3wMZbX4nhG592QFg
-! Last modified: 2011-12-29 01:13:31 JST
+! Checksum: DC/dsZuQQzMcBei6szr4Gg
+! Last modified: 2011-12-29 01:43:07 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1345,11 +1345,11 @@
 /popunder2?
 /popunder2_
 /popundr.
-/popup/promotion-
-/popup/promotion.
-/popup/promotion/*
-/popup/promotion?
-/popup/promotion_
+! /popup/promotion-
+! /popup/promotion.
+! /popup/promotion/*
+! /popup/promotion?
+! /popup/promotion_
 /popwin_
 /ppvtrack.
 /pr_img-
