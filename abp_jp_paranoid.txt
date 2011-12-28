@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zt7qo94D3gZI6x8k4c2Bfw
-! Last modified: 2011-12-28 22:05:32 JST
+! Checksum: o/Ktv1pclYdE2FhfMF7mkw
+! Last modified: 2011-12-29 01:55:20 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -76,6 +76,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 -banner/$third-party
 -banner?$third-party
 -banner_$third-party
+-banners-$third-party
+-banners.$third-party
+-banners/$third-party
+-banners?$third-party
+-banners_$third-party
 -log-
 -log.$domain=~twilog.org|~y-log.net
 -log/
@@ -112,6 +117,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .banner/$third-party
 .banner?$third-party
 .banner_$third-party
+.banners-$third-party
+.banners.$third-party
+.banners/$third-party
+.banners?$third-party
+.banners_$third-party
 .log-
 .log.
 .log/
@@ -151,6 +161,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /banner/*$third-party
 /banner?$third-party
 /banner_$third-party
+/banners-$third-party
+/banners.$third-party
+/banners/*$third-party
+/banners?$third-party
+/banners_$third-party
 /log-$domain=~comodo.com
 /log.
 /log/*
@@ -227,6 +242,11 @@ _banner.$third-party
 _banner/$third-party
 _banner?$third-party
 _banner_$third-party
+_banners-$third-party
+_banners.$third-party
+_banners/$third-party
+_banners?$third-party
+_banners_$third-party
 _log-
 _log.
 _log/
