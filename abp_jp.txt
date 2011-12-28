@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: LRNFiSPEUTjegn2X8HAINg
-! Last modified: 2011-12-28 17:40:38 JST
+! Checksum: pAVnMtxQNN58zvFF0fpAaw
+! Last modified: 2011-12-28 20:12:59 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1779,6 +1779,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||2mdn.net^$third-party
 ||2o7.net^$third-party
 ||33across.com^$third-party
+||360yield.com^$third-party
 ||365ip.info^$third-party
 ||37see.com^$third-party
 ||3gl.net^
@@ -2006,6 +2007,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||aseadnet.com^$third-party
 ||assoc-amazon.$third-party
 ||atdmt.com^$third-party
+||atemda.com^
 ||atinternet.com^$third-party
 ||ationnet.co.kr^$third-party
 ||ationnet.com^$third-party
@@ -2240,6 +2242,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||dailymotion.com/track/
 ||sense.dailymotion.com^
 ||dailyvideorewards.com^$popup
+||dapper.net^
 ||data-ero-advertising.com^
 ||datefree.com^$third-party
 ||daum.net^$third-party,subdocument
@@ -3284,6 +3287,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ventivmedia.com^$third-party
 ||veoh.com/webplayed.
 ||veoh.com/?cmd=
+||veoxa.com^$third-party
 ||re.veritrans.co.jp^$third-party
 ||verticalacuity.com^$third-party
 ||veruta.com^$third-party
@@ -3426,6 +3430,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||yfum.com^
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
+||yieldlab.net^
 ||yieldmanager.com^$third-party
 ||yimg.jp/bdv/
 ||yimg.jp/images/*/pr/
