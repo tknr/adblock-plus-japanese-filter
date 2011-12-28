@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: iTS2Y9Bnokd8qEoZFJqd3Q
-! Last modified: 2011-12-28 22:41:05 JST
+! Checksum: Eql+6/UV8pPZmenBh5b7oA
+! Last modified: 2011-12-28 22:45:59 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -263,6 +263,7 @@
 .org/pr_ad/
 .org/pr_ad?
 .org/pr_ad_
+.owa.$script
 .php?zoneid=
 .poptracking?
 .sponsored-
@@ -1310,6 +1311,7 @@
 /overture_
 /overtureAd.
 /OvertureSS.
+/owa.$script
 /p.e-words.jp/type
 /p_code.$script
 /pagead-
