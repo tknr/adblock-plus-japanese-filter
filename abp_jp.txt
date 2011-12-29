@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 431vMJs/SjkTubnCQuGQSg
-! Last modified: 2011-12-29 14:04:01 JST
+! Checksum: 5n8ps5ilLk7/D27Vn7bJ0A
+! Last modified: 2011-12-29 16:29:17 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -17,7 +17,7 @@
 @@.mp4?*&affiliateid=
 ! Added to avoid a never-ending "loading..." gif
 @@/history/external/*$domain=amazon.co.jp|amazon.com
-! False positives with Ameblo skin named colors_ad, Dec 29, 2011
+! False positives with Ameblo skin named "colors_ad", reported via Issue Report, Dec 29, 2011
 @@||ameba.jp/p_skin/colors_ad/
 ! autoblog(AOL) sucks! It requires some trackings to render correctly, reported twice by Issue Report
 @@||aolcdn.com/js/mg2.$domain=autoblog.com
@@ -97,6 +97,8 @@
 @@||mozilla.org^$elemhide
 @@||mozilla.org/affiliates/
 @@||addons.mozilla.org/*/addon/adframe/$xmlhttprequest
+! False positive at live.nicovideo.jp reported via Issue Report, Dec 29, 2011
+@@||api.nicodic.jp/page.exist/__nicopedia_api_*_AD_*%AD%
 @@||uad.nicovideo.jp/assets/$domain=uad.nicovideo.jp
 @@||uad.nicovideo.jp^$elemhide
 @@||researchmap.jp^*/counter/$stylesheet
