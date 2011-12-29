@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: TFwNfDBmmI6MusO02wgyJA
-! Last modified: 2011-12-29 17:02:58 JST
+! Checksum: 4I9Dkcx+e8ngY6Tgz22Jzg
+! Last modified: 2011-12-29 17:14:32 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -511,6 +511,7 @@
 /adcontrol/*
 /adcontrol?
 /adcontrol_
+/adcount.
 /adframe-
 /adframe.
 /adframe/*
