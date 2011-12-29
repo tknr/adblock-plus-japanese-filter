@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: rLPe9SlTBZ2MhAKmbHK0Eg
-! Last modified: 2011-12-30 01:04:36 JST
+! Checksum: YWylxqRaePIyYTtSytkp4w
+! Last modified: 2011-12-30 01:36:51 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2349,6 +2349,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ero-tube.jp^$third-party
 ||esdizi.com^
 ||esecure-transaction.com^
+||estara.com^
 ||etology.com^$third-party
 ||etoyota.net/include/js/measurementBeacon.$script
 ||etoyota.net/measurement/
