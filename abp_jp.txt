@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: eyYDnY33rvzFDLAxxHAKFw
-! Last modified: 2011-12-29 13:26:11 JST
+! Checksum: 54OqtmI5crEjqNTmjOGlgA
+! Last modified: 2011-12-29 13:28:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -67,9 +67,6 @@
 @@/combo?$script,stylesheet
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
 @@/promotion/*$domain=shopping.yahoo.co.jp
-! Avoid false positives with SLD named ".ad.", Dec 28, 2011
-@@|http:*.ad.$domain=ad.jp
-@@|https:*.ad.$domain=ad.jp
 @@||adblockplus.org^$elemhide
 @@||advertban.com^$elemhide
 @@||images.apple.com^*/promo_$domain=apple.com
