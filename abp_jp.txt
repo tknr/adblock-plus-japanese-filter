@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ACnsT222kXsL8hd51iU26g
-! Last modified: 2011-12-30 00:58:49 JST
+! Checksum: rLPe9SlTBZ2MhAKmbHK0Eg
+! Last modified: 2011-12-30 01:04:36 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2700,6 +2700,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||livedoor.jp/js/google_plugin.
 ||blog.livedoor.jp/*/settings/header.$script
 ||livejasmin.com^$popup
+||liwiosarl.appspot.com^
 ||lphbs.com^
 ||liverail.com^$third-party
 ||liveundnackt.com^$third-party
