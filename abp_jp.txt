@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 54Do01XpZLbnkOe+rjJjRg
-! Last modified: 2011-12-29 02:25:32 JST
+! Checksum: eyYDnY33rvzFDLAxxHAKFw
+! Last modified: 2011-12-29 13:26:11 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -204,8 +204,9 @@
 -utm.$script
 |http:*.ad-
 |https:*.ad-
-|http:*.ad.
-|https:*.ad.
+! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
+! |http:*.ad.
+! |https:*.ad.
 |http:*.ad/
 |https:*.ad/
 |http:*.ad?
