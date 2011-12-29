@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 5n8ps5ilLk7/D27Vn7bJ0A
-! Last modified: 2011-12-29 16:29:17 JST
+! Checksum: TFwNfDBmmI6MusO02wgyJA
+! Last modified: 2011-12-29 17:02:58 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4399,7 +4399,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id$="_ADS"]:not(body):not(input)
 ! ##*[id$="_pr"]:not(body):not(input)
 ! ##*[id$="_PR"]:not(body):not(input)
-~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-wallpaper)
+~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
 ##*[class^="AD-"]:not(body):not(input)
 ~collegehumor.com##*[class^="ad_"]:not(body):not(input)
 ##*:not(body):not(input):not(table)[class^="AD_"]:not(body):not(input)
