@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: H7oinJERWDIUwwyno4HEAQ
-! Last modified: 2011-12-30 13:55:13 JST
+! Checksum: EPnFKmnF9Kx9NSTGz67rxQ
+! Last modified: 2011-12-30 14:02:09 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2250,6 +2250,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||actracer.daiwahouse.co.jp^
 ||d03x2011.com^
 ||daccroi.com^
+||dafferes.com^
 ||dailymotion.com*/masscast/
 ||dailymotion.com/behavior/
 ||dailymotion.com/history/
@@ -2571,6 +2572,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ngs.impress.co.jp^
 ||ad.watch.impress.co.jp^
 ||ad.impressbm.co.jp^
+||impromot.com^
 ||imrworldwide.com^$third-party
 ||in-text.jp^
 ||industrybrains.com^$third-party
@@ -2662,6 +2664,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||ku6cdn.com/pv/
 ||kuaiche.com^
 ||kyoto-np.co.jp/koukoku/
+||lachest.com^
 ||ladmp.com^
 ||land.to/ad/
 ||ad.land.to^
@@ -2713,6 +2716,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||loka.jp^$third-party
 ||lolipop.jp/ralite/
 ||ad.lolipop.jp^
+||loneday.com^
 ||loveplanet.ru^$third-party
 ||lucastadvertising.com^
 ||luocbao.com/adv/
