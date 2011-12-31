@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: b16SP+pi3r/kekLxLqTFhA
-! Last modified: 2011-12-31 15:27:01 JST
+! Checksum: r8i5Jl6nzdOlEJ7wUUaAQw
+! Last modified: 2011-12-31 15:44:18 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1044,6 +1044,7 @@
 /googleadsense/*
 /googleadsense?
 /googleadsense_
+/grack.$script
 /header_bnr_
 /hist_count.$~image
 /hserver/*
@@ -2450,6 +2451,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||gambling-france.com^$third-party
 ||game-advertising-online.com^$third-party
 ||game8.vn^$third-party
+||gameforge.de^$third-party
 ||garss.jp^$third-party
 ||garss.tv^$third-party
 ||gaug.es^$third-party
