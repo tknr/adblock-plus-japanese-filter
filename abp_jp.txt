@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: FqnnXYsIh+LzW7xwAoanfQ
-! Last modified: 2012-01-03 13:05:34 JST
+! Checksum: dqu9/NsUT7efwXxmcxeSUA
+! Last modified: 2012-01-03 13:15:13 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3418,6 +3418,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
 ||xcams.com^$third-party
+||xdwan.com^$third-party
 ||xg4ken.com^
 ||xgraph.com^$third-party
 ||xhamster.com/js/mediagra.$script
