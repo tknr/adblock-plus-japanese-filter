@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: K6QGYXfRP3ys9qu73EN1mw
-! Last modified: 2012-01-03 12:34:14 JST
+! Checksum: QnGGfF9kdq5ssbhhwMIO8w
+! Last modified: 2012-01-03 12:45:31 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2013,6 +2013,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||aolcdn.com/js/mg2.$script
 ||aolcdn.com/omniunih.$script
 ||aolcdn.com/omniunih_$script
+||aondenamoro.com^
 ||metrics.apple.com^
 ||securemetrics.apple.com^
 ||apple.com/metrics/
