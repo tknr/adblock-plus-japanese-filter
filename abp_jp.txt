@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: eHse5HKWOy7hjJaCpZY+sQ
-! Last modified: 2012-01-02 15:40:29 JST
+! Checksum: K6QGYXfRP3ys9qu73EN1mw
+! Last modified: 2012-01-03 12:34:14 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -55,6 +55,8 @@
 ! False positive at xbox-news.com . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=79 are blocked. 2011-09-23
 @@||xbox-news.com/data/js/adbg.$script
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=79&
+! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Apr 3, 2011
+@@||wikimedia.org/wikipedia/commons/*Wikipedia-logo*$image
 ! Can NOT open other folders in Yahoo Mail(no response...loading...white screen...) This bug occurs when blocking the following request: http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js
 @@||yimg.jp/bdv/yahoo/javascript/csc/*/lib2obf_b*.js
 ! Gyao Movie player does NOT start automatically
