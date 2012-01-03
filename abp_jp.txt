@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: QnGGfF9kdq5ssbhhwMIO8w
-! Last modified: 2012-01-03 12:45:31 JST
+! Checksum: B4gAf3C+uT+gLC4Ntnn8oQ
+! Last modified: 2012-01-03 12:50:06 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1732,7 +1732,7 @@ _sponsored_
 ! _stat_
 INSERT_RANDOM_NUMBER_HERE
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|emule-island.ru|filesonic.jp|freakshare.com|freshremix.ru|imagecarry.com|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net
+|http:$popup,image,~image,domain=bitshare.com|emule-island.ru|filesonic.jp|freakshare.com|freshremix.ru|imagecarry.com|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2527,6 +2527,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||hit-sales.ru^$third-party
 ||hitomedia.jp/GT/
 ||hitslink.com^$third-party
+||hlwan.net^$popup
 ||hoerbuch.in^
 ||hongfire.com/banner/
 ||hotmatch.com^$third-party
