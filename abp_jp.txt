@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: NxU5P8YTTZlE4p5z0VyMBg
-! Last modified: 2012-01-04 12:44:44 JST
+! Checksum: cxt9DcHmm/VQBQlEFa5IDw
+! Last modified: 2012-01-04 13:15:54 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4190,6 +4190,7 @@ INSERT_RANDOM_NUMBER_HERE
 ##a[href*="&affiliate="]
 ! Commented out too generic element hiding filter: 2011-06-02
 ! ##a[href*="affiliate"]
+##a[href*="afi_link"]
 ##a[href*="?afrno="]
 ##a[href*="/aftype-"]
 ##a[href*="/bannerclick/"]
