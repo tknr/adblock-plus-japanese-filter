@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VOiVsLo8Jruahqdi5racKw
-! Last modified: 2012-01-05 12:56:12 JST
+! Checksum: //aPuVhLO64w3JZzrUEwjg
+! Last modified: 2012-01-05 13:43:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -26,6 +26,9 @@
 @@||doubleclick.net/adj/imdb2.
 ! Workaround to fix layout collapse 2011-10-17
 @@||fc2.com^*/kanasoku/advertisement.js
+! False positive at gamers-review.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=77 are blocked. 2012-01-05
+@@||gamers-review.net/data/js/adbg.$script
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
