@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Exs7LCkZXH0xWvDYPTSaAw
-! Last modified: 2012-01-06 12:53:07 JST
+! Checksum: VS+T1UGMKG0l5qfCX/Nh3A
+! Last modified: 2012-01-06 12:59:06 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4382,6 +4382,10 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
 ##*[id^="ADs_"]:not(body):not(input)
 ##*[id^="ADS_"]:not(body):not(input)
+##*[id^="adv-"]:not(body):not(input)
+##*[id^="ADV-"]:not(body):not(input)
+##*[id^="adv_"]:not(body):not(input)
+##*[id^="ADV_"]:not(body):not(input)
 ##*[id^="deqwas"]:not(body):not(input)
 ##*[id^="deteql"]:not(body):not(input)
 ##*[id^="gAdsense"]:not(body):not(input)
@@ -4450,6 +4454,10 @@ INSERT_RANDOM_NUMBER_HERE
 ##*[class^="ads_"]:not(body):not(input)
 ##*[class^="ADs_"]:not(body):not(input)
 ##*[class^="ADS_"]:not(body):not(input)
+##*[class^="adv-"]:not(body):not(input)
+##*[class^="ADV-"]:not(body):not(input)
+##*[class^="adv_"]:not(body):not(input)
+##*[class^="ADV_"]:not(body):not(input)
 ##*[class^="deqwas"]:not(body):not(input)
 ##*[class^="deteql"]:not(body):not(input)
 ##*[class^="google-ads"]:not(body):not(input)
