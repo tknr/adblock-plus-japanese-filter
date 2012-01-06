@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 5HC8ZMNzhtAEvnb0B6a7Ew
-! Last modified: 2012-01-06 13:59:40 JST
+! Checksum: f+DktMHxYYqnWL3eNrcCBg
+! Last modified: 2012-01-06 14:12:46 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3111,6 +3111,8 @@ INSERT_RANDOM_NUMBER_HERE
 ||seesaa.jp/match/
 ||match.seesaa.jp^
 ||sensic.net^$third-party
+||sensis.com.au^$third-party
+||sensismediasmart.com.au^$third-party
 ||seoparts.com^
 ||seoparts.net^$third-party
 ||serving-sys.com^$third-party
