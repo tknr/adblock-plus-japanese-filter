@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VS+T1UGMKG0l5qfCX/Nh3A
-! Last modified: 2012-01-06 12:59:06 JST
+! Checksum: u2CBskQjOtq4ao3A6v/xcA
+! Last modified: 2012-01-06 13:09:40 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -26,6 +26,8 @@
 @@||doubleclick.net/adj/imdb2.
 ! Workaround to fix layout collapse 2011-10-17
 @@||fc2.com^*/kanasoku/advertisement.js
+! False positive with stylesheets which probably broke layouts, reported via Issue Report, Jan 6, 2012
+@@||goal.com^*-ad-*.$stylesheet
 ! False positive at gamers-review.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=77 are blocked. 2012-01-05
 @@||gamers-review.net/data/js/adbg.$script
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
@@ -58,7 +60,7 @@
 ! False positive at xbox-news.com . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=79 are blocked. 2011-09-23
 @@||xbox-news.com/data/js/adbg.$script
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=79&
-! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Jan 3, 2011
+! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Jan 3, 2012
 @@||wikimedia.org/wikipedia/commons/*Wikipedia-logo*$image
 ! Can NOT open other folders in Yahoo Mail(no response...loading...white screen...) This bug occurs when blocking the following request: http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js
 @@||yimg.jp/bdv/yahoo/javascript/csc/*/lib2obf_b*.js
