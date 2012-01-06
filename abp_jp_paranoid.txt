@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: UHUCsVqQRTUP9qL01WCryw
-! Last modified: 2011-12-31 15:12:16 JST
+! Checksum: jWeMnfsamo7fcczB/AzOUQ
+! Last modified: 2012-01-06 13:52:11 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -16,6 +16,8 @@
 ! anime.biglobe.ne.jp uses "log" as history, which produce plenty of false positives 2011-09-22
 @@||anime.biglobe.ne.jp^*log.$object
 @@||anime.biglobe.ne.jp^*log_$image
+! False positives with images, reported via Issue Report, Jan 6, 2012
+@@||goal.com/files/images/stats/goal/$image
 ! False positives with Gadgets at iGoogle with _track_ filter. Moved from domain exception 2011-12-07
 @@||www.google.*/igoogle-module?*&exp_track_js=
 @@||ig.gmodules.com/gadgets/*&exp_track_js=$domain=www.google.co.jp|www.google.com
