@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: f+DktMHxYYqnWL3eNrcCBg
-! Last modified: 2012-01-06 14:12:46 JST
+! Checksum: 7/n+OFkCViSbv9xTqo1ggA
+! Last modified: 2012-01-06 14:51:12 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3423,10 +3423,8 @@ INSERT_RANDOM_NUMBER_HERE
 ! Commented out slow filters 2011-11-08
 ! ||ws.md^$third-party
 ||ad.wsod.com^
-||wt-rotator.biz^
-||wt-rotator.com^
-||wt-rotator.net^
-||wts-rotator.com^
+||wt-rotator.
+||wts-rotator.
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
