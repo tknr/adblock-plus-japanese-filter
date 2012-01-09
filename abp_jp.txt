@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: hzDqyRxg+jO8dZr1r4F0gQ
-! Last modified: 2012-01-06 15:12:00 JST
+! Checksum: VanUlT0WUNlbI5UI/I1Rhg
+! Last modified: 2012-01-09 12:41:19 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1739,7 +1739,7 @@ _sponsored_
 ! _stat_
 INSERT_RANDOM_NUMBER_HERE
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|emule-island.ru|filesonic.jp|freakshare.com|freshremix.ru|imagecarry.com|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.jp|freakshare.com|freshremix.ru|imagecarry.com|imgchili.com|isohunt.com|megaupload.com|megavideo.com|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2580,6 +2580,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||iida.jp^*blogparts/
 ||iivt.com^
 ||ilivid.com^$popup
+||iloveyouxi.com^$popup
 ||imagedunk.com/hiokax_
 ||imageporter.com^$third-party
 ||images4us.com^
