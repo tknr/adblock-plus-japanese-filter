@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: rpOpoj+Cb4NH2kZGctp41A
-! Last modified: 2012-01-09 13:57:49 JST
+! Checksum: vmqOvcRJqHg4i3gsLlhiNg
+! Last modified: 2012-01-09 17:16:32 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -200,6 +200,16 @@
 -metrics/
 -metrics_
 -PopUnder|
+-retarget-
+-retarget.
+-retarget/
+-retarget?
+-retarget_
+-retargeting-
+-retargeting.
+-retargeting/
+-retargeting?
+-retargeting_
 -sponsored-
 -sponsored.
 -sponsored/
@@ -277,6 +287,16 @@
 .owa.$script
 .php?zoneid=
 .poptracking?
+.retarget-
+.retarget.
+.retarget/*
+.retarget?
+.retarget_
+.retargeting-
+.retargeting.
+.retargeting/
+.retargeting?
+.retargeting_
 .sponsored-
 .sponsored.
 .sponsored/
@@ -1415,6 +1435,16 @@
 /res/js/ad/*
 /res/js/ad?
 /res/js/ad_
+/retarget-
+/retarget.
+/retarget/*
+/retarget?
+/retarget_
+/retargeting-
+/retargeting.
+/retargeting/*
+/retargeting?
+/retargeting_
 /right-ad-
 /right-ad.
 /right-ad/*
@@ -1627,6 +1657,14 @@
 ?metric=
 ?promo_type=
 ?referer=$image,script
+?retarget-
+?retarget.
+?retarget/
+?retarget_
+?retargeting-
+?retargeting.
+?retargeting/
+?retargeting_
 ?trackid=$third-party
 ?view=ad&
 |http:*_ad-
@@ -1702,6 +1740,16 @@ _overture/
 _overture?
 _overture_
 _request_ad.
+_retarget-
+_retarget.
+_retarget/
+_retarget?
+_retarget_
+_retargeting-
+_retargeting.
+_retargeting/
+_retargeting?
+_retargeting_
 _showad-
 _showad.
 _showad/
