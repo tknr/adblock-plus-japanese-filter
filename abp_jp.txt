@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: v1MVTIdHEVYOklERTyYzKA
-! Last modified: 2012-01-09 13:13:09 JST
+! Checksum: +zjVSuJ8y3a2ktEeynzBcg
+! Last modified: 2012-01-09 13:30:46 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1890,6 +1890,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||adjustnetwork.com^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
+||admagnet.net^$third-party
 ||admaxasia.com^
 ||admeld.com^$third-party
 ||admitad.com^$third-party
@@ -2011,6 +2012,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||vc.ameba.jp^
 ||ameblo.jp/accesslog/
 ||amiami.jp^$third-party
+||amimg.net^
 ||amung.us/pingjs/
 ||widgets.amung.us/pro.$script
 ||anchorfree.net^$third-party
