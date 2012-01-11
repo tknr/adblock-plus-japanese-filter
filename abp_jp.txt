@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /hLB/Rxhaisj6F9GdQ6hRw
-! Last modified: 2012-01-11 16:14:13 JST
+! Checksum: /CiC0phssjEHKXVtdrmmyw
+! Last modified: 2012-01-11 16:29:15 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1891,6 +1891,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||a8.net^$third-party
 ||a9.com^$third-party
 ||about.co.kr^$third-party
+||acces-charme.com^$third-party
 ||accessport.jp^$third-party
 ||accesstrade.net^$third-party
 ||acnt.biz^$third-party
