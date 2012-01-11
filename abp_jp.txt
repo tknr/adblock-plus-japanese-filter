@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: OwvJGjEpFa8oLnQ3tydr/w
-! Last modified: 2012-01-11 15:43:02 JST
+! Checksum: /hLB/Rxhaisj6F9GdQ6hRw
+! Last modified: 2012-01-11 16:14:13 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -17,6 +17,8 @@
 @@.mp4?*&affiliateid=
 ! Added to avoid a never-ending "loading..." gif
 @@/history/external/*$domain=amazon.co.jp|amazon.com
+! False positives with theme css by adaptivethemes.com, Jun 11, 2012
+@@_Ad/css/theme/
 ! False positives with Ameblo skin named "colors_ad", reported via Issue Report, Dec 29, 2011
 @@||ameba.jp/p_skin/colors_ad/
 ! autoblog(AOL) sucks! It requires some trackings to render correctly, reported twice by Issue Report
