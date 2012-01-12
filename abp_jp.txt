@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: FBvRalIHYSUuE/1lj8/QzA
-! Last modified: 2012-01-12 14:34:38 JST
+! Checksum: z52wwmKPBLe2o0IWfalZ9A
+! Last modified: 2012-01-12 14:52:52 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -108,9 +108,9 @@
 @@||mozilla.org^$elemhide
 @@||mozilla.org/affiliates/
 @@||addons.mozilla.org/*/addon/adframe/$xmlhttprequest
-! False positive with icons of NICO2-DAIHYAKKA at live.nicovideo.jp reported via Issue Report, Jan 11, 2012 and Dec 29, 2011
-@@||api.nicodic.jp/page.exist/__nicopedia_api_*_AD/*%AD|
-@@||api.nicodic.jp/page.exist/__nicopedia_api_*_AD_*%AD%
+! False positive with icons of NICO2-DAIHYAKKA at live.nicovideo.jp reported via Issue Report, Jan 12, 2012, Jan 11, 2012 and Dec 29, 2011
+@@||api.nicodic.jp^*__nicopedia_api_*_AD/*%AD|
+@@||api.nicodic.jp^*__nicopedia_api_*_AD_*%AD%
 @@||uad.nicovideo.jp/assets/$domain=uad.nicovideo.jp
 @@||uad.nicovideo.jp^$elemhide
 @@||researchmap.jp^*/counter/$stylesheet
