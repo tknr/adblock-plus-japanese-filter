@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: sHNtWBn2lq+3zLYL1iqtqA
-! Last modified: 2012-01-14 13:57:06 JST
+! Checksum: fd5fGH8XhfJg/BL7sTS5ag
+! Last modified: 2012-01-15 14:12:52 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2848,6 +2848,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||media-clic.com^$third-party
 ||media-code.info^$third-party
 ||media-rendering2.com^
+||media-rendering3.com^
 ||media-servers.net^
 ||media6degrees.com^$third-party
 ||mediadakine.com^
@@ -3335,6 +3336,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||thatsping.com^$third-party
 ||thatsping.jp^
 ||the-adult-company.com^$third-party,popup
+||theadultcompany.biz^
 ||thefilter.com^$third-party
 ||theloungenet.com^$third-party
 ||tidaltv.com^$third-party
@@ -3484,6 +3486,7 @@ INSERT_RANDOM_NUMBER_HERE
 ||webtrendslive.com^$third-party
 ||adult-monster.webwindow.jp^$third-party
 ||wec.co.kr^$third-party
+||wekiss.com^$third-party
 ||whaleads.com^
 ||whoson.com^$third-party
 ||widgeo.net^$third-party
