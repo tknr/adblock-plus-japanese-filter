@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: mKDWgBRGEkkjVntQ/9dQgg
-! Last modified: 2012-01-17 23:08:51 JST
+! Checksum: aH1CqJA9v6cOrXukzgr4XQ
+! Last modified: 2012-01-17 23:20:00 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -65,7 +65,7 @@
 ! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Jan 3, 2012
 @@||wikimedia.org/wikipedia/commons/*Wikipedia-logo*$image
 ! Can NOT open other folders(no response...loading...white screen...) at Yahoo Mail if http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js beacon generator is blocked.
-@@||yimg.jp/bdv/yahoo/javascript/csc/*/lib2obf_b*.js
+@@||ai.yimg.jp/bdv/yahoo/javascript/csc/$domain=mail.yahoo.co.jp
 ! Some elements in the main column like unread mails are missing at Yahoo Mail BETA if http://ai.yimg.jp/bdv/yahoo/darla/2-2-4_3/js/darla-dynamic-beacons-min.js beacon generator is blocked.
 @@||ai.yimg.jp/bdv/yahoo/darla/$domain=mail.yahoo.co.jp
 ! Gyao Movie player does NOT start automatically if http://ai.yimg.jp/bdv/yahoo/javascript/gyao/clover.js is blocked.
