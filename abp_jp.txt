@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 1X7JSc2Eq0+iEtQ+AWW1jA
-! Last modified: 2012-01-18 01:00:10 JST
+! Checksum: PlglM67HLQh0VlWD8fnScA
+! Last modified: 2012-01-18 01:25:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2252,12 +2252,13 @@ _sponsored_
 ||camdefolie.com^$popup
 ||campeut.com^
 ||captainad.com^$third-party
+||caribbeancom.com^$third-party
 ||caribbeancomgirl.com^$third-party
 ||carview.co.jp/*_super_banner.
 ||cwps.carview.co.jp^
 ||casalemedia.com^$third-party
 ||cashtrafic.com^$third-party
-||caribbeancom.com^$third-party
+||casino.com^$popup
 ||cbox.ws^$third-party
 ||file.cbs.co.kr^
 ||nad.cbs.co.kr^
