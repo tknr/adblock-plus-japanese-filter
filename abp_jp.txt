@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +X6TWGyGyk44YxwaQiR50g
-! Last modified: 2012-01-18 00:40:33 JST
+! Checksum: 1X7JSc2Eq0+iEtQ+AWW1jA
+! Last modified: 2012-01-18 01:00:10 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3419,6 +3419,7 @@ _sponsored_
 ||scribe.twitter.com^
 ||twitteranalyzer.com/FBSiteClient/
 ||twitteranalyzer.com/Images/VideochatsBanner/
+||tx2.ru^$third-party
 ||tynt.com^$third-party
 ||ucoz.ae^$third-party
 ||ucoz.com^$third-party
@@ -3433,6 +3434,7 @@ _sponsored_
 ||undertone.com^$third-party
 ||ubcpm.com^
 ||ultrapay.net^$third-party
+||underclick.ru^
 ||unica.com^$third-party
 ||union178.com^
 ||unioncpm.com^$third-party
