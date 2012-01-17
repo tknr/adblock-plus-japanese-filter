@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: PPiy+CmLEoqKH8cEgrCpEg
-! Last modified: 2012-01-15 13:55:46 JST
+! Checksum: F1Zkoq9cYFPLfI1DLy6udg
+! Last modified: 2012-01-17 23:32:10 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
