@@ -455,6 +455,7 @@ www.yahoo.co.jp###local
 ||iadvize.com^$third-party
 ||livechatinc.net^
 ||liveperson.net^$third-party
+||marva.ru^$third-party
 ||olark.com^$third-party
 ||providesupport.com^$third-party
 ||rakuchat.jp^$third-party
