@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: XImju2qGymPJIZVgJMFAsw
-! Last modified: 2012-01-17 20:50:39 JST
+! Checksum: vEdrlP8h6uFEoIIikiS86w
+! Last modified: 2012-01-17 20:55:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -129,11 +129,20 @@
 !
 !
 ! ########## URL Fragments START #####################################
-! &ad_id= is modified to be a faster filter 2011-10-27
-&ad_id=CRN_
-&ad_size=
-&ad_type=
-&ad_url=
+|http:*&ad-
+|https:*&ad-
+|http:*&ad.
+|https:*&ad.
+|http:*&ad/
+|https:*&ad/
+|http:*&ad?
+|https:*&ad?
+|http:*&ad_
+|https:*&ad_
+! &ad_id=CRN_
+! &ad_size=
+! &ad_type=
+! &ad_url=
 &admeld_
 &adpds_
 &AdPlan=
