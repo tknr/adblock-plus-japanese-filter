@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Ub8KjK79ddOvGMwLHZkQrw
-! Last modified: 2012-01-18 19:40:40 JST
+! Checksum: 8tj455/T2T1TUbr8LNsrLw
+! Last modified: 2012-01-18 20:15:45 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2296,6 +2296,7 @@ _sponsored_
 ||clickdensity.com^$third-party
 ||clickequations.net^$third-party
 ||clickotmedia.com^$third-party
+||clickozavr.com^$third-party
 ||clickreport.com^$third-party
 ||clicksor.com^$third-party
 ||clicktale.net^$third-party
@@ -3474,6 +3475,7 @@ _sponsored_
 ||vector.co.jp/advertise/
 ||vector.co.jp/vpack/*banner
 ||velmedia.net^
+||vemba.com^$third-party
 ||ventivmedia.com^$third-party
 ||veoh.com/webplayed.
 ||veoh.com/?cmd=
@@ -3527,6 +3529,7 @@ _sponsored_
 ||weborama.fr^$third-party
 ||webrotator.net^
 ||webstats4u.com^
+||webteaser.ru^$third-party
 ||webtracker.jp^$third-party
 ||webtrends.com^$third-party
 ||webtrendslive.com^$third-party
