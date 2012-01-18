@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: HqlKFh9yZvFtIv5Oh3O55w
-! Last modified: 2012-01-18 02:22:01 JST
+! Checksum: abGsHDmMTbvUuAX1QdKITQ
+! Last modified: 2012-01-18 14:34:02 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1391,7 +1391,6 @@
 /payclick?
 /payclick_
 /piwik.js
-/pixel.$image,domain=~pcgameshardware.de
 /pixel?
 /pixel2.
 /playertracking/*
