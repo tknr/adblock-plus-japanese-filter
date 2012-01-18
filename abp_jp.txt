@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: sWuuVkytga3yE+U/Ev1EEQ
-! Last modified: 2012-01-18 16:53:29 JST
+! Checksum: Ub8KjK79ddOvGMwLHZkQrw
+! Last modified: 2012-01-18 19:40:40 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3503,7 +3503,7 @@ _sponsored_
 ||visitorpath.com^$third-party
 ||visualwebsiteoptimizer.com^$third-party
 ||vitalads.net^$third-party
-||vk.com^$third-party
+||vk.com^$domain=~vkontakte.ru
 ||vkontakte.ru^$third-party
 ||vs.com^$third-party
 ||vsp-online.com^
