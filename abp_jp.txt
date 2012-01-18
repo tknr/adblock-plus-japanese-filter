@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: uuoDP3YLH/LDxeNFze5BPA
-! Last modified: 2012-01-18 20:39:51 JST
+! Checksum: BTL0apkhU2D+RkfL4w1ETA
+! Last modified: 2012-01-18 20:46:21 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1237,6 +1237,11 @@
 ! merged into .php?zoneid=
 ! /iml.php?zoneid=
 /inc_ad_
+/informer-$third-party
+/informer.$third-party
+/informer/*$third-party
+/informer?$third-party
+/informer_$third-party
 /intellitxt-
 /intellitxt.
 /intellitxt/*
