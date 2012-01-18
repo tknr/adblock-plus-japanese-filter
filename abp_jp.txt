@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: BTL0apkhU2D+RkfL4w1ETA
-! Last modified: 2012-01-18 20:46:21 JST
+! Checksum: WlaPgb3cAk2WiuA/VNJexQ
+! Last modified: 2012-01-18 20:52:30 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1061,6 +1061,11 @@
 /getAdverts/*
 /getAdverts?
 /getAdverts_
+/getMyAd-
+/getMyAd.
+/getMyAd/*
+/getMyAd?
+/getMyAd_
 /getsatisfaction.com^$third-party
 /getSponsor-
 /getSponsor.
