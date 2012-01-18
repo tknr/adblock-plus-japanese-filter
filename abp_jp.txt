@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: IR5v8ml71CU5nrxjb7+SLQ
-! Last modified: 2012-01-18 20:23:44 JST
+! Checksum: uuoDP3YLH/LDxeNFze5BPA
+! Last modified: 2012-01-18 20:39:51 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3306,6 +3306,7 @@ _sponsored_
 ||skimresources.com^$third-party
 ||slidesharecdn.com^*/proCtaBox.
 ||smartadserver.com^$third-party
+||smartbn.ru^$third-party
 ||smowtion.com^$third-party
 ||smrtlnks.com^$third-party
 ||smspartnerprogramm.com^$third-party
