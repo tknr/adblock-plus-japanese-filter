@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: AJzWvuenHqZSAwt56C/sSQ
-! Last modified: 2012-01-18 16:20:23 JST
+! Checksum: JE31pQTzdVCYX5DYC3h7lQ
+! Last modified: 2012-01-18 16:44:30 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3331,6 +3331,7 @@ _sponsored_
 ||red.st-hatena.com^
 ||st00.net^
 ||star-advertising.com^
+||stat24.com^$third-party
 ||statcounter.com^$third-party
 ||static-db.com^
 ||static2img.com^
