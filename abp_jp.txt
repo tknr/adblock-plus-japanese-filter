@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 3QAyZI8wC7cYkwoi6If8iw
-! Last modified: 2012-01-19 20:27:06 JST
+! Checksum: r8q6FCLjWd5lgoxTPE31zw
+! Last modified: 2012-01-19 21:15:48 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -273,39 +273,14 @@
 .beacons/
 .beacons?
 .beacons_
-.biz/pr_ad-
-.biz/pr_ad.
-.biz/pr_ad/
-.biz/pr_ad?
-.biz/pr_ad_
 .ca.html|
-.com/pr_ad-
-.com/pr_ad.
-.com/pr_ad/
-.com/pr_ad?
-.com/pr_ad_
 .impact-ad.jp/rc/
-.info/ad-
-.info/ad.
-.info/ad/
-.info/ad?
-.info/ad_
 .kissinsights.com/
 .metrics-
 .metrics.
 .metrics/
 .metrics?
 .metrics_
-.net/pr_ad-
-.net/pr_ad.
-.net/pr_ad/
-.net/pr_ad?
-.net/pr_ad_
-.org/pr_ad-
-.org/pr_ad.
-.org/pr_ad/
-.org/pr_ad?
-.org/pr_ad_
 .owa.$script
 .php?zoneid=
 .poptracking?
@@ -356,7 +331,6 @@
 ! /ad.asp|
 ! /ad.aspx?
 ! /ad.aspx|
-! Commented out slow filters 2011-11-08
 ! /ad.js
 ! /ad.php?id=
 |http:*/ad/
@@ -868,8 +842,8 @@
 /appads?
 /appads_
 /AS3AdPlayer.
-! Commented out slow filters 2011-11-08
-! /at.js.$script
+|http:*/at.js.$script
+|https:*/at.js.$script
 /atrk.$third-party
 /AutoTracker.$script
 ! merged into .php?zoneid=
@@ -912,11 +886,11 @@
 /byads/*
 /camp_banner/bnr_
 /campaign?cid=
-/cgi-bin/ad-
-/cgi-bin/ad.
-/cgi-bin/ad/*
-/cgi-bin/ad?
-/cgi-bin/ad_
+! /cgi-bin/ad-
+! /cgi-bin/ad.
+! /cgi-bin/ad/*
+! /cgi-bin/ad?
+! /cgi-bin/ad_
 /cgi-bin/webtrend/*
 /chartbeat-
 /chartbeat.
@@ -1009,8 +983,8 @@
 /eum/rum-$script
 /event.ems/*
 /event_call.htm?
-! Commented out slow filters 2011-11-08
-! /ea.js
+|http:*/ea.js
+|https:*/ea.js
 /exitPopup.$script
 /external/*$domain=amazon.co.jp|amazon.com
 /fc.php?script=
@@ -1118,11 +1092,11 @@
 /iframeAd_
 /image.ng/*
 /image/1x1$third-party
-/image/ad-
-/image/ad.
-/image/ad/*
-/image/ad?
-/image/ad_
+! /image/ad-
+! /image/ad.
+! /image/ad/*
+! /image/ad?
+! /image/ad_
 /image/ad120.$image
 /image/ad125.$image
 /image/ad160.$image
@@ -1146,11 +1120,11 @@
 /image/banner?$third-party
 /image/banner_$third-party
 /images/1x1$third-party
-/images/ad-
-/images/ad.
-/images/ad/*
-/images/ad?
-/images/ad_
+! /images/ad-
+! /images/ad.
+! /images/ad/*
+! /images/ad?
+! /images/ad_
 /images/ad120.$image
 /images/ad125.$image
 /images/ad160.$image
@@ -1181,11 +1155,11 @@
 /images/lansweeper.$image
 /images/SE2Banner.$image
 /img/1x1$third-party
-/img/ad-
-/img/ad.
-/img/ad/*
-/img/ad?
-/img/ad_
+! /img/ad-
+! /img/ad.
+! /img/ad/*
+! /img/ad?
+! /img/ad_
 /img/ad120.$image
 /img/ad125.$image
 /img/ad160.$image
@@ -1213,11 +1187,11 @@
 /img/pr_.$domain=diamond.jp
 /img/watch/tag_sync/*
 /imgs/1x1$third-party
-/imgs/ad-
-/imgs/ad.
-/imgs/ad/*
-/imgs/ad?
-/imgs/ad_
+! /imgs/ad-
+! /imgs/ad.
+! /imgs/ad/*
+! /imgs/ad?
+! /imgs/ad_
 /imgs/ad120.$image
 /imgs/ad125.$image
 /imgs/ad160.$image
@@ -1254,17 +1228,16 @@
 /intellitxt?
 /intellitxt_
 /introMessageRedirect.
-! Commented out slow filters 2011-11-08
-! /is_sc_$script
+|http:*/is_sc_$script
+|https:*/is_sc_$script
 /ivw/CP/*
 /jlisting-
 /jlisting.
 /jlisting/*
 /jlisting?
 /jlisting_
-! Commented out slow filters 2011-11-08
-! /js.ng/*
-! Commented out slow filters like /js/ad 2011-11-08
+|http:*/js.ng/
+|https:*/js.ng/
 ! /js/ad-
 ! /js/ad.
 ! /js/ad/*
@@ -1276,8 +1249,8 @@
 /js/banner/*
 /js/banner?
 /js/banner_
-! Commented out slow filters 2011-11-08
-! /js/dw.js
+|http:*/js/dw.js
+|https:*/js/dw.js
 /js/google_banner.
 /js/omni-
 /js/omni.
@@ -1429,6 +1402,16 @@
 ! /popup/promotion_
 /popwin_
 /ppvtrack.
+|http:*/pr_ad-
+|https:*/pr_ad-
+|http:*/pr_ad.
+|https:*/pr_ad.
+|http:*/pr_ad/
+|https:*/pr_ad/
+|http:*/pr_ad?
+|https:*/pr_ad?
+|http:*/pr_ad_
+|https:*/pr_ad_
 /pr_img-
 /pr_img.
 /pr_img/*
@@ -1469,11 +1452,11 @@
 /random_banner?
 /random_banner_
 /RealMedia/*
-/res/js/ad-
-/res/js/ad.
-/res/js/ad/*
-/res/js/ad?
-/res/js/ad_
+! /res/js/ad-
+! /res/js/ad.
+! /res/js/ad/*
+! /res/js/ad?
+! /res/js/ad_
 /retarget-
 /retarget.
 /retarget/*
@@ -2628,6 +2611,7 @@ _sponsored_
 ||googlesyndication.com^
 ||googletagservices.com^
 ||gostats.com^$third-party
+||gpotato.eu^$popup
 ||gravure-dvd.net^
 ||gremz.com^$third-party
 ||groupon.jp/jb/javascript/lib/thickbox.$script
@@ -2823,6 +2807,7 @@ _sponsored_
 ||ad.land.to^
 ||banner.lardi-trans.com^
 ||leadforce1.com^
+||leagueoflegends.com^$popup
 ||leasinginukraine.com^$third-party
 ||adv.letitbit.net^
 ||lfstmedia.com^$third-party
@@ -3582,8 +3567,10 @@ _sponsored_
 ||worldlogger.com^
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
-! Commented out slow filters 2011-11-08
-! ||ws.md^$third-party
+|http:*.ws.md^$third-party
+|http://ws.md^$third-party
+|https:*.ws.md^$third-party
+|https://ws.md^$third-party
 ||ad.wsod.com^
 ||wt-rotator.
 ||wts-rotator.
@@ -3676,7 +3663,7 @@ _sponsored_
 ||s.youtube.com^
 ||s2.youtube.com^
 !False Positive(dammy 1x1 placeholder for css spriting) ||ytimg.com/yt/img/pixel-
-||ytimg.com^*/swfbin/ad-
+! ||ytimg.com^*/swfbin/ad-
 ||ytimg.com^*/swfbin/ad3-
 ||ytimg.com^*_background_$image
 ||ytimg.com^*_banner.$image
