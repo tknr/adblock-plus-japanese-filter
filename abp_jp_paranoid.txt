@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: CLtkObUtoJLjoj0ie1Uw2g
-! Last modified: 2012-01-19 16:37:17 JST
+! Checksum: FFPm5HDr3MhT4cs/Psk+0g
+! Last modified: 2012-01-19 16:38:22 JST
 !
 ! ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -67,6 +67,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 &sex=
 &slot=
 &tracking=$third-party
+&utm_$popup
 
 -bnr-$third-party
 -bnr.$third-party
