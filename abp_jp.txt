@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: V1hCnGPjzKksa8y5C+jAbA
-! Last modified: 2012-01-19 21:45:03 JST
+! Checksum: II9LvHHzhy85dDOsadVH8g
+! Last modified: 2012-01-19 22:13:05 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -176,7 +176,7 @@
 &random=*&size=1x1&
 &referer=$image,script
 &trackid=$third-party
-&view=ad&
+! &view=ad&
 |http:*-ad-
 |https:*-ad-
 |http:*-ad.
@@ -314,7 +314,7 @@
 /_search.js|$third-party
 /180x180.gif|$first-party
 /A-affiliate2/*
-/aan/*/ad/*
+! /aan/*/ad/*
 /aan/*/amazon/*
 /abnl/?begun=
 /acclog.
@@ -958,7 +958,7 @@
 /customerIsLegality?
 /d2ptoolbar/*
 /dart.$script
-/data/js/ad
+! /data/js/ad
 /delivery/?zoneid=
 /delivery/afr.
 /delivery/avw.
@@ -1216,7 +1216,7 @@
 /imgs/banner_$third-party
 ! merged into .php?zoneid=
 ! /iml.php?zoneid=
-/inc_ad_
+! /inc_ad_
 /informer-$third-party
 /informer.$third-party
 /informer/*$third-party
@@ -1257,9 +1257,9 @@
 /js/omni/*
 /js/omni?
 /js/omni_
-/js_ad_pop?
+! /js_ad_pop?
 /js_in_text_ads?
-/js_overlay_ad?
+! /js_overlay_ad?
 /kanasoku/9-
 /kanasoku*/at_side.
 /kanasoku/Live.
@@ -1292,11 +1292,11 @@
 /linktracking.$script
 /listcollector/*$script
 /listingplus/*
-/live_ad-
-/live_ad.
-/live_ad/*
-/live_ad?
-/live_ad_
+! /live_ad-
+! /live_ad.
+! /live_ad/*
+! /live_ad?
+! /live_ad_
 /LiveAds-
 /LiveAds.
 /LiveAds/*
@@ -1402,16 +1402,16 @@
 ! /popup/promotion_
 /popwin_
 /ppvtrack.
-|http:*/pr_ad-
-|https:*/pr_ad-
-|http:*/pr_ad.
-|https:*/pr_ad.
-|http:*/pr_ad/
-|https:*/pr_ad/
-|http:*/pr_ad?
-|https:*/pr_ad?
-|http:*/pr_ad_
-|https:*/pr_ad_
+! |http:*/pr_ad-
+! |https:*/pr_ad-
+! |http:*/pr_ad.
+! |https:*/pr_ad.
+! |http:*/pr_ad/
+! |https:*/pr_ad/
+! |http:*/pr_ad?
+! |https:*/pr_ad?
+! |http:*/pr_ad_
+! |https:*/pr_ad_
 /pr_img-
 /pr_img.
 /pr_img/*
@@ -1467,11 +1467,11 @@
 /retargeting/*
 /retargeting?
 /retargeting_
-/right-ad-
-/right-ad.
-/right-ad/*
-/right-ad?
-/right-ad_
+! /right-ad-
+! /right-ad.
+! /right-ad/*
+! /right-ad?
+! /right-ad_
 /rss.$script,subdocument
 /rss1.$script,subdocument
 /rss2.$script,subdocument
@@ -1484,13 +1484,13 @@
 /sdc1.js
 /sdctag.$script
 /sdctag1.$script
-/settings/ad.
+! /settings/ad.
 /sfga.$script
-/show_ad-
-/show_ad.
-/show_ad/*
-/show_ad?
-/show_ad_
+! /show_ad-
+! /show_ad.
+! /show_ad/*
+! /show_ad?
+! /show_ad_
 /show_ads-
 /show_ads.
 /show_ads/*
@@ -1504,11 +1504,11 @@
 /showads/*
 /showads?
 /showads_
-/side_ad-
-/side_ad.
-/side_ad/*
-/side_ad?
-/side_ad_
+! /side_ad-
+! /side_ad.
+! /side_ad/*
+! /side_ad?
+! /side_ad_
 /side_ads-
 /side_ads.
 /side_ads/*
@@ -1520,7 +1520,7 @@
 /sideparts/b_joy_$image
 /sites/richscripts/*
 /sitestratos/ss_
-/smart_ad/*
+! /smart_ad/*
 /smate.html$subdocument
 /snare.js
 /sponsor-
@@ -1547,12 +1547,12 @@
 /statisticsPlugin.
 /sujqori.
 /swf_flv_play_pre.$object
-/t2cn_ad.
-/text_ad-
-/text_ad.
-/text_ad/*
-/text_ad?
-/text_ad_
+! /t2cn_ad.
+! /text_ad-
+! /text_ad.
+! /text_ad/*
+! /text_ad?
+! /text_ad_
 /text_ads-
 /text_ads.
 /text_ads/*
@@ -1596,11 +1596,11 @@
 /trustclick/*
 /trustclick?
 /trustclick_
-/txt_ad-
-/txt_ad.
-/txt_ad/*
-/txt_ad?
-/txt_ad_
+! /txt_ad-
+! /txt_ad.
+! /txt_ad/*
+! /txt_ad?
+! /txt_ad_
 /txt_ads-
 /txt_ads.
 /txt_ads/*
@@ -1636,7 +1636,7 @@
 /wiredv-
 /wiselog/*
 /wmcaudit.$script
-/wsl_ad_
+! /wsl_ad_
 /wtbase.$script
 /wtinit.$script
 /www/delivery/*
@@ -1699,7 +1699,7 @@
 ?retargeting/
 ?retargeting_
 ?trackid=$third-party
-?view=ad&
+! ?view=ad&
 |http:*_ad-
 |https:*_ad-
 |http:*_ad.
@@ -1772,7 +1772,7 @@ _overture.
 _overture/
 _overture?
 _overture_
-_request_ad.
+! _request_ad.
 _retarget-
 _retarget.
 _retarget/
