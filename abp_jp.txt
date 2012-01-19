@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: tqlPPFn9gjs21XIQwT6pNQ
-! Last modified: 2012-01-19 19:48:41 JST
+! Checksum: TNXAyj0P740LS1vUYc5Uiw
+! Last modified: 2012-01-19 20:04:22 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2822,6 +2822,7 @@ _sponsored_
 ||ad.land.to^
 ||banner.lardi-trans.com^
 ||leadforce1.com^
+||leasinginukraine.com^$third-party
 ||adv.letitbit.net^
 ||lfstmedia.com^$third-party
 ||liendans.com^
