@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: U84e8n2hHxU4Scain87JRQ
-! Last modified: 2012-01-19 16:31:11 JST
+! Checksum: KM3Dgd0M2wVeTcmPIf8NRg
+! Last modified: 2012-01-19 16:37:27 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -923,6 +923,7 @@
 /chartbeat/*
 /chartbeat?
 /chartbeat_
+/click/body.php?id=*&hash=$popup
 /click_count-
 /click_count.
 /click_count/*
