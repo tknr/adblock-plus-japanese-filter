@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: MeKSqb3bzQGojbdjHMxvIw
-! Last modified: 2012-01-20 16:33:23 JST
+! Checksum: v5rzg9ZAnKWUpBTJuL1RPQ
+! Last modified: 2012-01-20 17:11:51 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2676,6 +2676,7 @@ _sponsored_
 ||hitslink.com^$third-party
 ||hlwan.net^$popup
 ||hoerbuch.in^
+||holder.com.ua^$third-party
 ||hongfire.com/banner/
 ||hotmatch.com^$third-party
 ||houmekredit.ru^
@@ -2924,6 +2925,7 @@ _sponsored_
 ||mediarich.ru^
 ||mediarich.us^$third-party
 ||mediarich.ws^$third-party
+||mediatraffic.com.ua^$third-party
 ||medleyads.com^
 ||meebo.com^$third-party
 ||megaclick.com^$third-party
@@ -3540,6 +3542,7 @@ _sponsored_
 ||viewablemedia.net^
 ||viglink.com^$third-party
 ||t.vimeo.com^
+||viptizer.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virusbuster.jp^$popup,image,~image
 ||virusbuster.jp^*/trial/
