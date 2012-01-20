@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: d70NuCjZE+eD56mGbtjeWw
-! Last modified: 2012-01-20 13:26:22 JST
+! Checksum: LT+yB9uqRJKFkB0mIjZl4Q
+! Last modified: 2012-01-20 14:08:42 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1353,6 +1353,11 @@
 /omniture_
 /OmnitureActionSource.
 /omniturePlugin.
+/omniunih-
+/omniunih.
+/omniunih/*
+/omniunih?
+/omniunih_
 /omuniture/*
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
 /openx-
@@ -2122,8 +2127,6 @@ _sponsored_
 ||aolcdn.com/ads/
 ||aolcdn.com/js/mg1.$script
 ||aolcdn.com/js/mg2.$script
-||aolcdn.com/omniunih.$script
-||aolcdn.com/omniunih_$script
 ||aondenamoro.com^
 ||metrics.apple.com^
 ||securemetrics.apple.com^
