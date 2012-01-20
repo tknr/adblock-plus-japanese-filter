@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Ex/llvf/UH3ag4e16RiCUA
-! Last modified: 2012-01-20 18:22:06 JST
+! Checksum: lnv9vve1KUkcN19cCsCWqw
+! Last modified: 2012-01-20 18:45:54 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1845,7 +1845,7 @@ _sponsored_
 ! _stat/
 ! _stat_
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2614,7 +2614,7 @@ _sponsored_
 ||gestionpub.com^$third-party
 ||getchu.com/*banner^
 ||getclicky.com^$third-party
-||getiton.com^$third-party
+||getiton.com^$popup,third-party
 ||gigafree.net/ga.$script
 ||gigazine.asia^
 ||gigya.com^$third-party
