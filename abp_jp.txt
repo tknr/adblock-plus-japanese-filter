@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lnv9vve1KUkcN19cCsCWqw
-! Last modified: 2012-01-20 18:45:54 JST
+! Checksum: tF2DdgCoqbpLR2W8iDEWFA
+! Last modified: 2012-01-20 19:02:02 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -171,6 +171,7 @@
 &iad=
 &mediaslot=
 &noadult=
+&pop_under=$popup
 &promo_type=
 &random=*&referrer=
 &random=*&size=1x1&
