@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +XT0qNjFwkE1OWmpP3UfoQ
-! Last modified: 2012-01-20 13:23:53 JST
+! Checksum: d70NuCjZE+eD56mGbtjeWw
+! Last modified: 2012-01-20 13:26:22 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -676,6 +676,11 @@
 /adscores/*
 /adscores?
 /adscores_
+/adsearch-
+/adsearch.
+/adsearch/*
+/adsearch?
+/adsearch_
 ! Preparing to move to whitelist 2011-12-07
 ! /adsense-$domain=~google.com
 ! /adsense.$domain=~google.com
