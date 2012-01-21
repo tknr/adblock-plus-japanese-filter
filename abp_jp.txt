@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: QOcyM56mLJPlZ5TDF6Z6tQ
-! Last modified: 2012-01-21 15:49:58 JST
+! Checksum: PWVRc+BiT5Qsrh12naWaBA
+! Last modified: 2012-01-21 16:00:06 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -77,7 +77,6 @@
 ! ########## Default white list START ################################
 @@//player.ooyala.com^
 @@/cnwk.1d/css/*
-@@/combo?$script,stylesheet
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
 @@/promotion/*$domain=shopping.yahoo.co.jp
 @@||adblockplus.org^$elemhide
@@ -96,8 +95,8 @@
 @@||conviva.com/lpconfig/cfg/
 ! A new rare false positive with conviva filters found at ustream.tv 2011-12-10
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
-! False positives with combined script at soccernet.espn.go.com, Jan 21, 2012
-@@||espncdn.com/combiner/$script
+! False positives with combined scripts at soccernet.espn.go.com, Jan 21, 2012
+@@||espncdn.com/combiner/$script,stylesheet
 ! Flase positive because EverNote calls group discount "sponsor"... reported via Issue Report, investigated by @dullneko, Jan 13, 2012
 ! https://twitter.com/#!/dullneko/status/157735498884976640
 @@||evernote.com/js/evernoteClient/Sponsor.
@@ -108,8 +107,8 @@
 @@||indeep76.com^$elemhide
 @@||lavasoft.com^$elemhide
 @@||lavasoft.com^*/ad_aware/
-! False positive with a combined script, reported via Issue Report, Dec 31, 2011
-@@||mapion.co.jp/f/filejoin?
+! False positive with a combined scripts, reported via Issue Report, Dec 31, 2011
+@@||mapion.co.jp/f/filejoin?$script,stylesheet
 @@||mozilla.com^$elemhide
 @@||mozilla.com/media/img/promo.
 @@||mozilla.org^$elemhide
@@ -128,6 +127,8 @@
 @@||spreadthunderbird.com^$elemhide
 @@||virustotal.hispasecsistemas.netdna-cdn.com^*/analysis-
 @@||wikipedia.org^$elemhide
+! False positives with combined scripts
+@@||yahooapis.com/combo?$script,stylesheet
 @@||yimg.com^*/combo/
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
