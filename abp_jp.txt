@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: wsz5/BH8HfnmL2H245UMcQ
-! Last modified: 2012-01-21 17:20:15 JST
+! Checksum: zasYgCLLHvwgh7gsMDQYxw
+! Last modified: 2012-01-21 19:03:20 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3536,6 +3536,7 @@ _sponsored_
 ||vador.com^$popup
 ||vagos.es/recursos/get.$script
 ||wf1.vagos.es^
+||valentinehookup.com^$popup
 ||valuecommerce.com^$third-party
 ||vatgia.com^
 ||vcm.jp^$third-party
