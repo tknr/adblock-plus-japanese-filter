@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: dZ7QulsUaBMjMFU6icCZpQ
-! Last modified: 2012-01-21 19:07:20 JST
+! Checksum: +gUJPYJow82k+kLq8vVONQ
+! Last modified: 2012-01-21 19:16:12 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2948,6 +2948,7 @@ _sponsored_
 ||medleyads.com^
 ||meebo.com^$third-party
 ||megaclick.com^$third-party
+||megagong.fr^$popup
 ||megaporn.com/*/onhover.$script
 ! Commented out to avoid false positives @ third-party embeded web sites. July 28, 2011
 ! ||megaupload.com^$third-party
