@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: xs5GqdTbUGXMA4DRL1tsFQ
-! Last modified: 2012-01-21 14:58:49 JST
+! Checksum: GYA9zsSoqejV4RVlIb/Tlg
+! Last modified: 2012-01-21 15:37:47 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -96,6 +96,8 @@
 @@||conviva.com/lpconfig/cfg/
 ! A new rare false positive with conviva filters found at ustream.tv 2011-12-10
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
+! False positives with combined script at soccernet.espn.go.com, Jan 21, 2012
+@@||espncdn.com/combiner/$script
 ! Flase positive because EverNote calls group discount "sponsor"... reported via Issue Report, investigated by @dullneko, Jan 13, 2012
 ! https://twitter.com/#!/dullneko/status/157735498884976640
 @@||evernote.com/js/evernoteClient/Sponsor.
