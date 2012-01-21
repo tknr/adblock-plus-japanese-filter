@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: GYA9zsSoqejV4RVlIb/Tlg
-! Last modified: 2012-01-21 15:37:47 JST
+! Checksum: 3PTUnw7gGnbLuTN7TTaP8A
+! Last modified: 2012-01-21 15:44:55 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -266,7 +266,11 @@
 ! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
 .adserver.
-.analytics-
+.analytics-$third-party
+.analytics.$third-party
+.analytics/$third-party
+.analytics?$third-party
+.analytics_$third-party
 .beacon-
 .beacon.
 .beacon/
