@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: xZmO4RHy0XzcNBeE0fG69Q
-! Last modified: 2012-01-21 16:58:19 JST
+! Checksum: 5L0bCfwDdKJ/nNiZDBP6jA
+! Last modified: 2012-01-21 17:08:33 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1857,7 +1857,7 @@ _sponsored_
 ! _stat/
 ! _stat_
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2290,6 +2290,7 @@ _sponsored_
 ||brucelead.com^
 ||btbuckets.$third-party
 ||bubblestat.com^$third-party
+||buonisconto.it$popup
 ||burstnet.com^$third-party
 ||bus-t.com^$third-party
 ||buysellads.com^$third-party
