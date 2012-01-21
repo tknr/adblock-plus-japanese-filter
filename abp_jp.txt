@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 3PTUnw7gGnbLuTN7TTaP8A
-! Last modified: 2012-01-21 15:44:55 JST
+! Checksum: QOcyM56mLJPlZ5TDF6Z6tQ
+! Last modified: 2012-01-21 15:49:58 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1354,6 +1354,11 @@
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 /navad/delivery.
 /news_top_point_pr.
+/nielsen-
+/nielsen.
+/nielsen/*
+/nielsen_
+/nielsen_
 ! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
 ! /newzia/*
 /njoks_$script
@@ -1551,6 +1556,7 @@
 ! /smart_ad/*
 /smate.html$subdocument
 /snare.js
+/sOmni.
 /sponsor-
 /sponsor.
 /sponsor/*
