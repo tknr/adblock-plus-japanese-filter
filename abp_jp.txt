@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: jzp3PSLG4Wl2ohMPsTJv2Q
-! Last modified: 2012-01-22 14:35:46 JST
+! Checksum: pvc+fNP0jt2M9Lf+Ki22OQ
+! Last modified: 2012-01-22 14:52:57 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -201,6 +201,11 @@
 -affiliate/
 -affiliate?
 -affiliate_
+-analytics-
+-analytics.
+-analytics/
+-analytics?
+-analytics_
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
@@ -277,11 +282,11 @@
 .affiliate/
 .affiliate?
 .affiliate_
-.analytics-$third-party
-.analytics.$third-party
-.analytics/$third-party
-.analytics?$third-party
-.analytics_$third-party
+.analytics-
+.analytics.
+.analytics/
+.analytics?
+.analytics_
 .beacon-
 .beacon.
 .beacon/
@@ -859,11 +864,11 @@
 /analysis/*$third-party
 /analysis?$third-party
 /analysis_$third-party
-/analytics-$third-party
-/analytics.$third-party
-/analytics/*$third-party
-/analytics?$third-party
-/analytics_$third-party
+/analytics-
+/analytics.
+/analytics/*
+/analytics?
+/analytics_
 /analyticsid.
 /appad-
 /appad.
@@ -1729,6 +1734,11 @@
 ?affiliate/
 ?affiliate?
 ?affiliate_
+?analytics-
+?analytics.
+?analytics/
+?analytics?
+?analytics_
 ?banner_link=
 ?banner_url=
 ?clickTAG=
@@ -1792,6 +1802,11 @@ _affiliate/
 _affiliate?
 _affiliate_
 _amazontcg_
+_analytics-
+_analytics.
+_analytics/
+_analytics?
+_analytics_
 _beacon-
 _beacon.
 _beacon/
