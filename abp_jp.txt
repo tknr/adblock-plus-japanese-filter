@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +gUJPYJow82k+kLq8vVONQ
-! Last modified: 2012-01-21 19:16:12 JST
+! Checksum: jzp3PSLG4Wl2ohMPsTJv2Q
+! Last modified: 2012-01-22 14:35:46 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -196,6 +196,11 @@
 -ads.$domain=~retweet-ads.net
 -ads/
 -ads_
+-affiliate-
+-affiliate.
+-affiliate/
+-affiliate?
+-affiliate_
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
@@ -267,6 +272,11 @@
 ! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
 .adserver.
+.affiliate-
+.affiliate.
+.affiliate/
+.affiliate?
+.affiliate_
 .analytics-$third-party
 .analytics.$third-party
 .analytics/$third-party
@@ -811,11 +821,11 @@
 /aff/*$third-party
 /aff?$third-party
 /aff_$third-party
-/affiliate-$third-party
-/affiliate.$third-party
-/affiliate/*$third-party
-/affiliate?$third-party
-/affiliate_$third-party
+/affiliate-
+/affiliate.
+/affiliate/*
+/affiliate?
+/affiliate_
 /affiliatebanner-
 /affiliatebanner.
 /affiliatebanner/*
@@ -1714,6 +1724,11 @@
 ?advertiser=
 ?advTile=
 ?affid=
+?affiliate-
+?affiliate.
+?affiliate/
+?affiliate?
+?affiliate_
 ?banner_link=
 ?banner_url=
 ?clickTAG=
@@ -1771,6 +1786,11 @@ _adsource?
 _adsource_
 _adv_img/
 _adv_imgs/
+_affiliate-
+_affiliate.
+_affiliate/
+_affiliate?
+_affiliate_
 _amazontcg_
 _beacon-
 _beacon.
