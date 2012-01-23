@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ZVoGDWmbXAeFywXaxdEsUw
-! Last modified: 2012-01-23 16:59:32 JST
+! Checksum: r15sQDKY65tZLxiRyXRYqw
+! Last modified: 2012-01-23 18:28:08 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2635,6 +2635,7 @@ _sponsored_
 ||follolin.com^$third-party
 ||ads.forbes.com^
 ||formatdynamics.com^$third-party
+||fotocash.ru^$third-party
 ||fotostrana.ru^$third-party
 ||fout.jp^$third-party
 ||foxadd.com^
