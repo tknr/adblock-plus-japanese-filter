@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: tTvJrAdw/ZXj4eTUj5uSqg
-! Last modified: 2012-01-23 19:07:16 JST
+! Checksum: 40dix6yXtGcaGvSEC9pXtQ
+! Last modified: 2012-01-23 19:37:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4997,6 +4997,7 @@ encrypted.google.com,www.google.com,www.google.co.jp###tadsb.c
 ! false positive: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
 ! encrypted.google.com,www.google.com,www.google.co.jp###topstuff
 encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
+encrypted.google.com,www.google.com,www.google.co.jp##.pmoabs
 ! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
 encrypted.google.com,www.google.com,www.google.co.jp##.ra:not([class*="jb"])
 encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
