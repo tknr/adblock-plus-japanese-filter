@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: X761776IfCzA/GZeFmQZ6g
-! Last modified: 2012-01-23 19:02:43 JST
+! Checksum: tTvJrAdw/ZXj4eTUj5uSqg
+! Last modified: 2012-01-23 19:07:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -132,6 +132,7 @@
 ! False positives with combined scripts
 @@||yahooapis.com/combo?$script,stylesheet
 @@||yimg.com^*/combo/
+@@||yimg.com^*/combo?
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
 ! ---------- Default white list END ----------------------------------
