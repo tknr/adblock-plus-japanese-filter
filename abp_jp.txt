@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: WePrUOirrMkpSnriNhzvpw
-! Last modified: 2012-01-23 15:57:33 JST
+! Checksum: ZVoGDWmbXAeFywXaxdEsUw
+! Last modified: 2012-01-23 16:59:32 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3682,6 +3682,7 @@ _sponsored_
 ||xflirt.com^$third-party
 ||xg4ken.com^
 ||xgraph.com^$third-party
+||xgraph.net^$third-party
 ||xhamster.com/js/mediagra.$script
 ||xiti.com^
 ||xlisting.co.jp^$third-party
