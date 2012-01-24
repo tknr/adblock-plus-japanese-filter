@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: qW0SD0X3NlXFuL+1fkvn+g
-! Last modified: 2012-01-24 19:48:57 JST
+! Checksum: NChCOtAPe8eVceTXAq8ZaQ
+! Last modified: 2012-01-24 19:56:06 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3100,6 +3100,7 @@ _sponsored_
 ||uad-api.nicovideo.jp^
 ||api.uad.nicovideo.jp^$domain=~uad.nicovideo.jp
 ||nielsen.com^$third-party
+||nifty.com^*/match_com-module-
 ||business.nifty.com^*/js/common.$script
 ||business.nifty.com^*/json/*?update=
 ||tag.nifty.com^
