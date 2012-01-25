@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /R53d6r/W1cEDdfoEQTpCg
-! Last modified: 2012-01-25 14:51:30 JST
+! Checksum: pKUyQQ6lp3p91XQN4MlS1A
+! Last modified: 2012-01-25 21:20:50 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1007,6 +1007,7 @@
 /delivery/ajs.
 /delivery/fl.
 /delivery/impression?
+/delivery/lg.
 /delivery/showid
 /demdex.$script
 /DigiChat/*$third-party
