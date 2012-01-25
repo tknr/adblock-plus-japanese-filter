@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: walwaomo//tU7mBJ9OMrUw
-! Last modified: 2012-01-24 19:59:21 JST
+! Checksum: /R53d6r/W1cEDdfoEQTpCg
+! Last modified: 2012-01-25 14:51:30 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3516,6 +3516,7 @@ _sponsored_
 ||tomsguide.com^*indexAjax.php?ctrl=ajax_price
 ||tomshardware.com^*indexAjax.php?ctrl=ajax_price
 ||toplist.cz^$third-party
+||total-media.net^
 ||toutiles.com^
 ||tracer.jp^$third-party
 ||trackalyzer.com^
