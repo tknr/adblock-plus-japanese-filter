@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: EM2E3E48uI4FbHbbIgxvTw
-! Last modified: 2012-01-26 20:06:34 JST
+! Checksum: RzZSiUzbLo+16cOXTxycAA
+! Last modified: 2012-01-26 20:17:10 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3589,7 +3589,8 @@ _sponsored_
 ||ucoz.ru^$third-party
 ||ucoz.ua^$third-party
 ||udmserve.net^
-||ui-portal.de^
+! This rough filter occasionally causes false positives, reported via Issue Report , Jan 26, 2012
+! ||ui-portal.de^
 ||undertone.com^$third-party
 ||ubcpm.com^
 ||ultrapay.net^$third-party
