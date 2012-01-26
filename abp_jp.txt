@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 9Q+RFAtKsfVfeSTHG/sIZw
-! Last modified: 2012-01-26 18:43:16 JST
+! Checksum: x+iVkSYK/JL4Zx9PIJEvhw
+! Last modified: 2012-01-26 18:45:53 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -595,6 +595,16 @@
 /adinfo/*
 /adinfo?
 /adinfo_
+/adjs-
+/adjs.
+/adjs/*
+/adjs?
+/adjs_
+/adjs2-
+/adjs2.
+/adjs2/*
+/adjs2?
+/adjs2_
 /AdLantisLoader.
 /adlayer-
 /adlayer.
