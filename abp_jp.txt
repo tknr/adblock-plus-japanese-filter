@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 6oigHOQkdMn7ArudGaQmHQ
-! Last modified: 2012-01-26 20:27:54 JST
+! Checksum: butf16CCayYIamgybtChgQ
+! Last modified: 2012-01-26 23:36:48 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1930,6 +1930,7 @@ _sponsored_
 ||ads.
 ||ads1.
 ||ads2.
+||adserver.
 ||adserving.
 ||adv.
 ||aff-images.
@@ -3740,17 +3741,14 @@ _sponsored_
 ||xw11.com^$third-party
 ||xwell.ru^
 ||yadro.ru^
+||yahoo.co*/b?
 ||yahoo.co.jp/js/geov2.$script
 ||yahoo.co.jp/js/no.$script
 ||yahoo.co.jp/js/sq.$script
-||adserver.yahoo.co.jp^
-||adserver.yahoo.com^
 ||dcs.yahoo.co
 ||yeas.yahoo.co
 ||yjaxc.yahoo.co
-||bc.yahoo.com^
 ||geo.yahoo.co
-||wa.marketingsolutions.yahoo.com^
 ||by.analytics.yahoo.co.jp^
 ||by.i.analytics.yahoo.co.jp^
 ||bn.auctions.yahoo.co.jp^
@@ -3770,6 +3768,8 @@ _sponsored_
 ||im.yahooapis.jp^
 ||rd.yahoo.co.jp^
 ||ybx.yahoo.co.jp^
+||bc.yahoo.com^
+||wa.marketingsolutions.yahoo.com^
 ||yandeg.ru^$third-party
 ||an.yandex.ru^
 ||awaps.yandex.ru^
