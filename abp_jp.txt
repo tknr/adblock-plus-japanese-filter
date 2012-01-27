@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 31GpQa80TdmmhZGsG9VKRA
-! Last modified: 2012-01-27 16:54:03 JST
+! Checksum: h1sGWlCdlo0PCNi4/ESy8Q
+! Last modified: 2012-01-27 17:01:11 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1914,7 +1914,7 @@ _sponsored_
 ! _stat/
 ! _stat_
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,image,~image,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
@@ -2747,7 +2747,7 @@ _sponsored_
 ||hey.lt^$third-party
 ||heyos.com^$third-party
 ||hikiwake.com^
-||himawari-group.co.jp^$popup,image,~image
+||himawari-group.co.jp^$popup
 ||himawari-group.co.jp/ad/
 ||histats.com^$third-party
 ||hit-parade.com^$third-party
@@ -2937,7 +2937,7 @@ _sponsored_
 ||link-trade.net^$third-party
 ||linkad.jp^*preview.$script
 ||linkad.jp/tools/$object
-||linkbucks.com^$popup,image,~image
+||linkbucks.com^$popup
 ||linkbucks.com^$third-party
 ||linkbucksmedia.com^$third-party
 ||linksynergy.com^
@@ -3650,7 +3650,7 @@ _sponsored_
 ||t.vimeo.com^
 ||viptizer.com^$third-party
 ||virtuagirlhd.com^$third-party
-||virusbuster.jp^$popup,image,~image
+||virusbuster.jp^$popup
 ||virusbuster.jp^*/trial/
 ||visiblemeasures.com^$third-party
 ||visistat.com^$third-party
