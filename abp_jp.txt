@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 928mk46zGcCjUTVfeN6wIA
-! Last modified: 2012-01-27 00:06:25 JST
+! Checksum: P2juKiX47sTR6S/mHG+PGA
+! Last modified: 2012-01-27 16:13:46 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3183,6 +3183,7 @@ _sponsored_
 ||ourstats.de^$third-party
 ||ousns.com^
 ||outbrain.com^$third-party
+||outwitch.com^
 ||overclockers.co.uk/home_banners/
 ||overture.com^$third-party
 ||overture.co.jp^$third-party
