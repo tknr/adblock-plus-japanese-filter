@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: SAOMEM6z3xCGGd8CAbKqOg
-! Last modified: 2012-01-27 17:17:08 JST
+! Checksum: Kvwfsuqes7A7Bj5VTcjYdA
+! Last modified: 2012-01-27 17:22:10 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1914,7 +1914,7 @@ _sponsored_
 ! _stat/
 ! _stat_
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
