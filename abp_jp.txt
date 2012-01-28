@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: syv63wTB53CysbGVwImKYQ
-! Last modified: 2012-01-28 15:48:23 JST
+! Checksum: WSwsdce8UkCnYwyPO5cMzw
+! Last modified: 2012-01-28 15:49:38 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2517,6 +2517,7 @@ _sponsored_
 ||dapper.net^
 ||data-ero-advertising.com^
 ||datefree.com^$third-party
+||datingfactory.com^$third-party
 ||daum.net^$third-party,subdocument
 ||ddestiny.ru^$third-party
 ||dealply.com^$third-party
