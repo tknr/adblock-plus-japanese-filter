@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: AiWqxe4UijJU43a0OvVh9Q
-! Last modified: 2012-01-28 16:06:39 JST
+! Checksum: fhyk9VealfuCLjlx8ybhvw
+! Last modified: 2012-01-28 16:17:29 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2401,7 +2401,6 @@ _sponsored_
 ||file.cbs.co.kr^
 ||nad.cbs.co.kr^
 ||cbsinteractive.com/plugins/adp/
-||ccm2.net^
 ||cdn-image.com^
 ||cedexis.com^$third-party
 ||celebros-analytics.com^
