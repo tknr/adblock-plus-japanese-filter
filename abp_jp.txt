@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 15fP2yEa4Pcp6n7bxhvc2Q
-! Last modified: 2012-01-28 15:21:59 JST
+! Checksum: z1NVRqHyjQ9kmpKMfjSaQw
+! Last modified: 2012-01-28 15:45:05 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2664,6 +2664,7 @@ _sponsored_
 ||featuredusers.com^$third-party
 ||feedjit.com^$third-party
 ||fetchback.com^$third-party
+||fidel.to^$popup,third-party
 ||promo.fileforum.com^
 ! The following filter blocks banner change showing CAPTCHA. JavaScript is required. Dec 16, 2011
 ! ||fileserve.com/script/bannerTimer.$script
