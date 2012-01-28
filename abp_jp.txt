@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: KbetnI2jFALZDzwJUnIIVQ
-! Last modified: 2012-01-28 14:41:35 JST
+! Checksum: 6sY8CCdgMoI+B2thptugQQ
+! Last modified: 2012-01-28 14:49:19 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -209,7 +209,8 @@
 -affiliate?
 -affiliate_
 -analytics-
--analytics.
+! Commented out because many false positives happen with "http://www.google-analytics.com/ga.js", Jan 28, 2012
+! -analytics.
 -analytics/
 -analytics?
 -analytics_
