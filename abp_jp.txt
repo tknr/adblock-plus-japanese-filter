@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: WSwsdce8UkCnYwyPO5cMzw
-! Last modified: 2012-01-28 15:49:38 JST
+! Checksum: UFtEBYLbChxMhsNOIKuvIA
+! Last modified: 2012-01-28 16:00:16 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -78,6 +78,7 @@
 
 ! ########## Default white list START ################################
 @@//player.ooyala.com^
+@@/analytics/*$domain=dear.my.salesforce.com
 @@/cnwk.1d/css/*
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
 @@/promotion/*$domain=shopping.yahoo.co.jp
