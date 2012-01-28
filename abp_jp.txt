@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: UFtEBYLbChxMhsNOIKuvIA
-! Last modified: 2012-01-28 16:00:16 JST
+! Checksum: AiWqxe4UijJU43a0OvVh9Q
+! Last modified: 2012-01-28 16:06:39 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2247,7 +2247,7 @@ _sponsored_
 ||apple.com/metrics/
 ||apicit.net^
 ||apmebf.com^
-||apmmedia.net$third-party^
+||apmmedia.net^$third-party
 ||applelinkage.com/js/banner
 ||applieda.com^
 ||apserver.net^$third-party
@@ -2376,7 +2376,7 @@ _sponsored_
 ||brucelead.com^
 ||btbuckets.$third-party
 ||bubblestat.com^$third-party
-||buonisconto.it$popup
+||buonisconto.it^$popup
 ||burstnet.com^$third-party
 ||bus-t.com^$third-party
 ||buysellads.com^$third-party
