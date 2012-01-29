@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8VFTN2CMyPQLfEwrTBDqTg
-! Last modified: 2012-01-29 15:48:31 JST
+! Checksum: 8U6Hnu25+3Hg8NK5RnDQcw
+! Last modified: 2012-01-29 16:34:33 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2307,6 +2307,7 @@ _sponsored_
 ||banner-server.info^$third-party
 ||banner-typemessage.com^$third-party
 ||bannuncio.com^
+||bazaarvoice.com^$third-party
 ||bb-static.com^
 ||visualscience.external.bbc.co.uk^
 ||stats.bbc.co.uk^
