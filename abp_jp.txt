@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: iov2mZzNS3qCnrTCO/sHLg
-! Last modified: 2012-01-30 12:54:38 JST
+! Checksum: 5WpxUHDZ+g/2Ruht7yKB8w
+! Last modified: 2012-01-30 13:09:53 JST
 !
 ! ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3271,6 +3271,7 @@ _sponsored_
 ||predictad.com^$third-party
 ||premiumcollect.com^$third-party
 ||premiumhdv.com^$third-party
+||price.ru^$third-party
 ||primegrattage.com^$third-party
 ||prisma-presse.com^$third-party
 ||profitwizard.net^
