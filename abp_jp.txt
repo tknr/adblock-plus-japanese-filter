@@ -1,0 +1,5402 @@
+[Adblock Plus 2.0]
+! Checksum: eSL2LYT3Yn1ymsCkKkZ0IQ
+! Last modified: 2012-01-31 15:49:10 JST
+!
+! Title: ABP Japanese Filters
+! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
+! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
+! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
+! Content License: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
+! Expires: 6 hours
+! Project owners: k2japan
+! Project committers: looter, lostincarnation, tanahata
+! Project contributors: 
+!
+! ########## Temporary white list START ##########
+! video-cdn.ea.com distributes mp4 videos with "&affiliateid="...
+@@.mp4?*&affiliateid=
+! Added to avoid a never-ending "loading..." gif
+@@/history/external/*$domain=amazon.co.jp|amazon.com
+! False positives with theme css by adaptivethemes.com, Jun 11, 2012
+@@_Ad/css/theme/
+! False positives with Ameblo skin named "colors_ad", reported via Issue Report, Jan 12, 2012 and Dec 29, 2011
+@@||ameba.jp/p_skin/*_ad/
+! autoblog(AOL) sucks! It requires some trackings to render correctly, reported twice by Issue Report
+@@||aolcdn.com/js/mg2.$domain=autoblog.com
+@@||aolcdn.com/omniunih.$domain=autoblog.com
+! imdb.com sucks! To avoid false positives you have to load some AD scripts.
+@@||doubleclick.net/adj/imdb2.
+! Workaround to fix layout collapse 2011-10-17
+@@||fc2.com^*/kanasoku/advertisement.js
+! Many false positive with stylesheets and JavaScripts, reported via Issue Report, Jan 6, 2012
+@@||goal.com^*-ad-
+! False positive at gamers-review.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=77 are blocked. 2012-01-05
+@@||gamers-review.net/data/js/adbg.$script
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
+@@||imdb.com^*/doubleclick/
+! Workaround for adblock detector, which includes "adblock = false;" only.
+@@||static.isohunt.com/js/adframe.$script
+! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
+@@||liverail.com/crossdomain.xml|
+@@||liverail.com^*plugins/flowplayer/
+! Flase positive at twitch.tv reported and resolved via Issue Report, Dec 11, 2011
+! Another false positive found at justin.tv ,reported and resolved via Issue Report, Dec 16, 2011
+@@||vox-static.liverail.com/swf/*/admanager.$domain=justin.tv|twitch.tv
+@@||media-imdb.com^*/ads.$script
+! False positive at ndrive2.naver.jp . Login stops displaying "Loading N Drive" forever, Jan 23, 2012
+@@||ndrive.naver.jp/js/lcslog.$script
+! Japanese biggest computer vendor uses cliant-side script to display RSS titles. It seems that they don't trust server-side performance of their own servers.
+@@||nec.co.jp^*/rss.$script
+! False positive at psmk2.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=76 are blocked. 2011-08-29
+@@||psmk2.net/data/js/adbg.$script
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
+! False positives with combined script and stylesheet 2011-10-17
+@@||rottentomatoescdn.com/assets/*/ads.
+! False positive at store.steampowered.com . Layout collapse with /promo/* filter 2011-11-27
+@@||steampowered.com/public/css/promo/$stylesheet
+! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
+@@||teacup.com/rchat-common/
+! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
+@@||tubemogul.com/crossdomain.xml|
+@@||tubemogul.com/bootloader/TubeMogulFlowPlayer.
+! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
+@@||uec.ac.jp/about/advertisement/$elemhide
+! False positive at xbox-news.com . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=79 are blocked. 2011-09-23
+@@||xbox-news.com/data/js/adbg.$script
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=79&
+! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Jan 3, 2012
+@@||wikimedia.org/wikipedia/commons/*Wikipedia-logo*$image
+! Can NOT open other folders(no response...loading...white screen...) at Yahoo Mail if http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js beacon generator is blocked.
+@@||ai.yimg.jp/bdv/yahoo/javascript/csc/$domain=mail.yahoo.co.jp
+! Some elements in the main column like unread mails are missing at Yahoo Mail BETA if http://ai.yimg.jp/bdv/yahoo/darla/2-2-4_3/js/darla-dynamic-beacons-min.js beacon generator is blocked.
+@@||ai.yimg.jp/bdv/yahoo/darla/$domain=mail.yahoo.co.jp
+! Gyao Movie player does NOT start automatically if http://ai.yimg.jp/bdv/yahoo/javascript/gyao/clover.js is blocked.
+@@||yimg.jp/bdv/yahoo/javascript/gyao/clover.js
+! charger440.jp uses images from URLs including /promotion/* even though it's not promoting images. 2011-12-01
+@@||yimg.jp/images/promotion/charger/$domain=charger440.jp
+! ---------- Temporary white list END ----------
+
+! ########## Default white list START ##########
+@@//player.ooyala.com^
+@@/cnwk.1d/css/*
+! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
+@@/promotion/*$domain=shopping.yahoo.co.jp
+@@||adblockplus.org^$elemhide
+@@||advertban.com^$elemhide
+@@||images.apple.com^*/promo_$domain=apple.com
+! False positive at bitly.com reported via Issue Report 2011-11-22
+@@||bitly.com^*/css/metrics_
+! False positives with Adelie Penguin abbreviated to Ad, reported via Issue Report Dec 26, 2011
+@@||cloudfront.net^*/animal/obj_animal_*_Ad
+@@||i.i.com.com/cnwk.1d/html/rb/
+@@||i.i.com.com/cnwk.1d/i/
+@@||code.google.com^$elemhide
+! There were False positives at www.youtube.com/oracle , which no longer exist 2011-10-11
+! Another false positive with conviva filters found at ustream.tv, which brought the past commented out whitelists back into life, reported via Issue Report 2011-12-09
+@@||conviva.com/crossdomain.xml|
+@@||conviva.com/lpconfig/cfg/
+! A new rare false positive with conviva filters found at ustream.tv 2011-12-10
+@@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
+! False positives with combined scripts at soccernet.espn.go.com, Jan 21, 2012
+@@||espncdn.com/combiner/$script,stylesheet
+! Flase positive because EverNote calls group discount "sponsor"... reported via Issue Report, investigated by @dullneko, Jan 13, 2012
+! https://twitter.com/#!/dullneko/status/157735498884976640
+@@||evernote.com/js/evernoteClient/Sponsor.
+@@||google.com/adsense/$document
+@@||google.com/analytics/$document
+@@||accounts.google.com/ServiceLogin?service=$document
+@@||hulu.*/site-player/
+@@||indeep76.com^$elemhide
+@@||lavasoft.com^$elemhide
+@@||lavasoft.com^*/ad_aware/
+! False positive with a combined scripts, reported via Issue Report, Dec 31, 2011
+@@||mapion.co.jp/f/filejoin?$script,stylesheet
+@@||mozilla.com^$elemhide
+@@||mozilla.com/media/img/promo.
+@@||mozilla.org^$elemhide
+@@||mozilla.org/affiliates/
+@@||addons.mozilla.org/*/addon/adframe/$xmlhttprequest
+! False positive with icons of NICO2-DAIHYAKKA at live.nicovideo.jp reported via Issue Report, Jan 12, 2012, Jan 11, 2012 and Dec 29, 2011
+@@||api.nicodic.jp^*__nicopedia_api_*_AD/*%AD|
+@@||api.nicodic.jp^*__nicopedia_api_*_AD_*%AD%
+@@||uad.nicovideo.jp/assets/$domain=uad.nicovideo.jp
+@@||uad.nicovideo.jp^$elemhide
+@@||researchmap.jp^*/counter/$stylesheet
+! @@||robtex.com^$elemhide
+! False positive with management page, reported via Issue Report, Jan 27, 2012
+@@||ct*.shinobi.jp^$document
+@@||siteadvisor.com^$elemhide
+@@||spreadfirefox.jp/affiliates/
+@@||spreadthunderbird.com/files/affiliates/
+@@||spreadthunderbird.com^$elemhide
+@@||virustotal.hispasecsistemas.netdna-cdn.com^*/analysis-
+@@||webpagetest.org^$elemhide
+@@||wikipedia.org^$elemhide
+! False positives with combined scripts
+@@||yahooapis.com/combo?$script,stylesheet
+@@||yimg.com^*/combo/$script,stylesheet
+@@||yimg.com^*/combo?$script,stylesheet
+! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
+@@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
+! ---------- Default white list END ----------
+!
+! ########## Option only START ##########
+|http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
+|http:$popup,domain=animeflv.net|bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+! ---------- Option only END ----------
+!
+! ########## URL Fragments START ##########
+|http:*&ad-
+|https:*&ad-
+|http:*&ad.
+|https:*&ad.
+|http:*&ad/
+|https:*&ad/
+|http:*&ad=
+|https:*&ad=
+|http:*&ad?
+|https:*&ad?
+|http:*&ad_
+|https:*&ad_
+! &ad_id=CRN_
+! &ad_size=
+! &ad_type=
+! &ad_url=
+&admeld_
+&adpds_
+&AdPlan=
+&adsize=
+&adslot=
+&adsource-
+&adsource.
+&adsource/
+&adsource?
+&adsource_
+&adSpace=
+&adtype=
+&advertiser=
+&advTile=
+&affid=
+&affiliateid=
+&banner=
+&banner_link=
+&banner_url=
+&click=*&random=
+&file=ads&
+&iad=
+&mediaslot=
+&noadult=
+&pop_under=$popup
+&promo_type=
+&random=*&referrer=
+&random=*&size=1x1&
+&referer=$image,script
+&trackid=$third-party
+! &view=ad&
+,aolvidmetrics/
+|http:*-ad-
+|https:*-ad-
+|http:*-ad.
+|https:*-ad.
+|http:*-ad/
+|https:*-ad/
+|http:*-ad?
+|https:*-ad?
+|http:*-ad_
+|https:*-ad_
+-ads-
+-ads.$domain=~retweet-ads.net
+-ads/
+-ads_
+-affiliate-
+-affiliate.
+-affiliate/
+-affiliate?
+-affiliate_
+-analytics-
+! Commented out because many false positives happen with "http://www.google-analytics.com/ga.js", Jan 28, 2012
+! -analytics.
+-analytics/
+-analytics?
+-analytics_
+-amazon.com^*/browser-scripts/DA-
+-amazon.com^*/browser-scripts/DAE-
+-amazon.com^*/msa/
+-beacon-
+-beacon.
+-beacon/
+-beacon_
+-beacons-
+-beacons.
+-beacons/
+-beacons_
+-comscore-
+-comscore.
+-comscore/
+-comscore?
+-comscore_
+-linkad-
+-linkad.
+-linkad/
+-linkad?
+-linkad_
+-linkads-
+-linkads.
+-linkads/
+-linkads?
+-linkads_
+-metrics-
+-metrics.
+-metrics/
+-metrics_
+-PopUnder|
+-retarget-
+-retarget.
+-retarget/
+-retarget?
+-retarget_
+-retargeting-
+-retargeting.
+-retargeting/
+-retargeting?
+-retargeting_
+-sponsored-
+-sponsored.
+-sponsored/
+-sponsored?
+-sponsored_
+! Commented out to avoid false positives on static: 2011-09-07
+! -stat-
+! -stat.
+! -stat/
+! -stat_
+-textad.
+-utm.$script
+|http:*.ad-
+|https:*.ad-
+! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
+! |http:*.ad.
+! |https:*.ad.
+|http:*.ad/
+|https:*.ad/
+|http:*.ad?
+|https:*.ad?
+|http:*.ad_
+|https:*.ad_
+.adInfo.
+.adriver.
+! Preparing to move to whitelist 2011-12-07
+! .adsense-$domain=~google.com
+! Domain-restricting option has moved to the whitelist 2011-12-07
+.adsense-
+.adserver.
+.affiliate-
+.affiliate.
+.affiliate/
+.affiliate?
+.affiliate_
+.analytics-
+.analytics.
+.analytics/
+.analytics?
+.analytics_
+.beacon-
+.beacon.
+.beacon/
+.beacon?
+.beacon_
+.beacons-
+.beacons.
+.beacons/
+.beacons?
+.beacons_
+.ca.html|
+.impact-ad.jp/rc/
+.kissinsights.com/
+.metrics-
+.metrics.
+.metrics/
+.metrics?
+.metrics_
+.owa.$script
+.php?zoneid=
+.poptracking?
+.retarget-
+.retarget.
+.retarget/*
+.retarget?
+.retarget_
+.retargeting-
+.retargeting.
+.retargeting/
+.retargeting?
+.retargeting_
+.sponsored-
+.sponsored.
+.sponsored/
+.sponsored?
+.sponsored_
+! Commented out to avoid false positives on static: 2011-09-07
+! .stat-
+! .stat.
+! .stat/
+! .stat_
+.TieupNotification.
+/200_200.$image,domain=premium.nikkeibp.co.jp
+! false positive at lifehacker.com 2011-09-30
+! /?op=ajax_userstate&
+/__onedot?c=
+/__utm.
+/_a_cast.$script
+/_search.js|$third-party
+/180x180.gif|$first-party
+/A-affiliate2/*
+! /aan/*/ad/*
+/aan/*/amazon/*
+/abnl/?begun=
+/acclog.
+/acctag.
+|http:*/ad-
+|https:*/ad-
+! /ad-image/*
+! /ad-images/*
+! /ad-navi/ga/*
+|http:*/ad.
+|https:*/ad.
+! /ad.act?
+! /ad.asp?
+! /ad.asp|
+! /ad.aspx?
+! /ad.aspx|
+! /ad.js
+! /ad.php?id=
+|http:*/ad/
+|https:*/ad/
+! /ad/*&slot=
+! /ad/200_
+! /ad/banner-
+! /ad/banner.
+! /ad/banner/*
+! /ad/banner?
+! /ad/banner_
+! /ad/click.
+! /ad/control-
+! /ad/control.
+! /ad/control/*
+! /ad/control?
+! /ad/control_
+! /ad/iframe-
+! /ad/iframe.
+! /ad/iframe/*
+! /ad/iframe?
+! /ad/iframe_
+! /ad/iframes-
+! /ad/iframes.
+! /ad/iframes/*
+! /ad/iframes?
+! /ad/iframes_
+! /ad/image-
+! /ad/image.
+! /ad/image/*
+! /ad/image?
+! /ad/image_
+! /ad/images-
+! /ad/images.
+! /ad/images/*
+! /ad/images?
+! /ad/images_
+! /ad/index-
+! /ad/index.
+! /ad/index/*
+! /ad/index?
+! /ad/index_
+! /ad/load_ad-
+! /ad/load_ad.
+! /ad/load_ad/*
+! /ad/load_ad?
+! /ad/load_ad_
+! /ad/pr_img-
+! /ad/pr_img.
+! /ad/pr_img/*
+! /ad/pr_img?
+! /ad/pr_img_
+! /ad/preview-
+! /ad/preview.
+! /ad/preview/*
+! /ad/preview?
+! /ad/preview_
+! /ad/show-
+! /ad/show.
+! /ad/show/*
+! /ad/show?
+! /ad/show_
+|http:*/ad?
+|https:*/ad?
+! /ad?act=
+! /ad?loc=
+|http:*/ad_
+|https:*/ad_
+! /ad_agency-
+! /ad_agency.
+! /ad_agency/*
+! /ad_agency?
+! /ad_agency_
+! /ad_area-
+! /ad_area.
+! /ad_area/*
+! /ad_area?
+! /ad_area_
+! /ad_banner-
+! /ad_banner.
+! /ad_banner/*
+! /ad_banner?
+! /ad_banner_
+! /ad_bottom-
+! /ad_bottom.
+! /ad_bottom/*
+! /ad_bottom?
+! /ad_bottom_
+! /ad_box-
+! /ad_box.
+! /ad_box/*
+! /ad_box?
+! /ad_box_
+! /ad_common-
+! /ad_common.
+! /ad_common/*
+! /ad_common?
+! /ad_common_
+! /ad_iframe-
+! /ad_iframe.
+! /ad_iframe/*
+! /ad_iframe?
+! /ad_iframe_
+! /ad_iframes-
+! /ad_iframes.
+! /ad_iframes/*
+! /ad_iframes?
+! /ad_iframes_
+! /ad_image-
+! /ad_image.
+! /ad_image/*
+! /ad_image?
+! /ad_image_
+! /ad_images-
+! /ad_images.
+! /ad_images/*
+! /ad_images?
+! /ad_images_
+! /ad_img-
+! /ad_img.
+! /ad_img/*
+! /ad_img?
+! /ad_img_
+! /ad_imgs-
+! /ad_imgs.
+! /ad_imgs/*
+! /ad_imgs?
+! /ad_imgs_
+! /ad_insight-
+! /ad_insight.
+! /ad_insight/*
+! /ad_insight?
+! /ad_insight_
+! /ad_keyword-
+! /ad_keyword.
+! /ad_keyword/*
+! /ad_keyword?
+! /ad_keyword_
+! /ad_layout-
+! /ad_layout.
+! /ad_layout/*
+! /ad_layout?
+! /ad_layout_
+! /ad_parts-
+! /ad_parts.
+! /ad_parts/*
+! /ad_parts?
+! /ad_parts_
+! /ad_plugin-
+! /ad_plugin.
+! /ad_plugin/*
+! /ad_plugin?
+! /ad_plugin_
+! /ad_statistics-
+! /ad_statistics.
+! /ad_statistics/*
+! /ad_statistics?
+! /ad_statistics_
+! /ad_timer-
+! /ad_timer.
+! /ad_timer/*
+! /ad_timer?
+! /ad_timer_
+! /ad_top-
+! /ad_top.
+! /ad_top/*
+! /ad_top?
+! /ad_top_
+! /ad_tpl.
+! /ad_view-
+! /ad_view.
+! /ad_view/*
+! /ad_view?
+! /ad_view_
+/Ad160x600.
+/Ad300x600.
+/adbanner-
+/adbanner.
+/adbanner/*
+/adbanner?
+/adbanner_
+/adbanners-
+/adbanners.
+/adbanners/*
+/adbanners?
+/adbanners_
+/adblock_plus.$domain=kino.to
+/adclick-
+/adclick.
+/adclick/*
+/adclick?
+/adclick_
+/adclicks-
+/adclicks.
+/adclicks/*
+/adclicks?
+/adclicks_
+/adcontext-
+/adcontext.
+/adcontext/*
+/adcontext?
+/adcontext_
+/adcontrol-
+/adcontrol.
+/adcontrol/*
+/adcontrol?
+/adcontrol_
+/adcount.
+/adframe-
+/adframe.
+/adframe/*
+/adframe?
+/adframe_
+/adframes-
+/adframes.
+/adframes/*
+/adframes?
+/adframes_
+/adFrequencyCapping.
+/adfshow?
+/adFunction-
+/adFunction.
+/adFunction/*
+/adFunction?
+/adFunction_
+/adgetter-
+/adgetter.
+/adgetter/*
+/adgetter?
+/adgetter_
+/adinfo-
+/adinfo.
+/adinfo/*
+/adinfo?
+/adinfo_
+/adjs-
+/adjs.
+/adjs/*
+/adjs?
+/adjs_
+/adjs2-
+/adjs2.
+/adjs2/*
+/adjs2?
+/adjs2_
+/AdLantisLoader.
+/adlayer-
+/adlayer.
+/adlayer/*
+/adlayer?
+/adlayer_
+/adlayers-
+/adlayers.
+/adlayers/*
+/adlayers?
+/adlayers_
+/adListing-
+/adListing.
+/adListing/*
+/adListing?
+/adListing_
+/adListings-
+/adListings.
+/adListings/*
+/adListings?
+/adListings_
+/AdLoader.
+/adlog-
+/adlog.
+/adlog/*
+/adlog?
+/adlog_
+/admanager.
+/admodoki.
+/adnetwork-
+/adnetwork.
+/adnetwork/*
+/adnetwork?
+/adnetwork_
+/adnetworks-
+/adnetworks.
+/adnetworks/*
+/adnetworks?
+/adnetworks_
+/adparts-
+/adparts.
+/adparts/*
+/adparts?
+/adparts_
+/adPlayer-
+/adPlayer.
+/adPlayer/*
+/adPlayer?
+/adPlayer_
+/adplugin-
+/adplugin.
+/adplugin/*
+/adplugin?
+/adplugin_
+/adplugins-
+/adplugins.
+/adplugins/*
+/adplugins?
+/adplugins_
+/adriver-
+/adriver.
+/adriver/*
+/adriver?
+/adriver_
+/ads-$third-party
+/ads-common-
+/ads-common.
+/ads-common/*
+/ads-common?
+/ads-common_
+/ads-iframe-
+/ads-iframe.
+/ads-iframe/*
+/ads-iframe?
+/ads-iframe_
+/ads-iframes-
+/ads-iframes.
+/ads-iframes/*
+/ads-iframes?
+/ads-iframes_
+/ads-
+/ads.
+/ads/*
+/ads?
+/ads_
+/ads2-
+/ads2.
+/ads2/*
+/ads2?
+/ads2_
+/adscontext-
+/adscontext.
+/adscontext/*
+/adscontext?
+/adscontext_
+/adserving-
+/adserving.
+/adserving/*
+/adserving?
+/adserving_
+/adscore-
+/adscore.
+/adscore/*
+/adscore?
+/adscore_
+/adscores-
+/adscores.
+/adscores/*
+/adscores?
+/adscores_
+/adsearch-
+/adsearch.
+/adsearch/*
+/adsearch?
+/adsearch_
+! Preparing to move to whitelist 2011-12-07
+! /adsense-$domain=~google.com
+! /adsense.$domain=~google.com
+! /adsense/*$domain=~google.com
+! /adsense_$domain=~google.com
+! Domain-restricting options have moved to the whitelist 2011-12-07
+/adsense-
+/adsense.
+/adsense/*
+/adsense_
+/adserve-
+/adserve.
+/adserve/*
+/adserve?
+/adserve_
+/adserver-
+/adserver.
+/adserver/*
+/adserver?
+/adserver_
+/adshow-
+/adshow.
+/adshow/*
+/adshow?
+/adshow_
+/adsource-
+/adsource.
+/adsource/*
+/adsource?
+/adsource_
+/adspace-
+/adspace.
+/adspace/*
+/adspace?
+/adspace_
+/adspaces-
+/adspaces.
+/adspaces/*
+/adspaces?
+/adspaces_
+/AdStatic-
+/AdStatic.
+/AdStatic/*
+/AdStatic?
+/AdStatic_
+/AdStatics-
+/AdStatics.
+/AdStatics/*
+/AdStatics?
+/AdStatics_
+/adstream-
+/adstream.
+/adstream/*
+/adstream?
+/adstream_
+/adsystem-
+/adsystem.
+/adsystem/*
+/adsystem?
+/adsystem_
+/adsv-
+/adsv.
+/adsv/*
+/adsv?
+/adsv_
+/adsWrapper-
+/adsWrapper.
+/adsWrapper/*
+/adsWrapper?
+/adsWrapper_
+/adtext-
+/adtext.
+/adtext/*
+/adtext?
+/adtext_
+/adtrack-
+/adtrack.
+/adtrack/*
+/adtrack?
+/adtrack_
+/adv-
+/adv.
+/adv/*
+/adv?
+/adv_
+/adv1/*
+/advert-
+/advert.
+/advert/*
+/advert?
+/advert_
+/advertise-
+/advertise.
+/advertise/*
+/advertise?
+/advertise_
+/advertisement-
+/advertisement.
+/advertisement/*
+/advertisement?
+/advertisement_
+/AdvertisingModule-
+/AdvertisingModule.
+/AdvertisingModule/*
+/AdvertisingModule?
+/AdvertisingModule_
+/adview-
+/adview.
+/adview/*
+/adview?
+/adview_
+/adx-
+/adx.
+/adx/*
+/adx?
+/adx_
+/aff-$third-party
+/aff.$third-party
+/aff/*$third-party
+/aff?$third-party
+/aff_$third-party
+/affiliate-
+/affiliate.
+/affiliate/*
+/affiliate?
+/affiliate_
+/affiliatebanner-
+/affiliatebanner.
+/affiliatebanner/*
+/affiliatebanner?
+/affiliatebanner_
+/affiliatebanners-
+/affiliatebanners.
+/affiliatebanners/*
+/affiliatebanners?
+/affiliatebanners_
+/affiliates-$third-party
+/affiliates.$third-party
+/affiliates/*$third-party
+/affiliates?$third-party
+/affiliates_$third-party
+/afiriate-$third-party
+/afiriate.$third-party
+/afiriate/*$third-party
+/afiriate?$third-party
+/afiriate_$third-party
+/afr.php?
+! merged into .php?zoneid=
+! /ajs.php?zoneid=
+/ana/analyzer.
+/ana/processor.
+/ana2/analyzer.
+/ana2/processor.
+/analys.$script
+/analysis-$third-party
+/analysis.$third-party
+/analysis/*$third-party
+/analysis?$third-party
+/analysis_$third-party
+/analytics-
+/analytics.
+/analytics?
+/analytics_
+/analyticsid.
+/appad-
+/appad.
+/appad/*
+/appad?
+/appad_
+/appads-
+/appads.
+/appads/*
+/appads?
+/appads_
+/AS3AdPlayer.
+|http:*/at.js.$script
+|https:*/at.js.$script
+/atrk.$third-party
+/AutoTracker.$script
+! merged into .php?zoneid=
+! /avw.php?zoneid=
+/axyzsdk.$script
+/banads/*
+/banner.$script
+/banner_iframe-
+/banner_iframe.
+/banner_iframe/*
+/banner_iframe?
+/banner_iframe_
+/banner_iframes-
+/banner_iframes.
+/banner_iframes/*
+/banner_iframes?
+/banner_iframes_
+/banner140.$third-party
+/bannerLinkClickHandle?
+/bcon.$third-party
+/beacon-
+/beacon.
+/beacon/*
+/beacon?
+/beacon_
+/bin/ll?$third-party
+/blog_ppv/*
+/blogroll.
+/bmv10.$script
+/bmv10f.$script
+/bmv11.$script
+/bmv12.$script
+/bmv13.$script
+/bnr.$script
+/bnr/pr-
+/bnr/pr.
+/bnr/pr/*
+/bnr/pr?
+/bnr/pr_
+/byads/*
+/camp_banner/bnr_
+/campaign?cid=
+! /cgi-bin/ad-
+! /cgi-bin/ad.
+! /cgi-bin/ad/*
+! /cgi-bin/ad?
+! /cgi-bin/ad_
+/cgi-bin/webtrend/*
+/chartbeat-
+/chartbeat.
+/chartbeat/*
+/chartbeat?
+/chartbeat_
+/click/body.php?id=*&hash=$popup
+/click_count-
+/click_count.
+/click_count/*
+/click_count?
+/click_count_
+/clickheat-
+/clickheat.
+/clickheat/*
+/clickheat?
+/clickheat_
+/clicklog-
+/clicklog.
+/clicklog/*
+/clicklog?
+/clicklog_
+/clickstream-
+/clickstream.
+/clickstream/*
+/clickstream?
+/clickstream_
+/clicktale-
+/clicktale.
+/clicktale/*
+/clicktale?
+/clicktale_
+/cnet_scode.
+/cnwk.1d/*
+/comscore-
+/comscore.
+/comscore/*
+/comscore?
+/comscore_
+/comscorePlugin.
+/convcast.$script
+/coremetrics-
+/coremetrics.
+/coremetrics/*
+/coremetrics?
+/coremetrics_
+/counter-$~image
+/counter.$~image
+/counter/*$~image
+/counter?$~image
+/counter_$~image
+/csi?v=
+/customad-
+/customad.
+/customad/*
+/customad?
+/customad_
+/customads-
+/customads.
+/customads/*
+/customads?
+/customads_
+/customerIsLegality?
+/d2ptoolbar/*
+/dart.$script
+! /data/js/ad
+/delivery/?zoneid=
+/delivery/afr.
+/delivery/avw.
+/delivery/ajs.
+/delivery/fl.
+/delivery/impression?
+/delivery/lg.
+/delivery/showid
+/delivery/spc.
+/demdex.$script
+/DigiChat/*$third-party
+/do2icnk.
+/docodoco?
+/doubleclick-
+/doubleclick.
+/doubleclick/*
+/doubleclick?
+/doubleclick_
+/elqcfg.$script
+/elqimg.$script
+/elqimg2.$script
+/eluminate.$script
+/eum/rum.$script
+/eum/rum-$script
+/event.ems/*
+/event_call.htm?
+|http:*/ea.$script
+|https:*/ea.$script
+/exitPopup.$script
+/external/*$domain=amazon.co.jp|amazon.com
+/fc.php?script=
+/flashbanner.swf
+/foresee-$script
+/foresee.$script
+/foresee/*$script
+/foresee?$script
+/foresee_$script
+/ga_social_tracking.$script
+/gads.$script
+/gemius-
+/gemius.
+/gemius/*
+/gemius?
+/gemius_
+/get_banner-
+/get_banner.
+/get_banner/*
+/get_banner?
+/get_banner_
+/getad-
+/getad.
+/getad/*
+/getad?
+/getad_
+/getads-
+/getads.
+/getads/*
+/getads?
+/getads_
+/getAdv-
+/getAdv.
+/getAdv/*
+/getAdv?
+/getAdv_
+/getAdvert-
+/getAdvert.
+/getAdvert/*
+/getAdvert?
+/getAdvert_
+/getAdvertisement-
+/getAdvertisement.
+/getAdvertisement/*
+/getAdvertisement?
+/getAdvertisement_
+/getAdverts-
+/getAdverts.
+/getAdverts/*
+/getAdverts?
+/getAdverts_
+/getMyAd-
+/getMyAd.
+/getMyAd/*
+/getMyAd?
+/getMyAd_
+/getsatisfaction.com^$third-party
+/getSponsor-
+/getSponsor.
+/getSponsor/*
+/getSponsor?
+/getSponsor_
+/getSponsors-
+/getSponsors.
+/getSponsors/*
+/getSponsors?
+/getSponsors_
+/google_ads-
+/google_ads.
+/google_ads/*
+/google_ads?
+/google-ads_
+/google_afc-
+/google_afc.
+/google_afc/*
+/google_afc?
+/google_afc_
+/google_analytics.
+/google300.$script
+/google728.$script
+/googlead-
+/googlead.
+/googlead/*
+/googlead?
+/googlead_
+/googleadsense-
+/googleadsense.
+/googleadsense/*
+/googleadsense?
+/googleadsense_
+/grack.$script
+/header_bnr_
+/hist_count.$~image
+/hserver/*
+/html.ng/*
+/hummingbird.
+/iad.$script
+/ifr.htm?size=
+/iframe_btn_banner?
+/iframe_cm_
+/iframeAd-
+/iframeAd.
+/iframeAd/*
+/iframeAd?
+/iframeAd_
+/image.ng/*
+/image/1x1$third-party
+! /image/ad-
+! /image/ad.
+! /image/ad/*
+! /image/ad?
+! /image/ad_
+/image/ad120.$image
+/image/ad125.$image
+/image/ad160.$image
+/image/ad180.$image
+/image/ad234.$image
+/image/ad240.$image
+/image/ad250.$image
+/image/ad300.$image
+/image/ad336.$image
+/image/ad468.$image
+/image/ad720.$image
+/image/ad728.$image
+/image/ad88.$image
+/image/ads-
+/image/ads/*
+/image/ads?
+/image/ads_
+/image/banner-$third-party
+/image/banner.$third-party
+/image/banner/*$third-party
+/image/banner?$third-party
+/image/banner_$third-party
+/images/1x1$third-party
+! /images/ad-
+! /images/ad.
+! /images/ad/*
+! /images/ad?
+! /images/ad_
+/images/ad120.$image
+/images/ad125.$image
+/images/ad160.$image
+/images/ad180.$image
+/images/ad234.$image
+/images/ad240.$image
+/images/ad250.$image
+/images/ad300.$image
+/images/ad336.$image
+/images/ad468.$image
+/images/ad720.$image
+/images/ad728.$image
+/images/ad88.$image
+/images/ads-
+/images/ads/*
+/images/ads?
+/images/ads_
+/images/banner-$third-party
+/images/banner.$third-party
+/images/banner/*$third-party
+/images/banner?$third-party
+/images/banner_$third-party
+/images/banners-$third-party
+/images/banners.$third-party
+/images/banners/*$third-party
+/images/banners?$third-party
+/images/banners_$third-party
+/images/lansweeper.$image
+/images/SE2Banner.$image
+/img/1x1$third-party
+! /img/ad-
+! /img/ad.
+! /img/ad/*
+! /img/ad?
+! /img/ad_
+/img/ad120.$image
+/img/ad125.$image
+/img/ad160.$image
+/img/ad180.$image
+/img/ad234.$image
+/img/ad240.$image
+/img/ad250.$image
+/img/ad300.$image
+/img/ad336.$image
+/img/ad468.$image
+/img/ad720.$image
+/img/ad728.$image
+/img/ad88.$image
+/img/ads-
+/img/ads/*
+/img/ads?
+/img/ads_
+/img/banner-$third-party
+/img/banner.$third-party
+/img/banner/*$third-party
+/img/banner?$third-party
+/img/banner_$third-party
+/img/p_banner.
+/img/p_banner/*
+/img/pr_.$domain=diamond.jp
+/img/watch/tag_sync/*
+/imgs/1x1$third-party
+! /imgs/ad-
+! /imgs/ad.
+! /imgs/ad/*
+! /imgs/ad?
+! /imgs/ad_
+/imgs/ad120.$image
+/imgs/ad125.$image
+/imgs/ad160.$image
+/imgs/ad180.$image
+/imgs/ad234.$image
+/imgs/ad240.$image
+/imgs/ad250.$image
+/imgs/ad300.$image
+/imgs/ad336.$image
+/imgs/ad468.$image
+/imgs/ad720.$image
+/imgs/ad728.$image
+/imgs/ad88.$image
+/imgs/ads-
+/imgs/ads/*
+/imgs/ads?
+/imgs/ads_
+/imgs/banner-$third-party
+/imgs/banner.$third-party
+/imgs/banner/*$third-party
+/imgs/banner?$third-party
+/imgs/banner_$third-party
+! merged into .php?zoneid=
+! /iml.php?zoneid=
+! /inc_ad_
+/informer-$third-party
+/informer.$third-party
+/informer/*$third-party
+/informer?$third-party
+/informer_$third-party
+/intellitxt-
+/intellitxt.
+/intellitxt/*
+/intellitxt?
+/intellitxt_
+/introMessageRedirect.
+|http:*/is_sc_$script
+|https:*/is_sc_$script
+/ivw/CP/*
+/jlisting-
+/jlisting.
+/jlisting/*
+/jlisting?
+/jlisting_
+|http:*/js.ng/
+|https:*/js.ng/
+! /js/ad-
+! /js/ad.
+! /js/ad/*
+! /js/ad?
+! /js/ad_
+/js/app/analytics/*
+/js/banner-
+/js/banner.
+/js/banner/*
+/js/banner?
+/js/banner_
+|http:*/js/dw.js
+|https:*/js/dw.js
+/js/google_banner.
+/js/omni-
+/js/omni.
+/js/omni/*
+/js/omni?
+/js/omni_
+! /js_ad_pop?
+/js_in_text_ads?
+! /js_overlay_ad?
+/kanasoku/9-
+/kanasoku*/at_side.
+/kanasoku/Live.
+/kanasoku/rss.
+/kokoku-
+/kokoku.
+/kokoku/*
+/kokoku?
+/kokoku_
+/koukoku-
+/koukoku.
+/koukoku/*
+/koukoku?
+/koukoku_
+/lcslog.$script
+/leaderboard_SWF
+/lg.php?bannerid=
+/lightningcast-
+/linkad-
+/linkad.
+/linkad/*
+/linkad?
+/linkad_
+/linkads-
+/linkads.
+/linkads/*
+/linkads?
+/linkads_
+/linkshare/*
+/linktracking.$script
+/listcollector/*$script
+/listingplus/*
+! /live_ad-
+! /live_ad.
+! /live_ad/*
+! /live_ad?
+! /live_ad_
+/LiveAds-
+/LiveAds.
+/LiveAds/*
+/LiveAds?
+/LiveAds_
+/load_lcs.$script
+/log1.
+/logimg-
+/logimg.
+/logimg/*
+/logimg?
+/logimg_
+/logwrite.$image
+/makePCookie_
+/marquee/*
+/matc.$script
+/media?mid=
+/mediaslot-
+/mediaslot.
+/mediaslot/*
+/mediaslot?
+/mediaslot_
+/meebo.$script
+/metrika/*
+/metrics-
+/metrics.
+/metrics/*
+/metrics?
+/metrics_
+/mobilead-
+/mobilead.
+/mobilead/*
+/mobilead?
+/mobilead_
+/mobileads-
+/mobileads.
+/mobileads/*
+/mobileads?
+/mobileads_
+/mouseoverTriggerHandle?
+/mtag_$third-party
+/munchkin.
+/myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
+/navad/delivery.
+/news_top_point_pr.
+/nielsen-
+/nielsen.
+/nielsen/*
+/nielsen_
+/nielsen_
+! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
+! /newzia/*
+/njoks_$script
+/null.$image
+/omn-js/*
+/omni-$script
+/omni.$script
+/omni/*$script
+/omni?$script
+/omni_$script
+/omniture-
+/omniture.
+/omniture/*
+/omniture?
+/omniture_
+/OmnitureActionSource.
+/omniturePlugin.
+/omniunih-
+/omniunih.
+/omniunih/*
+/omniunih?
+/omniunih_
+/omuniture/*
+! this cause javascript to stop: /oo/$domain=zai.diamond.jp
+/openx-
+/openx.
+/openx/*
+/openx?
+/openx_
+/overture-
+/overture.
+/overture/*
+/overture?
+/overture_
+/overtureAd.
+/OvertureSS.
+/owa.$script
+/p.e-words.jp/type
+/p_code.$script
+/pagead-
+/pagead.
+/pagead/*
+/pagead?
+/pagead_
+/pageKeywordClickHandle?
+/payclick-
+/payclick.
+/payclick/*
+/payclick?
+/payclick_
+/piwik.js
+/pixel?
+/pixel2.
+/playertracking/*
+! merged into .php?zoneid=
+! /pop.php?zoneid=
+/popad/*
+/popads/*
+/popunder-
+/popunder.
+/popunder/*
+/popunder?
+/popunder_
+/popunder2-
+/popunder2.
+/popunder2/*
+/popunder2?
+/popunder2_
+/popundr.
+! /popup/promotion-
+! /popup/promotion.
+! /popup/promotion/*
+! /popup/promotion?
+! /popup/promotion_
+/popwin_
+/ppvtrack.
+! |http:*/pr_ad-
+! |https:*/pr_ad-
+! |http:*/pr_ad.
+! |https:*/pr_ad.
+! |http:*/pr_ad/
+! |https:*/pr_ad/
+! |http:*/pr_ad?
+! |https:*/pr_ad?
+! |http:*/pr_ad_
+! |https:*/pr_ad_
+/pr_img-
+/pr_img.
+/pr_img/*
+/pr_img?
+/pr_img_
+/promo-
+/promo.
+/promo/*
+/promo?
+/promo_
+/promoPlayer.
+/promos/random-
+/promos/random.
+/promos/random/*
+/promos/random?
+/promos/random_
+/promoDisplay/*
+/promoted_content/*
+/promotion-
+/promotion.
+/promotion/*
+/promotion?
+/promotion_
+/promotions-
+/promotions.
+/promotions/*
+/promotions?
+/promotions_
+/quantcast-
+/quantcast.
+/quantcast/*
+/quantcast?
+/quantcast_
+/rakulog.$script
+/random_banner-
+/random_banner.
+/random_banner/*
+/random_banner?
+/random_banner_
+/RealMedia/*
+! /res/js/ad-
+! /res/js/ad.
+! /res/js/ad/*
+! /res/js/ad?
+! /res/js/ad_
+/retarget-
+/retarget.
+/retarget/*
+/retarget?
+/retarget_
+/retargeting-
+/retargeting.
+/retargeting/*
+/retargeting?
+/retargeting_
+! /right-ad-
+! /right-ad.
+! /right-ad/*
+! /right-ad?
+! /right-ad_
+/rss.$script,subdocument
+/rss1.$script,subdocument
+/rss2.$script,subdocument
+/rss3.$script,subdocument
+/rssblogroll.
+/run.php?user=$third-party
+/sa/infospace.
+/sbi_recommend.$script
+/sdc.js
+/sdc1.js
+/sdctag.$script
+/sdctag1.$script
+! /settings/ad.
+/sfga.$script
+/sgtracker.$script
+! /show_ad-
+! /show_ad.
+! /show_ad/*
+! /show_ad?
+! /show_ad_
+/show_ads-
+/show_ads.
+/show_ads/*
+/show_ads?
+/show_ads_
+/show_ads_impl.
+! False positive: No google custom search result. 2011-08-18
+! /show_afs_
+/showads-
+/showads.
+/showads/*
+/showads?
+/showads_
+! /side_ad-
+! /side_ad.
+! /side_ad/*
+! /side_ad?
+! /side_ad_
+/side_ads-
+/side_ads.
+/side_ads/*
+/side_ads?
+/side_ads_
+/side_bnn.
+/side_bnn1.
+/side_bnn2.
+/sideparts/b_joy_$image
+/sites/richscripts/*
+/sitestratos/ss_
+! /smart_ad/*
+/smate.html$subdocument
+/snare.js
+/sOmni.
+/sponsor-
+/sponsor.
+/sponsor/*
+/sponsor?
+/sponsor_
+/sponsored-
+/sponsored.
+/sponsored/*
+/sponsored?
+/sponsored_
+/sponsors-
+/sponsors.
+/sponsors/*
+/sponsors?
+/sponsors_
+! Commented out to avoid false positives on static: 2011-09-07
+! /stat-
+! /stat.$domain=~ameblo.jp|~ameba.jp
+! /stat/*
+! /stat_
+/statcounter.$~image
+/statisticsPlugin.
+/sujqori.
+/swf_flv_play_pre.$object
+! /t2cn_ad.
+/teaser-$third-party
+/teaser.$third-party
+/teaser/*$third-party
+/teaser?$third-party
+/teaser_$third-party
+/teasers-$third-party
+/teasers.$third-party
+/teasers/*$third-party
+/teasers?$third-party
+/teasers_$third-party
+! /text_ad-
+! /text_ad.
+! /text_ad/*
+! /text_ad?
+! /text_ad_
+/text_ads-
+/text_ads.
+/text_ads/*
+/text_ads?
+/text_ads_
+/textad-
+/textad.
+/textad/*
+/textad?
+/textad_
+/textads-
+/textads.
+/textads/*
+/textads?
+/textads_
+/tieup-
+/tieup.
+/tieup/*
+/tieup.
+/tieup.
+/tii_ads.$script
+/tirjs2.$script
+/tizers-
+/tizers.
+/tizers/*
+/tizers?
+/tizers_
+/tizers2-
+/tizers2.
+/tizers2/*
+/tizers2?
+/tizers2_
+/toolbar/popup/*
+/top_bnn.
+/trackalyze.$script
+/trackingAffilies.
+/TrafficBroker/*
+/trans_pixel.
+/trustclick-
+/trustclick.
+/trustclick/*
+/trustclick?
+/trustclick_
+! /txt_ad-
+! /txt_ad.
+! /txt_ad/*
+! /txt_ad?
+! /txt_ad_
+/txt_ads-
+/txt_ads.
+/txt_ads/*
+/txt_ads?
+/txt_ads_
+/udctrack.
+/uds/api/ads/*
+/uds/stats?
+/urchin-
+/urchin.
+/urchin/*
+/urchin?
+/urchin_
+/userad.
+/utag.$script
+/view.gif?
+/view.png?
+/views.gif?
+/views.png?
+/vis_opt.$script
+/wanalytics-
+/wanalytics/*
+/webtrack.
+/webtrends-
+! Added to avoid false positives at logicool.co.jp . It does NOT have appropriate error handling. This end in "dcsMultiTrack is not defined "...
+/webtrends.$domain=~logicool.co.jp
+/webtrends/*
+/webtrends?
+/webtrends_
+/webtrendsasync.$script
+/webtrendsscript.$script
+/window_pop.$script
+/wiredv-
+/wiselog/*
+/wmcaudit.$script
+! /wsl_ad_
+/wtbase.$script
+/wtinit.$script
+/www/delivery/*
+/X_Store/*$script
+/xgemius.
+/xtclicks.$script
+/xtcore.$script
+/yim.$script,subdocument
+/ystat.
+/ywa.$script
+/zone?zid=
+|http:*=ad&
+|https:*=ad&
+=adtext.
+=advertisement&
+=INSERT_RANDOM_NUMBER_HERE|
+=INSERT_RANDOM_NUMBER_HERE&
+=OXM_
+|http:*?ad-
+|https:*?ad-
+|http:*?ad.
+|https:*?ad.
+|http:*?ad/
+|https:*?ad/
+|http:*?ad=
+|https:*?ad=
+|http:*?ad?
+|https:*?ad?
+|http:*?ad_
+|https:*?ad_
+! ?ad_size=
+! ?ad_type=
+! ?ad_unit=
+?adpds_
+?AdPlan=
+?adsize=
+?adslot=
+?adsource-
+?adsource.
+?adsource/
+?adsource?
+?adsource_
+?adunitid=
+?advertiser=
+?advTile=
+?affid=
+?affiliate-
+?affiliate.
+?affiliate/
+?affiliate?
+?affiliate_
+?analytics-
+?analytics.
+?analytics/
+?analytics?
+?analytics_
+?banner_link=
+?banner_url=
+?clickTAG=
+?file=ads&
+?id_promo=
+?mediaslot=
+?metric=
+?promo_type=
+?referer=$image,script
+?retarget-
+?retarget.
+?retarget/
+?retarget_
+?retargeting-
+?retargeting.
+?retargeting/
+?retargeting_
+?trackid=$third-party
+! ?view=ad&
+|http:*_ad-
+|https:*_ad-
+|http:*_ad.
+|https:*_ad.
+|http:*_ad/
+|https:*_ad/
+|http:*_ad?
+|https:*_ad?
+|http:*_ad_
+|https:*_ad_
+! _ad.jsp?
+! _ad.jsp|
+! _ad.ptv?
+! _ad_agency_
+! _ad_leaf.$script
+! _ad_loader.$script
+! _ad_statistics-
+! _ad_statistics.
+! _ad_statistics/
+! _ad_statistics?
+! _ad_statistics__adagency/
+_AdPlugin-
+_AdPlugin.
+_AdPlugin/
+_AdPlugin?
+_AdPlugin_
+_ads-
+_ads.
+_ads/
+_ads?
+_ads_
+_adsource-
+_adsource.
+_adsource/
+_adsource?
+_adsource_
+_adv_img/
+_adv_imgs/
+_affiliate-
+_affiliate.
+_affiliate/
+_affiliate?
+_affiliate_
+_amazontcg_
+_analytics-
+_analytics.
+_analytics/
+_analytics?
+_analytics_
+_beacon-
+_beacon.
+_beacon/
+_beacon?
+_beacon_
+_clickforce_
+_comscore-
+_comscore.
+_comscore/
+_comscore?
+_comscore_
+_customads_
+_google_afc-
+_google_afc.
+_google_afc/
+_google_afc?
+_google_afc_
+_gtracking.$script
+_iframeBanner-
+_iframeBanner.
+_iframeBanner/
+_iframeBanner?
+_iframeBanner_
+_metrics-
+_metrics.
+_metrics/
+_metrics?
+_metrics_
+_omniture-
+_omniture.
+_omniture/
+_omniture?
+_omniture_
+_overture-
+_overture.
+_overture/
+_overture?
+_overture_
+! _request_ad.
+_retarget-
+_retarget.
+_retarget/
+_retarget?
+_retarget_
+_retargeting-
+_retargeting.
+_retargeting/
+_retargeting?
+_retargeting_
+_showad-
+_showad.
+_showad/
+_showad?
+_showad_
+_showads-
+_showads.
+_showads/
+_showads?
+_showads_
+_sponsor_
+_sponsor.
+_sponsor/
+_sponsor?
+_sponsor_
+_sponser.
+_sponser1.
+_sponser2.
+_sponser3.
+_sponser4.
+_sponser5.
+_sponser6.
+_sponser7.
+_sponser8.
+_sponser9.
+_sponsored-
+_sponsored.
+_sponsored/
+_sponsored?
+_sponsored_
+! Commented out to avoid false positives on static: 2011-09-07
+! _stat-
+! _stat.
+! _stat/
+! _stat_
+||ad-cdn.
+|http://ad.
+|https://ad.
+||ad1.
+||ad2.
+||ad3.
+||ad4.
+||ad5.
+||ad6.
+||ad7.
+||ad8.
+||ad9.
+||adcl.
+||adimg.
+||ads.
+||ads1.
+||ads2.
+||adserver.
+||adserving.
+||adv.
+||aff-images.
+||analysis.$third-party
+||analytics.$third-party
+||beacon.
+|http://c.*/c.$image
+|https://c.*/c.$image
+||displayads.
+||dosugcz.
+||eulerian.
+||hitlog.
+||iad.
+||kanasoku.*/thumb/
+||krxd.
+||log0.
+||mads.
+||maxymiser.$third-party
+||metrics.
+||ocp.
+||openadext.
+||phpadsnew.
+||reklama.
+||reklame.
+||reklamer.
+||smetrics.
+! Commented out to avoid false positives on static: 2011-09-07
+! ||stat.$domain=~ameblo.jp|~ameba.jp
+||surveys.$third-party
+||utm.
+! ---------- URL Fragments END ----------
+! 
+! ########## Domain optionally with path START ##########
+||80.77.113.200^
+||203.86.249.80^
+||210.135.99.84^
+||210.155.151.148^
+||0info.net^$third-party
+||0pb.org^
+||103092804.com^
+||10clicks.com^$third-party
+||1133.cc^$third-party
+||123compteur.com^$third-party
+||12no3.com^
+||1channel.ch/pop.$script
+||20serve.com^
+||22no3.com^
+||247realmedia.com^$third-party
+||24log.ru^$third-party
+||24smile.net^$third-party
+||24smile.org^$third-party
+||count.2ch.net^$~image
+||find.2ch.net/*_banner_
+||2leep.com^$third-party
+||2mdn.net^$third-party
+||2o7.net^$third-party
+||3393.com^
+||33across.com^$third-party
+||360yield.com^$third-party
+||365ip.info^$third-party
+||37see.com^$third-party
+||3gl.net^
+||47news.jp/js/randam_
+||track.47news.jp^
+||4allclick.ru^
+||5068.com^$third-party
+||users.51.la^
+||51yes.com^$third-party
+||565882.com^$third-party
+|http://i1.6.cn^
+||600z.com^$third-party
+||6dad.com^$third-party
+||711av.com^$third-party
+||77tracking.com^$third-party
+||777town.net^$popup
+||88210212.com^
+||888.com^$popup
+||888poker.com^$popup
+||8cnd.com^$third-party
+||99widgets.com/counters/
+||a-cast.jp^
+||a-pagerank.net^$third-party
+||a-q-f.com/openpc/yim.
+||a-static.com^
+||a433.com^$third-party
+||a8.net^$third-party
+||a9.com^$third-party
+||about.co.kr^$third-party
+||acces-charme.com^$third-party
+||accessport.jp^$third-party
+||accesstrade.net^$third-party
+||acnt.biz^$third-party
+||acs86.com^
+||actinside.com^
+||activecore.jp^$third-party
+||acwebconnecting.com^$third-party
+||ad-cloud.jp^$third-party
+||ad-hatena.jp^
+||ad-link.jp^$third-party
+||ad-maker.info^
+||ad-mastering.net^
+||ad-recommend.com^
+||ad-trak2.jp^$third-party
+||web-jp.ad-v.jp^
+||ad-ya.net^
+||ad.nttnavi.co.jp^
+||ad1.ru^$third-party
+||ad2games.com^$third-party
+||ad4game.com^$third-party
+||ad6media.fr^$third-party
+||adadvisor.net^$third-party
+||adap.tv^$third-party
+||adaptiveblue.com^
+||adblade.com^$third-party
+||adbrite.com^$third-party
+||adbull.com^$third-party
+||adbutterfly.com^$third-party
+||adcash.com^$popup,third-party
+||adcentriconline.com^$third-party
+||adchemical.com^$third-party
+||adcolo.com^$third-party
+||addfreestats.com^$third-party
+||adecn.com^$third-party
+||adedy.com^$third-party
+||ademails.com^$third-party
+||adengage.com^$third-party
+||adf.ly^$third-party
+||adforce.ru^$third-party
+||adform.net^$third-party
+||adfox.ru^$third-party
+||adhai.com^$third-party
+||adimg.net^
+||adingo.jp^$third-party
+||adinterax.com^$third-party
+||adition.com^$third-party
+||adition.net^$third-party
+||adjuggler.com^$third-party
+||adjuggler.net^$popup
+||adjust-net.jp^$third-party
+||adjustnetwork.com^$third-party
+||adkontekst.pl^$third-party
+||adlantis.jp^$third-party
+||adlegend.com^$third-party
+||admagnet.net^$third-party
+||admaxasia.com^
+||admeld.com^$third-party
+||admitad.com^$third-party
+||admixer.net^$third-party
+||admob.com^$third-party
+||admoon.net^$third-party
+||admulti.com^$third-party
+||adnetwork.net^$third-party
+||adnetwork.vn^
+||adnetworks.co.jp^$third-party
+||adnetxchange.com^
+||adnxs.com^$third-party
+||adobe.com^*/deeppurple.$script
+||adonweb.ru^$third-party
+||adotic.com^$third-party
+||adotube.com^$third-party
+||adpath.net^$third-party
+||adperium.com^$third-party
+||adplan-ds.com^$third-party
+||adreactor.com^$third-party
+||adresult.jp^$third-party
+||adrevolver.com^$third-party
+||adriver.ru^$third-party
+||adrock.com.ua^
+||adrocketmedia.com^
+||adroll.com^$third-party
+||adsbookie.com^$third-party
+||adsbro.com^
+||adscale.de^$third-party
+||adserve.com^$third-party
+||adserverplus.com^
+||adserverpub.com^$third-party
+||adsfac.eu^$third-party
+||adsfac.net^$third-party
+||adsfac.sg^$third-party
+||adsfac.us^$third-party
+||adshuffle.com^$third-party
+||adskape.ru^$third-party
+||adsmarket.com^
+||adsonar.com^$third-party
+||adsupply.com^$third-party
+||adsurve.com^
+||adsyst.biz^
+||adtech.de^$third-party
+||adtechus.com^$third-party
+||adtracker.jp^
+||adultadworld.com^$third-party
+||adultfriendfinder.com^$third-party
+||adultrewardsurvey.com^$popup,third-party
+||adurr.com^
+||adv-adserver.com^$third-party
+||advenueplatform.com^$third-party
+||adversalservers.com^$third-party
+||advertisespace.com^$third-party
+||advertising.com^$third-party
+||advertpay.net^
+||advertserve.com^$third-party
+||advertstream.com^$third-party
+||advg.jp^$third-party
+||advinea.com^$third-party
+||adviva.net^$third-party
+||advmaker.ru^$third-party
+||adwires.com^$third-party
+||adwolf.ru^$third-party
+||adxpansion.com^$third-party
+||adxpose.com^$third-party
+||aebn.net^$third-party
+||aeriagames.com^$popup
+||af-board.com^$third-party
+||af-market.com^$third-party
+||af-system.net^$third-party
+||afdads.com^
+||affarity.com^
+||affbuzzads.com^
+||affilcenter.com^$third-party
+||affiliate-b.com^$third-party
+||affiliation-france.com^$third-party
+||affinity.com^$third-party
+||affinitymatrix.com^
+||afilio.com.br^
+||afpbb.com/*/banner
+||a-img.afpbb.com^
+||afterdownload.com^$third-party
+||agift-ad.com^$third-party
+||agilemedia.jp^$third-party
+||agoda.com^$popup
+||agri-biz.jp^*banner
+||imp.aiasahi.jp^
+||alc.co.jp/content/js/alcom/
+||alc.co.jp/content/js/eow_infobar_
+||alc.co.jp/content/js/sa/
+||alc.co.jp/content/js/mc.
+||aldaniti.net^$third-party
+||alexa.com^$third-party
+||alexametrics.com^$third-party
+||alfalfalfa.com/headline$subdocument
+||alianzis.com^$third-party
+||alibaba.com^$third-party
+||alimama.cn^$third-party
+||allabout.co.jp/js/gm/
+||allabout.co.jp/js/mtx/
+||allabout.co.jp/Live/alliance/
+||allabout.co.jp/pts/js/
+||smart.allocine.fr^
+||smart2.allocine.fr^
+||allosponsor.com^$third-party
+||allyes.com^$third-party
+||am10.ru^$third-party
+||am11.ru^$third-party
+||am12.ru^
+||amalily.com^
+||amazon.co.jp/aan/
+||amazon.com/aan/
+||rcm*.amazon.$third-party
+||ws.amazon.$third-party
+||sis.amazon.com^
+||amazonaws.com/*.cetrk.com/
+||load.s3.amazonaws.com^
+||amazon-cornerstone.com^
+||ameba.jp/common_style/js/user/dropdown*$script
+||act.ameba.jp^
+||ad.ameba.jp^
+||adsafe.fr^
+||adstatic.ameba.jp^
+||spstatic.ameba.jp^
+||vc.ameba.jp^
+||ameblo.jp/accesslog/
+||amiami.jp^$third-party
+||amimg.net^
+||amung.us/pingjs/
+||widgets.amung.us/pro.$script
+||anchorfree.net^$third-party
+||anisen.biz^$third-party
+||anisen.tv^$third-party
+||anisen.tv^*/import_insert.$script
+||anonym.to^$third-party
+||antevenio.com^$third-party
+||antventure.com^
+||anuntis.info^
+||aolcdn.com/ads/
+||aolcdn.com/js/mg1.$script
+||aolcdn.com/js/mg2.$script
+||aondenamoro.com^
+||metrics.apple.com^
+||securemetrics.apple.com^
+||apple.com/metrics/
+||apicit.net^
+||apmebf.com^
+||apmmedia.net^$third-party
+||applelinkage.com/js/banner
+||applieda.com^
+||apserver.net^$third-party
+||aqtracker.com^
+||artemisweb.jp/sall.$script
+||adnet.asahi.com/ad/
+||imp.asahi.com^
+||ad.ascii.jp^
+||asciimw-apis.jp/lpo/
+||asciimw-apis.jp/ut/
+||aseadnet.com^$third-party
+||assoc-amazon.$third-party
+||assurland.com^$third-party
+||atdmt.com^$third-party
+||atemda.com^
+||atinternet.com^$third-party
+||ationnet.co.kr^$third-party
+||ationnet.com^$third-party
+||atmarkit.co.jp/ad/
+||atmarkit.co.jp^*/sa.$script
+||atmarkit.co.jp^*/sa_*.$script
+||atomz.com^$third-party
+||atwola.com^
+||ac.auone-net.jp/~thumb/
+||autoblog.com/traffic/
+||autocentre.ua^$third-party
+||automatic-link.net^
+||av-comparatives.org/images/banners/
+||avazu.net^
+||avazudsp.net^$third-party
+||aweber.com^
+||awempire.com^$third-party
+||axf8.net^
+||ad.axyzconductor.jp^
+||azet.sk^$third-party
+||azjmp.com^$popup
+||b-click.net^$third-party
+||babelzilla.org^*-powerfox.
+||babelzilla.org^*/addonfox-
+||babelzilla.org^*/addonfox_
+||babelzilla.org^*/powerfox-
+||ua.badongo.com^
+||cb.baidu.com^
+||cbjs.baidu.com^
+||cpro.baidu.com^
+||drmcmm.baidu.com^
+||eclick.baidu.com^
+||hm.baidu.com^
+||pos.baidu.com^
+||wm.baidu.com^
+||ban-ban-boin.com^$popup
+||bandoo.com^$popup
+||bangluck.co.jp/blog-parts/
+||bannerbank.ru^$third-party
+||bannerbridge.net^$third-party
+||ad.bannerconnect.net^
+||banner-server.info^$third-party
+||banner-typemessage.com^$third-party
+||bannuncio.com^
+||bazaarvoice.com^$third-party
+||bb-static.com^
+||visualscience.external.bbc.co.uk^
+||stats.bbc.co.uk^
+||bbchat.tv^$third-party
+||bbelements.com^$third-party
+||beanscattering.jp^
+||become.co.jp^$third-party
+||beead.fr^$third-party
+||beencounter.com^$third-party
+||beezik.com^$third-party
+||beezup.com^$third-party
+||begun.ru^$third-party
+||belboon.com^$third-party
+||belboon.de^
+||benaughty.com^$third-party
+||besonders.ru^$third-party
+||bidvertiser.com^$third-party
+||bigbord.net^$third-party
+||biglion.ru^$third-party
+||biglobe.ne.jp/affiliate/
+||biglobe.ne.jp/beacon/
+||biglobe.ne.jp/img/bn/
+||go.biglobe.ne.jp^
+||bigmir.net^$third-party
+||bing.com/c.$image
+||bing.com/fd/ls/
+||binlayer.com^$third-party
+||binmedia.ru^$third-party
+||bitocean.info^
+||bizographics.com^$third-party
+||bkrtx.com^
+||blackcherry.jp^$third-party
+||blehar.com^$third-party
+||blinkdr.com^$third-party
+||blinkosplash.com^
+||blocam.jp^$third-party
+||blogabouthis.com^$popup
+||blogads.com^$third-party
+||blogbang.com^$third-party
+||blogclick.jp^
+||blogimg.jp/hamusoku-occult/imgs/*.gif
+||blogmura.com^$third-party
+||blogpeople.net^$third-party
+||blogranking.net^$third-party
+||blogtoy.net^$third-party
+||blomotion.jp^$third-party
+||blogpeople.net^$third-party
+||blogpeta.jp^$third-party
+||blogroll.livedoor.net^
+||blogupp.com^$third-party
+||bloomberg.co.jp/jscommon/RBBJ.$script
+||blue-cloud.net^$third-party
+||bluekai.com^$third-party
+||bluelithium.com^
+||bmmetrix.com^
+||bmnq.com^
+||bnx.me^$third-party
+||bonzai-life.com^$third-party
+||boo-box.com^$third-party
+||boyfriendtv.com^$third-party
+||brandreachsys.com^$third-party
+||brazzers.com^$third-party
+||brightcove.com/1pix.
+||brilig.com^$third-party
+||brothersoft.com^$third-party
+||brothersoft.jp^$third-party
+||brucelead.com^
+||btbuckets.$third-party
+||bubblestat.com^$third-party
+||buonisconto.it^$popup
+||burstnet.com^$third-party
+||bus-t.com^$third-party
+||buysellads.com^$third-party
+||buzzfed.com^
+||buzzfeed.com^$third-party
+||c-team.jp^$third-party
+||c8.net.ua^$third-party
+||ca-mpr.jp^
+||gostats.cachefly.net^
+||camads.net^$third-party
+||camdefolie.com^$popup
+||campeut.com^
+||captainad.com^$third-party
+||caribbeancom.com^$third-party
+||caribbeancomgirl.com^$third-party
+||carview.co.jp/*_super_banner.
+||cwps.carview.co.jp^
+||casalemedia.com^$third-party
+||cashtrafic.com^$third-party
+||casino.com^$popup
+||cbox.ws^$third-party
+||file.cbs.co.kr^
+||nad.cbs.co.kr^
+||cbsinteractive.com/plugins/adp/
+||cdn-image.com^
+||cedexis.com^$third-party
+||celebros-analytics.com^
+||cellcastmedia.com^$third-party
+||cetrk.com^
+||chango.com^$third-party
+||chartbeat.com^$third-party
+||checkm8.com^$third-party
+||cheernuts.com^$third-party
+||log.china.cn^
+||chitika.com^$third-party
+||chitika.net^
+||chobirich.com^$third-party
+||choi-m.com^$third-party
+||log.chosunjns.com^
+||ad.chosunonline.com^
+||cleanprint.net^
+||click2cash.lt^$third-party
+||clickability.com^$third-party
+||clickanalyzer.jp^$third-party
+||clickbank.net^
+||clickdensity.com^$third-party
+||clickequations.net^$third-party
+||clickotmedia.com^$third-party
+||clickozavr.com^$third-party
+||clickreport.com^$third-party
+||clicksor.com^$third-party
+||clicktale.net^$third-party
+||clicktrace.info^
+||clicktracks.com^$third-party
+||clicmanager.fr^$third-party
+||np7beacon.cloudapp.net^
+||cloudfront.net^*/storage.$object
+||club-ama.com^$third-party
+||cmcore.com^$third-party
+||mads.cnet.com^
+||cnxad.com^$third-party
+||cnzz.com^$third-party
+||coadvertise.com^$third-party
+||analytics.cocolog-nifty.com^
+||ax*.cocolog-nifty.com^
+||log*.cocolog-nifty.com^
+||collective-media.net^
+||adlog.com.com^
+||ads.com.com^
+||dw.com.com^$third-party
+||dw-eu.com.com^$third-party
+||img.com.com/b.$image
+||rok.com.com^
+||com-net.info^$popup
+||comclick.com^
+||compete.com^$third-party
+||computerworld.jp/cgi-bin/pa?r=
+||comscore.com^$third-party
+||con-v.jp^$third-party
+||conduit-banners.com^
+||conism.com^$third-party
+||contentabc.com^
+||contentlink.co.kr^$third-party
+||contextweb.com^$third-party
+||conversionruler.com^$third-party
+! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
+! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
+! => Commented out whitelists above because these false positives has gone, somehow 2011-10-11
+! Another false positives at ustream.tv , reported via Issue Report 2011-12-09
+! => Resolved with the past commented out whitelists above 2011-12-09
+||conviva.com^$third-party
+||livepass.conviva.com^
+||boxz.cools4u.com^
+||coremetrics.com^$third-party
+||kanasoku*.coreserver.jp^$third-party
+||cosaji.jp^$third-party
+||countby.com^
+||counter-hosting.com^$third-party
+||countomat.com^$third-party
+||cpalead.com^$third-party
+||cpm360.com^$third-party
+||cpmstar.com^$third-party
+||cpxadroit.com^$third-party
+||cpxinteractive.com^$third-party
+||crazylead.com^$third-party
+||creafi-online-media.com^$third-party
+||creamu.com^*rsswidget.
+||criteo.com^$third-party
+||criteo.net^
+||cross-a.net^$third-party
+||crosspixel.net^$third-party
+||crowdscience.com^$third-party
+||cruiseflorida.com^$third-party
+||crwdcntrl.net^
+||crystalmark.info/images/banner/
+||csolution.jp^$third-party
+||cszz.ru^
+||custom-click.com^$third-party
+||custom-click.net^$third-party
+||cxense.com^$third-party
+||cyber-traffic.net^$third-party
+||cybermedia.com.vn^$third-party
+||cybermonitor.com^
+||cyberwing.co.jp^$third-party
+||ad.cyzo.com^
+||d-064.com^$third-party
+||actracer.daiwahouse.co.jp^
+||d03x2011.com^
+||daccroi.com^
+||dafferes.com^
+||dailymotion.com*/masscast/
+||dailymotion.com/behavior/
+||dailymotion.com/history/
+||dailymotion.com/logger/
+||dailymotion.com/sense/
+||dailymotion.com/track/
+||sense.dailymotion.com^
+||dailyvideorewards.com^$popup
+||dapper.net^
+||data-ero-advertising.com^
+||datefree.com^$third-party
+||datingfactory.com^$third-party
+||daum.net^$third-party,subdocument
+||ddestiny.ru^$third-party
+||dealply.com^$third-party
+||dedicatedmedia.com^$third-party
+||dedicatednetworks.com^$third-party
+||demandbase.com^$third-party
+||demdex.net^$third-party
+||depositfiles.com/js/df_utils.$script
+||depositfiles.com/js/gold_offer.$script
+||deqwas.net^
+||deteql.net^
+||diamond.jp^*/welcome.$script
+||zai.diamond.jp/oo/
+||directadvert.ru^$third-party
+||direction-x.com^$third-party
+||dismas.jp^$third-party
+||displaymarketplace.com^
+||dl-rms.com^$third-party
+||dlqm.net^$third-party
+||dlsite.com^$third-party
+! False positives at dailymotion.com reported via Issue Report 2011-11-30
+! ||dmcdn.net/flash/dmplayer*/plugins/
+||dmm.co.jp^$domain=~dmm.co.jp|~dmm.com
+||dmtracker.com^$third-party
+||dn888.com^
+||dimestore.com^
+||docodoco.jp^$third-party
+||adapp.doko.jp^
+||ads.doko.jp^
+||match.doko.jp^
+||domainadvertising.com^$third-party
+||domdex.com^
+||doogleonduty.com^
+||doook.com^
+||dotomi.com^$third-party
+||doubleclick.net^$third-party
+||doublepimp.com^$third-party
+||doubleverify.com^$third-party
+||ad4u.drecom.jp^
+||rss.drecom.jp/*banner/$third-party
+||dropdowndeals.com^$third-party
+||drowle.com^
+||dt00.net^
+||dt03.net^
+||dt07.net^
+||dt08.net^
+||dti-ranker.com^$third-party
+||analyzer*.dtiblog.com^
+||dtiserv.com^$third-party
+||dtiserv2.com^
+||dtmp.jp^
+||dtmpub.com^$third-party
+||dtriot.com^
+||duga.jp^$third-party
+||dukascopy.com/ad
+||durasite.net^$third-party
+||dxlive.com^$third-party
+||e-nls.com^$third-party
+||e-pagerank.net^$third-party
+||e-planning.net^$third-party
+||e-words.jp/adcom.
+||ad.e-words.jp^
+||eads.to^$third-party
+||ebis.ne.jp^$third-party
+||ebuzzing.com^$third-party
+||ecnavi.jp/campaign/$third-party
+||eco-tag.jp^
+||edenflirt.com^$third-party
+! Commented out to avoid false positives with ooyala.com embeded movie player at jp.techcrunch.com 2011-10-17
+! ||edgefcs.net^
+||yieldmanager.edgesuite.net^$third-party
+||edomz.com^$third-party
+||effectivemeasure.net^$third-party
+||effiliation.com^$third-party
+||egooad.com^$third-party
+||adingo.jp.eimg.jp^
+||ekitan.com/eco/
+||log.ekitan.com^
+||elekted.com^
+||eloqua.com^$third-party
+||email-match.com^$third-party
+||emv2.com^
+||endless.com^$third-party
+||enfreine.com^
+||enquisite.com^$third-party
+||ensighten.com^$third-party
+||enterfactory.com^$popup
+||ero-advertising.com^$third-party
+||ero-tube.jp^$third-party
+||esdizi.com^
+||esearchvision.com^$third-party
+||esecure-transaction.com^
+||estara.com^
+||estat.com^$third-party
+||etology.com^$third-party
+||etoyota.net/include/js/measurementBeacon.$script
+||etoyota.net/measurement/
+||etracker.com^
+||etracker.de^
+||eurogrand.com^$popup
+||everestjs.net^
+||evidon.com^
+||ewoss.net^$third-party
+||rep.exblog.jp^
+||exchangecash.de^$third-party
+||excite.co.jp/jp/ad/
+||excite.co.jp/jp/asi/
+||excite.co.jp/search/combined/
+||excite.co.jp/search/popular_keywords/feed/
+||excite.co.jp/search/popular_keywords_world/feed/
+||adimp.excite.co.jp^
+||adimpkwd.excite.co.jp^
+||nc-log.excite.co.jp^
+||p4p.excite.co.jp^
+||exelator.com^
+||exgfnetwork.com^
+||exoclick.com^$third-party
+||exoplanetwar.com^$third-party
+||exponential.com^$third-party
+||extreme-dm.com^
+||eyewonder.com^$third-party
+||ezbbs.net/*/sample*/img/
+||ezwebcam.com^$popup
+||facebook.com/ai.php?
+||facebook.com/plugins/recommendations.
+||facebookofsex.com^$third-party
+||fairfax.com.au^$third-party
+||fastclick.net^
+||fastpic.ru^$third-party
+||tracking.fathomseo.com^
+||fc2.com^*/random.$script
+||fc2.com^*janre.$script
+||fc2.com/ad/
+||fc2.com/ana/
+||fc2.com/ana2/
+||fc2.com/analyze.$script
+||fc2.com/fc2se.$script
+||fc2.com/footer/footer.php?
+||fc2.com/header.php?
+||fc2.com/image/powered
+||fc2.com/pv.$image
+||affiliate.fc2.com^
+||analyzer*.fc2.com*/ana/
+||analyzer*.fc2.com/analyzercook.
+||counter*.fc2.com^$~image
+||media.fc2.com^
+||media3.fc2.com^
+||featuredusers.com^$third-party
+||feedjit.com^$third-party
+||fetchback.com^$third-party
+||fidel.to^$popup,third-party
+||promo.fileforum.com^
+! The following filter blocks banner change showing CAPTCHA. JavaScript is required. Dec 16, 2011
+! ||fileserve.com/script/bannerTimer.$script
+||filesonic.com/images/banners/
+||fimserve.com^
+||financialcontent.com^$third-party
+||find-a.jp^$third-party
+||fivecool.tv^
+||flashmediaportal.com^
+||flashtalking.com^$third-party
+||fliks.net^$third-party
+||flirt4free.com^$third-party
+||fmpub.net^$third-party
+||fnac.com^$third-party
+||focus-marketing.net^$third-party
+||follolin.com^$third-party
+||ads.forbes.com^
+||formatdynamics.com^$third-party
+||fotocash.ru^$third-party
+||fotostrana.ru^$third-party
+||fout.jp^$third-party
+||foxadd.com^
+||foxnetworks.com^
+||fpcclicks.com^
+||free-porn-vidz.com^
+||freedownloadsoft.net^
+||freett.com/_Freett/
+||banners.freett.com^
+||freenew.net/res/img/app-logo/
+||relart.fresheye.com^
+||friendlyduck.com^$third-party
+||fukugan.com^$third-party
+||funwebproducts.com^
+||fusionads.net^$third-party
+||fwmrm.net^
+||gambling-france.com^$third-party
+||game-advertising-online.com^$third-party
+||game8.vn^$third-party
+||gameforge.de^$third-party
+||garss.jp^$third-party
+||garss.tv^$third-party
+||gaug.es^$third-party
+||gde.ru^$third-party
+||gekimedia.net^
+||gemius.pl^
+||gendai.net/img/banner/
+||gestionpub.com^$third-party
+||getchu.com/*banner^
+||getclicky.com^$third-party
+||getiton.com^$popup,third-party
+||gigafree.net/ga.$script
+||gigazine.asia^
+||gigya.com^$third-party
+||girlsteachsex.com^$third-party
+||glam.com^$third-party
+||glam.jp^$third-party
+||glam.co.jp^$third-party
+||glammedia.com^$third-party
+||b.gnavi.co.jp^
+||site.gnavi.co.jp^
+||goallurl.ru^
+||goo.ne.jp/log/
+||ad.goo.ne.jp^
+||log000.goo.ne.jp^
+||x.goo.ne.jp^
+||x5.goo.ne.jp^
+||goodadvert.ru^$third-party
+||goodsbrowser.com^
+! False positive: No google custom search result. 2011-08-18
+! ||google.co*/afsonline/
+! false positive 2011-02-26: ||google.co*/realtimepts?
+||id.google.co*/verify/
+||video-stats.video.google.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagservices.com^
+||gostats.com^$third-party
+||gpotato.eu^$popup
+||gravure-dvd.net^
+||gremz.com^$third-party
+||groupon.jp/jb/javascript/lib/thickbox.$script
+||csi.gstatic.com^
+||gumgum.com^$third-party
+||gunggo.com^$third-party
+||guzeloyunlar.web.tr^$third-party
+||gyutto.jp/data/*banner_img^$third-party
+||adcreative.hangame.co.jp^
+||hardsextubepremium.com^$third-party
+||harrenmedianetwork.com^$third-party
+||ad.hatena.ne.jp^
+||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
+||red.hatena.ne.jp^
+||red3.hatena.ne.jp^
+||track.hatena.ne.jp^
+||hatid.com^
+||hazecash.com^$third-party
+||hebdotop.com^$third-party
+||heias.com^
+||oas.heise.de^
+||rl.heise.de^
+||heroclick.cn^$third-party
+||hey.lt^$third-party
+||heyos.com^$third-party
+||hikiwake.com^
+||himawari-group.co.jp^$popup
+||himawari-group.co.jp/ad/
+||histats.com^$third-party
+||hit-parade.com^$third-party
+||hit-sales.ru^$third-party
+||hitomedia.jp/GT/
+||hitslink.com^$third-party
+||hlwan.net^$popup
+||hoerbuch.in^
+||holder.com.ua^$third-party
+||hongfire.com/banner/
+||hotmatch.com^$third-party
+||hotpepper.jp^$third-party
+||houmekredit.ru^
+||gigazine1.hoster.jp/images/2
+||analytics.hosting24.com^
+||hotlog.ru^$third-party
+||d.href.asia^
+||huagu.com^$third-party
+||hubspot.com^$third-party
+||hulu.*/cram.
+||hulu.*/gc?
+||hulu.*/guid.
+||hulu.*/vc.
+||hulu.*/viewed/
+||t-ak.hulu.com^
+||t2.hulu.com^
+||huluim.com/images/_.$image
+||hunt4tunes.com^$popup
+||hurra.com^$third-party
+||hyperion.gawker.com^
+||hyperpromote.com^
+||i-mobile.co.jp^$third-party
+||i-nature.net^$third-party
+|http://*.i.ua^$third-party
+||i2i.jp^$third-party
+||i2idata.com^$third-party
+||i2iserv.com^$third-party
+||ib-ibi.com^$third-party
+||icqadvert.org^$third-party
+||ideaxidea.com/*_banner.
+||idol-gallery.net^$third-party
+||iesnare.com^
+||iforex.com^$third-party
+||ign-omy.com^
+||ads.ign.com^
+||atax.ign.com^
+||ubt.ign.com^
+||wrapper.ign.com^
+||iicdn.com^
+||iida.jp^*blogparts/
+||iivt.com^
+||ilivid.com^$popup
+||illyx.com^$third-party
+||iloveyouxi.com^$popup
+||im2-tub.com^
+||imagedunk.com/hiokax_
+||imageporter.com^$third-party
+||images4us.com^
+||imageshack.us^$third-party
+||imagetwist.com^$third-party
+||imagevenue.com/interstitial.
+||imdb.com^*/scriptloader.
+||imdb.com/rd/
+||imgchili.com^*/showa.$script
+||imgfarm.com^
+||imlive.com^$third-party
+||impact-ad.jp^$third-party
+||impresionesweb.com^$third-party
+||ngs.impress.co.jp^
+||ad.watch.impress.co.jp^
+||ad.impressbm.co.jp^
+||impromot.com^
+||imrworldwide.com^$third-party
+||in-text.jp^
+||industrybrains.com^$third-party
+||inedomedia.com^$third-party
+||info-style.co.jp^$third-party
+||infolinks.com^$third-party
+||informer.com^$third-party
+||infosecisland.com/bannershow/zone/
+||infoseek.co.jp/ajax/js/ashiato-$script
+||innity.com^$third-party
+||innity.net^
+||innityserve.net^
+||intensedebate.com^$third-party
+||intergi.com^$third-party
+||iswimg.hp.infoseek.co.jp^
+||infoseek.co.jp/bin/
+||topics.news.www.infoseek.co.jp^$subdocument
+||ax*.www.infoseek.co.jp/bin/
+||infotop.jp^$third-party
+||insightexpress.com^$third-party
+||insightexpressai.com^
+||intellitxt.com^
+||interclick.com^$third-party
+||internet-yadro.com^$third-party
+||interworksmedia.co.kr^$third-party
+||invitemedia.com^$third-party
+||iogous.com^$third-party
+||iperceptions.com^$third-party
+||ip-label.net^$third-party
+||direct.ips.co.jp^$third-party
+||is686.com^$third-party
+||ismedia.jp^*/welcome.$script
+||ismedia.jp/oo/
+||jbpress.ismedia.jp/common/images/*/focus.
+||itgear.jp^$third-party
+||itmedia.co.jp/*/fyi/
+||itmedia.co.jp/*/pr_mobileshop
+||itmedia.co.jp/css/fl$script
+||itmedia.co.jp/*/licenseonline$image
+||itmedia.co.jp^*/sa.$script
+||itmedia.co.jp^*/sa_*.$script
+||dlv.itmedia.jp^
+||img.itmedia.jp^
+||its-mo.com/stc/iframe/
+||ivwbox.de^
+||ixnp.com^$third-party
+||j-a-net.jp^$third-party
+||japanmetrix.jp^
+||javplus.com^$third-party
+||jimdo-stats.com^
+||jin115.com/rss$subdocument
+||jino.ru^$third-party
+||jlisting.jp^$third-party
+||jmg.com^$third-party
+||job.ws^$third-party
+||jobthread.com^$third-party
+||adp.joins.com^
+||joinsmsn.com/common/ui/ad/
+||joinsmsn.com/common/omniture/
+||joinsmsn.com/sbox/
+||jpg-server.com^$third-party
+||js-kit.com^
+||jsdo.it/js/pushNotification.$script
+||jugao.com^$third-party
+||jugem.jp/ad/
+||ad.jugem.jp^
+||juiceadv.com^$third-party
+||juicyads.com^$third-party
+||stats.justin.tv^
+||jword.jp^$third-party
+||jxliu.com^$popup,third-party
+||kakaku.com/script/analytics/
+||kakaku.com/script/kakakuad/
+||kakaku.com^*/Rdm
+||img.kakaku.com/images/*/set/bn_$image
+||notice.kakaku.com^
+||kaktuz.com^$third-party
+||kau.li^$third-party
+||kavanga.ru^$third-party
+||kazeo.com^$third-party
+||recommend.kbmj.com^
+||keewurd.com^
+||keyrun.cn^$third-party
+||keywordlink.co.kr^$third-party
+||kiev.ua^$third-party
+||kingdun.net^$third-party
+||kinwee.com^$third-party
+||kissmetrics.com^$third-party
+||kiwi.kz^$third-party
+||kliknik.com^$third-party
+||kolition.com^
+||kontera.com^$third-party
+||krxd.net^
+||kryter.com^$third-party
+||analytics.ku6.com^
+||ku6cdn.com/pv/
+||kuaiche.com^
+||kyoto-np.co.jp/koukoku/
+||lachest.com^
+||ladmp.com^
+||land.to/ad/
+||ad.land.to^
+||banner.lardi-trans.com^
+||leadforce1.com^
+||leagueoflegends.com^$popup
+||leasinginukraine.com^$third-party
+||adv.letitbit.net^
+||lfstmedia.com^$third-party
+||liendans.com^
+||ad.lifehacker.jp^
+||lifestats.ru^
+||liftdna.com^$third-party
+||ligatus.com^$third-party
+||lightningcast.
+||lijit.com^$third-party
+||likemastr.com^$third-party
+||linezing.com^$third-party
+||link-trade.net^$third-party
+||linkad.jp^*preview.$script
+||linkad.jp/tools/$object
+||linkbucks.com^$popup
+||linkbucks.com^$third-party
+||linkbucksmedia.com^$third-party
+||linksynergy.com^
+||linkwithin.com^$third-party
+||list.ru^$third-party
+||listof.mobi^
+||c.live.com^
+||h.live.com^
+||liveads.jp^$third-party
+||anews.livedoor.biz^$third-party
+||news4vip.livedoor.biz/rss$subdocument
+||adv.livedoor.com^
+||click.livedoor.com^
+||livedoor.com/js/selectionSearch.$script
+||livedoor.com/xml/banner.
+||livedoor.jp/js/c.$script
+||livedoor.jp/js/c2.$script
+||livedoor.jp/js/google_jp.
+||livedoor.jp/js/google_plugin.
+||blog.livedoor.jp/*/settings/header.$script
+||livejasmin.com^$popup,third-party
+||liwiosarl.appspot.com^
+||lphbs.com^
+||liverail.com^$third-party
+||liveundnackt.com^$third-party
+||liveuniversenetwork.com^
+||loading-resource.com^
+||loading321.com^
+||log-marketing.jp^
+||logtwit.com^$third-party
+||loka.jp^$third-party
+||lolipop.jp/ralite/
+||ad.lolipop.jp^
+||loneday.com^
+||loveplanet.ru^$third-party
+||lucastadvertising.com^
+||luocbao.com/adv/
+||luxup.ru^
+||lzjl.com^
+||macsoft.jp/img/Banner1/
+||macsoft.jp/img/af/
+||magma-analytics.com^$third-party
+||mail.ru^$third-party
+||rs.mail.ru^
+||mainichi.jp/js/an.$script
+||ad.mainichi.jp^
+||an.mainichi.jp^
+||mapion.co.jp^*/ad/
+||marinsm.com^
+||marketgid.com^$third-party
+||marketgid.info^$third-party
+||marketgid.ru^$third-party
+||marketo.com^$third-party
+||marketo.net^$third-party
+||mathtag.com^$third-party
+||marsflag.com/adimg/
+||maxlab.ru^$third-party
+||mbanner.net^$third-party
+||mcnt.jp^
+||media-clic.com^$third-party
+||media-code.info^$third-party
+||media-rendering2.com^
+||media-rendering3.com^
+||media-servers.net^
+||media6degrees.com^$third-party
+||mediadakine.com^
+||mediagra.com^$third-party
+||mediaplex.com^$third-party
+||mediarich.cc^$third-party
+||mediarich.ru^
+||mediarich.us^$third-party
+||mediarich.ws^$third-party
+||mediatraffic.com.ua^$third-party
+||medleyads.com^
+||meebo.com^$third-party
+||megaclick.com^$third-party
+||megagong.fr^$popup
+||megaporn.com/*/onhover.$script
+! Commented out to avoid false positives @ third-party embeded web sites. July 28, 2011
+! ||megaupload.com^$third-party
+||megaupload.com/*/onhover.$script
+||megaupload.com/mc.
+||megavideo.com/ad_
+||megavideo.com/*/onhover.$script
+||megavideo.com/mcad.
+||megavideo.com/top.swf
+||meltwaternews.com^$third-party
+||metanetwork.com^$third-party
+||mgid.com^$popup
+||mmaaxx.com^$third-party
+||microad.jp^$third-party
+||c.microsoft.com^
+||millioncounter.com^$~image
+||minpos.com^$third-party
+||miraikensaku.jp^$third-party
+||mirskidok.net^
+||ads.mixi.jp^
+||mixpanel.com^$third-party
+||mlstat.com^
+||mobifiesta.com^$popup
+||mobilcom-debitel.de^
+||mobileraffles.com^$popup
+||mobylog.jp^$third-party
+||mochiads.com^$third-party
+||mofos.com^$third-party
+||mokkori-drive.net^$popup
+||mongoosemetrics.com^$third-party
+||webstats.motigo.com^$third-party
+||mookie1.com^$third-party
+||motionlink.jp^$third-party
+||mouseflow.com^$third-party
+||movie-file.net^$third-party
+||moviebox.com^$third-party
+||mreco.jp^
+||mreco0.jp^
+||msads.net^
+||msn.com/br/*/navigation.$script
+||msn.com/br/*/report.$script
+||msn.com/br/chan/
+||ac2.msn.com^
+||ac3.msn.com^
+||ads1.msn.com^
+||ads1.jp.msn.com^
+||ads2.msn.com^
+||adsyndication.msn.com^
+||c.msn.com^
+||g.msn.com^
+||data1.jp.msn.com^
+||sankei.jp.msn.com/module/data/
+||rad.msn.com^
+||udc.msn.com^
+||musen-lan.com/speed/banner/
+||my-affiliate.com^$third-party
+||my1.ru^
+||mybet.com^$third-party
+||track*.mybloglog.com^$third-party
+||mybuys.com^$third-party
+||kali.mycom.co.jp^
+||access.journal.mycom.co.jp^
+||mycounter.ua^$third-party
+||mydirtyhobby.com^$third-party
+||mylinkbox.com^$third-party
+||mynavi.jp^*images/stat.
+||myroitracking.com^
+||fimserve.myspace.com^
+||mythings.com^$third-party
+||mywebsearch.com^
+||naiadsystems.com^$third-party
+||nakanohito.jp/ap/
+||nakanohito.jp/b1/
+||bsap.nakanohito.jp^
+||f*.nakanohito.jp^$script
+||nasads.com^
+||nastydollars.com^$third-party
+||navdmp.com^
+||navegg.com^$third-party
+||lcs.naver.jp^
+||negolist.com^$third-party
+||neolabs.kz^$third-party
+||netaatoz.jp/rss
+||netavenir.com^$third-party
+||netaxle.com^$third-party
+||netgy.com^$third-party
+||netsecurity.ne.jp/bnr/
+||netshelter.net^$third-party
+||nedstatbasic.net^
+||nekki.ru^$third-party
+||netsuccess.sk^$third-party
+||neudesicmediagroup.com^$third-party
+||new-akiba.com/special/
+||bwp.news.com^
+||newswatch.co.jp^$third-party
+||newsweekjapan.jp/images/common/rectangle_$image
+||newsweekjapan.jp/images/common/sideAd.$image
+||newzia.jp^$third-party
+||nexac.com^
+||ngbn.net^$third-party
+||nhncorp.jp^$third-party
+||nicovideo.jp/api/getad
+||ad.nicovideo.jp^
+! Commented out to avoid closing connection 2011-10-23
+! ||ow.live.nicovideo.jp^
+||urc.live.nicovideo.jp^
+||uad-api.nicovideo.jp^
+||api.uad.nicovideo.jp^$domain=~uad.nicovideo.jp
+||nielsen.com^$third-party
+||nifty.com^*/match_com-module-
+||business.nifty.com/articles/*/banner/$image
+||business.nifty.com^*/bm/*/rec-$image
+||business.nifty.com^*/js/common.$script
+||business.nifty.com^*/json/*?update=
+||tag.nifty.com^
+||track.nifty.com^
+||nikkeibp.co.jp^*-welcome.$script
+||nikkeibp.co.jp^*/ad.
+||nikkeibp.co.jp^*/rPR_
+||nikkeibp.co.jp^*/welcome$script
+||nikkeibp.co.jp^*_campaign_
+||nikkeibp.co.jp/img/rpt/
+||adb.nikkei.co.jp/ad/
+||bizad.nikkeibp.co.jp^
+||nimg.jp^*/searchformflash/
+! ||nimg.jp/swf/appli/ cause false positives at app.nicovideo.jp
+||nimg.jp/swf/appli/$domain=~app.nicovideo.jp
+||nnlian.info^$third-party
+||nomura.co.jp/resource/image/sideparts/
+||novamov.com^$third-party
+||nsimg.net^
+||nsk-sys.com^$third-party
+||ad.nttnavi.co.jp^
+||ad.ntv.co.jp^
+||nuggad.net^$third-party
+||nxtck.com^
+! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
+! ||o-o.preferred.
+||odnoklassniki.ru^*scriptToolbar.$script
+||offermatica.com^
+||ogt.jp/js/$third-party
+||ogt.jp/plog?^$third-party
+||oiya.ru^$third-party
+||pref.okayama.jp/chiji/kocho/bn/
+||omtrdc.net^$third-party
+||onestat.com^$third-party
+||onetad.com^$third-party
+||sanyo.oni.co.jp/clients/
+||online-metrix.net^
+||onlinemillionairesociety.net^$third-party
+||onlinewebstat.com^$third-party
+||onparade.jp^
+||l.player.ooyala.com^
+||open-mind.vc^
+||openadserving.com^$third-party
+||openstat.net^$third-party
+||openx.com^
+||openx.net^$third-party
+||openx.org^$third-party
+||optify.net^$third-party
+||optimizeadvert.biz^
+||optimizely.com^$third-party
+||optinproject.com^
+||optmd.com^$third-party
+||orange-park.jp^$third-party
+||osa.pl^
+||ads.osdn.jp^
+||otherprofit.com^
+||ourstats.de^$third-party
+||ousns.com^
+||outbrain.com^$third-party
+||outwitch.com^
+||overclockers.co.uk/home_banners/
+||overture.com^$third-party
+||overture.co.jp^$third-party
+||p-advg.com^$third-party
+||p-bxm.com^$third-party
+||pardot.com^$third-party
+||partypoker.com^$popup
+||pasadserver.com^$third-party
+||passion.com^$third-party
+||pay-click.ru^$third-party
+||pclicks.com^$third-party
+||peer39.net^
+||percentmobile.com^$third-party
+||performgroup.com^$third-party
+||pgmediaserve.com^
+||pheedo.jp^$third-party
+||picadmedia.com^
+||picbucks.com^$popup
+||picleet.com/*_picleet.$script
+||picleet.com/modalfiles/modal.$script
+||pillendienst.com^$third-party
+||ads.pimote.net^
+||ad.pitattomatch.com^
+||ad.pitta.ne.jp^
+||pixhost.org/js/jquery_show$script
+||ads*.pixiv.net^
+||ads*.pixiv.org^
+||pixanalytics.com^
+||pixfuture.net^$third-party
+||pixplug.in^
+||platinumcode.net^
+||playtech.com^$third-party
+||plista.com^$third-party
+||plugin-x.com^$third-party
+||plugrush.com^$third-party
+||pochioku.jp^$third-party
+||pointroll.com^$third-party
+||ponpare.jp^$third-party
+||pop6.com^$third-party
+||popads.net^$popup
+||popadscdn.net^
+||l.popin.cc^
+||r.popin.cc^
+||popularscreensavers.com^
+||popunder.ru^$third-party
+||popupclick.ru^$third-party
+||porn99.net^$third-party
+||banner1.pornhost.com^
+||pornhublive.com^$third-party
+||pornografish.com^$third-party
+||ppc-direct.com^$third-party
+||ppro.de^
+||precisionclick.com^$third-party
+||predictad.com^$third-party
+||premiumcollect.com^$third-party
+||premiumhdv.com^$third-party
+||price.ru^$third-party
+||primegrattage.com^$third-party
+||prisma-presse.com^$third-party
+||profitwizard.net^
+||program3.com^$third-party
+||propermediadeals.com^
+||pubdirecte.com^$third-party
+||pubmatic.com^$third-party
+||pulse360.com^$third-party
+||pussycash.com^$third-party
+||pya.cc/banner/bb_
+||qiyou.com^$third-party
+||qlook.net^$third-party
+||qsstats.com^
+||quantserve.com^$third-party
+||quantumads.com^$third-party
+||questionmarket.com^$third-party
+||r1fclick.com^
+||radeant.com^$popup,third-party
+||radikal.ru^$third-party
+||raidrush.ws^$third-party
+||rakulog.com^$third-party
+||rakuten.co.jp^*/ad/
+||rakuten.co.jp^*/ad_
+||rakuten.co.jp^*/liquidbanner/
+||rakuten.co.jp^*/message/flash/
+||rakuten.co.jp/camp/
+||rakuten.co.jp/com/img/home/t.$image
+||rakuten.co.jp/common00/
+||rakuten.co.jp/js/adjs/
+||rakuten.co.jp/js/catalyst/
+||rakuten.co.jp/js/p_code.$script
+||rakuten.co.jp/js/pr/
+||rakuten.co.jp/share/wat/
+||afl.rakuten.co.jp/hsb/
+||affiliate.rakuten.co.jp^$third-party
+||dynamic.rakuten.co.jp^
+||etool.rakuten.co.jp^
+||ias.rakuten.co.jp^
+||pitatto.rakuten.co.jp^
+||plaza.rakuten.co.jp/swf/login.swf
+||rd.rakuten.co.jp/p/
+||rakuten-static.com^*/prm_sender.
+||rakuword.com^$third-party
+||counter.rambler.ru^
+||razil.jp^$third-party
+||ad.rbbtoday.com^
+||count.rbc.ru^$third-party
+||reachword.com^$third-party
+||real4traf.ru^$third-party
+||realclick.cn^
+||realclick.co.kr^$third-party
+||reali.st^$third-party
+||reconize.com^$third-party
+||recreativ.ru^$third-party
+||redirectingat.com^$third-party
+||redtram.com^$third-party
+||reduxmedia.com^$third-party
+||refeed.net^$third-party
+||reinvigorate.net^$third-party
+||reklama-port.com^
+||remontvdome.com.ua^$popup
+||researchresults.com^$third-party
+||ad.response.jp^
+||s2.reutersmedia.net^$script
+||revsci.net^$third-party
+||rssad.jp^$third-party
+||research-artisan.com^$third-party
+||reussissonsensemble.fr^
+||rsz.sk^
+||rides.ac^$third-party
+||ringtonepartner.com^
+||rightsnetwork.net^$third-party
+||ritlweb.com/jad.
+||rk.com^$third-party
+||rlcdn.com^
+||rmbn.ru^$third-party
+||rmdown.com/pc1.$image
+||rmgserving.com^
+||rocketgames.com^$popup
+||roia.biz^$third-party
+||rotaban.ru^$third-party
+||rss.tc^$third-party
+||rss2search.com^$third-party
+||rtbidder.net^
+||rtoaster.jp^$third-party
+||ru4.com^$third-party
+||rubiconproject.com^$third-party
+||rusrestbest.
+||s-msn.com/br/*/navigation.$script
+||s-msn.com/br/*/report.$script
+||s-p-o-n-s-o-r.com^
+|http://s3.ua^
+||sailthru.com^$third-party
+||saisoncard.co.jp/netanswer/kakakucom/
+||saisoncard.co.jp/netanswer/na_top/if_banner
+||ac.saisoncard.co.jp^
+||netanswerplus.saisoncard.co.jp^*/phonnin.
+||netanswerplus.saisoncard.co.jp^*/top.$script
+||netanswerplus.saisoncard.co.jp^*/jquery.shuffle.$script
+||sakuralive.com^$third-party
+||adcl.sankei.co.jp^
+||sarenza.com^$popup
+||sascentral.com^
+||sayyac.com^$third-party
+||sayyac.net^
+||sbiall.com^
+||ad2.sbisec.co.jp^
+||sbs-ad.com^$third-party
+||ad.scadnet.com^
+||scanmedios.com^
+||scanscout.com^
+||scorecardresearch.com^$third-party
+||scour.com/services/getLocation/
+||sd1.fr^
+||aa.sdo.com^
+||aagw.sdo.com^
+||seagulltracer.com^$third-party
+||search123.uk.com^
+||searchdiscovered.com^$popup
+||searchforce.net^
+||searchpeack.com^$popup
+||secure-locked.com^$third-party
+||secure-softwaremanager.com^
+||securerequestform.com^$third-party
+||securestudies.com^
+||a1.security-next.com^
+||seesaa.jp/match/
+||match.seesaa.jp^
+||sensic.net^$third-party
+||sensis.com.au^$third-party
+||sensismediasmart.com.au^$third-party
+||seoparts.com^
+||seoparts.net^$third-party
+||serving-sys.com^$third-party
+||sexad.net^
+||sexas.us^$third-party
+||shareasale.com^$third-party
+||sharecash.org^$third-party
+||sharereactor.com^$third-party
+||shendu.cc^$third-party
+||shinobi.jp/analyze/
+||shinobi.jp/tadaima/
+||adm.shinobi.jp^
+||analysis.shinobi.jp^
+||nsm.shinobi.jp^
+||axad.shinobi.jp^
+||ba1.shinobi.jp^$~image
+||ba2.shinobi.jp^$~image
+||ba3.shinobi.jp^$~image
+||ba4.shinobi.jp^$~image
+||ba5.shinobi.jp^$~image
+||ba6.shinobi.jp^$~image
+||ba7.shinobi.jp^$~image
+||ba8.shinobi.jp^$~image
+||ba9.shinobi.jp^$~image
+||bar1.shinobi.jp^
+||bar2.shinobi.jp^
+||bar3.shinobi.jp^
+||bar4.shinobi.jp^
+||bar5.shinobi.jp^
+||bar6.shinobi.jp^
+||bar7.shinobi.jp^
+||bar8.shinobi.jp^
+||bar9.shinobi.jp^
+||ct1.shinobi.jp^$~image
+||ct2.shinobi.jp^$~image
+||ct3.shinobi.jp^$~image
+||ct4.shinobi.jp^$~image
+||ct5.shinobi.jp^$~image
+||ct6.shinobi.jp^$~image
+||ct7.shinobi.jp^$~image
+||ct8.shinobi.jp^$~image
+||ct9.shinobi.jp^$~image
+||samurai.shinobi.jp^
+||vis1.shinobi.jp^$~image
+||vis2.shinobi.jp^$~image
+||vis3.shinobi.jp^$~image
+||vis4.shinobi.jp^$~image
+||vis5.shinobi.jp^$~image
+||vis6.shinobi.jp^$~image
+||vis7.shinobi.jp^$~image
+||vis8.shinobi.jp^$~image
+||vis9.shinobi.jp^$~image
+||shinystat.com^$~image
+||shopping-search.jp^$third-party
+||silveregg.net^$third-party
+||simply.com^$third-party
+||site-plan.jp^$third-party
+||sitebro.com^
+||sitebro.com.tw^
+||sitebro.jp^$third-party
+||sitebro.net^$third-party
+||sitebro.tw^$third-party
+||sitemeter.com^$third-party
+||sitescout.com^$third-party
+||siteshots.com^$third-party
+||sitestat.com^$third-party
+||ads.sixapart.com^
+||skillupjapan.net^$third-party
+||skimlinks.com^$third-party
+||skimresources.com^$third-party
+||slidesharecdn.com^*/proCtaBox.
+||smartadserver.com^$third-party
+||smartbn.ru^$third-party
+||smi2.ru^$third-party
+||smowtion.com^$third-party
+||smrtlnks.com^$third-party
+||smspartnerprogramm.com^$third-party
+||snap.com^$third-party
+||snyu.com^$third-party
+||so-net.ne.jp/advertisement
+||so-net.ne.jp/omn-js/
+||so-net.ne.jp/tv/advertisement/
+||so-net.ne.jp/tv/gtv/img/banner/
+||smr.so-net.ne.jp^
+||sociomantic.com^$third-party
+||s2.softpedia-static.com/images/
+||software-archiv.com^$third-party
+||sp-affiliaters.com^$third-party
+||spacyz.com^$third-party
+||sparkstudios.com^$popup,third-party
+||spb2011.com^
+||specificclick.com^
+||specificclick.net^
+||specificmedia.com^$third-party
+||spider-ad.jp^$third-party
+||sponsorads.de^
+||sponsorboost.com^$third-party
+||spotxchange.com^$third-party
+||news020.sppd.ne.jp/blog/html/rss$subdocument
+||sprintrade.com^$third-party
+||spylog.com^
+||spylog.ru^
+||red.st-hatena.com^
+||st00.net^
+||star-advertising.com^
+||stat24.com^$third-party
+||statcounter.com^$third-party
+||static-db.com^
+||static2img.com^
+||ipic.staticsdo.com^
+||statistik-gallup.net^
+||steelhousemedia.com^$third-party
+||stickeraction.com^$third-party
+||stocknavigator.ru^$third-party
+||stratigent.com^$third-party
+||streamate.com^$third-party
+||streamstreaming.com^$third-party
+||superfish.com^$third-party
+||supersonicads.com^$third-party
+||supremeadserver.com^
+||supremeadsonline.com^
+||surphace.com^$third-party
+||suteki-tool.com/pr
+||svlu.net^
+||swcs.jp^$third-party
+||sweet-adult.com^$popup
+||swi-adserver.com^$third-party
+||syoh.jp^$third-party
+||t3leads.com^$third-party
+||r.tabelog.com/contents/index?
+||taboolasyndication.com^
+||tacoda.net^$third-party
+||targetedinfo.com^$third-party
+||targetedtopic.com^$third-party
+||ad.targetingmarketplace.com^
+||targetix.net^$third-party
+||tbs.co.jp/rtac/
+||tbn.ru^$third-party
+||tcimg.com^
+||tcs-asp.net^$third-party
+||teaser.cc^$third-party
+||teasernet.com^$third-party
+||teasernet.ru^
+||technoratimedia.com^$third-party
+||telecharger-vlc.org^
+||telemetryverification.net^$third-party
+||tenoad.com^$third-party
+||tenso.com^$third-party
+||textad.net^$third-party
+||thatsping.com^$third-party
+||thatsping.jp^
+||the-adult-company.com^$third-party,popup
+||theadultcompany.biz^
+||thefilter.com^$third-party
+||theloungenet.com^$third-party
+||thesettlersonline.fr^$popup
+||tidaltv.com^$third-party
+||tifbs.net^
+||tinybucks.net^$popup
+||tizer6.net^
+||tizer7.net^
+||tizer8.net^
+||tizerelite.net^
+||tizerka.net^$third-party
+||tjq.com^$third-party
+||tlbn.org^$third-party
+||tldadserv.com^$third-party
+||tlvmedia.com^$third-party
+||tns-counter.ru^
+||todocasino.com^$third-party
+||tofour.net^$third-party
+||tomsguide.com^*indexAjax.php?ctrl=ajax_price
+||tomshardware.com^*indexAjax.php?ctrl=ajax_price
+||toplist.cz^$third-party
+||total-media.net^
+||toutiles.com^
+||tracer.jp^$third-party
+||trackalyzer.com^
+||trackfeed.com^$third-party
+||tracking.to^
+||trackword.biz^$third-party
+||trackword.net^$third-party
+||tradedoubler.com^$third-party
+||traders.co.jp/image/banner/
+||traders.co.jp/images/bn/
+||traders.co.jp/images/relative/
+||traffic-exchange.tv^$third-party
+||traffic.ru^$third-party
+||trafficbroker.com^$third-party
+||trafficgate.net^$third-party
+||traffichaus.com^
+||trafficjunky.net^$third-party
+||trafficmp.com^$third-party
+||trafficrevenue.net^$third-party
+||trafficsway.com^
+||traffiliate.com^$third-party
+||traffiq.com^$third-party
+||trafidet.ru^
+||traforet.ru^$popup,third-party
+||travian.jp^$popup
+||trekmedia.net^
+||tremormedia.com^
+||tribalfusion.com^$third-party
+||triggit.com^$third-party
+||trustadnetwork.net^
+||trustclick.ne.jp^
+||truste.com^$third-party
+||tubemogul.com^$third-party
+||tuigoo.com^$third-party
+||turn.com^$third-party
+||scribe.twitter.com^
+||twitteranalyzer.com/FBSiteClient/
+||twitteranalyzer.com/Images/VideochatsBanner/
+||tx2.ru^$third-party
+||tynt.com^$third-party
+||ucoz.ae^$third-party
+||ucoz.com^$third-party
+||ucoz.de^$third-party
+||ucoz.es^$third-party
+||ucoz.fr^$third-party
+||ucoz.hu^$third-party
+||ucoz.net^$third-party
+||ucoz.ru^$third-party
+||ucoz.ua^$third-party
+||udmserve.net^
+! This rough filter occasionally causes false positives, reported via Issue Report , Jan 26, 2012
+! ||ui-portal.de^
+||undertone.com^$third-party
+||ubcpm.com^
+||ultrapay.net^$third-party
+||underclick.ru^
+||unica.com^$third-party
+||union178.com^
+||unioncpm.com^$third-party
+||unionli.com^$third-party
+||unitag.jp^$third-party
+||uploadstation.com/styles/popup.
+||urchin.com^$third-party
+||usagc.org^$third-party
+||d.ustream.tv^
+||d-ssl.ustream.tv^
+||utamap.com/banner/
+||utamap.com/cgi-sys/Count.
+||access.utamap.com^
+||utherverse.com^$third-party
+||v2cigs.com^$third-party
+||vador.com^$popup
+||vagos.es/recursos/get.$script
+||wf1.vagos.es^
+||valentinehookup.com^$popup
+||valuecommerce.com^$third-party
+||vatgia.com^
+||vcm.jp^$third-party
+||vector.co.jp/adinfo/
+||vector.co.jp/advertise/
+||vector.co.jp/vpack/*banner
+||velmedia.net^
+||vemba.com^$third-party
+||ventivmedia.com^$third-party
+||veoh.com/webplayed.
+||veoh.com/?cmd=
+||veoxa.com^$third-party
+||re.veritrans.co.jp^$third-party
+||verticalacuity.com^$third-party
+||veruta.com^$third-party
+||videoegg.com^
+! False positive at vgtv.no . More concrete rule is required: 2011-07-23
+! ||videoplaza.tv^
+||videos-de-facebook.com^$third-party
+||videoclick.ru^$third-party
+||videoclik.ru^
+||videosz.com^$third-party
+||videozer.com^$third-party
+||vietad.vn^$third-party
+||viewablemedia.net^
+||viglink.com^$third-party
+||t.vimeo.com^
+||viptizer.com^$third-party
+||virtuagirlhd.com^$third-party
+||virusbuster.jp^$popup
+||virusbuster.jp^*/trial/
+||visiblemeasures.com^$third-party
+||visistat.com^$third-party
+||visit-x.net^$third-party
+||visitor-track.com^$third-party
+||visitorpath.com^$third-party
+||visualwebsiteoptimizer.com^$third-party
+||vitalads.net^$third-party
+||vk.com^$domain=~vk.com|~vkontakte.ru
+||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
+||vmi.it^$popup
+||vs.com^$third-party
+||vsp-online.com^
+||vuiads.net^
+||w55c.net^$third-party
+||wa-dan.com/article/images/title.$image
+||wa-track.com^$third-party
+||wahoha.com^
+||wapolabs.com/revplat/
+||washingtonpost.com^*/ad/
+||washingtonpost.com^*/homepagessi/
+||washingtonpost.com^*/otto/
+||washingtonpost.com^*/site_traffic/
+||watchmygf.net^$third-party
+||wb-rotator.com^
+||web-stat.com^$third-party
+||webantenna.info^$third-party
+||webdo.co.jp^$third-party
+||webgiantmedia.com^$third-party
+||rws.weblio.jp^$third-party
+||weborama.fr^$third-party
+||webpagetest.org/custom/
+||webrotator.net^
+||webstats4u.com^
+||webteaser.ru^$third-party
+||webtracker.jp^$third-party
+||webtrends.com^$third-party
+||webtrendslive.com^$third-party
+||adult-monster.webwindow.jp^$third-party
+||wec.co.kr^$third-party
+||wekiss.com^$third-party
+||whaleads.com^
+||whoson.com^$third-party
+||widgeo.net^$third-party
+||geoiplookup.wikimedia.org^
+||wikiodeliv.com^
+||pr.wikiwiki.jp^
+||williamhill.com^$popup
+||ad.wiredvision.jp^
+||with2.net^$third-party
+||wlresources.com^
+||wmh0.com^$third-party
+||woniu666.com^$third-party
+||woopieapi.com/ad/
+||woopieapi.com/js/wa/
+||log.woopieapi.com^
+||woopra.com^$third-party
+||woopra-ns.com^$third-party
+||stats.wordpress.com^
+||worldlogger.com^
+||worthathousandwords.com^$third-party
+||wowzio.com^$third-party
+||wowzio.net^$third-party
+|http:*.ws.md^$third-party
+|http://ws.md^$third-party
+|https:*.ws.md^$third-party
+|https://ws.md^$third-party
+||ad.wsod.com^
+||wt-rotator.
+||wts-rotator.
+||www.co.cc^$third-party
+||wysistat.com^$third-party
+||wyunion.com^$third-party
+||xcams.com^$third-party
+||xdwan.com^$third-party
+||xflirt.com^$third-party
+||xg4ken.com^
+||xgraph.com^$third-party
+||xgraph.net^$third-party
+||xhamster.com/js/mediagra.$script
+||xiti.com^
+||xlisting.co.jp^$third-party
+||xlisting.jp^
+||xmatch.com^$third-party
+||xmax.jp^$third-party
+||xrea.com/ad_
+||ad.xrea.com^
+||ax.xrea.com^$third-party
+||imgj.xrea.com/xa.
+||xt918.com^$third-party
+||xtendmedia.com^$third-party
+||xvideos.com^$third-party
+||s.xvideos.com^
+||xvideoslive.com^$third-party
+||xw11.com^$third-party
+||xwell.ru^
+||yadro.ru^
+||yahoo.co*/b?
+||yahoo.co.jp/js/geov2.$script
+||yahoo.co.jp/js/no.$script
+||yahoo.co.jp/js/sq.$script
+||dcs.yahoo.co
+||yeas.yahoo.co
+||yjaxc.yahoo.co
+||geo.yahoo.co
+||by.analytics.yahoo.co.jp^
+||by.i.analytics.yahoo.co.jp^
+||bn.auctions.yahoo.co.jp^
+||b1.yahoo.co.jp^
+||b2.yahoo.co.jp^
+||b3.yahoo.co.jp^
+||b4.yahoo.co.jp^
+||b5.yahoo.co.jp^
+||b6.yahoo.co.jp^
+||b7.yahoo.co.jp^
+||b8.yahoo.co.jp^
+||b9.yahoo.co.jp^
+||b10.yahoo.co.jp^
+||bc.geocities.yahoo.co.jp/js/
+||logoole.yahoo.co.jp^$third-party
+||ov.yahoo.co.jp^
+||im.yahooapis.jp^
+||rd.yahoo.co.jp^
+||ybx.yahoo.co.jp^
+||bc.yahoo.com^
+||wa.marketingsolutions.yahoo.com^
+||yandeg.ru^$third-party
+||an.yandex.ru^
+||awaps.yandex.ru^
+||bs.yandex.ru^
+||clck.yandex.ru^
+||kiks.yandex.ru^
+||metrika.yandex.ru^$third-party
+||mc.yandex.ru^
+||yabs.yandex.ru^
+||yandex.st^$domain=~yandex.ru|~yandex.ua
+||yellowmedia.biz^$third-party
+||yfum.com^
+||yieldads.com^$third-party
+||yieldbuild.com^$third-party
+||yieldlab.net^
+||yieldmanager.com^$popup,third-party
+||yimg.jp/bdv/
+||yimg.jp/images/*/pr/
+||yimg.jp/images/analytics/
+||yimg.jp/images/news/newsSearch/
+||yimg.com^*/js/geov3.$script
+||yimg.com^*/lib/bc/$script
+||ads.yimg.com^
+||yiqiwin.com^$third-party
+||ymads.com^$third-party
+||yontoo.com^$third-party
+||youku.com^*/js/popup.
+||atm.youku.com^
+||lstat.youku.com^
+||youtube.com/get_video?
+||youtube.com/ptracking?
+||youtube.com/set_awesome?
+||s.youtube.com^
+||s2.youtube.com^
+!False Positive(dammy 1x1 placeholder for css spriting) ||ytimg.com/yt/img/pixel-
+! ||ytimg.com^*/swfbin/ad-
+||ytimg.com^*/swfbin/ad3-
+||ytimg.com^*_background_$image
+||ytimg.com^*_banner.$image
+||ytimg.com^*_banner_$image
+||z5x.net^$third-party
+||zanox.com^$third-party
+||zanox.ws^
+||api.zanox.
+||zanox-affiliate.de^$third-party
+||bwp.zdnet.com^
+||adcl.japan.zdnet.com^
+||zedo.com^$third-party
+||zenback.jp^*tracking.$third-party
+||zero.kz^
+||zeusclicks.com^
+||zillow.com^$third-party
+||zillowstatic.com^$domain=~zillow.com
+||ziyu.net^$third-party
+||znews.su^$third-party
+||zwaar.org^
+! ========== ValueClick alias domains: 216.34.207.62 START ==========
+||afcyhf.com^
+||anrdoezrs.net^
+||awltovhc.com^
+||commission-junction.com^
+||dpbolvw.net^
+||emjcd.com^
+||ftjcfx.com^
+||jdoqocy.com^
+||kdukvh.com^
+||kqzyfj.com^
+||lduhtrp.net^
+||qksrv.net^
+||qksz.net^
+||tkqlhce.com^
+||tqlkg.com^
+! ---------- ValueClick alias domains: 216.34.207.62 END ----------
+! 
+! ========== Samurai Factory START ==========
+||shinobi.jp/analyze/
+||shinobi.jp/bin/
+||shinobi.jp/ufo/
+||shinobi.jp/Zen?
+.biz/ufo/$third-party
+.com/ufo/$third-party
+.jp/ufo/$third-party
+.net/ufo/$third-party
+.org/ufo/$third-party
+.biz/Zen?$third-party
+.com/Zen?$third-party
+.jp/Zen?$third-party
+.net/Zen?$third-party
+.org/Zen?$third-party
+! Expanded because these filters are too generic, reported by Wladimir( Thanks ).
+!! .biz/bin/$third-party
+!! .com/bin/$third-party
+!! .jp/bin/$third-party
+!! .net/bin/$third-party
+!! .org/bin/$third-party
+! .biz
+||ongaeshi.biz/bin/
+! .com
+||akazunoma.com/bin/
+||amearare.com/bin/
+||ame-zaiku.com/bin/
+||ari-jigoku.com/bin/
+||atukan.com/bin/
+||bokunenjin.com/bin/
+||butanishinju.com/bin/
+||buzama.com/bin/
+||byoubu.com/bin/
+||chagasi.com/bin/
+||chakin.com/bin/
+||chikouyore.com/bin/
+||chitosedori.com/bin/
+||cho-chin.com/bin/
+||choitoippuku.com/bin/
+||choumusubi.com/bin/
+||darumaotosi.com/bin/
+||dokkoisho.com/bin/
+||donburako.com/bin/
+||doumeki.com/bin/
+||dousetsu.com/bin/
+||ebo-shi.com/bin/
+||edo-jidai.com/bin/
+||enokorogusa.com/bin/
+||fuma-kotaro.com/bin/
+||garyoutensei.com/bin/
+||gionsyouja.com/bin/
+||goemonburo.com/bin/
+||gokenin.com/bin/
+||goraikou.com/bin/
+||gosyuugi.com/bin/
+||gouketu.com/bin/
+||hagewasi.com/bin/
+||hahaue.com/bin/
+||hanabie.com/bin/
+||hanagumori.com/bin/
+||hanamizake.com/bin/
+||han-be.com/bin/
+||hannnari.com/bin/
+||hariko.com/bin/
+||hatagashira.com/bin/
+||hatiju-hatiya.com/bin/
+||hebiichigo.com/bin/
+||higoyomi.com/bin/
+||hiroimon.com/bin/
+||hisa-hide.com/bin/
+||hishaku.com/bin/
+||hisyaku.com/bin/
+||hiyamugi.com/bin/
+||horemitakotoka.com/bin/
+||houkou-onchi.com/bin/
+||ho-zuki.com/bin/
+||hujibakama.com/bin/
+||huruike.com/bin/
+||husuma.com/bin/
+||huuryuu.com/bin/
+||iaigiri.com/bin/
+||ie-yasu.com/bin/
+||ikaduchi.com/bin/
+||ikidane.com/bin/
+||imawamukashi.com/bin/
+||imodurushiki.com/bin/
+||ina-ka.com/bin/
+||inukubou.com/bin/
+||izakamakura.com/bin/
+||jakou.com/bin/
+||jorougumo.com/bin/
+||jougennotuki.com/bin/
+||jyoukamachi.com/bin/
+||kacchaokkana.com/bin/
+||kagebo-shi.com/bin/
+||kagennotuki.com/bin/
+||kage-tora.com/bin/
+||kage-tsuna.com/bin/
+||kakukaku-sikajika.com/bin/
+||kakurezato.com/bin/
+||kan-be.com/bin/
+||kane-tsugu.com/bin/
+||kan-suke.com/bin/
+||karakasa.com/bin/
+||karakuri-yashiki.com/bin/
+||karamatu.com/bin/
+||kasajizo.com/bin/
+||katsu-ie.com/bin/
+||katsu-yori.com/bin/
+||kemuridama.com/bin/
+||ken-nyo.com/bin/
+||kibisuwokaesu.com/bin/
+||kimodameshi.com/bin/
+||kinbyoubu.com/bin/
+||kirisute-gomen.com/bin/
+||kitunebi.com/bin/
+||kiyo-masa.com/bin/
+||koborezakura.com/bin/
+||koiwazurai.com/bin/
+||kojyuro.com/bin/
+||konohashigure.com/bin/
+||kuchinawa.com/bin/
+||kumadori.com/bin/
+||kumogakure.com/bin/
+||kusakage.com/bin/
+||kutinawa.com/bin/
+||kyarame.com/bin/
+||maeda-keiji.com/bin/
+||maiougi.com/bin/
+||ma-jide.com/bin/
+||manjushage.com/bin/
+||mikosi.com/bin/
+||mitarashidango.com/bin/
+||mitsu-hide.com/bin/
+||mitsu-nari.com/bin/
+||mizubasyou.com/bin/
+||momijioroshi.com/bin/
+||monogoshi.com/bin/
+||moraimon.com/bin/
+||moryou.com/bin/
+||moto-chika.com/bin/
+||moto-nari.com/bin/
+||moutounai.com/bin/
+||mu-sashi.com/bin/
+||nabebugyou.com/bin/
+||naga-masa.com/bin/
+||namidaame.com/bin/
+||nao-shige.com/bin/
+||nemachinotsuki.com/bin/
+||nemiminimizu.com/bin/
+||noppikinaranu.com/bin/
+||nukimi.com/bin/
+||obihimo.com/bin/
+||oboroduki.com/bin/
+||obunko.com/bin/
+||odaikansama.com/bin/
+||ofuregaki.com/bin/
+||ohaguro.com/bin/
+||ohitashi.com/bin/
+||ohuda.com/bin/
+||ohugi.com/bin/
+||ohyakudo-mairi.com/bin/
+||okitsune.com/bin/
+||okoshi-yasu.com/bin/
+||omegumi.com/bin/
+||omiki.com/bin/
+||onasake.com/bin/
+||onushi.com/bin/
+||onushimowaruyonou.com/bin/
+||ooban-koban.com/bin/
+||ootugomori.com/bin/
+||osonae.com/bin/
+||otogirisou.com/bin/
+||otoshiana.com/bin/
+||rakugan.com/bin/
+||sankinkoutai.com/bin/
+||sannasubi.com/bin/
+||sarashi.com/bin/
+||sara-yashiki.com/bin/
+||sa-suke.com/bin/
+||sengoku-jidai.com/bin/
+||sensyuuraku.com/bin/
+||shichihuku.com/bin/
+||shidareyanagi.com/bin/
+||shime-saba.com/bin/
+||shimo-yake.com/bin/
+||shinobiashi.com/bin/
+||shiriagari.com/bin/
+||shirikakusazu.com/bin/
+||shironuri.com/bin/
+||shisyou.com/bin/
+||shiteyattari.com/bin/
+||siromuku.com/bin/
+||sodenoshita.com/bin/
+||sokowonantoka.com/bin/
+||sokushinbutsu.com/bin/
+||sonnabakana.com/bin/
+||soregashi.com/bin/
+||suichu-ka.com/bin/
+||sukimakaze.com/bin/
+||syakuhati.com/bin/
+||syanari.com/bin/
+||syarasoujyu.com/bin/
+||syogyoumujou.com/bin/
+||syoutikubai.com/bin/
+||tabigeinin.com/bin/
+||tada-katsu.com/bin/
+||taka-kage.com/bin/
+||tamajiri.com/bin/
+||tanmono.com/bin/
+||tenohiragaeshi.com/bin/
+||tirirenge.com/bin/
+||tiyogami.com/bin/
+||toshi-ie.com/bin/
+||toumoku.com/bin/
+||tsuchigumo.com/bin/
+||tsunokakushi.com/bin/
+||tubakurame.com/bin/
+||tudura.com/bin/
+||tumabeni.com/bin/
+||turigane.com/bin/
+||turubeotoshi.com/bin/
+||turukusa.com/bin/
+||tutakazura.com/bin/
+||tuzigiri.com/bin/
+||tuzikaze.com/bin/
+||tyabo.com/bin/
+||tyonmage.com/bin/
+||uijin.com/bin/
+||uji-masa.com/bin/
+||undeinosa.com/bin/
+||untokosho.com/bin/
+||ushimairi.com/bin/
+||usunuri.com/bin/
+||uunyan.com/bin/
+||waremowaremoto.com/bin/
+||wa-sanbon.com/bin/
+||yaekumo.com/bin/
+||yahansugi.com/bin/
+||yakigote.com/bin/
+||yakiuchi.com/bin/
+||yamagomori.com/bin/
+||yamanoha.com/bin/
+||yangotonaki.com/bin/
+||yohamanzokuja.com/bin/
+||yokinihakarae.com/bin/
+||yokochou.com/bin/
+||yomibitoshirazu.com/bin/
+||yoshi-moto.com/bin/
+||yoshi-tsugu.com/bin/
+||yukigesho.com/bin/
+||yukihotaru.com/bin/
+||yukishigure.com/bin/
+||yumenogotoshi.com/bin/
+||yu-nagi.com/bin/
+||yu-yake.com/bin/
+||zashiki.com/bin/
+||zatunen.com/bin/
+! .jp
+||aikotoba.jp/bin/
+||amigasa.jp/bin/
+||ashigaru.jp/bin/
+||at-ninja.jp/bin/
+||biroudo.jp/bin/
+||bufsiz.jp/bin/
+||client.jp/bin/
+||cyber-ninja.jp/bin/
+||gamagaeru.jp/bin/
+||gejigeji.jp/bin/
+||genin.jp/bin/
+||gozaru.jp/bin/
+||harisen.jp/bin/
+||himegimi.jp/bin/
+||ifdef.jp/bin/
+||jounin.jp/bin/
+||kaginawa.jp/bin/
+||kanashibari.jp/bin/
+||kanpaku.jp/bin/
+||karou.jp/bin/
+||komusou.jp/bin/
+||konjiki.jp/bin/
+||kurushiunai.jp/bin/
+||kusarikatabira.jp/bin/
+||makibishi.jp/bin/
+||masa-mune.jp/bin/
+||michikusa.jp/bin/
+||mukade.jp/bin/
+||namekuji.jp/bin/
+||nengu.jp/bin/
+||ninja-mania.jp/bin/
+||ninja-x.jp/bin/
+||ninpou.jp/bin/
+||nobody.jp/bin/
+||nomaki.jp/bin/
+||nukenin.jp/bin/
+||nusutto.jp/bin/
+||ojaru.jp/bin/
+||onmitsu.jp/bin/
+||o-oku.jp/bin/
+||shin-gen.jp/bin/
+||suppa.jp/bin/
+||syuriken.jp/bin/
+||the-ninja.jp/bin/
+||tobiiro.jp/bin/
+||tonosama.jp/bin/
+||wakatono.jp/bin/
+||xxxxxxxx.jp/bin/
+||zouri.jp/bin/
+! .net
+||bake-neko.net/bin/
+||chimanako.net/bin/
+||chottu.net/bin/
+||dayuh.net/bin/
+||dotera.net/bin/
+||ehoh.net/bin/
+||futene.net/bin/
+||ganriki.net/bin/
+||hanagasumi.net/bin/
+||hide-yoshi.net/bin/
+||ichiya-boshi.net/bin/
+||iinaa.net/bin/
+||iiyudana.net/bin/
+||is-mine.net/bin/
+||iza-yoi.net/bin/
+||kachoufuugetu.net/bin/
+||kagechiyo.net/bin/
+||kasabuta.net/bin/
+||kenkenpa.net/bin/
+||ken-shin.net/bin/
+||kesagiri.net/bin/
+||kinugoshi.net/bin/
+||makibisi.net/bin/
+||mameshibori.net/bin/
+||mizusasi.net/bin/
+||nagesen.net/bin/
+||nigamushi.net/bin/
+||ninja-web.net/bin/
+||nobu-naga.net/bin/
+||nukarumi.net/bin/
+||obijime.net/bin/
+||okoshi-yasu.net/bin/
+||okunohosomichi.net/bin/
+||oteage.net/bin/
+||otodo.net/bin/
+||ran-maru.net/bin/
+||sa-kon.net/bin/
+||sessya.net/bin/
+||shakunage.net/bin/
+||shikanosuke.net/bin/
+||shikisokuzekuu.net/bin/
+||shimazu-yoshihiro.net/bin/
+||soragoto.net/bin/
+||soudesune.net/bin/
+||suki-ari.net/bin/
+||takara-bune.net/bin/
+||tyanoyu.net/bin/
+||warabimochi.net/bin/
+||warabuki.net/bin/
+||yakiin.net/bin/
+||yukimizake.net/bin/
+||yuki-mura.net/bin/
+! .org
+||bakufu.org/bin/
+||nekonikoban.org/bin/
+||oiran.org/bin/
+||ukime.org/bin/
+! ---------- Samurai Factory END ----------
+! 
+! ---------- Domain optionally with path END ----------
+! 
+!
+! ########## Element Hiding START ##########
+###AD
+###Ad
+~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
+###ad_container
+###ad_frame
+###ad_listing
+###ad-text
+###AD-text
+###ad_text
+###AD_text
+###ad_bottom
+###AD_bottom
+###ad_left
+###AD_left
+###ad_right
+###AD_right
+###ad_rs
+###ad_top
+###AD_top
+###AD1
+###AD2
+###AD3
+###AD4
+###AD5
+###AD6
+###AD7
+###AD8
+###AD9
+###ad1
+###ad2
+###ad3
+###ad4
+###ad5
+###ad6
+###ad7
+###ad8
+###ad9
+###adAms
+###AdArea
+###adArea
+###adarea
+###AdBox
+###adBox
+###adbox
+###adContainer
+###adFrame
+###adLeft
+###adleft
+###adPRtext
+###adRight
+###adright
+###AdsBox
+###adsBox
+###adsbox
+###ADS
+###ADs
+###ads
+###adTop
+###adv
+###advertise
+###AMN-large-banner
+###bannerAd
+###bannerad
+###block_whitepaper
+###bottomAds
+###bottomads
+###boxad
+###boxad1
+###defaultAd
+###flashAD
+###footerAd
+###googleAds
+###headerPR
+###overture_cm
+###pr-area
+###pr-txt
+###PR-txt
+###pr_txt
+###PR_txt
+###prbox
+###prTxt
+###prtxt
+###sideadbnr
+###sideRecommend
+###textad
+###textAd
+###textad-top
+###textAds
+###top_banner_area
+###topAd
+###topAds
+~mail.google.com##.AD
+##.Ad
+~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
+##.ad_banner
+##.ad_left
+##.ad_link
+##.ad_right
+##.AD-text
+##.ad-text
+##.ad_rectangle
+##.ad_square
+##.ad_special_badge
+##.AD_text
+##.ad_text
+##.ad_textlink
+##.ad_textlink_box
+##.ad_top
+##.AD1
+##.AD2
+##.AD3
+##.AD4
+##.AD5
+##.AD6
+##.AD7
+##.AD8
+##.AD9
+##.ad1
+##.ad2
+##.ad3
+##.ad300
+##.ad4
+##.ad5
+##.ad6
+##.ad7
+##.ad728
+##.ad8
+##.ad9
+##.AdArea
+##.adArea
+##.adarea
+##.AdBox
+##.adBox
+##.adbox
+##.addescription
+##.adLeft
+##.adleft
+##.adPRtext
+##.adRight
+##.adright
+##.AdsBox
+##.adsBox
+##.adsbox
+##.adslot
+##.adSlot
+##.adlantiss_frame
+! .adf includes each mail header 2011-11-18
+! .adn includes each mail body 2011-11-18
+##.ads:not(.adf):not(.adn)
+##.adspace
+##.ADs
+##.ADS
+##.ads_adingo
+##.adText
+##.adtitle
+##.adTop
+##.adtop
+##.adurl
+~jma.go.jp##.adv
+##.advert
+##.AMN-sponsor-rolls
+##.AMN-large-banner
+##.bannerAd
+##.bannerad
+##.block_whitepaper
+##.boxad
+##.defaultAd
+##.flashAD
+##.footerBanner
+##.gAdsense
+##.googleAds
+##.gsc-adBlock
+##.header-banner
+~photobucket.com##.headerAd
+##.headerPR
+##.leaderboardAd
+##.PR-txt
+##.pr-txt
+##.PR_txt
+##.pr_txt
+##.prbox
+~apple.com##.promos
+##.promoted
+##.promoted-videos
+##.prTxt
+##.prtxt
+##.randomBanner
+##.showcaseAd
+##.sideAd
+##.sideBanner
+##.sideRecommend
+##.sideTxtAd
+##.spotlightAd
+##.staticAd
+##.tdftad
+##.textAd
+##.textad-top
+##.textAds
+##.topAd
+##.topAds
+~kent-web.com##a[href="http://www.kent-web.com/"]
+! ========== Links with keywords START ==========
+##a[href*="/A-affiliate2/"]
+~famitsu.com##a[href*="&ad="]
+##a[href*="-ad."]
+##a[href*="-AD."]
+~ipss.go.jp##a[href*="-ad/"]
+##a[href*="-AD/"]
+~sharp.co.jp,~4sh.jp##a[href*="/ad-"]
+##a[href*="/AD-"]
+##a[href*="/ad."]
+##a[href*="/AD."]
+##a[href*="/ad/"]
+##a[href*="/AD/"]
+##a[href*="/ad_"]
+##a[href*="/AD_"]
+##a[href*="?ad="]
+##a[href*="_ad."]
+##a[href*="_AD."]
+##a[href*="_ad/"]
+##a[href*="_AD/"]
+~point-meijin.com##a[href*="_ad_"]
+##a[href*="_AD_"]
+##a[href*="/adcl."]
+##a[href*="/ADCLICK/"]
+##a[href*="?adid="]
+##a[href*="&adptg_"]
+~blocklistpro.com##a[href*="-ads-"]
+##a[href*="-ADs-"]
+##a[href*="-ADS-"]
+! ~altech-ads.com##a[href*="-ads."]
+##a[href*="-ADs."]
+##a[href*="-ADS."]
+##a[href*="-ads/"]
+##a[href*="-ADs/"]
+##a[href*="-ADS/"]
+##a[href*="/ads-"]
+##a[href*="/ADs-"]
+##a[href*="/ADS-"]
+##a[href*="/ads."]
+##a[href*="/ADs."]
+##a[href*="/ADS."]
+~gendai.net,~nicovideo.jp##a[href*="/ads/"]:not([href*="/preference"])
+##a[href*="/ADs/"]
+##a[href*="/ADS/"]
+##a[href*="/ads_"]
+##a[href*="/ADs_"]
+##a[href*="/ADS_"]
+##a[href*="_ads."]:not([href*="/privacy"])
+##a[href*="_ADs."]
+##a[href*="_ADS."]
+##a[href*="_ads/"]
+##a[href*="_ADs/"]
+##a[href*="_ADS/"]
+##a[href*="_ads_"]
+##a[href*="_ADs_"]
+##a[href*="_ADS_"]
+##a[href*="/?adv="]
+##a[href*="/advt."]
+##a[href*="/adsv-"]
+##a[href*="/adsv."]
+##a[href*="/adsv/"]
+##a[href*="/adsv_"]
+##a[href*="/advertise."]
+##a[href*="/advertise/"]
+##a[href*="/advertising/"]
+##a[href*="?af_code="]
+##a[href*="?afc="]
+##a[href*="/aff.php?"]
+##a[href*="&aff="]
+##a[href*="?aff="]
+##a[href*="?affid="]
+##a[href*="?AFFILIATE="]
+##a[href*="?affiliate="]
+##a[href*="&afftrack="]
+##a[href*="&AFFILIATE="]
+##a[href*="&affiliate="]
+! Commented out too generic element hiding filter: 2011-06-02
+! ##a[href*="affiliate"]
+##a[href*="afi_link"]
+##a[href*="?afrno="]
+##a[href*="/aftype-"]
+##a[href*="/bannerclick/"]
+##a[href*="/bin/gg?"]
+##a[href*="/bizad."]
+##a[href*="/click.ng/"]
+##a[href*="clickad?"]
+##a[href*="/clicker."][href*="/redirect."]
+##a[href*="/clink.php?"]
+##a[href*="/clk.php?"]
+##a[href*="/dlaf/=/"]
+##a[href*="/event.ng/"]
+##a[href*="INSERT_RANDOM_NUMBER_HERE"]
+##a[href*="/kokoku/"]
+##a[href*="/lsplus."]
+##a[href*="&partnerId="]
+! ~capote.posterous.com##a[href*="-pr-"]
+##a[href*="-PR-"]
+##a[href*="-pr."]
+##a[href*="-PR."]
+##a[href*="-pr/"]
+! False positive at amazon.co.jp conflicting over product code like "...SM-JA48-PR/dp/..."
+~amazon.co.jp##a[href*="-PR/"]
+! ~ipss.go.jp##a[href*="/pr-"]
+##a[href*="/PR-"]
+! ~cr.mufg.jp##a[href*="/pr."]
+##a[href*="/PR."]
+! ~smbc-card.com##a[href*="/pr/"]
+##a[href*="/PR/"]
+! ~sanyeicorp.com##a[href*="/pr_"]
+##a[href*="/PR_"]
+! ~yamagata-np.jp##a[href*="_pr."]
+##a[href*="_PR."]
+! ~twitter.com##a[href*="_pr/"]
+! ~twitter.com##a[href*="_PR/"]
+! ~amazon.co.jp##a[href*="_pr_"]
+##a[href*="_PR_"]
+##a[href*="/speedclicks/"]
+! false positive 2011-03-07: ##a[href*="/splash/"]
+##a[href*="/track/traffic.php?"]
+##a[href*="/traffic.php?c="]
+##a[href*="sponsor"]
+##a[href*="utm_medium=ad"]
+##a[href*="utm_source=ad"]
+##a[href*="/?vpab0"]
+##a[href*="/?vpca0"]
+##a[href*="/?vpch0"]
+##a[href*="/?vpcy0"]
+##a[href*="/?vpcz0"]
+##a[href*="/?vpee0"]
+! ---------- Links with keywords END ----------
+! ========== Links with URLs START ==========
+##a[href*="//203.86.249.80/"]
+##a[href*="//210.155.151.148/"]
+##a[href*="px.a8.net/svt/ejp"]
+##a[href*=".accesstrade.net/at/c.html"]
+##a[href*="//acnt.biz/ac."]
+##a[href*="ad-v.jp/*/click/"]
+##a[href*="//adf.ly/"]
+##a[href*="//cou.adjust-net.jp"]
+##a[href*="adjustnetwork.com/aan/"]
+##a[href*="adpath.net/click?"]
+##a[href*="adsmarket.com/click/"]
+##a[href*="//r.advg.jp/"]
+##a[href*="//ad.agilemedia.jp"]
+##a[href*="ainte.jp/cid/"]
+##a[href*="//sos.allabout.co.jp"]
+##a[href*="auc-life.org/?"]
+##a[href*=".bb-chat.tv/"]
+##a[href*="partner.become.co.jp/rd"]
+##a[href*="best-select.biz/cc"]
+##a[href*="bidders.co.jp/aff/"]
+##a[href*="bidders.co.jp/pitem/"][href*="/aff/"]
+##a[href*=".bingshopping.jp/price/isearch/"]
+##a[href*=".blogmura.com/in/"]
+##a[href*=".brothersoft.com"]
+##a[href*=".brothersoft.jp"]
+##a[href*="//refer.ccbill.com"]
+##a[href*="clget.jp/"]
+##a[href*=".counter-hosting.com"]
+##a[href*=".cpalead.com"]
+##a[href*=".csolution.jp/"][href*="//cm-"]
+##a[href*="dlsite.com/dlaf/=/link/"]
+##a[href*="dmm.co.jp/hit."]
+##a[href*="dmm.com/click."]
+##a[href*=".doubleclick.net/aclk?"]
+##a[href*="//ad.doubleclick.net"]
+##a[href*="//click.dtiserv2.com/"]
+##a[href*=".ebis.ne.jp"][href*="_rd."]
+##a[href*=".ebis.ne.jp"][href*="/tr_"]
+##a[href*="//ever-adsense.com"]
+##a[href*="//ever-click.com"]
+##a[href*="//ever-clix.com"]
+##a[href*="//ever-website.com"]
+##a[href*=".google.co.jp/aclk?sa="]
+##a[href*=".google.co.jp%2Faclk%3Fsa%3D"]
+##a[href*=".google.com/aclk?sa="]
+##a[href*=".google.com%2Faclk%3Fsa%3D"]
+##a[href*=".googlesyndication.com/aclk?sa="]
+##a[href*="harvest-z.jp"]
+##a[href*="i2i.jp/click."]
+##a[href*="infocart.jp/"]
+##a[href*=".impressit.co.jp/reader.php"]
+##a[href*=".info-style.co.jp"]
+##a[href*=".infoseek.co.jp/redirect?sv="]
+##a[href*="infotop.jp/click."]
+##a[href*="infotop.jp/order."]
+##a[href*="//ngs.impress.co.jp"]
+##a[href*="//click.j-a-net.jp"]
+##a[href*="//j-a-net.jp/gateway/click.cgi"]
+##a[href*="//cl.jlisting.jp"]
+##a[href*="//search.jword.jp"]
+##a[href*="//kvors.com/click/?"]
+##a[href*="//click.linksynergy.com"]
+##a[href*=".liutilities.com/affcb/"]
+##a[href*=".liveads.jp/widgets_src/"]
+##a[href*=".loka.jp"]
+##a[href*="media-b.jp/hbcount/"]
+##a[href*=".mediaplex.com"]
+##a[href*="//ads.mixi.jp"]
+##a[href*="mobile-click.org"]
+##a[href*=".r.msn.com/?ld="]
+##a[href*="//itpro.nikkeibp.co.jp/as/"]
+##a[href*="okone.jp/?"]
+##a[href*=".overture.co.jp/ja_JP/legal/"]
+##a[href*=".overture.com/d/sr/"]
+##a[href*="p-advg.com/adpCnt/"]
+##a[href*="pheedo.jp/feeds/"]
+##a[href*=".afl.rakuten.co.jp/hsc/"]
+! ##a[href*="//rd.rakuten.co.jp/s/?"]
+##a[href*="rssad.jp/trendmatch/"]
+##a[href*="//searchpartner.jp/"]
+##a[href*="shareasale.com/r."]
+##a[href*=".softonic.jp/"]
+##a[href*="sp-affiliaters.com/adinfo/"]
+##a[href*="//g.subcul.net"]
+##a[href*=".super-search.jp/"]
+##a[href*=".tcs-asp.net/"]
+##a[href*=".trafficgate.net/"]
+##a[href*="type.jp/s/navi/"]
+##a[href*="//rd.userlocal.jp/"]
+##a[href*="ap.valuecommerce.com/"]
+##a[href*="ck.valuecommerce.com/"]
+##a[href*="visionavi.net/motivation/"]
+##a[href*="//adrd.weblio.jp"]
+##a[href*="//blog.with2.net/link."]
+##a[href*="world-auctions.org/?aid="]
+##a[href*="ii.xii.jp"]
+##a[href*="//rd.xlisting.jp"]
+##a[href*="xmax.jp/click/"]
+##a[href*="xtendmedia.com/clk?"]
+##a[href*="ard.yahoo.com"]
+! Temporarily commented out a filter which caused a false positive at cm.tw.my.yahoo.com, reported via Issue Report 2011-08-05
+! ##a[href*="lrd.yahoo.com"]
+##a[href*="//ard.yahoo.co.jp"]:not([href*="//account."]):not([href*="//chiebukuro."]):not([href*="//disaster."]):not([href*="//emergency."]):not([href*="//help."]):not([href*="//login."]):not([href*="//setsuden."]):not([href*="//weather.yahoo.co.jp"]):not([href*="//www.yahoo.co.jp"])
+##a[href*="//krd.yahoo.co.jp"]
+##a[href*="//rd.ane.yahoo.co.jp/rd?"]
+##a[href*="//rd.listing.yahoo.co.jp"]
+##a[href*="//yjaxcrd.yahoo.co.jp"]
+##a[href*=".ziyu.net/jump."]
+! ---------- Links with URLs END ----------
+##img[alt^="[pr-"]
+##img[alt^="[PR-"]
+##img[alt^="[pr_"]
+##img[alt^="[PR_"]
+##img[alt*="-pr-"]
+##img[alt*="-PR-"]
+##img[alt*="[pr]"]
+##img[alt*="[PR]"]
+##img[alt*="_pr_"]
+##img[alt*="_PR_"]
+##img[alt$="-pr]"]
+##img[alt$="-PR]"]
+##img[alt$="_pr]"]
+##img[alt$="_PR]"]
+##*[id^="ad-"]:not(body):not(input)
+##*[id^="AD-"]:not(body):not(input)
+~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
+##*[id^="AD_"]:not(body):not(input)
+##*[id^="AD0"]:not(body):not(input)
+##*[id^="AD1"]:not(body):not(input)
+##*[id^="AD2"]:not(body):not(input)
+##*[id^="AD3"]:not(body):not(input)
+##*[id^="AD4"]:not(body):not(input)
+##*[id^="AD5"]:not(body):not(input)
+##*[id^="AD6"]:not(body):not(input)
+##*[id^="AD7"]:not(body):not(input)
+##*[id^="AD8"]:not(body):not(input)
+##*[id^="AD9"]:not(body):not(input)
+##*[id^="ad0"]:not(body):not(input)
+##*[id^="ad1"]:not(body):not(input)
+##*[id^="ad2"]:not(body):not(input)
+##*[id^="ad3"]:not(body):not(input)
+##*[id^="ad4"]:not(body):not(input)
+##*[id^="ad5"]:not(body):not(input)
+##*[id^="ad6"]:not(body):not(input)
+##*[id^="ad7"]:not(body):not(input)
+##*[id^="ad8"]:not(body):not(input)
+##*[id^="ad9"]:not(body):not(input)
+##*[id^="adBox"]:not(body):not(input)
+##*[id^="ads-"]:not(body):not(input)
+##*[id^="ADs-"]:not(body):not(input)
+##*[id^="ADS-"]:not(body):not(input)
+! False positive with #ads_backsplashSkin at news.cnet.com reported via Issue Report 2011-11-21
+##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
+##*[id^="ADs_"]:not(body):not(input)
+##*[id^="ADS_"]:not(body):not(input)
+##*[id^="adv-"]:not(body):not(input)
+##*[id^="ADV-"]:not(body):not(input)
+##*[id^="adv_"]:not(body):not(input)
+##*[id^="ADV_"]:not(body):not(input)
+##*[id^="deqwas"]:not(body):not(input)
+##*[id^="deteql"]:not(body):not(input)
+##*[id^="gAdsense"]:not(body):not(input)
+##*[id^="google_ad"]:not(body):not(input)
+##*[id^="google_afc_"]:not(body):not(input)
+! ##*:not([id="pr-root"]):not([class^="dct-"])[id^="pr-"]:not(body):not(input)
+! ##*[id^="PR-"]:not(body):not(input)
+! ~books.com.tw##*[id^="pr_"]:not(body):not(input)
+! ##*[id^="PR_"]:not(body):not(input)
+##*[id*="adsense"]:not(body):not(input)
+##*[id*="AdSense"]:not(body):not(input)
+##*[id*="advertisement"]:not(body):not(input)
+##*[id*="Advertisement"]:not(body):not(input)
+##*[id*="ADVERTISEMENT"]:not(body):not(input)
+##*[id*="advertising"]:not(body):not(input)
+##*[id*="Advertising"]:not(body):not(input)
+##*[id*="ADVERTISING"]:not(body):not(input)
+##*[id*="affiliate"]:not(body):not(input)
+##*[id*="Affiliate"]:not(body):not(input)
+##*[id*="AFFILIATE"]:not(body):not(input)
+##*[id*="overture"]:not(body):not(input)
+##*[id*="Overture"]:not(body):not(input)
+##*[id*="OVERTURE"]:not(body):not(input)
+! ##*[id*="prtext"]:not(body):not(input)
+! ##*[id*="PRtext"]:not(body):not(input)
+! ##*[id*="prText"]:not(body):not(input)
+~accuweather.com##*[id*="sponsor"]:not(body):not(input)
+##*[id*="Sponsor"]:not(body):not(input)
+##*[id*="SPONSOR"]:not(body):not(input)
+~foreignaffairs.com##*[id*="-ad-"]:not(body):not(input)
+##*[id*="-AD-"]:not(body):not(input)
+##*[id*="-ads-"]:not(body):not(input)
+##*[id*="-ADs-"]:not(body):not(input)
+##*[id*="-ADS-"]:not(body):not(input)
+! ##*[id*="-pr-"]:not(body):not(input)
+! ##*[id*="-PR-"]:not(body):not(input)
+~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
+##*[id*="_AD_"]:not(body):not(input)
+##*[id*="_ads_"]:not(body):not(input)
+##*[id*="_ADs_"]:not(body):not(input)
+##*[id*="_ADS_"]:not(body):not(input)
+! ##*[id*="_pr_"]:not(body):not(input)
+! ##*[id*="_PR_"]:not(body):not(input)
+~tcmagazine.com##*[id$="-ad"]:not(body):not(input)
+##*[id$="-AD"]:not(body):not(input)
+~mobile01.com##*[id$="-ads"]:not(body):not(input)
+##*[id$="-ADs"]:not(body):not(input)
+##*[id$="-ADS"]:not(body):not(input)
+! ~kakaku.com##*[id$="-pr"]:not(body):not(input)
+! ##*[id$="-PR"]:not(body):not(input)
+##*[id$="_ad"]:not(body):not(input)
+##*[id$="_AD"]:not(body):not(input)
+##*[id$="_ads"]:not(body):not(input)
+##*[id$="_ADs"]:not(body):not(input)
+##*[id$="_ADS"]:not(body):not(input)
+! ##*[id$="_pr"]:not(body):not(input)
+! ##*[id$="_PR"]:not(body):not(input)
+~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
+##*[class^="AD-"]:not(body):not(input)
+~collegehumor.com##*[class^="ad_"]:not(body):not(input)
+##*[class^="AD0"]:not(body):not(input)
+##*[class^="AD1"]:not(body):not(input)
+##*[class^="AD2"]:not(body):not(input)
+##*[class^="AD3"]:not(body):not(input)
+##*[class^="AD4"]:not(body):not(input)
+##*[class^="AD5"]:not(body):not(input)
+##*[class^="AD6"]:not(body):not(input)
+##*[class^="AD7"]:not(body):not(input)
+##*[class^="AD8"]:not(body):not(input)
+##*[class^="AD9"]:not(body):not(input)
+##*[class^="ad0"]:not(body):not(input)
+##*[class^="ad1"]:not(body):not(input)
+##*[class^="ad2"]:not(body):not(input)
+##*[class^="ad3"]:not(body):not(input)
+##*[class^="ad4"]:not(body):not(input)
+##*[class^="ad5"]:not(body):not(input)
+##*[class^="ad6"]:not(body):not(input)
+##*[class^="ad7"]:not(body):not(input)
+##*[class^="ad8"]:not(body):not(input)
+##*[class^="ad9"]:not(body):not(input)
+##*[class^="AD_"]:not(body):not(input):not(table)
+##*[class^="adBox"]:not(body):not(input)
+##*[class^="ads-"]:not(body):not(input)
+##*[class^="ADs-"]:not(body):not(input)
+##*[class^="ADS-"]:not(body):not(input)
+##*[class^="ads_"]:not(body):not(input)
+##*[class^="ADs_"]:not(body):not(input)
+##*[class^="ADS_"]:not(body):not(input)
+##*[class^="adv-"]:not(body):not(input)
+##*[class^="ADV-"]:not(body):not(input)
+##*[class^="adv_"]:not(body):not(input)
+##*[class^="ADV_"]:not(body):not(input)
+##*[class^="deqwas"]:not(body):not(input)
+##*[class^="deteql"]:not(body):not(input)
+##*[class^="google-ads"]:not(body):not(input)
+! ##*[class^="pr-"]:not(body):not(input)
+! ##*[class^="PR-"]:not(body):not(input)
+! ##*[class^="pr_"]:not(body):not(input)
+! ##*[class^="PR_"]:not(body):not(input)
+~wikia.com##*[class*="adsense"]:not(body):not(input)
+##*[class*="AdSense"]:not(body):not(input)
+~slideboom.com##*[class*="advertisement"]:not(body):not(input)
+##*[class*="Advertisement"]:not(body):not(input)
+##*[class*="ADVERTISEMENT"]:not(body):not(input)
+##*[class*="advertising"]:not(body):not(input)
+##*[class*="Advertising"]:not(body):not(input)
+##*[class*="ADVERTISING"]:not(body):not(input)
+##*[class*="AdWords"]:not(body):not(input)
+##*[class*="affiliate"]:not(body):not(input)
+##*[class*="Affiliate"]:not(body):not(input)
+##*[class*="AFFILIATE"]:not(body):not(input)
+##*[class*="overture"]:not(body):not(input)
+##*[class*="Overture"]:not(body):not(input)
+##*[class*="OVERTURE"]:not(body):not(input)
+! ##*[class*="prtext"]:not(body):not(input)
+! ##*[class*="PRtext"]:not(body):not(input)
+~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body):not(input)
+##*[class*="Sponsor"]:not(body):not(input)
+##*[class*="SPONSOR"]:not(body):not(input)
+~foreignaffairs.com##*[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
+##*[class*="-AD-"]:not(body):not(input)
+##*[class*="-ads-"]:not(body):not(input)
+##*[class*="-ADs-"]:not(body):not(input)
+##*[class*="-ADS-"]:not(body):not(input)
+! ##*[class*="-pr-"]:not(body):not(input)
+! ##*[class*="-PR-"]:not(body):not(input)
+~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
+##*[class*="_AD_"]:not(body):not(input)
+##*[class*="_ads_"]:not(body):not(input)
+##*[class*="_ADs_"]:not(body):not(input)
+##*[class*="_ADS_"]:not(body):not(input)
+! ##*[class*="_pr_"]:not(body):not(input)
+! ##*[class*="_PR_"]:not(body):not(input)
+! Negative conditions are added to avoid false positives around plus.google.com
+##*[class$="-ad"]:not(body):not(input):not([class^="a-"]):not([class^="f-"])
+##*[class$="-AD"]:not(body):not(input)
+! False positive in right column named "with-ads" of the flickr.com search result
+~flickr.com##*[class$="-ads"]:not(body):not(input)
+##*[class$="-ADs"]:not(body):not(input)
+##*[class$="-ADS"]:not(body):not(input)
+! ##*[class$="-pr"]:not(body):not(input)
+! ##*[class$="-PR"]:not(body):not(input)
+~cnepub.com,~itoyokado.co.jp##*[class$="_ad"]:not(.gs_ad):not(body):not(input)
+##*[class$="_AD"]:not(body):not(input)
+##*[class$="_ad1"]:not(body):not(input)
+##*[class$="_ads"]:not(body):not(input)
+##*[class$="_ADs"]:not(body):not(input)
+##*[class$="_ADS"]:not(body):not(input)
+! ##*[class$="_pr"]:not(body):not(input)
+! ##*[class$="_PR"]:not(body):not(input)
+! ---------- Element Hiding END ----------
+! 
+! ########## Element Hiding with domains START ##########
+100shiki.com###flip1+div
+100shiki.com###text-5
+100shiki.com###text-5 + *
+afpbb.com###bpnDirectoryBlock
+afpbb.com###prLinkBlock
+afpbb.com##div[id^="ads"]
+agri-biz.jp##div[id^="banner_"]
+akb48matome.com##.akbantena
+! False positives with zoomed images, which are NOT ADs, reported via Issue Report Dec 15, 2011
+! amazon.co.jp,amazon.com###ap_container
+amazon.co.jp,amazon.com###cbcc_banner_container
+amazon.co.jp,amazon.com##.adNoOutline
+amazon.co.jp,amazon.com##*[id^="DA"]
+ameblo.jp###amebaBar
+ameblo.jp###eco_head
+ascii.jp###bargain
+ascii.jp###prWindow
+ascii.jp###spMenu
+ashinari.com###area-bnrtext
+ashinari.com##.area-bnrtext
+atmarkit.co.jp###crec
+atmarkit.co.jp###frec
+atmarkit.co.jp###fyi-pickup
+atmarkit.co.jp###headmenu > .l
+atmarkit.co.jp###kyujin
+atmarkit.co.jp###monosp
+atmarkit.co.jp###PR-ITR
+atmarkit.co.jp###rrec
+atmarkit.co.jp###rrec2
+atmarkit.co.jp###rspecial
+atmarkit.co.jp###ttl-techtarget
+atmarkit.co.jp##.crec
+atmarkit.co.jp##.frec
+atmarkit.co.jp##.fyi-box
+atmarkit.co.jp##.kyujin
+atmarkit.co.jp##.monosp
+atmarkit.co.jp##.pr-l
+atmarkit.co.jp##.rspecial
+atmarkit.co.jp##.ttl-techtarget
+atmarkit.co.jp##*[id^="rcspSFlash"]:not(body):not(input)
+atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
+atmarkit.co.jp##a[href*="/ct.php?id="]
+biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
+news.biglobe.ne.jp##.praTB
+bing.com##*[class^="sb_ads"]
+bioimpact.jp###pr
+bioimpact.jp##div[class^="sn-box"]
+bizmakoto.jp,itmedia.co.jp###amazon-item
+bizmakoto.jp,itmedia.co.jp###banner
+bizmakoto.jp,itmedia.co.jp###endwpp
+bizmakoto.jp,itmedia.co.jp###fyi
+bizmakoto.jp,itmedia.co.jp###ISTLR
+bizmakoto.jp,itmedia.co.jp###ITN-r
+bizmakoto.jp,itmedia.co.jp###logoarea
+bizmakoto.jp,itmedia.co.jp###mobileshop
+bizmakoto.jp,itmedia.co.jp###osusumepc
+bizmakoto.jp,itmedia.co.jp###osusume
+bizmakoto.jp,itmedia.co.jp###r-txtfil
+! false positive 2011-02-26: bizmakoto.jp,itmedia.co.jp###red
+bizmakoto.jp,itmedia.co.jp###signboard
+bizmakoto.jp,itmedia.co.jp##.cmsBox
+bizmakoto.jp,itmedia.co.jp##.endkwd
+bizmakoto.jp,itmedia.co.jp##.endwpp
+bizmakoto.jp,itmedia.co.jp##.logoarea
+bizmakoto.jp,itmedia.co.jp##.r-txtfil
+bizmakoto.jp,itmedia.co.jp##.rcsp
+bizmakoto.jp,itmedia.co.jp##.signboard
+bizmakoto.jp,itmedia.co.jp##div[id^="ISAL"]
+bizmakoto.jp,itmedia.co.jp##div[id^="pr"]
+bizmakoto.jp,itmedia.co.jp##strong.logo
+blogos.com,news.livedoor.com###nav-theme
+bspeedtest.jp##td > table[width="385"] ~ *
+number.bunshun.jp##.banner-area
+burusoku-vip.com##.column-inner-2 > .column-inner-2
+cgdigg.com##.sview + br + div
+chartpark.com##td[valign="middle"][align="center"]
+chosunonline.com###infotext
+chosunonline.com###postsub > .ad300x250
+cnet.com##a[href*="//offers.cnet.com/redir?"]
+cnet.com##a[href*="//adlog.com.com"]
+! False Positive: download link
+! cnet.com##a[href*="//dw.com.com/redir?"]
+japan.cnet.com,japan.zdnet.com##.tieup
+japan.cnet.com,japan.zdnet.com##.tieup_box
+japan.cnet.com,japan.zdnet.com##.tieup_list_box
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/extra/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
+codezine.jp###shoeisha_gnavi
+codezine.jp##.shoeisha_gnavi
+codezine.jp##div[id*="_pnlHeadSuper"]
+coliss.com###sidebar > .block02:first-child
+computerworld.jp##.adve_rec
+computerworld.jp##.adver
+coojin.com###big_main > .auctions
+cybersyndrome.net##TABLE[cellspacing="2"][cellpadding="2"][border="0"][align="left"]
+cybozu.net###recommend-top-txt > li:last-child
+cyzo.com##.r_sidebanner
+diamond.jp###article-sptopics
+diamond.jp###pr1
+diamond.jp###pr2
+diamond.jp###special-underline
+diamond.jp###special-upperline
+diamond.jp###sptopics
+diamond.jp###sub-column > img
+diamond.jp###sub-column > table
+diamond.jp##.diamondonline-plus
+diamond.jp##a[href*="diamond.jp/rd/"]
+diamond.jp##a[href*="diamond.ne.jp/?banner_id="]
+diamond.jp##.section.special-topics
+diamond.jp##div[class*="ad-"][class*="section"]
+diamond.jp##div[class*="box"][class*="banner"]
+diamond.jp##div[class*="box"][class*="dolplus"]
+diamond.jp##div[class*="box"][class*="side_business-info"]
+diamond.jp##div[class*="box"][class*="side_lead"]
+diamond.jp##div[class^="yBanner0"]
+zai.diamond.jp##.pickup
+zai.diamond.jp##.top-select
+zai.diamond.jp##*[class*="campaign"]:not(body):not(input)
+zai.diamond.jp##a[href*="campaign"]
+zai.diamond.jp##a[href*="/oo/cc/tieup/"]
+e-words.jp###l
+e-words.jp##.ladsby
+e-words.jp##.ladsby ~ table
+e-words.jp###sidebox
+e-words.jp##.l
+e-words.jp##.sidebox
+eetimes.jp##.prsbox
+excite.co.jp###amazonPickup
+excite.co.jp###gameRanking
+excite.co.jp###popular_keywords_main
+excite.co.jp###resultsBody > .hit > *[id*="awg"]
+excite.co.jp###resultsBody > .hit > *[id*="jls"]
+excite.co.jp###resultsBody > .hit > *[id*="jwd"]
+excite.co.jp###season-keywords
+excite.co.jp##a[href*="&target=ss"]
+f-secure.jp##img[src$="/is_banner_jpn.gif"]
+facebook.com##.fbEmu
+workingnews.blog117.fc2.com##.free_area
+matomate.blog133.fc2.com###topArea
+matomate.blog133.fc2.com###topHeadline
+chitekizaisan.blog28.fc2.com##.free-area1
+chitekizaisan.blog28.fc2.com##.free-area2
+minisoku.blog97.fc2.com###headline
+ferret-plus.com###prinfo
+fileserve.com###bonus_promo
+fileserve.com###dialog_overlay
+gci-klug.jp##*[class*="AdBox"]:not(body):not(input)
+gci-klug.jp##*[class*="AdsBox"]:not(body):not(input)
+gendai.net##*[id^="adingo_"]:not(body):not(input)
+gigafree.net###spl
+gigafree.net##.spl
+gigazine.net###headertop
+gigazine.net##*[src*="/tnemesitrevda/"]:not(body):not(input)
+gihyo.jp###contentHotspot
+gihyo.jp###secondary > .textPR
+gihyo.jp###secondary > .banner
+gizmodo.com,lifehacker.com###header
+gizmodo.jp,lifehacker.jp##.ad_premiumplan
+gizmodo.jp,lifehacker.jp##.date_header_premium
+gizmodo.jp, kotaku.jp,lifehacker.jp##.entrybox
+gizmodo.jp, kotaku.jp,lifehacker.jp##.headline
+goo.ne.jp##.sponser
+blog.goo.ne.jp###mod-global-header-l > a:last-of-type
+books.google.com,books.google.co.jp###main_content + td
+maps.google.com,maps.google.co.jp###mclip
+encrypted.google.com,www.google.com,www.google.co.jp###mbEnd
+encrypted.google.com,www.google.com,www.google.co.jp###rtpl
+encrypted.google.com,www.google.com,www.google.co.jp###tads.c
+encrypted.google.com,www.google.com,www.google.co.jp###tadsb.c
+! false positive: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
+! encrypted.google.com,www.google.com,www.google.co.jp###topstuff
+encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
+encrypted.google.com,www.google.com,www.google.co.jp##.pmoabs
+! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
+encrypted.google.com,www.google.com,www.google.co.jp##.ra:not([class*="jb"])
+encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
+encrypted.google.com,www.google.com,www.google.co.jp##a[href*="//ceron.jp/"]
+gqjapan.jp,wired.jp###rectangle
+gqjapan.jp,wired.jp###tile
+h-online.com##.teaser_priceinsight
+hamusoku.com##.topbox
+hatena.ne.jp###asin-rel-item
+hatena.ne.jp###info-header
+hatena.ne.jp###odai-container
+hatena.ne.jp##.list.ad
+a.hatena.ne.jp##h1:first-of-type ~ ol:first-of-type
+b.hatena.ne.jp##.nikkei-body
+b.hatena.ne.jp##.sidebar > div[class^="curvebox-"]
+b.hatena.ne.jp##div[id^="afs"]
+d.hatena.ne.jp##.notice-container
+q.hatena.ne.jp###related-keyword ~ *
+q.hatena.ne.jp##.job
+hmv.co.jp##.tmplLogo
+hwinfo.com##a[href*="hwinfo.com/ref/"]
+jp.ibtimes.com###ad300
+jp.ibtimes.com###pressrelease
+jp.ibtimes.com###superbanner
+jp.ibtimes.com##.ad300
+jp.ibtimes.com##.pressrelease
+jp.ibtimes.com##.superbanner
+jp.ibtimes.com###mailmg
+jp.ibtimes.com##li.mailmg
+ime.nu,ime.st##a[href*="/redirect.html"]
+ime.nu,ime.st##body > br:last-of-type ~ *:not(hr)
+infoseek.co.jp###isweb-lite-adbanner
+japan.internet.com###head-mid
+investwalker.jp##td[bgcolor="#ffeedd"]
+jbpress.ismedia.jp###pr2
+jbpress.ismedia.jp###vbox
+jbpress.ismedia.jp###pr1
+jbpress.ismedia.jp##ul.platinum-text
+itarchitect.jp##.ads-textLine
+j-cast.com###entry-bottom
+j-cast.com##.entry-bottom
+j-cast.com##div[id^="RCCompanyIR"]
+j-cast.com##div[id^="RCAscii"]
+j-cast.com##div[id^="RCChumokuJoho"]
+j-cast.com##div[id^="MCAd"]
+jiji.com##img[src$="/images/spacer.gif"]
+jorudan.co.jp##a[href*="//book.jorudan.co.jp/cgi-bin/"] ~ *
+jorudan.co.jp##.bookList
+jorudan.co.jp##.imgBanner
+kakaku.com###mainRight .alignC
+kakaku.com##.prBn
+kanasoku.blog82.fc2.com###headline
+kanasoku.blog82.fc2.com###twitter_rank
+kanasoku.blog82.fc2.com##.entry_parma > .entry_body
+marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
+marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
+marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
+kabumap.com##.KM_VERS_TABLEAREA > div:not([id]):not([class])
+kget.jp##*[class^="ad"]:not([class*="add"]):not(body):not(input)
+l-tike.com###mhInner
+lavasoft.jp###firstpagebanner
+livedoor.com###become
+livedoor.com###today-site
+livedoor.com###osusume
+livedoor.com###otoku-info
+livedoor.com###ranking-amazon
+livedoor.com##.powerd-by-google
+livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
+search.livedoor.com###content h3
+search.livedoor.com###menu > div:first-child
+search.livedoor.com##.searchresult_sponsor
+macsoft.jp##.frame
+macsoft.jp##.simple
+mag2.com###prsite
+mail.ru##.banner
+mainichi.jp###SuperBanner
+mainichi.jp##.AdAA
+mainichi.jp##.AdChumoku
+mainichi.jp##.AdGraph
+mainichi.jp##.AffAD
+mainichi.jp##.NaviAd
+mainichi.jp##.SquareAd
+mainichi.jp##*[class^="ArticleAd"]:not(body):not(input)
+mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
+mapion.co.jp###adTxtInMain
+markezine.jp###header > .navi > div
+markezine.jp###searcharea + div
+markezine.jp###searcharea + div + div
+markezine.jp###ranking + div
+marsflag.com###head ~ a[href*="?bannerad_"]
+marsflag.com###head ~ img
+marsflag.com###contLeft > h2.colTitle1 ~ table.resutlTable[onclick*="ad_clk"]
+mixi.jp###contentMatch
+mooter.co.jp###cluster + table[cellpadding="0"]
+mooter.co.jp##td[width="230"][valign="top"]
+jp.msn.com##.kanrenBox
+jp.msn.com##div[id^="ads"]
+sankei.jp.msn.com###AD1line
+sankei.jp.msn.com###AD2line
+sankei.jp.msn.com##.adcenter
+mudainodqnment.ldblog.jp##.menu_cont3
+mudainodqnment.ldblog.jp##.menu_title3
+musen-lan.com##br + table[width="150"][cellpadding="2"] ~ table[width="150"][cellpadding="2"]
+musen-lan.com##td[width="130"]
+mycom.co.jp###adspecial
+mycom.co.jp##.adspecial
+mycom.co.jp##a[href*="adspecial"]
+mycom.co.jp##a[href*="kali.mycom.co.jp"]
+mycom.co.jp##*[src*="adspecial"]:not(body):not(input)
+mycom.co.jp##*[src*="kali.mycom.co.jp"]:not(body):not(input)
+download.hr###mediaget_box
+download.hr##.file_infoleft
+download.hr##a[href*="hotfile.com/dl/"]
+download.hr##a[href*="mediaget.com/torrent.php?r="]
+download.hr##a[href*="myotherdrive.com/dyn/file/"]
+nakanohito.jp###paddingside > #header + #padding
+namaan.net###listing_top
+netadreport.com###amn_banner
+netadreport.com###toptext
+netadreport.com##.bottom
+netanswerplus.saisoncard.co.jp###fade-box
+netanswerplus.saisoncard.co.jp##div[class^="banner"]
+netcraft.com###netcraft-links-bottom
+newsweek.com##.inline-promo-link
+newsweekjapan.jp###bnrHead
+newsweekjapan.jp###sideAdPanel
+nicovideo.jp###banner
+nicovideo.jp###Recommend
+nicovideo.jp###web_pc_prime
+nicovideo.jp##.sidewallAd
+seiga.nicovideo.jp##a[href*="//rd.nicovideo.jp/cc/seiga_top/"]
+nifty.com###gifAD
+nifty.com###subBnr
+nikkeibp.co.jp##.media-campaign
+business.nikkeibp.co.jp###articlekeyword
+business.nikkeibp.co.jp###Dignio
+business.nikkeibp.co.jp###manageInfo2
+business.nikkeibp.co.jp##.articlekeyword
+business.nikkeibp.co.jp##.bunner
+business.nikkeibp.co.jp##.magGuidance3
+business.nikkeibp.co.jp##.otoGuidance
+itpro.nikkeibp.co.jp###subContent .rectangle
+itpro.nikkeibp.co.jp###subContent .rightRectangle
+itpro.nikkeibp.co.jp###leaf_datascope
+itpro.nikkeibp.co.jp##.leaf_datascope
+itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
+pc.nikkeibp.co.jp###bs_bigsky
+pc.nikkeibp.co.jp###visual_box_iframe_margin
+ninja.co.jp###box_m
+ninja.co.jp###box_t
+ninja.co.jp##.attention
+ninja.co.jp##.box_m
+ninja.co.jp##.box_t
+openitonline.com,viewdocsonline.com##a[href*="/links/"]
+pcworld.com###shoppingMod
+pcworld.com##.storyList
+pcworld.com##div[id$="Ad"]
+pcworld.com##div[id$="Ads"]
+pcworld.com##div[class$="Ad"]
+pcworld.com##div[class$="Ads"]
+peer2peer.blog79.fc2.com###newentrys
+peer2peer.blog79.fc2.com##.newentrys
+workingnews.blog117.fc2.com##.free_area
+phpspot.org###rightbar
+publickey.jp,publickey1.jp##.topbanner
+pya.cc##.tk
+rakuten.co.jp###sc_lidAdd_js_banner
+rakuten.co.jp##*[id$="Esper"]
+rakuten.co.jp##*[id$="EsperHead"]
+rakuten.co.jp##*[id*="sponcer"]
+rakuten.co.jp##*[id*="Sponcer"]
+rakuten.co.jp##*[id^="sttl"]
+reddit.com##.organic-listing
+jp.reuters.com###adArticleText
+jp.reuters.com##.adArticleText
+president.jp.reuters.com##.prad
+revouninstaller.com##.header-flash
+revouninstaller.com##.row-banner
+robtex.com##*[id^="xad"]:not(body):not(input)
+rue89japon.com##*[id^="ad_"]:not(body):not(input)
+sanspo.com###lBoard2
+sanspo.com##.lBoard2
+sbisec.co.jp##a[href*="/campaign"]
+sbisec.co.jp###topbannerarea_noflash_wrapper
+sbisec.co.jp##div[class^="home02_"]
+sbisec.co.jp##div[class^="linkBox0"]
+sbisec.co.jp##div[class^="prBox0"]
+sbisec.co.jp##div[class^="topBoxPr0"]
+sbisec.co.jp###main > form > .mgt20
+secunia.com###divTopbanner
+security-next.com##a[href*="cl="]
+security-next.com##.sbboxad
+security-next.com##h5
+seo-stats.net###sidebar
+seo-stats.net##.sidebar
+slideshare.net##.medRecBottom2
+slideshare.net##.noAdForLead
+software.com###promo_aside
+sophia-it.com##.adtx
+sophia-it.com##.shin3
+sophia-it.com##*[class^="banner"]:not(body):not(input)
+sourceforge.jp###adaptive-prtext
+sourceforge.jp###adbar>.sidebar-ad-text~div:nth-of-type(2)
+sourceforge.jp###adbar > :first-child
+sourceforge.net##.recommended
+stackasterisk.jp##table.tableCaution
+surfcanyon.com###eastAds
+surfcanyon.com##.splink
+tabelog.com###targeting_restaurants
+tabelog.com##.areamatch-box
+tbs.co.jp##*[id^="banner-"]:not(body):not(input)
+tbs.co.jp###promotion
+technobahn.com##*[src*=".technobahn.com/cgi-bin/dart/display"]:not(body):not(input)
+technobahn.com##a[href*=".technobahn.com/cgi-bin/dart/click"]
+technobahn.com##tr.ch[id^="taw"]
+technobahn.com##tr.ch[id^="taw"]+tr
+technorati.jp###DARTinline
+technorati.jp##.DARTinline
+technozeast.com###rad
+teesoft.info###top-bottom
+teesoft.info###uniblue
+teesoft.info###footer-800
+thinkit.co.jp###megatext
+thinkit.co.jp###mini_tieup
+thinkit.co.jp###table7
+thinkit.co.jp###seo
+thinkit.co.jp##.banner
+thinkit.co.jp##.block.block-block:not(#block-block-9):not(#block-block-25)
+thinkit.co.jp##.view-tieup-articles
+thinkit.co.jp##img[src$="pr_bar.gif"]
+thinkit.co.jp##td.mini_tieup
+thinkit.co.jp##td.table7
+thinkit.co.jp##.seo
+tomshardware.com##.basicCentral-elm.clearfix
+toyokeizai.net##.mt35
+toyokeizai.net##.pr
+toyokeizai.net##.sideBnr
+toyokeizai.net##.sidePr
+toyokeizai.net##a[onClick*="pageTracker."]
+toyokeizai.net##div[class^="rightBnr"]
+translink.co.jp###barAD
+twilog.org###uf + div + div
+twitter.com##.promoted-account
+twitter.com##.promptbird
+twitter.com##.promoted-trend
+twitter.com##.promoted-tweet
+twitteranalyzer.com###BannerHolder
+uniangel.info###cgi
+uniangel.info###globalheader
+urlvoid.com###content > *[style^="text-align: center;"]
+ustream.tv###AdFreePromo
+ustream.tv###getStartedBanner
+ustream.tv##.channelContextAd
+vector.co.jp###PCSHOP_listAD
+vector.co.jp###softDetail ~ *
+vector.co.jp###special-box
+vector.co.jp###v_sub > noscript + .article:first-of-type
+vector.co.jp##a[href*="//vafs.vector.co.jp/"]
+vector.co.jp##div[id^="gad_"]
+vector.co.jp##div[class^="gad_"]
+vector.co.jp##div[id^="shop_"]
+www.vector.co.jp###top_special
+www.vector.co.jp###top_special + center
+www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
+www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
+virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
+special.visualzoo.com###sidebar > .side_banner
+special.visualzoo.com###container > .banner_area
+weblio.jp##.adHIWrp
+wsj.com##.adSummary
+yahoo.com,yahoo.co.jp###northbanner
+yahoo.co.jp###centralPosition
+yahoo.co.jp###clrEx
+yahoo.co.jp###commerce
+yahoo.co.jp###homeLcsAdsBox
+yahoo.co.jp###homeLRECAds
+yahoo.co.jp###LREC
+yahoo.co.jp###mainpr
+yahoo.co.jp###MON
+yahoo.co.jp###promoareaM
+yahoo.co.jp###slot_LREC
+yahoo.co.jp###tct
+yahoo.co.jp###yjcatspns
+yahoo.co.jp###yregad
+yahoo.co.jp###yschec
+yahoo.co.jp###yschspns
+yahoo.co.jp##.jprskyad
+yahoo.co.jp##.lbad
+yahoo.co.jp##.prCT
+yahoo.co.jp##.yschec
+yahoo.co.jp##.yschspns
+yahoo.co.jp##*[id^="ad"]:not([id^="add"])
+yahoo.co.jp##*[id^="modAd"]
+yahoo.co.jp##*[id^="pos-"]:not([id="pos-s"])
+~used.realestate.yahoo.co.jp,yahoo.co.jp##*[class^="ad"]:not([class^="add"])
+yahoo.co.jp##*[class*="pos-"]
+yahoo.co.jp##*[class^="pr300"]
+yahoo.co.jp##*[class^="prCenter"]
+blogs.yahoo.co.jp##a.blog_IMp
+search.yahoo.co.jp##.ss
+finance.yahoo.com###yfi_ysm
+finance.yahoo.com###ygma
+finance.yahoo.com##.yfi_ysm
+finance.yahoo.com##.ygma
+finance.yahoo.co.jp##.sqbFiAd
+login.yahoo.co.jp###yregtxt
+mail.yahoo.co.jp###lbadspr
+mail.yahoo.co.jp##.dashcontent
+mail.yahoo.co.jp##.lbadspr
+mail.yahoo.co.jp##*[id^="dashview"]:not(body):not(input)
+mail.yahoo.co.jp##*[id^="jpwelcomeinsideyahoo"]:not(body):not(input)
+mail.yahoo.co.jp##*[id^="jpwelcomeym"]:not(body):not(input)
+mail.yahoo.co.jp##*[class$="topfilled"]
+quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
+quote.yahoo.co.jp##p[class$="lrec"]
+yomiuri.co.jp##a[href*="/adv/"]
+yomiuri.co.jp##*[class*="-txtad-"]
+youtube.com##.ads-pyv
+youtube.com##.watch-pyv-vid
+! ---------- Element Hiding with domains END ----------
