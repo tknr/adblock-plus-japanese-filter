@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: IJ6Mi9Ekl11B1TCPr8Khxw
-! Last modified: 2012-01-31 15:24:32 JST
+! Checksum: l2UfNwb0EYlO0SHQ6SLZMw
+! Last modified: 2012-01-31 15:49:10 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -12,7 +12,7 @@
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
 !
-! ########## Temporary white list START ################################
+! ########## Temporary white list START ##########
 ! anime.biglobe.ne.jp uses "log" as history, which produce plenty of false positives 2011-09-22
 @@||anime.biglobe.ne.jp^*log.$object
 @@||anime.biglobe.ne.jp^*log_$image
@@ -25,10 +25,10 @@
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
 ! New false positives at ustream.tv/recorded/ with ?tracking=$third-party 2011-11-23
 @@||llnwd.net^*.flv?tracking=
-! ---------- Temporary white list END ----------------------------------
+! ---------- Temporary white list END ----------
 
 
-! ########## Default white list START ################################
+! ########## Default white list START ##########
 @@/analytics/*$domain=dear.my.salesforce.com
 @@/jquery.form.track.changes.$script
 @@||reports.adblockplus.org^$elemhide
@@ -51,16 +51,16 @@
 @@||wikipedia.org^$elemhide
 ! False positive at mail.live.com when you click folder on the left side column, reported via Issue Report, Dec 17, 2011
 @@||wlxrs.com^*Popover.$script
-! ---------- Default white list END ----------------------------------
+! ---------- Default white list END ----------
 
 
-! ########## Adblock Plus config START ###############################
+! ########## Adblock Plus config START ##########
 browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-contributebutton
 browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommendbutton
-! ---------- Adblock Plus config END ---------------------------------
+! ---------- Adblock Plus config END ----------
 
 
-! ########## Generic filters START ###################################
+! ########## Generic filters START ##########
 |http:*$donottrack,image,~image
 |https:*$donottrack,image,~image
 
@@ -310,10 +310,10 @@ _tracking_
 ##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
 
-! ---------- Generic filters END -------------------------------------
+! ---------- Generic filters END ----------
 
 
-! ########## Each Service START ###########################################
+! ########## Each Service START ##########
 
 ! ===== Omniture SiteCatalyst ===== START =====
 /s_code-$script
@@ -342,10 +342,10 @@ _s_code2_$script
 /urchin.
 ! ----- Google Analytics ----- END -----
 
-! ----- Each Service END ---------------------------------------------
+! ----- Each Service END ----------
 
 
-! ########## Each Domain START #######################################
+! ########## Each Domain START ##########
 
 ! ===== Amazon Affiliate killer (beta) ===== START =====
 ##a[href*="amazon."][href*="/exec/obidos/ASIN/"][href*="-22"]
@@ -435,10 +435,10 @@ ustream.tv##.featuredContent
 www.yahoo.co.jp###local
 ! ----- Yahoo ----- END -----
 
-! ---------- Each Domain END -----------------------------------------
+! ---------- Each Domain END ----------
 
 
-! ########## Annoyance type START #########################################
+! ########## Annoyance type START ##########
 
 ! ===== Forced reloading ===== START =====
 /refresh.$script
@@ -501,10 +501,10 @@ www.yahoo.co.jp###local
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
 
-! ---------- Annoyance type END -------------------------------------------
+! ---------- Annoyance type END ----------
 
 
-! ########## Suspicious START ########################################
+! ########## Suspicious START ##########
 
-! ---------- Suspicious END ------------------------------------------
+! ---------- Suspicious END ----------
 
