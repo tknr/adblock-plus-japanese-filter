@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: K8PgiHWqbUUEH4KM1rT98A
-! Last modified: 2012-01-31 15:24:32 JST
+! Checksum: yagKKHNCvkwA19XBW44Ujg
+! Last modified: 2012-01-31 15:42:38 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -140,6 +140,10 @@
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
 ! ---------- Default white list END ----------------------------------
 !
+! ########## Option only START ##########
+|http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
+|http:$popup,domain=animeflv.net|bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+! ---------- Option only END ----------
 !
 ! ########## URL Fragments START #####################################
 |http:*&ad-
@@ -1935,8 +1939,6 @@ _sponsored_
 ! _stat.
 ! _stat/
 ! _stat_
-|http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ||ad-cdn.
 |http://ad.
 |https://ad.
