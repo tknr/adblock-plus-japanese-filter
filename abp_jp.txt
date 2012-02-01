@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /h7Us0yZvMwjUoACC1E3dA
-! Last modified: 2012-02-01 13:10:44 JST
+! Checksum: tYlOqNihjYpy+lEGRKsCbA
+! Last modified: 2012-02-01 13:41:19 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -142,7 +142,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=animeflv.net|bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,domain=animeflv.net|bitshare.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|slickdeals.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -2610,6 +2610,7 @@ _sponsored_
 ||ensighten.com^$third-party
 ||enterfactory.com^$popup
 ||eorezo.com^$third-party
+||epicurious.com^$popup
 ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
 ||esdizi.com^
