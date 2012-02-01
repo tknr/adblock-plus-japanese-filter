@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Kt4C64B+d5UILN6ErrD/Og
-! Last modified: 2012-02-01 12:53:41 JST
+! Checksum: /h7Us0yZvMwjUoACC1E3dA
+! Last modified: 2012-02-01 13:10:44 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1411,7 +1411,6 @@
 ! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
 ! /newzia/*
 /njoks_$script
-/null.$image
 /omn-js/*
 /omni-$script
 /omni.$script
