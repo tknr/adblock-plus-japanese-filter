@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: fdzIFsnz0vb6ZPfWzFA8Xg
-! Last modified: 2012-02-02 12:15:00 JST
+! Checksum: IsOnd+wRuOSr9ik/dTX/mA
+! Last modified: 2012-02-03 15:48:35 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -28,6 +28,8 @@
 @@||doubleclick.net/adj/imdb2.
 ! Workaround to fix layout collapse 2011-10-17
 @@||fc2.com^*/kanasoku/advertisement.js
+! Workaround to fix false positive with a mis-named background image which cause white title and menu background, reported by edogawakuryu via [https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=23 Issue 23], Feb 3, 2012
+@@||foreignaffairs.com^*/sitetheme/images/body-top-ad-background.$image
 ! Many false positive with stylesheets and JavaScripts, reported via Issue Report, Jan 6, 2012
 @@||goal.com^*-ad-
 ! False positive at gamers-review.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=77 are blocked. 2012-01-05
