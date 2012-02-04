@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +RN/PoT8PfWtRi4y+oHL4Q
-! Last modified: 2012-02-04 12:23:30 JST
+! Checksum: FoMaA0vwBbV13uCqH30FTg
+! Last modified: 2012-02-04 12:49:17 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4735,6 +4735,7 @@ _sponsored_
 ##a[href*="//yjaxcrd.yahoo.co.jp"]
 ##a[href*=".ziyu.net/jump."]
 ! ---------- Links with URLs END ----------
+! ========== images with alt attribute START ==========
 ##img[alt^="[pr-"]
 ##img[alt^="[PR-"]
 ##img[alt^="[pr_"]
@@ -4749,6 +4750,8 @@ _sponsored_
 ##img[alt$="-PR]"]
 ##img[alt$="_pr]"]
 ##img[alt$="_PR]"]
+! ---------- Images with alt attribute END ----------
+! ========== All elements START ==========
 ##*[id^="ad-"]:not(body):not(input)
 ##*[id^="AD-"]:not(body):not(input)
 ~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
@@ -4790,10 +4793,23 @@ _sponsored_
 ##*[id^="gAdsense"]:not(body):not(input)
 ##*[id^="google_ad"]:not(body):not(input)
 ##*[id^="google_afc_"]:not(body):not(input)
-! ##*:not([id="pr-root"]):not([class^="dct-"])[id^="pr-"]:not(body):not(input)
+! ##*[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
 ! ##*[id^="PR-"]:not(body):not(input)
 ! ~books.com.tw##*[id^="pr_"]:not(body):not(input)
 ! ##*[id^="PR_"]:not(body):not(input)
+##*[id*="-AD-"]:not(body):not(input)
+##*[id*="-ads-"]:not(body):not(input)
+##*[id*="-ADs-"]:not(body):not(input)
+##*[id*="-ADS-"]:not(body):not(input)
+! ##*[id*="-pr-"]:not(body):not(input)
+! ##*[id*="-PR-"]:not(body):not(input)
+~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
+##*[id*="_AD_"]:not(body):not(input)
+##*[id*="_ads_"]:not(body):not(input)
+##*[id*="_ADs_"]:not(body):not(input)
+##*[id*="_ADS_"]:not(body):not(input)
+! ##*[id*="_pr_"]:not(body):not(input)
+! ##*[id*="_PR_"]:not(body):not(input)
 ##*[id*="adsense"]:not(body):not(input)
 ##*[id*="AdSense"]:not(body):not(input)
 ##*[id*="advertisement"]:not(body):not(input)
@@ -4808,6 +4824,8 @@ _sponsored_
 ##*[id*="overture"]:not(body):not(input)
 ##*[id*="Overture"]:not(body):not(input)
 ##*[id*="OVERTURE"]:not(body):not(input)
+##*[id*="promo"]:not(body):not(input)
+##*[id*="PROMO"]:not(body):not(input)
 ! ##*[id*="prtext"]:not(body):not(input)
 ! ##*[id*="PRtext"]:not(body):not(input)
 ! ##*[id*="prText"]:not(body):not(input)
@@ -4815,19 +4833,6 @@ _sponsored_
 ##*[id*="Sponsor"]:not(body):not(input)
 ##*[id*="SPONSOR"]:not(body):not(input)
 ~foreignaffairs.com##*[id*="-ad-"]:not(body):not(input)
-##*[id*="-AD-"]:not(body):not(input)
-##*[id*="-ads-"]:not(body):not(input)
-##*[id*="-ADs-"]:not(body):not(input)
-##*[id*="-ADS-"]:not(body):not(input)
-! ##*[id*="-pr-"]:not(body):not(input)
-! ##*[id*="-PR-"]:not(body):not(input)
-~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
-##*[id*="_AD_"]:not(body):not(input)
-##*[id*="_ads_"]:not(body):not(input)
-##*[id*="_ADs_"]:not(body):not(input)
-##*[id*="_ADS_"]:not(body):not(input)
-! ##*[id*="_pr_"]:not(body):not(input)
-! ##*[id*="_PR_"]:not(body):not(input)
 ~tcmagazine.com##*[id$="-ad"]:not(body):not(input)
 ##*[id$="-AD"]:not(body):not(input)
 ~mobile01.com##*[id$="-ads"]:not(body):not(input)
@@ -4884,6 +4889,20 @@ _sponsored_
 ! ##*[class^="PR-"]:not(body):not(input)
 ! ##*[class^="pr_"]:not(body):not(input)
 ! ##*[class^="PR_"]:not(body):not(input)
+~foreignaffairs.com##*[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
+##*[class*="-AD-"]:not(body):not(input)
+##*[class*="-ads-"]:not(body):not(input)
+##*[class*="-ADs-"]:not(body):not(input)
+##*[class*="-ADS-"]:not(body):not(input)
+! ##*[class*="-pr-"]:not(body):not(input)
+! ##*[class*="-PR-"]:not(body):not(input)
+~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
+##*[class*="_AD_"]:not(body):not(input)
+##*[class*="_ads_"]:not(body):not(input)
+##*[class*="_ADs_"]:not(body):not(input)
+##*[class*="_ADS_"]:not(body):not(input)
+! ##*[class*="_pr_"]:not(body):not(input)
+! ##*[class*="_PR_"]:not(body):not(input)
 ~wikia.com##*[class*="adsense"]:not(body):not(input)
 ##*[class*="AdSense"]:not(body):not(input)
 ~slideboom.com##*[class*="advertisement"]:not(body):not(input)
@@ -4899,25 +4918,13 @@ _sponsored_
 ##*[class*="overture"]:not(body):not(input)
 ##*[class*="Overture"]:not(body):not(input)
 ##*[class*="OVERTURE"]:not(body):not(input)
+##*[class*="promo"]:not(body):not(input)
+##*[class*="PROMO"]:not(body):not(input)
 ! ##*[class*="prtext"]:not(body):not(input)
 ! ##*[class*="PRtext"]:not(body):not(input)
 ~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body):not(input)
 ##*[class*="Sponsor"]:not(body):not(input)
 ##*[class*="SPONSOR"]:not(body):not(input)
-~foreignaffairs.com##*[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
-##*[class*="-AD-"]:not(body):not(input)
-##*[class*="-ads-"]:not(body):not(input)
-##*[class*="-ADs-"]:not(body):not(input)
-##*[class*="-ADS-"]:not(body):not(input)
-! ##*[class*="-pr-"]:not(body):not(input)
-! ##*[class*="-PR-"]:not(body):not(input)
-~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
-##*[class*="_AD_"]:not(body):not(input)
-##*[class*="_ads_"]:not(body):not(input)
-##*[class*="_ADs_"]:not(body):not(input)
-##*[class*="_ADS_"]:not(body):not(input)
-! ##*[class*="_pr_"]:not(body):not(input)
-! ##*[class*="_PR_"]:not(body):not(input)
 ! Negative conditions are added to avoid false positives around plus.google.com
 ##*[class$="-ad"]:not(body):not(input):not([class^="a-"]):not([class^="f-"])
 ##*[class$="-AD"]:not(body):not(input)
@@ -4935,8 +4942,8 @@ _sponsored_
 ##*[class$="_ADS"]:not(body):not(input)
 ! ##*[class$="_pr"]:not(body):not(input)
 ! ##*[class$="_PR"]:not(body):not(input)
-! ---------- Element Hiding END ----------
-! 
+! ---------- All elements END ----------
+!
 ! ########## Element Hiding with domains START ##########
 100shiki.com###flip1+div
 100shiki.com###text-5
@@ -5434,3 +5441,5 @@ yomiuri.co.jp##*[class*="-txtad-"]
 youtube.com##.ads-pyv
 youtube.com##.watch-pyv-vid
 ! ---------- Element Hiding with domains END ----------
+!
+! ---------- Element Hiding END ----------
