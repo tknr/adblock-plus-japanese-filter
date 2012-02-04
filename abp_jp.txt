@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: RwURMgd3H0+Jc6WhcW7xFA
-! Last modified: 2012-02-04 20:46:24 JST
+! Checksum: f3c3ULouCy5T8Hp6LaIU9A
+! Last modified: 2012-02-04 21:52:17 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -959,11 +959,11 @@
 /bmv11.$script
 /bmv12.$script
 /bmv13.$script
-/bn_pr-
-/bn_pr.
-/bn_pr/*
-/bn_pr?
-/bn_pr_
+|http:*/bn_pr-
+|http:*/bn_pr.
+|http:*/bn_pr/
+|http:*/bn_pr?
+|http:*/bn_pr_
 /bnr.$script
 /bnr/pr-
 /bnr/pr.
@@ -3712,6 +3712,7 @@ _sponsored_
 ||videoegg.com^
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
 ! ||videoplaza.tv^
+-advideum.videoplaza.tv^
 ||videos-de-facebook.com^$third-party
 ||videoclick.ru^$third-party
 ||videoclik.ru^
