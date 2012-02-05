@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: BOz4fjxYPogi5xEw75a7+w
-! Last modified: 2012-02-06 05:49:12 JST
+! Checksum: mernJWLi+gffOjx7WovD0w
+! Last modified: 2012-02-06 06:02:36 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5229,11 +5229,12 @@ marsflag.com###contLeft > h2.colTitle1 ~ table.resutlTable[onclick*="ad_clk"]
 mixi.jp###contentMatch
 mooter.co.jp###cluster + table[cellpadding="0"]
 mooter.co.jp##td[width="230"][valign="top"]
+msn.com###AD1line
+msn.com###AD2line
+msn.com###cjad
+msn.com##.adcenter
+msn.com##div[id^="ads"]
 jp.msn.com##.kanrenBox
-jp.msn.com##div[id^="ads"]
-sankei.jp.msn.com###AD1line
-sankei.jp.msn.com###AD2line
-sankei.jp.msn.com##.adcenter
 mudainodqnment.ldblog.jp##.menu_cont3
 mudainodqnment.ldblog.jp##.menu_title3
 musen-lan.com##br + table[width="150"][cellpadding="2"] ~ table[width="150"][cellpadding="2"]
