@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: QPg99o+aQjv+lKzBdCwlpQ
-! Last modified: 2012-02-05 11:25:51 JST
+! Checksum: V0AXJfxiMQACPnmQAsnHJA
+! Last modified: 2012-02-05 11:30:59 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3039,6 +3039,7 @@ _sponsored_
 ||lolipop.jp/ralite/
 ||ad.lolipop.jp^
 ||loneday.com^
+||lp.longtailvideo.com^
 ||loveplanet.ru^$third-party
 ||lucastadvertising.com^
 ||luocbao.com/adv/
