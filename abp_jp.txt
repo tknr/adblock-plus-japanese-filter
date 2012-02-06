@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: K2szp2rO+0Hz+24KiO9A1A
-! Last modified: 2012-02-06 17:12:25 JST
+! Checksum: yEtXKeCnRTcHJNAunzvb0A
+! Last modified: 2012-02-06 17:27:13 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -109,6 +109,8 @@
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
 @@||google.com/settings/$document
 @@||accounts.google.com/ServiceLogin?service=$document
+! False positives with combined stylesheets at guardian.co.uk, reported via Issue Report, Feb 6, 2012
+@@||combo.guim.co.uk^
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
 @@||lavasoft.com^$elemhide
