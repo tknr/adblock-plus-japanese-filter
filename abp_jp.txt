@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /ee6Vai6p38OJqbJ1orLdQ
-! Last modified: 2012-02-06 19:29:36 JST
+! Checksum: Id9dF8jsqgUABzBZYaOdjA
+! Last modified: 2012-02-06 19:36:54 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4846,6 +4846,7 @@ _sponsored_
 ##*[id*="overture"]:not(body):not(input)
 ##*[id*="Overture"]:not(body):not(input)
 ##*[id*="OVERTURE"]:not(body):not(input)
+! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
 ##*[id*="promo"]:not(body):not(input):not(#secpromo)
 ##*[id*="PROMO"]:not(body):not(input)
 ! ##*[id*="prtext"]:not(body):not(input)
