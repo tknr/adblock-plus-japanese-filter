@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: n9YwS72buypNzMfHosXhNg
-! Last modified: 2012-02-06 14:56:43 JST
+! Checksum: 7rL55q6yiiRIvc8B00mNHg
+! Last modified: 2012-02-06 15:03:28 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -106,8 +106,8 @@
 @@||evernote.com/js/evernoteClient/Sponsor.
 @@||google.com/adsense/$document
 @@||google.com/analytics/$document
-! Exception for AD config pages, reported via Issue Report, Feb 6, 2012
-@@||google.com/settings/*/ads/$document
+! False positive at config pages, reported via Issue Report, Feb 6, 2012
+@@||google.com/settings/$document
 @@||accounts.google.com/ServiceLogin?service=$document
 @@||hulu.*/site-player/
 @@||indeep76.com^$elemhide
