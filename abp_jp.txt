@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: RiGaE+tVTlIV0Td3XnhYXA
-! Last modified: 2012-02-07 14:51:25 JST
+! Checksum: 4Nw/eHAugX1WBYYFjHjvAA
+! Last modified: 2012-02-07 15:29:30 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2140,6 +2140,7 @@ _sponsored_
 ||adnxs.com^$third-party
 ||adobe.com^*/deeppurple.$script
 ||adonweb.ru^$third-party
+||adorika.com^$third-party
 ||adotic.com^$third-party
 ||adotube.com^$third-party
 ||adpath.net^$third-party
