@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: l73N41qhDnC+rYUC6G8MBA
-! Last modified: 2012-02-07 15:56:58 JST
+! Checksum: 96RFBwqS11oHmwtg9dQd6g
+! Last modified: 2012-02-07 16:26:14 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -119,7 +119,7 @@
 @@||lavasoft.com^*/ad_aware/
 ! False positive with a combined scripts, reported via Issue Report, Dec 31, 2011
 @@||mapion.co.jp/f/filejoin?$script,stylesheet
-@@||mozilla.^$elemhide
+@@||mozilla.$elemhide
 @@||mozilla.com/media/img/promo.
 @@||mozilla.org/affiliates/
 @@||addons.mozilla.org/*/addon/adframe/$xmlhttprequest
