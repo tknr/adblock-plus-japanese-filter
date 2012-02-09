@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: xNW5CqGdPM+iR3Vmzbk9Lg
-! Last modified: 2012-02-08 14:31:50 JST
+! Checksum: dvL8tE1sgTom5u5YILAg6Q
+! Last modified: 2012-02-09 16:35:33 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5119,12 +5119,17 @@ excite.co.jp###season-keywords
 excite.co.jp##a[href*="&target=ss"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
 facebook.com##.fbEmu
+fc2.com###sh_fc2blogheadbar
+chitekizaisan.blog28.fc2.com##.free-area1
+chitekizaisan.blog28.fc2.com##.free-area2
+peer2peer.blog79.fc2.com###newentrys
+kanasoku.blog82.fc2.com###headline
+kanasoku.blog82.fc2.com###twitter_rank
+kanasoku.blog82.fc2.com##.entry_parma > .entry_body
+minisoku.blog97.fc2.com###headline
 workingnews.blog117.fc2.com##.free_area
 matomate.blog133.fc2.com###topArea
 matomate.blog133.fc2.com###topHeadline
-chitekizaisan.blog28.fc2.com##.free-area1
-chitekizaisan.blog28.fc2.com##.free-area2
-minisoku.blog97.fc2.com###headline
 ferret-plus.com###prinfo
 fileserve.com###bonus_promo
 fileserve.com###dialog_overlay
@@ -5206,9 +5211,6 @@ jorudan.co.jp##.bookList
 jorudan.co.jp##.imgBanner
 kakaku.com###mainRight .alignC
 kakaku.com##.prBn
-kanasoku.blog82.fc2.com###headline
-kanasoku.blog82.fc2.com###twitter_rank
-kanasoku.blog82.fc2.com##.entry_parma > .entry_body
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
@@ -5316,9 +5318,6 @@ pcworld.com##div[id$="Ad"]
 pcworld.com##div[id$="Ads"]
 pcworld.com##div[class$="Ad"]
 pcworld.com##div[class$="Ads"]
-peer2peer.blog79.fc2.com###newentrys
-peer2peer.blog79.fc2.com##.newentrys
-workingnews.blog117.fc2.com##.free_area
 phpspot.org###rightbar
 publickey.jp,publickey1.jp##.topbanner
 pya.cc##.tk
