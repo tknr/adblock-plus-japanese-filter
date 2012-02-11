@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Voz93bkWGQ3Ic2iuIGpUlg
-! Last modified: 2012-02-05 17:24:35 JST
+! Checksum: 802lyrPtvjNsDLrZLzL/pg
+! Last modified: 2012-02-11 15:48:46 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -446,6 +446,10 @@ www.yahoo.co.jp###local
 
 ! ########## Annoyance type START ##########
 
+! ===== Clickable overlay ===== START =====
+||youtube.com/annotations/
+! ===== Clickable overlay ===== END =====
+
 ! ===== Forced reloading ===== START =====
 /refresh.$script
 ! ----- Forced reloading ----- END -----
@@ -476,9 +480,9 @@ www.yahoo.co.jp###local
 ||zoosnet.net^$third-party
 ! ----- Live chat or support ----- END -----
 
-! ===== Movie clickable overlay ===== START =====
-||youtube.com/annotations/
-! ===== Movie overlay ===== END =====
+! ===== Replace contents or ADs dynamically ===== START =====
+||toprelatedtopics.com^$third-party
+! ----- Replace contents or ADs dynamically ----- END -----
 
 ! ===== Search keyword tapping ===== START =====
 /search_frame.$script
