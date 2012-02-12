@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /GaV9/UiugtMNyLliaEsZQ
-! Last modified: 2012-02-12 13:19:21 JST
+! Checksum: HgPeb+ZeMTGbtGK/wjfW5w
+! Last modified: 2012-02-12 20:18:41 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2383,7 +2383,7 @@ _sponsored_
 ||besonders.ru^$third-party
 ||bidvertiser.com^$third-party
 ||bigbord.net^$third-party
-||biglion.ru^$third-party
+||biglion.ru^$popup,third-party
 ||biglobe.ne.jp/affiliate/
 ||biglobe.ne.jp/beacon/
 ||biglobe.ne.jp/img/bn/
@@ -3724,7 +3724,7 @@ _sponsored_
 ||ubcpm.com^
 ||ultimedia.com^$third-party
 ||ultrapay.net^$third-party
-||underclick.ru^
+||underclick.ru^$popup,third-party
 ||unica.com^$third-party
 ||union178.com^
 ||unioncpm.com^$third-party
