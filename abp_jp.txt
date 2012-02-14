@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: l2e9JWsXT/HC/anEThEP0Q
-! Last modified: 2012-02-14 19:04:47 JST
+! Checksum: 7B3K9Z9RPX+3HyanB7bx0w
+! Last modified: 2012-02-14 23:04:23 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4372,24 +4372,25 @@ _sponsored_
 ###ad_rs
 ###ad_top
 ###AD_top
-###AD1
-###AD2
-###AD3
-###AD4
-###AD5
-###AD6
-###AD7
-###AD8
-###AD9
-###ad1
-###ad2
-###ad3
-###ad4
-###ad5
-###ad6
-###ad7
-###ad8
-###ad9
+! Eliminated duplicated filters, Feb 14, 2012
+! ###AD1
+! ###AD2
+! ###AD3
+! ###AD4
+! ###AD5
+! ###AD6
+! ###AD7
+! ###AD8
+! ###AD9
+! ###ad1
+! ###ad2
+! ###ad3
+! ###ad4
+! ###ad5
+! ###ad6
+! ###ad7
+! ###ad8
+! ###ad9
 ###adAms
 ###AdArea
 ###adArea
@@ -4461,26 +4462,27 @@ _sponsored_
 ##.ad_textlink
 ##.ad_textlink_box
 ##.ad_top
-##.AD1
-##.AD2
-##.AD3
-##.AD4
-##.AD5
-##.AD6
-##.AD7
-##.AD8
-##.AD9
-##.ad1
-##.ad2
-##.ad3
-##.ad300
-##.ad4
-##.ad5
-##.ad6
-##.ad7
-##.ad728
-##.ad8
-##.ad9
+! Eliminated duplicated filters, Feb 14, 2012
+! ##.AD1
+! ##.AD2
+! ##.AD3
+! ##.AD4
+! ##.AD5
+! ##.AD6
+! ##.AD7
+! ##.AD8
+! ##.AD9
+! ##.ad1
+! ##.ad2
+! ##.ad3
+! ##.ad300
+! ##.ad4
+! ##.ad5
+! ##.ad6
+! ##.ad7
+! ##.ad728
+! ##.ad8
+! ##.ad9
 ##.AdArea
 ##.adArea
 ##.adarea
