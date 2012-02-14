@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 7B3K9Z9RPX+3HyanB7bx0w
-! Last modified: 2012-02-14 23:04:23 JST
+! Checksum: zoyppMxJPMIYxPj7/bMmhQ
+! Last modified: 2012-02-14 23:10:35 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4925,7 +4925,8 @@ _sponsored_
 ##*[class^="ad0"]:not(body):not(input)
 ##*[class^="ad1"]:not(body):not(input)
 ##*[class^="ad2"]:not(body):not(input)
-##*[class^="ad3"]:not(body):not(input)
+! False positive with chat at Gmail reported by @zirweed, Feb 14, 2012
+~mail.google.com##*[class^="ad3"]:not(body):not(input)
 ##*[class^="ad4"]:not(body):not(input)
 ##*[class^="ad5"]:not(body):not(input)
 ##*[class^="ad6"]:not(body):not(input)
