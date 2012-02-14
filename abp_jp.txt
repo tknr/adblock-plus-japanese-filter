@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zoyppMxJPMIYxPj7/bMmhQ
-! Last modified: 2012-02-14 23:10:35 JST
+! Checksum: GrkpdbkyTKdEK5zZloCgbA
+! Last modified: 2012-02-14 23:28:12 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2085,6 +2085,7 @@ _sponsored_
 ||777town.net^$popup
 ||88210212.com^
 ||888.com^$popup
+||888casino.com^$popup
 ||888poker.com^$popup
 ||8cnd.com^$third-party
 ||99widgets.com/counters/
