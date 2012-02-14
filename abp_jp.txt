@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8hKf5zDinC42YtesId1QVg
-! Last modified: 2012-02-13 12:56:24 JST
+! Checksum: W0KUUbTrGRFvP5JL06LFcQ
+! Last modified: 2012-02-14 14:27:10 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4978,7 +4978,8 @@ _sponsored_
 ##*[class*="overture"]:not(body):not(input)
 ##*[class*="Overture"]:not(body):not(input)
 ##*[class*="OVERTURE"]:not(body):not(input)
-##*[class*="promo"]:not(body):not(input)
+! Negative condition is added to avoid false positives with default class name of Drupal 7 reported aaron@madlon-kay.com via https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=25 , Feb 14, 2012
+##*[class*="promo"]:not(body):not(input):not(.node-promoted)
 ##*[class*="PROMO"]:not(body):not(input)
 ! ##*[class*="prtext"]:not(body):not(input)
 ! ##*[class*="PRtext"]:not(body):not(input)
