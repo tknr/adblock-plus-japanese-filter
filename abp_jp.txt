@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VfzPV/ACK90nCyoVPByyoQ
-! Last modified: 2012-02-16 17:22:21 JST
+! Checksum: 6FZ8e8eKqzb4lc5TWIu67A
+! Last modified: 2012-02-16 20:38:07 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2127,7 +2127,8 @@ _sponsored_
 ||adbrite.com^$third-party
 ||adbull.com^$third-party
 ||adbutterfly.com^$third-party
-||adcash.com^$popup,third-party
+||adcash.com^$popup
+||adcash.com^$third-party
 ||adcentriconline.com^$third-party
 ||adchemical.com^$third-party
 ||adcolo.com^$third-party
@@ -2204,7 +2205,8 @@ _sponsored_
 ||adtracker.jp^
 ||adultadworld.com^$third-party
 ||adultfriendfinder.com^$third-party
-||adultrewardsurvey.com^$popup,third-party
+||adultrewardsurvey.com^$popup
+||adultrewardsurvey.com^$third-party
 ||adurr.com^
 ||adv-adserver.com^$third-party
 ||advenueplatform.com^$third-party
@@ -2385,7 +2387,8 @@ _sponsored_
 ||besonders.ru^$third-party
 ||bidvertiser.com^$third-party
 ||bigbord.net^$third-party
-||biglion.ru^$popup,third-party
+||biglion.ru^$popup
+||biglion.ru^$third-party
 ||biglobe.ne.jp/affiliate/
 ||biglobe.ne.jp/beacon/
 ||biglobe.ne.jp/img/bn/
@@ -2739,7 +2742,8 @@ _sponsored_
 ||featuredusers.com^$third-party
 ||feedjit.com^$third-party
 ||fetchback.com^$third-party
-||fidel.to^$popup,third-party
+||fidel.to^$popup
+||fidel.to^$third-party
 ||promo.fileforum.com^
 ! The following filter blocks banner change showing CAPTCHA. JavaScript is required. Dec 16, 2011
 ! ||fileserve.com/script/bannerTimer.$script
@@ -2790,7 +2794,8 @@ _sponsored_
 ||gestionpub.com^$third-party
 ||getchu.com/*banner^
 ||getclicky.com^$third-party
-||getiton.com^$popup,third-party
+||getiton.com^$popup
+||getiton.com^$third-party
 ||gigafree.net/ga.$script
 ||gigazine.asia^
 ||gigya.com^$third-party
@@ -2991,7 +2996,8 @@ _sponsored_
 ||juicyads.com^$third-party
 ||stats.justin.tv^
 ||jword.jp^$third-party
-||jxliu.com^$popup,third-party
+||jxliu.com^$popup
+||jxliu.com^$third-party
 ||kakaku.com/script/analytics/
 ||kakaku.com/script/kakakuad/
 ||kakaku.com^*/Rdm
@@ -3065,7 +3071,8 @@ _sponsored_
 ||livedoor.jp/js/google_jp.
 ||livedoor.jp/js/google_plugin.
 ||blog.livedoor.jp/*/settings/header.$script
-||livejasmin.com^$popup,third-party
+||livejasmin.com^$popup
+||livejasmin.com^$third-party
 ||liwiosarl.appspot.com^
 ||lphbs.com^
 ||liverail.com^$third-party
@@ -3147,7 +3154,8 @@ _sponsored_
 ||ads.mixi.jp^
 ||mixpanel.com^$third-party
 ||mlstat.com^
-||mobalives.com^$popup,third-party
+||mobalives.com^
+||mobalives.com^$popup
 ||mobifiesta.com^$popup
 ||mobilcom-debitel.de^
 ||mobileraffles.com^$popup
@@ -3379,7 +3387,8 @@ _sponsored_
 ||questionmarket.com^$third-party
 ||r1fclick.com^
 ||radarurl.com^$~image,domain=~radarurl.com
-||radeant.com^$popup,third-party
+||radeant.com^$popup
+||radeant.com^$third-party
 ||radikal.ru^$third-party
 ||raidrush.ws^$third-party
 ||rakulog.com^$third-party
@@ -3494,7 +3503,8 @@ _sponsored_
 ||a1.security-next.com^
 ||seesaa.jp/match/
 ||match.seesaa.jp^
-||sekindo.com^$popup,third-party
+||sekindo.com^$popup
+||sekindo.com^$third-party
 ||sensic.net^$third-party
 ||sensis.com.au^$third-party
 ||sensismediasmart.com.au^$third-party
@@ -3588,7 +3598,8 @@ _sponsored_
 ||software-archiv.com^$third-party
 ||sp-affiliaters.com^$third-party
 ||spacyz.com^$third-party
-||sparkstudios.com^$popup,third-party
+||sparkstudios.com^$popup
+||sparkstudios.com^$third-party
 ||spb2011.com^
 ||specificclick.com^
 ||specificclick.net^
@@ -3651,7 +3662,8 @@ _sponsored_
 ||textad.net^$third-party
 ||thatsping.com^$third-party
 ||thatsping.jp^
-||the-adult-company.com^$third-party,popup
+||the-adult-company.com^$popup
+||the-adult-company.com^$third-party
 ||theadultcompany.biz^
 ||thefilter.com^$third-party
 ||theloungenet.com^$third-party
@@ -3700,7 +3712,8 @@ _sponsored_
 ||traffiliate.com^$third-party
 ||traffiq.com^$third-party
 ||trafidet.ru^
-||traforet.ru^$popup,third-party
+||traforet.ru^$popup
+||traforet.ru^$third-party
 ||travian.$popup
 ||trekmedia.net^
 ||tremormedia.com^
@@ -3733,7 +3746,8 @@ _sponsored_
 ||ubcpm.com^
 ||ultimedia.com^$third-party
 ||ultrapay.net^$third-party
-||underclick.ru^$popup,third-party
+||underclick.ru^
+||underclick.ru^$popup
 ||unica.com^$third-party
 ||union178.com^
 ||unioncpm.com^$third-party
@@ -3877,7 +3891,8 @@ _sponsored_
 ||ax.xrea.com^$third-party
 ||imgj.xrea.com/xa.
 ||xt918.com^$third-party
-||xtendmedia.com^$popup,third-party
+||xtendmedia.com^$popup
+||xtendmedia.com^$third-party
 ||xvideos.com^$third-party
 ||s.xvideos.com^
 ||xvideoslive.com^$third-party
@@ -3928,7 +3943,8 @@ _sponsored_
 ||yieldads.com^$third-party
 ||yieldbuild.com^$third-party
 ||yieldlab.net^
-||yieldmanager.com^$popup,third-party
+||yieldmanager.com^$popup
+||yieldmanager.com^$third-party
 ||yimg.jp/bdv/
 ||yimg.jp/images/*/pr/
 ||yimg.jp/images/analytics/
