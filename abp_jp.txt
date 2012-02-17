@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +klYttFkd0YyMRn+uYuWWg
-! Last modified: 2012-02-17 04:48:05 JST
+! Checksum: TNhmzkSPPvufvBR6CxSIPQ
+! Last modified: 2012-02-18 05:54:15 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -106,6 +106,8 @@
 ! Flase positive because EverNote calls group discount "sponsor"... reported via Issue Report, investigated by @dullneko, Jan 13, 2012
 ! https://twitter.com/#!/dullneko/status/157735498884976640
 @@||evernote.com/js/evernoteClient/Sponsor.
+! False positive at support.fc2.com, reported via Issue Report, Feb 18, 2012
+@@||r.fc2.com/rss-disp/rss.$script
 @@||google.com/adsense/$document
 @@||google.com/analytics/$document
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
