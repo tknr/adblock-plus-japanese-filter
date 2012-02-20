@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: fzu7Tvu/HGEV3jItjtA75w
-! Last modified: 2012-02-20 19:56:07 JST
+! Checksum: dlH2slSi+yUlxKX8LdwD3A
+! Last modified: 2012-02-20 20:23:49 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5063,8 +5063,6 @@ _sponsored_
 ##*[id*="Overture"]:not(body):not(input)
 ##*[id*="OVERTURE"]:not(body):not(input)
 ! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
-##*[id*="promo"]:not(body):not(input):not(#secpromo)
-##*[id*="PROMO"]:not(body):not(input)
 ! ##*[id*="prtext"]:not(body):not(input)
 ! ##*[id*="PRtext"]:not(body):not(input)
 ! ##*[id*="prText"]:not(body):not(input)
@@ -5159,8 +5157,6 @@ _sponsored_
 ##*[class*="Overture"]:not(body):not(input)
 ##*[class*="OVERTURE"]:not(body):not(input)
 ! Negative condition is added to avoid false positives with default class name of Drupal 7 reported aaron@madlon-kay.com via https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=25 , Feb 14, 2012
-##*[class*="promo"]:not(body):not(input):not(.node-promoted)
-##*[class*="PROMO"]:not(body):not(input)
 ! ##*[class*="prtext"]:not(body):not(input)
 ! ##*[class*="PRtext"]:not(body):not(input)
 ~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body):not(input)
