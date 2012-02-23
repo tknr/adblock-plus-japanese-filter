@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 55oICdT8QqAQ9ZFYTQ7tcg
-! Last modified: 2012-02-23 20:33:39 JST
+! Checksum: IVXKmIuvMXZvy1BmF9UYfg
+! Last modified: 2012-02-23 20:51:36 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2515,6 +2515,7 @@ _sponsored_
 ||cettente.com^
 ||cettenu.com^
 ||cettenus.com^
+||champions-quiz.^$third-party
 ||chango.com^$third-party
 ||channelintelligence.com^$third-party
 ||chartbeat.com^$third-party
@@ -3229,6 +3230,7 @@ _sponsored_
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
 ||marsflag.com/adimg/
+||master-quiz.nl^$third-party
 ||masudel.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
@@ -3266,6 +3268,7 @@ _sponsored_
 ||meltwaternews.com^$third-party
 ||mementes.com^
 ||menteret.com^
+||mestersquiz.com^$third-party
 ||metanetwork.com^$third-party
 ||mgid.com^$popup
 ||mmaaxx.com^$third-party
@@ -3327,6 +3330,8 @@ _sponsored_
 ||mydirtyhobby.com^$third-party
 ||mylinkbox.com^$third-party
 ||mynavi.jp^*images/stat.
+||myquiz2win.^$third-party
+||myquizkong.com^$third-party
 ||myroitracking.com^
 ||fimserve.myspace.com^
 ||mysupercheap.com^$third-party
@@ -3515,6 +3520,10 @@ _sponsored_
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
 ||questionmarket.com^$third-party
+||quiz-mania.es^$third-party
+||quiz-fever.de^$third-party
+||quiz4cash.nl^$third-party
+||quizogvinn.com^$third-party
 ||r1fclick.com^
 ||radarurl.com^$~image,domain=~radarurl.com
 ||radeant.com^$popup
@@ -3836,6 +3845,7 @@ _sponsored_
 ||tomshardware.com^*indexAjax.php?ctrl=ajax_price
 ||tonopole.com^
 ||toplist.cz^$third-party
+||toppremios.es^$third-party
 ||total-media.net^
 ||toujoute.com^
 ||toutiles.com^
@@ -4012,6 +4022,9 @@ _sponsored_
 ||wikiodeliv.com^
 ||pr.wikiwiki.jp^
 ||williamhill.$popup
+||winmycar.de^$third-party
+||winmypc.^$third-party
+||winmytv.de^$third-party
 ||winwin.co.il^$third-party
 ||ad.wiredvision.jp^
 ||with2.net^$third-party
