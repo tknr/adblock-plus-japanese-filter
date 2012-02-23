@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: IVXKmIuvMXZvy1BmF9UYfg
-! Last modified: 2012-02-23 20:51:36 JST
+! Checksum: Tnnc5HVbEKDLNJyKrqR70A
+! Last modified: 2012-02-23 21:45:14 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2515,7 +2515,7 @@ _sponsored_
 ||cettente.com^
 ||cettenu.com^
 ||cettenus.com^
-||champions-quiz.^$third-party
+||champions-quiz.$popup
 ||chango.com^$third-party
 ||channelintelligence.com^$third-party
 ||chartbeat.com^$third-party
@@ -3230,7 +3230,7 @@ _sponsored_
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
 ||marsflag.com/adimg/
-||master-quiz.nl^$third-party
+||master-quiz.nl^$popup
 ||masudel.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
@@ -3268,7 +3268,7 @@ _sponsored_
 ||meltwaternews.com^$third-party
 ||mementes.com^
 ||menteret.com^
-||mestersquiz.com^$third-party
+||mestersquiz.com^$popup
 ||metanetwork.com^$third-party
 ||mgid.com^$popup
 ||mmaaxx.com^$third-party
@@ -3330,8 +3330,8 @@ _sponsored_
 ||mydirtyhobby.com^$third-party
 ||mylinkbox.com^$third-party
 ||mynavi.jp^*images/stat.
-||myquiz2win.^$third-party
-||myquizkong.com^$third-party
+||myquiz2win.$popup
+||myquizkong.com^$popup
 ||myroitracking.com^
 ||fimserve.myspace.com^
 ||mysupercheap.com^$third-party
@@ -3520,10 +3520,10 @@ _sponsored_
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
 ||questionmarket.com^$third-party
-||quiz-mania.es^$third-party
-||quiz-fever.de^$third-party
-||quiz4cash.nl^$third-party
-||quizogvinn.com^$third-party
+||quiz-mania.es^$popup
+||quiz-fever.de^$popup
+||quiz4cash.nl^$popup
+||quizogvinn.com^$popup
 ||r1fclick.com^
 ||radarurl.com^$~image,domain=~radarurl.com
 ||radeant.com^$popup
@@ -3845,7 +3845,7 @@ _sponsored_
 ||tomshardware.com^*indexAjax.php?ctrl=ajax_price
 ||tonopole.com^
 ||toplist.cz^$third-party
-||toppremios.es^$third-party
+||toppremios.es^$popup
 ||total-media.net^
 ||toujoute.com^
 ||toutiles.com^
@@ -4022,9 +4022,9 @@ _sponsored_
 ||wikiodeliv.com^
 ||pr.wikiwiki.jp^
 ||williamhill.$popup
-||winmycar.de^$third-party
-||winmypc.^$third-party
-||winmytv.de^$third-party
+||winmycar.de^$popup
+||winmypc.$popup
+||winmytv.de^$popup
 ||winwin.co.il^$third-party
 ||ad.wiredvision.jp^
 ||with2.net^$third-party
