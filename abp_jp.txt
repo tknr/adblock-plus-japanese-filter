@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zFZUwNFZk+zQeMEj6nOWSQ
-! Last modified: 2012-02-24 13:23:25 JST
+! Checksum: ERstLu14iGCOMDxnRzpDQA
+! Last modified: 2012-02-24 13:28:05 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -152,7 +152,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=animeflv.net|bitshare.com|cinerip.com|ctdisk.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|slickdeals.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
+|http:$popup,domain=animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hotporndl.com|imagecarry.com|imgchili.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|slickdeals.net|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xvideos.com|yourlib.net|yunfile.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -3617,6 +3617,7 @@ _sponsored_
 ||netanswerplus.saisoncard.co.jp^*/phonnin.
 ||netanswerplus.saisoncard.co.jp^*/top.$script
 ||netanswerplus.saisoncard.co.jp^*/jquery.shuffle.$script
+||sakuralive.com^$popup
 ||sakuralive.com^$third-party
 ||adcl.sankei.co.jp^
 ||sarenza.com^$popup
