@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: w14TzYlGBA4Nw+CHxgY/vw
-! Last modified: 2012-02-26 04:45:36 JST
+! Checksum: LS3L55tesLJXivr70M/xDw
+! Last modified: 2012-02-26 05:04:13 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4972,7 +4972,7 @@ _sponsored_
 ##a[href*=".liutilities.com/affcb/"]
 ##a[href*=".liveads.jp/widgets_src/"]
 ##a[href*=".loka.jp"]
-##a[href*="media-b.jp/hbcount/"]
+##a[href*="media-b.jp"][href*="count/"]
 ##a[href*=".mediaplex.com"]
 ##a[href*="//ads.mixi.jp"]
 ##a[href*="mobile-click.org"]
