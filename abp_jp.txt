@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: N59qKBfDhvQzfjCZIUEG2g
-! Last modified: 2012-02-26 03:32:35 JST
+! Checksum: w+/SwKjHx0QNyqgncR2LGQ
+! Last modified: 2012-02-26 04:39:52 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -719,22 +719,22 @@
 /adriver/*
 /adriver?
 /adriver_
-/ads-$third-party
-/ads-common-
-/ads-common.
-/ads-common/*
-/ads-common?
-/ads-common_
-/ads-iframe-
-/ads-iframe.
-/ads-iframe/*
-/ads-iframe?
-/ads-iframe_
-/ads-iframes-
-/ads-iframes.
-/ads-iframes/*
-/ads-iframes?
-/ads-iframes_
+! Commented out duplicated filters, Feb 26, 2012
+! /ads-common-
+! /ads-common.
+! /ads-common/*
+! /ads-common?
+! /ads-common_
+! /ads-iframe-
+! /ads-iframe.
+! /ads-iframe/*
+! /ads-iframe?
+! /ads-iframe_
+! /ads-iframes-
+! /ads-iframes.
+! /ads-iframes/*
+! /ads-iframes?
+! /ads-iframes_
 /ads-
 /ads.
 /ads/*
@@ -1162,11 +1162,12 @@
 /getSponsors/*
 /getSponsors?
 /getSponsors_
-/google_ads-
-/google_ads.
-/google_ads/*
-/google_ads?
-/google-ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /google_ads-
+! /google_ads.
+! /google_ads/*
+! /google_ads?
+! /google-ads_
 /google_afc-
 /google_afc.
 /google_afc/*
@@ -1220,10 +1221,11 @@
 /image/ad720.$image
 /image/ad728.$image
 /image/ad88.$image
-/image/ads-
-/image/ads/*
-/image/ads?
-/image/ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /image/ads-
+! /image/ads/*
+! /image/ads?
+! /image/ads_
 /image/banner-$third-party
 /image/banner.$third-party
 /image/banner/*$third-party
@@ -1248,10 +1250,11 @@
 /images/ad720.$image
 /images/ad728.$image
 /images/ad88.$image
-/images/ads-
-/images/ads/*
-/images/ads?
-/images/ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /images/ads-
+! /images/ads/*
+! /images/ads?
+! /images/ads_
 /images/banner-$third-party
 /images/banner.$third-party
 /images/banner/*$third-party
@@ -1283,10 +1286,11 @@
 /img/ad720.$image
 /img/ad728.$image
 /img/ad88.$image
-/img/ads-
-/img/ads/*
-/img/ads?
-/img/ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /img/ads-
+! /img/ads/*
+! /img/ads?
+! /img/ads_
 /img/banner-$third-party
 /img/banner.$third-party
 /img/banner/*$third-party
@@ -1315,10 +1319,11 @@
 /imgs/ad720.$image
 /imgs/ad728.$image
 /imgs/ad88.$image
-/imgs/ads-
-/imgs/ads/*
-/imgs/ads?
-/imgs/ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /imgs/ads-
+! /imgs/ads/*
+! /imgs/ads?
+! /imgs/ads_
 /imgs/banner-$third-party
 /imgs/banner.$third-party
 /imgs/banner/*$third-party
@@ -1368,7 +1373,8 @@
 /js/omni?
 /js/omni_
 ! /js_ad_pop?
-/js_in_text_ads?
+! Commented out duplicated filters, Feb 26, 2012
+! /js_in_text_ads?
 ! /js_overlay_ad?
 /kanasoku/9-
 /kanasoku*/at_side.
@@ -1625,12 +1631,13 @@
 ! /show_ad/*
 ! /show_ad?
 ! /show_ad_
-/show_ads-
-/show_ads.
-/show_ads/*
-/show_ads?
-/show_ads_
-/show_ads_impl.
+! Commented out duplicated filters, Feb 26, 2012
+! /show_ads-
+! /show_ads.
+! /show_ads/*
+! /show_ads?
+! /show_ads_
+! /show_ads_impl.
 ! False positive: No google custom search result. 2011-08-18
 ! /show_afs_
 /showads-
@@ -1643,11 +1650,12 @@
 ! /side_ad/*
 ! /side_ad?
 ! /side_ad_
-/side_ads-
-/side_ads.
-/side_ads/*
-/side_ads?
-/side_ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /side_ads-
+! /side_ads.
+! /side_ads/*
+! /side_ads?
+! /side_ads_
 /side_bnn.
 /side_bnn1.
 /side_bnn2.
@@ -1699,11 +1707,12 @@
 ! /text_ad/*
 ! /text_ad?
 ! /text_ad_
-/text_ads-
-/text_ads.
-/text_ads/*
-/text_ads?
-/text_ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /text_ads-
+! /text_ads.
+! /text_ads/*
+! /text_ads?
+! /text_ads_
 /textad-
 /textad.
 /textad/*
@@ -1719,7 +1728,8 @@
 /tieup/*
 /tieup.
 /tieup.
-/tii_ads.$script
+! Commented out duplicated filters, Feb 26, 2012
+! /tii_ads.$script
 /tirjs2.$script
 /tizers-
 /tizers.
@@ -1747,13 +1757,15 @@
 ! /txt_ad/*
 ! /txt_ad?
 ! /txt_ad_
-/txt_ads-
-/txt_ads.
-/txt_ads/*
-/txt_ads?
-/txt_ads_
+! Commented out duplicated filters, Feb 26, 2012
+! /txt_ads-
+! /txt_ads.
+! /txt_ads/*
+! /txt_ads?
+! /txt_ads_
 /udctrack.
-/uds/api/ads/*
+! Commented out duplicated filters, Feb 26, 2012
+! /uds/api/ads/*
 /uds/stats?
 /urchin-
 /urchin.
