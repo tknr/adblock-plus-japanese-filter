@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: I2EKA3SEO/eApSUafh+ShQ
-! Last modified: 2012-02-27 00:22:14 JST
+! Checksum: KtvrSLzL7Tf5riRSbxsxAg
+! Last modified: 2012-02-27 00:42:36 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -148,6 +148,8 @@
 @@||yimg.*/combo?$script,stylesheet
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
+! False positives at analytics pages inside YouTube, reported via Issue Report, Feb 27, 2012
+@@||youtube.com/analytics/$document
 ! ---------- Default white list END ----------
 !
 ! ########## Option only START ##########
