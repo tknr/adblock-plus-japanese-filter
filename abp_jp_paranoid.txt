@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 7m4bze1bO4jFJ99h7UExiA
-! Last modified: 2012-02-26 06:35:07 JST
+! Checksum: 5lPMeu53vZOx9/Y0ArwL3g
+! Last modified: 2012-02-27 06:22:01 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -407,8 +407,9 @@ mycom.co.jp##a[href*="mycom.co.jp/cgi-bin/pr/"]
 /ichiba_$domain=nicovideo.jp
 /ichiba.$domain=nicovideo.jp
 ||nicovideo.jp/api/getmarquee
-||nimg.jp/js/nicommons.$script
-||nimg.jp/js/nicopedia.$script
+! Commented out because they seem harmless, Feb 27, 2012
+! ||nimg.jp/js/nicommons.$script
+! ||nimg.jp/js/nicopedia.$script
 ||nimg.jp/swf/player/marqueeplayer.
 nicovideo.jp###ichiba
 nicovideo.jp###ichiba_placeholder
