@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: PMU3E3kyi+KiKyLJp4VR2Q
-! Last modified: 2012-02-27 13:00:35 JST
+! Checksum: KL1fx4KGz7rBd8Bj1ne4ew
+! Last modified: 2012-02-28 15:11:11 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -47,6 +47,8 @@
 ! Another false positive found at justin.tv ,reported and resolved via Issue Report, Dec 16, 2011
 @@||vox-static.liverail.com/swf/*/admanager.$domain=justin.tv|twitch.tv
 @@||media-imdb.com^*/ads.$script
+! False positive with data used for dynamic photo slides, reported via Issue Report, Feb 28, 2012
+@@||nationalgeographic.co.jp/DynamicLead/xml/Top/promo.$xmlhttprequest
 ! False positive at ndrive2.naver.jp . Login stops displaying "Loading N Drive" forever, Jan 23, 2012
 @@||ndrive.naver.jp/js/lcslog.$script
 ! Japanese biggest computer vendor uses cliant-side script to display RSS titles. It seems that they don't trust server-side performance of their own servers.
