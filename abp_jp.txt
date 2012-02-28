@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: nnwVzdTeDJ6oTXRFk2FmJQ
-! Last modified: 2012-02-28 15:30:07 JST
+! Checksum: UHsW4W4C1JayTJ9/gMIUyA
+! Last modified: 2012-02-28 16:15:41 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -84,7 +84,6 @@
 
 ! ########## Default white list START ##########
 @@//player.ooyala.com^
-@@/cnwk.1d/css/*
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
 @@/promotion/*$domain=shopping.yahoo.co.jp
 @@||adblockplus.org^$elemhide
@@ -94,8 +93,6 @@
 @@||bitly.com^*/css/metrics_
 ! False positives with Adelie Penguin abbreviated to Ad, reported via Issue Report Dec 26, 2011
 @@||cloudfront.net^*/animal/obj_animal_*_Ad
-@@||i.i.com.com/cnwk.1d/html/rb/
-@@||i.i.com.com/cnwk.1d/i/
 @@||code.google.com^$elemhide
 ! There were False positives at www.youtube.com/oracle , which no longer exist 2011-10-11
 ! Another false positive with conviva filters found at ustream.tv, which brought the past commented out whitelists back into life, reported via Issue Report 2011-12-09
@@ -1044,7 +1041,7 @@
 /clicktale?
 /clicktale_
 /cnet_scode.
-/cnwk.1d/*
+/cnwk.1d/Aud/*
 /comscore-
 /comscore.
 /comscore/*
