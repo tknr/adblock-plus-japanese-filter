@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: tHo9S7zbqZmWnUDkDkMB4w
-! Last modified: 2012-02-28 16:48:40 JST
+! Checksum: UP8q7id0p5zhJ7N8H6pHKg
+! Last modified: 2012-02-29 10:17:46 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2141,6 +2141,7 @@ _sponsored_
 ||accesstrade.net^$third-party
 ||acnt.biz^$third-party
 ||acs86.com^
+||actaads.com^$third-party
 ||actinside.com^
 ||activecore.jp^$third-party
 ||acwebconnecting.com^$third-party
@@ -2179,6 +2180,7 @@ _sponsored_
 ||adforce.ru^$third-party
 ||adform.net^$third-party
 ||adfox.ru^$third-party
+||adfunky.com^$third-party
 ||adhai.com^$third-party
 ||adimg.net^
 ||adingo.jp^$third-party
@@ -2200,6 +2202,7 @@ _sponsored_
 ||admob.com^$third-party
 ||admoon.net^$third-party
 ||admulti.com^$third-party
+||adnetinteractive.com^$third-party
 ||adnetwork.net^$third-party
 ||adnetwork.vn^
 ||adnetworks.co.jp^$third-party
@@ -2213,6 +2216,7 @@ _sponsored_
 ||adpath.net^$third-party
 ||adperium.com^$third-party
 ||adplan-ds.com^$third-party
+||adpv.com^$third-party
 ||adr.st^
 ||adreactor.com^$third-party
 ||adresult.jp^$third-party
@@ -2225,6 +2229,7 @@ _sponsored_
 ||adsbro.com^
 ||adscale.de^$third-party
 ||adserve.com^$third-party
+||adserver01.de^$third-party
 ||adserverplus.com^
 ||adserverpub.com^$third-party
 ||adsfac.eu^$third-party
@@ -2240,6 +2245,7 @@ _sponsored_
 ||adsyst.biz^
 ||adtech.de^$third-party
 ||adtechus.com^$third-party
+||adtegrity.net^
 ||adtracker.jp^
 ||adultadworld.com^$third-party
 ||adultfriendfinder.com^$third-party
@@ -2278,6 +2284,7 @@ _sponsored_
 ||affiliation-france.com^$third-party
 ||affinity.com^$third-party
 ||affinitymatrix.com^
+||affiz.net^
 ||afilio.com.br^
 ||afpbb.com/*/banner
 ||a-img.afpbb.com^
@@ -2631,6 +2638,7 @@ _sponsored_
 ||countomat.com^$third-party
 ||cpalead.com^$third-party
 ||cpm360.com^$third-party
+||cpmadvisors.com^
 ||cpmstar.com^$third-party
 ||cpxadroit.com^$third-party
 ||cpxinteractive.com^$third-party
@@ -2699,6 +2707,7 @@ _sponsored_
 ||zai.diamond.jp/oo/
 ||dificaux.com^
 ||dimprive.com^
+||directaclick.com^
 ||directadvert.ru^$third-party
 ||direction-x.com^$third-party
 ||dismas.jp^$third-party
@@ -2751,6 +2760,7 @@ _sponsored_
 ||e-nls.com^$third-party
 ||e-pagerank.net^$third-party
 ||e-planning.net^$third-party
+||e-viral.com^$third-party
 ||e-words.jp/adcom.
 ||ad.e-words.jp^
 ||eads.to^$third-party
@@ -2924,6 +2934,8 @@ _sponsored_
 ||glam.co.jp^$third-party
 ||glammedia.com^$third-party
 ||glanceguide.com^
+||globaltakeoff.net^$third-party
+||globe7.com^$third-party
 ||b.gnavi.co.jp^
 ||site.gnavi.co.jp^
 ||goallurl.ru^
@@ -3104,6 +3116,7 @@ _sponsored_
 ||dlv.itmedia.jp^
 ||img.itmedia.jp^
 ||its-mo.com/stc/iframe/
+||itsfogo.com^
 ||ivancept.com^
 ||ivances.com^
 ||ivanie.com^
@@ -3133,6 +3146,7 @@ _sponsored_
 ||ad.jugem.jp^
 ||juiceadv.com^$third-party
 ||juicyads.com^$third-party
+||jumbaexchange.com^
 ||stats.justin.tv^
 ||jword.jp^$third-party
 ||jxliu.com^$popup
@@ -3281,6 +3295,7 @@ _sponsored_
 ||mediarich.ru^
 ||mediarich.us^$third-party
 ||mediarich.ws^$third-party
+||mediashakers.com^$third-party
 ||mediatraffic.com.ua^$third-party
 ||medleyads.com^
 ||meebo.com^$third-party
@@ -3774,6 +3789,7 @@ _sponsored_
 ||sociomantic.com^$third-party
 ||s2.softpedia-static.com/images/
 ||software-archiv.com^$third-party
+||sonicomusica.com^$third-party
 ||sontere.com^
 ||sovietit.com^
 ||sp-affiliaters.com^$third-party
@@ -4088,6 +4104,7 @@ _sponsored_
 ||wyunion.com^$third-party
 ||xcams.com^$third-party
 ||xdwan.com^$third-party
+||xertive.com^
 ||xflirt.com^$third-party
 ||xg4ken.com^
 ||xgraph.com^$third-party
