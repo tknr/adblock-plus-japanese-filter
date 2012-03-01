@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: eFFQePGUX2VimWbq8hFVeg
-! Last modified: 2012-03-01 12:07:41 JST
+! Checksum: E9ctSFE/xAlxz/3ekScC5w
+! Last modified: 2012-03-01 13:41:41 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5712,7 +5712,7 @@ www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
 virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
 special.visualzoo.com###sidebar > .side_banner
 special.visualzoo.com###container > .banner_area
-weblio.jp##.adHIWrp
+weblio.jp##*[class^="ad"]
 wsj.com##.adSummary
 yahoo.com,yahoo.co.jp###northbanner
 yahoo.co.jp###centralPosition
