@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: nCGG//8ejhAB48LSzYTXGQ
-! Last modified: 2012-03-02 04:04:06 JST
+! Checksum: 4je7/6LDbT3S1kps/Y2NPA
+! Last modified: 2012-03-02 06:47:03 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -125,6 +125,8 @@
 @@||mozilla.$elemhide
 @@||mozilla.com/media/img/promo.
 @@||mozilla.org/affiliates/
+! False positve at Collusion demo page
+@@||mozilla.org^*/collusion/demo/$document
 ! False positive with auto-generated XHRs, reported via Issue Report, Feb 15, 2012
 @@||addons.mozilla.org^$xmlhttprequest
 ! False positive with icons of NICO2-DAIHYAKKA at live.nicovideo.jp reported via Issue Report, Jan 12, 2012, Jan 11, 2012 and Dec 29, 2011
