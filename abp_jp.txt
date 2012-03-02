@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: UzxvyBNjyNmHVAoWj1cJGg
-! Last modified: 2012-03-02 13:11:40 JST
+! Checksum: WT/M+6cOroT3ppX8uUxWTA
+! Last modified: 2012-03-02 13:28:48 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -177,6 +177,16 @@
 ! &ad_size=
 ! &ad_type=
 ! &ad_url=
+&adcall-
+&adcall.
+&adcall/*
+&adcall?
+&adcall_
+&adconfig-
+&adconfig.
+&adconfig/*
+&adconfig?
+&adconfig_
 &adid=
 &admeld_
 &adpds_
@@ -192,6 +202,11 @@
 &adtype=
 &advertiser=
 &advTile=
+&adx-
+&adx.
+&adx/*
+&adx?
+&adx_
 &affid=
 &affiliate=$popup
 &affiliateid=
@@ -574,6 +589,11 @@
 /adbanners?
 /adbanners_
 /adblock_plus.$domain=kino.to
+/adcall-
+/adcall.
+/adcall/*
+/adcall?
+/adcall_
 /adclick-
 /adclick.
 /adclick/*
@@ -584,6 +604,11 @@
 /adclicks/*
 /adclicks?
 /adclicks_
+/adconfig-
+/adconfig.
+/adconfig/*
+/adconfig?
+/adconfig_
 /adcontext-
 /adcontext.
 /adcontext/*
@@ -1842,6 +1867,16 @@
 ! ?ad_size=
 ! ?ad_type=
 ! ?ad_unit=
+?adcall-
+?adcall.
+?adcall/*
+?adcall?
+?adcall_
+?adconfig-
+?adconfig.
+?adconfig/*
+?adconfig?
+?adconfig_
 ?adid=
 ?adpds_
 ?AdPlan=
@@ -1855,6 +1890,11 @@
 ?adunitid=
 ?advertiser=
 ?advTile=
+?adx-
+?adx.
+?adx/*
+?adx?
+?adx_
 ?affid=
 ?affiliate-
 ?affiliate.
