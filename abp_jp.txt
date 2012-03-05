@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 6bXXF1cbKh5CCTTsLWKGuA
-! Last modified: 2012-03-05 09:33:39 JST
+! Checksum: stxw49ZJNjVbr38/EylyqA
+! Last modified: 2012-03-05 10:07:09 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -793,6 +793,41 @@
 /ads2/*
 /ads2?
 /ads2_
+/ads3-
+/ads3.
+/ads3/*
+/ads3?
+/ads3_
+/ads4-
+/ads4.
+/ads4/*
+/ads4?
+/ads4_
+/ads5-
+/ads5.
+/ads5/*
+/ads5?
+/ads5_
+/ads6-
+/ads6.
+/ads6/*
+/ads6?
+/ads6_
+/ads7-
+/ads7.
+/ads7/*
+/ads7?
+/ads7_
+/ads8-
+/ads8.
+/ads8/*
+/ads8?
+/ads8_
+/ads9-
+/ads9.
+/ads9/*
+/ads9?
+/ads9_
 /adscontext-
 /adscontext.
 /adscontext/*
@@ -940,6 +975,11 @@
 /adx/*
 /adx?
 /adx_
+/adZone-
+/adZone.
+/adZone/*
+/adZone?
+/adZone_
 /aff-$third-party
 /aff.$third-party
 /aff/*$third-party
@@ -1384,9 +1424,10 @@
 /imgs/banner/*$third-party
 /imgs/banner?$third-party
 /imgs/banner_$third-party
-/impression_measure.*?$image
-! merged into .php?zoneid=
+! Merged into ".php?zoneid="
 ! /iml.php?zoneid=
+/imp?Z=
+/impression_measure.*?$image
 ! /inc_ad_
 /informer-$third-party
 /informer.$third-party
@@ -1632,6 +1673,7 @@
 /promotions/*
 /promotions?
 /promotions_
+/Publishers/*?random=
 /quantcast-
 /quantcast.
 /quantcast/*
@@ -1866,8 +1908,14 @@
 |https:*=ad&
 =adtext.
 =advertisement&
+=INSERT%5fRANDOM%5fNUMBER%5fHERE|
+=INSERT%5fRANDOM%5fNUMBER%5fHERE&
+=INSERT%5fSECTION%5fCODE%5fHERE|
+=INSERT%5fSECTION%5fCODE%5fHERE&
 =INSERT_RANDOM_NUMBER_HERE|
 =INSERT_RANDOM_NUMBER_HERE&
+=INSERT_SECTION_CODE_HERE|
+=INSERT_SECTION_CODE_HERE&
 =OXM_
 |http:*?ad-
 |https:*?ad-
