@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: stxw49ZJNjVbr38/EylyqA
-! Last modified: 2012-03-05 10:07:09 JST
+! Checksum: QPrAL5WKa1VEuuk98eWGUw
+! Last modified: 2012-03-05 10:08:00 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1205,6 +1205,11 @@
 /gemius/*
 /gemius?
 /gemius_
+/geopop-
+/geopop.
+/geopop/*
+/geopop?
+/geopop_
 /get_banner-
 /get_banner.
 /get_banner/*
