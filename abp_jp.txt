@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: J6bu95HOJAFOPReqgjolhg
-! Last modified: 2012-03-07 09:35:57 JST
+! Checksum: kTOLQYjFxCTwHpB3eFeNCQ
+! Last modified: 2012-03-08 11:05:54 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1173,6 +1173,11 @@
 /doubleclick/*
 /doubleclick?
 /doubleclick_
+/eas-$third-party
+/eas.$third-party
+/eas/*$third-party
+/eas?$third-party
+/eas_$third-party
 /elqcfg.$script
 /elqimg.$script
 /elqimg2.$script
@@ -2936,6 +2941,7 @@ _teasers|
 ||elekted.com^
 ||eloqua.com^$third-party
 ||email-match.com^$third-party
+||emediate.eu^
 ||emierete.com^
 ||emv2.com^
 ||endless.com^$third-party
