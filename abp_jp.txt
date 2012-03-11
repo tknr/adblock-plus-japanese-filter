@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: CfjYLZu/mxgO2cqX7sHzdw
-! Last modified: 2012-03-11 16:31:57 JST
+! Checksum: DgnDTPISlSr50cJ8te0XWA
+! Last modified: 2012-03-11 17:37:51 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1564,6 +1564,11 @@
 /mobileads_
 /mouseoverTriggerHandle?
 /mtag_$third-party
+/mtrcs-$script
+/mtrcs.$script
+/mtrcs/*$script
+/mtrcs?$script
+/mtrcs_$script
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 /navad/delivery.
