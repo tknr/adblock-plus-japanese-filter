@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8vx+mmbMbgi57ZDPpa2ovg
-! Last modified: 2012-03-11 16:20:18 JST
+! Checksum: CfjYLZu/mxgO2cqX7sHzdw
+! Last modified: 2012-03-11 16:31:57 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4306,36 +4306,36 @@ _teasers|
 ||xw11.com^$third-party
 ||xwell.ru^
 ||yadro.ru^
-||yahoo.co*/b?
-||yahoo.co.jp/js/geov2.$script
-||yahoo.co.jp/js/no.$script
-||yahoo.co.jp/js/sq.$script
+||yahoo.*/b?
+||yahoo.*/js/geov2.$script
+||yahoo.*/js/no.$script
+||yahoo.*/js/sq.$script
 ||analytics.yahoo.$third-party
-||dcs.yahoo.co
-||yeas.yahoo.co
-||yjaxc.yahoo.co
-||geo.yahoo.co
-||by.analytics.yahoo.co.jp^
-||by.i.analytics.yahoo.co.jp^
-||bn.auctions.yahoo.co.jp^
-||b1.yahoo.co.jp^
-||b2.yahoo.co.jp^
-||b3.yahoo.co.jp^
-||b4.yahoo.co.jp^
-||b5.yahoo.co.jp^
-||b6.yahoo.co.jp^
-||b7.yahoo.co.jp^
-||b8.yahoo.co.jp^
-||b9.yahoo.co.jp^
-||b10.yahoo.co.jp^
-||bc.geocities.yahoo.co.jp/js/
-||logoole.yahoo.co.jp^$third-party
-||ov.yahoo.co.jp^
-||im.yahooapis.jp^
-||rd.yahoo.co.jp^
-||ybx.yahoo.co.jp^
-||bc.yahoo.com^
-||wa.marketingsolutions.yahoo.com^
+||dcs.yahoo.
+||yeas.yahoo.
+||yjaxc.yahoo.
+||geo.yahoo.
+||by.analytics.yahoo.
+||by.i.analytics.yahoo.
+||bn.auctions.yahoo.
+||b1.yahoo.
+||b2.yahoo.
+||b3.yahoo.
+||b4.yahoo.
+||b5.yahoo.
+||b6.yahoo.
+||b7.yahoo.
+||b8.yahoo.
+||b9.yahoo.
+||b10.yahoo.
+||bc.geocities.yahoo.*/js/
+||logoole.yahoo.$third-party
+||ov.yahoo.
+||im.yahooapis.
+||rd.yahoo.
+||ybx.yahoo.
+||bc.yahoo.
+||wa.marketingsolutions.yahoo.
 ||yandeg.ru^$third-party
 ||yandepit.com^
 ||an.yandex.ru^
