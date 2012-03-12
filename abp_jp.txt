@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: KLMT7Ycyc1aq02GXKSn2EQ
-! Last modified: 2012-03-12 09:50:19 JST
+! Checksum: bNUqJAVhRD+VsbQsPi+szQ
+! Last modified: 2012-03-12 09:59:14 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -34,10 +34,9 @@
 @@||goal.com^*-ad-
 ! False positive at gamers-review.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=77 are blocked. 2012-01-05
 @@||gamers-review.net/data/js/adbg.$script
-! False positives with Google Custom Search, reported via Issue Report, Mar 10, 2012
-@@||google.co.*/cse?*&ad=
-! False positives with Google Custom Search, reported via Issue Report, Feb 7, 2012
-@@||google.com/cse?*&ad=
+! False positives with Google Custom Search(.co.jp), reported via Issue Report, Mar 10, 2012
+! False positives with Google Custom Search(.com), reported via Issue Report, Feb 7, 2012
+@@||google.*/cse?*&ad=
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
