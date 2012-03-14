@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: UCUc+n8bE9vdOR7sypvmIA
-! Last modified: 2012-03-14 19:49:26 JST
+! Checksum: 0t96iEqATXU/YttmGVqsnw
+! Last modified: 2012-03-14 20:49:25 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -267,6 +267,16 @@
 -beacons.
 -beacons/
 -beacons_
+-cellcast-media-
+-cellcast-media.
+-cellcast-media/
+-cellcast-media?
+-cellcast-media_
+-cellcastmedia-
+-cellcastmedia.
+-cellcastmedia/
+-cellcastmedia?
+-cellcastmedia_
 -comscore-
 -comscore.
 -comscore/
@@ -348,6 +358,16 @@
 .beacons?
 .beacons_
 .ca.html|
+.cellcast-media-
+.cellcast-media.
+.cellcast-media/
+.cellcast-media?
+.cellcast-media_
+.cellcastmedia-
+.cellcastmedia.
+.cellcastmedia/
+.cellcastmedia?
+.cellcastmedia_
 .impact-ad.jp/rc/
 .kissinsights.com/
 .metrics-
@@ -2028,6 +2048,16 @@
 ?analytics_
 ?banner_link=
 ?banner_url=
+?cellcast-media-
+?cellcast-media.
+?cellcast-media/
+?cellcast-media?
+?cellcast-media_
+?cellcastmedia-
+?cellcastmedia.
+?cellcastmedia/
+?cellcastmedia?
+?cellcastmedia_
 ?clickTAG=
 ?file=ads&
 ?id_promo=
@@ -2104,6 +2134,16 @@ _beacon.
 _beacon/
 _beacon?
 _beacon_
+_cellcast-media-
+_cellcast-media.
+_cellcast-media/
+_cellcast-media?
+_cellcast-media_
+_cellcastmedia-
+_cellcastmedia.
+_cellcastmedia/
+_cellcastmedia?
+_cellcastmedia_
 _clickforce_
 _comscore-
 _comscore.
