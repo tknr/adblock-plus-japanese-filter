@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: sgTdAEBtJNuD05Tiym3YcQ
-! Last modified: 2012-03-14 15:45:37 JST
+! Checksum: ZAHARe41shJ8WR6vref0GQ
+! Last modified: 2012-03-14 17:44:36 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1104,6 +1104,16 @@
 /byads/*
 /camp_banner/bnr_
 /campaign?cid=
+/cellcast-media-
+/cellcast-media.
+/cellcast-media/*
+/cellcast-media?
+/cellcast-media_
+/cellcastmedia-
+/cellcastmedia.
+/cellcastmedia/*
+/cellcastmedia?
+/cellcastmedia_
 ! /cgi-bin/ad-
 ! /cgi-bin/ad.
 ! /cgi-bin/ad/*
@@ -1551,6 +1561,7 @@
 /makePCookie_
 /marquee/*
 /matc.$script
+/MBF_MS_
 /media?mid=
 /mediaslot-
 /mediaslot.
@@ -1564,6 +1575,11 @@
 /metrics/*
 /metrics?
 /metrics_
+/mobifun-
+/mobifun.
+/mobifun/*
+/mobifun?
+/mobifun_
 /mobilead-
 /mobilead.
 /mobilead/*
@@ -1575,6 +1591,11 @@
 /mobileads?
 /mobileads_
 /mouseoverTriggerHandle?
+/movifiesta-
+/movifiesta.
+/movifiesta/*
+/movifiesta?
+/movifiesta_
 /mtag_$third-party
 /mtrcs-$script
 /mtrcs.$script
@@ -2245,6 +2266,7 @@ _teasers|
 ||203.86.249.80^
 ||210.135.99.84^
 ||210.155.151.148^
+||217.19.51.
 ||0info.net^$third-party
 ||0pb.org^
 ||103092804.com^
