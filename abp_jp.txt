@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 0t96iEqATXU/YttmGVqsnw
-! Last modified: 2012-03-14 20:49:25 JST
+! Checksum: VkK/UYCACIjTa4VIUQOF6A
+! Last modified: 2012-03-15 14:57:15 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -296,6 +296,16 @@
 -metrics.
 -metrics/
 -metrics_
+-mobifiesta-
+-mobifiesta.
+-mobifiesta/
+-mobifiesta?
+-mobifiesta_
+-movifiesta-
+-movifiesta.
+-movifiesta/
+-movifiesta?
+-movifiesta_
 -PopUnder|
 -retarget-
 -retarget.
@@ -375,6 +385,16 @@
 .metrics/
 .metrics?
 .metrics_
+.mobifiesta-
+.mobifiesta.
+.mobifiesta/
+.mobifiesta?
+.mobifiesta_
+.movifiesta-
+.movifiesta.
+.movifiesta/
+.movifiesta?
+.movifiesta_
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
@@ -1611,6 +1631,11 @@
 /mobileads?
 /mobileads_
 /mouseoverTriggerHandle?
+/mobifiesta-
+/mobifiesta.
+/mobifiesta/*
+/mobifiesta?
+/mobifiesta_
 /movifiesta-
 /movifiesta.
 /movifiesta/*
@@ -2063,6 +2088,16 @@
 ?id_promo=
 ?mediaslot=
 ?metric=
+?mobifiesta-
+?mobifiesta.
+?mobifiesta/
+?mobifiesta?
+?mobifiesta_
+?movifiesta-
+?movifiesta.
+?movifiesta/
+?movifiesta?
+?movifiesta_
 ?netafftrack=
 ?promo_type=
 ?referer=$image,script
@@ -2167,6 +2202,16 @@ _metrics.
 _metrics/
 _metrics?
 _metrics_
+_mobifiesta-
+_mobifiesta.
+_mobifiesta/
+_mobifiesta?
+_mobifiesta_
+_movifiesta-
+_movifiesta.
+_movifiesta/
+_movifiesta?
+_movifiesta_
 _omniture-
 _omniture.
 _omniture/
