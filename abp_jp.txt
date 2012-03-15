@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: iOnxC6Z6aE/Mcgfw/0gUUg
-! Last modified: 2012-03-15 15:32:03 JST
+! Checksum: sig90boHW23cR/ZJ0uA51w
+! Last modified: 2012-03-15 16:04:06 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -296,16 +296,6 @@
 -metrics.
 -metrics/
 -metrics_
--mobifiesta-
--mobifiesta.
--mobifiesta/
--mobifiesta?
--mobifiesta_
--movifiesta-
--movifiesta.
--movifiesta/
--movifiesta?
--movifiesta_
 -PopUnder|
 -retarget-
 -retarget.
@@ -329,11 +319,6 @@
 ! -stat_
 -textad.
 -utm.$script
--vipmobile-
--vipmobile.
--vipmobile/
--vipmobile?
--vipmobile_
 |http:*.ad-
 |https:*.ad-
 ! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
@@ -385,21 +370,15 @@
 .cellcastmedia_
 .impact-ad.jp/rc/
 .kissinsights.com/
+.megavod.
 .metrics-
 .metrics.
 .metrics/
 .metrics?
 .metrics_
-.mobifiesta-
 .mobifiesta.
-.mobifiesta/
-.mobifiesta?
-.mobifiesta_
-.movifiesta-
+.mobifun.
 .movifiesta.
-.movifiesta/
-.movifiesta?
-.movifiesta_
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
@@ -425,11 +404,7 @@
 ! .stat/
 ! .stat_
 .TieupNotification.
-.vipmobile-
 .vipmobile.
-.vipmobile/
-.vipmobile?
-.vipmobile_
 /200_200.$image,domain=premium.nikkeibp.co.jp
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
@@ -1625,11 +1600,6 @@
 /metrics/*
 /metrics?
 /metrics_
-/mobifun-
-/mobifun.
-/mobifun/*
-/mobifun?
-/mobifun_
 /mobilead-
 /mobilead.
 /mobilead/*
@@ -1641,16 +1611,6 @@
 /mobileads?
 /mobileads_
 /mouseoverTriggerHandle?
-/mobifiesta-
-/mobifiesta.
-/mobifiesta/*
-/mobifiesta?
-/mobifiesta_
-/movifiesta-
-/movifiesta.
-/movifiesta/*
-/movifiesta?
-/movifiesta_
 /mtag_$third-party
 /mtrcs-$script
 /mtrcs.$script
@@ -1983,11 +1943,6 @@
 /view.png?
 /views.gif?
 /views.png?
-/vipmobile-
-/vipmobile.
-/vipmobile/*
-/vipmobile?
-/vipmobile_
 /vis_opt.$script
 /wanalytics-
 /wanalytics/*
@@ -2103,16 +2058,6 @@
 ?id_promo=
 ?mediaslot=
 ?metric=
-?mobifiesta-
-?mobifiesta.
-?mobifiesta/
-?mobifiesta?
-?mobifiesta_
-?movifiesta-
-?movifiesta.
-?movifiesta/
-?movifiesta?
-?movifiesta_
 ?netafftrack=
 ?promo_type=
 ?referer=$image,script
@@ -2127,11 +2072,6 @@
 ?trackerid=
 ?trackid=
 ! ?view=ad&
-?vipmobile-
-?vipmobile.
-?vipmobile/
-?vipmobile?
-?vipmobile_
 ?yad=
 ?zone_id=
 ?zoneid=
@@ -2222,16 +2162,6 @@ _metrics.
 _metrics/
 _metrics?
 _metrics_
-_mobifiesta-
-_mobifiesta.
-_mobifiesta/
-_mobifiesta?
-_mobifiesta_
-_movifiesta-
-_movifiesta.
-_movifiesta/
-_movifiesta?
-_movifiesta_
 _omniture-
 _omniture.
 _omniture/
@@ -2300,11 +2230,6 @@ _teasers/
 _teasers?
 _teasers_
 _teasers|
-_vipmobile-
-_vipmobile.
-_vipmobile/
-_vipmobile?
-_vipmobile_
 ||ad-cdn.
 |http://ad.
 |https://ad.
