@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VkK/UYCACIjTa4VIUQOF6A
-! Last modified: 2012-03-15 14:57:15 JST
+! Checksum: Ef4ZGYVH1BpBit885FvgMg
+! Last modified: 2012-03-15 15:03:53 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -329,6 +329,11 @@
 ! -stat_
 -textad.
 -utm.$script
+-vipmobile-
+-vipmobile.
+-vipmobile/
+-vipmobile?
+-vipmobile_
 |http:*.ad-
 |https:*.ad-
 ! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
@@ -420,6 +425,11 @@
 ! .stat/
 ! .stat_
 .TieupNotification.
+.vipmobile-
+.vipmobile.
+.vipmobile/
+.vipmobile?
+.vipmobile_
 /200_200.$image,domain=premium.nikkeibp.co.jp
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
@@ -1973,6 +1983,11 @@
 /view.png?
 /views.gif?
 /views.png?
+/vipmobile-
+/vipmobile.
+/vipmobile/*
+/vipmobile?
+/vipmobile_
 /vis_opt.$script
 /wanalytics-
 /wanalytics/*
@@ -2112,6 +2127,11 @@
 ?trackerid=
 ?trackid=
 ! ?view=ad&
+?vipmobile-
+?vipmobile.
+?vipmobile/
+?vipmobile?
+?vipmobile_
 ?yad=
 ?zone_id=
 ?zoneid=
@@ -2280,6 +2300,11 @@ _teasers/
 _teasers?
 _teasers_
 _teasers|
+_vipmobile-
+_vipmobile.
+_vipmobile/
+_vipmobile?
+_vipmobile_
 ||ad-cdn.
 |http://ad.
 |https://ad.
