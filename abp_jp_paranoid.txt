@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: iX78xVYjpd8+J07FdQrfUA
-! Last modified: 2012-03-16 14:56:22 JST
+! Checksum: EYObiHLY5AyIUioGIJg6Qg
+! Last modified: 2012-03-16 15:40:11 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -470,7 +470,7 @@ www.yahoo.co.jp###local
 ! ----- Forced reloading ----- END -----
 
 ! ===== geoip ===== START =====
-/geoip.js$third-party
+/geoip.$third-party
 ||maxmind.com^$third-party
 ! ----- geoip ----- END -----
 
