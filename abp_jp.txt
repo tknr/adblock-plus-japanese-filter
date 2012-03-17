@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: jucmeDwEw4+alhSJlj1WjA
-! Last modified: 2012-03-18 02:59:10 JST
+! Checksum: VKekxfzCQDOpW8MSU7WD1Q
+! Last modified: 2012-03-18 03:21:04 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1686,10 +1686,16 @@
 /pixel?
 /pixel2.
 /playertracking/*
+/pop-over.
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
 /popad/*
 /popads/*
+/popover-
+/popover.
+/popover/*
+/popover?
+/popover_
 /popunder-
 /popunder.
 /popunder/*
