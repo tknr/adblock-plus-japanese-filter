@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: HJxhAwOOeCU+/Pu0wO1ciQ
-! Last modified: 2012-03-18 02:39:52 JST
+! Checksum: f4/h0BW80OPnlYkBzT8ZnA
+! Last modified: 2012-03-18 02:47:05 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1783,11 +1783,17 @@
 /rss1.$script,subdocument
 /rss2.$script,subdocument
 /rss3.$script,subdocument
+/rss4.$script,subdocument
+/rss5.$script,subdocument
 /rss5/?$third-party
+/rss6.$script,subdocument
+/rss7.$script,subdocument
+/rss8.$script,subdocument
+/rss9.$script,subdocument
 /rssblogroll.
 /rssfeed3.$third-party
-/rsss.
-/rssss.
+/rsss.$script,subdocument
+/rssss.$script,subdocument
 /run.php?user=$third-party
 /s/*.html?b=*&x=*&y=*&s=*&c=*&ref=*&h=*.*&$third-party
 /sa/infospace.
