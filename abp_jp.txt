@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /PS/LmzTIGlnGbhRXImb3Q
-! Last modified: 2012-03-17 13:25:10 JST
+! Checksum: /h14xKIAwt56SFl9JTo9Gg
+! Last modified: 2012-03-18 00:12:34 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -370,6 +370,7 @@
 .cellcastmedia?
 .cellcastmedia_
 .impact-ad.jp/rc/
+.jeu-a-telecharger.
 .kissinsights.com/
 .megavod.
 .metrics-
