@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8Gbd0T7A0KgcLOYixNnklA
-! Last modified: 2012-03-20 10:25:19 JST
+! Checksum: AbSgKzjIldaphQ7cuP3+ow
+! Last modified: 2012-03-20 16:35:30 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4557,22 +4557,22 @@ _teasers|
 ||shinobi.jp/bin/
 ||shinobi.jp/ufo/
 ||shinobi.jp/Zen?
-.biz/ufo/$third-party
-.com/ufo/$third-party
-.jp/ufo/$third-party
-.net/ufo/$third-party
-.org/ufo/$third-party
-.biz/Zen?$third-party
-.com/Zen?$third-party
-.jp/Zen?$third-party
-.net/Zen?$third-party
-.org/Zen?$third-party
+||biz/ufo/$third-party
+||com/ufo/$third-party
+||jp/ufo/$third-party
+||net/ufo/$third-party
+||org/ufo/$third-party
+||biz/Zen?$third-party
+||com/Zen?$third-party
+||jp/Zen?$third-party
+||net/Zen?$third-party
+||org/Zen?$third-party
 ! Expanded because these filters are too generic, reported by Wladimir( Thanks ).
-!! .biz/bin/$third-party
-!! .com/bin/$third-party
-!! .jp/bin/$third-party
-!! .net/bin/$third-party
-!! .org/bin/$third-party
+! ||biz/bin/$third-party
+! ||com/bin/$third-party
+! ||jp/bin/$third-party
+! ||net/bin/$third-party
+! ||org/bin/$third-party
 ! .biz
 ||ongaeshi.biz/bin/
 ! .com
