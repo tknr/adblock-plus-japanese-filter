@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: li+40qAUK6HybtvI4lUFjg
-! Last modified: 2012-03-21 14:23:44 JST
+! Checksum: vC2w+aJiq/7HajSAqjFP9A
+! Last modified: 2012-03-22 00:14:51 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -162,7 +162,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hot-jav.com|hotavxxx.com|hotporndl.com|imagecarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|slickdeals.net|telechargementz.org|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourlib.net|yunfile.com
+|http:$popup,domain=animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freshremix.ru|hot-jav.com|hotavxxx.com|hotporndl.com|imagecarry.com|imagesnake.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|slickdeals.net|telechargementz.org|torrentbox.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourlib.net|yunfile.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -2496,6 +2496,7 @@ _teasers|
 ||adtracker.jp^
 ||adultadworld.com^$popup
 ||adultadworld.com^$third-party
+||adultfriendfinder.com^$popup
 ||adultfriendfinder.com^$third-party
 ||adultrewardsurvey.com^$popup
 ||adultrewardsurvey.com^$third-party
@@ -2780,6 +2781,7 @@ _teasers|
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||cam4.com^$popup
 ||camads.net^$third-party
 ||camdefolie.com^$popup
 ||campeut.com^
