@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 0xcRDffQ1OCpDb7FpSXxIg
-! Last modified: 2012-03-22 00:42:31 JST
+! Checksum: 5hICexPguL+BS48EBv5byw
+! Last modified: 2012-03-22 00:45:10 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -227,6 +227,7 @@
 &mediaslot=
 &noadult=
 &pop_under=$popup
+&popundersPerIP=
 &promo_type=
 &random=*&referrer=
 &random=*&size=1x1&
@@ -1808,6 +1809,7 @@
 /sdc1.js
 /sdctag.$script
 /sdctag1.$script
+/servePopunder.
 ! /settings/ad.
 /sfga.$script
 /sgtracker.$script
