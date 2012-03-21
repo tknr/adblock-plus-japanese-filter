@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: UrE34TYCDTorxBDXSHZIvA
-! Last modified: 2012-03-19 17:35:31 JST
+! Checksum: kqdHJfJeddruvMYtevTzvw
+! Last modified: 2012-03-22 00:48:53 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -200,11 +200,13 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /mtag_
 /null.$third-party
 /pixel.$third-party,domain=~pcgameshardware.de|~avatar.yahoo.co.jp
+/pop.$third-party
 /popover-$script
 /popover.$script
 /popover/*$script
 /popover?$script
 /popover_$script
+/pops.$third-party
 /popup-$script
 /popup.$script
 /popup/*$script
