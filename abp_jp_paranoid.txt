@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: kqdHJfJeddruvMYtevTzvw
-! Last modified: 2012-03-22 00:48:53 JST
+! Checksum: w8ZdUNMhiity9i7x8JM33w
+! Last modified: 2012-03-22 06:16:04 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -400,6 +400,7 @@ amazon.co.jp,amazon.com##.rcmBody
 ! ===== Facebook external scripts ===== START =====
 ||connect.facebook.com^
 ||connect.facebook.net^
+||fbcdn-$domain=~facebook.com
 ||fbcdn.net^$domain=~facebook.com
 ! ----- Facebook external scripts ----- END -----
 
