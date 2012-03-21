@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 5hICexPguL+BS48EBv5byw
-! Last modified: 2012-03-22 00:45:10 JST
+! Checksum: O3sl3U2h4w0KeJWuzS9xbw
+! Last modified: 2012-03-22 01:14:00 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3333,11 +3333,14 @@ _teasers|
 ||illyx.com^$third-party
 ||iloveyouxi.com^$popup
 ||im2-tub.com^
+||imgcarry.com^$third-party
 ||imagedunk.com/hiokax_
 ||imagefreak001.com^$third-party
+||imagefruit.com^$third-party
 ||imageporter.com^$third-party
 ||images4us.com^
 ||imageshack.us^$third-party
+||imagesnake.com^$third-party
 ||imagetwist.com^$third-party
 ||imagevenue.com/interstitial.
 ||imdb.com^*/scriptloader.
@@ -3844,6 +3847,7 @@ _teasers|
 ||popunder.ru^$third-party
 ||popupclick.ru^$third-party
 ||porn99.net^$third-party
+||pornbus.org^$third-party
 ||banner1.pornhost.com^
 ||pornhublive.com^$third-party
 ||pornografish.com^$third-party
