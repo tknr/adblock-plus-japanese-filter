@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 1eWPx6oEX43ZnwCty9iyyA
-! Last modified: 2012-03-22 05:20:14 JST
+! Checksum: jmU7RjaM1bowraDjcr6AVQ
+! Last modified: 2012-03-23 02:02:29 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4320,6 +4320,7 @@ _teasers|
 ||ver-pelis.net^$third-party
 ||re.veritrans.co.jp^$third-party
 ||verticalacuity.com^$third-party
+||verticalnetwork.de^$third-party
 ||veruta.com^$third-party
 ||videoegg.com^
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
