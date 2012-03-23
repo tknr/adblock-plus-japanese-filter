@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: dEvI/n7P8Ext1OQFCPxBiQ
-! Last modified: 2012-03-23 02:19:30 JST
+! Checksum: N1DbVS1evPgrxHcV0TNEOQ
+! Last modified: 2012-03-23 21:00:13 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1856,6 +1856,11 @@
 /sites/richscripts/*
 /sitestratos/ss_
 ! /smart_ad/*
+/smartad-
+/smartad.
+/smartad/*
+/smartad?
+/smartad_
 /smate.html$subdocument
 /snare.js
 /sOmni.
