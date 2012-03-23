@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: KZZf0mG6I1a8UJu7ASVuQA
-! Last modified: 2012-03-24 06:25:59 JST
+! Checksum: RLJHLoU73wyO9gR1Xpwqyw
+! Last modified: 2012-03-24 08:47:57 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5839,6 +5839,8 @@ matomate.blog133.fc2.com###topHeadline
 ferret-plus.com###prinfo
 fileserve.com###bonus_promo
 fileserve.com###dialog_overlay
+free-codecs.com###bannerTop
+free-codecs.com###rightBar
 gci-klug.jp##*[class*="AdBox"]:not(body):not(input)
 gci-klug.jp##*[class*="AdsBox"]:not(body):not(input)
 gendai.net##*[id^="adingo_"]:not(body):not(input)
