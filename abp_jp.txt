@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: RLJHLoU73wyO9gR1Xpwqyw
-! Last modified: 2012-03-24 08:47:57 JST
+! Checksum: NP8At82xcpmuSoypoBjAyA
+! Last modified: 2012-03-25 19:09:11 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -12,6 +12,20 @@
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
 !
+! ########## Issue Report Spam Blocker (poison pill) start ##########
+! A few foreign users are keep sending nonsense reports everyday, repeatedly.
+! I tried to communicate him/her in English, using "status" input box of reports. But it doesn't seem that he/she reads it.
+! I also keep talking with Wladimir Palant via forum at adblockplus.org about blocking issue report spamming. But it takes time to take action...
+! Reluctantly, I decided to use desperate remedies.
+! I will stop this experiment if spamming is stopped, or new Adblock Plus feature is implemented.
+! 
+! All you have to do is UNsubscribe ABP Japanese Filters.
+! Temporarily disable the fileter below? I will update irregularly ;-p
+@@|http:*.fr^
+! |http:*.fr^
+! ########## Issue Report Spam Blocker (poison pill) end ##########
+! 
+! 
 ! ########## Temporary white list START ##########
 ! video-cdn.ea.com distributes mp4 videos with "&affiliateid="...
 @@.mp4?*&affiliateid=
