@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: iNJEb8POEt3FABukB6taQg
-! Last modified: 2012-03-25 19:58:18 JST
+! Checksum: McahgArbgLe8I9UR9GjG5Q
+! Last modified: 2012-03-26 22:35:47 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5069,6 +5069,7 @@ _teasers|
 ##.Ad
 ~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ##.ad_banner
+##.ad_frame
 ##.ad_left
 ##.ad_link
 ##.ad_right
