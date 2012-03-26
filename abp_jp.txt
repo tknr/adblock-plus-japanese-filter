@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: McahgArbgLe8I9UR9GjG5Q
-! Last modified: 2012-03-26 22:35:47 JST
+! Checksum: e8rH7rs+n0upREZ1QrsFkg
+! Last modified: 2012-03-26 22:48:39 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4976,22 +4976,23 @@ _teasers|
 ###AD
 ###Ad
 ~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
-###ad_container
-###ad_frame
-###ad_listing
-###ad-text
-###AD-text
-###ad_text
-###AD_text
-###ad_bottom
-###AD_bottom
-###ad_left
-###AD_left
-###ad_right
-###AD_right
-###ad_rs
-###ad_top
-###AD_top
+! Eliminated duplicated filters, Mar 26, 2012
+! ###ad_container
+! ###ad_frame
+! ###ad_listing
+! ###ad-text
+! ###AD-text
+! ###ad_text
+! ###AD_text
+! ###ad_bottom
+! ###AD_bottom
+! ###ad_left
+! ###AD_left
+! ###ad_right
+! ###AD_right
+! ###ad_rs
+! ###ad_top
+! ###AD_top
 ! Eliminated duplicated filters, Feb 14, 2012
 ! ###AD1
 ! ###AD2
@@ -5068,21 +5069,22 @@ _teasers|
 ~mail.google.com##.AD
 ##.Ad
 ~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
-##.ad_banner
-##.ad_frame
-##.ad_left
-##.ad_link
-##.ad_right
-##.AD-text
-##.ad-text
-##.ad_rectangle
-##.ad_square
-##.ad_special_badge
-##.AD_text
-##.ad_text
-##.ad_textlink
-##.ad_textlink_box
-##.ad_top
+! Eliminated duplicated filters, Mar 26, 2012
+! ##.ad_banner
+! ##.ad_frame
+! ##.ad_left
+! ##.ad_link
+! ##.ad_right
+! ##.AD-text
+! ##.ad-text
+! ##.ad_rectangle
+! ##.ad_square
+! ##.ad_special_badge
+! ##.AD_text
+! ##.ad_text
+! ##.ad_textlink
+! ##.ad_textlink_box
+! ##.ad_top
 ! Eliminated duplicated filters, Feb 14, 2012
 ! ##.AD1
 ! ##.AD2
@@ -5437,10 +5439,10 @@ _teasers|
 ##img[alt$="_PR]"]
 ! ---------- Images with alt attribute END ----------
 ! ========== All elements START ==========
-##*[id^="ad-"]:not(body):not(input)
 ##*[id^="AD-"]:not(body):not(input)
-~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
+##*[id^="ad-"]:not(body):not(input)
 ##*[id^="AD_"]:not(body):not(input)
+~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
 ##*[id^="AD0"]:not(body):not(input)
 ##*[id^="AD1"]:not(body):not(input)
 ##*[id^="AD2"]:not(body):not(input)
@@ -5567,8 +5569,9 @@ _teasers|
 ##*[id$="_ADS"]:not(body):not(input)
 ! ##*[id$="_pr"]:not(body):not(input)
 ! ##*[id$="_PR"]:not(body):not(input)
-~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
 ##*[class^="AD-"]:not(body):not(input)
+~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
+##*[class^="AD_"]:not(body):not(input)
 ~collegehumor.com##*[class^="ad_"]:not(body):not(input)
 ##*[class^="AD0"]:not(body):not(input)
 ##*[class^="AD1"]:not(body):not(input)
