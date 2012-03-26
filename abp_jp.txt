@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: e8rH7rs+n0upREZ1QrsFkg
-! Last modified: 2012-03-26 22:48:39 JST
+! Checksum: cD6lu9GFmt7ouU3W/KwDSw
+! Last modified: 2012-03-26 23:27:58 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4977,22 +4977,22 @@ _teasers|
 ###Ad
 ~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
 ! Eliminated duplicated filters, Mar 26, 2012
+! ###AD-text
+! ###AD_bottom
+! ###AD_left
+! ###AD_right
+! ###AD_text
+! ###AD_top
+! ###ad-text
+! ###ad_bottom
 ! ###ad_container
 ! ###ad_frame
-! ###ad_listing
-! ###ad-text
-! ###AD-text
-! ###ad_text
-! ###AD_text
-! ###ad_bottom
-! ###AD_bottom
 ! ###ad_left
-! ###AD_left
+! ###ad_listing
 ! ###ad_right
-! ###AD_right
+! ###ad_text
 ! ###ad_rs
 ! ###ad_top
-! ###AD_top
 ! Eliminated duplicated filters, Feb 14, 2012
 ! ###AD1
 ! ###AD2
@@ -5012,30 +5012,32 @@ _teasers|
 ! ###ad7
 ! ###ad8
 ! ###ad9
-###adAms
+###ADS
+###ADs
+###AMN-large-banner
+###PR-txt
+###PR_txt
 ###AdArea
-###adArea
-###adarea
 ###AdBox
+###AdsBox
+###adAms
+###adArea
 ###adBox
-###adbox
 ###adContainer
 ###adFrame
 ###adLeft
-###adleft
 ###adPRtext
 ###adRight
+###adTop
+###adarea
+###adbox
+###adleft
 ###adright
-###AdsBox
 ###adsBox
 ###adsbox
-###ADS
-###ADs
 ###ads
-###adTop
 ###adv
 ###advertise
-###AMN-large-banner
 ###bannerAd
 ###bannerad
 ###block_whitepaper
@@ -5051,9 +5053,7 @@ _teasers|
 ###overture_cm
 ###pr-area
 ###pr-txt
-###PR-txt
 ###pr_txt
-###PR_txt
 ###prbox
 ###prTxt
 ###prtxt
@@ -5070,13 +5070,13 @@ _teasers|
 ##.Ad
 ~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad
 ! Eliminated duplicated filters, Mar 26, 2012
+! ##.AD-text
+! ##.ad-text
 ! ##.ad_banner
 ! ##.ad_frame
 ! ##.ad_left
 ! ##.ad_link
 ! ##.ad_right
-! ##.AD-text
-! ##.ad-text
 ! ##.ad_rectangle
 ! ##.ad_square
 ! ##.ad_special_badge
@@ -5106,40 +5106,41 @@ _teasers|
 ! ##.ad728
 ! ##.ad8
 ! ##.ad9
+##.ADS
+##.ADs
+##.AMN-sponsor-rolls
+##.AMN-large-banner
 ##.AdArea
-##.adArea
-##.adarea
 ##.AdBox
+##.AdsBox
+##.PR-txt
+##.PR_txt
+##.adArea
 ##.adBox
-##.adbox
-##.addescription
 ##.adLeft
-##.adleft
 ##.adPRtext
 ##.adRight
+##.adSlot
+##.adText
+##.adTop
+##.adarea
+##.adbox
+##.addescription
+##.adlantiss_frame
+##.adleft
 ##.adright
-##.AdsBox
+! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
+##.ads:not(.adf):not(.adn)
+##.ads_adingo
 ##.adsBox
+##.adspace
 ##.adsbox
 ##.adslot
-##.adSlot
-##.adlantiss_frame
-! .adf includes each mail header 2011-11-18
-! .adn includes each mail body 2011-11-18
-##.ads:not(.adf):not(.adn)
-##.adspace
-##.ADs
-##.ADS
-##.ads_adingo
-##.adText
 ##.adtitle
-##.adTop
 ##.adtop
 ##.adurl
 ~jma.go.jp##.adv
 ##.advert
-##.AMN-sponsor-rolls
-##.AMN-large-banner
 ##.bannerAd
 ##.bannerad
 ##.block_whitepaper
@@ -5154,9 +5155,7 @@ _teasers|
 ~photobucket.com##.headerAd
 ##.headerPR
 ##.leaderboardAd
-##.PR-txt
 ##.pr-txt
-##.PR_txt
 ##.pr_txt
 ##.prbox
 ~apple.com##.promos
@@ -5423,20 +5422,20 @@ _teasers|
 ##a[href*=".ziyu.net/jump."]
 ! ---------- Links with URLs END ----------
 ! ========== images with alt attribute START ==========
-##img[alt^="[pr-"]
 ##img[alt^="[PR-"]
-##img[alt^="[pr_"]
 ##img[alt^="[PR_"]
-##img[alt*="-pr-"]
+##img[alt^="[pr-"]
+##img[alt^="[pr_"]
 ##img[alt*="-PR-"]
-##img[alt*="[pr]"]
+##img[alt*="-pr-"]
 ##img[alt*="[PR]"]
-##img[alt*="_pr_"]
+##img[alt*="[pr]"]
 ##img[alt*="_PR_"]
-##img[alt$="-pr]"]
+##img[alt*="_pr_"]
 ##img[alt$="-PR]"]
-##img[alt$="_pr]"]
+##img[alt$="-pr]"]
 ##img[alt$="_PR]"]
+##img[alt$="_pr]"]
 ! ---------- Images with alt attribute END ----------
 ! ========== All elements START ==========
 ##*[id^="AD-"]:not(body):not(input)
