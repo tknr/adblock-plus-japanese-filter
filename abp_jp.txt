@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: cyCS0DmNCjqpOeXoz8GRuQ
-! Last modified: 2012-03-27 14:52:58 JST
+! Checksum: /Afz4TXlqNJS7UxgMIMWvg
+! Last modified: 2012-03-28 08:20:49 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -23,10 +23,8 @@
 ! Temporarily disable the fileter below? I will update irregularly ;-p
 ! 
 ! Spammer's language now: French, German
-@@|http:*.fr^
-!next |http:*.fr^
-@@|http:*.de^
-!next |http:*.de^
+|http:*.fr^
+|http:*.de^
 ! ########## Issue Report Spam Blocker (poison filters) end ##########
 ! 
 ! 
