@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: H56aUxn2SGdPOi+IIAVjPQ
-! Last modified: 2012-03-29 20:02:23 JST
+! Checksum: zIvsGQzIjRnimnz0zxxlcA
+! Last modified: 2012-03-30 00:30:16 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5934,7 +5934,7 @@ amazon.co.jp,amazon.com##*[id^="DA"]
 amazon.co.jp,amazon.com##*[href*="/redirect."][href*="?tag="][href*="-22&"]
 amazon.co.jp,amazon.com##*[href*="/redirect."][href*="%3Ftag%3D"][href*="-22%26"]
 ! Fallback for not working Element-Hiding filter above, Mar 10, 2012
-amazon.co.jp##img[usemap="#Javaribanner"]
+amazon.co.jp##img[usemap^="#Javari"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
 ascii.jp###bargain
