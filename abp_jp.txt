@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: /URBap0sOPwI43R9AYDO8g
-! Last modified: 2012-03-31 06:20:09 JST
+! Checksum: sqlkwwt69xsDZz7Wyjr4hg
+! Last modified: 2012-03-31 17:42:32 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -467,6 +467,21 @@
 -ads.$domain=~retweet-ads.net
 -ads/
 -ads_
+-adthink-
+-adthink.
+-adthink/
+-adthink?
+-adthink_
+-adthinkmedia-
+-adthinkmedia.
+-adthinkmedia/
+-adthinkmedia?
+-adthinkmedia_
+-advertstream-
+-advertstream.
+-advertstream/
+-advertstream?
+-advertstream_
 -affiliate-
 -affiliate.
 -affiliate/
@@ -518,6 +533,11 @@
 -metrics.
 -metrics/
 -metrics_
+-numerik-art-
+-numerik-art.
+-numerik-art/
+-numerik-art?
+-numerik-art_
 -PopUnder|
 -retarget-
 -retarget.
@@ -559,6 +579,21 @@
 ! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
 .adserver.
+.adthink-
+.adthink.
+.adthink/
+.adthink?
+.adthink_
+.adthinkmedia-
+.adthinkmedia.
+.adthinkmedia/
+.adthinkmedia?
+.adthinkmedia_
+.advertstream-
+.advertstream.
+.advertstream/
+.advertstream?
+.advertstream_
 .affiliate-
 .affiliate.
 .affiliate/
@@ -602,6 +637,11 @@
 .mobifiesta.
 .mobifun.
 .movifiesta.
+.numerik-art-
+.numerik-art.
+.numerik-art/
+.numerik-art?
+.numerik-art_
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
@@ -1192,6 +1232,16 @@
 /adtext/*
 /adtext?
 /adtext_
+/adthink-
+/adthink.
+/adthink/*
+/adthink?
+/adthink_
+/adthinkmedia-
+/adthinkmedia.
+/adthinkmedia/*
+/adthinkmedia?
+/adthinkmedia_
 /adtrack-
 /adtrack.
 /adtrack/*
@@ -1228,6 +1278,11 @@
 /AdvertisingModule/*
 /AdvertisingModule?
 /AdvertisingModule_
+/advertstream-
+/advertstream.
+/advertstream/*
+/advertstream?
+/advertstream_
 /adview-
 /adview.
 /adview/*
@@ -1864,6 +1919,11 @@
 ! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
 ! /newzia/*
 /njoks_$script
+/numerik-art-
+/numerik-art.
+/numerik-art/*
+/numerik-art?
+/numerik-art_
 /omn-js/*
 /omni-$script
 /omni.$script
@@ -2273,9 +2333,24 @@
 ?adsource/
 ?adsource?
 ?adsource_
+?adthink-
+?adthink.
+?adthink/
+?adthink?
+?adthink_
+?adthinkmedia-
+?adthinkmedia.
+?adthinkmedia/
+?adthinkmedia?
+?adthinkmedia_
 ?adunitid=
 ?adv=
 ?advertiser=
+?advertstream-
+?advertstream.
+?advertstream/
+?advertstream?
+?advertstream_
 ?advTile=
 ?adx-
 ?adx.
@@ -2312,6 +2387,11 @@
 ?mediaslot=
 ?metric=
 ?netafftrack=
+?numerik-art-
+?numerik-art.
+?numerik-art/
+?numerik-art?
+?numerik-art_
 ?promo_type=
 ?referer=$image,script
 ?referrer=$third-party
@@ -2365,8 +2445,23 @@ _adsource.
 _adsource/
 _adsource?
 _adsource_
+_adthink-
+_adthink.
+_adthink/
+_adthink?
+_adthink_
+_adthinkmedia-
+_adthinkmedia.
+_adthinkmedia/
+_adthinkmedia?
+_adthinkmedia_
 _adv_img/
 _adv_imgs/
+_advertstream-
+_advertstream.
+_advertstream/
+_advertstream?
+_advertstream_
 _affiliate-
 _affiliate.
 _affiliate/
@@ -2416,6 +2511,11 @@ _metrics.
 _metrics/
 _metrics?
 _metrics_
+_numerik-art-
+_numerik-art.
+_numerik-art/
+_numerik-art?
+_numerik-art_
 _omniture-
 _omniture.
 _omniture/
@@ -2556,6 +2656,7 @@ _teasers|
 ||210.135.99.84^
 ||210.155.151.148^
 ||217.19.51.
+||00h10.com^
 ||0info.net^$third-party
 ||0pb.org^
 ||103092804.com^
@@ -2565,6 +2666,7 @@ _teasers|
 ||12no3.com^
 ||1channel.ch/pop.$script
 ||20serve.com^
+||21h10.com^
 ||22no3.com^
 ||247realmedia.com^$third-party
 ||24log.ru^$third-party
@@ -2834,6 +2936,7 @@ _teasers|
 ||anisen.tv^*/import_insert.$script
 ||annienne.com^
 ||anniers.com^
+||annoncescouples.com^
 ||anonym.to^$third-party
 ||antevenio.com^$third-party
 ||antventure.com^
@@ -2938,6 +3041,7 @@ _teasers|
 ||begun.ru^$third-party
 ||belboon.com^$third-party
 ||belboon.de^
+||bellerencontre.fr^
 ||benaughty.com^$third-party
 ||besonders.ru^$third-party
 ||bidvertiser.com^$third-party
@@ -3014,10 +3118,18 @@ _teasers|
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||cam-seduction.com^
+||cam-visio.com^
 ||cam4.com^$popup
 ||camads.net^$third-party
+||camcoquine.com^
 ||camdefolie.com^$popup
+||camlibertine.com^
+||camlibertines.com^
+||camlol.com^
 ||campeut.com^
+||camseduction.com^
+||camvisio.com^
 ||canalds.com^
 ||captainad.com^$third-party
 ||caragots.com^
@@ -3037,6 +3149,7 @@ _teasers|
 ||cedexis-radar.net^
 ||cedexis.com^$third-party
 ||celebros-analytics.com^
+||celicam.com^
 ||cellcastmedia.com^$third-party
 ||certified-apps.com^$third-party
 ||cetrk.com^
@@ -3046,6 +3159,7 @@ _teasers|
 ||champions-quiz.$popup
 ||chango.com^$third-party
 ||channelintelligence.com^$third-party
+||charnelcam.com^
 ||chartbeat.com^$third-party
 ||checkm8.com^$third-party
 ||cheernuts.com^$third-party
@@ -3058,6 +3172,7 @@ _teasers|
 ||ad.chosunonline.com^
 ||ciement.com^
 ||cientrer.com^
+||cio-club-france.com^
 ||citaire.com^
 ||clangere.com^
 ||clapalong.com^$third-party
@@ -3128,6 +3243,7 @@ _teasers|
 ||livepass.conviva.com^
 ||boxz.cools4u.com^
 ||copercato.com^
+||coquine.org^
 ||coremetrics.com^$third-party
 ||kanasoku*.coreserver.jp^$third-party
 ||cosaji.jp^$third-party
@@ -3155,6 +3271,7 @@ _teasers|
 ||crystalmark.info/images/banner/
 ||csolution.jp^$third-party
 ||cszz.ru^
+||cupidon-webcam.com^
 ||custom-click.com^$third-party
 ||custom-click.net^$third-party
 ||cxense.com^$third-party
@@ -3189,7 +3306,7 @@ _teasers|
 ||datefree.com^$third-party
 ||datelycu.com^
 ||datingfactory.com^$third-party
-||datinglabel.com^$third-party
+||datinglabel.com^
 ||daum.net^$third-party,subdocument
 ||ddestiny.ru^$third-party
 ||dealply.com^$third-party
@@ -3206,6 +3323,9 @@ _teasers|
 ||deqwas.net^
 ||detaires.com^
 ||deteql.net^
+||dialocam.com^
+||dialsexy-messenger.com^
+||dialwebcam.fr^
 ||diamond.jp^*/welcome.$script
 ||zai.diamond.jp/oo/
 ||dificaux.com^
@@ -3295,6 +3415,7 @@ _teasers|
 ||emierete.com^
 ||emv2.com^
 ||endless.com^$third-party
+||energy.se^
 ||enfreine.com^
 ||enquisite.com^$third-party
 ||ensepare.com^
@@ -3333,8 +3454,11 @@ _teasers|
 ||adimpkwd.excite.co.jp^
 ||nc-log.excite.co.jp^
 ||p4p.excite.co.jp^
+||excitemoi.com^
 ||exelator.com^
 ||exgfnetwork.com^
+||exhib-rencontre.com^
+||exitemoi.com^
 ||exoclick.com^$popup
 ||exoclick.com^$third-party
 ||exoplanetwar.com^$third-party
@@ -3386,6 +3510,7 @@ _teasers|
 ||flashtalking.com^$third-party
 ||fliks.net^$third-party
 ||flirt4free.com^$third-party
+||flirtvisio.com^
 ||fmpub.net^$third-party
 ||fnac.com^$third-party
 ||focus-marketing.net^$third-party
@@ -3408,6 +3533,7 @@ _teasers|
 ||relart.fresheye.com^
 ||frestime.com^
 ||friendlyduck.com^$third-party
+||frivole.net^
 ||froggie-mm.net^$popup
 ||fukugan.com^$third-party
 ||funwebproducts.com^
@@ -3425,6 +3551,7 @@ _teasers|
 ||garss.jp^$third-party
 ||garss.tv^$third-party
 ||gaug.es^$third-party
+||gayhotcam.com^
 ||gde.ru^$third-party
 ||gekimedia.net^
 ||gemius.pl^
@@ -3497,6 +3624,7 @@ _teasers|
 ||oas.heise.de^
 ||rl.heise.de^
 ||heroclick.cn^$third-party
+||heure1.com^
 ||hey.lt^$third-party
 ||heyos.com^$third-party
 ||hikiwake.com^
@@ -3546,9 +3674,12 @@ _teasers|
 ||ib-ibi.com^$third-party
 ||ibase.fr^
 ||icetraffic.com^
+||icidating.com^
 ||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
 ||idol-gallery.net^$third-party
+||idyllink.com^
+||idyllove.com^
 ||iesnare.com^
 ||iforex.com^$third-party
 ||ign-omy.com^
@@ -3652,12 +3783,14 @@ _teasers|
 ||javhd.com^$third-party
 ||javplus.com^$third-party
 ||jeetyetmedia.com^$third-party
+||jerencontre.fr^
 ||jimdo-stats.com^
 ||jin115.com/rss$subdocument
 ||jino.ru^$third-party
 ||jlisting.jp^$third-party
 ||jmg.com^$third-party
 ||job.ws^$third-party
+||jobrendez-vous.com^
 ||jobthread.com^$third-party
 ||adp.joins.com^
 ||joinsmsn.com/common/ui/ad/
@@ -3690,6 +3823,7 @@ _teasers|
 ||keyrun.cn^$third-party
 ||keywordlink.co.kr^$third-party
 ||kiev.ua^$third-party
+||kikoucam.com^
 ||kingdun.net^$third-party
 ||kinwee.com^$third-party
 ||kissmetrics.com^$third-party
@@ -3718,14 +3852,19 @@ _teasers|
 ||langueur.com^
 ||banner.lardi-trans.com^
 ||lavantat.com^
+||le-visiochat.com^
+||le-visio-chat.com^
 ||leadforce1.com^
 ||leagueoflegends.com^$popup
 ||leasinginukraine.com^$third-party
+||leclubcoquin.com^
 ||legolas-media.com^$third-party
 ||adv.letitbit.net^
+||levisiochat.com^
 ||levrico.com^
 ||lexament.com^
 ||lfstmedia.com^$third-party
+||libertins31.com^
 ||liendans.com^
 ||ad.lifehacker.jp^
 ||lifestats.ru^
@@ -3773,11 +3912,17 @@ _teasers|
 ||log-marketing.jp^
 ||logtwit.com^$third-party
 ||loka.jp^$third-party
+||lolcam.com^
 ||lolipop.jp/ralite/
 ||ad.lolipop.jp^
 ||loneday.com^
 ||lp.longtailvideo.com^
+||lovelove.fr^
+||loveloves.com^
+||loveme.fr^
 ||loveplanet.ru^$third-party
+||lovinuk.com^
+||lovin-uk.com^
 ||lporirxe.com^
 ||lucastadvertising.com^
 ||luocbao.com/adv/
@@ -3805,6 +3950,9 @@ _teasers|
 ||marsflag.com/adimg/
 ||master-quiz.nl^$popup
 ||masudel.com^
+||mate-et-tchat.com^
+||mate-sa-cam.com^
+||matures-rencontre.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
 ||mbanner.net^$third-party
@@ -3831,6 +3979,7 @@ _teasers|
 ||mediaunder.$third-party
 ||medleyads.com^
 ||meebo.com^$third-party
+||meetactually.com^
 ||meetme-tonight.info^$third-party
 ||meetrics.net^$third-party
 ||megaclick.com^$third-party
@@ -3844,9 +3993,13 @@ _teasers|
 ||megavideo.com/*/onhover.$script
 ||megavideo.com/mcad.
 ||megavideo.com/top.swf
+||mekamek.com^
 ||meltwaternews.com^$third-party
 ||mementes.com^
 ||menteret.com^
+||mes-rencontres-sexy.com^
+||mes-rencontres-webcam.com^
+||mesrencontressexy.com^
 ||mestersquiz.com^$popup
 ||metanetwork.com^$third-party
 ||mgid.com^$popup
@@ -3997,6 +4150,9 @@ _teasers|
 ||oiya.ru^$third-party
 ||pref.okayama.jp/chiji/kocho/bn/
 ||omtrdc.net^
+||on-se-mate.com^
+||one2one-sexy.com^
+||one2onesexy.com^
 ||onestat.com^$third-party
 ||onetad.com^$third-party
 ||sanyo.oni.co.jp/clients/
@@ -4005,6 +4161,7 @@ _teasers|
 ||onlinemillionairesociety.net^$third-party
 ||onlinewebstat.com^$third-party
 ||onparade.jp^
+||onsemate.com^
 ||l.player.ooyala.com^
 ||open-mind.vc^
 ||openadserving.com^$third-party
@@ -4024,6 +4181,7 @@ _teasers|
 ||orangeads.fr^
 ||osa.pl^
 ||ads.osdn.jp^
+||osmozes.com^
 ||otherprofit.com^
 ||ourstats.de^$third-party
 ||ousns.com^
@@ -4040,6 +4198,7 @@ _teasers|
 ||passion.com^$third-party
 ||pay-click.ru^$third-party
 ||pclicks.com^$third-party
+||peep-live-show.com^
 ||peer39.net^
 ||percentmobile.com^$third-party
 ||performgroup.com^$third-party
@@ -4062,6 +4221,8 @@ _teasers|
 ||pixfuture.net^$third-party
 ||piximedia.$third-party
 ||pixplug.in^
+||plaisirs-webcam.com^
+||plankam.net^
 ||platinumcode.net^
 ||playtech.com^$third-party
 ||plista.com^$third-party
@@ -4170,6 +4331,21 @@ _teasers|
 ||reklama-port.com^
 ||relax.ru^
 ||remontvdome.com.ua^$popup
+||rencontre-maintenant.com^
+||rencontre-visio.com^
+||renkontre.com^
+||renkontrer.com^
+||rencontres-avec-webcam.com^
+||rencontres-canada.com^
+||rencontres-faciles.fr^
+||rencontres-webcam.com^
+||rencontres-webcams.com^
+||rencontrescesoir.com^
+||rencontresdiscretes.com^
+||rencontreswebcam.com^
+||rencontrevisio.com^
+||rencontrevisiochat.com^
+||rencontrevoisines.com^
 ||researchresults.com^$third-party
 ||ad.response.jp^
 ||reunice.com^
@@ -4234,6 +4410,7 @@ _teasers|
 ||sd1.fr^
 ||aa.sdo.com^
 ||aagw.sdo.com^
+||se-draguer.com^
 ||seagulltracer.com^$third-party
 ||search123.uk.com^
 ||searchdiscovered.com^$popup
@@ -4249,6 +4426,7 @@ _teasers|
 ||match.seesaa.jp^
 ||sekindo.com^$popup
 ||sekindo.com^$third-party
+||semater.com^
 ||sensic.net^$third-party
 ||sensis.com.au^$third-party
 ||sensismediasmart.com.au^$third-party
@@ -4309,6 +4487,7 @@ _teasers|
 ||showdysl.com^
 ||silveregg.net^$third-party
 ||simply.com^$third-party
+||siouxi.com^
 ||site-plan.jp^$third-party
 ||sitebro.com^
 ||sitebro.com.tw^
@@ -4355,6 +4534,7 @@ _teasers|
 ||specificclick.net^
 ||specificmedia.com^$third-party
 ||specisez.com^
+||speedrencontre.com^
 ||spider-ad.jp^$third-party
 ||sponsorads.de^
 ||sponsorboost.com^$third-party
@@ -4376,6 +4556,7 @@ _teasers|
 ||steelhousemedia.com^$third-party
 ||stickeraction.com^$third-party
 ||stocknavigator.ru^$third-party
+||storycam.com^
 ||stratigent.com^$third-party
 ||streamate.com^$third-party
 ||streamstreaming.com^$third-party
@@ -4395,6 +4576,7 @@ _teasers|
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
 ||syoh.jp^$third-party
+||syxy.com^
 ||t3leads.com^$third-party
 ||r.tabelog.com/contents/index?
 ||taboolasyndication.com^
@@ -4405,6 +4587,11 @@ _teasers|
 ||targetix.net^$third-party
 ||tbs.co.jp/rtac/
 ||tbn.ru^$third-party
+||tchat-rose.com^
+||tchatcam.com^
+||tchatlibertin.com^
+||tchatvisio.com^
+||tchatwebcam.com^
 ||tcimg.com^
 ||tcs-asp.net^$third-party
 ||teaser.cc^$third-party
@@ -4425,6 +4612,7 @@ _teasers|
 ||thefilter.com^$third-party
 ||theloungenet.com^$third-party
 ||thesettlersonline.fr^$popup
+||ticketchic.com^
 ||tidaltv.com^$third-party
 ||tidentes.com^
 ||tierest.com^
@@ -4558,6 +4746,7 @@ _teasers|
 ||verticalacuity.com^$third-party
 ||verticalnetwork.de^$third-party
 ||veruta.com^$third-party
+||veryselect.com^
 ||videoegg.com^
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
 ! ||videoplaza.tv^
@@ -4581,6 +4770,17 @@ _teasers|
 ||virusbuster.jp^$popup
 ||virusbuster.jp^*/trial/
 ||visiblemeasures.com^$third-party
+||visio-cokine.com^
+||visio-love.com^
+||visio-rose.com^
+||visio-tchat.com^
+||visio-webcam.com^
+||visio-xxx.com^
+||visioflirt.com^
+||visiokiss.com^
+||visiolove.com^
+||visiowebcam.com^
+||visioxxx.com^
 ||visistat.com^$third-party
 ||visit-x.net^$third-party
 ||visitor-track.com^$third-party
@@ -4608,8 +4808,15 @@ _teasers|
 ||wb-rotator.com^
 ||web-stat.com^$third-party
 ||webantenna.info^$third-party
+||webcam-folie.com^
+||webcam-rose.com^
+||webcam-visio.com^
+||webcamcoquine.com^
+||webcamfolie.com^
+||webcamvisio.com^
 ||webdo.co.jp^$third-party
 ||webgiantmedia.com^$third-party
+||webkam.fr^
 ||rws.weblio.jp^$third-party
 ||weborama.fr^$third-party
 ||webpagetest.org/custom/
@@ -4647,6 +4854,7 @@ _teasers|
 ||log.woopieapi.com^
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
+||wop-love.com^
 ||stats.wordpress.com^
 ||worldlogger.com^
 ||worthathousandwords.com^$third-party
@@ -4654,6 +4862,7 @@ _teasers|
 ||wowzio.net^$third-party
 ||vda.wp.pl^
 ||ker.www.wp.pl^
+||wrenkontre.com^
 |http:*.ws.md^$third-party
 |http://ws.md^$third-party
 |https:*.ws.md^$third-party
@@ -4662,6 +4871,7 @@ _teasers|
 ||wt-rotator.
 ||wts-rotator.
 ||wunderloop.net^
+||wwop-love.com^
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
