@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: NBpiLTHtd8lQjdAPU84a+w
-! Last modified: 2012-04-02 00:54:18 JST
+! Checksum: XACALtgjibNHdg0rOIXS1w
+! Last modified: 2012-04-02 03:44:31 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -625,8 +625,10 @@
 .cellcastmedia/
 .cellcastmedia?
 .cellcastmedia_
+.cherry-chat.
 .impact-ad.jp/rc/
 .jeu-a-telecharger.
+.jeuxofferts.
 .kissinsights.com/
 .megavod.
 .metrics-
@@ -637,6 +639,7 @@
 .mobifiesta.
 .mobifun.
 .movifiesta.
+.my-tv-store.
 .numerik-art-
 .numerik-art.
 .numerik-art/
@@ -2810,7 +2813,7 @@ _teasers|
 ||adserve.com^$third-party
 ||adserver01.de^$third-party
 ||adserverplus.com^
-! Dropped a third-party option because adware or malware opens it directly, Apr 2, 2012
+! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||adserverpub.com^
 ||adserverpub.com^$popup
 ||adsfac.eu^$third-party
@@ -4169,7 +4172,7 @@ _teasers|
 ||onsemate.com^
 ||l.player.ooyala.com^
 ||open-mind.vc^
-! Dropped a third-party option because adware or malware opens it directly, Apr 2, 2012
+! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||openadserving.com^
 ||openadserving.com^$popup
 ||openstat.net^$third-party
