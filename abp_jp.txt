@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Vxx1zYi/hjuhe9pjarY/Ow
-! Last modified: 2012-04-01 00:18:58 JST
+! Checksum: R0auoO7gNaRkjT2ZBQoGtw
+! Last modified: 2012-04-02 00:29:22 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2810,7 +2810,9 @@ _teasers|
 ||adserve.com^$third-party
 ||adserver01.de^$third-party
 ||adserverplus.com^
-||adserverpub.com^$third-party
+! Dropped a third-party option because adware or malware opens it directly, Apr 2, 2012
+||adserverpub.com^
+||adserverpub.com^$popup
 ||adsfac.eu^$third-party
 ||adsfac.net^$third-party
 ||adsfac.sg^$third-party
@@ -4165,7 +4167,8 @@ _teasers|
 ||onsemate.com^
 ||l.player.ooyala.com^
 ||open-mind.vc^
-||openadserving.com^$third-party
+! Dropped a third-party option because adware or malware opens it directly, Apr 2, 2012
+||openadserving.com^
 ||openadserving.com^$popup
 ||openstat.net^$third-party
 ||openx.com^
