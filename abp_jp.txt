@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: R0auoO7gNaRkjT2ZBQoGtw
-! Last modified: 2012-04-02 00:29:22 JST
+! Checksum: NBpiLTHtd8lQjdAPU84a+w
+! Last modified: 2012-04-02 00:54:18 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3171,6 +3171,7 @@ _teasers|
 ||chitika.net^
 ||chobirich.com^$third-party
 ||choi-m.com^$third-party
+||choisirsonforfait.com^
 ||log.chosunjns.com^
 ||ad.chosunonline.com^
 ||ciement.com^
@@ -4009,6 +4010,7 @@ _teasers|
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
 ||c.microsoft.com^
+||mieuxchoisir.com^
 ||millioncounter.com^$~image
 ||minpos.com^$third-party
 ||miraikensaku.jp^$third-party
