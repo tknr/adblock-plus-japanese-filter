@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zS1Ae7HV8VLWQ23PosmsoQ
-! Last modified: 2012-04-02 03:45:23 JST
+! Checksum: bb3uHW4YuOGVlThJ/FKLJQ
+! Last modified: 2012-04-02 15:31:11 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -22,207 +22,207 @@
 ! All you have to do is UNsubscribe ABP Japanese Filters because the subscription does NOT support your language.
 ! Temporarily disable the fileter below? I will update irregularly ;-p
 ! 
-! Spammer's language now: none
-! |http:*.de^
-! |http:**.de^
-! |http:***.de^
-! |http:****.de^
-! |http:*****.de^
-! |http:******.de^
-! |http:*******.de^
-! |http:********.de^
-! |http:*********.de^
-! |http:**********.de^
-! |http:***********.de^
-! |http:************.de^
-! |http:*************.de^
-! |http:**************.de^
-! |http:***************.de^
-! |http:****************.de^
-! |http:*****************.de^
-! |http:******************.de^
-! |http:*******************.de^
-! |http:********************.de^
-! |http:*********************.de^
-! |http:**********************.de^
-! |http:***********************.de^
-! |http:************************.de^
-! |http:*************************.de^
-! |http:**************************.de^
-! |http:***************************.de^
-! |http:****************************.de^
-! |http:*****************************.de^
-! |http:******************************.de^
-! |http:*******************************.de^
-! |http:********************************.de^
-! |http:*********************************.de^
-! |http:**********************************.de^
-! |http:***********************************.de^
-! |http:************************************.de^
-! |http:*************************************.de^
-! |http:**************************************.de^
-! |http:***************************************.de^
-! |http:****************************************.de^
-! |http:*****************************************.de^
-! |http:******************************************.de^
-! |http:*******************************************.de^
-! |http:********************************************.de^
-! |http:*********************************************.de^
-! |http:**********************************************.de^
-! |http:***********************************************.de^
-! |http:************************************************.de^
-! |http:*************************************************.de^
-! |http:**************************************************.de^
-! |http:***************************************************.de^
-! |http:****************************************************.de^
-! |http:*****************************************************.de^
-! |http:******************************************************.de^
-! |http:*******************************************************.de^
-! |http:********************************************************.de^
-! |http:*********************************************************.de^
-! |http:**********************************************************.de^
-! |http:***********************************************************.de^
-! |http:************************************************************.de^
-! |http:*************************************************************.de^
-! |http:**************************************************************.de^
-! |http:***************************************************************.de^
-! |http:****************************************************************.de^
-! |http:*****************************************************************.de^
-! |http:******************************************************************.de^
-! |http:*******************************************************************.de^
-! |http:********************************************************************.de^
-! |http:*********************************************************************.de^
-! |http:**********************************************************************.de^
-! |http:***********************************************************************.de^
-! |http:************************************************************************.de^
-! |http:*************************************************************************.de^
-! |http:**************************************************************************.de^
-! |http:***************************************************************************.de^
-! |http:****************************************************************************.de^
-! |http:*****************************************************************************.de^
-! |http:******************************************************************************.de^
-! |http:*******************************************************************************.de^
-! |http:********************************************************************************.de^
-! |http:*********************************************************************************.de^
-! |http:**********************************************************************************.de^
-! |http:***********************************************************************************.de^
-! |http:************************************************************************************.de^
-! |http:*************************************************************************************.de^
-! |http:**************************************************************************************.de^
-! |http:***************************************************************************************.de^
-! |http:****************************************************************************************.de^
-! |http:*****************************************************************************************.de^
-! |http:******************************************************************************************.de^
-! |http:*******************************************************************************************.de^
-! |http:********************************************************************************************.de^
-! |http:*********************************************************************************************.de^
-! |http:**********************************************************************************************.de^
-! |http:***********************************************************************************************.de^
-! |http:************************************************************************************************.de^
-! |http:*************************************************************************************************.de^
-! |http:**************************************************************************************************.de^
-! |http:***************************************************************************************************.de^
-! |http:****************************************************************************************************.de^
-|http:****************************************************************************************************.fr^
-|http:***************************************************************************************************.fr^
-|http:**************************************************************************************************.fr^
-|http:*************************************************************************************************.fr^
-|http:************************************************************************************************.fr^
-|http:***********************************************************************************************.fr^
-|http:**********************************************************************************************.fr^
-|http:*********************************************************************************************.fr^
-|http:********************************************************************************************.fr^
-|http:*******************************************************************************************.fr^
-|http:******************************************************************************************.fr^
-|http:*****************************************************************************************.fr^
-|http:****************************************************************************************.fr^
-|http:***************************************************************************************.fr^
-|http:**************************************************************************************.fr^
-|http:*************************************************************************************.fr^
-|http:************************************************************************************.fr^
-|http:***********************************************************************************.fr^
-|http:**********************************************************************************.fr^
-|http:*********************************************************************************.fr^
-|http:********************************************************************************.fr^
-|http:*******************************************************************************.fr^
-|http:******************************************************************************.fr^
-|http:*****************************************************************************.fr^
-|http:****************************************************************************.fr^
-|http:***************************************************************************.fr^
-|http:**************************************************************************.fr^
-|http:*************************************************************************.fr^
-|http:************************************************************************.fr^
-|http:***********************************************************************.fr^
-|http:**********************************************************************.fr^
-|http:*********************************************************************.fr^
-|http:********************************************************************.fr^
-|http:*******************************************************************.fr^
-|http:******************************************************************.fr^
-|http:*****************************************************************.fr^
-|http:****************************************************************.fr^
-|http:***************************************************************.fr^
-|http:**************************************************************.fr^
-|http:*************************************************************.fr^
-|http:************************************************************.fr^
-|http:***********************************************************.fr^
-|http:**********************************************************.fr^
-|http:*********************************************************.fr^
-|http:********************************************************.fr^
-|http:*******************************************************.fr^
-|http:******************************************************.fr^
-|http:*****************************************************.fr^
-|http:****************************************************.fr^
-|http:***************************************************.fr^
-|http:**************************************************.fr^
-|http:*************************************************.fr^
-|http:************************************************.fr^
-|http:***********************************************.fr^
-|http:**********************************************.fr^
-|http:*********************************************.fr^
-|http:********************************************.fr^
-|http:*******************************************.fr^
-|http:******************************************.fr^
-|http:*****************************************.fr^
-|http:****************************************.fr^
-|http:***************************************.fr^
-|http:**************************************.fr^
-|http:*************************************.fr^
-|http:************************************.fr^
-|http:***********************************.fr^
-|http:**********************************.fr^
-|http:*********************************.fr^
-|http:********************************.fr^
-|http:*******************************.fr^
-|http:******************************.fr^
-|http:*****************************.fr^
-|http:****************************.fr^
-|http:***************************.fr^
-|http:**************************.fr^
-|http:*************************.fr^
-|http:************************.fr^
-|http:***********************.fr^
-|http:**********************.fr^
-|http:*********************.fr^
-|http:********************.fr^
-|http:*******************.fr^
-|http:******************.fr^
-|http:*****************.fr^
-|http:****************.fr^
-|http:***************.fr^
-|http:**************.fr^
-|http:*************.fr^
-|http:************.fr^
-|http:***********.fr^
-|http:**********.fr^
-|http:*********.fr^
-|http:********.fr^
-|http:*******.fr^
-|http:******.fr^
-|http:*****.fr^
-|http:****.fr^
-|http:***.fr^
-|http:**.fr^
+! Spammer's language now: French
 |http:*.fr^
+|http:**.fr^
+|http:***.fr^
+|http:****.fr^
+|http:*****.fr^
+|http:******.fr^
+|http:*******.fr^
+|http:********.fr^
+|http:*********.fr^
+|http:**********.fr^
+|http:***********.fr^
+|http:************.fr^
+|http:*************.fr^
+|http:**************.fr^
+|http:***************.fr^
+|http:****************.fr^
+|http:*****************.fr^
+|http:******************.fr^
+|http:*******************.fr^
+|http:********************.fr^
+|http:*********************.fr^
+|http:**********************.fr^
+|http:***********************.fr^
+|http:************************.fr^
+|http:*************************.fr^
+|http:**************************.fr^
+|http:***************************.fr^
+|http:****************************.fr^
+|http:*****************************.fr^
+|http:******************************.fr^
+|http:*******************************.fr^
+|http:********************************.fr^
+|http:*********************************.fr^
+|http:**********************************.fr^
+|http:***********************************.fr^
+|http:************************************.fr^
+|http:*************************************.fr^
+|http:**************************************.fr^
+|http:***************************************.fr^
+|http:****************************************.fr^
+|http:*****************************************.fr^
+|http:******************************************.fr^
+|http:*******************************************.fr^
+|http:********************************************.fr^
+|http:*********************************************.fr^
+|http:**********************************************.fr^
+|http:***********************************************.fr^
+|http:************************************************.fr^
+|http:*************************************************.fr^
+|http:**************************************************.fr^
+|http:***************************************************.fr^
+|http:****************************************************.fr^
+|http:*****************************************************.fr^
+|http:******************************************************.fr^
+|http:*******************************************************.fr^
+|http:********************************************************.fr^
+|http:*********************************************************.fr^
+|http:**********************************************************.fr^
+|http:***********************************************************.fr^
+|http:************************************************************.fr^
+|http:*************************************************************.fr^
+|http:**************************************************************.fr^
+|http:***************************************************************.fr^
+|http:****************************************************************.fr^
+|http:*****************************************************************.fr^
+|http:******************************************************************.fr^
+|http:*******************************************************************.fr^
+|http:********************************************************************.fr^
+|http:*********************************************************************.fr^
+|http:**********************************************************************.fr^
+|http:***********************************************************************.fr^
+|http:************************************************************************.fr^
+|http:*************************************************************************.fr^
+|http:**************************************************************************.fr^
+|http:***************************************************************************.fr^
+|http:****************************************************************************.fr^
+|http:*****************************************************************************.fr^
+|http:******************************************************************************.fr^
+|http:*******************************************************************************.fr^
+|http:********************************************************************************.fr^
+|http:*********************************************************************************.fr^
+|http:**********************************************************************************.fr^
+|http:***********************************************************************************.fr^
+|http:************************************************************************************.fr^
+|http:*************************************************************************************.fr^
+|http:**************************************************************************************.fr^
+|http:***************************************************************************************.fr^
+|http:****************************************************************************************.fr^
+|http:*****************************************************************************************.fr^
+|http:******************************************************************************************.fr^
+|http:*******************************************************************************************.fr^
+|http:********************************************************************************************.fr^
+|http:*********************************************************************************************.fr^
+|http:**********************************************************************************************.fr^
+|http:***********************************************************************************************.fr^
+|http:************************************************************************************************.fr^
+|http:*************************************************************************************************.fr^
+|http:**************************************************************************************************.fr^
+|http:***************************************************************************************************.fr^
+|http:****************************************************************************************************.fr^
+! |http:****************************************************************************************************.de^
+! |http:***************************************************************************************************.de^
+! |http:**************************************************************************************************.de^
+! |http:*************************************************************************************************.de^
+! |http:************************************************************************************************.de^
+! |http:***********************************************************************************************.de^
+! |http:**********************************************************************************************.de^
+! |http:*********************************************************************************************.de^
+! |http:********************************************************************************************.de^
+! |http:*******************************************************************************************.de^
+! |http:******************************************************************************************.de^
+! |http:*****************************************************************************************.de^
+! |http:****************************************************************************************.de^
+! |http:***************************************************************************************.de^
+! |http:**************************************************************************************.de^
+! |http:*************************************************************************************.de^
+! |http:************************************************************************************.de^
+! |http:***********************************************************************************.de^
+! |http:**********************************************************************************.de^
+! |http:*********************************************************************************.de^
+! |http:********************************************************************************.de^
+! |http:*******************************************************************************.de^
+! |http:******************************************************************************.de^
+! |http:*****************************************************************************.de^
+! |http:****************************************************************************.de^
+! |http:***************************************************************************.de^
+! |http:**************************************************************************.de^
+! |http:*************************************************************************.de^
+! |http:************************************************************************.de^
+! |http:***********************************************************************.de^
+! |http:**********************************************************************.de^
+! |http:*********************************************************************.de^
+! |http:********************************************************************.de^
+! |http:*******************************************************************.de^
+! |http:******************************************************************.de^
+! |http:*****************************************************************.de^
+! |http:****************************************************************.de^
+! |http:***************************************************************.de^
+! |http:**************************************************************.de^
+! |http:*************************************************************.de^
+! |http:************************************************************.de^
+! |http:***********************************************************.de^
+! |http:**********************************************************.de^
+! |http:*********************************************************.de^
+! |http:********************************************************.de^
+! |http:*******************************************************.de^
+! |http:******************************************************.de^
+! |http:*****************************************************.de^
+! |http:****************************************************.de^
+! |http:***************************************************.de^
+! |http:**************************************************.de^
+! |http:*************************************************.de^
+! |http:************************************************.de^
+! |http:***********************************************.de^
+! |http:**********************************************.de^
+! |http:*********************************************.de^
+! |http:********************************************.de^
+! |http:*******************************************.de^
+! |http:******************************************.de^
+! |http:*****************************************.de^
+! |http:****************************************.de^
+! |http:***************************************.de^
+! |http:**************************************.de^
+! |http:*************************************.de^
+! |http:************************************.de^
+! |http:***********************************.de^
+! |http:**********************************.de^
+! |http:*********************************.de^
+! |http:********************************.de^
+! |http:*******************************.de^
+! |http:******************************.de^
+! |http:*****************************.de^
+! |http:****************************.de^
+! |http:***************************.de^
+! |http:**************************.de^
+! |http:*************************.de^
+! |http:************************.de^
+! |http:***********************.de^
+! |http:**********************.de^
+! |http:*********************.de^
+! |http:********************.de^
+! |http:*******************.de^
+! |http:******************.de^
+! |http:*****************.de^
+! |http:****************.de^
+! |http:***************.de^
+! |http:**************.de^
+! |http:*************.de^
+! |http:************.de^
+! |http:***********.de^
+! |http:**********.de^
+! |http:*********.de^
+! |http:********.de^
+! |http:*******.de^
+! |http:******.de^
+! |http:*****.de^
+! |http:****.de^
+! |http:***.de^
+! |http:**.de^
+! |http:*.de^
 ! ########## Issue Report Spam Blocker (poison filters) end ##########
 ! 
 ! 
@@ -2665,6 +2665,9 @@ _teasers|
 ||103092804.com^
 ||10clicks.com^$third-party
 ||1133.cc^$third-party
+||123-comparateur.com^
+||123-rencontre-webcam.com^
+||123comparateur.com^
 ||123compteur.com^$third-party
 ||12no3.com^
 ||1channel.ch/pop.$script
@@ -2725,6 +2728,11 @@ _teasers|
 ||actinside.com^
 ||actionallocator.com^
 ||activecore.jp^$third-party
+||actu-rencontre.com^
+||actu-voyance.com^
+||actus-voyance.com^
+||actusvoyance.com^
+||actuvoyance.com^
 ||acwebconnecting.com^$third-party
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
@@ -2807,6 +2815,7 @@ _teasers|
 ||adrock.com.ua^
 ||adrocketmedia.com^
 ||adroll.com^$third-party
+||adsafe.fr^
 ||adsbookie.com^$third-party
 ||adsbro.com^
 ||adscale.de^$third-party
@@ -2824,6 +2833,7 @@ _teasers|
 ||adshuffle.com^$third-party
 ||adskape.ru^$third-party
 ||adsmarket.com^
+||adsmarketplace.com^
 ||adsonar.com^$third-party
 ||adspot-rich.info^$third-party
 ||adsupply.com^$third-party
@@ -2833,6 +2843,7 @@ _teasers|
 ||adtech.de^$third-party
 ||adtechus.com^$third-party
 ||adtegrity.net^
+||adthink-media.com^
 ||adtracker.jp^
 ||adultadworld.com^$popup
 ||adultadworld.com^$third-party
@@ -2842,6 +2853,7 @@ _teasers|
 ||adultrewardsurvey.com^$third-party
 ||adurr.com^
 ||adv-adserver.com^$third-party
+||advd69.net^
 ||advenueplatform.com^$third-party
 ||adversalservers.com^$third-party
 ||adversni.com^
@@ -2852,6 +2864,7 @@ _teasers|
 ||advertserve.com^$third-party
 ||advertstream.com^$third-party
 ||advg.jp^$third-party
+||adviamedias.com^
 ||advinea.com^$third-party
 ||adviva.net^$third-party
 ||advmaker.ru^$third-party
@@ -2870,6 +2883,7 @@ _teasers|
 ||affarity.com^
 ||affbuzzads.com^
 ||afficent.com^
+||affidate.com^
 ||affilcenter.com^$third-party
 ||affiliate-b.com^$third-party
 ||affiliation-france.com^$third-party
@@ -2887,6 +2901,7 @@ _teasers|
 ||agoda.com^$popup
 ||agri-biz.jp^*banner
 ||imp.aiasahi.jp^
+||aimons-nous.be^
 ||ainstite.com^
 ||aintegie.com^
 ||aintere.com^
@@ -2927,7 +2942,6 @@ _teasers|
 ||ameba.jp/common_style/js/user/dropdown*$script
 ||act.ameba.jp^
 ||ad.ameba.jp^
-||adsafe.fr^
 ||adstatic.ameba.jp^
 ||spstatic.ameba.jp^
 ||vc.ameba.jp^
@@ -2966,6 +2980,7 @@ _teasers|
 ||apserver.net^$third-party
 ||aqtracker.com^
 ||archeurs.com^
+||argus-vehicule.com^
 ||arkpressphoto.org^
 ||artemisweb.jp/sall.$script
 ||adnet.asahi.com/ad/
@@ -2978,6 +2993,8 @@ _teasers|
 ||assoc-amazon.$third-party
 ||associeta.com^
 ||assurland.com^$third-party
+||astuces-credit.com^
+||astuces-credit.info^
 ||atdmt.com^$third-party
 ||atemda.com^
 ||atgsvcs.com^
@@ -3098,6 +3115,7 @@ _teasers|
 ||bmmetrix.com^
 ||bmnq.com^
 ||bnx.me^$third-party
+||bon-plan-rencontres.net^
 ||bonappetit.com^$third-party
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
@@ -3124,6 +3142,7 @@ _teasers|
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||cam-a-cam.com^
 ||cam-seduction.com^
 ||cam-visio.com^
 ||cam4.com^$popup
@@ -3138,6 +3157,7 @@ _teasers|
 ||camvisio.com^
 ||canalds.com^
 ||captainad.com^$third-party
+||car-insurance-offers.info^
 ||caragots.com^
 ||caribbeancom.com^$third-party
 ||caribbeancomgirl.com^$third-party
@@ -3167,8 +3187,17 @@ _teasers|
 ||channelintelligence.com^$third-party
 ||charnelcam.com^
 ||chartbeat.com^$third-party
+||chat-en-cam.
+||chat-en-live.
+||chat-illico.
+||chat-rapido.
+||chat2fou.
+||chaudevoisine.com^
 ||checkm8.com^$third-party
 ||cheernuts.com^$third-party
+||cher-cher.org^
+||chercher-un-credit.com^
+||chercher.org^
 ||log.china.cn^
 ||chitika.com^$third-party
 ||chitika.net^
@@ -3180,6 +3209,7 @@ _teasers|
 ||ciement.com^
 ||cientrer.com^
 ||cio-club-france.com^
+||cio-online.com^
 ||citaire.com^
 ||clangere.com^
 ||clapalong.com^$third-party
@@ -3187,12 +3217,14 @@ _teasers|
 ||clash-media.$third-party
 ||clayaim.com^$third-party
 ||cleanprint.net^
+||click-medias.com^
 ||click2cash.lt^$third-party
 ||clickability.com^$third-party
 ||clickanalyzer.jp^$third-party
 ||clickbank.net^
 ||clickdensity.com^$third-party
 ||clickequations.net^$third-party
+||clickmedias.com^
 ||clickotmedia.com^$third-party
 ||clickozavr.com^$third-party
 ||clickreport.com^$third-party
@@ -3234,7 +3266,9 @@ _teasers|
 ||condenet.com^$third-party
 ||conduit-banners.com^
 ||conism.com^$third-party
+||connectelive.fr^
 ||connees.com^
+||conseil-rencontre.com^
 ||contentabc.com^
 ||contentlink.co.kr^$third-party
 ||conteresse.com^
@@ -3251,9 +3285,11 @@ _teasers|
 ||boxz.cools4u.com^
 ||copercato.com^
 ||coquine.org^
+||coquines-webcam.com^
 ||coremetrics.com^$third-party
 ||kanasoku*.coreserver.jp^$third-party
 ||cosaji.jp^$third-party
+||cotation-argus.net^
 ||countby.com^
 ||counter-hosting.com^$third-party
 ||countomat.com^$third-party
@@ -3268,6 +3304,8 @@ _teasers|
 ||crazylead.com^$third-party
 ||creafi-online-media.com^$third-party
 ||creamu.com^*rsswidget.
+||credit-du-web.com^
+||credit-future.com^
 ||criteo.com^$third-party
 ||criteo.net^
 ||cross-a.net^$third-party
@@ -3312,6 +3350,8 @@ _teasers|
 ||data-ero-advertising.com^
 ||datefree.com^$third-party
 ||datelycu.com^
+||dating-express.net^
+||datingdiscret.com^
 ||datingfactory.com^$third-party
 ||datinglabel.com^
 ||daum.net^$third-party,subdocument
@@ -3330,12 +3370,14 @@ _teasers|
 ||deqwas.net^
 ||detaires.com^
 ||deteql.net^
+||dial-amour.com^
 ||dialocam.com^
 ||dialsexy-messenger.com^
 ||dialwebcam.fr^
 ||diamond.jp^*/welcome.$script
 ||zai.diamond.jp/oo/
 ||dificaux.com^
+||digitalworld.fr^
 ||dimprive.com^
 ||directaclick.com^
 ||directadvert.ru^$third-party
@@ -3343,6 +3385,7 @@ _teasers|
 ||dismas.jp^$third-party
 ||displaymarketplace.com^
 ||disterme.com^
+||distributique.com^
 ||divertura.com^
 ||dl-rms.com^$third-party
 ||dlqm.net^$third-party
@@ -3363,6 +3406,7 @@ _teasers|
 ||donalise.com^
 ||doogleonduty.com^
 ||doook.com^
+||dose2jeux.com^
 ||dotomi.com^$third-party
 ||doubleclick.net^$third-party
 ||doublepimp.com^$third-party
@@ -3396,6 +3440,7 @@ _teasers|
 ||ad.e-words.jp^
 ||eads.to^$third-party
 ||easydate.biz^$third-party
+||easydating.fr^
 ||rover.ebay.com^
 ||ebayrtm.com^
 ||ebis.ne.jp^$third-party
@@ -3420,6 +3465,8 @@ _teasers|
 ||email-match.com^$third-party
 ||emediate.eu^
 ||emierete.com^
+||emploi-center.com^
+||emploi-express.com^
 ||emv2.com^
 ||endless.com^$third-party
 ||energy.se^
@@ -3429,6 +3476,7 @@ _teasers|
 ||ensighten.com^$third-party
 ||enterfactory.com^$popup
 ||entimee.com^
+||entrevue-discrete.com^
 ||eorezo.com^$third-party
 ||epicurious.com^$popup
 ||epoquels.com^
@@ -3445,6 +3493,7 @@ _teasers|
 ||etoyota.net/measurement/
 ||etracker.com^
 ||etracker.de^
+||etransac.net^
 ||eurogrand.com^$popup
 ||evendividualita.com^
 ||everestjs.net^
@@ -3477,6 +3526,7 @@ _teasers|
 ||facebook.com/ai.php?
 ||facebook.com/plugins/recommendations.
 ||facebookofsex.com^$third-party
+||faciles-rencontres.com^
 ||fairfax.com.au^$third-party
 ||fastclick.net^
 ||fastpic.ru^$third-party
@@ -3526,6 +3576,7 @@ _teasers|
 ||formatdynamics.com^$third-party
 ||fotocash.ru^$third-party
 ||fotostrana.ru^$third-party
+||fougueuses-rencontres.com^
 ||fout.jp^$third-party
 ||foxadd.com^
 ||foxnetworks.com^
@@ -3685,8 +3736,12 @@ _teasers|
 ||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
 ||idol-gallery.net^$third-party
-||idyllink.com^
+||idylbiz.com^
+||idylfriends.com^
+||idyllink.
 ||idyllove.com^
+||idylnetwork.com^
+||idylsenior.com^
 ||iesnare.com^
 ||iforex.com^$third-party
 ||ign-omy.com^
@@ -3767,6 +3822,7 @@ _teasers|
 ||ismedia.jp^*/welcome.$script
 ||ismedia.jp/oo/
 ||jbpress.ismedia.jp/common/images/*/focus.
+||it-news-info.com^
 ||itgear.jp^$third-party
 ||itmedia.co.jp/*/fyi/
 ||itmedia.co.jp/*/pr_mobileshop
@@ -3776,6 +3832,7 @@ _teasers|
 ||itmedia.co.jp^*/sa_*.$script
 ||dlv.itmedia.jp^
 ||img.itmedia.jp^
+||itnewsinfo.com^
 ||itrack.it^
 ||its-mo.com/stc/iframe/
 ||itsfogo.com^
@@ -3791,6 +3848,7 @@ _teasers|
 ||javplus.com^$third-party
 ||jeetyetmedia.com^$third-party
 ||jerencontre.fr^
+||jf-cam.com^
 ||jimdo-stats.com^
 ||jin115.com/rss$subdocument
 ||jino.ru^$third-party
@@ -3859,13 +3917,21 @@ _teasers|
 ||langueur.com^
 ||banner.lardi-trans.com^
 ||lavantat.com^
-||le-visiochat.com^
+||le-choix.com^
+||le-credit-facile.com^
+||le-support-rencontre.com^
 ||le-visio-chat.com^
+||le-visiochat.com^
 ||leadforce1.com^
 ||leagueoflegends.com^$popup
 ||leasinginukraine.com^$third-party
 ||leclubcoquin.com^
+||leclubprivilege.fr^
+||lecreditfacile.com^
 ||legolas-media.com^$third-party
+||lemondeducloud.fr^
+||lemondeinformatique.fr^
+||leplanmalin.com^
 ||adv.letitbit.net^
 ||levisiochat.com^
 ||levrico.com^
@@ -3932,9 +3998,28 @@ _teasers|
 ||lovin-uk.com^
 ||lporirxe.com^
 ||lucastadvertising.com^
+||ludo-cado.com^
+||ludo-cados.com^
+||ludo-factory.com^
+||ludo-kado.com^
+||ludo-kados.com^
+||ludocadeau.com^
+||ludocadeaux.com^
+||ludocado.com^
+||ludocados.com^
+||ludofactory.com^
+||ludokado.com^
+||ludokados.com^
+||ludophonie.com^
+||ludopocket.com^
+||ludoprize.com^
+||ludoprizes.com^
+||ludostart.com^
 ||luocbao.com/adv/
 ||luxup.ru^
 ||lzjl.com^
+||ma-cam-live.com^
+||mach10.fr^
 ||macsoft.jp/img/Banner1/
 ||macsoft.jp/img/af/
 ||magma-analytics.com^$third-party
@@ -3959,10 +4044,12 @@ _teasers|
 ||masudel.com^
 ||mate-et-tchat.com^
 ||mate-sa-cam.com^
+||matesacam.com^
 ||matures-rencontre.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
 ||mbanner.net^$third-party
+||mc10.fr^
 ||mcnt.jp^
 ||meaningtool.com^$third-party
 ||media-clic.com^$third-party
@@ -3987,6 +4074,7 @@ _teasers|
 ||medleyads.com^
 ||meebo.com^$third-party
 ||meetactually.com^
+||meetmars.com^
 ||meetme-tonight.info^$third-party
 ||meetrics.net^$third-party
 ||megaclick.com^$third-party
@@ -4009,6 +4097,7 @@ _teasers|
 ||mesrencontressexy.com^
 ||mestersquiz.com^$popup
 ||metanetwork.com^$third-party
+||meteo-locale-gratuite.fr^
 ||mgid.com^$popup
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
@@ -4058,6 +4147,8 @@ _teasers|
 ||sankei.jp.msn.com/module/data/
 ||rad.msn.com^
 ||udc.msn.com^
+||multicam-dating.com^
+||multirdv.com^
 ||musen-lan.com/speed/banner/
 ||my-affiliate.com^$third-party
 ||my1.ru^
@@ -4078,12 +4169,14 @@ _teasers|
 ||mysupercheap.com^$third-party
 ||mythings.com^$third-party
 ||mywebsearch.com^
+||na-secure.com^
 ||naiadsystems.com^$third-party
 ||nakanohito.jp/ap/
 ||nakanohito.jp/b1/
 ||bsap.nakanohito.jp^
 ||f*.nakanohito.jp^$script
 ||nasads.com^
+||nasecure.com^
 ||nastydollars.com^$third-party
 ||navdmp.com^
 ||navegg.com^$third-party
@@ -4147,9 +4240,11 @@ _teasers|
 ||ad.nttnavi.co.jp^
 ||ad.ntv.co.jp^
 ||nuggad.net^$third-party
+||numerikart.com^
 ||nxtck.com^
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
+||obtenir-de-l-argent.com^
 ! Possibly false positive, commented out, Mar 3, 2012
 ! ||odnoklassniki.ru^*scriptToolbar.$script
 ||offermatica.com^
@@ -4206,6 +4301,7 @@ _teasers|
 ||pasadserver.com^$third-party
 ||passion.com^$third-party
 ||pay-click.ru^$third-party
+||paytopass.com^
 ||pclicks.com^$third-party
 ||peep-live-show.com^
 ||peer39.net^
@@ -4238,6 +4334,7 @@ _teasers|
 ||plugin-x.com^$third-party
 ||plugrush.com^$third-party
 ||plymedia.com^$third-party
+||pneus-en-ligne.com^
 ||pochioku.jp^$third-party
 ||pointroll.com^$third-party
 ||ponpare.jp^$third-party
@@ -4266,6 +4363,10 @@ _teasers|
 ||primegrattage.com^$third-party
 ||printitgreen.com^$third-party
 ||prisma-presse.com^$third-party
+||profiles-partner.com^
+||profiles-partners.com^
+||profilespartner.com^
+||profilespartners.com^
 ||profitwizard.net^
 ||program3.com^$third-party
 ||propermediadeals.com^
@@ -4284,6 +4385,7 @@ _teasers|
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
 ||questionmarket.com^$third-party
+||quick-rencontre.com^
 ||quisma.com^$third-party
 ||quiz-mania.es^$popup
 ||quiz-fever.de^$popup
@@ -4324,6 +4426,8 @@ _teasers|
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
+||rdvmaghreb.com^
+||re-cherche.com^
 ||reachword.com^$third-party
 ||real4traf.ru^$third-party
 ||realclick.cn^
@@ -4336,26 +4440,33 @@ _teasers|
 ||reduxmedia.com^$third-party
 ||refeed.net^$third-party
 ||regiedepub.com^
+||registre-rencontre.com^
 ||reinvigorate.net^$third-party
 ||reklama-port.com^
 ||relax.ru^
 ||remontvdome.com.ua^$popup
+||rencontre-en-direct.com^
 ||rencontre-maintenant.com^
+||rencontre-tres-facile.com^
 ||rencontre-visio.com^
 ||renkontre.com^
 ||renkontrer.com^
 ||rencontres-avec-webcam.com^
 ||rencontres-canada.com^
 ||rencontres-faciles.fr^
+||rencontres-tres-faciles.com^
 ||rencontres-webcam.com^
 ||rencontres-webcams.com^
 ||rencontrescesoir.com^
 ||rencontresdiscretes.com^
+||rencontrestresfaciles.com^
 ||rencontreswebcam.com^
+||rencontreswebcams.com^
 ||rencontrevisio.com^
 ||rencontrevisiochat.com^
 ||rencontrevoisines.com^
 ||researchresults.com^$third-party
+||reseaux-telecoms.
 ||ad.response.jp^
 ||reunice.com^
 ||s2.reutersmedia.net^$script
@@ -4367,6 +4478,7 @@ _teasers|
 ||rsz.sk^
 ||richmediaadspot.info^$third-party
 ||rides.ac^$third-party
+||rikiki.biz^
 ||ringtonepartner.com^
 ||ringtonescatalogs.net^
 ||ringtonesdirectory24.com^
@@ -4387,6 +4499,7 @@ _teasers|
 ||rtoaster.jp^$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
+||rue-des-credits.com^
 ||rusrestbest.
 ||s-msn.com/br/*/gtracking.$script
 ||s-msn.com/br/*/navigation.$script
@@ -4405,7 +4518,7 @@ _teasers|
 ||adcl.sankei.co.jp^
 ||sarenza.com^$popup
 ||sascentral.com^
-||say.fr^$third-party
+||say.fr^
 ||sayyac.com^$third-party
 ||sayyac.net^
 ||sbiall.com^
@@ -4422,6 +4535,7 @@ _teasers|
 ||se-draguer.com^
 ||seagulltracer.com^$third-party
 ||search123.uk.com^
+||searchatyou.com^
 ||searchdiscovered.com^$popup
 ||searchforce.net^
 ||searchonline24.com^
@@ -4571,6 +4685,7 @@ _teasers|
 ||streamstreaming.com^$third-party
 ||striere.com^
 ||striete.com^
+||superfille.com^
 ||superfish.com^$third-party
 ||supersonicads.com^$third-party
 ||supertura.com^
@@ -4682,6 +4797,7 @@ _teasers|
 ||treprime.com^
 ||tribalfusion.com^$third-party
 ||triggit.com^$third-party
+||trophees-cio.com^
 ||truenty.com^
 ||trustadnetwork.net^
 ||trustclick.ne.jp^
@@ -4714,6 +4830,7 @@ _teasers|
 ||underclick.ru^
 ||underclick.ru^$popup
 ||undere.com^
+||unhomme.fr^
 ||unica.com^$third-party
 ||union178.com^
 ||unioncpm.com^$third-party
@@ -4747,8 +4864,10 @@ _teasers|
 ||vemba.com^$third-party
 ||ventite.com^
 ||ventivmedia.com^$third-party
+||veo-pay.
 ||veoh.com/webplayed.
 ||veoh.com/?cmd=
+||veopay.net^
 ||veoxa.com^$third-party
 ||ver-pelis.net^$third-party
 ||re.veritrans.co.jp^$third-party
@@ -4814,12 +4933,15 @@ _teasers|
 ||washingtonpost.com^*/otto/
 ||washingtonpost.com^*/site_traffic/
 ||watchmygf.net^$third-party
+||wawa-studio.com^
 ||wb-rotator.com^
 ||web-stat.com^$third-party
 ||webantenna.info^$third-party
+||webcam-facile.com^
 ||webcam-folie.com^
 ||webcam-rose.com^
 ||webcam-visio.com^
+||webcam-voisines.com^
 ||webcamcoquine.com^
 ||webcamfolie.com^
 ||webcamvisio.com^
@@ -4827,6 +4949,7 @@ _teasers|
 ||webgiantmedia.com^$third-party
 ||webkam.fr^
 ||rws.weblio.jp^$third-party
+||weblmi.com^
 ||weborama.fr^$third-party
 ||webpagetest.org/custom/
 ||webrotator.net^
@@ -5002,6 +5125,11 @@ _teasers|
 ||zillowstatic.com^$domain=~zillow.com
 ||ziyu.net^$third-party
 ||znews.su^$third-party
+||zone-assurance.com^
+||zone-finance.com^
+||zone-loisir.com^
+||zone-pratique.com^
+||zone-voyance.com^
 ||zontrans.com^
 ||zwaar.org^
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
