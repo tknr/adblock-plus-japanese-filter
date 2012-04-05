@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 7Mn8UBqKilpehu8i8Wm6sA
-! Last modified: 2012-04-05 15:21:17 JST
+! Checksum: dKEww9q/WM9qpw1cOSrl4w
+! Last modified: 2012-04-05 22:53:28 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2717,9 +2717,11 @@ _teasers|
 ||a433.com^$third-party
 ||a8.net^$third-party
 ||a9.com^$third-party
+||abcd-porno-video.biz^
 ||about.co.kr^$third-party
 ||abusieux.com^
 ||acces-charme.com^$third-party
+||acces-videos.com^
 ||accessport.jp^$third-party
 ||accesstrade.net^$third-party
 ||acnt.biz^$third-party
@@ -2951,6 +2953,7 @@ _teasers|
 ||amimg.net^
 ||amung.us/pingjs/
 ||widgets.amung.us/pro.$script
+||anal-profond.net^
 ||anchorfree.net^$third-party
 ||anisen.biz^$third-party
 ||anisen.tv^$third-party
@@ -2959,6 +2962,7 @@ _teasers|
 ||anniers.com^
 ||annoncescouples.com^
 ||anonym.to^$third-party
+||antek.ws^
 ||antevenio.com^$third-party
 ||antventure.com^
 ||anuntis.info^
@@ -3084,6 +3088,7 @@ _teasers|
 ||bitocean.info^
 ||bizographics.com^$third-party
 ||bkrtx.com^
+||black-sexy.org^
 ||blackcherry.jp^$third-party
 ||blendac.com^
 ||blehar.com^$third-party
@@ -3118,6 +3123,7 @@ _teasers|
 ||bnx.me^$third-party
 ||bon-plan-rencontres.net^
 ||bonappetit.com^$third-party
+||bonsplanscoquins.com^
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
 ||boo-box.com^$third-party
@@ -3164,6 +3170,7 @@ _teasers|
 ||caribbeancomgirl.com^$third-party
 ||carsandfind.com^
 ||carview.co.jp/*_super_banner.
+||cashallo.net^
 ||cwps.carview.co.jp^
 ||casalemedia.com^$third-party
 ||cashtrafic.com^$third-party
@@ -3322,6 +3329,7 @@ _teasers|
 ||custom-click.com^$third-party
 ||custom-click.net^$third-party
 ||cxense.com^$third-party
+||cyber-branlette.com^
 ||cyber-traffic.net^$third-party
 ||cyberclick.es^$third-party
 ||cybermedia.com.vn^$third-party
@@ -3359,6 +3367,7 @@ _teasers|
 ||daum.net^$third-party,subdocument
 ||ddestiny.ru^$third-party
 ||dealply.com^$third-party
+||deconnade.com^
 ||dedicatedmedia.com^$third-party
 ||dedicatednetworks.com^$third-party
 ||defiques.com^
@@ -3389,6 +3398,7 @@ _teasers|
 ||disterme.com^
 ||distributique.com^
 ||divertura.com^
+||divxporno.net^
 ||dl-rms.com^$third-party
 ||dlqm.net^$third-party
 ||dlsite.com^$third-party
@@ -3464,6 +3474,7 @@ _teasers|
 ||log.ekitan.com^
 ||elekted.com^
 ||eloqua.com^$third-party
+||email-cadeaux.com^
 ||email-match.com^$third-party
 ||emediate.eu^
 ||emierete.com^
@@ -3482,6 +3493,7 @@ _teasers|
 ||eorezo.com^$third-party
 ||epicurious.com^$popup
 ||epoquels.com^
+||eravage.com^
 ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
 ||esdizi.com^
@@ -3554,8 +3566,10 @@ _teasers|
 ||featuredusers.com^$third-party
 ||feedjit.com^$third-party
 ||fetchback.com^$third-party
+||fetish-sexe.biz^
 ||fidel.to^$popup
 ||fidel.to^$third-party
+||fightxgirls.com^
 ||promo.fileforum.com^
 ! The following filter blocks banner change showing CAPTCHA. JavaScript is required. Dec 16, 2011
 ! ||fileserve.com/script/bannerTimer.$script
@@ -3569,6 +3583,7 @@ _teasers|
 ||flashtalking.com^$third-party
 ||fliks.net^$third-party
 ||flirt4free.com^$third-party
+||flirtporn.com^
 ||flirtvisio.com^
 ||fmpub.net^$third-party
 ||fnac.com^$third-party
@@ -3659,8 +3674,11 @@ _teasers|
 ||gostats.com^$third-party
 ||gpotato.eu^$popup
 ||glavrich.$third-party
+||gratuit-porno-xxx.com^
 ||gravure-dvd.net^
 ||gremz.com^$third-party
+||gros-nichons.biz^
+||grosses3x.net^
 ||groupon.jp/jb/javascript/lib/thickbox.$script
 ||csi.gstatic.com^
 ||gueur.com^
@@ -3852,6 +3870,8 @@ _teasers|
 ||javplus.com^$third-party
 ||jeetyetmedia.com^$third-party
 ||jerencontre.fr^
+||jeunes-blacks.biz^
+||jeunes-porno.com^
 ||jf-cam.com^
 ||jimdo-stats.com^
 ||jin115.com/rss$subdocument
@@ -3898,6 +3918,7 @@ _teasers|
 ||kissmetrics.com^$third-party
 ||kiwi.kz^$third-party
 ||kliknik.com^$third-party
+||kodekado.com^
 ||koliser.com^
 ||kolitat.com^
 ||kolites.com^
@@ -3916,6 +3937,7 @@ _teasers|
 ||lachest.com^
 ||ladmp.com^
 ||ladycash.ru^$third-party
+||laly-filmsx.com^
 ||land.to/ad/
 ||ad.land.to^
 ||langueur.com^
@@ -3933,9 +3955,11 @@ _teasers|
 ||leclubprivilege.fr^
 ||lecreditfacile.com^
 ||legolas-media.com^$third-party
+||legrospervers.com^
 ||lemondeducloud.fr^
 ||lemondeinformatique.fr^
 ||leplanmalin.com^
+||lesbiennes-x.net^
 ||adv.letitbit.net^
 ||levisiochat.com^
 ||levrico.com^
@@ -4021,6 +4045,7 @@ _teasers|
 ||ludostart.com^
 ||luocbao.com/adv/
 ||luxup.ru^
+||luxure.tv^
 ||lzjl.com^
 ||ma-cam-live.com^
 ||mach10.fr^
@@ -4049,6 +4074,7 @@ _teasers|
 ||mate-et-tchat.com^
 ||mate-sa-cam.com^
 ||matesacam.com^
+||mature-salope.com^
 ||matures-rencontre.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
@@ -4109,12 +4135,14 @@ _teasers|
 ||c.microsoft.com^
 ||mieuxchoisir.com^
 ||millioncounter.com^$~image
+||minisalopes.com^
 ||minpos.com^$third-party
 ||miraikensaku.jp^$third-party
 ||mirskidok.net^
 ||ads.mixi.jp^
 ||mixmarket.biz^$third-party
 ||mixpanel.com^$third-party
+||mlera.com^
 ||mlstat.com^
 ||mobalives.com^
 ||mobalives.com^$popup
@@ -4133,6 +4161,7 @@ _teasers|
 ||mouseflow.com^$third-party
 ||movie-file.net^$third-party
 ||moviebox.com^$third-party
+||movies-access.com^
 ||mreco.jp^
 ||mreco0.jp^
 ||msads.net^
@@ -4304,11 +4333,13 @@ _teasers|
 ||pardot.com^$third-party
 ||partypoker.$popup
 ||pasadserver.com^$third-party
+||pass4sex.net^
 ||passion.com^$third-party
 ||pay-click.ru^$third-party
 ||paytopass.com^
 ||pclicks.com^$third-party
 ||peep-live-show.com^
+||peer2cash.com^
 ||peer39.net^
 ||percentmobile.com^$third-party
 ||performgroup.com^$third-party
@@ -4321,6 +4352,7 @@ _teasers|
 ||picleet.com/modalfiles/modal.$script
 ||pillendienst.com^$third-party
 ||ads.pimote.net^
+||pipe-ejac.net^
 ||ad.pitattomatch.com^
 ||ad.pitta.ne.jp^
 ||pixhost.org/js/jquery_show$script
@@ -4357,7 +4389,10 @@ _teasers|
 ||pornbus.org^$third-party
 ||banner1.pornhost.com^
 ||pornhublive.com^$third-party
+||pornoetsexe.com^
 ||pornografish.com^$third-party
+||pornravage.com^
+||porntrafic.com^
 ||ppc-direct.com^$third-party
 ||ppro.de^
 ||precisionclick.com^$third-party
@@ -4428,6 +4463,7 @@ _teasers|
 ||rakuten-static.com^*/prm_sender.
 ||rakuword.com^$third-party
 ||counter.rambler.ru^
+||rapidocam.com^
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
@@ -4438,6 +4474,7 @@ _teasers|
 ||realclick.cn^
 ||realclick.co.kr^$third-party
 ||reali.st^$third-party
+||recherchex.com^
 ||reconize.com^$third-party
 ||recreativ.ru^$third-party
 ||redirectingat.com^$third-party
@@ -4481,6 +4518,10 @@ _teasers|
 ||research-artisan.com^$third-party
 ||reussissonsensemble.fr^
 ||rsz.sk^
+||rezonapse.net^
+||rezoporno.com^
+||rezovideo.com^
+||rezovideos.com^
 ||richmediaadspot.info^$third-party
 ||rides.ac^$third-party
 ||rikiki.biz^
@@ -4545,6 +4586,7 @@ _teasers|
 ||searchforce.net^
 ||searchonline24.com^
 ||searchpeack.com^$popup
+||secret-de-cindy.com^
 ||secure-locked.com^$third-party
 ||secure-softwaremanager.com^
 ||securerequestform.com^$third-party
@@ -4560,9 +4602,18 @@ _teasers|
 ||sensismediasmart.com.au^$third-party
 ||seoparts.com^
 ||seoparts.net^$third-party
+||sergentx.com^
 ||serving-sys.com^$third-party
 ||sexad.net^
 ||sexas.us^$third-party
+||sexe-express.com^
+||sexe-femmes-matures.org^
+||sexe-gros-seins.biz^
+||sexe-partouze.biz^
+||sexe-partouze.org^
+||sexe-site.org^
+||sexe-trans.biz^
+||sexeclub.fr^
 ||shareasale.com^$third-party
 ||sharecash.org^$third-party
 ||sharereactor.com^$third-party
@@ -4646,6 +4697,7 @@ _teasers|
 ||so-net.ne.jp/tv/gtv/img/banner/
 ||smr.so-net.ne.jp^
 ||sociomantic.com^$third-party
+||sodomie-anale.biz^
 ||s2.softpedia-static.com/images/
 ||software-archiv.com^$third-party
 ||sonicomusica.com^$third-party
@@ -4690,6 +4742,8 @@ _teasers|
 ||streamstreaming.com^$third-party
 ||striere.com^
 ||striete.com^
+||stringenfolie.com^
+||super-thumb.com^
 ||superfille.com^
 ||superfish.com^$third-party
 ||supersonicads.com^$third-party
@@ -4704,6 +4758,8 @@ _teasers|
 ||swcs.jp^$third-party
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
+||synapse-interactive.
+||synasender.com^
 ||syoh.jp^$third-party
 ||syxy.com^
 ||t3leads.com^$third-party
@@ -4764,8 +4820,10 @@ _teasers|
 ||tonopole.com^
 ||toplist.cz^$third-party
 ||toppremios.es^$popup
+||torzak.com^
 ||total-media.net^
 ||toujoute.com^
+||touslesfilmsx.com^
 ||toutiles.com^
 ||tracer.jp^$third-party
 ||trackalyzer.com^
@@ -4887,6 +4945,8 @@ _teasers|
 ||videos-de-facebook.com^$third-party
 ||videoclick.ru^$third-party
 ||videoclik.ru^
+||videos-x-gratuit.com^
+||videosclubx.com^
 ||videostrip.com^
 ||videosz.com^$third-party
 ||videozer.com^$third-party
@@ -4924,6 +4984,8 @@ _teasers|
 ||vk.com^$domain=~vk.com|~vkontakte.ru
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
+||voyeurparadize.com^
+||voyeurszone.com^
 ||vs.com^$third-party
 ||vsp-online.com^
 ||vuiads.net^
@@ -4949,6 +5011,7 @@ _teasers|
 ||webcam-voisines.com^
 ||webcamcoquine.com^
 ||webcamfolie.com^
+||webcams2424.com^
 ||webcamvisio.com^
 ||webdo.co.jp^$third-party
 ||webgiantmedia.com^$third-party
@@ -5012,6 +5075,7 @@ _teasers|
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
+||x-asiatique.net^
 ||xcams.com^$third-party
 ||xdwan.com^$third-party
 ||xertive.com^
@@ -5026,6 +5090,7 @@ _teasers|
 ||xlovecam.com^$popup
 ||xmatch.com^$third-party
 ||xmax.jp^$third-party
+||xparadiz.com^
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||ax.xrea.com^$third-party
@@ -5126,6 +5191,7 @@ _teasers|
 ||zenback.jp^*tracking.$third-party
 ||zero.kz^
 ||zeusclicks.com^
+||zigotop.com^
 ||zillow.com^$third-party
 ||zillowstatic.com^$domain=~zillow.com
 ||ziyu.net^$third-party
