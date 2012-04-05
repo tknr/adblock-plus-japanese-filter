@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 7m4RFQInJNbwIPsWZRlKqA
-! Last modified: 2012-04-05 23:15:21 JST
+! Checksum: df2VYq1lBfJjOS8vU4kGOg
+! Last modified: 2012-04-06 04:41:19 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5964,7 +5964,7 @@ _teasers|
 ##a[href*="dlsite.com/dlaf/=/link/"]
 ##a[href*="dmm.co.jp/hit."]
 ##a[href*="dmm.com/click."]
-##a[href*="dmm.co.jp"][href*="/-/detail/=/cid="][href*="-001"]
+##a[href*="dmm.co.jp"][href*="/-/detail/=/cid="][href*="-00"]
 ##a[href*=".doubleclick.net/aclk?"]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*="//click.dtiserv2.com/"]
