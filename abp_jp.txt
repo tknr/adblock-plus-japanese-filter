@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: NveDRPNlzO6SPe34pbTXkg
-! Last modified: 2012-04-05 15:04:06 JST
+! Checksum: 7Mn8UBqKilpehu8i8Wm6sA
+! Last modified: 2012-04-05 15:21:17 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2893,6 +2893,7 @@ _teasers|
 ||afilio.com.br^
 ||afpbb.com^*banner
 ||afpbb.com/js/curvycorners.$script
+||afpbb.com/js/mustRead.
 ||a-img.afpbb.com^
 ||afterdownload.com^$third-party
 ||agift-ad.com^$third-party
@@ -6274,6 +6275,7 @@ _teasers|
 100shiki.com###text-5
 100shiki.com###text-5 + *
 afpbb.com###bpnDirectoryBlock
+afpbb.com###mustRead
 afpbb.com###prLinkBlock
 afpbb.com##div[id^="ads"]
 agri-biz.jp##div[id^="banner_"]
