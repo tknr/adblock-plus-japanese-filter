@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zsmb6mx9/Rqe8l+iURgdeA
-! Last modified: 2012-04-06 10:27:41 JST
+! Checksum: j9IraJUp2FI5g0+HlSuf4w
+! Last modified: 2012-04-06 11:52:53 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -317,6 +317,8 @@
 @@||conviva.com/lpconfig/cfg/
 ! A new rare false positive with conviva filters found at ustream.tv 2011-12-10
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
+! False positives with combined scripts including "&ad=" 2012-04-06
+@@||cookpad.com/loading/all_in_one?
 ! False positives with product zooming, reported by @tanahata via Issue Report
 @@||ir.ebaystatic.com^
 ! False positives with combined scripts at soccernet.espn.go.com, Jan 21, 2012
