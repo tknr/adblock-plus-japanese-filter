@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: df2VYq1lBfJjOS8vU4kGOg
-! Last modified: 2012-04-06 04:41:19 JST
+! Checksum: zsmb6mx9/Rqe8l+iURgdeA
+! Last modified: 2012-04-06 10:27:41 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2662,10 +2662,12 @@ _teasers|
 ||00h10.com^
 ||0info.net^$third-party
 ||0pb.org^
+||1-clic-credit.com^
 ||103092804.com^
 ||10clicks.com^$third-party
 ||1133.cc^$third-party
 ||123-comparateur.com^
+||123-devis-credit.com^
 ||123-rencontre-webcam.com^
 ||123comparateur.com^
 ||123compteur.com^$third-party
@@ -2675,6 +2677,7 @@ _teasers|
 ||21h10.com^
 ||22no3.com^
 ||247realmedia.com^$third-party
+||24h-24-credit.com^
 ||24log.ru^$third-party
 ||24smile.net^$third-party
 ||24smile.org^$third-party
@@ -2704,6 +2707,7 @@ _teasers|
 ||77tracking.com^$third-party
 ||777seo.com^$third-party
 ||777town.net^$popup
+||7sur7-credit.com^
 ||88210212.com^
 ||888.com^$popup
 ||888casino.com^$popup
@@ -2724,13 +2728,16 @@ _teasers|
 ||acces-videos.com^
 ||accessport.jp^$third-party
 ||accesstrade.net^$third-party
+||accompagnement-pret.com^
 ||acnt.biz^$third-party
 ||acs86.com^
 ||actaads.com^$third-party
 ||actinside.com^
 ||actionallocator.com^
 ||activecore.jp^$third-party
+||actu-bons-plan.com^
 ||actu-rencontre.com^
+||actu-shopping.com^
 ||actu-voyance.com^
 ||actus-voyance.com^
 ||actusvoyance.com^
@@ -2752,6 +2759,7 @@ _teasers|
 ||ad6media.fr^$third-party
 ||adadvisor.net^$third-party
 ||adap.tv^$third-party
+||adapter-mon-credit.com^
 ||adaptiveblue.com^
 ||adblade.com^$third-party
 ||adbrite.com^$third-party
@@ -2882,6 +2890,7 @@ _teasers|
 ||af-market.com^$third-party
 ||af-system.net^$third-party
 ||afdads.com^
+||affaires-vip.com^
 ||affarity.com^
 ||affbuzzads.com^
 ||afficent.com^
@@ -2998,8 +3007,10 @@ _teasers|
 ||assoc-amazon.$third-party
 ||associeta.com^
 ||assurland.com^$third-party
-||astuces-credit.com^
-||astuces-credit.info^
+||astuces-credit.
+||astuces-du-net.com^
+||astuces-malin.com^
+||astuces-vip.com^
 ||atdmt.com^$third-party
 ||atemda.com^
 ||atgsvcs.com^
@@ -3019,9 +3030,13 @@ _teasers|
 ||automatic-link.net^
 ||av-comparatives.org/images/banners/
 ||avail.net^$third-party
+||avantage-du-net.com^
+||avantage-online.com^
+||avantagedunet.com^
 ||avazu.net^
 ||avazudsp.net^$third-party
 ||avenseo.com^$third-party
+||avenue-des-credits.com^
 ||aweber.com^
 ||awempire.com^$third-party
 ||axf8.net^
@@ -3122,7 +3137,14 @@ _teasers|
 ||bmnq.com^
 ||bnx.me^$third-party
 ||bon-plan-rencontres.net^
+||bon-plans-du-jour.com^
+||bon-plans-malin.com^
+||bon-plans-shopping.com^
+||bon-plans-vip.com^
 ||bonappetit.com^$third-party
+||bonne-affaire-du-net.com^
+||bonne-affaire-du-web.com^
+||bonne-affaire-vip.com^
 ||bonsplanscoquins.com^
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
@@ -3276,12 +3298,15 @@ _teasers|
 ||conism.com^$third-party
 ||connectelive.fr^
 ||connees.com^
+||conseil-emprunt.com^
 ||conseil-rencontre.com^
+||conseils-pret.com^
 ||contentabc.com^
 ||contentlink.co.kr^$third-party
 ||conteresse.com^
 ||conteresso.com^
 ||contextweb.com^$third-party
+||contrat-de-pret.com^
 ||conversionruler.com^$third-party
 ! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
 ! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
@@ -3314,6 +3339,10 @@ _teasers|
 ||creamu.com^*rsswidget.
 ||credit-du-web.com^
 ||credit-future.com^
+||credit-oui.com^
+||credit-reflexe.com^
+||creditduweb.net^
+||credits-taux-reduits.com^
 ||criteo.com^$third-party
 ||criteo.net^
 ||cross-a.net^$third-party
@@ -3392,6 +3421,7 @@ _teasers|
 ||dimprive.com^
 ||directaclick.com^
 ||directadvert.ru^$third-party
+||direction-du-credit.com^
 ||direction-x.com^$third-party
 ||dismas.jp^$third-party
 ||displaymarketplace.com^
@@ -3533,6 +3563,7 @@ _teasers|
 ||exoclick.com^$third-party
 ||exoplanetwar.com^$third-party
 ||exponential.com^$third-party
+||express-rachat-credit.net^
 ||extreme-dm.com^
 ||eyewonder.com^$third-party
 ||ezbbs.net/*/sample*/img/
@@ -3575,6 +3606,7 @@ _teasers|
 ! ||fileserve.com/script/bannerTimer.$script
 ||filesonic.com/images/banners/
 ||fimserve.com^
+||finance-ecolo.com^
 ||financefindonline.com^
 ||financialcontent.com^$third-party
 ||find-a.jp^$third-party
@@ -3683,6 +3715,7 @@ _teasers|
 ||csi.gstatic.com^
 ||gueur.com^
 ||gueurs.com^
+||guide-des-bonnes-affaires.com^
 ||gumgum.com^$third-party
 ||gunggo.com^$third-party
 ||guzeloyunlar.web.tr^$third-party
@@ -3757,6 +3790,11 @@ _teasers|
 ||icidating.com^
 ||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
+||idee-malins-du-net.com^
+||idees-du-net.com^
+||idees-malin.com^
+||idees-vip.com^
+||ideesduweb.com^
 ||idol-gallery.net^$third-party
 ||idylbiz.com^
 ||idylfriends.com^
@@ -3931,6 +3969,8 @@ _teasers|
 ||ku6cdn.com/pv/
 ||kuaiche.com^
 ||kyoto-np.co.jp/koukoku/
+||la-bonne-idee.com^
+||la-meilleure-solution-credit.com^
 ||lacembre.com^
 ||lacemme.com^
 ||lacest.com^
@@ -3945,6 +3985,8 @@ _teasers|
 ||lavantat.com^
 ||le-choix.com^
 ||le-credit-facile.com^
+||le-rdv-malin.com^
+||le-savoir-du-credit.com^
 ||le-support-rencontre.com^
 ||le-visio-chat.com^
 ||le-visiochat.com^
@@ -3959,6 +4001,12 @@ _teasers|
 ||lemondeducloud.fr^
 ||lemondeinformatique.fr^
 ||leplanmalin.com^
+||lepointcredit.com^
+||les-bon-plans-vip.com^
+||les-conseils-du-credit.com^
+||les-malins-du-jour.com^
+||les-malins-du-net.com^
+||les-taux-des-credits.com^
 ||lesbiennes-x.net^
 ||adv.letitbit.net^
 ||levisiochat.com^
@@ -3986,6 +4034,7 @@ _teasers|
 ||linksynergy.com^
 ||linkwithin.com^$third-party
 ||list.ru^$third-party
+||liste-avantages.com^
 ||listof.mobi^
 ||c.live.com^
 ||h.live.com^
@@ -4122,6 +4171,8 @@ _teasers|
 ||meltwaternews.com^$third-party
 ||mementes.com^
 ||menteret.com^
+||mes-dossiers-credit.com^
+||mes-prets-en-ligne.com^
 ||mes-rencontres-sexy.com^
 ||mes-rencontres-webcam.com^
 ||mesrencontressexy.com^
@@ -4153,8 +4204,14 @@ _teasers|
 ||mochiads.com^$third-party
 ||mofos.com^$third-party
 ||mokkori-drive.net^$popup
+||mon-accompagnement-pret.com^
+||mon-compte-credit.com^
+||mon-credit-adapte.com^
+||mon-devis-pret.com^
+||mon-pret-adapte.com^
 ||money4ads.com^
 ||mongoosemetrics.com^$third-party
+||montage-dossier-pret.com^
 ||webstats.motigo.com^$third-party
 ||mookie1.com^$third-party
 ||motionlink.jp^$third-party
@@ -4232,6 +4289,7 @@ _teasers|
 ||neudesicmediagroup.com^$third-party
 ||new-akiba.com/special/
 ||bwp.news.com^
+||news-credit.com^
 ||newswatch.$third-party
 ||newsweekjapan.jp/images/common/rectangle_$image
 ||newsweekjapan.jp/images/common/sideAd.$image
@@ -4365,6 +4423,7 @@ _teasers|
 ||pixplug.in^
 ||plaisirs-webcam.com^
 ||plankam.net^
+||plansmalin.com^
 ||platinumcode.net^
 ||playtech.com^$third-party
 ||plista.com^$third-party
@@ -4403,6 +4462,7 @@ _teasers|
 ||primegrattage.com^$third-party
 ||printitgreen.com^$third-party
 ||prisma-presse.com^$third-party
+||pro-du-shopping.com^
 ||profiles-partner.com^
 ||profiles-partners.com^
 ||profilespartner.com^
@@ -4424,6 +4484,7 @@ _teasers|
 ||qsstats.com^
 ||quantserve.com^$third-party
 ||quantumads.com^$third-party
+||question-pour-un-pret.com^
 ||questionmarket.com^$third-party
 ||quick-rencontre.com^
 ||quisma.com^$third-party
@@ -4481,11 +4542,13 @@ _teasers|
 ||redtram.com^$third-party
 ||reduxmedia.com^$third-party
 ||refeed.net^$third-party
+||reflexe-credit.com^
 ||regiedepub.com^
 ||registre-rencontre.com^
 ||reinvigorate.net^$third-party
 ||reklama-port.com^
 ||relax.ru^
+||relexion-credit.com^
 ||remontvdome.com.ua^$popup
 ||rencontre-en-direct.com^
 ||rencontre-maintenant.com^
@@ -4596,6 +4659,8 @@ _teasers|
 ||match.seesaa.jp^
 ||sekindo.com^$popup
 ||sekindo.com^$third-party
+||selection-credit.com^
+||selection-malin.com^
 ||semater.com^
 ||sensic.net^$third-party
 ||sensis.com.au^$third-party
@@ -4614,6 +4679,7 @@ _teasers|
 ||sexe-site.org^
 ||sexe-trans.biz^
 ||sexeclub.fr^
+||sexycool.net^
 ||shareasale.com^$third-party
 ||sharecash.org^$third-party
 ||sharereactor.com^$third-party
@@ -4710,6 +4776,7 @@ _teasers|
 ||spb2011.com^
 ||spechee.com^
 ||spechete.com^
+||special-credit-en-ligne.com^
 ||specificclick.com^
 ||specificclick.net^
 ||specificmedia.com^$third-party
@@ -4786,6 +4853,7 @@ _teasers|
 ||technoratimedia.com^$third-party
 ||telecharger-vlc.org^
 ||telemetryverification.net^$third-party
+||tempo-credit.com^
 ||tenoad.com^$third-party
 ||tenso.com^$third-party
 ||textad.net^$third-party
@@ -4861,6 +4929,7 @@ _teasers|
 ||tribalfusion.com^$third-party
 ||triggit.com^$third-party
 ||trophees-cio.com^
+||trouver-votre-pret.com^
 ||truenty.com^
 ||trustadnetwork.net^
 ||trustclick.ne.jp^
@@ -4893,6 +4962,7 @@ _teasers|
 ||underclick.ru^
 ||underclick.ru^$popup
 ||undere.com^
+||unebonneaffaire.com^
 ||unhomme.fr^
 ||unica.com^$third-party
 ||union178.com^
@@ -4984,6 +5054,8 @@ _teasers|
 ||vk.com^$domain=~vk.com|~vkontakte.ru
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
+||votre-aide-pret.com^
+||votre-devis-credit.com^
 ||voyeurparadize.com^
 ||voyeurszone.com^
 ||vs.com^$third-party
