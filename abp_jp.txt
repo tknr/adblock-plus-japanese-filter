@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lh8/ft0R0wGQ+TMckS5oPg
-! Last modified: 2012-04-10 06:44:59 JST
+! Checksum: BqoU7KYWcyzeJQgRB6YRjw
+! Last modified: 2012-04-10 06:58:38 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -18,10 +18,11 @@
 ! I also keep talking with Wladimir Palant via forum at adblockplus.org about blocking issue report spamming. But it takes time to take action...
 ! Reluctantly, I decided to use desperate remedies called "Poison Filters" to suppress reports from foreign users.
 ! I will stop this experiment if spamming is stopped, or new Adblock Plus feature against issue report spamming is implemented.
-! 
-! **** All you have to do is UNsubscribe ABP Japanese Filters because the subscription does NOT support your language. ****
-! Disabling the fileter below temporarily does never mitigate poison filters because I modify them irregularly(quite often). ;-p
-! 
+! I know some of you are unhappy. Say it at forum: https://adblockplus.org/forum/viewforum.php?f=1
+!
+! **** All you have to do to avoid further trouble is UNsubscribe ABP Japanese Filters because the subscription does NOT support your language. ****
+! Temporarily disabling the fileters below does NEVER mitigate poison filters because I modify them irregularly(quite often). ;-p
+!
 @@|http:*.fr^
 @@|http:**.fr^
 @@|http:***.fr^
