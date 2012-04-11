@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: f5fdcaazEecuiypatXxRCQ
-! Last modified: 2012-04-11 17:40:29 JST
+! Checksum: uqlDacaCyt/fd1L5OF5frA
+! Last modified: 2012-04-12 00:43:51 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -677,6 +677,8 @@
 @@||steampowered.com/public/css/promo/$stylesheet
 ! Why does teacup.com use adimg.teacup.com for normal JavaScript ? (?_?)...
 @@||teacup.com/rchat-common/
+! False positive with objects at the TERMS OF SERVICE(TOS) page, reported via Issue Report, Apr 11, 2012
+@@||sp.toeic.or.jp/internetservice/promo/
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
 @@||tubemogul.com/crossdomain.xml|
 @@||tubemogul.com/bootloader/TubeMogulFlowPlayer.
