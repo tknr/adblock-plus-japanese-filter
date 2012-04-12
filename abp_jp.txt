@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8n0CtU1iCfW9YHDCwldoag
-! Last modified: 2012-04-12 06:48:33 JST
+! Checksum: kA1nPkqc6NlVGQ+2pAN2Qw
+! Last modified: 2012-04-12 14:54:38 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4351,6 +4351,7 @@ _teasers|
 ||img.kakaku.com/images/*/set/bn_$image
 ||notice.kakaku.com^
 ||kaktuz.com^$third-party
+||kantan-access.com^$third-party
 ||kau.li^$third-party
 ||kavanga.ru^$third-party
 ||kazeo.com^$third-party
@@ -5657,7 +5658,8 @@ _teasers|
 ||youtube.com/set_awesome?
 ||s.youtube.com^
 ||s2.youtube.com^
-!False Positive(dammy 1x1 placeholder for css spriting) ||ytimg.com/yt/img/pixel-
+!False Positives with dammy 1x1 placeholders for css spriting
+! ||ytimg.com/yt/img/pixel-
 ! ||ytimg.com^*/swfbin/ad-
 ||ytimg.com^*/swfbin/ad3-
 ||ytimg.com^*_background_$image
@@ -7007,7 +7009,7 @@ encrypted.google.com,www.google.com,www.google.co.jp###mbEnd
 encrypted.google.com,www.google.com,www.google.co.jp###rtpl
 encrypted.google.com,www.google.com,www.google.co.jp###tads.c
 encrypted.google.com,www.google.com,www.google.co.jp###tadsb.c
-! false positive: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
+! false positives: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
 ! encrypted.google.com,www.google.com,www.google.co.jp###topstuff
 encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
 encrypted.google.com,www.google.com,www.google.co.jp##.pmoabs
