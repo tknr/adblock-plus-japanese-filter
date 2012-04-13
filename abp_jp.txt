@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 3DYdVZYkGShWF1tE0EwhIg
-! Last modified: 2012-04-14 06:03:32 JST
+! Checksum: akqdbbkgwP9+TLMegqrNVg
+! Last modified: 2012-04-14 06:16:16 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -7259,6 +7259,7 @@ toyokeizai.net##a[onClick*="pageTracker."]
 toyokeizai.net##div[class^="rightBnr"]
 translink.co.jp###barAD
 twilog.org###uf + div + div
+twitch.tv###related_channels
 twitter.com##.promoted-account
 twitter.com##.promptbird
 twitter.com##.promoted-trend
