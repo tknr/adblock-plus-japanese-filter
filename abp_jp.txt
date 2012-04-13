@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: l3gCzS8Au0Y1/wYSq/HTPw
-! Last modified: 2012-04-14 05:44:51 JST
+! Checksum: TIa2w7trVft8TATeh9tsDw
+! Last modified: 2012-04-14 05:59:47 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1075,14 +1075,15 @@
 ! .stat_
 .TieupNotification.
 .vipmobile.
-/200_200.$image,domain=premium.nikkeibp.co.jp
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
 /__onedot?c=
 /__utm.
 /_a_cast.$script
 /_search.js|$third-party
+/1x1.*?$image
 /180x180.gif|$first-party
+/200_200.$image,domain=premium.nikkeibp.co.jp
 /A-affiliate2/*
 ! /aan/*/ad/*
 /aan/*/amazon/*
@@ -2377,7 +2378,9 @@
 /payclick/*
 /payclick?
 /payclick_
+/ping.*?$image
 /piwik.$script
+/pixel.*?$image
 /pixel?
 /pixel2.
 /playertracking/*
@@ -2548,6 +2551,7 @@
 /smate.html$subdocument
 /snare.js
 /sOmni.
+/spacer.*?$image
 /sponsor-
 /sponsor.
 /sponsor/*
