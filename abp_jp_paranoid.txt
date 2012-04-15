@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 55jdYZhC50Z69H5OjVSkSw
-! Last modified: 2012-04-14 13:40:59 JST
+! Checksum: rD9/DLSzjmGgclbWCzjN5A
+! Last modified: 2012-04-16 08:45:37 JST
 !
 ! Title: ABP Japanese Paranoid Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -345,7 +345,8 @@ _tracking_
 ##a[href*="/click?"]
 ##a[href*="/r.php?"]
 ##a[href*="/refer.php?"]
-##a[href*="utm_campaign="]
+! Added domain exception to avoid ugly false positives with CATEGORY HIGHLIGHT, Apr 16, 2012
+~ustream.tv##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
 
 ##*[id*="PROMO"]:not(body):not(input)
