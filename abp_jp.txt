@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: K49QliFdbkNcAi8s1FIyaw
-! Last modified: 2012-04-15 02:46:45 JST
+! Checksum: 2B4LCCIxbRjEx/a29eMOHg
+! Last modified: 2012-04-15 18:35:12 JST
 !
 ! Title: ABP Japanese Filters
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -12,7 +12,7 @@
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
 !
-! ########## Issue Report Spam Blocker (poison filters) start ##########
+! ########## Issue Report Spam Blocker (Poison Filters) START ##########
 ! A few foreign users are keep sending nonsense reports everyday, repeatedly.
 ! I tried to communicate him/her in English, using "status" input box of reports. But it doesn't seem that he/she reads it.
 ! I also keep talking with Wladimir Palant via forum at adblockplus.org about blocking issue report spamming. But it takes time to take action...
@@ -623,7 +623,7 @@
 @@|http:***.es^
 @@|http:**.es^
 @@|http:*.es^
-! ########## Issue Report Spam Blocker (poison filters) end ##########
+! ########## Issue Report Spam Blocker (Poison Filters) END ##########
 ! 
 ! 
 ! ########## Temporary white list START ##########
@@ -1030,6 +1030,7 @@
 .cellcastmedia?
 .cellcastmedia_
 .cherry-chat.
+.histats.$third-party
 .impact-ad.jp/rc/
 .jeu-a-telecharger.
 .jeuxofferts.
