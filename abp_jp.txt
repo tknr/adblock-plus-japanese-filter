@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T7ycQqYhc0C+PtAcgmgTBw
-! Last modified: 2012-04-19 00:41:38 JST
+! Checksum: f5isqsz68o/j/OV49biYpQ
+! Last modified: 2012-04-19 03:14:00 JST
 !
-! Title: ABP Japanese Filters (Not for foreign people)
+! Title: ABP Japanese Filters (NO SUPPORT for foreign users)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
@@ -13,7 +13,7 @@
 ! Project contributors: 
 !
 ! ########## Issue Report Spam Blocker (Poison Filters) START ##########
-! Poison filters trial has ended.
+! Poison filter trial has ended.
 ! See Support Policy:  https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy
 ! ########## Issue Report Spam Blocker (Poison Filters) END ##########
 ! 
