@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lctkP4V0v1MHi8tLyvN2yw
-! Last modified: 2012-04-19 03:19:55 JST
+! Checksum: gQ1qvdG/Xom3wocCZShG0w
+! Last modified: 2012-04-23 07:57:27 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2698,7 +2698,7 @@ _teasers|
 ||af-board.com^$third-party
 ||af-market.com^$third-party
 ||af-system.net^$third-party
-||afdads.com^
+||afdads.com^$third-party
 ||affaires-vip.com^
 ||affarity.com^
 ||affbuzzads.com^
@@ -4351,6 +4351,7 @@ _teasers|
 ||realclick.co.kr^$third-party
 ||reali.st^$third-party
 ||recherchex.com^
+||recomendedsite.com^$third-party
 ||reconize.com^$third-party
 ||recreativ.ru^$third-party
 ||redirectingat.com^$third-party
