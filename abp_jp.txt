@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8vnmNuvmU4fBms7d7cb/Nw
-! Last modified: 2012-04-24 08:17:44 JST
+! Checksum: hfmza/oVfDRpZa8zaAbHkA
+! Last modified: 2012-04-24 08:30:56 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -47,9 +47,9 @@
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
-! False positives with online office application view named OneNote Web App by Microsoft at skydrive.live.com, Apr 24, 2012
+! False positives with online office application view at skydrive.live.com, Apr 24, 2012
 ! Example of a false positive: &ad=ja-JP&
-@@||onenote.officeapps.live.com/o/onenoteframe.*&ad=
+@@||officeapps.live.com^*frame.*&ad=
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
 @@||liverail.com/crossdomain.xml|
 @@||liverail.com^*plugins/flowplayer/
