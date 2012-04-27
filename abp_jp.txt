@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: hfmza/oVfDRpZa8zaAbHkA
-! Last modified: 2012-04-24 08:30:56 JST
+! Checksum: RBOLsKwRJvQ2ixAM3sSDhQ
+! Last modified: 2012-04-27 21:14:44 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -43,6 +43,7 @@
 ! False positives with Google Custom Search(.co.jp), reported via Issue Report, Mar 10, 2012
 ! False positives with Google Custom Search(.com), reported via Issue Report, Feb 7, 2012
 @@||google.*/cse?*&ad=
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
@@ -63,9 +64,10 @@
 @@||ndrive.naver.jp/js/lcslog.$script
 ! Japanese biggest computer vendor uses cliant-side script to display RSS titles. It seems that they don't trust server-side performance of their own servers.
 @@||nec.co.jp^*/rss.$script
+! False positives with Java SE 7u4 downloading 2012-04-27
+@@||oracleimg.com^*/assets/metrics/ora_$domain=oracle.com
 ! False positive at psmk2.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=76 are blocked. 2011-08-29
 @@||psmk2.net/data/js/adbg.$script
-@@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 ! False positives with combined script and stylesheet 2011-10-17
 @@||rottentomatoescdn.com/assets/*/ads.
 ! False positive at store.steampowered.com . Layout collapse with /promo/* filter 2011-11-27
