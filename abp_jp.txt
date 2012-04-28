@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: dojxrBEUwnlP71TWKWWybA
-! Last modified: 2012-04-28 18:48:44 JST
+! Checksum: ef0uLz0tF01YqPuXF2a/bQ
+! Last modified: 2012-04-28 20:01:51 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4007,6 +4007,7 @@ _teasers|
 ||metanetwork.com^$third-party
 ||meteo-locale-gratuite.fr^
 ||mgid.com^$popup
+||mgid.com^$third-party
 ||mmaaxx.com^$popup
 ||mmaaxx.com^$third-party
 ||microad.jp^$third-party
