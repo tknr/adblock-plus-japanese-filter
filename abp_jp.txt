@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Xn0jeoRez+fxVuZNkcvhTg
-! Last modified: 2012-04-28 23:32:15 JST
+! Checksum: V604vFKhsJZKJ9RWE9edMA
+! Last modified: 2012-04-29 14:08:21 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2975,6 +2975,8 @@ _teasers|
 ||brainient.com^$third-party
 ||brandreachsys.com^$third-party
 ||brazzers.com^$third-party
+! Note: Probably, blocking the whole domain is too strict, Apr 29, 2012
+||brightcove.com^$third-party
 ||brightcove.com/1pix.
 ||brilig.com^$third-party
 ||brothersoft.com^$third-party
