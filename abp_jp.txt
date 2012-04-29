@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VL3H8+mrZHCNIoqemyrXTw
-! Last modified: 2012-04-29 14:38:58 JST
+! Checksum: mryGzrZga7X8Bkp3x9kR8g
+! Last modified: 2012-04-29 14:45:03 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -245,6 +245,7 @@
 &pop_under=$popup
 &popundersPerIP=
 &promo_type=
+&publisherID=
 &random=*&referrer=
 &random=*&size=1x1&
 &referer=$image,script
