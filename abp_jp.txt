@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: jJozsr3HxxFQUSub8o4niA
-! Last modified: 2012-05-01 23:55:47 JST
+! Checksum: rN7lR7n+t+n/OGVf94RU6w
+! Last modified: 2012-05-02 00:05:19 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6518,6 +6518,7 @@ livedoor.com###otoku-info
 livedoor.com###ranking-amazon
 livedoor.com##.powerd-by-google
 livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
+livedoor.com,livedoor.jp##a[href*="//ck.rd.livedoor.com/"]
 search.livedoor.com###content h3
 search.livedoor.com###menu > div:first-child
 search.livedoor.com##.searchresult_sponsor
