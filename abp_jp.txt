@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: FxOvTtZE62Jx6wGnSMRP6Q
-! Last modified: 2012-04-30 02:24:56 JST
+! Checksum: W4YV+S2uSDfcT4LngUf9YA
+! Last modified: 2012-05-01 23:28:26 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5916,6 +5916,7 @@ _teasers|
 ##a[href*="//click.j-a-net.jp"]
 ##a[href*="//j-a-net.jp/gateway/click.cgi"]
 ##a[href*="//cl.jlisting.jp"]
+##a[href*="/on.jpn.org/"]
 ##a[href*="//search.jword.jp"]
 ##a[href*="//kvors.com/click/?"]
 ##a[href*="//click.linksynergy.com"]
@@ -5938,6 +5939,7 @@ _teasers|
 ! ##a[href*="//rd.rakuten.co.jp/s/?"]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="//searchpartner.jp/"]
+##a[href*="/sell4.info/"]
 ##a[href*="shareasale.com/r."]
 ##a[href*=".softonic.jp/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
