@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: LgLwzMNiQvX0/M9O3MpM+A
-! Last modified: 2012-05-03 20:23:31 JST
+! Checksum: 2z0lzAPt83kSBO8Wz/Xofg
+! Last modified: 2012-05-03 21:26:27 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1771,6 +1771,7 @@
 /overtureAd.
 /OvertureSS.
 /owa.$script
+/OxBannerService/*
 /p.e-words.jp/type
 /p_code.$script
 /pagead-
