@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: o9nwF6nrkdeZO1nBhCIk+w
-! Last modified: 2012-04-19 14:31:17 JST
+! Checksum: eqHPXRcFcmgEsEIkUXxQ3g
+! Last modified: 2012-05-08 18:43:06 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -532,16 +532,18 @@ www.yahoo.co.jp###local
 ||toprelatedtopics.com^$third-party
 ! ----- Replace contents or ADs dynamically ----- END -----
 
-! ===== Search keyword tapping ===== START =====
+! ===== Search keyword tapping including RE-search overlay ===== START =====
 /search_frame.$script
 ||excite.co.jp/jp/succession/front/scroll.$script
+||biglobe.ne.jp/searchbox.$script
+||biglobe.ne.jp/searchengine.$script
 ||search.livedoor.com/research/
 ||livedoor.jp/js*/research_$script
 ||livedoor.jp/js/*search_frame.$script
 ||popin.cc^$third-party
 ||seesaa.jp/js/trace_searcher.$script
 ||so-net.ne.jp/search/javascripts/research/
-! ----- Search keyword tapping ----- END -----
+! ----- Search keyword tapping including RE-search overlay ----- END -----
 
 ! ===== Selected text event hijacking ===== START =====
 /apture.$script
