@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 5HdcGOBmWPn0Kf1LOV7YcQ
-! Last modified: 2012-05-07 16:57:58 JST
+! Checksum: hBLJH9vbSM3PtX1/DFI0YA
+! Last modified: 2012-05-11 02:49:35 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5581,6 +5581,7 @@ _teasers|
 ###adarea
 ###adbox
 ###adleft
+###adlink
 ###adright
 ###adsBox
 ###adsbox
@@ -5677,6 +5678,7 @@ _teasers|
 ##.addescription
 ##.adlantiss_frame
 ##.adleft
+##.adlink
 ##.adright
 ! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
 ##.ads:not(.adf):not(.adn)
