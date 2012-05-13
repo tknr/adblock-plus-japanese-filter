@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: wXqEDx749y1hIhWh85jU+A
-! Last modified: 2012-05-08 19:02:50 JST
+! Checksum: BmHqOlNsJSVQF5RHaiJUPA
+! Last modified: 2012-05-13 23:10:05 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -341,8 +341,11 @@ _tracking_
 ~carsensor.net,~sbigroup.co.jp##.pr
 ~mail.google.com##.PR
 
-##a[href*="/click.php?"]
+##a[href*="/click-"]
+##a[href*="/click."]
+##a[href*="/click/"]
 ##a[href*="/click?"]
+##a[href*="/click_"]
 ##a[href*="/r.php?"]
 ##a[href*="/refer.php?"]
 ! Added domain exception to avoid ugly false positives with CATEGORY HIGHLIGHT, Apr 16, 2012
