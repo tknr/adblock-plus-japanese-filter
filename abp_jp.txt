@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: dpRr147NXvKgha45X/+ssA
-! Last modified: 2012-05-15 19:06:42 JST
+! Checksum: VyllNbGW71oiLy+tA1BscQ
+! Last modified: 2012-05-16 19:34:19 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4658,7 +4658,7 @@ _teasers|
 ||stocknavigator.ru^$third-party
 ||storycam.com^
 ||stratigent.com^$third-party
-||streamate.com^$third-party
+||streamate.$third-party
 ||streamstreaming.com^$third-party
 ||striere.com^
 ||striete.com^
