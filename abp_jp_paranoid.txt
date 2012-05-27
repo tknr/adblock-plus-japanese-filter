@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: r7d3rth3NlxtzSZBMUgsiw
-! Last modified: 2012-05-21 14:48:44 JST
+! Checksum: mjf6cBX6Fr4yK84Xw/JyYA
+! Last modified: 2012-05-27 11:46:50 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -341,6 +341,7 @@ _tracking_
 ~carsensor.net,~sbigroup.co.jp##.pr
 ~mail.google.com##.PR
 
+##a[href*="/?c="]
 ##a[href*="/click-"]
 ##a[href*="/click."]
 ##a[href*="/click/"]
