@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: J4TA9RGpOrk5Pjvd2O+fcg
-! Last modified: 2012-05-19 08:35:58 JST
+! Checksum: fvP8V/rsaaGFmQpCiDck3A
+! Last modified: 2012-05-29 00:57:53 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -183,32 +183,22 @@
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
-|http:*&ad-
-|https:*&ad-
-|http:*&ad.
-|https:*&ad.
-|http:*&ad/
-|https:*&ad/
-|http:*&ad=
-|https:*&ad=
-|http:*&ad?
-|https:*&ad?
-|http:*&ad_
-|https:*&ad_
+! |http:*&ad-
+! |https:*&ad-
+! |http:*&ad.
+! |https:*&ad.
+! |http:*&ad^
+! |https:*&ad^
 ! &ad_id=CRN_
 ! &ad_size=
 ! &ad_type=
 ! &ad_url=
 &adcall-
 &adcall.
-&adcall/*
-&adcall?
-&adcall_
+&adcall^
 &adconfig-
 &adconfig.
-&adconfig/*
-&adconfig?
-&adconfig_
+&adconfig^
 &adid=
 &admeld_
 &adpds_
@@ -218,9 +208,7 @@
 &adsmarket=
 &adsource-
 &adsource.
-&adsource/
-&adsource?
-&adsource_
+&adsource^
 &adSpace=
 &adtype=
 &adv=
@@ -228,9 +216,7 @@
 &advTile=
 &adx-
 &adx.
-&adx/*
-&adx?
-&adx_
+&adx^
 &aff_id=
 &affid=
 &affiliate=$popup
@@ -261,113 +247,76 @@
 |https:*-ad-
 |http:*-ad.
 |https:*-ad.
-|http:*-ad/
-|https:*-ad/
-|http:*-ad?
-|https:*-ad?
-|http:*-ad_
-|https:*-ad_
+|http:*-ad^
+|https:*-ad^
 -ads-
 -ads.$domain=~retweet-ads.net
--ads/
--ads_
+-ads^
 -adthink-
 -adthink.
--adthink/
--adthink?
--adthink_
+-adthink-
 -adthinkmedia-
 -adthinkmedia.
--adthinkmedia/
--adthinkmedia?
--adthinkmedia_
+-adthinkmedia^
 -advert-
 -advert.
--advert/
--advert?
--advert_
+-advert^
 -advertstream-
 -advertstream.
--advertstream/
--advertstream?
--advertstream_
+-advertstream^
 -affiliate-
 -affiliate.
--affiliate/
--affiliate?
--affiliate_
+-affiliate^
 -analytics-
 ! Commented out because many false positives happen with "http://www.google-analytics.com/ga.js", Jan 28, 2012
 ! -analytics.
--analytics/
--analytics?
--analytics_
+-analytics^
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
 -beacon-
 -beacon.
--beacon/
--beacon_
+-beacon^
 -beacons-
 -beacons.
--beacons/
--beacons_
+-beacons^
 -cellcast-media-
 -cellcast-media.
--cellcast-media/
--cellcast-media?
--cellcast-media_
+-cellcast-media^
 -cellcastmedia-
 -cellcastmedia.
--cellcastmedia/
--cellcastmedia?
--cellcastmedia_
+-cellcastmedia^
 -comscore-
 -comscore.
--comscore/
--comscore?
--comscore_
+-comscore^
 -linkad-
 -linkad.
--linkad/
--linkad?
--linkad_
+-linkad^
 -linkads-
 -linkads.
--linkads/
--linkads?
--linkads_
+-linkads^
 -metrics-
 -metrics.
--metrics/
--metrics_
+-metrics^
 -numerik-art-
 -numerik-art.
--numerik-art/
--numerik-art?
--numerik-art_
--PopUnder|
+-numerik-art^
+-PopUnder-
+-PopUnder.
+-PopUnder^
 -retarget-
 -retarget.
--retarget/
--retarget?
--retarget_
+-retarget^
 -retargeting-
 -retargeting.
--retargeting/
--retargeting?
--retargeting_
+-retargeting^
 -sponsored-
 -sponsored.
--sponsored/
--sponsored?
--sponsored_
+-sponsored^
 ! Commented out to avoid false positives on static: 2011-09-07
 ! -stat-
 ! -stat.
-! -stat/
-! -stat_
+! -stat^
 -textad.
 -utm.$script
 |http:*.ad-
@@ -375,12 +324,8 @@
 ! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
 ! |http:*.ad.
 ! |https:*.ad.
-|http:*.ad/
-|https:*.ad/
-|http:*.ad?
-|https:*.ad?
-|http:*.ad_
-|https:*.ad_
+|http:*.ad^
+|https:*.ad^
 .adInfo.
 .adriver.
 ! Preparing to move to whitelist 2011-12-07
@@ -390,50 +335,32 @@
 .adserver.
 .adthink-
 .adthink.
-.adthink/
-.adthink?
-.adthink_
+.adthink^
 .adthinkmedia-
 .adthinkmedia.
-.adthinkmedia/
-.adthinkmedia?
-.adthinkmedia_
+.adthinkmedia^
 .advertstream-
 .advertstream.
-.advertstream/
-.advertstream?
-.advertstream_
+.advertstream^
 .affiliate-
 .affiliate.
-.affiliate/
-.affiliate?
-.affiliate_
+.affiliate^
 .analytics-
 .analytics.
-.analytics/
-.analytics?
-.analytics_
+.analytics^
 .beacon-
 .beacon.
-.beacon/
-.beacon?
-.beacon_
+.beacon^
 .beacons-
 .beacons.
-.beacons/
-.beacons?
-.beacons_
+.beacons^
 .ca.html|
 .cellcast-media-
 .cellcast-media.
-.cellcast-media/
-.cellcast-media?
-.cellcast-media_
+.cellcast-media^
 .cellcastmedia-
 .cellcastmedia.
-.cellcastmedia/
-.cellcastmedia?
-.cellcastmedia_
+.cellcastmedia^
 .cherry-chat.
 .histats.$third-party
 .impact-ad.jp/rc/
@@ -443,42 +370,31 @@
 .megavod.
 .metrics-
 .metrics.
-.metrics/
-.metrics?
-.metrics_
+.metrics^
 .mobifiesta.
 .mobifun.
 .movifiesta.
 .my-tv-store.
 .numerik-art-
 .numerik-art.
-.numerik-art/
-.numerik-art?
-.numerik-art_
+.numerik-art^
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
 .poptracking?
 .retarget-
 .retarget.
-.retarget/*
-.retarget?
-.retarget_
+.retarget^
 .retargeting-
 .retargeting.
-.retargeting/
-.retargeting?
-.retargeting_
+.retargeting^
 .sponsored-
 .sponsored.
-.sponsored/
-.sponsored?
-.sponsored_
+.sponsored^
 ! Commented out to avoid false positives on static: 2011-09-07
 ! .stat-
 ! .stat.
-! .stat/
-! .stat_
+! .stat^
 .TieupNotification.
 .vipmobile.
 ! false positive at lifehacker.com 2011-09-30
@@ -496,13 +412,9 @@
 /abnl/?begun=
 /acclog.
 /acctag.
-|http:*/ad-
-|https:*/ad-
 ! /ad-image/*
 ! /ad-images/*
 ! /ad-navi/ga/*
-|http:*/ad.
-|https:*/ad.
 ! /ad.act?
 ! /ad.asp?
 ! /ad.asp|
@@ -511,72 +423,44 @@
 ! /ad.js
 ! /ad.php?id=
 ! /ad.swf|
-|http:*/ad/
-|https:*/ad/
 ! /ad/*&slot=
 ! /ad/200_
 ! /ad/banner-
 ! /ad/banner.
-! /ad/banner/*
-! /ad/banner?
-! /ad/banner_
+! /ad/banner^
 ! /ad/click.
 ! /ad/control-
 ! /ad/control.
-! /ad/control/*
-! /ad/control?
-! /ad/control_
+! /ad/control^
 ! /ad/iframe-
 ! /ad/iframe.
-! /ad/iframe/*
-! /ad/iframe?
-! /ad/iframe_
+! /ad/iframe^
 ! /ad/iframes-
 ! /ad/iframes.
-! /ad/iframes/*
-! /ad/iframes?
-! /ad/iframes_
+! /ad/iframes^
 ! /ad/image-
 ! /ad/image.
-! /ad/image/*
-! /ad/image?
-! /ad/image_
+! /ad/image^
 ! /ad/images-
 ! /ad/images.
-! /ad/images/*
-! /ad/images?
-! /ad/images_
+! /ad/images^
 ! /ad/index-
 ! /ad/index.
-! /ad/index/*
-! /ad/index?
-! /ad/index_
+! /ad/index^
 ! /ad/load_ad-
 ! /ad/load_ad.
-! /ad/load_ad/*
-! /ad/load_ad?
-! /ad/load_ad_
+! /ad/load_ad^
 ! /ad/pr_img-
 ! /ad/pr_img.
-! /ad/pr_img/*
-! /ad/pr_img?
-! /ad/pr_img_
+! /ad/pr_img^
 ! /ad/preview-
 ! /ad/preview.
-! /ad/preview/*
-! /ad/preview?
-! /ad/preview_
+! /ad/preview^
 ! /ad/show-
 ! /ad/show.
-! /ad/show/*
-! /ad/show?
-! /ad/show_
-|http:*/ad?
-|https:*/ad?
+! /ad/show^
 ! /ad?act=
 ! /ad?loc=
-|http:*/ad_
-|https:*/ad_
 ! /ad_agency-
 ! /ad_agency.
 ! /ad_agency/*
@@ -684,505 +568,33 @@
 ! /ad_view/*
 ! /ad_view?
 ! /ad_view_
-/ad1-
-/ad1.
-/ad1/*
-/ad1?
-/ad1_
 /Ad160x600.
-/ad2-
-/ad2.
-/ad2/*
-/ad2?
-/ad2_
-/ad3-
-/ad3.
-/ad3/*
-/ad3?
-/ad3_
 /Ad300x600.
-/ad4-
-/ad4.
-/ad4/*
-/ad4?
-/ad4_
-/ad5-
-/ad5.
-/ad5/*
-/ad5?
-/ad5_
-/ad6-
-/ad6.
-/ad6/*
-/ad6?
-/ad6_
-/ad7-
-/ad7.
-/ad7/*
-/ad7?
-/ad7_
-/ad8-
-/ad8.
-/ad8/*
-/ad8?
-/ad8_
-/ad9-
-/ad9.
-/ad9/*
-/ad9?
-/ad9_
-/adbanner-
-/adbanner.
-/adbanner/*
-/adbanner?
-/adbanner_
-/adbanners-
-/adbanners.
-/adbanners/*
-/adbanners?
-/adbanners_
 /adblock_plus.$domain=kino.to
-/adcall-
-/adcall.
-/adcall/*
-/adcall?
-/adcall_
-/adclick-
-/adclick.
-/adclick/*
-/adclick?
-/adclick_
-/adclicks-
-/adclicks.
-/adclicks/*
-/adclicks?
-/adclicks_
-/adclient-
-/adclient.
-/adclient/*
-/adclient?
-/adclient_
 /adcolor.
-/adconfig-
-/adconfig.
-/adconfig/*
-/adconfig?
-/adconfig_
-/adcontext-
-/adcontext.
-/adcontext/*
-/adcontext?
-/adcontext_
-/adcontrol-
-/adcontrol.
-/adcontrol/*
-/adcontrol?
-/adcontrol_
-/adcore-
-/adcore.
-/adcore/*
-/adcore?
-/adcore_
-/adcount-
-/adcount.
-/adcount/*
-/adcount?
-/adcount_
-/adcounter-
-/adcounter.
-/adcounter/*
-/adcounter?
-/adcounter_
-/adscount-
-/adscount.
-/adscount/*
-/adscount?
-/adscount_
-/adscounter-
-/adscounter.
-/adscounter/*
-/adscounter?
-/adscounter_
-/adswf-
-/adswf.
-/adswf/*
-/adswf?
-/adswf_
-/adframe-
-/adframe.
-/adframe/*
-/adframe?
-/adframe_
-/adframes-
-/adframes.
-/adframes/*
-/adframes?
-/adframes_
 /adFrequencyCapping.
 /adfshow?
-/adFunction-
-/adFunction.
-/adFunction/*
-/adFunction?
-/adFunction_
-/adgetter-
-/adgetter.
-/adgetter/*
-/adgetter?
-/adgetter_
-/adiframe-
-/adiframe.
-/adiframe/*
-/adiframe?
-/adiframe_
-/adimage-
-/adimage.
-/adimage/*
-/adimage?
-/adimage_
-/adimages-
-/adimages.
-/adimages/*
-/adimages?
-/adimages_
-/adinfo-
-/adinfo.
-/adinfo/*
-/adinfo?
-/adinfo_
-/adjs-
-/adjs.
-/adjs/*
-/adjs?
-/adjs_
-/adjs2-
-/adjs2.
-/adjs2/*
-/adjs2?
-/adjs2_
 /AdLantisLoader.
-/adlayer-
-/adlayer.
-/adlayer/*
-/adlayer?
-/adlayer_
-/adlayers-
-/adlayers.
-/adlayers/*
-/adlayers?
-/adlayers_
-/adListing-
-/adListing.
-/adListing/*
-/adListing?
-/adListing_
-/adListings-
-/adListings.
-/adListings/*
-/adListings?
-/adListings_
 /AdLoader.
-/adlog-
-/adlog.
-/adlog/*
-/adlog?
-/adlog_
 /admanager.
 /admodoki.
-/adnetwork-
-/adnetwork.
-/adnetwork/*
-/adnetwork?
-/adnetwork_
-/adnetworks-
-/adnetworks.
-/adnetworks/*
-/adnetworks?
-/adnetworks_
-/adparts-
-/adparts.
-/adparts/*
-/adparts?
-/adparts_
-/adPlayer-
-/adPlayer.
-/adPlayer/*
-/adPlayer?
-/adPlayer_
-/adplugin-
-/adplugin.
-/adplugin/*
-/adplugin?
-/adplugin_
-/adplugins-
-/adplugins.
-/adplugins/*
-/adplugins?
-/adplugins_
-/adriver-
-/adriver.
-/adriver/*
-/adriver?
-/adriver_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /ads-common-
 ! /ads-common.
-! /ads-common/*
-! /ads-common?
-! /ads-common_
+! /ads-common^
 ! /ads-iframe-
 ! /ads-iframe.
-! /ads-iframe/*
-! /ads-iframe?
-! /ads-iframe_
+! /ads-iframe^
 ! /ads-iframes-
 ! /ads-iframes.
-! /ads-iframes/*
-! /ads-iframes?
-! /ads-iframes_
-/ads-
-/ads.
-/ads/*
-/ads?
-/ads_
-/ads2-
-/ads2.
-/ads2/*
-/ads2?
-/ads2_
-/ads3-
-/ads3.
-/ads3/*
-/ads3?
-/ads3_
-/ads4-
-/ads4.
-/ads4/*
-/ads4?
-/ads4_
-/ads5-
-/ads5.
-/ads5/*
-/ads5?
-/ads5_
-/ads6-
-/ads6.
-/ads6/*
-/ads6?
-/ads6_
-/ads7-
-/ads7.
-/ads7/*
-/ads7?
-/ads7_
-/ads8-
-/ads8.
-/ads8/*
-/ads8?
-/ads8_
-/ads9-
-/ads9.
-/ads9/*
-/ads9?
-/ads9_
-/adscontext-
-/adscontext.
-/adscontext/*
-/adscontext?
-/adscontext_
-/adserving-
-/adserving.
-/adserving/*
-/adserving?
-/adserving_
-/adscore-
-/adscore.
-/adscore/*
-/adscore?
-/adscore_
-/adscores-
-/adscores.
-/adscores/*
-/adscores?
-/adscores_
-/adsearch-
-/adsearch.
-/adsearch/*
-/adsearch?
-/adsearch_
+! /ads-iframes^
 ! Preparing to move to whitelist 2011-12-07
 ! /adsense-$domain=~google.com
 ! /adsense.$domain=~google.com
-! /adsense/*$domain=~google.com
-! /adsense_$domain=~google.com
+! /adsense^$domain=~google.com
 ! Domain-restricting options have moved to the whitelist 2011-12-07
-/adsense-
-/adsense.
-/adsense/*
-/adsense_
-/adserve-
-/adserve.
-/adserve/*
-/adserve?
-/adserve_
-/adserver-
-/adserver.
-/adserver/*
-/adserver?
-/adserver_
-/adshow-
-/adshow.
-/adshow/*
-/adshow?
-/adshow_
-/adsource-
-/adsource.
-/adsource/*
-/adsource?
-/adsource_
-/adspace-
-/adspace.
-/adspace/*
-/adspace?
-/adspace_
-/adspaces-
-/adspaces.
-/adspaces/*
-/adspaces?
-/adspaces_
-/AdStatic-
-/AdStatic.
-/AdStatic/*
-/AdStatic?
-/AdStatic_
-/AdStatics-
-/AdStatics.
-/AdStatics/*
-/AdStatics?
-/AdStatics_
 /adstay?
-/adstream-
-/adstream.
-/adstream/*
-/adstream?
-/adstream_
-/adsystem-
-/adsystem.
-/adsystem/*
-/adsystem?
-/adsystem_
-/adsv-
-/adsv.
-/adsv/*
-/adsv?
-/adsv_
-/adsWrapper-
-/adsWrapper.
-/adsWrapper/*
-/adsWrapper?
-/adsWrapper_
 /ADTECH;
-/adtext-
-/adtext.
-/adtext/*
-/adtext?
-/adtext_
-/adthink-
-/adthink.
-/adthink/*
-/adthink?
-/adthink_
-/adthinkmedia-
-/adthinkmedia.
-/adthinkmedia/*
-/adthinkmedia?
-/adthinkmedia_
-/adtrack-
-/adtrack.
-/adtrack/*
-/adtrack?
-/adtrack_
-/adtracker-
-/adtracker.
-/adtracker/*
-/adtracker?
-/adtracker_
-/adv-
-/adv.
-/adv/*
-/adv?
-/adv_
-/adv1/*
-/advert-
-/advert.
-/advert/*
-/advert?
-/advert_
-/advertise-
-/advertise.
-/advertise/*
-/advertise?
-/advertise_
-/advertisement-
-/advertisement.
-/advertisement/*
-/advertisement?
-/advertisement_
-/AdvertisingModule-
-/AdvertisingModule.
-/AdvertisingModule/*
-/AdvertisingModule?
-/AdvertisingModule_
-/advertstream-
-/advertstream.
-/advertstream/*
-/advertstream?
-/advertstream_
-/adview-
-/adview.
-/adview/*
-/adview?
-/adview_
-/adx-
-/adx.
-/adx/*
-/adx?
-/adx_
-/adZone-
-/adZone.
-/adZone/*
-/adZone?
-/adZone_
-/aff-$third-party
-/aff.$third-party
-/aff/*$third-party
-/aff?$third-party
-/aff_$third-party
-/affiliate-
-/affiliate.
-/affiliate/*
-/affiliate?
-/affiliate_
-/affiliatebanner-
-/affiliatebanner.
-/affiliatebanner/*
-/affiliatebanner?
-/affiliatebanner_
-/affiliatebanners-
-/affiliatebanners.
-/affiliatebanners/*
-/affiliatebanners?
-/affiliatebanners_
-/affiliates-$third-party
-/affiliates.$third-party
-/affiliates/*$third-party
-/affiliates?$third-party
-/affiliates_$third-party
-/afiriate-$third-party
-/afiriate.$third-party
-/afiriate/*$third-party
-/afiriate?$third-party
-/afiriate_$third-party
 /afr.php?
 ! merged into .php?zoneid=
 ! /ajs.php?zoneid=
@@ -1191,26 +603,7 @@
 /ana2/analyzer.
 /ana2/processor.
 /analys.$script
-/analysis-$third-party
-/analysis.$third-party
-/analysis/*$third-party
-/analysis?$third-party
-/analysis_$third-party
-/analytics-
-/analytics.
-/analytics?
-/analytics_
 /analyticsid.
-/appad-
-/appad.
-/appad/*
-/appad?
-/appad_
-/appads-
-/appads.
-/appads/*
-/appads?
-/appads_
 /AppMeasurementExtension.
 /AS3AdPlayer.
 |http:*/at.js.$script
@@ -1221,36 +614,11 @@
 ! /avw.php?zoneid=
 /axyzsdk.$script
 /banads/*
-/banner-$script,object-subrequest,subdocument
-/banner.$script,object-subrequest,subdocument
-/banner/*$script,object-subrequest,subdocument
-/banner?$script,object-subrequest,subdocument
-/banner_$script,object-subrequest,subdocument
-/banner_iframe-
-/banner_iframe.
-/banner_iframe/*
-/banner_iframe?
-/banner_iframe_
-/banner_iframes-
-/banner_iframes.
-/banner_iframes/*
-/banner_iframes?
-/banner_iframes_
 /banner140.$third-party
 /bannerLinkClickHandle?
-/banners-$script,object-subrequest,subdocument
-/banners.$script,object-subrequest,subdocument
-/banners/*$script,object-subrequest,subdocument
-/banners?$script,object-subrequest,subdocument
-/banners_$script,object-subrequest,subdocument
 |http:*/bb-mx/$third-party
 |https:*/bb-mx/$third-party
 /bcon.$third-party
-/beacon-
-/beacon.
-/beacon/*
-/beacon?
-/beacon_
 /bin/ll?$third-party
 ! /blog_ads/*
 /blog_ppv/*
@@ -1260,92 +628,23 @@
 /bmv11.$script
 /bmv12.$script
 /bmv13.$script
-|http:*/bn_pr-
-|http:*/bn_pr.
-|http:*/bn_pr/
-|http:*/bn_pr?
-|http:*/bn_pr_
+|http:*^bn_pr-
+|http:*^bn_pr.
+|http:*^bn_pr^
 /bnr.$script
-/bnr/pr-
-/bnr/pr.
-/bnr/pr/*
-/bnr/pr?
-/bnr/pr_
 /byads/*
 /camp_banner/bnr_
 /campaign?cid=
-/cellcast-media-
-/cellcast-media.
-/cellcast-media/*
-/cellcast-media?
-/cellcast-media_
-/cellcastmedia-
-/cellcastmedia.
-/cellcastmedia/*
-/cellcastmedia?
-/cellcastmedia_
 ! /cgi-bin/ad-
 ! /cgi-bin/ad.
-! /cgi-bin/ad/*
-! /cgi-bin/ad?
-! /cgi-bin/ad_
+! /cgi-bin/ad^
 /cgi-bin/webtrend/*
-/chartbeat-
-/chartbeat.
-/chartbeat/*
-/chartbeat?
-/chartbeat_
 /click/body.php?id=*&hash=$popup
-/click_count-
-/click_count.
-/click_count/*
-/click_count?
-/click_count_
-/clickheat-
-/clickheat.
-/clickheat/*
-/clickheat?
-/clickheat_
-/clicklog-
-/clicklog.
-/clicklog/*
-/clicklog?
-/clicklog_
-/clickstream-
-/clickstream.
-/clickstream/*
-/clickstream?
-/clickstream_
-/clicktale-
-/clicktale.
-/clicktale/*
-/clicktale?
-/clicktale_
 /cnet_scode.
 /cnwk.1d/Aud/*
-/comscore-
-/comscore.
-/comscore/*
-/comscore?
-/comscore_
 /comscorePlugin.
 /convcast.$script
-/coremetrics-
-/coremetrics.
-/coremetrics/*
-/coremetrics?
-/coremetrics_
 /csi?v=
-/customad-
-/customad.
-/customad/*
-/customad?
-/customad_
-/customads-
-/customads.
-/customads/*
-/customads?
-/customads_
 /customerIsLegality?
 /d2ptoolbar/*
 /dart.$script
@@ -1363,16 +662,6 @@
 /DigiChat/*$third-party
 /do2icnk.
 /docodoco?
-/doubleclick-
-/doubleclick.
-/doubleclick/*
-/doubleclick?
-/doubleclick_
-/eas-$third-party
-/eas.$third-party
-/eas/*$third-party
-/eas?$third-party
-/eas_$third-party
 /elqcfg.$script
 /elqimg.$script
 /elqimg2.$script
@@ -1388,104 +677,16 @@
 /external/*$domain=amazon.co.jp|amazon.com
 /fc.php?script=
 /flashbanner.swf
-/foresee-$script
-/foresee.$script
-/foresee/*$script
-/foresee?$script
-/foresee_$script
-/framead-
-/framead.
-/framead/*
-/framead?
-/framead_
 /ga_social_tracking.$script
 /gads.$script
-/gemius-
-/gemius.
-/gemius/*
-/gemius?
-/gemius_
-/geopop-
-/geopop.
-/geopop/*
-/geopop?
-/geopop_
-/get_banner-
-/get_banner.
-/get_banner/*
-/get_banner?
-/get_banner_
-/getad-
-/getad.
-/getad/*
-/getad?
-/getad_
-/getads-
-/getads.
-/getads/*
-/getads?
-/getads?$popup
-/getads_
-/getAdv-
-/getAdv.
-/getAdv/*
-/getAdv?
-/getAdv_
-/getAdvert-
-/getAdvert.
-/getAdvert/*
-/getAdvert?
-/getAdvert_
-/getAdvertisement-
-/getAdvertisement.
-/getAdvertisement/*
-/getAdvertisement?
-/getAdvertisement_
-/getAdverts-
-/getAdverts.
-/getAdverts/*
-/getAdverts?
-/getAdverts_
-/getMyAd-
-/getMyAd.
-/getMyAd/*
-/getMyAd?
-/getMyAd_
 /getsatisfaction.com^$third-party
-/getSponsor-
-/getSponsor.
-/getSponsor/*
-/getSponsor?
-/getSponsor_
-/getSponsors-
-/getSponsors.
-/getSponsors/*
-/getSponsors?
-/getSponsors_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /google_ads-
 ! /google_ads.
-! /google_ads/*
-! /google_ads?
-! /google-ads_
-/google_afc-
-/google_afc.
-/google_afc/*
-/google_afc?
-/google_afc_
+! /google_ads^
 /google_analytics.
 /google300.$script
 /google728.$script
-/googlead-
-/googlead.
-/googlead/*
-/googlead?
-/googlead_
-/googleadsense-
-/googleadsense.
-/googleadsense/*
-/googleadsense?
-/googleadsense_
 /grack.$script
 /header_bnr_
 /hist_count.$~image
@@ -1497,184 +698,55 @@
 /ifr.htm?size=
 /iframe_btn_banner?
 /iframe_cm_
-/iframeAd-
-/iframeAd.
-/iframeAd/*
-/iframeAd?
-/iframeAd_
 /image.ng/*
-/image/1x1$third-party
-! /image/ad-
-! /image/ad.
-! /image/ad/*
-! /image/ad?
-! /image/ad_
-/image/ad120.$image
-/image/ad125.$image
-/image/ad160.$image
-/image/ad180.$image
-/image/ad234.$image
-/image/ad240.$image
-/image/ad250.$image
-/image/ad300.$image
-/image/ad336.$image
-/image/ad468.$image
-/image/ad720.$image
-/image/ad728.$image
-/image/ad88.$image
+! ^image^ad-
+! ^image^ad.
+! ^image^ad^
 ! Commented out duplicated filters, Feb 26, 2012
-! /image/ads-
-! /image/ads/*
-! /image/ads?
-! /image/ads_
-/image/banner-$third-party
-/image/banner.$third-party
-/image/banner/*$third-party
-/image/banner?$third-party
-/image/banner_$third-party
-! /images/ad-
-! /images/ad.
-! /images/ad/*
-! /images/ad?
-! /images/ad_
-/images/ad120.$image
-/images/ad125.$image
-/images/ad160.$image
-/images/ad180.$image
-/images/ad234.$image
-/images/ad240.$image
-/images/ad250.$image
-/images/ad300.$image
-/images/ad336.$image
-/images/ad468.$image
-/images/ad720.$image
-/images/ad728.$image
-/images/ad88.$image
+! ^image^ads-
+! ^image^ads^
+! ^images^ad-
+! ^images^ad.
+! ^images^ad^
 ! Commented out duplicated filters, Feb 26, 2012
-! /images/ads-
-! /images/ads/*
-! /images/ads?
-! /images/ads_
-/images/banner-$third-party
-/images/banner.$third-party
-/images/banner/*$third-party
-/images/banner?$third-party
-/images/banner_$third-party
-/images/banners-$third-party
-/images/banners.$third-party
-/images/banners/*$third-party
-/images/banners?$third-party
-/images/banners_$third-party
+! ^images^ads-
+! ^images^ads^
 /images/lansweeper.$image
 /images/SE2Banner.$image
-/img/1x1$third-party
-! /img/ad-
-! /img/ad.
-! /img/ad/*
-! /img/ad?
-! /img/ad_
-/img/ad120.$image
-/img/ad125.$image
-/img/ad160.$image
-/img/ad180.$image
-/img/ad234.$image
-/img/ad240.$image
-/img/ad250.$image
-/img/ad300.$image
-/img/ad336.$image
-/img/ad468.$image
-/img/ad720.$image
-/img/ad728.$image
-/img/ad88.$image
+! ^img^ad-
+! ^img^ad.
+! ^img^ad^
 ! Commented out duplicated filters, Feb 26, 2012
-! /img/ads-
-! /img/ads/*
-! /img/ads?
-! /img/ads_
-/img/banner-$third-party
-/img/banner.$third-party
-/img/banner/*$third-party
-/img/banner?$third-party
-/img/banner_$third-party
+! ^img^ads-
+! ^img^ads^
 /img/p_banner.
 /img/p_banner/*
 /img/pr_.$domain=diamond.jp
 /img/watch/tag_sync/*
-/imgs/1x1$third-party
-! /imgs/ad-
-! /imgs/ad.
-! /imgs/ad/*
-! /imgs/ad?
-! /imgs/ad_
-/imgs/ad120.$image
-/imgs/ad125.$image
-/imgs/ad160.$image
-/imgs/ad180.$image
-/imgs/ad234.$image
-/imgs/ad240.$image
-/imgs/ad250.$image
-/imgs/ad300.$image
-/imgs/ad336.$image
-/imgs/ad468.$image
-/imgs/ad720.$image
-/imgs/ad728.$image
-/imgs/ad88.$image
+! ^imgs^ad-
+! ^imgs^ad.
+! ^imgs^ad^
 ! Commented out duplicated filters, Feb 26, 2012
-! /imgs/ads-
-! /imgs/ads/*
-! /imgs/ads?
-! /imgs/ads_
-/imgs/banner-$third-party
-/imgs/banner.$third-party
-/imgs/banner/*$third-party
-/imgs/banner?$third-party
-/imgs/banner_$third-party
+! ^imgs^ads-
+! ^imgs^ads^
 ! Merged into ".php?zoneid="
 ! /iml.php?zoneid=
 /imp?Z=
 /impression_measure.*?$image
 ! /inc_ad_
 /includes/js/js.$script
-/informer-$third-party
-/informer.$third-party
-/informer/*$third-party
-/informer?$third-party
-/informer_$third-party
-/intellitxt-
-/intellitxt.
-/intellitxt/*
-/intellitxt?
-/intellitxt_
 /introMessageRedirect.
 |http:*/is_sc_$script
 |https:*/is_sc_$script
 /ivw/CP/*
-/jlisting-
-/jlisting.
-/jlisting/*
-/jlisting?
-/jlisting_
 |http:*/js.ng/
 |https:*/js.ng/
-! /js/ad-
-! /js/ad.
-! /js/ad/*
-! /js/ad?
-! /js/ad_
-/js/app/analytics/*
-/js/banner-
-/js/banner.
-/js/banner/*
-/js/banner?
-/js/banner_
+! ^js^ad-
+! ^js^ad.
+! ^js^ad^
 |http:*/js/dw.js
 |https:*/js/dw.js
 /js/google_banner.
-/js/omni-
-/js/omni.
-/js/omni/*
-/js/omni?
-/js/omni_
 ! /js_ad_pop?
 ! Commented out duplicated filters, Feb 26, 2012
 ! /js_in_text_ads?
@@ -1684,151 +756,49 @@
 /kanasoku*/at_side.
 /kanasoku/Live.
 /kanasoku/rss.
-/kokoku-
-/kokoku.
-/kokoku/*
-/kokoku?
-/kokoku_
-/koukoku-
-/koukoku.
-/koukoku/*
-/koukoku?
-/koukoku_
 /lcslog.$script
 /leaderboard_SWF
 /lg.php?bannerid=
 /lightningcast-
-/linkad-
-/linkad.
-/linkad/*
-/linkad?
-/linkad_
-/linkads-
-/linkads.
-/linkads/*
-/linkads?
-/linkads_
 /linkshare/*
 /linktracking.$script
 /listcollector/*$script
 /listingplus/*
 ! /live_ad-
 ! /live_ad.
-! /live_ad/*
-! /live_ad?
-! /live_ad_
-/LiveAds-
-/LiveAds.
-/LiveAds/*
-/LiveAds?
-/LiveAds_
+! /live_ad^
 /load_lcs.$script
 /log1.
-/logimg-
-/logimg.
-/logimg/*
-/logimg?
-/logimg_
 /logwrite.$image
 /makePCookie_
 /marquee/*
 /matc.$script
 /MBF_MS_
 /media?mid=
-/mediaslot-
-/mediaslot.
-/mediaslot/*
-/mediaslot?
-/mediaslot_
 /meebo.$script
 /metrika/*
-/metrics-
-/metrics.
-/metrics/*
-/metrics?
-/metrics_
-/mobilead-
-/mobilead.
-/mobilead/*
-/mobilead?
-/mobilead_
-/mobileads-
-/mobileads.
-/mobileads/*
-/mobileads?
-/mobileads_
 /mouseoverTriggerHandle?
 /mtag_$third-party
-/mtrcs-$script
-/mtrcs.$script
-/mtrcs/*$script
-/mtrcs?$script
-/mtrcs_$script
 /munchkin.
 /myzo_chiebukuro.js$domain=yimg.jp|yahoo.co.jp
 /navad/delivery.
 /news_top_point_pr.
-/nielsen-
-/nielsen.
-/nielsen/*
-/nielsen_
-/nielsen_
 ! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
 ! /newzia/*
 /njoks_$script
-/numerik-art-
-/numerik-art.
-/numerik-art/*
-/numerik-art?
-/numerik-art_
 /omn-js/*
-/omni-$script
-/omni.$script
-/omni/*$script
-/omni?$script
-/omni_$script
-/omniture-
-/omniture.
-/omniture/*
-/omniture?
-/omniture_
 /OmnitureActionSource.
 /omniturePlugin.
 /OmnitureSWF.
-/omniunih-
-/omniunih.
-/omniunih/*
-/omniunih?
-/omniunih_
 /omuniture/*
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
-/openx-
-/openx.
-/openx/*
-/openx?
-/openx_
-/overture-
-/overture.
-/overture/*
-/overture?
-/overture_
 /overtureAd.
 /OvertureSS.
 /owa.$script
 /OxBannerService/*
 /p.e-words.jp/type
 /p_code.$script
-/pagead-
-/pagead.
-/pagead/*
-/pagead?
-/pagead_
 /pageKeywordClickHandle?
-/payclick-
-/payclick.
-/payclick/*
-/payclick?
-/payclick_
 /ping.*?$image
 /piwik.$script
 /pixel.*?$image
@@ -1841,97 +811,32 @@
 ! /pop.php?zoneid=
 /popad/*
 /popads/*
-/popunder-
-/popunder.
-/popunder/*
-/popunder?
-/popunder_
-/popunder2-
-/popunder2.
-/popunder2/*
-/popunder2?
-/popunder2_
 /popundr.
 ! /popup/promotion-
 ! /popup/promotion.
-! /popup/promotion/*
-! /popup/promotion?
-! /popup/promotion_
+! /popup/promotion^
 /popwin_
 /ppvtrack.
 ! |http:*/pr_ad-
 ! |https:*/pr_ad-
 ! |http:*/pr_ad.
 ! |https:*/pr_ad.
-! |http:*/pr_ad/
-! |https:*/pr_ad/
-! |http:*/pr_ad?
-! |https:*/pr_ad?
-! |http:*/pr_ad_
-! |https:*/pr_ad_
-/pr_img-
-/pr_img.
-/pr_img/*
-/pr_img?
-/pr_img_
-/promo-
-/promo.
-/promo/*
-/promo?
-/promo_
+! |http:*/pr_ad^
+! |https:*/pr_ad^
 /promoPlayer.
-/promos/random-
-/promos/random.
-/promos/random/*
-/promos/random?
-/promos/random_
 /promoDisplay/*
 /promoted_content/*
-/promotion-
-/promotion.
-/promotion/*
-/promotion?
-/promotion_
-/promotions-
-/promotions.
-/promotions/*
-/promotions?
-/promotions_
 /publisher/*$third-party
 /Publishers/*$third-party
 /Publishers/*?random=
-/quantcast-
-/quantcast.
-/quantcast/*
-/quantcast?
-/quantcast_
 /rakulog.$script
-/random_banner-
-/random_banner.
-/random_banner/*
-/random_banner?
-/random_banner_
 /RealMedia/*
 ! /res/js/ad-
 ! /res/js/ad.
-! /res/js/ad/*
-! /res/js/ad?
-! /res/js/ad_
-/retarget-
-/retarget.
-/retarget/*
-/retarget?
-/retarget_
-/retargeting-
-/retargeting.
-/retargeting/*
-/retargeting?
-/retargeting_
+! /res/js/ad^
 ! /right-ad-
 ! /right-ad.
-! /right-ad/*
-! /right-ad?
-! /right-ad_
+! /right-ad^
 /rss.$script,subdocument
 /rss1.$script,subdocument
 /rss2.$script,subdocument
@@ -1960,34 +865,21 @@
 /sgtracker.$script
 ! /show_ad-
 ! /show_ad.
-! /show_ad/*
-! /show_ad?
-! /show_ad_
+! /show_ad^
 ! Commented out duplicated filters, Feb 26, 2012
 ! /show_ads-
 ! /show_ads.
-! /show_ads/*
-! /show_ads?
-! /show_ads_
+! /show_ads^
 ! /show_ads_impl.
 ! False positive: No google custom search result. 2011-08-18
 ! /show_afs_
-/showads-
-/showads.
-/showads/*
-/showads?
-/showads_
 ! /side_ad-
 ! /side_ad.
-! /side_ad/*
-! /side_ad?
-! /side_ad_
+! /side_ad^
 ! Commented out duplicated filters, Feb 26, 2012
 ! /side_ads-
 ! /side_ads.
-! /side_ads/*
-! /side_ads?
-! /side_ads_
+! /side_ads^
 /side_bnn.
 /side_bnn1.
 /side_bnn2.
@@ -1996,126 +888,47 @@
 /sites/richscripts/*
 /sitestratos/ss_
 ! /smart_ad/*
-/smartad-
-/smartad.
-/smartad/*
-/smartad?
-/smartad_
 /smate.html$subdocument
 /snare.js
 /sOmni.
 /spacer.*?$image
-/sponsor-
-/sponsor.
-/sponsor/*
-/sponsor?
-/sponsor_
-/sponsored-
-/sponsored.
-/sponsored/*
-/sponsored?
-/sponsored_
-/sponsors-
-/sponsors.
-/sponsors/*
-/sponsors?
-/sponsors_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! /stat-
 ! /stat.$domain=~ameblo.jp|~ameba.jp
-! /stat/*
-! /stat_
+! /stat^
 /statcounter.$~image
 /statisticsPlugin.
 /sujqori.
 /swf_flv_play_pre.$object
 ! /t2cn_ad.
 /tag?zone_
-/teaser-
-/teaser.
-/teaser/*
-/teaser?
-/teaser_
-/teasers-
-/teasers.
-/teasers/*
-/teasers?
-/teasers_
 ! /text_ad-
 ! /text_ad.
-! /text_ad/*
-! /text_ad?
-! /text_ad_
+! /text_ad^
 ! Commented out duplicated filters, Feb 26, 2012
 ! /text_ads-
 ! /text_ads.
-! /text_ads/*
-! /text_ads?
-! /text_ads_
-/textad-
-/textad.
-/textad/*
-/textad?
-/textad_
-/textads-
-/textads.
-/textads/*
-/textads?
-/textads_
-/tieup-
-/tieup.
-/tieup/*
-/tieup.
-/tieup.
+! /text_ads^
 ! Commented out duplicated filters, Feb 26, 2012
 ! /tii_ads.$script
 /tirjs2.$script
-/tizers-
-/tizers.
-/tizers/*
-/tizers?
-/tizers_
-/tizers2-
-/tizers2.
-/tizers2/*
-/tizers2?
-/tizers2_
 /toolbar/popup/*
 /top_bnn.
 /trackalyze.$script
 /trackingAffilies.
 /TrafficBroker/*
 /trans_pixel.
-/trialpay-
-/trialpay.
-/trialpay/*
-/trialpay?
-/trialpay_
-/trustclick-
-/trustclick.
-/trustclick/*
-/trustclick?
-/trustclick_
 ! /txt_ad-
 ! /txt_ad.
-! /txt_ad/*
-! /txt_ad?
-! /txt_ad_
+! /txt_ad^
 ! Commented out duplicated filters, Feb 26, 2012
 ! /txt_ads-
 ! /txt_ads.
-! /txt_ads/*
-! /txt_ads?
-! /txt_ads_
+! /txt_ads^
 /udctrack.
 ! Commented out duplicated filters, Feb 26, 2012
 ! /uds/api/ads/*
 /uds/stats?
-/urchin-
-/urchin.
-/urchin/*
-/urchin?
-/urchin_
 /userad.
 /utag.$script
 /view.gif?
@@ -2129,9 +942,7 @@
 /webtrends-
 ! Added to avoid false positives at logicool.co.jp . It does NOT have appropriate error handling. This end in "dcsMultiTrack is not defined "...
 /webtrends.$domain=~logicool.co.jp
-/webtrends/*
-/webtrends?
-/webtrends_
+/webtrends^
 /webtrendsasync.$script
 /webtrendsscript.$script
 /window_pop.$script
@@ -2154,8 +965,8 @@
 /zone?zid=
 ;click=
 ;clk=
-|http:*=ad&
-|https:*=ad&
+! |http:*=ad&
+! |https:*=ad&
 =adtext.
 =advertisement&
 =INSERT%5fRANDOM%5fNUMBER%5fHERE|
@@ -2167,31 +978,21 @@
 =INSERT_SECTION_CODE_HERE|
 =INSERT_SECTION_CODE_HERE&
 =OXM_
-|http:*?ad-
-|https:*?ad-
-|http:*?ad.
-|https:*?ad.
-|http:*?ad/
-|https:*?ad/
-|http:*?ad=
-|https:*?ad=
-|http:*?ad?
-|https:*?ad?
-|http:*?ad_
-|https:*?ad_
+! |http:*?ad-
+! |https:*?ad-
+! |http:*?ad.
+! |https:*?ad.
+! |http:*?ad^
+! |https:*?ad^
 ! ?ad_size=
 ! ?ad_type=
 ! ?ad_unit=
 ?adcall-
 ?adcall.
-?adcall/*
-?adcall?
-?adcall_
+?adcall^
 ?adconfig-
 ?adconfig.
-?adconfig/*
-?adconfig?
-?adconfig_
+?adconfig^
 ?adid=
 ?adpds_
 ?AdPlan=
@@ -2200,57 +1001,39 @@
 ?adsmarket=
 ?adsource-
 ?adsource.
-?adsource/
-?adsource?
-?adsource_
+?adsource^
 ?adthink-
 ?adthink.
-?adthink/
-?adthink?
-?adthink_
+?adthink^
 ?adthinkmedia-
 ?adthinkmedia.
-?adthinkmedia/
-?adthinkmedia?
-?adthinkmedia_
+?adthinkmedia^
 ?adunitid=
 ?adv=
 ?advertiser=
 ?advertstream-
 ?advertstream.
-?advertstream/
-?advertstream?
-?advertstream_
+?advertstream^
 ?advTile=
 ?adx-
 ?adx.
-?adx/*
-?adx?
-?adx_
+?adx^
 ?aff_id=
 ?affid=
 ?affiliate-
 ?affiliate.
-?affiliate/
-?affiliate?
-?affiliate_
+?affiliate^
 ?analytics-
 ?analytics.
-?analytics/
-?analytics?
-?analytics_
+?analytics^
 ?banner_link=
 ?banner_url=
 ?cellcast-media-
 ?cellcast-media.
-?cellcast-media/
-?cellcast-media?
-?cellcast-media_
+?cellcast-media^
 ?cellcastmedia-
 ?cellcastmedia.
-?cellcastmedia/
-?cellcastmedia?
-?cellcastmedia_
+?cellcastmedia^
 ?clickTAG=
 ?file=ads&
 ?id_promo=
@@ -2259,36 +1042,692 @@
 ?netafftrack=
 ?numerik-art-
 ?numerik-art.
-?numerik-art/
-?numerik-art?
-?numerik-art_
+?numerik-art^
 ?promo_type=
 ?referer=$image,script
 ?referrer=$third-party
 ?retarget-
 ?retarget.
-?retarget/
-?retarget_
+?retarget^
 ?retargeting-
 ?retargeting.
-?retargeting/
-?retargeting_
+?retargeting^
 ?trackerid=
 ?trackid=
 ! ?view=ad&
 ?yad=
 ?zone_id=
 ?zoneid=
+|http:*^ad-
+|https:*^ad-
+|http:*^ad.
+|https:*^ad.
+|http:*^ad^
+|https:*^ad^
+^ad1-
+^ad1.
+^ad1^
+^ad2-
+^ad2.
+^ad2^
+^ad3-
+^ad3.
+^ad3^
+^ad4-
+^ad4.
+^ad4^
+^ad5-
+^ad5.
+^ad5^
+^ad6-
+^ad6.
+^ad6^
+^ad7-
+^ad7.
+^ad7^
+^ad8-
+^ad8.
+^ad8^
+^ad9-
+^ad9.
+^ad9^
+^adbanner-
+^adbanner.
+^adbanner^
+^adbanners-
+^adbanners.
+^adbanners^
+^adcall-
+^adcall.
+^adcall^
+^adclick-
+^adclick.
+^adclick^
+^adclicks-
+^adclicks.
+^adclicks^
+^adclient-
+^adclient.
+^adclient^
+^adconfig-
+^adconfig.
+^adconfig^
+^adcontext-
+^adcontext.
+^adcontext^
+^adcontrol-
+^adcontrol.
+^adcontrol^
+^adcore-
+^adcore.
+^adcore^
+^adcount-
+^adcount.
+^adcount^
+^adcounter-
+^adcounter.
+^adcounter^
+^adscount-
+^adscount.
+^adscount^
+^adscounter-
+^adscounter.
+^adscounter^
+^adswf-
+^adswf.
+^adswf^
+^adframe-
+^adframe.
+^adframe^
+^adframes-
+^adframes.
+^adframes^
+^adFunction-
+^adFunction.
+^adFunction^
+^adgetter-
+^adgetter.
+^adgetter^
+^adiframe-
+^adiframe.
+^adiframe^
+^adimage-
+^adimage.
+^adimage^
+^adimages-
+^adimages.
+^adimages^
+^adinfo-
+^adinfo.
+^adinfo^
+^adjs-
+^adjs.
+^adjs^
+^adjs2-
+^adjs2.
+^adjs2^
+^adlayer-
+^adlayer.
+^adlayer^
+^adlayers-
+^adlayers.
+^adlayers^
+^adListing-
+^adListing.
+^adListing^
+^adListings-
+^adListings.
+^adListings^
+^adlog-
+^adlog.
+^adlog^
+^adnetwork-
+^adnetwork.
+^adnetwork^
+^adnetworks-
+^adnetworks.
+^adnetworks^
+^adparts-
+^adparts.
+^adparts^
+^adPlayer-
+^adPlayer.
+^adPlayer^
+^adplugin-
+^adplugin.
+^adplugin^
+^adplugins-
+^adplugins.
+^adplugins^
+^adriver-
+^adriver.
+^adriver^
+^ads-
+^ads.
+^ads^
+^ads2-
+^ads2.
+^ads2^
+^ads3-
+^ads3.
+^ads3^
+^ads4-
+^ads4.
+^ads4^
+^ads5-
+^ads5.
+^ads5^
+^ads6-
+^ads6.
+^ads6^
+^ads7-
+^ads7.
+^ads7^
+^ads8-
+^ads8.
+^ads8^
+^ads9-
+^ads9.
+^ads9^
+^adscontext-
+^adscontext.
+^adscontext^
+^adserving-
+^adserving.
+^adserving^
+^adscore-
+^adscore.
+^adscore^
+^adscores-
+^adscores.
+^adscores^
+^adsearch-
+^adsearch.
+^adsearch^
+^adsense-
+^adsense.
+^adsense^
+^adserve-
+^adserve.
+^adserve^
+^adserver-
+^adserver.
+^adserver^
+^adshow-
+^adshow.
+^adshow^
+^adsource-
+^adsource.
+^adsource^
+^adspace-
+^adspace.
+^adspace^
+^adspaces-
+^adspaces.
+^adspaces^
+^AdStatic-
+^AdStatic.
+^AdStatic^
+^AdStatics-
+^AdStatics.
+^AdStatics^
+^adstream-
+^adstream.
+^adstream^
+^adsystem-
+^adsystem.
+^adsystem^
+^adsv-
+^adsv.
+^adsv^
+^adsWrapper-
+^adsWrapper.
+^adsWrapper^
+^adtext-
+^adtext.
+^adtext^
+^adthink-
+^adthink.
+^adthink^
+^adthinkmedia-
+^adthinkmedia.
+^adthinkmedia^
+^adtrack-
+^adtrack.
+^adtrack^
+^adtracker-
+^adtracker.
+^adtracker^
+^adv-
+^adv.
+^adv^
+^adv1-
+^adv1.
+^adv1^
+^adv2-
+^adv2.
+^adv2^
+^adv3-
+^adv3.
+^adv3^
+^adv4-
+^adv4.
+^adv4^
+^adv5-
+^adv5.
+^adv5^
+^adv6-
+^adv6.
+^adv6^
+^adv7-
+^adv7.
+^adv7^
+^adv8-
+^adv8.
+^adv8^
+^adv9-
+^adv9.
+^adv9^
+^advert-
+^advert.
+^advert^
+^advertise-
+^advertise.
+^advertise^
+^advertisement-
+^advertisement.
+^advertisement^
+^AdvertisingModule-
+^AdvertisingModule.
+^AdvertisingModule^
+^advertstream-
+^advertstream.
+^advertstream^
+^adview-
+^adview.
+^adview^
+^adx-
+^adx.
+^adx^
+^adZone-
+^adZone.
+^adZone^
+^aff-$third-party
+^aff.$third-party
+^aff^$third-party
+^affiliate-
+^affiliate.
+^affiliate^
+^affiliatebanner-
+^affiliatebanner.
+^affiliatebanner^
+^affiliatebanners-
+^affiliatebanners.
+^affiliatebanners^
+^affiliates-$third-party
+^affiliates.$third-party
+^affiliates^$third-party
+^afiriate-$third-party
+^afiriate.$third-party
+^afiriate^$third-party
+^analysis-$third-party
+^analysis.$third-party
+^analysis^$third-party
+^analytics-
+^analytics.
+^analytics?
+^analytics_
+^appad-
+^appad.
+^appad^
+^appads-
+^appads.
+^appads^
+^banner-$script,object-subrequest,subdocument
+^banner.$script,object-subrequest,subdocument
+^banner^$script,object-subrequest,subdocument
+^banner_iframe-
+^banner_iframe.
+^banner_iframe^
+^banner_iframes-
+^banner_iframes.
+^banner_iframes^
+^banners-$script,object-subrequest,subdocument
+^banners.$script,object-subrequest,subdocument
+^banners^$script,object-subrequest,subdocument
+^beacon-
+^beacon.
+^beacon^
+^bnr^pr-
+^bnr^pr.
+^bnr^pr^
+^cellcast-media-
+^cellcast-media.
+^cellcast-media^
+^cellcastmedia-
+^cellcastmedia.
+^cellcastmedia^
+^chartbeat-
+^chartbeat.
+^chartbeat^
+^click_count-
+^click_count.
+^click_count^
+^clickheat-
+^clickheat.
+^clickheat^
+^clicklog-
+^clicklog.
+^clicklog^
+^clickstream-
+^clickstream.
+^clickstream^
+^clicktale-
+^clicktale.
+^clicktale^
+^comscore-
+^comscore.
+^comscore^
+^coremetrics-
+^coremetrics.
+^coremetrics^
+^customad-
+^customad.
+^customad^
+^customads-
+^customads.
+^customads^
+^doubleclick-
+^doubleclick.
+^doubleclick^
+^eas-$third-party
+^eas.$third-party
+^eas^$third-party
+^foresee-$script
+^foresee.$script
+^foresee^$script
+^framead-
+^framead.
+^framead^
+^gemius-
+^gemius.
+^gemius^
+^geopop-
+^geopop.
+^geopop^
+^get_banner-
+^get_banner.
+^get_banner^
+^getad-
+^getad.
+^getad^
+^getads-
+^getads.
+^getads^
+^getads^$popup
+^getAdv-
+^getAdv.
+^getAdv^
+^getAdvert-
+^getAdvert.
+^getAdvert^
+^getAdvertisement-
+^getAdvertisement.
+^getAdvertisement^
+^getAdverts-
+^getAdverts.
+^getAdverts^
+^getMyAd-
+^getMyAd.
+^getMyAd^
+^getSponsor-
+^getSponsor.
+^getSponsor^
+^getSponsors-
+^getSponsors.
+^getSponsors^
+^google_afc-
+^google_afc.
+^google_afc^
+^googlead-
+^googlead.
+^googlead^
+^googleadsense-
+^googleadsense.
+^googleadsense^
+^iframeAd-
+^iframeAd.
+^iframeAd^
+^image^1x1$third-party
+^image^ad120.$image
+^image^ad125.$image
+^image^ad160.$image
+^image^ad180.$image
+^image^ad234.$image
+^image^ad240.$image
+^image^ad250.$image
+^image^ad300.$image
+^image^ad336.$image
+^image^ad468.$image
+^image^ad720.$image
+^image^ad728.$image
+^image^ad88.$image
+^image^banner-$third-party
+^image^banner.$third-party
+^image^banner^$third-party
+^images^ad120.$image
+^images^ad125.$image
+^images^ad160.$image
+^images^ad180.$image
+^images^ad234.$image
+^images^ad240.$image
+^images^ad250.$image
+^images^ad300.$image
+^images^ad336.$image
+^images^ad468.$image
+^images^ad720.$image
+^images^ad728.$image
+^images^ad88.$image
+^images^banner-$third-party
+^images^banner.$third-party
+^images^banner^$third-party
+^images^banners-$third-party
+^images^banners.$third-party
+^images^banners^$third-party
+^img^1x1$third-party
+^img^ad120.$image
+^img^ad125.$image
+^img^ad160.$image
+^img^ad180.$image
+^img^ad234.$image
+^img^ad240.$image
+^img^ad250.$image
+^img^ad300.$image
+^img^ad336.$image
+^img^ad468.$image
+^img^ad720.$image
+^img^ad728.$image
+^img^ad88.$image
+^img^banner-$third-party
+^img^banner.$third-party
+^img^banner^$third-party
+^imgs^1x1$third-party
+^imgs^ad120.$image
+^imgs^ad125.$image
+^imgs^ad160.$image
+^imgs^ad180.$image
+^imgs^ad234.$image
+^imgs^ad240.$image
+^imgs^ad250.$image
+^imgs^ad300.$image
+^imgs^ad336.$image
+^imgs^ad468.$image
+^imgs^ad720.$image
+^imgs^ad728.$image
+^imgs^ad88.$image
+^imgs^banner-$third-party
+^imgs^banner.$third-party
+^imgs^banner^$third-party
+^informer-$third-party
+^informer.$third-party
+^informer^$third-party
+^intellitxt-
+^intellitxt.
+^intellitxt^
+^jlisting-
+^jlisting.
+^jlisting^
+^js^app^analytics^
+^js^banner-
+^js^banner.
+^js^banner^
+^js^omni-
+^js^omni.
+^js^omni^
+^kokoku-
+^kokoku.
+^kokoku^
+^koukoku-
+^koukoku.
+^koukoku^
+^linkad-
+^linkad.
+^linkad^
+^linkads-
+^linkads.
+^linkads^
+^LiveAds-
+^LiveAds.
+^LiveAds^
+^logimg-
+^logimg.
+^logimg^
+^mediaslot-
+^mediaslot.
+^mediaslot^
+^metrics-
+^metrics.
+^metrics^
+^mobilead-
+^mobilead.
+^mobilead^
+^mobileads-
+^mobileads.
+^mobileads^
+^mtrcs-$script
+^mtrcs.$script
+^mtrcs^$script
+^nielsen-
+^nielsen.
+^nielsen^
+^numerik-art-
+^numerik-art.
+^numerik-art^
+^omni-$script
+^omni.$script
+^omni^$script
+^omniture-
+^omniture.
+^omniture^
+^omniunih-
+^omniunih.
+^omniunih^
+^openx-
+^openx.
+^openx^
+^overture-
+^overture.
+^overture^
+^pagead-
+^pagead.
+^pagead^
+^payclick-
+^payclick.
+^payclick^
+^popunder-
+^popunder.
+^popunder^
+^popunder2-
+^popunder2.
+^popunder2^
+^pr_img-
+^pr_img.
+^pr_img^
+^promo-
+^promo.
+^promo^
+^promos^random-
+^promos^random.
+^promos^random^
+^promotion-
+^promotion.
+^promotion^
+^promotions-
+^promotions.
+^promotions^
+^quantcast-
+^quantcast.
+^quantcast^
+^random_banner-
+^random_banner.
+^random_banner^
+^retarget-
+^retarget.
+^retarget^
+^retargeting-
+^retargeting.
+^retargeting^
+^showads-
+^showads.
+^showads^
+^smartad-
+^smartad.
+^smartad^
+^sponsor-
+^sponsor.
+^sponsor^
+^sponsored-
+^sponsored.
+^sponsored^
+^sponsors-
+^sponsors.
+^sponsors^
+^teaser-
+^teaser.
+^teaser^
+^teasers-
+^teasers.
+^teasers^
+^textad-
+^textad.
+^textad^
+^textads-
+^textads.
+^textads^
+^tieup-
+^tieup.
+^tieup^
+^tizers-
+^tizers.
+^tizers^
+^tizers2-
+^tizers2.
+^tizers2^
+^trialpay-
+^trialpay.
+^trialpay^
+^trustclick-
+^trustclick.
+^trustclick^
+^urchin-
+^urchin.
+^urchin^
 |http:*_ad-
 |https:*_ad-
 |http:*_ad.
 |https:*_ad.
-|http:*_ad/
-|https:*_ad/
-|http:*_ad?
-|https:*_ad?
-|http:*_ad_
-|https:*_ad_
+|http:*_ad^
+|https:*_ad^
 ! _ad.jsp?
 ! _ad.jsp|
 ! _ad.ptv?
@@ -2297,131 +1736,84 @@
 ! _ad_loader.$script
 ! _ad_statistics-
 ! _ad_statistics.
-! _ad_statistics/
-! _ad_statistics?
+! _ad_statistics^
 ! _ad_statistics__adagency/
 _AdPlugin-
 _AdPlugin.
-_AdPlugin/
-_AdPlugin?
-_AdPlugin_
+_AdPlugin^
 _ads-
 _ads.
-_ads/
-_ads?
-_ads_
+_ads^
 _adsource-
 _adsource.
-_adsource/
-_adsource?
-_adsource_
+_adsource^
 _adthink-
 _adthink.
-_adthink/
-_adthink?
-_adthink_
+_adthink^
 _adthinkmedia-
 _adthinkmedia.
-_adthinkmedia/
-_adthinkmedia?
-_adthinkmedia_
-_adv_img/
-_adv_imgs/
+_adthinkmedia^
+_adv_img^
+_adv_imgs^
 _advertstream-
 _advertstream.
-_advertstream/
-_advertstream?
-_advertstream_
+_advertstream^
 _affiliate-
 _affiliate.
-_affiliate/
-_affiliate?
-_affiliate_
+_affiliate^
 _amazontcg_
 _analytics-
 _analytics.
-_analytics/
-_analytics?
-_analytics_
+_analytics^
 _beacon-
 _beacon.
-_beacon/
-_beacon?
-_beacon_
+_beacon^
 _cellcast-media-
 _cellcast-media.
-_cellcast-media/
-_cellcast-media?
-_cellcast-media_
+_cellcast-media^
 _cellcastmedia-
 _cellcastmedia.
-_cellcastmedia/
-_cellcastmedia?
-_cellcastmedia_
+_cellcastmedia^
 _clickforce_
 _comscore-
 _comscore.
-_comscore/
-_comscore?
-_comscore_
+_comscore^
 _customads_
 _google_afc-
 _google_afc.
-_google_afc/
-_google_afc?
-_google_afc_
+_google_afc^
 _gtracking.$script
 _iframeBanner-
 _iframeBanner.
-_iframeBanner/
-_iframeBanner?
-_iframeBanner_
+_iframeBanner^
 _metrics-
 _metrics.
-_metrics/
-_metrics?
-_metrics_
+_metrics^
 _numerik-art-
 _numerik-art.
-_numerik-art/
-_numerik-art?
-_numerik-art_
+_numerik-art^
 _omniture-
 _omniture.
-_omniture/
-_omniture?
-_omniture_
+_omniture^
 _overture-
 _overture.
-_overture/
-_overture?
-_overture_
+_overture^
 ! _request_ad.
 _retarget-
 _retarget.
-_retarget/
-_retarget?
-_retarget_
+_retarget^
 _retargeting-
 _retargeting.
-_retargeting/
-_retargeting?
-_retargeting_
+_retargeting^
 _showad-
 _showad.
-_showad/
-_showad?
-_showad_
+_showad^
 _showads-
 _showads.
-_showads/
-_showads?
-_showads_
+_showads^
 _sponsor_
 _sponsor.
-_sponsor/
-_sponsor?
-_sponsor_
+_sponsor^
 _sponser.
 _sponser1.
 _sponser2.
@@ -2434,26 +1826,17 @@ _sponser8.
 _sponser9.
 _sponsored-
 _sponsored.
-_sponsored/
-_sponsored?
-_sponsored_
+_sponsored^
 ! Commented out to avoid false positives on static: 2011-09-07
 ! _stat-
 ! _stat.
-! _stat/
-! _stat_
+! _stat^
 _teaser-
 _teaser.
-_teaser/
-_teaser?
-_teaser_
-_teaser|
+_teaser^
 _teasers-
 _teasers.
-_teasers/
-_teasers?
-_teasers_
-_teasers|
+_teasers^
 ||ad-cdn.
 |http://ad.
 |https://ad.
