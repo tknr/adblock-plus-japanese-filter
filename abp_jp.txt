@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: xz7nHOyXqhsHi7ZcHeQqKQ
-! Last modified: 2012-05-29 02:34:05 JST
+! Checksum: 1zcvw8exYDuXQAoHM3aP6w
+! Last modified: 2012-05-29 23:08:02 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -189,6 +189,8 @@
 ! |https:*&ad.
 ! |http:*&ad^
 ! |https:*&ad^
+! |http:*&ad_
+! |https:*&ad_
 ! &ad_id=CRN_
 ! &ad_size=
 ! &ad_type=
@@ -196,9 +198,11 @@
 &adcall-
 &adcall.
 &adcall^
+&adcall_
 &adconfig-
 &adconfig.
 &adconfig^
+&adconfig_
 &adid=
 &admeld_
 &adpds_
@@ -209,6 +213,7 @@
 &adsource-
 &adsource.
 &adsource^
+&adsource_
 &adSpace=
 &adtype=
 &adv=
@@ -217,6 +222,7 @@
 &adx-
 &adx.
 &adx^
+&adx_
 &aff_id=
 &affid=
 &affiliate=$popup
@@ -249,74 +255,96 @@
 |https:*-ad.
 |http:*-ad^
 |https:*-ad^
+|http:*-ad_
+|https:*-ad_
 -ads-
 -ads.$domain=~retweet-ads.net
 -ads^
+-ads_
 -adthink-
 -adthink.
 -adthink-
 -adthinkmedia-
 -adthinkmedia.
 -adthinkmedia^
+-adthinkmedia_
 -advert-
 -advert.
 -advert^
+-advert_
 -advertstream-
 -advertstream.
 -advertstream^
+-advertstream_
 -affiliate-
 -affiliate.
 -affiliate^
+-affiliate_
 -analytics-
 ! Commented out because many false positives happen with "http://www.google-analytics.com/ga.js", Jan 28, 2012
 ! -analytics.
 -analytics^
+-analytics_
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
 -beacon-
 -beacon.
 -beacon^
+-beacon_
 -beacons-
 -beacons.
 -beacons^
+-beacons_
 -cellcast-media-
 -cellcast-media.
 -cellcast-media^
+-cellcast-media_
 -cellcastmedia-
 -cellcastmedia.
 -cellcastmedia^
+-cellcastmedia_
 -comscore-
 -comscore.
 -comscore^
+-comscore_
 -linkad-
 -linkad.
 -linkad^
+-linkad_
 -linkads-
 -linkads.
 -linkads^
+-linkads_
 -metrics-
 -metrics.
 -metrics^
+-metrics_
 -numerik-art-
 -numerik-art.
 -numerik-art^
+-numerik-art_
 -PopUnder-
 -PopUnder.
 -PopUnder^
+-PopUnder_
 -retarget-
 -retarget.
 -retarget^
+-retarget_
 -retargeting-
 -retargeting.
 -retargeting^
+-retargeting_
 -sponsored-
 -sponsored.
 -sponsored^
+-sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! -stat-
 ! -stat.
 ! -stat^
+! -stat_
 -textad.
 -utm.$script
 |http:*.ad-
@@ -326,6 +354,8 @@
 ! |https:*.ad.
 |http:*.ad^
 |https:*.ad^
+|http:*.ad_
+|https:*.ad_
 .adInfo.
 .adriver.
 ! Preparing to move to whitelist 2011-12-07
@@ -336,31 +366,40 @@
 .adthink-
 .adthink.
 .adthink^
+.adthink_
 .adthinkmedia-
 .adthinkmedia.
 .adthinkmedia^
+.adthinkmedia_
 .advertstream-
 .advertstream.
 .advertstream^
+.advertstream_
 .affiliate-
 .affiliate.
 .affiliate^
+.affiliate_
 .analytics-
 .analytics.
 .analytics^
+.analytics_
 .beacon-
 .beacon.
 .beacon^
+.beacon_
 .beacons-
 .beacons.
 .beacons^
+.beacons_
 .ca.html|
 .cellcast-media-
 .cellcast-media.
 .cellcast-media^
+.cellcast-media_
 .cellcastmedia-
 .cellcastmedia.
 .cellcastmedia^
+.cellcastmedia_
 .cherry-chat.
 .histats.$third-party
 .impact-ad.jp/rc/
@@ -371,6 +410,7 @@
 .metrics-
 .metrics.
 .metrics^
+.metrics_
 .mobifiesta.
 .mobifun.
 .movifiesta.
@@ -378,6 +418,7 @@
 .numerik-art-
 .numerik-art.
 .numerik-art^
+.numerik-art_
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
@@ -385,16 +426,20 @@
 .retarget-
 .retarget.
 .retarget^
+.retarget_
 .retargeting-
 .retargeting.
 .retargeting^
+.retargeting_
 .sponsored-
 .sponsored.
 .sponsored^
+.sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! .stat-
 ! .stat.
 ! .stat^
+! .stat_
 .TieupNotification.
 .vipmobile.
 ! false positive at lifehacker.com 2011-09-30
@@ -428,37 +473,48 @@
 ! /ad/banner-
 ! /ad/banner.
 ! /ad/banner^
+! /ad/banner_
 ! /ad/click.
 ! /ad/control-
 ! /ad/control.
 ! /ad/control^
+! /ad/control_
 ! /ad/iframe-
 ! /ad/iframe.
 ! /ad/iframe^
+! /ad/iframe_
 ! /ad/iframes-
 ! /ad/iframes.
 ! /ad/iframes^
+! /ad/iframes_
 ! /ad/image-
 ! /ad/image.
 ! /ad/image^
+! /ad/image_
 ! /ad/images-
 ! /ad/images.
 ! /ad/images^
+! /ad/images_
 ! /ad/index-
 ! /ad/index.
 ! /ad/index^
+! /ad/index_
 ! /ad/load_ad-
 ! /ad/load_ad.
 ! /ad/load_ad^
+! /ad/load_ad_
 ! /ad/pr_img-
 ! /ad/pr_img.
 ! /ad/pr_img^
+! /ad/pr_img_
 ! /ad/preview-
 ! /ad/preview.
 ! /ad/preview^
+! /ad/preview_
 ! /ad/show-
 ! /ad/show.
 ! /ad/show^
+! /ad/show_
 ! /ad?act=
 ! /ad?loc=
 ! /ad_agency-
@@ -582,16 +638,20 @@
 ! /ads-common-
 ! /ads-common.
 ! /ads-common^
+! /ads-common_
 ! /ads-iframe-
 ! /ads-iframe.
 ! /ads-iframe^
+! /ads-iframe_
 ! /ads-iframes-
 ! /ads-iframes.
 ! /ads-iframes^
+! /ads-iframes_
 ! Preparing to move to whitelist 2011-12-07
 ! /adsense-$domain=~google.com
 ! /adsense.$domain=~google.com
 ! /adsense^$domain=~google.com
+! /adsense_$domain=~google.com
 ! Domain-restricting options have moved to the whitelist 2011-12-07
 /adstay?
 /ADTECH;
@@ -631,6 +691,7 @@
 |http:*^bn_pr-
 |http:*^bn_pr.
 |http:*^bn_pr^
+|http:*^bn_pr_
 /bnr.$script
 /byads/*
 /camp_banner/bnr_
@@ -638,6 +699,7 @@
 ! /cgi-bin/ad-
 ! /cgi-bin/ad.
 ! /cgi-bin/ad^
+! /cgi-bin/ad_
 /cgi-bin/webtrend/*
 /click/body.php?id=*&hash=$popup
 /cnet_scode.
@@ -684,6 +746,7 @@
 ! /google_ads-
 ! /google_ads.
 ! /google_ads^
+! /google_ads_
 /google_analytics.
 /google300.$script
 /google728.$script
@@ -699,36 +762,12 @@
 /iframe_btn_banner?
 /iframe_cm_
 /image.ng/*
-! ^image^ad-
-! ^image^ad.
-! ^image^ad^
-! Commented out duplicated filters, Feb 26, 2012
-! ^image^ads-
-! ^image^ads^
-! ^images^ad-
-! ^images^ad.
-! ^images^ad^
-! Commented out duplicated filters, Feb 26, 2012
-! ^images^ads-
-! ^images^ads^
 /images/lansweeper.$image
 /images/SE2Banner.$image
-! ^img^ad-
-! ^img^ad.
-! ^img^ad^
-! Commented out duplicated filters, Feb 26, 2012
-! ^img^ads-
-! ^img^ads^
 /img/p_banner.
 /img/p_banner/*
 /img/pr_.$domain=diamond.jp
 /img/watch/tag_sync/*
-! ^imgs^ad-
-! ^imgs^ad.
-! ^imgs^ad^
-! Commented out duplicated filters, Feb 26, 2012
-! ^imgs^ads-
-! ^imgs^ads^
 ! Merged into ".php?zoneid="
 ! /iml.php?zoneid=
 /imp?Z=
@@ -741,9 +780,6 @@
 /ivw/CP/*
 |http:*/js.ng/
 |https:*/js.ng/
-! ^js^ad-
-! ^js^ad.
-! ^js^ad^
 |http:*/js/dw.js
 |https:*/js/dw.js
 /js/google_banner.
@@ -767,6 +803,7 @@
 ! /live_ad-
 ! /live_ad.
 ! /live_ad^
+! /live_ad_
 /load_lcs.$script
 /log1.
 /logwrite.$image
@@ -815,6 +852,7 @@
 ! /popup/promotion-
 ! /popup/promotion.
 ! /popup/promotion^
+! /popup/promotion_
 /popwin_
 /ppvtrack.
 ! |http:*/pr_ad-
@@ -823,6 +861,8 @@
 ! |https:*/pr_ad.
 ! |http:*/pr_ad^
 ! |https:*/pr_ad^
+! |http:*/pr_ad_
+! |https:*/pr_ad_
 /promoPlayer.
 /promoDisplay/*
 /promoted_content/*
@@ -834,9 +874,11 @@
 ! /res/js/ad-
 ! /res/js/ad.
 ! /res/js/ad^
+! /res/js/ad_
 ! /right-ad-
 ! /right-ad.
 ! /right-ad^
+! /right-ad_
 /rss.$script,subdocument
 /rss1.$script,subdocument
 /rss2.$script,subdocument
@@ -866,20 +908,24 @@
 ! /show_ad-
 ! /show_ad.
 ! /show_ad^
+! /show_ad_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /show_ads-
 ! /show_ads.
 ! /show_ads^
+! /show_ads_
 ! /show_ads_impl.
 ! False positive: No google custom search result. 2011-08-18
 ! /show_afs_
 ! /side_ad-
 ! /side_ad.
 ! /side_ad^
+! /side_ad_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /side_ads-
 ! /side_ads.
 ! /side_ads^
+! /side_ads_
 /side_bnn.
 /side_bnn1.
 /side_bnn2.
@@ -896,6 +942,7 @@
 ! /stat-
 ! /stat.$domain=~ameblo.jp|~ameba.jp
 ! /stat^
+! /stat_
 /statcounter.$~image
 /statisticsPlugin.
 /sujqori.
@@ -905,10 +952,12 @@
 ! /text_ad-
 ! /text_ad.
 ! /text_ad^
+! /text_ad_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /text_ads-
 ! /text_ads.
 ! /text_ads^
+! /text_ads_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /tii_ads.$script
 /tirjs2.$script
@@ -921,10 +970,12 @@
 ! /txt_ad-
 ! /txt_ad.
 ! /txt_ad^
+! /txt_ad_
 ! Commented out duplicated filters, Feb 26, 2012
 ! /txt_ads-
 ! /txt_ads.
 ! /txt_ads^
+! /txt_ads_
 /udctrack.
 ! Commented out duplicated filters, Feb 26, 2012
 ! /uds/api/ads/*
@@ -943,6 +994,7 @@
 ! Added to avoid false positives at logicool.co.jp . It does NOT have appropriate error handling. This end in "dcsMultiTrack is not defined "...
 /webtrends.$domain=~logicool.co.jp
 /webtrends^
+/webtrends_
 /webtrendsasync.$script
 /webtrendsscript.$script
 /window_pop.$script
@@ -984,15 +1036,19 @@
 ! |https:*?ad.
 ! |http:*?ad^
 ! |https:*?ad^
+! |http:*?ad_
+! |https:*?ad_
 ! ?ad_size=
 ! ?ad_type=
 ! ?ad_unit=
 ?adcall-
 ?adcall.
 ?adcall^
+?adcall_
 ?adconfig-
 ?adconfig.
 ?adconfig^
+?adconfig_
 ?adid=
 ?adpds_
 ?AdPlan=
@@ -1002,38 +1058,47 @@
 ?adsource-
 ?adsource.
 ?adsource^
+?adsource_
 ?adthink-
 ?adthink.
 ?adthink^
+?adthink_
 ?adthinkmedia-
 ?adthinkmedia.
 ?adthinkmedia^
+?adthinkmedia_
 ?adunitid=
 ?adv=
 ?advertiser=
 ?advertstream-
 ?advertstream.
 ?advertstream^
+?advertstream_
 ?advTile=
 ?adx-
 ?adx.
 ?adx^
+?adx_
 ?aff_id=
 ?affid=
 ?affiliate-
 ?affiliate.
 ?affiliate^
+?affiliate_
 ?analytics-
 ?analytics.
 ?analytics^
+?analytics_
 ?banner_link=
 ?banner_url=
 ?cellcast-media-
 ?cellcast-media.
 ?cellcast-media^
+?cellcast-media_
 ?cellcastmedia-
 ?cellcastmedia.
 ?cellcastmedia^
+?cellcastmedia_
 ?clickTAG=
 ?file=ads&
 ?id_promo=
@@ -1043,15 +1108,18 @@
 ?numerik-art-
 ?numerik-art.
 ?numerik-art^
+?numerik-art_
 ?promo_type=
 ?referer=$image,script
 ?referrer=$third-party
 ?retarget-
 ?retarget.
 ?retarget^
+?retarget_
 ?retargeting-
 ?retargeting.
 ?retargeting^
+?retargeting_
 ?trackerid=
 ?trackid=
 ! ?view=ad&
@@ -1064,315 +1132,420 @@
 |https:*^ad.
 |http:*^ad^
 |https:*^ad^
+|http:*^ad_
+|https:*^ad_
 ^ad1-
 ^ad1.
 ^ad1^
+^ad1_
 ^ad2-
 ^ad2.
 ^ad2^
+^ad2_
 ^ad3-
 ^ad3.
 ^ad3^
+^ad3_
 ^ad4-
 ^ad4.
 ^ad4^
+^ad4_
 ^ad5-
 ^ad5.
 ^ad5^
+^ad5_
 ^ad6-
 ^ad6.
 ^ad6^
+^ad6_
 ^ad7-
 ^ad7.
 ^ad7^
+^ad7_
 ^ad8-
 ^ad8.
 ^ad8^
+^ad8_
 ^ad9-
 ^ad9.
 ^ad9^
+^ad9_
 ^adbanner-
 ^adbanner.
 ^adbanner^
+^adbanner_
 ^adbanners-
 ^adbanners.
 ^adbanners^
+^adbanners_
 ^adcall-
 ^adcall.
 ^adcall^
+^adcall_
 ^adclick-
 ^adclick.
 ^adclick^
+^adclick_
 ^adclicks-
 ^adclicks.
 ^adclicks^
+^adclicks_
 ^adclient-
 ^adclient.
 ^adclient^
+^adclient_
 ^adconfig-
 ^adconfig.
 ^adconfig^
+^adconfig_
 ^adcontext-
 ^adcontext.
 ^adcontext^
+^adcontext_
 ^adcontrol-
 ^adcontrol.
 ^adcontrol^
+^adcontrol_
 ^adcore-
 ^adcore.
 ^adcore^
+^adcore_
 ^adcount-
 ^adcount.
 ^adcount^
+^adcount_
 ^adcounter-
 ^adcounter.
 ^adcounter^
+^adcounter_
 ^adscount-
 ^adscount.
 ^adscount^
+^adscount_
 ^adscounter-
 ^adscounter.
 ^adscounter^
+^adscounter_
 ^adswf-
 ^adswf.
 ^adswf^
+^adswf_
 ^adframe-
 ^adframe.
 ^adframe^
+^adframe_
 ^adframes-
 ^adframes.
 ^adframes^
+^adframes_
 ^adFunction-
 ^adFunction.
 ^adFunction^
+^adFunction_
 ^adgetter-
 ^adgetter.
 ^adgetter^
+^adgetter_
 ^adiframe-
 ^adiframe.
 ^adiframe^
+^adiframe_
 ^adimage-
 ^adimage.
 ^adimage^
+^adimage_
 ^adimages-
 ^adimages.
 ^adimages^
+^adimages_
 ^adinfo-
 ^adinfo.
 ^adinfo^
+^adinfo_
 ^adjs-
 ^adjs.
 ^adjs^
+^adjs_
 ^adjs2-
 ^adjs2.
 ^adjs2^
+^adjs2_
 ^adlayer-
 ^adlayer.
 ^adlayer^
+^adlayer_
 ^adlayers-
 ^adlayers.
 ^adlayers^
+^adlayers_
 ^adListing-
 ^adListing.
 ^adListing^
+^adListing_
 ^adListings-
 ^adListings.
 ^adListings^
+^adListings_
 ^adlog-
 ^adlog.
 ^adlog^
+^adlog_
 ^adnetwork-
 ^adnetwork.
 ^adnetwork^
+^adnetwork_
 ^adnetworks-
 ^adnetworks.
 ^adnetworks^
+^adnetworks_
 ^adparts-
 ^adparts.
 ^adparts^
+^adparts_
 ^adPlayer-
 ^adPlayer.
 ^adPlayer^
+^adPlayer_
 ^adplugin-
 ^adplugin.
 ^adplugin^
+^adplugin_
 ^adplugins-
 ^adplugins.
 ^adplugins^
+^adplugins_
 ^adriver-
 ^adriver.
 ^adriver^
+^adriver_
 ^ads-
 ^ads.
 ^ads^
+^ads_
 ^ads2-
 ^ads2.
 ^ads2^
+^ads2_
 ^ads3-
 ^ads3.
 ^ads3^
+^ads3_
 ^ads4-
 ^ads4.
 ^ads4^
+^ads4_
 ^ads5-
 ^ads5.
 ^ads5^
+^ads5_
 ^ads6-
 ^ads6.
 ^ads6^
+^ads6_
 ^ads7-
 ^ads7.
 ^ads7^
+^ads7_
 ^ads8-
 ^ads8.
 ^ads8^
+^ads8_
 ^ads9-
 ^ads9.
 ^ads9^
+^ads9_
 ^adscontext-
 ^adscontext.
 ^adscontext^
+^adscontext_
 ^adserving-
 ^adserving.
 ^adserving^
+^adserving_
 ^adscore-
 ^adscore.
 ^adscore^
+^adscore_
 ^adscores-
 ^adscores.
 ^adscores^
+^adscores_
 ^adsearch-
 ^adsearch.
 ^adsearch^
+^adsearch_
 ^adsense-
 ^adsense.
 ^adsense^
+^adsense_
 ^adserve-
 ^adserve.
 ^adserve^
+^adserve_
 ^adserver-
 ^adserver.
 ^adserver^
+^adserver_
 ^adshow-
 ^adshow.
 ^adshow^
+^adshow_
 ^adsource-
 ^adsource.
 ^adsource^
+^adsource_
 ^adspace-
 ^adspace.
 ^adspace^
+^adspace_
 ^adspaces-
 ^adspaces.
 ^adspaces^
+^adspaces_
 ^AdStatic-
 ^AdStatic.
 ^AdStatic^
+^AdStatic_
 ^AdStatics-
 ^AdStatics.
 ^AdStatics^
+^AdStatics_
 ^adstream-
 ^adstream.
 ^adstream^
+^adstream_
 ^adsystem-
 ^adsystem.
 ^adsystem^
+^adsystem_
 ^adsv-
 ^adsv.
 ^adsv^
+^adsv_
 ^adsWrapper-
 ^adsWrapper.
 ^adsWrapper^
+^adsWrapper_
 ^adtext-
 ^adtext.
 ^adtext^
+^adtext_
 ^adthink-
 ^adthink.
 ^adthink^
+^adthink_
 ^adthinkmedia-
 ^adthinkmedia.
 ^adthinkmedia^
+^adthinkmedia_
 ^adtrack-
 ^adtrack.
 ^adtrack^
+^adtrack_
 ^adtracker-
 ^adtracker.
 ^adtracker^
+^adtracker_
 ^adv-
 ^adv.
 ^adv^
+^adv_
 ^adv1-
 ^adv1.
 ^adv1^
+^adv1_
 ^adv2-
 ^adv2.
 ^adv2^
+^adv2_
 ^adv3-
 ^adv3.
 ^adv3^
+^adv3_
 ^adv4-
 ^adv4.
 ^adv4^
+^adv4_
 ^adv5-
 ^adv5.
 ^adv5^
+^adv5_
 ^adv6-
 ^adv6.
 ^adv6^
+^adv6_
 ^adv7-
 ^adv7.
 ^adv7^
+^adv7_
 ^adv8-
 ^adv8.
 ^adv8^
+^adv8_
 ^adv9-
 ^adv9.
 ^adv9^
+^adv9_
 ^advert-
 ^advert.
 ^advert^
+^advert_
 ^advertise-
 ^advertise.
 ^advertise^
+^advertise_
 ^advertisement-
 ^advertisement.
 ^advertisement^
+^advertisement_
 ^AdvertisingModule-
 ^AdvertisingModule.
 ^AdvertisingModule^
+^AdvertisingModule_
 ^advertstream-
 ^advertstream.
 ^advertstream^
+^advertstream_
 ^adview-
 ^adview.
 ^adview^
+^adview_
 ^adx-
 ^adx.
 ^adx^
+^adx_
 ^adZone-
 ^adZone.
 ^adZone^
+^adZone_
 ^aff-$third-party
 ^aff.$third-party
 ^aff^$third-party
+^aff_$third-party
 ^affiliate-
 ^affiliate.
 ^affiliate^
+^affiliate_
 ^affiliatebanner-
 ^affiliatebanner.
 ^affiliatebanner^
+^affiliatebanner_
 ^affiliatebanners-
 ^affiliatebanners.
 ^affiliatebanners^
+^affiliatebanners_
 ^affiliates-$third-party
 ^affiliates.$third-party
 ^affiliates^$third-party
+^affiliates_$third-party
 ^afiriate-$third-party
 ^afiriate.$third-party
 ^afiriate^$third-party
+^afiriate_$third-party
 ^analysis-$third-party
 ^analysis.$third-party
 ^analysis^$third-party
+^analysis_$third-party
 ^analytics-
 ^analytics.
 ^analytics?
@@ -1380,125 +1553,169 @@
 ^appad-
 ^appad.
 ^appad^
+^appad_
 ^appads-
 ^appads.
 ^appads^
+^appads_
 ^banner-$script,object-subrequest,subdocument
 ^banner.$script,object-subrequest,subdocument
 ^banner^$script,object-subrequest,subdocument
+^banner_$script,object-subrequest,subdocument
 ^banner_iframe-
 ^banner_iframe.
 ^banner_iframe^
+^banner_iframe_
 ^banner_iframes-
 ^banner_iframes.
 ^banner_iframes^
+^banner_iframes_
 ^banners-$script,object-subrequest,subdocument
 ^banners.$script,object-subrequest,subdocument
 ^banners^$script,object-subrequest,subdocument
+^banners_$script,object-subrequest,subdocument
 ^beacon-
 ^beacon.
 ^beacon^
+^beacon_
 ^bnr^pr-
 ^bnr^pr.
 ^bnr^pr^
+^bnr^pr_
 ^cellcast-media-
 ^cellcast-media.
 ^cellcast-media^
+^cellcast-media_
 ^cellcastmedia-
 ^cellcastmedia.
 ^cellcastmedia^
+^cellcastmedia_
 ^chartbeat-
 ^chartbeat.
 ^chartbeat^
+^chartbeat_
 ^click_count-
 ^click_count.
 ^click_count^
+^click_count_
 ^clickheat-
 ^clickheat.
 ^clickheat^
+^clickheat_
 ^clicklog-
 ^clicklog.
 ^clicklog^
+^clicklog_
 ^clickstream-
 ^clickstream.
 ^clickstream^
+^clickstream_
 ^clicktale-
 ^clicktale.
 ^clicktale^
+^clicktale_
 ^comscore-
 ^comscore.
 ^comscore^
+^comscore_
 ^coremetrics-
 ^coremetrics.
 ^coremetrics^
+^coremetrics_
 ^customad-
 ^customad.
 ^customad^
+^customad_
 ^customads-
 ^customads.
 ^customads^
+^customads_
 ^doubleclick-
 ^doubleclick.
 ^doubleclick^
+^doubleclick_
 ^eas-$third-party
 ^eas.$third-party
 ^eas^$third-party
+^eas_$third-party
 ^foresee-$script
 ^foresee.$script
 ^foresee^$script
+^foresee_$script
 ^framead-
 ^framead.
 ^framead^
+^framead_
 ^gemius-
 ^gemius.
 ^gemius^
+^gemius_
 ^geopop-
 ^geopop.
 ^geopop^
+^geopop_
 ^get_banner-
 ^get_banner.
 ^get_banner^
+^get_banner_
 ^getad-
 ^getad.
 ^getad^
+^getad_
 ^getads-
 ^getads.
 ^getads^
 ^getads^$popup
+^getads_
 ^getAdv-
 ^getAdv.
 ^getAdv^
+^getAdv_
 ^getAdvert-
 ^getAdvert.
 ^getAdvert^
+^getAdvert_
 ^getAdvertisement-
 ^getAdvertisement.
 ^getAdvertisement^
+^getAdvertisement_
 ^getAdverts-
 ^getAdverts.
 ^getAdverts^
+^getAdverts_
 ^getMyAd-
 ^getMyAd.
 ^getMyAd^
+^getMyAd_
 ^getSponsor-
 ^getSponsor.
 ^getSponsor^
+^getSponsor_
 ^getSponsors-
 ^getSponsors.
 ^getSponsors^
+^getSponsors_
 ^google_afc-
 ^google_afc.
 ^google_afc^
+^google_afc_
 ^googlead-
 ^googlead.
 ^googlead^
+^googlead_
 ^googleadsense-
 ^googleadsense.
 ^googleadsense^
+^googleadsense_
 ^iframeAd-
 ^iframeAd.
 ^iframeAd^
+^iframeAd_
 ^image^1x1$third-party
+! ^image^ad-
+! ^image^ad.
+! ^image^ad^
+! ^image^ad_
 ^image^ad120.$image
 ^image^ad125.$image
 ^image^ad160.$image
@@ -1512,9 +1729,18 @@
 ^image^ad720.$image
 ^image^ad728.$image
 ^image^ad88.$image
+! Commented out duplicated filters, Feb 26, 2012
+! ^image^ads-
+! ^image^ads^
+! ^image^ads_
 ^image^banner-$third-party
 ^image^banner.$third-party
 ^image^banner^$third-party
+^image^banner_$third-party
+! ^images^ad-
+! ^images^ad.
+! ^images^ad^
+! ^images^ad_
 ^images^ad120.$image
 ^images^ad125.$image
 ^images^ad160.$image
@@ -1528,13 +1754,23 @@
 ^images^ad720.$image
 ^images^ad728.$image
 ^images^ad88.$image
+! Commented out duplicated filters, Feb 26, 2012
+! ^images^ads-
+! ^images^ads^
+! ^images^ads_
 ^images^banner-$third-party
 ^images^banner.$third-party
 ^images^banner^$third-party
+^images^banner_$third-party
 ^images^banners-$third-party
 ^images^banners.$third-party
 ^images^banners^$third-party
+^images^banners_$third-party
 ^img^1x1$third-party
+! ^img^ad-
+! ^img^ad.
+! ^img^ad^
+! ^img^ad_
 ^img^ad120.$image
 ^img^ad125.$image
 ^img^ad160.$image
@@ -1548,10 +1784,19 @@
 ^img^ad720.$image
 ^img^ad728.$image
 ^img^ad88.$image
+! Commented out duplicated filters, Feb 26, 2012
+! ^img^ads-
+! ^img^ads^
+! ^img^ads_
 ^img^banner-$third-party
 ^img^banner.$third-party
 ^img^banner^$third-party
+^img^banner_$third-party
 ^imgs^1x1$third-party
+! ^imgs^ad-
+! ^imgs^ad.
+! ^imgs^ad^
+! ^imgs^ad_
 ^imgs^ad120.$image
 ^imgs^ad125.$image
 ^imgs^ad160.$image
@@ -1565,169 +1810,231 @@
 ^imgs^ad720.$image
 ^imgs^ad728.$image
 ^imgs^ad88.$image
+! Commented out duplicated filters, Feb 26, 2012
+! ^imgs^ads-
+! ^imgs^ads^
+! ^imgs^ads_
 ^imgs^banner-$third-party
 ^imgs^banner.$third-party
 ^imgs^banner^$third-party
+^imgs^banner_$third-party
 ^informer-$third-party
 ^informer.$third-party
 ^informer^$third-party
+^informer_$third-party
 ^intellitxt-
 ^intellitxt.
 ^intellitxt^
+^intellitxt_
 ^jlisting-
 ^jlisting.
 ^jlisting^
+^jlisting_
+! ^js^ad-
+! ^js^ad.
+! ^js^ad^
+! ^js^ad_
 ^js^app^analytics^
 ^js^banner-
 ^js^banner.
 ^js^banner^
+^js^banner_
 ^js^omni-
 ^js^omni.
 ^js^omni^
+^js^omni_
 ^kokoku-
 ^kokoku.
 ^kokoku^
+^kokoku_
 ^koukoku-
 ^koukoku.
 ^koukoku^
+^koukoku_
 ^linkad-
 ^linkad.
 ^linkad^
+^linkad_
 ^linkads-
 ^linkads.
 ^linkads^
+^linkads_
 ^LiveAds-
 ^LiveAds.
 ^LiveAds^
+^LiveAds_
 ^logimg-
 ^logimg.
 ^logimg^
+^logimg_
 ^mediaslot-
 ^mediaslot.
 ^mediaslot^
+^mediaslot_
 ^metrics-
 ^metrics.
 ^metrics^
+^metrics_
 ^mobilead-
 ^mobilead.
 ^mobilead^
+^mobilead_
 ^mobileads-
 ^mobileads.
 ^mobileads^
+^mobileads_
 ^mtrcs-$script
 ^mtrcs.$script
 ^mtrcs^$script
+^mtrcs_$script
 ^nielsen-
 ^nielsen.
 ^nielsen^
+^nielsen_
 ^numerik-art-
 ^numerik-art.
 ^numerik-art^
+^numerik-art_
 ^omni-$script
 ^omni.$script
 ^omni^$script
+^omni_$script
 ^omniture-
 ^omniture.
 ^omniture^
+^omniture_
 ^omniunih-
 ^omniunih.
 ^omniunih^
+^omniunih_
 ^openx-
 ^openx.
 ^openx^
+^openx_
 ^overture-
 ^overture.
 ^overture^
+^overture_
 ^pagead-
 ^pagead.
 ^pagead^
+^pagead_
 ^payclick-
 ^payclick.
 ^payclick^
+^payclick_
 ^popunder-
 ^popunder.
 ^popunder^
+^popunder_
 ^popunder2-
 ^popunder2.
 ^popunder2^
+^popunder2_
 ^pr_img-
 ^pr_img.
 ^pr_img^
+^pr_img_
 ^promo-
 ^promo.
 ^promo^
+^promo_
 ^promos^random-
 ^promos^random.
 ^promos^random^
+^promos^random_
 ^promotion-
 ^promotion.
 ^promotion^
+^promotion_
 ^promotions-
 ^promotions.
 ^promotions^
+^promotions_
 ^quantcast-
 ^quantcast.
 ^quantcast^
+^quantcast_
 ^random_banner-
 ^random_banner.
 ^random_banner^
+^random_banner_
 ^retarget-
 ^retarget.
 ^retarget^
+^retarget_
 ^retargeting-
 ^retargeting.
 ^retargeting^
+^retargeting_
 ^showads-
 ^showads.
 ^showads^
+^showads_
 ^smartad-
 ^smartad.
 ^smartad^
+^smartad_
 ^sponsor-
 ^sponsor.
 ^sponsor^
+^sponsor_
 ^sponsored-
 ^sponsored.
 ^sponsored^
+^sponsored_
 ^sponsors-
 ^sponsors.
 ^sponsors^
+^sponsors_
 ^teaser-
 ^teaser.
 ^teaser^
+^teaser_
 ^teasers-
 ^teasers.
 ^teasers^
+^teasers_
 ^textad-
 ^textad.
 ^textad^
+^textad_
 ^textads-
 ^textads.
 ^textads^
+^textads_
 ^tieup-
 ^tieup.
 ^tieup^
+^tieup_
 ^tizers-
 ^tizers.
 ^tizers^
+^tizers_
 ^tizers2-
 ^tizers2.
 ^tizers2^
+^tizers2_
 ^trialpay-
 ^trialpay.
 ^trialpay^
+^trialpay_
 ^trustclick-
 ^trustclick.
 ^trustclick^
+^trustclick_
 ^urchin-
 ^urchin.
 ^urchin^
+^urchin_
 |http:*_ad-
 |https:*_ad-
 |http:*_ad.
 |https:*_ad.
 |http:*_ad^
 |https:*_ad^
+|http:*_ad_
+|https:*_ad_
 ! _ad.jsp?
 ! _ad.jsp|
 ! _ad.ptv?
@@ -1737,83 +2044,113 @@
 ! _ad_statistics-
 ! _ad_statistics.
 ! _ad_statistics^
+! _ad_statistics_
 ! _ad_statistics__adagency/
 _AdPlugin-
 _AdPlugin.
 _AdPlugin^
+_AdPlugin_
 _ads-
 _ads.
 _ads^
+_ads_
 _adsource-
 _adsource.
 _adsource^
+_adsource_
 _adthink-
 _adthink.
 _adthink^
+_adthink_
 _adthinkmedia-
 _adthinkmedia.
 _adthinkmedia^
+_adthinkmedia_
+_adv_img-
+_adv_img.
 _adv_img^
+_adv_img_
+_adv_imgs-
+_adv_imgs.
 _adv_imgs^
+_adv_imgs_
 _advertstream-
 _advertstream.
 _advertstream^
+_advertstream_
 _affiliate-
 _affiliate.
 _affiliate^
+_affiliate_
 _amazontcg_
 _analytics-
 _analytics.
 _analytics^
+_analytics_
 _beacon-
 _beacon.
 _beacon^
+_beacon_
 _cellcast-media-
 _cellcast-media.
 _cellcast-media^
+_cellcast-media_
 _cellcastmedia-
 _cellcastmedia.
 _cellcastmedia^
+_cellcastmedia_
 _clickforce_
 _comscore-
 _comscore.
 _comscore^
+_comscore_
 _customads_
 _google_afc-
 _google_afc.
 _google_afc^
+_google_afc_
 _gtracking.$script
 _iframeBanner-
 _iframeBanner.
 _iframeBanner^
+_iframeBanner_
 _metrics-
 _metrics.
 _metrics^
+_metrics_
 _numerik-art-
 _numerik-art.
 _numerik-art^
+_numerik-art_
 _omniture-
 _omniture.
 _omniture^
+_omniture_
 _overture-
 _overture.
 _overture^
+_overture_
 ! _request_ad.
 _retarget-
 _retarget.
 _retarget^
+_retarget_
 _retargeting-
 _retargeting.
 _retargeting^
+_retargeting_
 _showad-
 _showad.
 _showad^
+_showad_
 _showads-
 _showads.
 _showads^
+_showads_
 _sponsor_
 _sponsor.
 _sponsor^
+_sponsor_
 _sponser.
 _sponser1.
 _sponser2.
@@ -1827,16 +2164,20 @@ _sponser9.
 _sponsored-
 _sponsored.
 _sponsored^
+_sponsored_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! _stat-
 ! _stat.
 ! _stat^
+! _stat_
 _teaser-
 _teaser.
 _teaser^
+_teaser_
 _teasers-
 _teasers.
 _teasers^
+_teasers_
 ||ad-cdn.
 |http://ad.
 |https://ad.
