@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zGbB081NtSDjvJCCUUqPfA
-! Last modified: 2012-05-28 22:39:02 JST
+! Checksum: V5SZpy0dFEXdUePZbBXE0g
+! Last modified: 2012-05-29 21:06:16 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -93,18 +93,23 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 -log-
 -log.$domain=~news-log.jp|~twilog.org|~y-log.net
 -log^
+-log_
 -stats-
 -stats.
 -stats^
+-stats_
 -track-
 -track.
 -track^
+-track_
 -tracker-
 -tracker.
 -tracker^
+-tracker_
 -tracking-
 -tracking.
 -tracking^
+-tracking_
 
 .bnr-$third-party
 .bnr.$third-party
@@ -118,18 +123,23 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .log-
 .log.
 .log^
+.log_
 .stats-
 .stats.
 .stats^
+.stats_
 .track-
 .track.
 .track^
+.track_
 .tracker-$domain=~tracker-software.com
 .tracker.
 .tracker^
+.tracker_
 .tracking-
 .tracking.
 .tracking^
+.tracking_
 
 
 /1x1.$third-party
@@ -174,9 +184,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^log-
 ^log.
 ^log^
+^log_
 ^logger-
 ^logger.
 ^logger^
+^logger_
 ^popover-$script
 ^popover.$script
 ^popover^$script
@@ -186,12 +198,15 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^slot-
 ^slot.
 ^slot^
+^slot_
 ^stats-
 ^stats.
 ^stats^
+^stats_
 ^stats2-
 ^stats2.
 ^stats2^
+^stats2_
 ^tag-$third-party
 ^tag.$third-party
 ^tag^$third-party
@@ -201,15 +216,19 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^track-
 ^track.
 ^track^
+^track_
 ^tracker-
 ^tracker.
 ^tracker^
+^tracker_
 ^trackers-
 ^trackers.
 ^trackers^
+^trackers_
 ^tracking-
 ^tracking.
 ^tracking^
+^tracking_
 
 _204?
 _204|
@@ -225,18 +244,23 @@ _banners^$third-party
 _log-
 _log.
 _log^
+_log_
 _stats-
 _stats.
 _stats^
+_stats_
 _track-
 _track.
 _track^
+_track_
 _tracker-
 _tracker.
 _tracker^
+_tracker_
 _tracking-
 _tracking.
 _tracking^
+_tracking_
 
 ||log.
 ||pixel.
