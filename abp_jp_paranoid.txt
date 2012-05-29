@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: V5SZpy0dFEXdUePZbBXE0g
-! Last modified: 2012-05-29 21:06:16 JST
+! Checksum: IK4x7l8l08+uxpG4E34cJA
+! Last modified: 2012-05-29 23:15:40 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -84,12 +84,15 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 -bnr-$third-party
 -bnr.$third-party
 -bnr^$third-party
+-bnr_$third-party
 -banner-$third-party
 -banner.$third-party
 -banner^$third-party
+-banner_$third-party
 -banners-$third-party
 -banners.$third-party
 -banners^$third-party
+-banners_$third-party
 -log-
 -log.$domain=~news-log.jp|~twilog.org|~y-log.net
 -log^
@@ -114,12 +117,15 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .bnr-$third-party
 .bnr.$third-party
 .bnr^$third-party
+.bnr_$third-party
 .banner-$third-party
 .banner.$third-party
 .banner^$third-party
+.banner_$third-party
 .banners-$third-party
 .banners.$third-party
 .banners^$third-party
+.banners_$third-party
 .log-
 .log.
 .log^
@@ -166,21 +172,27 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^bnr-$third-party
 ^bnr.$third-party
 ^bnr^$third-party
+^bnr_$third-party
 ^banner-$third-party
 ^banner.$third-party
 ^banner^$third-party
+^banner_$third-party
 ^banners-$third-party
 ^banners.$third-party
 ^banners^$third-party
+^banners_$third-party
 ^click-$script,object-subrequest,subdocument
 ^click.$script,object-subrequest,subdocument
 ^click^$script,object-subrequest,subdocument
+^click_$script,object-subrequest,subdocument
 ^clk-$script,object-subrequest,subdocument
 ^clk.$script,object-subrequest,subdocument
 ^clk^$script,object-subrequest,subdocument
+^clk_$script,object-subrequest,subdocument
 ^counter-$~image
 ^counter.$~image
 ^counter^$~image
+^counter_$~image
 ^log-
 ^log.
 ^log^
@@ -192,9 +204,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^popover-$script
 ^popover.$script
 ^popover^$script
+^popover_$script
 ^popup-$script
 ^popup.$script
 ^popup^$script
+^popup_$script
 ^slot-
 ^slot.
 ^slot^
@@ -210,9 +224,11 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^tag-$third-party
 ^tag.$third-party
 ^tag^$third-party
+^tag_$third-party
 ^tags-$third-party
 ^tags.$third-party
 ^tags^$third-party
+^tags_$third-party
 ^track-
 ^track.
 ^track^
@@ -235,12 +251,15 @@ _204|
 _bnr-$third-party
 _bnr.$third-party
 _bnr^$third-party
+_bnr_$third-party
 _banner-$third-party
 _banner.$third-party
 _banner^$third-party
+_banner_$third-party
 _banners-$third-party
 _banners.$third-party
 _banners^$third-party
+_banners_$third-party
 _log-
 _log.
 _log^
@@ -300,15 +319,19 @@ _tracking_
 ^s_code-$script
 ^s_code.$script
 ^s_code^$script
+^s_code_$script
 ^s_code2-$script
 ^s_code2.$script
 ^s_code2^$script
+^s_code2_$script
 _s_code-$script
 _s_code.$script
 _s_code^$script
+_s_code_$script
 _s_code2-$script
 _s_code2.$script
 _s_code2^$script
+_s_code2_$script
 ! ----- Omniture SiteCatalyst ----- END -----
 
 ! ===== Google Analytics ===== START =====
