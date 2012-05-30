@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: F/ykkvRAGoNZBQDeQ8NYAQ
-! Last modified: 2012-05-30 00:14:56 JST
+! Checksum: tzZzuMRrwgNINukEmdp4gw
+! Last modified: 2012-05-30 00:54:24 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -27,6 +27,8 @@
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
 ! New false positives at ustream.tv/recorded/ with ?tracking=$third-party 2011-11-23
 @@||llnwd.net^*.flv?tracking=
+! False positives with recorded videos, May 30, 2012
+@@||ustream.tv^*.flv?tracking=
 ! ---------- Temporary white list END ----------
 
 
@@ -52,8 +54,6 @@
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
-! False positives with recorded videos, May 30, 2012
-@@||ustream.tv^*.flv?tracking=
 ! False positives at VirusTotal statistics pages 2011-11-29
 @@||virustotal.com/stats/
 @@||virustotal.hispasecsistemas.netdna-cdn.com/js/stats-$script
