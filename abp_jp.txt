@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: n7VnAp6os/WFtfy+T4DDvA
-! Last modified: 2012-05-31 01:39:51 JST
+! Checksum: w72DcL2sRttW0I4gQ6cLbQ
+! Last modified: 2012-05-31 13:41:33 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5714,6 +5714,7 @@ _teasers_
 ##a[href*=".overture.com/d/sr/"]
 ##a[href*="p-advg.com/adpCnt/"]
 ##a[href*="pheedo.jp/feeds/"]
+##a[href*=".afl.rakuten.co.jp%2Fhgc%2F"]
 ##a[href*=".afl.rakuten.co.jp/hsc/"]
 ##a[href*="//rd.rakuten.co.jp/c/?"]
 ! ##a[href*="//rd.rakuten.co.jp/s/?"]
