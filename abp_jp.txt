@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 3v0rQtj/nCLorTLv5oGtRA
-! Last modified: 2012-05-31 17:03:32 JST
+! Checksum: CLIUwtJQn/8ojoPeT+LmQg
+! Last modified: 2012-05-31 17:07:12 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -99,6 +99,8 @@
 ! ---------- Temporary white list END ----------
 
 ! ########## Default white list START ##########
+! False positives with the WordPress lazyloading plugin, reported via hatena blog comment of k2jp, May 31, 2012
+@@/lazy-load/images/1x1.
 @@//player.ooyala.com^
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
 @@/promotion/*$domain=shopping.yahoo.co.jp
