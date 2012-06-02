@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: CLIUwtJQn/8ojoPeT+LmQg
-! Last modified: 2012-05-31 17:07:12 JST
+! Checksum: NTeMK9eO/QHFzWC6V6irSw
+! Last modified: 2012-06-02 10:27:17 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -99,7 +99,7 @@
 ! ---------- Temporary white list END ----------
 
 ! ########## Default white list START ##########
-! False positives with the WordPress lazyloading plugin, reported via hatena blog comment of k2jp, May 31, 2012
+! False positives with the WordPress lazyloading plugin, reported by Opera10years via hatena blog comment of k2jp, May 31, 2012
 @@/lazy-load/images/1x1.
 @@//player.ooyala.com^
 ! Loosen a promotion image blocking criterion on a shopping site because it looked too ugly... Dec 15, 2011
@@ -2224,6 +2224,8 @@ _teasers_
 ||metrics.
 ||ocp.
 ||openadext.
+||ox-d.
+||ox-i.
 ||phpadsnew.
 ||promo.
 ||promo1.
@@ -3717,8 +3719,10 @@ _teasers_
 ||an.mainichi.jp^
 ||mainoninesearch.com^
 ||maintravelsearch.com^
-||ox-d.majorgeeks.com^
-||ox-i.majorgeeks.com^
+! Integrated into ||ox-d. to be more versatile, Jun 2, 2012
+! ||ox-d.majorgeeks.com^
+! Integrated into ||ox-i. to be more versatile, Jun 2, 2012
+! ||ox-i.majorgeeks.com^
 ||mapion.co.jp^*/ad/
 ||marinsm.com^
 ||marketgid.com^$third-party
@@ -4602,6 +4606,10 @@ _teasers_
 ||usagc.org^$third-party
 ||d.ustream.tv^
 ||d-ssl.ustream.tv^
+! Integrated into ||ox-d. , Jun 2, 2012
+! ||ox-d.ustream.tv
+! Integrated into ||ox-i. , Jun 2, 2012
+! ||ox-i.ustream.tv
 ||utamap.com/banner/
 ||utamap.com/cgi-sys/Count.
 ||access.utamap.com^
