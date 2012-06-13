@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: NTeMK9eO/QHFzWC6V6irSw
-! Last modified: 2012-06-02 10:27:17 JST
+! Checksum: glxEuQz8M3VqAwT0teF1tQ
+! Last modified: 2012-06-13 21:36:34 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6301,7 +6301,7 @@ marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
 kabumap.com##.KM_VERS_TABLEAREA > div:not([id]):not([class])
-kget.jp##*[class^="ad"]:not([class*="add"]):not(body):not(input)
+kget.jp##*[class^="ad"]:not([class^="add"]):not(body):not(input)
 l-tike.com###mhInner
 lavasoft.jp###firstpagebanner
 livedoor.com###become
@@ -6512,7 +6512,7 @@ www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
 virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
 special.visualzoo.com###sidebar > .side_banner
 special.visualzoo.com###container > .banner_area
-weblio.jp##*[class^="ad"]
+weblio.jp##*[class^="ad"]:not([class^="add"])
 wsj.com##.adSummary
 yahoo.com,yahoo.co.jp###northbanner
 yahoo.co.jp###centralPosition
