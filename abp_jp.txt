@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: SXp7kaeaAgJrczJgwf20PQ
-! Last modified: 2012-06-29 13:34:37 JST
+! Checksum: vQJfi0EOQke0Q0I9itLiLA
+! Last modified: 2012-07-01 08:10:32 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5405,7 +5405,7 @@ _teasers_
 ~mail.google.com##.AD
 ##.Ad
 ! Added negative condition to avoid false positives with Google+ notifications at Google Reader and Gmail, reported by @zirweed, Jun 27 and 29, 2012
-~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad:not(.u0b):not(.wIa):not(#bL > html > .ad)
+~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad:not(#gbst > html > .u0b):not(.wIa):not(#bL > html > .ad)
 ! Eliminated duplicated filters, Mar 26, 2012
 ! ##.AD-text
 ! ##.ad-text
