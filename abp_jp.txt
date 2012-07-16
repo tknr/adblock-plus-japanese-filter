@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7cyXVxDaeRbIFfJqymUljg
-! Last modified: 2012-07-08 20:39:47 JST
+! Checksum: XdqUd42z4gX/Z4tnHpzAyw
+! Last modified: 2012-07-16 15:03:24 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6174,6 +6174,7 @@ japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
 codezine.jp###shoeisha_gnavi
+codezine.jp##.app
 codezine.jp##.shoeisha_gnavi
 codezine.jp##div[id*="_pnlHeadSuper"]
 coliss.com###sidebar > .block02:first-child
