@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ghVWUVl1v2i3eCWXmLepkQ
-! Last modified: 2012-07-18 00:27:59 JST
+! Checksum: 991TiC5Ep2ujhM7N1wQZ7g
+! Last modified: 2012-07-18 22:01:06 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -40,6 +40,8 @@
 @@||google.*/cse?*&ad=
 ! Workaround to avoid false positives when you test a new filter via Gmail config, reported by pooh via blog, Jun 16, 2012
 @@||mail.google.com/mail/?ui=*&search=adv^
+! A filter -ads^ causes a false positive with a [http://translate.google.com/translate/static/kcpbtI_-aDs/css/desktop_ltr.css css stylesheet] at translate.google.com and translate.google.co.jp, reported by @dullneko, July 18, 2012
+@@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 @@||imdb.com^*/doubleclick/
@@ -108,7 +110,6 @@
 @@||bitly.com^*/css/metrics_
 ! False positives with Adelie Penguin abbreviated to Ad, reported via Issue Report Dec 26, 2011
 @@||cloudfront.net^*/animal/obj_animal_*_Ad
-@@||code.google.com^$elemhide
 ! There were False positives at www.youtube.com/oracle , which no longer exist 2011-10-11
 ! Another false positive with conviva filters found at ustream.tv, which brought the past commented out whitelists back into life, reported via Issue Report 2011-12-09
 @@||conviva.com/crossdomain.xml|
@@ -126,13 +127,14 @@
 @@||evernote.com/js/evernoteClient/Sponsor.
 ! False positive at support.fc2.com, reported via Issue Report, Feb 18, 2012
 @@||r.fc2.com/rss-disp/rss.$script
-! False positives with Google Reader when user searches for "ads", reported by @SYuno308, July 18, 2012
+! False positives with Google Reader when users search for "ads", reported by @SYuno308, July 18, 2012
 @@||google.*/reader/api/*/search/items/ids?q=
 @@||google.com/adsense/$document
 @@||google.com/analytics/$document
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
 @@||google.com/settings/$document
 @@||accounts.google.com/ServiceLogin?service=$document
+@@||code.google.com^$elemhide
 ! False positives with a google plus image used for css sprite, reported by @zirweed, May 19, 2012
 @@||gstatic.com^*/Publisher/sprite$image
 ! False positives with combined stylesheets at guardian.co.uk, reported via Issue Report, Feb 6, 2012
