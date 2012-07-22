@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 991TiC5Ep2ujhM7N1wQZ7g
-! Last modified: 2012-07-18 22:01:06 JST
+! Checksum: MP7os89gnwPwPF2nXOZMpw
+! Last modified: 2012-07-22 22:39:22 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4821,6 +4821,7 @@ _teasers_
 ||xlovecam.com^$popup
 ||xmatch.com^$third-party
 ||xmax.jp^$third-party
+||xmlrequest.info^
 ||xparadiz.com^
 ||xrea.com/ad_
 ||ad.xrea.com^
