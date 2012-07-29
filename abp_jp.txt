@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: SHGBFVCxnIHFKvihZcfO6A
-! Last modified: 2012-07-27 19:58:59 JST
+! Checksum: XKr0Wf7Q3uIqgYC2c/CV2A
+! Last modified: 2012-07-30 08:17:15 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -668,9 +668,13 @@
 /afr.php?
 ! merged into .php?zoneid=
 ! /ajs.php?zoneid=
+/ana/*?uid=
 /ana/analyzer.
+/ana/icon.
 /ana/processor.
+/ana2/*?uid=
 /ana2/analyzer.
+/ana2/icon.
 /ana2/processor.
 /analys.$script
 /analyticsid.
