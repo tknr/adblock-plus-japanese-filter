@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Mmmb5llm4M9g6AnzG0r8SQ
-! Last modified: 2012-07-30 09:32:28 JST
+! Checksum: WAU3kjB376S4xMsz4au+Yg
+! Last modified: 2012-07-30 10:04:13 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6001,7 +6001,7 @@ _teasers_
 ##*[class*="-ads-"]:not(body):not(input)
 ##*[class*="-adv-"]:not(body):not(input)
 ! ##*[class*="-pr-"]:not(body):not(input)
-~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
+~video.fc2.com,~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
 ##*[class*="_AD_"]:not(body):not(input)
 ##*[class*="_ADS_"]:not(body):not(input)
 ##*[class*="_ADV_"]:not(body):not(input)
