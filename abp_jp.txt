@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: i52HB+JtfSi8lhusPHxXaA
-! Last modified: 2012-08-02 22:15:43 JST
+! Checksum: vtnvpnS8aZ+NtL4NeNLLqQ
+! Last modified: 2012-08-02 22:38:58 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4778,6 +4778,7 @@ _teasers_
 ||widgeo.net^$third-party
 ||wigetmedia.com^$third-party
 ||wikiodeliv.com^
+||wikipedia.org^*&cache=/cn.js^
 ||pr.wikiwiki.jp^
 ||williamhill.$popup
 ||winmycar.de^$popup
