@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: UC90YJRop/WSc9S4QJ6Hvw
-! Last modified: 2012-08-06 15:45:43 JST
+! Checksum: gyF7rLrMIg1u+/paeXzsrQ
+! Last modified: 2012-08-06 15:47:04 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -757,6 +757,7 @@
 /flashbanner.swf
 /ga_social_tracking.$script
 /gads.$script
+/getad^
 /getmarquee$domain=live.nicovideo.jp|www.nicovideo.jp
 /getsatisfaction.com^$third-party
 ! Commented out duplicated filters, Feb 26, 2012
@@ -3950,7 +3951,6 @@ _teasers_
 ||bc.nhk.jp^
 ||nhncorp.jp^$third-party
 ||nicoseiga.jp/material/
-||nicovideo.jp/api/getad
 ||ad.nicovideo.jp^
 ! Commented out to avoid closing connection 2011-10-23
 ! ||ow.live.nicovideo.jp^
