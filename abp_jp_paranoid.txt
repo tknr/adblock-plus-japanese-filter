@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: sz/xyLLst4uKkrcevnZrSw
-! Last modified: 2012-07-30 10:00:23 JST
+! Checksum: GizaBUFzdZ7RmwLDlA4MiQ
+! Last modified: 2012-08-06 09:33:50 JST
 !
 ! Title: ABP Japanese Paranoid Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -373,6 +373,7 @@ _s_code2_$script
 
 ! ===== Amazon recommending products ===== START =====
 -amazon.com^*-campaigns/
+amazon.co.jp,amazon.com###hlb-upsell
 amazon.co.jp,amazon.com##.rcm
 amazon.co.jp,amazon.com##.rcmBody
 ! ----- Amazon recommending products ----- END -----
