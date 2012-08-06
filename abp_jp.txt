@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: r5WWCyh/BThAyPUB20rVzw
-! Last modified: 2012-08-06 15:56:12 JST
+! Checksum: 0oyTqcCdvBNa6gPzcEb7sg
+! Last modified: 2012-08-07 07:53:37 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6437,6 +6437,7 @@ itpro.nikkeibp.co.jp##.leaf_datascope
 itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
 pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
+www.nikkeibp.co.jp##.sub-selection
 ninja.co.jp###box_m
 ninja.co.jp###box_t
 ninja.co.jp##.attention
