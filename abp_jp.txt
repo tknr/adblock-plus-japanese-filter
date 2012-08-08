@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 85IFkRR+wRo+Xt2NFDL7Gw
-! Last modified: 2012-08-09 05:43:22 JST
+! Checksum: EQUV8R9pqU436gd2mQNqww
+! Last modified: 2012-08-09 05:57:01 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6476,6 +6476,7 @@ jp.reuters.com##.adArticleText
 president.jp.reuters.com##.prad
 revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
+ribbon.to##body > p[align="center"]
 robtex.com##*[id^="xad"]:not(body):not(input)
 rue89japon.com##*[id^="ad_"]:not(body):not(input)
 sanspo.com###lBoard2
