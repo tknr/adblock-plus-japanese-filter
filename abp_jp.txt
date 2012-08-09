@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: sLZ5xL9wwVryIRL8TzO6mA
-! Last modified: 2012-08-09 23:09:12 JST
+! Checksum: JTXxk5lzQJ5Jhk3MY9eKLw
+! Last modified: 2012-08-09 23:47:42 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6558,6 +6558,7 @@ ustream.tv###AdFreePromo
 ustream.tv###getStartedBanner
 ustream.tv##.channelContextAd
 ustream.tv##.channelTopBannerWrapper
+ustream.tv##.topLeaderBoardContainer
 vector.co.jp###PCSHOP_listAD
 vector.co.jp###softDetail ~ *
 vector.co.jp###special-box
