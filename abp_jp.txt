@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: trSNnzaV0HnbK/rkddn+yg
-! Last modified: 2012-08-09 06:03:49 JST
+! Checksum: GBhA/MEbUtHP/b3yo2NfIw
+! Last modified: 2012-08-09 14:14:44 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6000,7 +6000,6 @@ _teasers_
 ##*[class^="ad8"]:not(body):not(input)
 ##*[class^="ad9"]:not(body):not(input)
 ##*[class^="adBox"]:not(body):not(input)
-##*[class^="adlantis"]:not(body):not(input)
 ##*[class^="ads-"]:not(body):not(input)
 ##*[class^="ads_"]:not(body):not(input)
 ##*[class^="adv-"]:not(body):not(input)
@@ -6038,6 +6037,7 @@ _teasers_
 ##*[class*="Advertisement"]:not(body):not(input)
 ##*[class*="Advertising"]:not(body):not(input)
 ##*[class*="Affiliate"]:not(body):not(input)
+##*[class*="adlantis"]:not(body):not(input)
 ##*[class*="Overture"]:not(body):not(input)
 ! ##*[class*="PRtext"]:not(body):not(input)
 ##*[class*="Sponsor"]:not(body):not(input)
