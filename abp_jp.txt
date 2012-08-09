@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: GBhA/MEbUtHP/b3yo2NfIw
-! Last modified: 2012-08-09 14:14:44 JST
+! Checksum: sLZ5xL9wwVryIRL8TzO6mA
+! Last modified: 2012-08-09 23:09:12 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -640,6 +640,10 @@
 /adcolor.
 /adFrequencyCapping.
 /adfshow?
+/adlantis-
+/adlantis.
+/adlantis^
+/adlantis_
 /AdLantisLoader.
 /AdLoader.
 /admanager.
