@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: JTXxk5lzQJ5Jhk3MY9eKLw
-! Last modified: 2012-08-09 23:47:42 JST
+! Checksum: YXiEdwUaQ0v7pUVFyUwAkQ
+! Last modified: 2012-08-10 11:30:06 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6228,20 +6228,20 @@ diamond.jp###sptopics
 diamond.jp###sub-column > img
 diamond.jp###sub-column > table
 diamond.jp##.diamondonline-plus
+diamond.jp##.pickup
+diamond.jp##.section.special-topics
+diamond.jp##.top-select
+diamond.jp##a[href*="/oo/cc/"]
+diamond.jp##a[href*="campaign"]
 diamond.jp##a[href*="diamond.jp/rd/"]
 diamond.jp##a[href*="diamond.ne.jp/?banner_id="]
-diamond.jp##.section.special-topics
 diamond.jp##div[class*="ad-"][class*="section"]
 diamond.jp##div[class*="box"][class*="banner"]
 diamond.jp##div[class*="box"][class*="dolplus"]
 diamond.jp##div[class*="box"][class*="side_business-info"]
 diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
-zai.diamond.jp##.pickup
-zai.diamond.jp##.top-select
-zai.diamond.jp##*[class*="campaign"]:not(body):not(input)
-zai.diamond.jp##a[href*="campaign"]
-zai.diamond.jp##a[href*="/oo/cc/tieup/"]
+diamond.jp##*[class*="campaign"]:not(body):not(input)
 e-words.jp###l
 e-words.jp##.ladsby
 e-words.jp##.ladsby ~ table
