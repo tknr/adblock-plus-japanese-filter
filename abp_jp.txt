@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: N2IchlyTrytel+nac36J7A
-! Last modified: 2012-08-10 12:01:04 JST
+! Checksum: GYhmiUjjfly1C3z8kGvLTw
+! Last modified: 2012-08-10 17:08:19 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2261,6 +2261,7 @@ _teasers_
 ||image.*/bnr.gif?$third-party
 ||kanasoku.*/thumb/
 ||krxd.
+||log.$third-party
 ||log0.
 ||mads.
 ||maxymiser.$third-party
@@ -3069,8 +3070,8 @@ _teasers_
 ||dialocam.com^
 ||dialsexy-messenger.com^
 ||dialwebcam.fr^
-||diamond.jp^*/welcome.$script
 ||diamond.jp/oo/d/
+||diamond.jp^*/welcome.$script
 ||dificaux.com^
 ||digitalworld.fr^
 ||dimprive.com^
