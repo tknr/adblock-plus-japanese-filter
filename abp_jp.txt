@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: G547WCw6oqkip5h2XnLb7Q
-! Last modified: 2012-08-13 22:20:21 JST
+! Checksum: 1FBcGDaQM2LVZ/ezCZewBA
+! Last modified: 2012-08-16 22:56:54 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6338,6 +6338,9 @@ ime.nu,ime.st##a[href*="/redirect.html"]
 ime.nu,ime.st##body > br:last-of-type ~ *:not(hr)
 infoseek.co.jp###isweb-lite-adbanner
 japan.internet.com###head-mid
+japan.internet.com##.bana
+japan.internet.com##.employment
+japan.internet.com##.topics
 investwalker.jp##td[bgcolor="#ffeedd"]
 jbpress.ismedia.jp###pr2
 jbpress.ismedia.jp###vbox
