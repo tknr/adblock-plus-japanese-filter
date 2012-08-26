@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: oJ/DunEQnktU2bO1u9hUbw
-! Last modified: 2012-08-26 10:23:16 JST
+! Checksum: BCiGEVEXnXyLQ2kepeEeIQ
+! Last modified: 2012-08-26 10:33:20 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -854,6 +854,10 @@
 ! /newzia/*
 /njoks_$script
 /omn-js/*
+/omni-$script
+/omni.$script
+/omni^$script
+/omni_$script
 /OmnitureActionSource.
 /omniturePlugin.
 /OmnitureSWF.
