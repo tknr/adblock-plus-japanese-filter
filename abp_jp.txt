@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: lGGAAqXxcdEwKhFV0A/ALg
-! Last modified: 2012-08-26 19:10:02 JST
+! Checksum: Adlq1SP0Wqf7KwiTCc3HWA
+! Last modified: 2012-08-26 19:17:41 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1165,6 +1165,7 @@
 ?retargeting_
 ?trackerid=
 ?trackid=
+?url=$image,domain=fc2.com
 ! ?view=ad&
 ?yad=
 ?zone_id=
