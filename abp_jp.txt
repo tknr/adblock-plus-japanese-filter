@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: u7MsFahSJtLtWcLXll4YuA
-! Last modified: 2012-08-26 11:01:24 JST
+! Checksum: lGGAAqXxcdEwKhFV0A/ALg
+! Last modified: 2012-08-26 19:10:02 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -764,6 +764,7 @@
 /exitPopup.$script
 /external/*$domain=amazon.co.jp|amazon.com
 /fc.php?script=
+/fc2se.$script,domain=fc2.com
 /flashbanner.swf
 /ga_social_tracking.$script
 /gads.$script
@@ -3252,7 +3253,6 @@ _teasers_
 ||fc2.com/ana/
 ||fc2.com/ana2/
 ||fc2.com/analyze.$script
-||fc2.com/fc2se.$script
 ||fc2.com/footer/footer.php?
 ||fc2.com/header.php?
 ||fc2.com/image/powered
