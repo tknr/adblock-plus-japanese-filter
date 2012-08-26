@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: BCiGEVEXnXyLQ2kepeEeIQ
-! Last modified: 2012-08-26 10:33:20 JST
+! Checksum: u7MsFahSJtLtWcLXll4YuA
+! Last modified: 2012-08-26 11:01:24 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -145,6 +145,10 @@
 @@||lavasoft.com^*/ad_aware/
 ! False positive with a combined scripts, reported via Issue Report, Dec 31, 2011
 @@||mapion.co.jp/f/filejoin?$script,stylesheet
+! Added whitelist to avoid false positives with combined scripts and stylesheets including Omniture and WebTrends as parameters, Aug 26th, 2012
+! SCRIPT SAMPLE: http://i2.msdn.microsoft.com/ja-jp/magazine/mtps-bn1651.js?l=ja-jp&i=magazine&ct=AlternateSelector;CCEditor;CCSection;CCTagEditor;ContentFallback;EyebrowSimple;FeedViewerBasic;InstrumentedLink;InteractiveToolbar;MtpsRating;MtViewDropDown;Omniture;RedVelvetInstrumentedLink;StoCodeHighlighter;StoFooter;StoLocaleManagementFlyout;StoMastheadMSDN;StoMtpsLoginStatus;StoProfileLink;StoSearch;StoTabStrip;SurveyLauncher;TemplatedFlyout;TransWikiPopupEditor;WebMetrix;WebTrends
+! STYLESHEET SAMPLE: http://i3.msdn.microsoft.com/ja-jp/magazine/mtps-bn1651.css?l=ja-jp&i=magazine&ct=AlternateSelector;CCEditor;CCSection;CCTagEditor;ContentFallback;EyebrowSimple;FeedViewerBasic;InstrumentedLink;InteractiveToolbar;MtpsRating;MtViewDropDown;Omniture;RedVelvetInstrumentedLink;StoCodeHighlighter;StoFooter;StoLocaleManagementFlyout;StoMastheadMSDN;StoMtpsLoginStatus;StoProfileLink;StoSearch;StoTabStrip;SurveyLauncher;TemplatedFlyout;TransWikiPopupEditor;WebMetrix;WebTrends&clustimg=1
+@@||microsoft.com/*/mtps-bn*?*;$script,stylesheet
 @@||mozilla.$elemhide
 @@||mozilla.com/media/img/promo.
 @@||mozilla.org/affiliates/
