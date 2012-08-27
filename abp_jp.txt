@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: jJV7SE6sgKgdyxrkqn/JYA
-! Last modified: 2012-08-27 12:01:43 JST
+! Checksum: r/0fzEb2OMAqU81o6nVFrg
+! Last modified: 2012-08-27 12:15:37 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5423,6 +5423,7 @@ _teasers_
 ###AdsBox
 ###adAms
 ###adArea
+###adBottom
 ###adBox
 ~train.yoyaku.jrkyushu.co.jp###adContainer
 ###adFrame
@@ -5431,13 +5432,18 @@ _teasers_
 ###adRight
 ###adTop
 ###adarea
+###adbottom
 ###adbox
 ###adleft
 ###adlink
 ###adright
+###adsBottom
 ###adsBox
+###adsTop
+###adsbottom
 ###adsbox
 ###ads
+###adstop
 ###adtop
 ###adv
 ###advertise
@@ -5537,9 +5543,11 @@ _teasers_
 ##.ads:not(.adf):not(.adn)
 ##.ads_adingo
 ##.adsBox
+##.adsTop
 ##.adspace
 ##.adsbox
 ##.adslot
+##.adstop
 ##.adtitle
 ##.adtop
 ##.adurl
