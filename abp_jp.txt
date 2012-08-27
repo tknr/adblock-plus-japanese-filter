@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: JNPJOKwpBppyEQyTE1xPhw
-! Last modified: 2012-08-27 11:23:46 JST
+! Checksum: B5fx6GmXan49gHa003S2hg
+! Last modified: 2012-08-27 11:53:14 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5665,6 +5665,7 @@ _teasers_
 ##a[href*="?afrno="]
 ##a[href*="/aftype-"]
 ##a[href*="/bannerclick/"]
+##a[href*="?banner_id="]
 ##a[href*="/bin/gg?"]
 ##a[href*="/bizad."]
 ##a[href*="/click.ng/"]
@@ -5756,6 +5757,7 @@ _teasers_
 ##a[href*="//click.dtiserv2.com/"]
 ##a[href*=".ebis.ne.jp"][href*="_rd."]
 ##a[href*=".ebis.ne.jp"][href*="/tr_"]
+##a[href*="//ec-design.jp/cc/"]
 ##a[href*="//ever-adsense.com"]
 ##a[href*="//ever-click.com"]
 ##a[href*="//ever-clix.com"]
