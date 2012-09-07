@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: +3xvb6COP7l3wpWyaXmaCQ
-! Last modified: 2012-09-04 02:25:46 JST
+! Checksum: OBtPw6me0R6ylbfUcNWnlg
+! Last modified: 2012-09-07 22:37:11 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5764,6 +5764,7 @@ _teasers_
 ##a[href*=".blogmura.com/in/"]
 ##a[href*=".brothersoft.com"]
 ##a[href*=".brothersoft.jp"]
+##a[href*=".ca-mpr.jp/"]
 ##a[href*="//refer.ccbill.com"]
 ##a[href*="clget.jp/"]
 ##a[href*=".counter-hosting.com"]
