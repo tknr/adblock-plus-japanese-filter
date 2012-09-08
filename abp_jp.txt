@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: OBtPw6me0R6ylbfUcNWnlg
-! Last modified: 2012-09-07 22:37:11 JST
+! Checksum: WX6+Gkw1gKhLdIz8MMRQhg
+! Last modified: 2012-09-08 23:53:57 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5722,6 +5722,7 @@ _teasers_
 ! ~twitter.com##a[href*="_PR/"]
 ! ~amazon.co.jp##a[href*="_pr_"]
 ##a[href*="_PR_"]
+##a[href*="/rd/?url="]
 ##a[href*="/speedclicks/"]
 ! false positive 2011-03-07: ##a[href*="/splash/"]
 ##a[href*="/track/traffic.php?"]
