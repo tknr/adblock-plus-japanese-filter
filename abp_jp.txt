@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-! Checksum: IvhHcFVJ+2wGiXYDj4W9cg
-! Last modified: 2012-09-09 20:10:54 JST
+! Checksum: 7yNd/w2Q/Em+8cfbxEYWqg
+! Last modified: 2012-09-10 05:54:12 JST
 !
-! Title: ABP Japanese Filters (NO SUPPORT for foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
+! Title: ABP Japanese Filters (NO SUPPORT to foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
