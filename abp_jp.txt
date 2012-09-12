@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: XFTAxkPMubE3zKRZlDlxLQ
-! Last modified: 2012-09-12 20:42:11 JST
+! Checksum: 50jSTes4MnX5ct9G5UG7kw
+! Last modified: 2012-09-12 20:57:20 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT to foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -914,6 +914,7 @@
 /publisher/*$third-party
 /Publishers/*$third-party
 /Publishers/*?random=
+/rainman.$script,domain=livedoor.jp
 /rakulog.$script
 /RealMedia/*
 ! /res/js/ad-
