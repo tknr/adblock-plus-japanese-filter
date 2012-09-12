@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7yNd/w2Q/Em+8cfbxEYWqg
-! Last modified: 2012-09-10 05:54:12 JST
+! Checksum: L426HauZ32mhVefkYZKl+Q
+! Last modified: 2012-09-12 20:27:07 JST
 !
 ! Title: ABP Japanese Filters (NO SUPPORT to foreign users: https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy )
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -271,6 +271,10 @@
 -ads.$domain=~retweet-ads.net
 -ads^
 -ads_
+-adsenser-
+-adsenser.
+-adsenser^
+-adsenser_
 -adthink-
 -adthink.
 -adthink-
@@ -1429,6 +1433,10 @@
 ^adsense.
 ^adsense^
 ^adsense_
+^adsenser-
+^adsenser.
+^adsenser^
+^adsenser_
 ^adserve-
 ^adserve.
 ^adserve^
