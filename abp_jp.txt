@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: n/N0NR7/a+s8W3fup/tTJQ
-! Last modified: 2012-09-14 01:25:23 JST
+! Checksum: ki76M4xR6QhstEedef5FiA
+! Last modified: 2012-09-21 08:27:52 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4909,6 +4909,7 @@ _teasers_
 ||y8.com^$popup
 ||yadro.ru^
 ||yahoo.*/b?
+||yahoo.*/c?
 ||yahoo.*/js/geov2.$script
 ||yahoo.*/js/no.$script
 ||yahoo.*/js/sq.$script
@@ -4920,16 +4921,6 @@ _teasers_
 ||by.analytics.yahoo.
 ||by.i.analytics.yahoo.
 ||bn.auctions.yahoo.
-||b1.yahoo.
-||b2.yahoo.
-||b3.yahoo.
-||b4.yahoo.
-||b5.yahoo.
-||b6.yahoo.
-||b7.yahoo.
-||b8.yahoo.
-||b9.yahoo.
-||b10.yahoo.
 ||bc.geocities.yahoo.*/js/
 ||logoole.yahoo.$third-party
 ||ov.yahoo.
