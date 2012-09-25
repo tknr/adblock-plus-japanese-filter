@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7roWnZH+sDQcLmqzKw0g+w
-! Last modified: 2012-09-21 09:06:24 JST
+! Checksum: B56J0gQvPCRfzDKNLBE9cA
+! Last modified: 2012-09-25 22:30:49 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6218,6 +6218,7 @@ news.biglobe.ne.jp##.praTB
 bing.com##*[class^="sb_ads"]
 bioimpact.jp###pr
 bioimpact.jp##div[class^="sn-box"]
+businessnetwork.jp##.specialtopics
 bizmakoto.jp,itmedia.co.jp###amazon-item
 bizmakoto.jp,itmedia.co.jp###banner
 bizmakoto.jp,itmedia.co.jp###endwpp
