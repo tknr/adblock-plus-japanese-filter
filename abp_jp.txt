@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: LScwIGk3ThK5xXEHl+MmNg
-! Last modified: 2012-09-25 23:24:33 JST
+! Checksum: GhEHhm+3v7W/qDPDRYOUjg
+! Last modified: 2012-09-27 08:01:02 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -977,6 +977,7 @@
 /side_bnn2.
 /sideparts/b_joy_$image
 /site_stats/*
+/sitejack/*
 /sites/richscripts/*
 /sitestratos/ss_
 ! /smart_ad/*
@@ -3719,7 +3720,6 @@ _teasers_
 ||lfstmedia.com^$third-party
 ||libertins31.com^
 ||liendans.com^
-||lifehacker.jp/common/sitejack/
 ||ad.lifehacker.jp^
 ||lifestats.ru^
 ||liftdna.com^$third-party
