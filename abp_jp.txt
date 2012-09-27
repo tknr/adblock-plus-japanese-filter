@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 0+8abTdfy5E2njaMfsKhxg
-! Last modified: 2012-09-28 00:41:30 JST
+! Checksum: L+eQiZGayuhNKu1hXCfBig
+! Last modified: 2012-09-28 01:57:48 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6279,6 +6279,7 @@ cyzo.com##.r_sidebanner
 diamond.jp###article-sptopics
 diamond.jp###pr1
 diamond.jp###pr2
+diamond.jp###special-pr-box
 diamond.jp###special-underline
 diamond.jp###special-upperline
 diamond.jp###sptopics
