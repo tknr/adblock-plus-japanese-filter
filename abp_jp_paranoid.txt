@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 1EyWaEIazFbaIsc+7HhSyA
-! Last modified: 2012-09-21 01:05:33 JST
+! Checksum: cNVq5VHAzs9Da5NBvrfXkw
+! Last modified: 2012-09-28 01:24:01 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -57,6 +57,8 @@
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
+! Flase positives with twitter user images caused with _banners^$third-party, Sep 28, 2012
+@@||twimg.com/profile_banners/$image
 ! False positives at VirusTotal statistics pages 2011-11-29
 @@||virustotal.com/stats/
 @@||virustotal.hispasecsistemas.netdna-cdn.com/js/stats-$script
