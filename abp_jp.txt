@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: A8SKi53vi25aM7g2TASm7Q
-! Last modified: 2012-09-28 18:40:59 JST
+! Checksum: 8Sz5avlnkmWv4cvc1Dbc6Q
+! Last modified: 2012-09-28 18:51:04 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6549,6 +6549,7 @@ revouninstaller.com##.row-banner
 ribbon.to##body > p[align="center"]
 robtex.com##.topper
 robtex.com##*[id^="xad"]:not(body):not(input)
+ip.robtex.com##a[rel="nofollow"] > img
 rue89japon.com##*[id^="ad_"]:not(body):not(input)
 sanspo.com###lBoard2
 sanspo.com##.lBoard2
