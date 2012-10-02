@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: BBriRrfeEeXCTHtMxc9kcQ
-! Last modified: 2012-10-02 14:09:58 JST
+! Checksum: qi5b9oLx5+EGWhSjPwW9KQ
+! Last modified: 2012-10-03 06:11:34 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -44,6 +44,15 @@
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
+! A -beacon^ filter causes false positives with combined script and stylesheet below, Oct 3rd, 2012
+! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.2.6-beacon/site-wide-11878695216._V1_.js
+! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/jp-site-wide-css-beacon/site-wide-7797898918._V1_.css
+! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-beacon/site-wide-7681525081._V1_.css
+@@||images-amazon.com^*/browser-scripts/*-beacon/$script,stylesheet
+! A ^beacon^ filter causes false positives with css sprite images below, Oct 3rd, 2012
+! http://g-ec2.images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
+! http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01._V394051227_.png
+@@||images-amazon.com^*/beacon/BeaconSprite-$image
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
