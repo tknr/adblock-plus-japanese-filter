@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: U470qqL4aZwtt2P019MB+g
-! Last modified: 2012-10-04 09:02:08 JST
+! Checksum: rIk72ErL1ZtUoPyrZ7TpWg
+! Last modified: 2012-10-04 09:21:31 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5451,42 +5451,38 @@ _teasers_
 ! ###ad7
 ! ###ad8
 ! ###ad9
-###ADS
-###ADs
-###AMN-large-banner
-###FooterAd
-###HeaderAd
-###PR-txt
-###PR_txt
-###AdArea
-###AdBox
-###AdsBox
 ###adAms
+###AdArea
 ###adArea
+###adarea
 ###adBottom
+###adbottom
+###AdBox
 ###adBox
+###adbox
 ~train.yoyaku.jrkyushu.co.jp###adContainer
 ###adFrame
 ###adLeft
-###adPRtext
-###adRight
-###adTop
-###adarea
-###adbottom
-###adbox
 ###adleft
 ###adlink
+###adPRtext
+###adRight
 ###adright
-###adsBottom
-###adsBox
-###adsTop
-###adsbottom
-###adsbox
+###ADS
+###ADs
 ###ads
+###adsBottom
+###adsbottom
+###AdsBox
+###adsBox
+###adsbox
+###adsTop
 ###adstop
+###adTop
 ###adtop
 ###adv
 ###advertise
+###AMN-large-banner
 ###bannerAd
 ###bannerad
 ###block_whitepaper
@@ -5496,13 +5492,17 @@ _teasers_
 ###boxad1
 ###defaultAd
 ###flashAD
+###FooterAd
 ###footerAd
 ###googleAds
+###HeaderAd
 ###headerAd
 ###headerPR
 ###overture_cm
 ###pr-area
+###PR-txt
 ###pr-txt
+###PR_txt
 ###pr_txt
 ###prbox
 ###prTxt
@@ -5557,22 +5557,19 @@ _teasers_
 ! ##.ad728
 ! ##.ad8
 ! ##.ad9
-##.ADS
-##.ADs
-##.AMN-sponsor-rolls
-##.AMN-large-banner
 ##.AdArea
-##.AdBox
-##.AdsBox
-##.FooterAd
-##.HeaderAd
-##.PR-txt
-##.PR_txt
 ##.adArea
+##.AdBox
 ##.adBox
 ##.adLeft
 ##.adPRtext
 ##.adRight
+##.ADS
+##.ADs
+! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
+##.ads:not(.adf):not(.adn)
+##.ads_adingo
+##.AdsBox
 ##.adSlot
 ##.adText
 ##.adTop
@@ -5582,9 +5579,6 @@ _teasers_
 ##.adleft
 ##.adlink
 ##.adright
-! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
-##.ads:not(.adf):not(.adn)
-##.ads_adingo
 ##.adsBox
 ##.adsTop
 ##.adspace
@@ -5596,6 +5590,12 @@ _teasers_
 ##.adurl
 ~jma.go.jp##.adv
 ##.advert
+##.AMN-sponsor-rolls
+##.AMN-large-banner
+##.FooterAd
+##.HeaderAd
+##.PR-txt
+##.PR_txt
 ##.bannerAd
 ##.bannerad
 ##.block_whitepaper
