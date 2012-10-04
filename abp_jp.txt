@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: rIk72ErL1ZtUoPyrZ7TpWg
-! Last modified: 2012-10-04 09:21:31 JST
+! Checksum: 63jc36lFsTEoN5e4t8UYyA
+! Last modified: 2012-10-04 09:45:05 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -261,7 +261,7 @@
 &rakuten_affili=
 &random=*&referrer=
 &random=*&size=1x1&
-&referer=$image,script
+&referer=$image,object,script
 &referrer=$third-party
 &trackerid=
 &trackid=
@@ -475,9 +475,9 @@
 /__utm.
 /_a_cast.$script
 /_search.js^$third-party
-/1x1.*?$image
+/1x1.*?$image,object
 /180x180.gif^$first-party
-/200_200.$image,domain=premium.nikkeibp.co.jp
+/200_200.$image,object,domain=premium.nikkeibp.co.jp
 /A-affiliate2/*
 ! /aan/*/ad/*
 /aan/*/amazon/*
@@ -806,8 +806,8 @@
 /iframe_btn_banner?
 /iframe_cm_
 /image.ng/*
-/images/lansweeper.$image
-/images/SE2Banner.$image
+/images/lansweeper.$image,object
+/images/SE2Banner.$image,object
 /img/p_banner.
 /img/p_banner/*
 /img/pr_.$domain=diamond.jp
@@ -815,7 +815,7 @@
 ! Merged into ".php?zoneid="
 ! /iml.php?zoneid=
 /imp?Z=
-/impression_measure.*?$image
+/impression_measure.*?$image,object
 ! /inc_ad_
 /includes/js/js.$script
 /introMessageRedirect.
@@ -854,7 +854,7 @@
 ! /live_ad_
 /load_lcs.$script
 /log1.
-/logwrite.$image
+/logwrite.$image,object
 /makePCookie_
 /marquee/*
 /marqueeplayer.
@@ -892,9 +892,9 @@
 /pageKeywordClickHandle?
 /pcad.
 /pcads.
-/ping.*?$image
+/ping.*?$image,object
 /piwik.$script
-/pixel.*?$image
+/pixel.*?$image,object
 /pixel?
 /pixel2.
 /playertracking/*
@@ -986,7 +986,7 @@
 /side_bnn.
 /side_bnn1.
 /side_bnn2.
-/sideparts/b_joy_$image
+/sideparts/b_joy_$image,object
 /site_stats/*
 /sitejack/*
 /sites/richscripts/*
@@ -995,7 +995,7 @@
 /smate.html$subdocument
 /snare.js
 /sOmni.
-/spacer.*?$image
+/spacer.*?$image,object
 ! Commented out to avoid false positives on static: 2011-09-07
 ! /stat-
 ! /stat.$domain=~ameblo.jp|~ameba.jp
@@ -1173,7 +1173,7 @@
 ?numerik-art^
 ?numerik-art_
 ?promo_type=
-?referer=$image,script
+?referer=$image,object,script
 ?referrer=$third-party
 ?retarget-
 ?retarget.
@@ -1185,7 +1185,7 @@
 ?retargeting_
 ?trackerid=
 ?trackid=
-?url=$image,domain=fc2.com
+?url=$image,object,domain=fc2.com
 ! ?view=ad&
 ?yad=
 ?zone_id=
@@ -1804,19 +1804,19 @@
 ! ^image^ad.
 ! ^image^ad^
 ! ^image^ad_
-^image^ad120.$image
-^image^ad125.$image
-^image^ad160.$image
-^image^ad180.$image
-^image^ad234.$image
-^image^ad240.$image
-^image^ad250.$image
-^image^ad300.$image
-^image^ad336.$image
-^image^ad468.$image
-^image^ad720.$image
-^image^ad728.$image
-^image^ad88.$image
+^image^ad120.$image,object
+^image^ad125.$image,object
+^image^ad160.$image,object
+^image^ad180.$image,object
+^image^ad234.$image,object
+^image^ad240.$image,object
+^image^ad250.$image,object
+^image^ad300.$image,object
+^image^ad336.$image,object
+^image^ad468.$image,object
+^image^ad720.$image,object
+^image^ad728.$image,object
+^image^ad88.$image,object
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^image^ads-
 ! ^image^ads^
@@ -1830,19 +1830,19 @@
 ! ^images^ad.
 ! ^images^ad^
 ! ^images^ad_
-^images^ad120.$image
-^images^ad125.$image
-^images^ad160.$image
-^images^ad180.$image
-^images^ad234.$image
-^images^ad240.$image
-^images^ad250.$image
-^images^ad300.$image
-^images^ad336.$image
-^images^ad468.$image
-^images^ad720.$image
-^images^ad728.$image
-^images^ad88.$image
+^images^ad120.$image,object
+^images^ad125.$image,object
+^images^ad160.$image,object
+^images^ad180.$image,object
+^images^ad234.$image,object
+^images^ad240.$image,object
+^images^ad250.$image,object
+^images^ad300.$image,object
+^images^ad336.$image,object
+^images^ad468.$image,object
+^images^ad720.$image,object
+^images^ad728.$image,object
+^images^ad88.$image,object
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^images^ads-
 ! ^images^ads^
@@ -1860,19 +1860,19 @@
 ! ^img^ad.
 ! ^img^ad^
 ! ^img^ad_
-^img^ad120.$image
-^img^ad125.$image
-^img^ad160.$image
-^img^ad180.$image
-^img^ad234.$image
-^img^ad240.$image
-^img^ad250.$image
-^img^ad300.$image
-^img^ad336.$image
-^img^ad468.$image
-^img^ad720.$image
-^img^ad728.$image
-^img^ad88.$image
+^img^ad120.$image,object
+^img^ad125.$image,object
+^img^ad160.$image,object
+^img^ad180.$image,object
+^img^ad234.$image,object
+^img^ad240.$image,object
+^img^ad250.$image,object
+^img^ad300.$image,object
+^img^ad336.$image,object
+^img^ad468.$image,object
+^img^ad720.$image,object
+^img^ad728.$image,object
+^img^ad88.$image,object
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^img^ads-
 ! ^img^ads^
@@ -1886,19 +1886,19 @@
 ! ^imgs^ad.
 ! ^imgs^ad^
 ! ^imgs^ad_
-^imgs^ad120.$image
-^imgs^ad125.$image
-^imgs^ad160.$image
-^imgs^ad180.$image
-^imgs^ad234.$image
-^imgs^ad240.$image
-^imgs^ad250.$image
-^imgs^ad300.$image
-^imgs^ad336.$image
-^imgs^ad468.$image
-^imgs^ad720.$image
-^imgs^ad728.$image
-^imgs^ad88.$image
+^imgs^ad120.$image,object
+^imgs^ad125.$image,object
+^imgs^ad160.$image,object
+^imgs^ad180.$image,object
+^imgs^ad234.$image,object
+^imgs^ad240.$image,object
+^imgs^ad250.$image,object
+^imgs^ad300.$image,object
+^imgs^ad336.$image,object
+^imgs^ad468.$image,object
+^imgs^ad720.$image,object
+^imgs^ad728.$image,object
+^imgs^ad88.$image,object
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^imgs^ads-
 ! ^imgs^ads^
@@ -2302,8 +2302,8 @@ _teasers_
 ||analysis.$third-party
 ||analytics.$third-party
 ||beacon.
-|http://c.*/c.$image
-|https://c.*/c.$image
+|http://c.*/c.$image,object
+|https://c.*/c.$image,object
 ||displayads.
 ||dosugcz.
 ||eulerian.
@@ -2803,7 +2803,7 @@ _teasers_
 ||biglobe.ne.jp/img/bn/
 ||go.biglobe.ne.jp^
 ||bigmir.net^$third-party
-||bing.com/c.$image
+||bing.com/c.$image,object
 ||bing.com/fd/ls/
 ||binlayer.com^$third-party
 ||binmedia.ru^$third-party
@@ -2994,7 +2994,7 @@ _teasers_
 ||ads.com.com^
 ||dw.com.com^$third-party
 ||dw-eu.com.com^$third-party
-||img.com.com/b.$image
+||img.com.com/b.$image,object
 ||rok.com.com^
 ||com-net.info^$popup
 ||comclick.com^
@@ -3298,7 +3298,7 @@ _teasers_
 ||fc2.com/footer/footer.php?
 ||fc2.com/header.php?
 ||fc2.com/image/powered
-||fc2.com/pv.$image
+||fc2.com/pv.$image,object
 ||affiliate.fc2.com^
 ||aimg.fc2.com^
 ||analyzer*.fc2.com*/ana/
@@ -3348,7 +3348,7 @@ _teasers_
 ||freedownloadsoft.net^
 ||freett.com/_Freett/
 ||banners.freett.com^
-||freenew.net/res/img/*_728X90.$image
+||freenew.net/res/img/*_728X90.$image,object
 ||relart.fresheye.com^
 ||frestime.com^
 ||friendlyduck.com^$third-party
@@ -3488,7 +3488,7 @@ _teasers_
 ||hulu.*/viewed/
 ||t-ak.hulu.com^
 ||t2.hulu.com^
-||huluim.com/images/_.$image
+||huluim.com/images/_.$image,object
 ||hunt4tunes.com^$popup
 ||hurra.com^$third-party
 ||hype-ads.com^
@@ -3603,7 +3603,7 @@ _teasers_
 ||itmedia.co.jp/*/fyi/
 ||itmedia.co.jp/*/pr_mobileshop
 ||itmedia.co.jp/css/fl$script
-||itmedia.co.jp/*/licenseonline$image
+||itmedia.co.jp/*/licenseonline$image,object
 ||itmedia.co.jp^*/sa.$script
 ||itmedia.co.jp^*/sa_*.$script
 ||dlv.itmedia.jp^
@@ -3656,7 +3656,7 @@ _teasers_
 ||kakaku.com/script/analytics/
 ||kakaku.com/script/kakakuad/
 ||kakaku.com^*/Rdm
-||img.kakaku.com/images/*/set/bn_$image
+||img.kakaku.com/images/*/set/bn_$image,object
 ||notice.kakaku.com^
 ||kaktuz.com^$third-party
 ||kantan-access.com^$third-party
@@ -4016,8 +4016,8 @@ _teasers_
 ||bwp.news.com^
 ||news-credit.com^
 ||newswatch.$third-party
-||newsweekjapan.jp/images/common/rectangle_$image
-||newsweekjapan.jp/images/common/sideAd.$image
+||newsweekjapan.jp/images/common/rectangle_$image,object
+||newsweekjapan.jp/images/common/sideAd.$image,object
 ||newzia.jp^$third-party
 ||nexac.com^
 ||ngbn.net^$third-party
@@ -4032,8 +4032,8 @@ _teasers_
 ||api.uad.nicovideo.jp^$domain=~uad.nicovideo.jp
 ||nielsen.com^$third-party
 ||nifty.com^*/match_com-module-
-||business.nifty.com/articles/*/banner/$image
-||business.nifty.com^*/bm/*/rec-$image
+||business.nifty.com/articles/*/banner/$image,object
+||business.nifty.com^*/bm/*/rec-$image,object
 ||business.nifty.com^*/js/common.$script
 ||business.nifty.com^*/json/*?update=
 ||tag.nifty.com^
@@ -4241,7 +4241,7 @@ _teasers_
 ||rakuten.co.jp^*/liquidbanner/
 ||rakuten.co.jp^*/message/flash/
 ||rakuten.co.jp/camp/
-||rakuten.co.jp/com/img/home/t.$image
+||rakuten.co.jp/com/img/home/t.$image,object
 ||rakuten.co.jp/common00/
 ||rakuten.co.jp/content/news/bunner/
 ||rakuten.co.jp/js/adjs/
@@ -4333,7 +4333,7 @@ _teasers_
 ||rk.com^$third-party
 ||rlcdn.com^
 ||rmbn.ru^$third-party
-||rmdown.com/pc1.$image
+||rmdown.com/pc1.$image,object
 ||rmgserving.com^
 ||rocketgames.com^$popup
 ||roia.biz^$third-party
@@ -4812,7 +4812,7 @@ _teasers_
 ||vsp-online.com^
 ||vuiads.net^
 ||w55c.net^$third-party
-||wa-dan.com/article/images/title.$image
+||wa-dan.com/article/images/title.$image,object
 ||wa-track.com^$third-party
 ||wahoha.com^
 ||wapolabs.com/revplat/
@@ -4994,9 +4994,9 @@ _teasers_
 ! ||ytimg.com/yt/img/pixel-
 ! ||ytimg.com^*/swfbin/ad-
 ||ytimg.com^*/swfbin/ad3-
-||ytimg.com^*_background_$image
-||ytimg.com^*_banner.$image
-||ytimg.com^*_banner_$image
+||ytimg.com^*_background_$image,object
+||ytimg.com^*_banner.$image,object
+||ytimg.com^*_banner_$image,object
 ||yyv.co^$popup
 ||z5x.net^$third-party
 ||zanox.com^$third-party
