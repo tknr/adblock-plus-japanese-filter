@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: B3OsB7dbWLi3G6HZPHKkqg
-! Last modified: 2012-10-04 15:23:42 JST
+! Checksum: fy9epq2k3he9lr3eq+Daug
+! Last modified: 2012-10-05 11:03:08 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -488,6 +488,7 @@ www.yahoo.co.jp###local
 ! ===== Hidden iframes found at http://labs.sucuri.net/ ===== START =====
 /abuset.php^$third-party
 /feed/frames.php?uid=$third-party
+/feed/xml.php?*&uid=$third-party
 /feed/xml.php?uid=$third-party
 /gate.php?f=$third-party
 /go.php?sid=$third-party
