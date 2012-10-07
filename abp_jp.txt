@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 63jc36lFsTEoN5e4t8UYyA
-! Last modified: 2012-10-04 09:45:05 JST
+! Checksum: cmB1xdkgdwqP/T3vERd9sw
+! Last modified: 2012-10-08 06:33:47 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -56,6 +56,8 @@
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
+! False positives with live movie player using &referer=$image,object,script filter, Oct 8th, 2012
+@@||jtvnw.net/widgets/live_embed_player.*&referer=$object
 ! False positives with online office application view at skydrive.live.com, Apr 24, 2012
 ! Example of a false positive: &ad=ja-JP&
 @@||officeapps.live.com^*frame.*&ad=
