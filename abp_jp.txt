@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: LGk0cXv04df543wAdY2b7w
-! Last modified: 2012-10-08 10:52:38 JST
+! Checksum: vJwbGx09vihThP3544n3iw
+! Last modified: 2012-10-08 10:56:01 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3704,6 +3704,7 @@ _teasers_
 ||langueur.com^
 ||banner.lardi-trans.com^
 ||lavantat.com^
+||rajic.ldblog.jp^$subdocument
 ||le-choix.com^
 ||le-credit-facile.com^
 ||le-rdv-malin.com^
