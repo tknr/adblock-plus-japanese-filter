@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: cmB1xdkgdwqP/T3vERd9sw
-! Last modified: 2012-10-08 06:33:47 JST
+! Checksum: 7DCTb30JKlLjtjteg45+nA
+! Last modified: 2012-10-08 10:31:22 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3149,6 +3149,7 @@ _teasers_
 ! False positives at dailymotion.com reported via Issue Report 2011-11-30
 ! ||dmcdn.net/flash/dmplayer*/plugins/
 ||dmm.co.jp^$domain=~dmm.co.jp|~dmm.com
+||dmm.com^$domain=~dmm.co.jp|~dmm.com
 ||dmtracker.com^$third-party
 ||dn888.com^
 ||dimestore.com^
