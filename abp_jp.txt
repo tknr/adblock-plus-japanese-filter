@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Kt+Li5vOkRLso207aKC3uA
-! Last modified: 2012-10-09 19:20:25 JST
+! Checksum: 33JlN/z5MbXcQyBDVMw61w
+! Last modified: 2012-10-09 23:26:48 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3966,7 +3966,7 @@ _teasers_
 ||mreco.jp^
 ||mreco0.jp^
 ||msads.net^
-||msn.com/br/*/gtracking.$script
+||msn.com/br/*gtracking.$script
 ||msn.com/br/*/navigation.$script
 ||msn.com/br/*/report.$script
 ||msn.com/br/chan/
@@ -4366,7 +4366,7 @@ _teasers_
 ||rubiconproject.com^$third-party
 ||rue-des-credits.com^
 ||rusrestbest.
-||s-msn.com/br/*/gtracking.$script
+||s-msn.com/br/*gtracking.$script
 ||s-msn.com/br/*/navigation.$script
 ||s-msn.com/br/*/report.$script
 ||s-p-o-n-s-o-r.com^
