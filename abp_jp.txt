@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 06j1NZgKU29ecn6r09NRWA
-! Last modified: 2012-10-09 18:25:42 JST
+! Checksum: gAK0g12QfrytW000v7JusA
+! Last modified: 2012-10-09 19:11:46 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -798,6 +798,7 @@
 /google728.$script
 /grack.$script
 /header_bnr_
+/headline.$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
 /hist_count.$~image
 /hserver/*
 /html.ng/*
@@ -996,6 +997,7 @@
 ! /smart_ad/*
 /smate.html$subdocument
 /snare.js
+/social.$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
 /sOmni.
 /spacer.*?$image,object
 ! Commented out to avoid false positives on static: 2011-09-07
@@ -6381,11 +6383,15 @@ gihyo.jp###contentHotspot
 gihyo.jp###secondary > .textPR
 gihyo.jp###secondary > .banner
 gizmodo.com,lifehacker.com###header
-gizmodo.jp,lifehacker.jp##.ad_premiumplan
-gizmodo.jp,lifehacker.jp##.date_header_premium
-gizmodo.jp, kotaku.jp,lifehacker.jp##.entrybox
-gizmodo.jp, kotaku.jp,lifehacker.jp##.headline
-gizmodo.jp, kotaku.jp,lifehacker.jp##.headline2
+gizmodo.jp,kotaku.jp,lifehacker.jp##.ad_premiumplan
+gizmodo.jp,kotaku.jp,lifehacker.jp##.category
+gizmodo.jp,kotaku.jp,lifehacker.jp##.date_header_premium
+gizmodo.jp,kotaku.jp,lifehacker.jp##.entrybox
+gizmodo.jp,kotaku.jp,lifehacker.jp##.headline
+gizmodo.jp,kotaku.jp,lifehacker.jp##.headline_tab
+gizmodo.jp,kotaku.jp,lifehacker.jp##.headline2
+gizmodo.jp,kotaku.jp,lifehacker.jp##.pickup
+gizmodo.jp,kotaku.jp,lifehacker.jp##.tabcont
 gnavi.co.jp###supervisual
 goo.ne.jp##.sponser
 blog.goo.ne.jp###global-header
