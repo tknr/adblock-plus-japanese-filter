@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 6vzthGgp3dQooxABwZ4sFA
-! Last modified: 2012-10-10 21:46:20 JST
+! Checksum: CbshlZCsoPs+XLp2A48BAw
+! Last modified: 2012-10-11 11:58:03 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2356,6 +2356,7 @@ _teasers_
 ! Commented out to avoid false positives on static: 2011-09-07
 ! ||stat.$domain=~ameblo.jp|~ameba.jp
 ||surveys.$third-party
+||tealium.
 ||tizer.
 ||tizer1.
 ||tizer2.
@@ -4609,6 +4610,7 @@ _teasers_
 ||tchatwebcam.com^
 ||tcimg.com^
 ||tcs-asp.net^$third-party
+||tealiumiq.com^
 ||teaser.cc^$third-party
 ||teasernet.com^$third-party
 ||teasernet.ru^
