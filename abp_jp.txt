@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: jY1YAQSAoQKLFX/8Br2oIw
-! Last modified: 2012-10-12 20:45:13 JST
+! Checksum: E/dHLK/tE/eDKCpvf83t1w
+! Last modified: 2012-10-12 23:06:50 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -450,6 +450,7 @@
 .numerik-art.
 .numerik-art^
 .numerik-art_
+.openx.$third-party
 .owa.$script
 ! Simplified to ?zoneid=
 ! .php?zoneid=
@@ -2342,6 +2343,8 @@ _teasers_
 ||metrics.
 ||ocp.
 ||openadext.
+||openxmarket.$third-party
+||servedby.openxmarket.
 |http://ox-d.
 |https://ox-d.
 |http://ox-i.
@@ -4121,6 +4124,7 @@ _teasers_
 ||onsemate.com^
 ||l.player.ooyala.com^
 ||open-mind.vc^
+||openads.org^
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||openadserving.com^
 ||openadserving.com^$popup
@@ -4438,6 +4442,7 @@ _teasers_
 ||seoparts.com^
 ||seoparts.net^$third-party
 ||sergentx.com^
+||servedbyopenx.com^
 ||serving-sys.com^$third-party
 ||sexad.net^
 ||sexas.us^$third-party
