@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7odxjUqY++FBtdZOVnjSsQ
-! Last modified: 2012-10-14 21:19:05 JST
+! Checksum: 5oECmX2cxk2RYz0jf2/kEg
+! Last modified: 2012-10-14 21:23:15 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1198,6 +1198,7 @@
 ?url=$image,object,domain=fc2.com
 ! ?view=ad&
 ?yad=
+?zname=$third-party
 ?zone_id=
 ?zoneid=
 |http:*^ad-
