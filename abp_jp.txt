@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: I9uRUb9iTJ1wkt2R0WeFYw
-! Last modified: 2012-10-16 16:20:21 JST
+! Checksum: KEP4wKiywxuFivqk3QF85A
+! Last modified: 2012-10-16 17:17:30 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5938,6 +5938,7 @@ _teasers_
 ##a[href*=".tcs-asp.net/"]
 ##a[href*=".trafficgate.net/"]
 ##a[href*="type.jp/s/navi/"]
+##a[href*=".uniblue.com/cm/"]
 ##a[href*="//rd.userlocal.jp/"]
 ##a[href*="ap.valuecommerce.com/"]
 ##a[href*="ck.valuecommerce.com/"]
