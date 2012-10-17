@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: oAHtFghV8crXOU55G0QBUA
-! Last modified: 2012-10-17 21:24:28 JST
+! Checksum: Dbbr8k+ioO2sNJX5e3Bj5g
+! Last modified: 2012-10-18 01:29:54 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -180,6 +180,8 @@
 @@||spreadfirefox.jp/affiliates/
 @@||spreadthunderbird.com/files/affiliates/
 @@||spreadthunderbird.com^$elemhide
+! False positives with analytics result pages, Oct 18th, 2012
+@@||userlocal.jp/home/analytics/$domain=userlocal.jp
 @@||virustotal.hispasecsistemas.netdna-cdn.com^*/analysis-
 @@||webpagetest.org^$elemhide
 @@||wikipedia.org^$elemhide
