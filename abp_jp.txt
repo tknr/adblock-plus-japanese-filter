@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: G42q2yprxYAkrjl8jOLerA
-! Last modified: 2012-10-16 19:50:09 JST
+! Checksum: rLV5fC5WQuyXpbkakXEW2A
+! Last modified: 2012-10-17 19:59:02 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -74,8 +74,6 @@
 @@||ndrive.naver.jp/js/lcslog.$script
 ! Japanese biggest computer vendor uses cliant-side script to display RSS titles. It seems that they don't trust server-side performance of their own servers.
 @@||nec.co.jp^*/rss.$script
-! Workaround to avoid false positives with tag edit when users block the following AD script, Oct 10th, 2012
-@@||ads.nicovideo.jp/assets/js/ads-1.0.2.js
 ! False positives with Java SE 7u4 downloading 2012-04-27
 @@||oracleimg.com^*/assets/metrics/ora_$domain=oracle.com
 ! False positive at psmk2.net . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=76 are blocked. 2011-08-29
