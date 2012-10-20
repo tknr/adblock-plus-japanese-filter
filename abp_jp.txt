@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: WQdoDfeLkn8tfosG821Ulg
-! Last modified: 2012-10-19 20:11:50 JST
+! Checksum: oPVl2o/SVKsiX+sERFcSvg
+! Last modified: 2012-10-20 18:22:11 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -504,12 +504,12 @@
 ! /ad-navi/ga/*
 ! /ad.act?
 ! /ad.asp?
-! /ad.asp|
+! /ad.asp^
 ! /ad.aspx?
-! /ad.aspx|
+! /ad.aspx^
 ! /ad.js
 ! /ad.php?id=
-! /ad.swf|
+! /ad.swf^
 ! /ad/*&slot=
 ! /ad/200_
 ! /ad/afc_
@@ -849,7 +849,7 @@
 ! Commented out duplicated filters, Feb 26, 2012
 ! /js_in_text_ads?
 ! /js_overlay_ad?
-/jstag|
+/jstag^
 /jwd-$script
 /jwd.$script
 /jwd^$script
@@ -1104,13 +1104,13 @@
 ! |https:*=ad&
 =adtext.
 =advertisement&
-=INSERT%5fRANDOM%5fNUMBER%5fHERE|
+=INSERT%5fRANDOM%5fNUMBER%5fHERE^
 =INSERT%5fRANDOM%5fNUMBER%5fHERE&
-=INSERT%5fSECTION%5fCODE%5fHERE|
+=INSERT%5fSECTION%5fCODE%5fHERE^
 =INSERT%5fSECTION%5fCODE%5fHERE&
-=INSERT_RANDOM_NUMBER_HERE|
+=INSERT_RANDOM_NUMBER_HERE^
 =INSERT_RANDOM_NUMBER_HERE&
-=INSERT_SECTION_CODE_HERE|
+=INSERT_SECTION_CODE_HERE^
 =INSERT_SECTION_CODE_HERE&
 =OXM_
 ! |http:*?ad-
@@ -2170,7 +2170,7 @@
 |http:*_ad_
 |https:*_ad_
 ! _ad.jsp?
-! _ad.jsp|
+! _ad.jsp^
 ! _ad.ptv?
 ! _ad_agency_
 ! _ad_leaf.$script
