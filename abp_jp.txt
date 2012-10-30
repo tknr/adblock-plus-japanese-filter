@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: pPhLQAoiMRmgPG+mdUO2og
-! Last modified: 2012-10-30 03:48:52 JST
+! Checksum: PhDbp7F9nRwWKo96fdLWZg
+! Last modified: 2012-10-30 20:28:06 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -17,7 +17,7 @@
 ! video-cdn.ea.com distributes mp4 videos with "&affiliateid="...
 @@.mp4?*&affiliateid=
 ! Added to avoid a never-ending "loading..." gif
-@@/history/external/*$domain=amazon.co.jp|amazon.com
+@@/history/external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 ! False positives with theme css by adaptivethemes.com, Jun 11, 2012
 @@_Ad/css/theme/
 ! False positives with Ameblo skin named "colors_ad", reported via Issue Report, Jan 12, 2012 and Dec 29, 2011
@@ -790,7 +790,7 @@
 |http:*/ea.$script
 |https:*/ea.$script
 /exitPopup.$script
-/external/*$domain=amazon.co.jp|amazon.com
+/external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /fc.php?script=
 /fc2se.$script,domain=fc2.com
 /flashbanner.swf
@@ -2700,8 +2700,7 @@ _teasers_
 ||am12.ru^
 ||amalily.com^
 ||amaprop.net^$third-party
-||amazon.co.jp/aan/
-||amazon.com/aan/
+||amazon.*/aan/$domaon=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 ||rcm*.amazon.$third-party
 ||ws.amazon.$third-party
 ||sis.amazon.com^
@@ -6277,14 +6276,14 @@ afpbb.com##div[id^="ads"]
 agri-biz.jp##div[id^="banner_"]
 akb48matome.com##.akbantena
 ! False positives with zoomed images, which are NOT ADs, reported via Issue Report Dec 15, 2011
-! amazon.co.jp,amazon.com###ap_container
-amazon.co.jp,amazon.com###cbcc_banner_container
-amazon.co.jp,amazon.com##.adNoOutline
-amazon.co.jp,amazon.com##*[id^="DA"]
-amazon.co.jp,amazon.com##*[href*="/redirect."][href*="?tag="][href*="-22&"]
-amazon.co.jp,amazon.com##*[href*="/redirect."][href*="%3Ftag%3D"][href*="-22%26"]
+! amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it###ap_container
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it###cbcc_banner_container
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##.adNoOutline
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[id^="DA"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[href*="/redirect."][href*="?tag="][href*="-22&"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[href*="/redirect."][href*="%3Ftag%3D"][href*="-22%26"]
 ! Fallback for not working Element-Hiding filter above, Mar 10, 2012
-amazon.co.jp##img[usemap^="#Javari"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##img[usemap^="#Javari"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
 ascii.jp###bargain
