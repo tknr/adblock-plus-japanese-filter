@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: isPpSxPJpFeDm1EEJsrVIA
-! Last modified: 2012-11-01 16:55:52 JST
+! Checksum: BzKoXC2WWPol4LGFCjEWYw
+! Last modified: 2012-11-01 23:48:31 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -510,14 +510,18 @@ www.yahoo.co.jp###local
 ||com.br^*.php^$script,domain=~br
 ||com/Supplier?$third-party
 ||info/brandz.cgi?$third-party
+||info/falanger.cgi?$third-party
 ||info/gusto.cgi?$third-party
+||info/homodot.cgi?$third-party
 ||info/jocker.cgi?$third-party
 ||info/klaus.cgi?$third-party
 ||info/kuskus.cgi?$third-party
 ||info/nertad.cgi?$third-party
+||info/ohopzviv.cgi?$third-party
 ||info/piramide.cgi?$third-party
 ||info/RECORDINGS?$third-party
 ||info/Songs?$third-party
+||info/tgivvo.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||net/Softgoods?$third-party
 ||org/Cruises?$third-party
@@ -547,6 +551,7 @@ www.yahoo.co.jp###local
 ||ru/joomlastar?$third-party
 ||ru/liwemoly?$third-party
 ||ru/lookbook?$third-party
+||ru/mariott?$third-party
 ||ru/massmedia?$third-party
 ||ru/mishor?$third-party
 ||ru/More?$third-party
@@ -581,6 +586,7 @@ www.yahoo.co.jp###local
 ||rr.nu/nl.php^
 ||rr.nu/pmg.php^
 ||rr.nu/sl.php^
+||us/gugauv.cgi?$third-party
 ||us/Multifunction?$third-party
 ||us/wireless?$third-party
 ! ----- Hidden iframes found at http://labs.sucuri.net/ ----- END -----
