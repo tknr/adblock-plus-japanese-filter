@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: VoThNngrCrEqJutuRSTq2A
-! Last modified: 2012-11-02 20:25:40 JST
+! Checksum: t2LU2O7dPv7eXiP6aEYSOA
+! Last modified: 2012-11-03 19:05:14 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2752,6 +2752,7 @@ _teasers_
 ||aprement.com^
 ||apserver.net^$third-party
 ||aqtracker.com^
+||aquasrv.com^$third-party
 ||archeurs.com^
 ||argus-vehicule.com^
 ||arkpressphoto.org^
@@ -4492,7 +4493,7 @@ _teasers_
 ||sexe-site.org^
 ||sexe-trans.biz^
 ||sexeclub.fr^
-||sexy-ch.com^$third-party
+||sexy-ch.com^
 ||sexycool.net^
 ||shareasale.com^$third-party
 ||sharecash.org^$third-party
