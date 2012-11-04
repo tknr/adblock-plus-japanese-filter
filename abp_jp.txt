@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: fMHncc5a7245BYBqwfMYUQ
-! Last modified: 2012-11-04 21:32:52 JST
+! Checksum: xMeDA4nTEAxg2Vp/3qaZww
+! Last modified: 2012-11-04 23:05:28 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3035,6 +3035,12 @@ _teasers_
 ||clievise.com^
 ||np7beacon.cloudapp.net^
 ||cloudfront.net^*/storage.$object
+||d1ros97qkrwjf5.cloudfront.net^
+||d31qbv1cthcecs.cloudfront.net^
+||d5nxst8fruw4z.cloudfront.net^
+||d7p9czrvs14ne.cloudfront.net^
+||dnn506yrbagrg.cloudfront.net^
+||doug1izaerwt3.cloudfront.net^
 ||club-ama.com^$third-party
 ||clubxvid-gr.com^$popup
 ||cmcore.com^$third-party
@@ -3186,6 +3192,7 @@ _teasers_
 ||diamond.jp^*/welcome.$script
 ||dificaux.com^
 ||digitalworld.fr^
+||dimestore.com^
 ||dimprive.com^
 ||directaclick.com^
 ||directadvert.ru^$third-party
@@ -3207,7 +3214,6 @@ _teasers_
 ||dmm.com^$domain=~dmm.co.jp|~dmm.com
 ||dmtracker.com^$third-party
 ||dn888.com^
-||dimestore.com^
 ||docodoco.jp^$third-party
 ||adapp.doko.jp^
 ||ads.doko.jp^
