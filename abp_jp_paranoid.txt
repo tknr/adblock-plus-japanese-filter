@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: tOa11lEu8NHY1stEchuoPA
-! Last modified: 2012-11-02 19:45:37 JST
+! Checksum: IbckLilH8gGYswnLot5waw
+! Last modified: 2012-11-05 01:27:12 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -510,7 +510,9 @@ www.yahoo.co.jp###local
 |https://*/vd/92;$third-party
 ||com.br^*.php^$script,domain=~br
 ||com/Supplier?$third-party
+||com/thusacademic.cgi?$third-party
 ||info/brandz.cgi?$third-party
+||info/destinationroll.cgi?$third-party
 ||info/falanger.cgi?$third-party
 ||info/gusto.cgi?$third-party
 ||info/homodot.cgi?$third-party
@@ -519,15 +521,33 @@ www.yahoo.co.jp###local
 ||info/kuskus.cgi?$third-party
 ||info/nertad.cgi?$third-party
 ||info/ohopzviv.cgi?$third-party
+||info/personscpus.cgi?$third-party
 ||info/piramide.cgi?$third-party
+||info/pixelationsources.cgi?$third-party
 ||info/RECORDINGS?$third-party
+||info/resellsfruits.cgi?$third-party
 ||info/Songs?$third-party
+||info/statementsgifts.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||net/Softgoods?$third-party
+||org/bcxbsdb.cgi?$third-party
+||org/bdsbfhjtrm.cgi?$third-party
+||org/berntrj.cgi?$third-party
+||org/breber.cgi?$third-party
+||org/bsndgbf.cgi?$third-party
 ||org/Cruises?$third-party
+||org/fcasvab.cgi?$third-party
+||org/grehernern.cgi?$third-party
+||org/gvwqjvnjawvn.cgi?$third-party
+||org/hrekitrm.cgi?$third-party
 ||org/Lexmark?$third-party
+||org/sgewnhermk.cgi?$third-party
+||org/trjrtntrn.cgi?$third-partyb
 ||org/usisec?$third-party
+||org/vgdsviabi.cgi?$third-party
+||org/wvahvuiw.cgi?$third-party
+||org/xcntrzkim.cgi?$third-party
 ||ru/acu?$third-party
 ||ru/artgallery?$third-party
 ||ru/Bermuda?$third-party
@@ -578,6 +598,7 @@ www.yahoo.co.jp###local
 ||ru/timetose?$third-party
 ||ru/Translator?$third-party
 ||ru/trena?$third-party
+||ru/triedandtruepadlock.cgi?$third-party
 ||ru/tujur?$third-party
 ||ru/tvprogramm?$third-party
 ||ru/uedaf?$third-party
@@ -587,8 +608,10 @@ www.yahoo.co.jp###local
 ||rr.nu/nl.php^
 ||rr.nu/pmg.php^
 ||rr.nu/sl.php^
+||us/ggoaivi.cgi?$third-party
 ||us/gugauv.cgi?$third-party
 ||us/Multifunction?$third-party
+||us/trqifai.cgi?$third-party
 ||us/wireless?$third-party
 ! ----- Hidden iframes found at http://labs.sucuri.net/ ----- END -----
 
