@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: l9HXfs4OgB1MruTu0YygtA
-! Last modified: 2012-11-06 04:24:30 JST
+! Checksum: Y4/2HvvUbjk59vjQ1BbxVQ
+! Last modified: 2012-11-07 07:20:12 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -549,6 +549,7 @@ www.yahoo.co.jp###local
 ||org/bsndgbf.cgi?$third-party
 ||org/Cruises?$third-party
 ||org/fcasvab.cgi?$third-party
+||org/fmhg8klikl.cgi?$third-party
 ||org/grehernern.cgi?$third-party
 ||org/gvwqjvnjawvn.cgi?$third-party
 ||org/hnermtrykl.cgi?$third-party
@@ -567,25 +568,33 @@ www.yahoo.co.jp###local
 ||ru/awgjznbjk.cgi?$third-party
 ||ru/Bermuda?$third-party
 ||ru/bdjksncjaksvn.cgi?$third-party
+||ru/blacklistingbogus.cgi?$third-party
 ||ru/blackmuscats?$third-party
 ||ru/boseupwards.cgi?$third-party
 ||ru/bsdnjdsh.cgi?$third-party
+||ru/cannotaftermagnification.cgi?$third-party
 ||ru/cdrcdrwrelocation.cgi?$third-party
 ||ru/classificationstransporting.cgi?$third-party
+||ru/comesunfound.cgi?$third-party
 ||ru/constitute?$third-party
 ||ru/constraintdilemmas.cgi?$third-party
 ||ru/Costs?$third-party
 ||ru/count*.php^$third-party
 ||ru/Cruises?$third-party
 ||ru/Cuisine?$third-party
+||ru/cyberlinksleaderboards.cgi?$third-party
 ||ru/digitalaudiowwwxaracomwebdesigner.cgi?$third-party
 ||ru/Documentation?$third-party
 ||ru/edintef?$third-party
+||ru/encodingcrushing.cgi?$third-party
 ||ru/ensuringafoul.cgi?$third-party
+||ru/etassexually.cgi?$third-party
 ||ru/extended?$third-party
 ||ru/fernad?$third-party
+||ru/finjanrefractions.cgi?$third-party
 ||ru/flayer?$third-party
 ||ru/Furniture?$third-party
+||ru/generatorsinister.cgi?$third-party
 ||ru/Graphs?$third-party
 ||ru/gzuzu?$third-party
 ||ru/hackedreplacing.cgi?$third-party
@@ -593,6 +602,7 @@ www.yahoo.co.jp###local
 ||ru/homepageinvitations.cgi?$third-party
 ||ru/hsffdjfgdtygd.cgi?$third-party
 ||ru/htrejejqerj.cgi?$third-party
+||ru/implementationdepository.cgi?$third-party
 ||ru/indigo?$third-party
 ||ru/ingredientspete.cgi?$third-party
 ||ru/infinity?$third-party
@@ -607,6 +617,7 @@ www.yahoo.co.jp###local
 ||ru/magicactionable.cgi?$third-party
 ||ru/mariott?$third-party
 ||ru/massmedia?$third-party
+||ru/mathsosystembackupsdrftshotjobscom.cgi?$third-party
 ||ru/mishor?$third-party
 ||ru/More?$third-party
 ||ru/mvgjfcxxbnx.cgi?$third-party
@@ -616,12 +627,16 @@ www.yahoo.co.jp###local
 ||ru/palerm?$third-party
 ||ru/pavilion?$third-party
 ||ru/photoplussjavacompliant.cgi?$third-party
+||ru/pittancebrass.cgi?$third-party
 ||ru/plastic?$third-party
 ||ru/Politics?$third-party
+||ru/powerhousezvalues.cgi?$third-party
 ||ru/Priority?$third-party
 ||ru/properties?$third-party
 ||ru/provinciale?$third-party
 ||ru/restyle?$third-party
+||ru/reviewsarigid.cgi?$third-party
+||ru/riderspam.cgi?$third-party
 ||ru/sengi?$third-party
 ||ru/sensorika?$third-party
 ||ru/Services?$third-party
@@ -629,9 +644,12 @@ www.yahoo.co.jp###local
 ||ru/shakesduplicates.cgi?$third-party
 ||ru/shakesoundtracks.cgi?$third-party
 ||ru/sher?$third-party
+||ru/sideweathers.cgi?$third-party
 ||ru/siga?$third-party
 ||ru/storageworkspreviouslyvisited.cgi?$third-party
+||ru/subjectblackbackground.cgi?$third-party
 ||ru/sunreal?$third-party
+||ru/systembackupsdr.cgi?$third-party
 ||ru/Tech?$third-party
 ||ru/Themes?$third-party
 ||ru/thenautoreplies.cgi?$third-party
@@ -645,6 +663,7 @@ www.yahoo.co.jp###local
 ||ru/VEREIN?$third-party
 ||ru/viola?$third-party
 ||ru/workedhinders.cgi?$third-party
+||ru/wwwpaypalcomfinish.cgi?$third-party
 ||ru/yewpp?$third-party
 ||ru/zbsajkbvjzkb.cgi?$third-party
 ||rr.nu/nl.php^
