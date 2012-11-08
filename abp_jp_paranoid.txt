@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: srjQLNfYFA0XA09pN9Q8Mg
-! Last modified: 2012-11-08 09:23:25 JST
+! Checksum: 2T1CsC3HRanpoGHYyJLY3w
+! Last modified: 2012-11-09 04:22:52 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -571,7 +571,9 @@ www.yahoo.co.jp###local
 ||ru/bdjksncjaksvn.cgi?$third-party
 ||ru/blacklistingbogus.cgi?$third-party
 ||ru/blackmuscats?$third-party
+||ru/blimpturning.cgi?$third-party
 ||ru/boseupwards.cgi?$third-party
+||ru/browniessignup.cgi?$third-party
 ||ru/bsdnjdsh.cgi?$third-party
 ||ru/callswithtrump.cgi?$third-party
 ||ru/cannotaftermagnification.cgi?$third-party
@@ -587,10 +589,14 @@ www.yahoo.co.jp###local
 ||ru/cyberlinksleaderboards.cgi?$third-party
 ||ru/desktopthrow.cgi?$third-party
 ||ru/digitalaudiowwwxaracomwebdesigner.cgi?$third-party
+||ru/digitalvideoroad.cgi?$third-party
+||ru/distributesereaders.cgi?$third-party
 ||ru/Documentation?$third-party
+||ru/dropboxsveggieconnectioncom.cgi?$third-party
 ||ru/edintef?$third-party
 ||ru/encodingcrushing.cgi?$third-party
 ||ru/ensuringafoul.cgi?$third-party
+||ru/epeachtreedetail.cgi?$third-party
 ||ru/etassexually.cgi?$third-party
 ||ru/extended?$third-party
 ||ru/fendshare.cgi?$third-party
@@ -599,16 +605,20 @@ www.yahoo.co.jp###local
 ||ru/finjanrefractions.cgi?$third-party
 ||ru/flayer?$third-party
 ||ru/Furniture?$third-party
+||ru/generalandglobal.cgi?$third-party
 ||ru/generatorsinister.cgi?$third-party
+||ru/gpssimultaneously.cgi?$third-party
 ||ru/grandmotherreceipts.cgi?$third-party
 ||ru/Graphs?$third-party
 ||ru/guitarfocus.cgi?$third-party
 ||ru/gzuzu?$third-party
 ||ru/hackedreplacing.cgi?$third-party
 ||ru/headlinesdisconnecting.cgi?$third-party
+||ru/hijinkstwitterverse.cgi?$third-party
 ||ru/homepageinvitations.cgi?$third-party
 ||ru/hsffdjfgdtygd.cgi?$third-party
 ||ru/htrejejqerj.cgi?$third-party
+||ru/ibmaccuvaults.cgi?$third-party
 ||ru/implementationdepository.cgi?$third-party
 ||ru/impressionscostofownership.cgi?$third-party
 ||ru/indigo?$third-party
@@ -628,6 +638,7 @@ www.yahoo.co.jp###local
 ||ru/mariott?$third-party
 ||ru/massmedia?$third-party
 ||ru/mathsosystembackupsdrftshotjobscom.cgi?$third-party
+||ru/maxstacksizedetracted.cgi?$third-party
 ||ru/minutehiccup.cgi?$third-party
 ||ru/mishor?$third-party
 ||ru/More?$third-party
@@ -635,8 +646,10 @@ www.yahoo.co.jp###local
 ||ru/newsroom?$third-party
 ||ru/Nixon?$third-party
 ||ru/nvox?$third-party
+||ru/operaoccupies.cgi?$third-party
 ||ru/overwritescombining.cgi?$third-party
 ||ru/palerm?$third-party
+||ru/passwordchangeantialiasing.cgi?$third-party
 ||ru/pavilion?$third-party
 ||ru/photoplussjavacompliant.cgi?$third-party
 ||ru/pinsbymail.cgi?$third-party
@@ -647,6 +660,8 @@ www.yahoo.co.jp###local
 ||ru/Priority?$third-party
 ||ru/properties?$third-party
 ||ru/provinciale?$third-party
+||ru/punctuationcorrelating.cgi?$third-party
+||ru/relationshipswonder.cgi?$third-party
 ||ru/relegatetrek.cgi?$third-party
 ||ru/remnantreplying.cgi?$third-party
 ||ru/restyle?$third-party
@@ -662,12 +677,15 @@ www.yahoo.co.jp###local
 ||ru/showbizsfivedevice.cgi?$third-party
 ||ru/sideweathers.cgi?$third-party
 ||ru/siga?$third-party
+||ru/signupdiving.cgi?$third-party
 ||ru/sketchyknocked.cgi?$third-party
+||ru/someespeciallyoxide.cgi?$third-party
 ||ru/statencurious.cgi?$third-party
 ||ru/storageworkspreviouslyvisited.cgi?$third-party
 ||ru/subjectblackbackground.cgi?$third-party
 ||ru/sunreal?$third-party
 ||ru/systembackupsdr.cgi?$third-party
+||ru/tabletfocusedmilliseconds.cgi?$third-party
 ||ru/Tech?$third-party
 ||ru/Themes?$third-party
 ||ru/thenautoreplies.cgi?$third-party
