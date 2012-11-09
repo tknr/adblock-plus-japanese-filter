@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 2T1CsC3HRanpoGHYyJLY3w
-! Last modified: 2012-11-09 04:22:52 JST
+! Checksum: Tu+ZuyTcJixjThVLozKI0Q
+! Last modified: 2012-11-10 04:38:03 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -587,6 +587,7 @@ www.yahoo.co.jp###local
 ||ru/Cruises?$third-party
 ||ru/Cuisine?$third-party
 ||ru/cyberlinksleaderboards.cgi?$third-party
+||ru/deployinggrinding.cgi?$third-party
 ||ru/desktopthrow.cgi?$third-party
 ||ru/digitalaudiowwwxaracomwebdesigner.cgi?$third-party
 ||ru/digitalvideoroad.cgi?$third-party
@@ -595,9 +596,11 @@ www.yahoo.co.jp###local
 ||ru/dropboxsveggieconnectioncom.cgi?$third-party
 ||ru/edintef?$third-party
 ||ru/encodingcrushing.cgi?$third-party
+||ru/enementlan.cgi?$third-party
 ||ru/ensuringafoul.cgi?$third-party
 ||ru/epeachtreedetail.cgi?$third-party
 ||ru/etassexually.cgi?$third-party
+||ru/explorerlikeimpacted.cgi?$third-party
 ||ru/extended?$third-party
 ||ru/fendshare.cgi?$third-party
 ||ru/fernad?$third-party
@@ -614,38 +617,47 @@ www.yahoo.co.jp###local
 ||ru/gzuzu?$third-party
 ||ru/hackedreplacing.cgi?$third-party
 ||ru/headlinesdisconnecting.cgi?$third-party
+||ru/heroinesoundgarden.cgi?$third-party
 ||ru/hijinkstwitterverse.cgi?$third-party
 ||ru/homepageinvitations.cgi?$third-party
 ||ru/hsffdjfgdtygd.cgi?$third-party
 ||ru/htrejejqerj.cgi?$third-party
 ||ru/ibmaccuvaults.cgi?$third-party
+||ru/immediatevalueweb.cgi?$third-party
 ||ru/implementationdepository.cgi?$third-party
 ||ru/impressionscostofownership.cgi?$third-party
 ||ru/indigo?$third-party
 ||ru/ingredientspete.cgi?$third-party
 ||ru/infinity?$third-party
 ||ru/Intellectual?$third-party
+||ru/interlacedchrome.cgi?$third-party
 ||ru/intimatefilterable.cgi?$third-party
 ||ru/israel?$third-party
 ||ru/italicsstyles.cgi?$third-party
+||ru/itfirefight.cgi?$third-party
 ||ru/joomlastar?$third-party
 ||ru/jreqjrehreh.cgi?$third-party
 ||ru/kcbnksdjnvkjds.cgi?$third-party
 ||ru/lefthandasiancyrillic.cgi?$third-party
+||ru/lifecyclepvr.cgi?$third-party
 ||ru/liwemoly?$third-party
 ||ru/lookbook?$third-party
 ||ru/magicactionable.cgi?$third-party
+||ru/manrenovated.cgi?$third-party
 ||ru/mariott?$third-party
 ||ru/massmedia?$third-party
+||ru/mathematicaldialog.cgi?$third-party
 ||ru/mathsosystembackupsdrftshotjobscom.cgi?$third-party
 ||ru/maxstacksizedetracted.cgi?$third-party
 ||ru/minutehiccup.cgi?$third-party
 ||ru/mishor?$third-party
 ||ru/More?$third-party
+||ru/multilensdeposit.cgi?$third-party
 ||ru/mvgjfcxxbnx.cgi?$third-party
 ||ru/newsroom?$third-party
 ||ru/Nixon?$third-party
 ||ru/nvox?$third-party
+||ru/opensourcetwominute.cgi?$third-party
 ||ru/operaoccupies.cgi?$third-party
 ||ru/overwritescombining.cgi?$third-party
 ||ru/palerm?$third-party
@@ -667,6 +679,7 @@ www.yahoo.co.jp###local
 ||ru/restyle?$third-party
 ||ru/reviewsarigid.cgi?$third-party
 ||ru/riderspam.cgi?$third-party
+||ru/selectionmileage.cgi?$third-party
 ||ru/sengi?$third-party
 ||ru/sensorika?$third-party
 ||ru/Services?$third-party
@@ -680,13 +693,16 @@ www.yahoo.co.jp###local
 ||ru/signupdiving.cgi?$third-party
 ||ru/sketchyknocked.cgi?$third-party
 ||ru/someespeciallyoxide.cgi?$third-party
+||ru/spainminutes.cgi?$third-party
 ||ru/statencurious.cgi?$third-party
 ||ru/storageworkspreviouslyvisited.cgi?$third-party
 ||ru/subjectblackbackground.cgi?$third-party
 ||ru/sunreal?$third-party
+||ru/surmisedsemiprofessionally.cgi?$third-party
 ||ru/systembackupsdr.cgi?$third-party
 ||ru/tabletfocusedmilliseconds.cgi?$third-party
 ||ru/Tech?$third-party
+||ru/theftdisappears.cgi?$third-party
 ||ru/Themes?$third-party
 ||ru/thenautoreplies.cgi?$third-party
 ||ru/timetose?$third-party
@@ -697,12 +713,15 @@ www.yahoo.co.jp###local
 ||ru/tujur?$third-party
 ||ru/tvprogramm?$third-party
 ||ru/uedaf?$third-party
+||ru/underwentfsb.cgi?$third-party
 ||ru/VEREIN?$third-party
 ||ru/viola?$third-party
 ||ru/workedhinders.cgi?$third-party
 ||ru/wwwpaypalcomfinish.cgi?$third-party
+||ru/ycoordinatesmad.cgi?$third-party
 ||ru/yewpp?$third-party
 ||ru/zbsajkbvjzkb.cgi?$third-party
+||ru/zoomsgbwhich.cgi?$third-party
 ||rr.nu/nl.php^
 ||rr.nu/pmg.php^
 ||rr.nu/sl.php^
