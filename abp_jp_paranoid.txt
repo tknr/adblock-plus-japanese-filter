@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: c0wFSmcK5wRCKU0bSMjzaw
-! Last modified: 2012-11-10 09:36:56 JST
+! Checksum: ppkNAk3w/CilmHE6/Bejlw
+! Last modified: 2012-11-10 21:33:29 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -50,6 +50,8 @@
 @@||ameba.jp/blog/ucs/js/editor/popups/
 @@||clustrmaps.com/stats/$first-party
 @@||sci.la.coocan.jp^*/log/
+! False positive at crowdin.net with a user-role configuration script with a filter ^tracker^
+@@||crowdin.net/tracker/member_status
 @@||evernote.com^*/Logger.
 ! False positive blocking detailed access data on SEO pages
 @@||partsall.geotg.jp/data/*.log
