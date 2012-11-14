@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Hi+PX9JTrdZBZh2VXgc6cQ
-! Last modified: 2012-11-14 16:53:04 JST
+! Checksum: 1qGtnpejv35GnVyBuuMZXA
+! Last modified: 2012-11-14 17:07:35 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -44,18 +44,22 @@
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
+! A ^beacon^ filter causes false positives with css sprite images below, Oct 3rd, 2012
+! http://g-ec2.images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
+! http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01._V394051227_.png
+@@||images-amazon.com^*/beacon/BeaconSprite-$image
 ! A -beacon^ filter causes false positives with combined script and stylesheet below, Oct 3rd, 2012
 ! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.2.6-beacon/site-wide-11878695216._V1_.js
 ! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/jp-site-wide-css-beacon/site-wide-7797898918._V1_.css
 ! http://z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-beacon/site-wide-7681525081._V1_.css
 @@||images-amazon.com^*/browser-scripts/*-beacon/$script,stylesheet
-! A ^beacon^ filter causes false positives with css sprite images below, Oct 3rd, 2012
-! http://g-ec2.images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
-! http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01._V394051227_.png
-@@||images-amazon.com^*/beacon/BeaconSprite-$image
 ! A ^beacon^ filter causes false positives with css sprite images below when used via https, Nov 14, 2012
 ! https://images-na.ssl-images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
 @@||ssl-images-amazon.com^*/beacon/BeaconSprite-$image
+! -beacon^ and -beacon- filters cause false positives with combined script and stylesheet below when used via https, Nov 14, 2012
+! https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/navbarCSSJP-beacon/navbarCSSJP-beacon-630467669._V401873068_.css
+! https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/navbarJS-beacon/navbarJS-beacon-4140286522._V401873127_.js
+@@||ssl-images-amazon.com^*/browser-scripts/*-beacon/$script,stylesheet
 @@||imdb.com^*/doubleclick/
 ! Workaround for adblock detector, which includes "adblock = false;" only.
 @@||static.isohunt.com/js/adframe.$script
