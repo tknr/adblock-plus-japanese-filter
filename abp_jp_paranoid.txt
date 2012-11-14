@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: fAELs8/l/72hrIW5MAINIw
-! Last modified: 2012-11-13 10:02:14 JST
+! Checksum: hVqFYiDNx9JpKQ8duZA3dQ
+! Last modified: 2012-11-14 10:46:37 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -564,6 +564,7 @@ www.yahoo.co.jp###local
 ||org/wvahvuiw.cgi?$third-party
 ||org/xcntrzkim.cgi?$third-party
 ||ru/acceptpandora.cgi?$third-party
+||ru/accountabilityfanhattan.cgi?$third-party
 ||ru/acu?$third-party
 ||ru/appsumostrust.cgi?$third-party
 ||ru/arsenalwinmark.cgi?$third-party
@@ -597,6 +598,7 @@ www.yahoo.co.jp###local
 ||ru/digitalvideoroad.cgi?$third-party
 ||ru/distributesereaders.cgi?$third-party
 ||ru/Documentation?$third-party
+||ru/doforgetsheet.cgi?$third-party
 ||ru/dropboxsveggieconnectioncom.cgi?$third-party
 ||ru/edintef?$third-party
 ||ru/encodingcrushing.cgi?$third-party
@@ -607,6 +609,7 @@ www.yahoo.co.jp###local
 ||ru/etassexually.cgi?$third-party
 ||ru/explorerlikeimpacted.cgi?$third-party
 ||ru/extended?$third-party
+||ru/faresearchrecording.cgi?$third-party
 ||ru/fendshare.cgi?$third-party
 ||ru/fernad?$third-party
 ||ru/filetypebotnets.cgi?$third-party
@@ -628,6 +631,7 @@ www.yahoo.co.jp###local
 ||ru/heroinesoundgarden.cgi?$third-party
 ||ru/hijinkstwitterverse.cgi?$third-party
 ||ru/homepageinvitations.cgi?$third-party
+||ru/hoverplugin.cgi?$third-party
 ||ru/hsffdjfgdtygd.cgi?$third-party
 ||ru/htrejejqerj.cgi?$third-party
 ||ru/ibmaccuvaults.cgi?$third-party
@@ -653,6 +657,7 @@ www.yahoo.co.jp###local
 ||ru/liwemoly?$third-party
 ||ru/lookbook?$third-party
 ||ru/magicactionable.cgi?$third-party
+||ru/makingonlinebackup.cgi?$third-party
 ||ru/manrenovated.cgi?$third-party
 ||ru/mariott?$third-party
 ||ru/massmedia?$third-party
@@ -661,10 +666,12 @@ www.yahoo.co.jp###local
 ||ru/maxstacksizedetracted.cgi?$third-party
 ||ru/minutehiccup.cgi?$third-party
 ||ru/mishor?$third-party
+||ru/moneyoptinto.cgi?$third-party
 ||ru/More?$third-party
 ||ru/multilensdeposit.cgi?$third-party
 ||ru/mvgjfcxxbnx.cgi?$third-party
 ||ru/mypalmcomtarts.cgi?$third-party
+||ru/naturalaccessmostly.cgi?$third-party
 ||ru/newsroom?$third-party
 ||ru/Nixon?$third-party
 ||ru/nonsharedtaskbased.cgi?$third-party
@@ -676,7 +683,9 @@ www.yahoo.co.jp###local
 ||ru/passwordchangeantialiasing.cgi?$third-party
 ||ru/pausingsentreceived.cgi?$third-party
 ||ru/pavilion?$third-party
+||ru/peertopeerentrepreneurial.cgi?$third-party
 ||ru/photoplussjavacompliant.cgi?$third-party
+||ru/photossped.cgi?$third-party
 ||ru/pinsbymail.cgi?$third-party
 ||ru/pittancebrass.cgi?$third-party
 ||ru/plastic?$third-party
@@ -707,11 +716,13 @@ www.yahoo.co.jp###local
 ||ru/showbizsfivedevice.cgi?$third-party
 ||ru/sideweathers.cgi?$third-party
 ||ru/siga?$third-party
+||ru/signaturevon.cgi?$third-party
 ||ru/signupdiving.cgi?$third-party
 ||ru/sketchyknocked.cgi?$third-party
 ||ru/someespeciallyoxide.cgi?$third-party
 ||ru/spainminutes.cgi?$third-party
 ||ru/statencurious.cgi?$third-party
+||ru/stlattice.cgi?$third-party
 ||ru/storageworkspreviouslyvisited.cgi?$third-party
 ||ru/subjectblackbackground.cgi?$third-party
 ||ru/sufficientlyallegiances.cgi?$third-party
