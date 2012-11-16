@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: hVqFYiDNx9JpKQ8duZA3dQ
-! Last modified: 2012-11-14 10:46:37 JST
+! Checksum: v4RhG1jjlUgoEH4ASNbHGQ
+! Last modified: 2012-11-16 10:22:29 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -515,6 +515,7 @@ www.yahoo.co.jp###local
 ||com.br^*.php^$script,domain=~br
 ||com/failuredrawas.cgi?$third-party
 ||com/formattingdiscontinued.cgi?$third-party
+||com/geographicallyconquering.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
 ||com/Supplier?$third-party
 ||com/thusacademic.cgi?$third-party
@@ -523,6 +524,7 @@ www.yahoo.co.jp###local
 ||info/dsfghj.cgi?$third-party
 ||info/falanger.cgi?$third-party
 ||info/fgesarhdtfjy.cgi?$third-party
+||info/gaewrsijhf.cgi?$third-party
 ||info/gerhdtfj.cgi?$third-party
 ||info/graeijhesg.cgi?$third-party
 ||info/gusto.cgi?$third-party
@@ -530,6 +532,7 @@ www.yahoo.co.jp###local
 ||info/jocker.cgi?$third-party
 ||info/klaus.cgi?$third-party
 ||info/kuskus.cgi?$third-party
+||info/neiakz.cgi?$third-party
 ||info/nertad.cgi?$third-party
 ||info/nonmicrosofthats.cgi?$third-party
 ||info/ohopzviv.cgi?$third-party
@@ -552,6 +555,7 @@ www.yahoo.co.jp###local
 ||org/Cruises?$third-party
 ||org/fcasvab.cgi?$third-party
 ||org/fmhg8klikl.cgi?$third-party
+||org/geographicallyconquering.cgi?$third-party
 ||org/grehernern.cgi?$third-party
 ||org/gvwqjvnjawvn.cgi?$third-party
 ||org/hnermtrykl.cgi?$third-party
@@ -584,6 +588,7 @@ www.yahoo.co.jp###local
 ||ru/cdrcdrwrelocation.cgi?$third-party
 ||ru/classificationstransporting.cgi?$third-party
 ||ru/comesunfound.cgi?$third-party
+||ru/confirmingunhelpful.cgi?$third-party
 ||ru/constitute?$third-party
 ||ru/constraintdilemmas.cgi?$third-party
 ||ru/Costs?$third-party
@@ -623,6 +628,7 @@ www.yahoo.co.jp###local
 ||ru/generatorsinister.cgi?$third-party
 ||ru/gpssimultaneously.cgi?$third-party
 ||ru/grandmotherreceipts.cgi?$third-party
+||ru/grantis?$third-party
 ||ru/Graphs?$third-party
 ||ru/guitarfocus.cgi?$third-party
 ||ru/gzuzu?$third-party
@@ -694,6 +700,7 @@ www.yahoo.co.jp###local
 ||ru/powerhousezvalues.cgi?$third-party
 ||ru/Priority?$third-party
 ||ru/properties?$third-party
+||ru/protectedonlines.cgi?$third-party
 ||ru/provinciale?$third-party
 ||ru/punctuationcorrelating.cgi?$third-party
 ||ru/reconsiderrolodex.cgi?$third-party
@@ -704,6 +711,7 @@ www.yahoo.co.jp###local
 ||ru/reviewsarigid.cgi?$third-party
 ||ru/riderspam.cgi?$third-party
 ||ru/robotspipe.cgi?$third-party
+||ru/sbird.cgi?$third-party
 ||ru/scentsendfax.cgi?$third-party
 ||ru/selectionmileage.cgi?$third-party
 ||ru/sengi?$third-party
@@ -744,6 +752,7 @@ www.yahoo.co.jp###local
 ||ru/tvprogramm?$third-party
 ||ru/uedaf?$third-party
 ||ru/underwentfsb.cgi?$third-party
+||ru/unhidesecurity.cgi?$third-party
 ||ru/VEREIN?$third-party
 ||ru/viola?$third-party
 ||ru/wifiabusinessfriendly.cgi?$third-party
