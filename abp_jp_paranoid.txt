@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: T9Gbbiwlo84ziqlWBPp/NA
-! Last modified: 2012-11-17 02:37:24 JST
+! Checksum: ZzcNOBCiMcTQdGC8eHzULg
+! Last modified: 2012-11-17 13:54:18 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -513,6 +513,7 @@ www.yahoo.co.jp###local
 ||biz/processorsuccession.cgi?$third-party
 ||biz/temposreligion.cgi?$third-party
 ||com.br^*.php^$script,domain=~br
+||com/doubleclickingsygate.cgi?$third-party
 ||com/failuredrawas.cgi?$third-party
 ||com/formattingdiscontinued.cgi?$third-party
 ||com/geographicallyconquering.cgi?$third-party
@@ -561,12 +562,14 @@ www.yahoo.co.jp###local
 ||org/hnermtrykl.cgi?$third-party
 ||org/hrekitrm.cgi?$third-party
 ||org/Lexmark?$third-party
+||org/magneticstripculture.cgi?$third-party
 ||org/sgewnhermk.cgi?$third-party
 ||org/trjrtntrn.cgi?$third-partyb
 ||org/usisec?$third-party
 ||org/vgdsviabi.cgi?$third-party
 ||org/wvahvuiw.cgi?$third-party
 ||org/xcntrzkim.cgi?$third-party
+||ru:8080/forum/links/
 ||ru/acceptpandora.cgi?$third-party
 ||ru/accountabilityfanhattan.cgi?$third-party
 ||ru/acu?$third-party
@@ -580,6 +583,7 @@ www.yahoo.co.jp###local
 ||ru/blacklistingbogus.cgi?$third-party
 ||ru/blackmuscats?$third-party
 ||ru/blimpturning.cgi?$third-party
+||ru/blognaturallanguage.cgi?$third-party
 ||ru/boseupwards.cgi?$third-party
 ||ru/browniessignup.cgi?$third-party
 ||ru/bsdnjdsh.cgi?$third-party
@@ -633,6 +637,7 @@ www.yahoo.co.jp###local
 ||ru/guitarfocus.cgi?$third-party
 ||ru/gzuzu?$third-party
 ||ru/hackedreplacing.cgi?$third-party
+||ru/handledpandora.cgi?$third-party
 ||ru/headlinesdisconnecting.cgi?$third-party
 ||ru/heroinesoundgarden.cgi?$third-party
 ||ru/hijinkstwitterverse.cgi?$third-party
@@ -750,6 +755,7 @@ www.yahoo.co.jp###local
 ||ru/triedandtruepadlock.cgi?$third-party
 ||ru/tujur?$third-party
 ||ru/tvprogramm?$third-party
+||ru/twelfthgenitor.cgi?$third-party
 ||ru/uedaf?$third-party
 ||ru/underwentfsb.cgi?$third-party
 ||ru/unhidesecurity.cgi?$third-party
