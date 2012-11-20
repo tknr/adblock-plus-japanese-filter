@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: yFWLH0P2C2w10fPOVQ1EsA
-! Last modified: 2012-11-19 19:40:46 JST
+! Checksum: JZ/3W45iOP0m1iEiiLVJwQ
+! Last modified: 2012-11-20 19:26:08 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5952,6 +5952,7 @@ _teasers_
 ##a[href*="infotop.jp/click."]
 ##a[href*="infotop.jp/order."]
 ##a[href*="://ngs.impress.co.jp"]
+##a[href*="//izumino.jp/p2k/"]
 ##a[href*="://click.j-a-net.jp"]
 ##a[href*="://j-a-net.jp/gateway/click.cgi"]
 ##a[href*="://cl.jlisting.jp"]
