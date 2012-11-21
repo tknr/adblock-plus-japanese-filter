@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ajEyZXTdeQw3EWcCRrw5Pw
-! Last modified: 2012-11-20 21:10:22 JST
+! Checksum: wrYIynBow5y5f4Zx1qMkfA
+! Last modified: 2012-11-21 17:18:05 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -553,6 +553,7 @@ www.yahoo.co.jp###local
 ||org/bdsbfhjtrm.cgi?$third-party
 ||org/berntrj.cgi?$third-party
 ||org/breber.cgi?$third-party
+||org/bsecuresbigpicture.cgi?$third-party
 ||org/bsndgbf.cgi?$third-party
 ||org/Cruises?$third-party
 ||org/fcasvab.cgi?$third-party
@@ -587,6 +588,7 @@ www.yahoo.co.jp###local
 ||ru/blimpturning.cgi?$third-party
 ||ru/blognaturallanguage.cgi?$third-party
 ||ru/boseupwards.cgi?$third-party
+||ru/brapplicationsreally.cgi?$third-party
 ||ru/browniessignup.cgi?$third-party
 ||ru/bsdnjdsh.cgi?$third-party
 ||ru/callswithtrump.cgi?$third-party
@@ -594,6 +596,7 @@ www.yahoo.co.jp###local
 ||ru/cdrcdrwrelocation.cgi?$third-party
 ||ru/classificationstransporting.cgi?$third-party
 ||ru/comesunfound.cgi?$third-party
+||ru/commissionedbasics.cgi?$third-party
 ||ru/confirmingunhelpful.cgi?$third-party
 ||ru/constitute?$third-party
 ||ru/constraintdilemmas.cgi?$third-party
@@ -605,6 +608,7 @@ www.yahoo.co.jp###local
 ||ru/deltaingscrubbing.cgi?$third-party
 ||ru/deployinggrinding.cgi?$third-party
 ||ru/desktopthrow.cgi?$third-party
+||ru/dieslee.cgi?$third-party
 ||ru/digitalaudiowwwxaracomwebdesigner.cgi?$third-party
 ||ru/digitalvideoroad.cgi?$third-party
 ||ru/distributesereaders.cgi?$third-party
@@ -615,6 +619,7 @@ www.yahoo.co.jp###local
 ||ru/encodingcrushing.cgi?$third-party
 ||ru/enementlan.cgi?$third-party
 ||ru/ensuringafoul.cgi?$third-party
+||ru/entertainmentseekersrecently.cgi?$third-party
 ||ru/epeachtreedetail.cgi?$third-party
 ||ru/epiphanymultidevice.cgi?$third-party
 ||ru/etassexually.cgi?$third-party
@@ -760,6 +765,7 @@ www.yahoo.co.jp###local
 ||ru/tujur?$third-party
 ||ru/tvprogramm?$third-party
 ||ru/twelfthgenitor.cgi?$third-party
+||ru/tyingwishing.cgi?$third-party
 ||ru/uedaf?$third-party
 ||ru/underwentfsb.cgi?$third-party
 ||ru/unhidesecurity.cgi?$third-party
