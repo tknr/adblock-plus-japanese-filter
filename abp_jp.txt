@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: L5vLiH1QYEcT2CwYSBY04A
-! Last modified: 2012-11-21 16:30:28 JST
+! Checksum: E4GSbEjd1W5KBd5yco5Jrg
+! Last modified: 2012-11-22 22:06:48 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6205,7 +6205,8 @@ _teasers_
 ##*[class^="adBox"]:not(body):not(input)
 ##*[class^="ads-"]:not(body):not(input)
 ##*[class^="ads_"]:not(body):not(input)
-##*[class^="adv-"]:not(body):not(input)
+! Added domain exception to avoid a false positive hiding "advanced option", reported by TORI via blog comment, Nov 22, 2012
+~mail.yahoo.com##*[class^="adv-"]:not(body):not(input)
 ##*[class^="adv_"]:not(body):not(input)
 ##*[class^="deqwas"]:not(body):not(input)
 ##*[class^="deteql"]:not(body):not(input)
