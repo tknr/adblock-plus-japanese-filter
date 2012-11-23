@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: /Ss93FnrljgvEudV8HnRcg
-! Last modified: 2012-11-22 20:36:36 JST
+! Checksum: d0+zUbih4mqqPjzWDapklA
+! Last modified: 2012-11-23 22:26:30 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -527,6 +527,7 @@ www.yahoo.co.jp###local
 ||info/destinationroll.cgi?$third-party
 ||info/dsfghj.cgi?$third-party
 ||info/falanger.cgi?$third-party
+||info/fewhreh.cgi?$third-party
 ||info/fgesarhdtfjy.cgi?$third-party
 ||info/gaewrsijhf.cgi?$third-party
 ||info/gerhdtfj.cgi?$third-party
@@ -547,6 +548,7 @@ www.yahoo.co.jp###local
 ||info/resellsfruits.cgi?$third-party
 ||info/Songs?$third-party
 ||info/statementsgifts.cgi?$third-party
+||info/teacherwelldesigned.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
 ||info/timeofdaydeactivating.cgi?$third-party
 ||info/wensday.cgi?$third-party
@@ -578,12 +580,14 @@ www.yahoo.co.jp###local
 ||ru/acceptpandora.cgi?$third-party
 ||ru/accountabilityfanhattan.cgi?$third-party
 ||ru/acu?$third-party
+||ru/aecconsolebased.cgi?$third-party
 ||ru/appsumostrust.cgi?$third-party
 ||ru/arsenalwinmark.cgi?$third-party
 ||ru/artgallery?$third-party
 ||ru/asjfbaskjbvz.cgi?$third-party
 ||ru/attendeesremarkably.cgi?$third-party
 ||ru/awgjznbjk.cgi?$third-party
+||ru/bannerappbrain.cgi?$third-party
 ||ru/Bermuda?$third-party
 ||ru/bdjksncjaksvn.cgi?$third-party
 ||ru/blacklistingbogus.cgi?$third-party
@@ -596,6 +600,7 @@ www.yahoo.co.jp###local
 ||ru/bsdnjdsh.cgi?$third-party
 ||ru/callswithtrump.cgi?$third-party
 ||ru/cannotaftermagnification.cgi?$third-party
+||ru/castfilter.cgi?$third-party
 ||ru/cdrcdrwrelocation.cgi?$third-party
 ||ru/classificationstransporting.cgi?$third-party
 ||ru/comesunfound.cgi?$third-party
@@ -640,6 +645,7 @@ www.yahoo.co.jp###local
 ||ru/fruitsbrowser.cgi?$third-party
 ||ru/Furniture?$third-party
 ||ru/gatessafe.cgi?$third-party
+||ru/gegjaivja.cgi?$third-party
 ||ru/generalandglobal.cgi?$third-party
 ||ru/generatorsinister.cgi?$third-party
 ||ru/gpssimultaneously.cgi?$third-party
@@ -662,8 +668,9 @@ www.yahoo.co.jp###local
 ||ru/implementationdepository.cgi?$third-party
 ||ru/impressionscostofownership.cgi?$third-party
 ||ru/indigo?$third-party
-||ru/ingredientspete.cgi?$third-party
+||ru/inferencefailing.cgi?$third-party
 ||ru/infinity?$third-party
+||ru/ingredientspete.cgi?$third-party
 ||ru/instructedsmoother.cgi?$third-party
 ||ru/Intellectual?$third-party
 ||ru/interlacedchrome.cgi?$third-party
