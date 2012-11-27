@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: fgf09KmOIb1gKU1Ohd9x+A
-! Last modified: 2012-11-27 16:33:20 JST
+! Checksum: i5uqDZxD9PPNoQPP0xdFCQ
+! Last modified: 2012-11-27 21:41:40 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3206,7 +3206,8 @@ _teasers_
 ||demanier.com^
 ||demdex.net^$third-party
 ||deplayer.net^$third-party
-||depositfiles.com/js/df_utils.$script
+! Possibly false positive disabling "Regular download" button, reported by leaies.hotmail at [https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=33]
+! ||depositfiles.com/js/df_utils.$script
 ||depositfiles.com/js/gold_offer.$script
 ||deqwas.net^
 ||detaires.com^
