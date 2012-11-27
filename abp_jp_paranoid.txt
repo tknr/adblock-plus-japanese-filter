@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: yxwHSUXhYBDes7XHDVqpvQ
-! Last modified: 2012-11-27 20:26:50 JST
+! Checksum: fNmX+qfh5xl1XaH6NbotsA
+! Last modified: 2012-11-27 20:57:32 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -635,6 +635,7 @@ www.yahoo.co.jp###local
 ||ru/entertainmentseekersrecently.cgi?$third-party
 ||ru/epeachtreedetail.cgi?$third-party
 ||ru/epiphanymultidevice.cgi?$third-party
+||ru/epsdangers.cgi?$third-party
 ||ru/etassexually.cgi?$third-party
 ||ru/exampleandjuggle.cgi?$third-party
 ||ru/explorerlikeimpacted.cgi?$third-party
@@ -655,6 +656,7 @@ www.yahoo.co.jp###local
 ||ru/generalandglobal.cgi?$third-party
 ||ru/generatorsinister.cgi?$third-party
 ||ru/gpssimultaneously.cgi?$third-party
+||ru/gptcreateasim.cgi?$third-party
 ||ru/grandmotherreceipts.cgi?$third-party
 ||ru/grantis?$third-party
 ||ru/Graphs?$third-party
@@ -688,6 +690,7 @@ www.yahoo.co.jp###local
 ||ru/joomlastar?$third-party
 ||ru/jreqjrehreh.cgi?$third-party
 ||ru/kcbnksdjnvkjds.cgi?$third-party
+||ru/lamka?$third-party
 ||ru/laptopstandby.cgi?$third-party
 ||ru/lefthandasiancyrillic.cgi?$third-party
 ||ru/lifecyclepvr.cgi?$third-party
@@ -697,6 +700,7 @@ www.yahoo.co.jp###local
 ||ru/makingonlinebackup.cgi?$third-party
 ||ru/manrenovated.cgi?$third-party
 ||ru/mariott?$third-party
+||ru/martinez?$third-party
 ||ru/massmedia?$third-party
 ||ru/mathematicaldialog.cgi?$third-party
 ||ru/mathsosystembackupsdrftshotjobscom.cgi?$third-party
