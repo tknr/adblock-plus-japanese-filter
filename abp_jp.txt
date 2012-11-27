@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: dIiIz7SZDvGgfV4CxOOkig
-! Last modified: 2012-11-24 14:47:15 JST
+! Checksum: fgf09KmOIb1gKU1Ohd9x+A
+! Last modified: 2012-11-27 16:33:20 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5995,6 +5995,7 @@ _teasers_
 ##a[href*="://sell4.info/"]
 ##a[href*="shareasale.com/r."]
 ##a[href*=".softonic.jp/"]
+##a[href*=".softpicks.net/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
 ##a[href*="://g.subcul.net"]
 ##a[href*=".super-search.jp/"]
