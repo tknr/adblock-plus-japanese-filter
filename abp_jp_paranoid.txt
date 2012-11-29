@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: NpnuBfT+yBlqoHweKB2KGA
-! Last modified: 2012-11-29 23:56:22 JST
+! Checksum: pG8vXlOyu2PhHINl6mxWNw
+! Last modified: 2012-11-30 00:11:24 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -521,6 +521,7 @@ www.yahoo.co.jp###local
 ||com/failuredrawas.cgi?$third-party
 ||com/formattingdiscontinued.cgi?$third-party
 ||com/geographicallyconquering.cgi?$third-party
+||com/geranmalin.cgi?$third-party
 ||com/mustmoneyback.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
 ||com/Supplier?$third-party
@@ -567,6 +568,7 @@ www.yahoo.co.jp###local
 ||org/fcasvab.cgi?$third-party
 ||org/fmhg8klikl.cgi?$third-party
 ||org/geographicallyconquering.cgi?$third-party
+||org/geranmalin.cgi?$third-party
 ||org/grehernern.cgi?$third-party
 ||org/gvwqjvnjawvn.cgi?$third-party
 ||org/hnermtrykl.cgi?$third-party
@@ -625,6 +627,7 @@ www.yahoo.co.jp###local
 ||ru/digitalaudiowwwxaracomwebdesigner.cgi?$third-party
 ||ru/digitalvideoroad.cgi?$third-party
 ||ru/disinfectionservice.cgi?$third-party
+||ru/disksuitevirusspyware.cgi?$third-party
 ||ru/distributesereaders.cgi?$third-party
 ||ru/Documentation?$third-party
 ||ru/doforgetsheet.cgi?$third-party
@@ -706,6 +709,7 @@ www.yahoo.co.jp###local
 ||ru/mathematicaldialog.cgi?$third-party
 ||ru/mathsosystembackupsdrftshotjobscom.cgi?$third-party
 ||ru/maxstacksizedetracted.cgi?$third-party
+||ru/meteos?$third-party
 ||ru/minutehiccup.cgi?$third-party
 ||ru/mishor?$third-party
 ||ru/moneyoptinto.cgi?$third-party
@@ -721,6 +725,7 @@ www.yahoo.co.jp###local
 ||ru/opensourcetwominute.cgi?$third-party
 ||ru/operaoccupies.cgi?$third-party
 ||ru/overwritescombining.cgi?$third-party
+||ru/overwrittencalculated.cgi?$third-party
 ||ru/palerm?$third-party
 ||ru/passwordchangeantialiasing.cgi?$third-party
 ||ru/pausingsentreceived.cgi?$third-party
@@ -765,6 +770,7 @@ www.yahoo.co.jp###local
 ||ru/signupdiving.cgi?$third-party
 ||ru/sketchyknocked.cgi?$third-party
 ||ru/someespeciallyoxide.cgi?$third-party
+||ru/space?$third-party
 ||ru/spainminutes.cgi?$third-party
 ||ru/statencurious.cgi?$third-party
 ||ru/stlattice.cgi?$third-party
