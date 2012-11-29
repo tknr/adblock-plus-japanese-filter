@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7q7M+PKQygMxF8oNp7oopA
-! Last modified: 2012-11-30 02:05:24 JST
+! Checksum: 9cK6cFjK/LHtkZh/Yacj2w
+! Last modified: 2012-11-30 02:12:10 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5072,7 +5072,8 @@ _teasers_
 ||geo.yahoo.
 ||bc.geocities.yahoo.*/js/
 ||logoole.yahoo.$third-party
-||mail.yahoo.co.jp/neo/socialmailtop_neo/js/soc.$script
+! False positives with mail folders, Nov 30, 2012
+! ||mail.yahoo.co.jp/neo/socialmailtop_neo/js/soc.$script
 ||wa.marketingsolutions.yahoo.
 ||ov.yahoo.
 ||rd.yahoo.
