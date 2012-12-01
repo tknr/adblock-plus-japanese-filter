@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: S7z0lonYjxCBa2e91DsXQg
-! Last modified: 2012-11-30 20:12:38 JST
+! Checksum: Nfi51wP0/QSDWJtIcleowA
+! Last modified: 2012-12-02 01:10:47 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -650,6 +650,7 @@ www.yahoo.co.jp###local
 ||ru/extended?$third-party
 ||ru/facewiseid.cgi?$third-party
 ||ru/faresearchrecording.cgi?$third-party
+||ru/feedback?$third-party
 ||ru/fendshare.cgi?$third-party
 ||ru/fernad?$third-party
 ||ru/filetypebotnets.cgi?$third-party
@@ -757,6 +758,7 @@ www.yahoo.co.jp###local
 ||ru/remnantreplying.cgi?$third-party
 ||ru/restyle?$third-party
 ||ru/reviewsarigid.cgi?$third-party
+||ru/rfndsegv.cgi?$third-party
 ||ru/riderspam.cgi?$third-party
 ||ru/robotspipe.cgi?$third-party
 ||ru/sbird.cgi?$third-party
@@ -786,6 +788,7 @@ www.yahoo.co.jp###local
 ||ru/sunreal?$third-party
 ||ru/surmisedsemiprofessionally.cgi?$third-party
 ||ru/systembackupsdr.cgi?$third-party
+||ru/sytrim?$third-party
 ||ru/tabletfocusedmilliseconds.cgi?$third-party
 ||ru/tabsickweather.cgi?$third-party
 ||ru/Tech?$third-party
@@ -812,6 +815,7 @@ www.yahoo.co.jp###local
 ||ru/wwwgunsandammocomimpacting.cgi?$third-party
 ||ru/wwwpaypalcomfinish.cgi?$third-party
 ||ru/wwwxaracomwebdesignercamerabag.cgi?$third-party
+||ru/xgejerm.cgi?$third-party
 ||ru/ycoordinatesmad.cgi?$third-party
 ||ru/yewpp?$third-party
 ||ru/zbsajkbvjzkb.cgi?$third-party
