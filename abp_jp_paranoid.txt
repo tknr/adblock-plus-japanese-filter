@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Zjc59pjOV/dTji07o5qllQ
-! Last modified: 2012-12-04 01:13:05 JST
+! Checksum: OlIv/0h5Q1HGWuxRiapA7w
+! Last modified: 2012-12-05 02:16:35 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -516,6 +516,7 @@ www.yahoo.co.jp###local
 ||biz/processorsuccession.cgi?$third-party
 ||biz/temposreligion.cgi?$third-party
 ||biz/termasloda.cgi?$third-party
+||biz/valcunatrop.cgi?$third-party
 ||com.br^*.php^$script,domain=~br
 ||com/barklasmendaf.cgi?$third-party
 ||com/bsecuresbigpicture.cgi?$third-party
@@ -531,6 +532,7 @@ www.yahoo.co.jp###local
 ||com/Supplier?$third-party
 ||com/termasloda.cgi?$third-party
 ||com/thusacademic.cgi?$third-party
+||com/valcunatrop.cgi?$third-party
 ||com/weranisz.cgi?$third-party
 ||info/balance.cgi?$third-party
 ||info/brandz.cgi?$third-party
@@ -563,9 +565,12 @@ www.yahoo.co.jp###local
 ||info/termasloda.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
 ||info/timeofdaydeactivating.cgi?$third-party
+||info/valcunatrop.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||name/termasloda.cgi?$third-party
+||name/valcunatrop.cgi?$third-party
 ||net/Softgoods?$third-party
+||net/valcunatrop.cgi?$third-party
 ||org/bcxbsdb.cgi?$third-party
 ||org/bdsbfhjtrm.cgi?$third-party
 ||org/berntrj.cgi?$third-party
@@ -679,6 +684,7 @@ www.yahoo.co.jp###local
 ||ru/gzuzu?$third-party
 ||ru/hackedreplacing.cgi?$third-party
 ||ru/handledpandora.cgi?$third-party
+||ru/hasper?$third-party
 ||ru/headlinesdisconnecting.cgi?$third-party
 ||ru/heroinesoundgarden.cgi?$third-party
 ||ru/hijinkstwitterverse.cgi?$third-party
@@ -819,6 +825,7 @@ www.yahoo.co.jp###local
 ||ru/warmincoming.cgi?$third-party
 ||ru/wifiabusinessfriendly.cgi?$third-party
 ||ru/workedhinders.cgi?$third-party
+||ru/wpconsiderably.cgi?$third-party
 ||ru/wwwgunsandammocomimpacting.cgi?$third-party
 ||ru/wwwpaypalcomfinish.cgi?$third-party
 ||ru/wwwxaracomwebdesignercamerabag.cgi?$third-party
