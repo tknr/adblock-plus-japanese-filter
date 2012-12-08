@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: I0u/yeHbgdt/y6zGwWTr4g
-! Last modified: 2012-12-09 06:42:03 JST
+! Checksum: X9/20z9fTHucuazVGARV2Q
+! Last modified: 2012-12-09 06:47:25 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -381,8 +381,8 @@ _s_code2_$script
 ! ===== Amazon discount banners ===== START =====
 ||images-amazon.com/images/G/09/*/x-site/
 ||images-amazon.com/images/G/09/kindle/
-amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it####.amabot_center
-amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it####.bunkBed
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##.amabot_center
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##.bunkBed
 ! ----- Amazon discount banners ----- END -----
 
 ! ===== Amazon recommending products ===== START =====
