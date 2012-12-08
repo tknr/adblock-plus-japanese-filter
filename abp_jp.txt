@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 2M6dwwK4oxso+HXGXWVhRg
-! Last modified: 2012-12-08 20:10:14 JST
+! Checksum: cKMlnxljow4M/aUlzy5nsQ
+! Last modified: 2012-12-09 01:05:02 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1768,6 +1768,10 @@
 ^foresee.$script
 ^foresee^$script
 ^foresee_$script
+^forester-client-
+^forester-client.
+^forester-client^
+^forester-client_
 ^framead-
 ^framead.
 ^framead^
