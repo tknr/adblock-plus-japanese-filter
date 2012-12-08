@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: YXLlC/Bq0U2nRtREuv+cqA
-! Last modified: 2012-12-05 19:27:22 JST
+! Checksum: 2M6dwwK4oxso+HXGXWVhRg
+! Last modified: 2012-12-08 20:10:14 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6434,6 +6434,7 @@ codezine.jp##div[id*="_pnlHeadSuper"]
 coliss.com###sidebar > .block02:first-child
 computerworld.jp##.adve_rec
 computerworld.jp##.adver
+computerworld.jp##.cwr_oracle
 coojin.com###big_main > .auctions
 cybersyndrome.net##TABLE[cellspacing="2"][cellpadding="2"][border="0"][align="left"]
 cybozu.net###recommend-top-txt > li:last-child
