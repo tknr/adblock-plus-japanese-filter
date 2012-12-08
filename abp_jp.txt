@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: EvGndzwnxJURLqrQajOT5A
-! Last modified: 2012-12-09 03:28:14 JST
+! Checksum: lqJre1JBXz8gFzRnwvNB9A
+! Last modified: 2012-12-09 05:24:59 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -769,7 +769,7 @@
 /comscorePlugin.
 /convcast.$script
 /csi?v=
-/csm-base/*
+/csm-base/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /customerIsLegality?
 /d2ptoolbar/*
 /dart.$script
@@ -1067,7 +1067,7 @@
 ! Commented out duplicated filters, Feb 26, 2012
 ! /uds/api/ads/*
 /uds/stats?
-/uedata/unsticky/*
+/uedata/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /userad.
 /utag.$script
 /view.gif?
