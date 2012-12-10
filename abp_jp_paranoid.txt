@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: KBqp+9RQ8q+tyzHxhdTHFA
-! Last modified: 2012-12-09 08:42:20 JST
+! Checksum: lN8wlmSQowY4Ahs8GGDm8g
+! Last modified: 2012-12-11 00:02:38 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -522,6 +522,7 @@ www.yahoo.co.jp###local
 ||click.$third-party
 ||biz/barklasmendaf.cgi?$third-party
 ||biz/facebook.cgi?$third-party
+||biz/nighttrend.cgi?$third-party
 ||biz/processorsuccession.cgi?$third-party
 ||biz/temposreligion.cgi?$third-party
 ||biz/termasloda.cgi?$third-party
@@ -538,6 +539,7 @@ www.yahoo.co.jp###local
 ||com/geographicallyconquering.cgi?$third-party
 ||com/geranmalin.cgi?$third-party
 ||com/mustmoneyback.cgi?$third-party
+||com/nighttrend.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
 ||com/Supplier?$third-party
 ||com/termasloda.cgi?$third-party
@@ -563,6 +565,7 @@ www.yahoo.co.jp###local
 ||info/kuskus.cgi?$third-party
 ||info/neiakz.cgi?$third-party
 ||info/nertad.cgi?$third-party
+||info/nighttrend.cgi?$third-party
 ||info/nonmicrosofthats.cgi?$third-party
 ||info/nowpublicsessions.cgi?$third-party
 ||info/ohopzviv.cgi?$third-party
@@ -580,9 +583,11 @@ www.yahoo.co.jp###local
 ||info/valcunatrop.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||name/facebook.cgi?$third-party
+||name/nighttrend.cgi?$third-party
 ||name/termasloda.cgi?$third-party
 ||name/trendmade.cgi?$third-party
 ||name/valcunatrop.cgi?$third-party
+||net/nighttrend.cgi?$third-party
 ||net/Softgoods?$third-party
 ||net/valcunatrop.cgi?$third-party
 ||org/bcxbsdb.cgi?$third-party
