@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Xt0mYgDh2NcAw2nSVy820A
-! Last modified: 2012-12-14 14:54:14 JST
+! Checksum: UpGiLHiDHT7nxDQOLRKlcQ
+! Last modified: 2012-12-14 15:09:33 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -526,6 +526,8 @@ www.yahoo.co.jp###local
 ||biz/processorsuccession.cgi?$third-party
 ||biz/temposreligion.cgi?$third-party
 ||biz/termasloda.cgi?$third-party
+||biz/tgewogjqog9.cgi?$third-party
+||biz/uigfyudrtd65.cgi?$third-party
 ||biz/valcunatrop.cgi?$third-party
 ||freewww.biz/*.cgi?$third-party
 ||com.br^*.php^$script,domain=~br
@@ -542,9 +544,12 @@ www.yahoo.co.jp###local
 ||com/mustmoneyback.cgi?$third-party
 ||com/nighttrend.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
+||com/rejtriutrghse.cgi?$third-party
 ||com/Supplier?$third-party
 ||com/termasloda.cgi?$third-party
+||com/tgewogjqog9.cgi?$third-party
 ||com/thusacademic.cgi?$third-party
+||com/uigfyudrtd65.cgi?$third-party
 ||com/valcunatrop.cgi?$third-party
 ||com/weranisz.cgi?$third-party
 ||qhigh.com/*.cgi?$third-party
@@ -575,13 +580,16 @@ www.yahoo.co.jp###local
 ||info/piramide.cgi?$third-party
 ||info/pixelationsources.cgi?$third-party
 ||info/RECORDINGS?$third-party
+||info/rejtriutrghse.cgi?$third-party
 ||info/resellsfruits.cgi?$third-party
 ||info/Songs?$third-party
 ||info/statementsgifts.cgi?$third-party
 ||info/teacherwelldesigned.cgi?$third-party
 ||info/termasloda.cgi?$third-party
+||info/tgewogjqog9.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
 ||info/timeofdaydeactivating.cgi?$third-party
+||info/uigfyudrtd65.cgi?$third-party
 ||info/valcunatrop.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||freewww.info/*.cgi?$third-party
