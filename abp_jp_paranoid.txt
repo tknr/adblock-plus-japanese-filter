@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 46LkBHGM5Mb88vdTMhtl0Q
-! Last modified: 2012-12-15 06:32:34 JST
+! Checksum: MOX+hl52VUnMfPImRUSyLg
+! Last modified: 2012-12-16 12:07:45 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -514,6 +514,7 @@ www.yahoo.co.jp###local
 /main.php?page=$third-party
 /rebots.php^$third-party
 /redirect.php^$third-party
+/sTDS/go.php?sid=$third-party
 /vc.php?go=$third-party
 |http://*/vd/43;$third-party
 |https://*/vd/43;$third-party
@@ -524,10 +525,12 @@ www.yahoo.co.jp###local
 ||biz/facebook.cgi?$third-party
 ||biz/gjgdyrzd77.cgi?$third-party
 ||biz/nighttrend.cgi?$third-party
+||biz/oplaxmrqwtfa.cgi?$third-party
 ||biz/processorsuccession.cgi?$third-party
 ||biz/temposreligion.cgi?$third-party
 ||biz/termasloda.cgi?$third-party
 ||biz/tgewogjqog9.cgi?$third-party
+||biz/tranmlikegaozo1931.cgi?$third-party
 ||biz/uigfyudrtd65.cgi?$third-party
 ||biz/valcunatrop.cgi?$third-party
 ||biz/yrehwegweg.cgi?$third-party
@@ -546,11 +549,13 @@ www.yahoo.co.jp###local
 ||com/mustmoneyback.cgi?$third-party
 ||com/nighttrend.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
+||com/oplaxmrqwtfa.cgi?$third-party
 ||com/rejtriutrghse.cgi?$third-party
 ||com/Supplier?$third-party
 ||com/termasloda.cgi?$third-party
 ||com/tgewogjqog9.cgi?$third-party
 ||com/thusacademic.cgi?$third-party
+||com/tranmlikegaozo1931.cgi?$third-party
 ||com/uigfyudrtd65.cgi?$third-party
 ||com/valcunatrop.cgi?$third-party
 ||com/weranisz.cgi?$third-party
@@ -579,6 +584,7 @@ www.yahoo.co.jp###local
 ||info/nonmicrosofthats.cgi?$third-party
 ||info/nowpublicsessions.cgi?$third-party
 ||info/ohopzviv.cgi?$third-party
+||info/oplaxmrqwtfa.cgi?$third-party
 ||info/personscpus.cgi?$third-party
 ||info/piramide.cgi?$third-party
 ||info/pixelationsources.cgi?$third-party
@@ -592,6 +598,7 @@ www.yahoo.co.jp###local
 ||info/tgewogjqog9.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
 ||info/timeofdaydeactivating.cgi?$third-party
+||info/tranmlikegaozo1931.cgi?$third-party
 ||info/uigfyudrtd65.cgi?$third-party
 ||info/valcunatrop.cgi?$third-party
 ||info/wensday.cgi?$third-party
