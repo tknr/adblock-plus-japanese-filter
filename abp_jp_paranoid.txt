@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: F7Gbj5DPdznQzxUZMtEvCg
-! Last modified: 2012-12-19 21:43:01 JST
+! Checksum: P1e4mXROH/TkweJ4u2nyZQ
+! Last modified: 2012-12-21 15:05:11 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -610,9 +610,12 @@ www.yahoo.co.jp###local
 ||name/termasloda.cgi?$third-party
 ||name/trendmade.cgi?$third-party
 ||name/valcunatrop.cgi?$third-party
+||ddns.name/*.cgi?$third-party
+||ns2.name/*.cgi?$third-party
 ||net/nighttrend.cgi?$third-party
 ||net/Softgoods?$third-party
 ||net/valcunatrop.cgi?$third-party
+||pcanywhere.net/*.cgi?$third-party
 ||org/bcxbsdb.cgi?$third-party
 ||org/bdsbfhjtrm.cgi?$third-party
 ||org/berntrj.cgi?$third-party
@@ -713,6 +716,7 @@ www.yahoo.co.jp###local
 ||ru/finjanrefractions.cgi?$third-party
 ||ru/flayer?$third-party
 ||ru/flipboardcuratedpinterests.cgi?$third-party
+||ru/flowlikeautosaves.cgi?$third-party
 ||ru/foxvirtual.cgi?$third-party
 ||ru/fruitsbrowser.cgi?$third-party
 ||ru/Furniture?$third-party
@@ -813,6 +817,7 @@ www.yahoo.co.jp###local
 ||ru/provinciale?$third-party
 ||ru/punctuationcorrelating.cgi?$third-party
 ||ru/quiterecurrence.cgi?$third-party
+||ru/qwgfew?$third-party
 ||ru/reconsiderrolodex.cgi?$third-party
 ||ru/relationshipswonder.cgi?$third-party
 ||ru/relegatetrek.cgi?$third-party
