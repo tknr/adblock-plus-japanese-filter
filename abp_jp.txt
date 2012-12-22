@@ -1,5 +1,4 @@
 [Adblock Plus 2.1]
-! Checksum: ugVT9EXAlFXpPjWBaahP3Q
 ! Last modified: 2012-12-22 11:57:43 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
