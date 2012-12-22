@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: UT4WOrEhYAt8maF/qQSCfQ
-! Last modified: 2012-12-22 12:31:48 JST
+! Checksum: heCXSqrBghyvx0heg8SlQw
+! Last modified: 2012-12-22 13:29:48 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -166,7 +166,7 @@
 ! STYLESHEET SAMPLE: http://i3.msdn.microsoft.com/ja-jp/magazine/mtps-bn1651.css?l=ja-jp&i=magazine&ct=AlternateSelector;CCEditor;CCSection;CCTagEditor;ContentFallback;EyebrowSimple;FeedViewerBasic;InstrumentedLink;InteractiveToolbar;MtpsRating;MtViewDropDown;Omniture;RedVelvetInstrumentedLink;StoCodeHighlighter;StoFooter;StoLocaleManagementFlyout;StoMastheadMSDN;StoMtpsLoginStatus;StoProfileLink;StoSearch;StoTabStrip;SurveyLauncher;TemplatedFlyout;TransWikiPopupEditor;WebMetrix;WebTrends&clustimg=1
 @@||microsoft.com/*/mtps-bn*?*;$script,stylesheet
 ! False positives with combined scripts including Omniture and WebTrends as parameters, Dec 21, 2012
-! Sample: http://i2.msdn.microsoft.com/Combined.js?resources=0:webtrendsscript,1:omni_rsid_MSDN;/Areas/Global/Content/Webtrends/resources:0,/Areas/Global/Content/Omniture/resources/MSDN:1&amp;hashKey=16êiêî32åÖ
+! Sample: http://i2.msdn.microsoft.com/Combined.js?resources=0:webtrendsscript,1:omni_rsid_MSDN;/Areas/Global/Content/Webtrends/resources:0,/Areas/Global/Content/Omniture/resources/MSDN:1&amp;hashKey=16ÈÄ≤Êï∞32Ê°Å
 @@||microsoft.com/Combined.js?resources=
 @@||mozilla.$elemhide
 @@||mozilla.com/media/img/promo.
