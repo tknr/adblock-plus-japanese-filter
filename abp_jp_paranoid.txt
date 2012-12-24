@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: A05jyEr98bOAbpr7KzzNIA
-! Last modified: 2012-12-22 12:31:48 JST
+! Checksum: JjjXPyrIJNaXGj9dUNerUw
+! Last modified: 2012-12-24 23:48:06 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -26,8 +26,8 @@
 @@||ig.gmodules.com/gadgets/*&exp_track_js=$domain=www.google.co.jp|www.google.com
 ! jp-bank-card.jp names "jc_log_xx.gif" as login related images... orz 2011-09-15
 @@||jp-bank-card.jp/common/jpb_imgs/jc_log_$image
-! False positives with live movie player using &referer=$image,object,script filter, Oct 8th, 2012
-@@||jtvnw.net/widgets/live_embed_player.*&referer=$object
+! False positives with movie player with &referer=$image,object,script Paranoid filter, Dec 24, 2012
+@@||jtvnw.net/widgets/*_player.*&referer=
 ! New false positives at ustream.tv/recorded/ with ?tracking=$third-party 2011-11-23
 @@||llnwd.net^*.flv?tracking=
 ! False positives with recorded streamings at block.fm, Oct 22th, 2012
