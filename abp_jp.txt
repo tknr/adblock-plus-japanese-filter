@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: bH4cr1TBBVNs6HCBTLKigw
-! Last modified: 2012-12-25 16:34:12 JST
+! Checksum: F21jdEpbwJXB76hrRzKOSA
+! Last modified: 2012-12-25 16:39:12 JST
 !
 ! Title: ABP Japanese Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -6675,7 +6675,9 @@ mycom.co.jp##*[src*="adspecial"]:not(body):not(input)
 mycom.co.jp##*[src*="kali.mycom.co.jp"]:not(body):not(input)
 download.hr###mediaget_box
 download.hr##.AddCenterRight
+download.hr##.file_download_box:nth-of-type(2)
 download.hr##.file_infoleft
+download.hr##a[href*="://media.download.hr/"]
 download.hr##a[href*="hotfile.com/dl/"]
 download.hr##a[href*="mediaget.com/torrent.php?r="]
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
