@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: JjjXPyrIJNaXGj9dUNerUw
-! Last modified: 2012-12-24 23:48:06 JST
+! Checksum: d66aVfDRm0UNrvB8Kkzkdg
+! Last modified: 2012-12-29 01:56:53 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -539,6 +539,7 @@ www.yahoo.co.jp###local
 ||com/barklasmendaf.cgi?$third-party
 ||com/bsecuresbigpicture.cgi?$third-party
 ||com/collectadaptive.cgi?$third-party
+||com/cxzngwakffqwt.cfg?$third-party
 ||com/doubleclickingsygate.cgi?$third-party
 ||com/facebook.cgi?$third-party
 ||com/failuredrawas.cgi?$third-party
@@ -546,6 +547,7 @@ www.yahoo.co.jp###local
 ||com/formattingdiscontinued.cgi?$third-party
 ||com/geographicallyconquering.cgi?$third-party
 ||com/geranmalin.cgi?$third-party
+||com/gewhkdosgjifgj.php?$third-party
 ||com/mustmoneyback.cgi?$third-party
 ||com/nighttrend.cgi?$third-party
 ||com/notifyingpavilion.cgi?$third-party
@@ -595,6 +597,7 @@ www.yahoo.co.jp###local
 ||info/Songs?$third-party
 ||info/statementsgifts.cgi?$third-party
 ||info/teacherwelldesigned.cgi?$third-party
+||info/terafegwqegwg.cgi?$third-party
 ||info/termasloda.cgi?$third-party
 ||info/tgewogjqog9.cgi?$third-party
 ||info/tgivvo.cgi?$third-party
@@ -803,6 +806,7 @@ www.yahoo.co.jp###local
 ||ru/peertopeerentrepreneurial.cgi?$third-party
 ||ru/photoplussjavacompliant.cgi?$third-party
 ||ru/photossped.cgi?$third-party
+||ru/phreih?$third-party
 ||ru/pinsbymail.cgi?$third-party
 ||ru/pittancebrass.cgi?$third-party
 ||ru/plastic?$third-party
@@ -875,6 +879,7 @@ www.yahoo.co.jp###local
 ||ru/ultrabravo?$third-party
 ||ru/underwentfsb.cgi?$third-party
 ||ru/unhidesecurity.cgi?$third-party
+||ru/upwherehandpainted.cgi?$third-party
 ||ru/vawsjbnsjbk.cgi?$third-party
 ||ru/VEREIN?$third-party
 ||ru/viola?$third-party
