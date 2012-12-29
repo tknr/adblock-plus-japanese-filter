@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: xnYQhzbPFMZq/spz4NtARw
-! Last modified: 2012-12-29 21:19:18 JST
+! Checksum: jlQlakA+jbI4oBvvkm1uug
+! Last modified: 2012-12-29 21:25:30 JST
 !
 ! Title: ABP Japanese Paranoid Filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -514,7 +514,6 @@ www.yahoo.co.jp###local
 /main.php?page=$third-party
 /rebots.php^$third-party
 /redirect.php^$third-party
-/sTDS/go.php?sid=$third-party
 /vc.php?go=$third-party
 |http://*/vd/43;$third-party
 |https://*/vd/43;$third-party
