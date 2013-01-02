@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 0S0Ml9poftSujO1P4pIxCg
-! Last modified: 2013-01-01 20:20:32 JST
+! Checksum: rQuVqXU4PEs4r4Rqz2e2sA
+! Last modified: 2013-01-02 18:49:52 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -104,6 +104,10 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 -banners.$third-party
 -banners^$third-party
 -banners_$third-party
+-count-$~image
+-count.$~image
+-count^$~image
+-count_$~image
 -log-
 -log.$domain=~news-log.jp|~twilog.org|~y-log.net
 -log^
@@ -137,6 +141,10 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .banners.$third-party
 .banners^$third-party
 .banners_$third-party
+.count-$~image
+.count.$~image
+.count^$~image
+.count_$~image
 .log-
 .log.
 .log^
@@ -163,7 +171,6 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /analytics/*
 /c.php?id=$~image,third-party
 /cnt.$~image
-/count.$~image
 |http:*/js.js^$third-party
 /log.php?id=$third-party
 /mtag_
@@ -203,6 +210,10 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^clk.$script,object-subrequest,subdocument
 ^clk^$script,object-subrequest,subdocument
 ^clk_$script,object-subrequest,subdocument
+^count-$~image
+^count.$~image
+^count^$~image
+^count_$~image
 ^counter-$~image
 ^counter.$~image
 ^counter^$~image
@@ -274,6 +285,10 @@ _banners-$third-party
 _banners.$third-party
 _banners^$third-party
 _banners_$third-party
+_count-$~image
+_count.$~image
+_count^$~image
+_count_$~image
 _log-
 _log.
 _log^
