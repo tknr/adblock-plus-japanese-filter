@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: r8tMldvJ415GBjRxK/bsUg
-! Last modified: 2013-01-02 19:40:15 JST
+! Checksum: H+gJj1v3GpF3p/0dzD6Vyg
+! Last modified: 2013-01-02 19:49:02 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -360,6 +360,10 @@
 -PopUnder.
 -PopUnder^
 -PopUnder_
+-ppc-
+-ppc.
+-ppc^
+-ppc_
 -ppv-
 -ppv.
 -ppv^
@@ -468,6 +472,10 @@
 ! Simplified to ?zoneid=
 ! .php?zoneid=
 .poptracking?
+.ppc-
+.ppc.
+.ppc^
+.ppc_
 .ppv-
 .ppv.
 .ppv^
@@ -2099,6 +2107,10 @@
 ^popunder2.
 ^popunder2^
 ^popunder2_
+^ppc-
+^ppc.
+^ppc^
+^ppc_
 ^ppv-
 ^ppv.
 ^ppv^
@@ -2322,6 +2334,10 @@ _overture-
 _overture.
 _overture^
 _overture_
+_ppc-
+_ppc.
+_ppc^
+_ppc_
 _ppv-
 _ppv.
 _ppv^
