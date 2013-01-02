@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ihM/RPtWKZT6rzh8j/+Dmg
-! Last modified: 2013-01-01 21:02:31 JST
+! Checksum: 0G6cX603onOZt5VMAin1gQ
+! Last modified: 2013-01-02 18:03:21 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -316,6 +316,10 @@
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
+-azlink-$script,subdocument
+-azlink.$script,subdocument
+-azlink^$script,subdocument
+-azlink_$script,subdocument
 -beacon-
 -beacon.
 -beacon^
@@ -415,6 +419,10 @@
 .analytics.
 .analytics^
 .analytics_
+.azlink-$script,subdocument
+.azlink.$script,subdocument
+.azlink^$script,subdocument
+.azlink_$script,subdocument
 .beacon-
 .beacon.
 .beacon^
@@ -2251,6 +2259,10 @@ _analytics-
 _analytics.
 _analytics^
 _analytics_
+_azlink-$script,subdocument
+_azlink.$script,subdocument
+_azlink^$script,subdocument
+_azlink_$script,subdocument
 _beacon-
 _beacon.
 _beacon^
@@ -4994,6 +5006,7 @@ _teasers_
 ||webrotator.net^
 ||webstats4u.com^
 ||webteaser.ru^$third-party
+||webteck.net^
 ||webtracker.jp^$third-party
 ||webtrackerplus.com^$popup
 ||webtrends.com^$third-party
