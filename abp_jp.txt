@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: dvX9imBpK/k4kkO3O3gLZg
-! Last modified: 2013-01-04 21:28:08 JST
+! Checksum: I1kgtoqkoRd9I+ncBOQw1Q
+! Last modified: 2013-01-04 21:52:42 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5014,6 +5014,7 @@ _teasers_
 ||vk.com^$domain=~vk.com|~vkontakte.ru
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
+||voicefive.com^$third-party
 ||votre-aide-pret.com^
 ||votre-devis-credit.com^
 ||voyeurparadize.com^
