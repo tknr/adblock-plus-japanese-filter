@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: LK+o6Xfc29howAoJ6OeW8A
-! Last modified: 2013-01-04 22:59:11 JST
+! Checksum: 1lgPHvU2j+0AMXqEvtgPtQ
+! Last modified: 2013-01-04 23:11:59 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2763,6 +2763,7 @@ _teasers_
 ||alianzis.com^$third-party
 ||alibaba.com^$third-party
 ||alimama.cn^$third-party
+||allabout.co.jp/js/aa/
 ||allabout.co.jp/js/gm/
 ||allabout.co.jp/js/mtx/
 ||allabout.co.jp/Live/alliance/
@@ -2770,7 +2771,8 @@ _teasers_
 ||img00.allabout.co.jp/withabout/
 ||imp.allabout.co.jp^
 ||mtx.allabout.co.jp^
-||pts.allabout.co.jp^
+! False positives with stylesheet, Jan 4, 2013
+! ||pts.allabout.co.jp^
 ||allanalpass.com^
 ||smart.allocine.fr^
 ||smart2.allocine.fr^
