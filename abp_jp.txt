@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: yrkqg7pUo9ZH+pHD7K4aHA
-! Last modified: 2013-01-04 23:20:32 JST
+! Checksum: t7hcQd/TDiwauZY7XvGejw
+! Last modified: 2013-01-05 20:51:22 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3183,8 +3183,8 @@ _teasers_
 ||coquine.org^
 ||coquines-webcam.com^
 ||coremetrics.com^$third-party
-||kanasoku.*.coreserver.jp^$script
-||minmin.*.coreserver.jp^$script
+||*soku.*.coreserver.jp^$script,subdocument
+||*in.*.coreserver.jp^$script,subdocument
 ||cosaji.jp^$third-party
 ||cotation-argus.net^
 ||countby.com^
