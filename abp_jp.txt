@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: xAauIpI5HqjyqHkc+TE3FA
-! Last modified: 2013-01-05 23:33:35 JST
+! Checksum: OPVcqsoDkf8mnC4P+1ON9w
+! Last modified: 2013-01-05 23:45:43 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -739,6 +739,7 @@
 /applibar.$domain=live.nicovideo.jp|www.nicovideo.jp
 /applibar_$domain=live.nicovideo.jp|www.nicovideo.jp
 /AppMeasurementExtension.
+/arj?o=
 /AS3AdPlayer.
 |http:*/at.js.$script
 |https:*/at.js.$script
