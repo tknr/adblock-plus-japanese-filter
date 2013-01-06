@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: R/WlZrzCJ8xWQqbpVWKcjg
-! Last modified: 2013-01-07 01:08:18 JST
+! Checksum: lD749G6DibcTq6CQLa3o4Q
+! Last modified: 2013-01-07 01:12:27 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -63,6 +63,8 @@
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
+! False positives with ^count^$~image filters blocking predictive input updates, Jan 7, 2013
+@@||twitter.com^*/search/typeahead.
 ! False positives with _count^$~image filters blocking ○件の新しいツイート, Jan 7, 2013
 @@||twitter.com^*/timeline?
 ! Flase positives with twitter user images caused with _banners^$third-party, Sep 28, 2012
