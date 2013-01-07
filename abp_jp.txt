@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 6ypEAceIas2BM+77MDSOrA
-! Last modified: 2013-01-07 17:05:14 JST
+! Checksum: KVz/4o/4n3twYoXM8mCqEw
+! Last modified: 2013-01-08 02:32:14 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -356,6 +356,10 @@
 -metrics.
 -metrics^
 -metrics_
+-mixpanel-$third-party
+-mixpanel.$third-party
+-mixpanel^$third-party
+-mixpanel_$third-party
 -numerik-art-
 -numerik-art.
 -numerik-art^
@@ -470,6 +474,10 @@
 .metrics.
 .metrics^
 .metrics_
+.mixpanel-$third-party
+.mixpanel.$third-party
+.mixpanel^$third-party
+.mixpanel_$third-party
 .mobifiesta.
 .mobifun.
 .movifiesta.
@@ -2063,6 +2071,10 @@
 ^metrics.
 ^metrics^
 ^metrics_
+^mixpanel-$third-party
+^mixpanel.$third-party
+^mixpanel^$third-party
+^mixpanel_$third-party
 ^mobilead-
 ^mobilead.
 ^mobilead^
@@ -2346,6 +2358,10 @@ _metrics-
 _metrics.
 _metrics^
 _metrics_
+_mixpanel-$third-party
+_mixpanel.$third-party
+_mixpanel^$third-party
+_mixpanel_$third-party
 _numerik-art-
 _numerik-art.
 _numerik-art^
@@ -4185,6 +4201,7 @@ _teasers_
 ||multicam-dating.com^
 ||multirdv.com^
 ||musen-lan.com/speed/banner/
+||mxpnl.com^$third-party
 ||my-affiliate.com^$third-party
 ||my1.ru^
 ||mybet.com^$third-party
