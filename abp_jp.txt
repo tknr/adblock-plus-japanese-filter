@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 1D9A1+mM/mkBTj7EkpmJmg
-! Last modified: 2013-01-06 15:49:10 JST
+! Checksum: 6ypEAceIas2BM+77MDSOrA
+! Last modified: 2013-01-07 17:05:14 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -281,6 +281,10 @@
 -adsenser.
 -adsenser^
 -adsenser_
+-adserver-
+-adserver.
+-adserver^
+-adserver_
 -adthink-
 -adthink.
 -adthink-
@@ -356,6 +360,10 @@
 -numerik-art.
 -numerik-art^
 -numerik-art_
+-pagead-
+-pagead.
+-pagead^
+-pagead_
 -PopUnder-
 -PopUnder.
 -PopUnder^
@@ -402,7 +410,10 @@
 ! .adsense-$domain=~google.com
 ! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
+.adserver-
 .adserver.
+.adserver^
+.adserver_
 .adthink-
 .adthink.
 .adthink^
@@ -469,6 +480,10 @@
 .numerik-art_
 .openx.$third-party
 .owa.$script
+.pagead-
+.pagead.
+.pagead^
+.pagead_
 ! Simplified to ?zoneid=
 ! .php?zoneid=
 .poptracking?
@@ -2255,6 +2270,10 @@ _adsense-
 _adsense.
 _adsense^
 _adsense_
+_adserver-
+_adserver.
+_adserver^
+_adserver_
 _adsource-
 _adsource.
 _adsource^
@@ -2339,6 +2358,10 @@ _overture-
 _overture.
 _overture^
 _overture_
+_pagead-
+_pagead.
+_pagead^
+_pagead_
 _ppc-
 _ppc.
 _ppc^
