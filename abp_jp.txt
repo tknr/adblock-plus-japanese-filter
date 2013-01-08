@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: KVz/4o/4n3twYoXM8mCqEw
-! Last modified: 2013-01-08 02:32:14 JST
+! Checksum: HbnYjPIy7z4Qn3bIWTpx7A
+! Last modified: 2013-01-09 00:15:04 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -344,6 +344,10 @@
 -comscore.
 -comscore^
 -comscore_
+-impression_id-
+-impression_id.
+-impression_id^
+-impression_id_
 -linkad-
 -linkad.
 -linkad^
@@ -466,6 +470,10 @@
 .cherry-chat.
 .histats.$third-party
 .impact-ad.jp/rc/
+.impression_id-
+.impression_id.
+.impression_id^
+.impression_id_
 .jeu-a-telecharger.
 .jeuxofferts.
 .kissinsights.com/
@@ -2006,6 +2014,10 @@
 ^imgs^banner.$third-party
 ^imgs^banner^$third-party
 ^imgs^banner_$third-party
+^impression_id-
+^impression_id.
+^impression_id^
+^impression_id_
 ^informer-$third-party
 ^informer.$third-party
 ^informer^$third-party
@@ -2354,6 +2366,10 @@ _iframeBanner-
 _iframeBanner.
 _iframeBanner^
 _iframeBanner_
+_impression_id-
+_impression_id.
+_impression_id^
+_impression_id_
 _metrics-
 _metrics.
 _metrics^
