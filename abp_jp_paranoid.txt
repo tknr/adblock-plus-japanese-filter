@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 9krJBxcIVpmZPSF5PX8lxA
-! Last modified: 2013-01-08 03:23:51 JST
+! Checksum: jZqWb7BT7mlf/x4OdsNA7Q
+! Last modified: 2013-01-08 23:59:56 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -46,6 +46,8 @@
 @@/tracker.$domain=dominos.com
 @@/tracker/*$domain=dominos.com
 @@||reports.adblockplus.org^$elemhide
+! False positives with twitter user images caused with _banners^$third-party, Jan 8, 2013
+@@||twimg*.akamaihd.net/profile_banners/
 @@||amazon.*/shiptrack/
 @@||ameba.jp/blog/ucs/js/editor/popups/
 @@||clustrmaps.com/stats/$first-party
