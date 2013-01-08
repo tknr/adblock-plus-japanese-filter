@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: HbnYjPIy7z4Qn3bIWTpx7A
-! Last modified: 2013-01-09 00:15:04 JST
+! Checksum: GK6WXcHAs8Rwz4b/LSTAoA
+! Last modified: 2013-01-09 00:38:01 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -384,6 +384,10 @@
 -ppv.
 -ppv^
 -ppv_
+-promoted-
+-promoted.
+-promoted^
+-promoted_
 -retarget-
 -retarget.
 -retarget^
@@ -511,6 +515,10 @@
 .ppv.
 .ppv^
 .ppv_
+.promoted-
+.promoted.
+.promoted^
+.promoted_
 .retarget-
 .retarget.
 .retarget^
@@ -994,7 +1002,6 @@
 ! |https:*/pr_ad_
 /promoPlayer.
 /promoDisplay/*
-/promoted_content/*
 /publisher/*$third-party
 /Publishers/*$third-party
 /Publishers/*?random=
@@ -2171,6 +2178,10 @@
 ^promos^random.
 ^promos^random^
 ^promos^random_
+^promoted-
+^promoted.
+^promoted^
+^promoted_
 ^promotion-
 ^promotion.
 ^promotion^
@@ -2402,6 +2413,10 @@ _ppv-
 _ppv.
 _ppv^
 _ppv_
+_promoted-
+_promoted.
+_promoted^
+_promoted_
 ! _request_ad.
 _retarget-
 _retarget.
