@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 287+geHRHfJV02QcuagkRg
-! Last modified: 2013-01-17 14:13:46 JST
+! Checksum: 5SJkqIlPr6BUuZS3kGk7mw
+! Last modified: 2013-01-17 14:31:36 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -719,7 +719,7 @@ www.yahoo.co.jp###local
 ||biz/uigfyudrtd65.cgi?$third-party
 ||biz/valcunatrop.cgi?$third-party
 ||biz/yrehwegweg.cgi?$third-party
-||freewww.biz^*?$third-party
+||freewww.biz^$third-party
 ||com.br^*.php^$script,domain=~br
 ||com/barklasmendaf.cgi?$third-party
 ||com/bsecuresbigpicture.cgi?$third-party
@@ -747,10 +747,10 @@ www.yahoo.co.jp###local
 ||com/valcunatrop.cgi?$third-party
 ||com/weranisz.cgi?$third-party
 ||com/yrehwegweg.cgi?$third-party
-||dns-stuff.com^*?$third-party
-||myddns.com^*?$third-party
-||qhigh.com^*?$third-party
-||wikaba.com^*?$third-party
+||dns-stuff.com^$third-party
+||myddns.com^$third-party
+||qhigh.com^$third-party
+||wikaba.com^$third-party
 ||info/balance.cgi?$third-party
 ||info/brandz.cgi?$third-party
 ||info/destinationroll.cgi?$third-party
@@ -795,20 +795,20 @@ www.yahoo.co.jp###local
 ||info/valcunatrop.cgi?$third-party
 ||info/wensday.cgi?$third-party
 ||info/yrehwegweg.cgi?$third-party
-||freewww.info^*?$third-party
+||freewww.info^$third-party
 ||name/facebook.cgi?$third-party
 ||name/nighttrend.cgi?$third-party
 ||name/termasloda.cgi?$third-party
 ||name/trendmade.cgi?$third-party
 ||name/valcunatrop.cgi?$third-party
 ||changeip.name^$third-party
-||ddns.name^*?$third-party
-||myftp.name^*?$third-party
-||ns2.name^*?$third-party
+||ddns.name^$third-party
+||myftp.name^$third-party
+||ns2.name^$third-party
 ||net/nighttrend.cgi?$third-party
 ||net/Softgoods?$third-party
 ||net/valcunatrop.cgi?$third-party
-||pcanywhere.net^*?$third-party
+||pcanywhere.net^$third-party
 ||org/bcxbsdb.cgi?$third-party
 ||org/bdsbfhjtrm.cgi?$third-party
 ||org/berntrj.cgi?$third-party
@@ -838,7 +838,7 @@ www.yahoo.co.jp###local
 ||org/weranisz.cgi?$third-party
 ||org/wvahvuiw.cgi?$third-party
 ||org/xcntrzkim.cgi?$third-party
-||mynumber.org^*?$third-party
+||mynumber.org^$third-party
 ||zapto.org^$third-party
 ||ru:8080/forum/$third-party
 ||ru/acceptpandora.cgi?$third-party
