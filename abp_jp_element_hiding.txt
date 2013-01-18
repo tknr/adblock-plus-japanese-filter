@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: c9ikCyTiAlIAvn1rFM518g
-! Last modified: 2013-01-13 23:29:41 JST
+! Checksum: J8PMfd+iV7t1UoQhd3Tgwg
+! Last modified: 2013-01-18 23:34:16 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -211,7 +211,8 @@
 ##.adtitle
 ##.adtop
 ##.adurl
-~jma.go.jp##.adv
+! False positives with the class named adv as ADVANCED found at [http://p.eagate.573.jp/game/jubeat/saucer/p/playdata/music.html], reported by *@mushroom080*
+~p.eagate.573.jp,~jma.go.jp##.adv
 ##.advert
 ##.AMN-sponsor-rolls
 ##.AMN-large-banner
