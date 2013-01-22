@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: wZMfqM3nsPZn7DN6cQKNeA
-! Last modified: 2013-01-19 11:25:52 JST
+! Checksum: qsgkxwZIVfKRlBU6KgywvQ
+! Last modified: 2013-01-22 13:01:41 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -969,6 +969,10 @@ www.yahoo.co.jp###local
 ||net/Softgoods?$third-party
 ||net/valcunatrop.cgi?$third-party
 ||pcanywhere.net^$third-party
+! ||rr.nu/?go=
+||rr.nu/nl.php^
+||rr.nu/pmg.php^
+||rr.nu/sl.php^
 ||org/bcxbsdb.cgi?$third-party
 ||org/bdsbfhjtrm.cgi?$third-party
 ||org/berntrj.cgi?$third-party
@@ -1185,6 +1189,7 @@ www.yahoo.co.jp###local
 ||ru/robotspipe.cgi?$third-party
 ||ru/sbird.cgi?$third-party
 ||ru/scentsendfax.cgi?$third-party
+||ru/sdjgfkfg.cgi?$third-party
 ||ru/selectionmileage.cgi?$third-party
 ||ru/sengi?$third-party
 ||ru/sensorika?$third-party
@@ -1226,6 +1231,7 @@ www.yahoo.co.jp###local
 ||ru/tujur?$third-party
 ||ru/tvprogramm?$third-party
 ||ru/twelfthgenitor.cgi?$third-party
+||ru/twoweektrafficbased.cgi?$third-party
 ||ru/tyingwishing.cgi?$third-party
 ||ru/uedaf?$third-party
 ||ru/ultrabravo?$third-party
@@ -1247,10 +1253,7 @@ www.yahoo.co.jp###local
 ||ru/yewpp?$third-party
 ||ru/zbsajkbvjzkb.cgi?$third-party
 ||ru/zoomsgbwhich.cgi?$third-party
-! ||rr.nu/?go=
-||rr.nu/nl.php^
-||rr.nu/pmg.php^
-||rr.nu/sl.php^
+||epac.to^$third-party
 ||us/ggoaivi.cgi?$third-party
 ||us/gugauv.cgi?$third-party
 ||us/Multifunction?$third-party
