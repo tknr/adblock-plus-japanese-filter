@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Y5gy543Ek5IImWx0YNvlvg
-! Last modified: 2013-01-25 19:41:55 JST
+! Checksum: 5mkDP60GL5vnmcUzTp76/Q
+! Last modified: 2013-01-25 20:21:23 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -274,6 +274,10 @@
 |https:*-ad^
 |http:*-ad_
 |https:*-ad_
+-adgear-
+-adgear.
+-adgear^
+-adgear_
 -ads-
 -ads.$domain=~retweet-ads.net
 -ads^
@@ -417,6 +421,10 @@
 |https:*.ad^
 |http:*.ad_
 |https:*.ad_
+.adgear-
+.adgear.
+.adgear^
+.adgear_
 .adInfo.
 .adriver.
 ! Preparing to move to whitelist 2011-12-07
@@ -1397,6 +1405,10 @@
 ^adFunction.
 ^adFunction^
 ^adFunction_
+^adgear-
+^adgear.
+^adgear^
+^adgear_
 ^adgetter-
 ^adgetter.
 ^adgetter^
@@ -2294,6 +2306,10 @@
 ! _ad_statistics^
 ! _ad_statistics_
 ! _ad_statistics__adagency/
+_adgear-
+_adgear.
+_adgear^
+_adgear_
 _AdPlugin-
 _AdPlugin.
 _AdPlugin^
@@ -2684,6 +2700,7 @@ _teasers_
 ||adform.net^$third-party
 ||adfox.ru^$third-party
 ||adfunky.com^$third-party
+||adgear.com^$third-party
 ||adhai.com^$third-party
 ||adimg.net^
 ||adingo.jp^$third-party
