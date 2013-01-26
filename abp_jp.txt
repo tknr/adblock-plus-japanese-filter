@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 9mS7nxuFfl1SUoDth54ybQ
-! Last modified: 2013-01-26 09:31:42 JST
+! Checksum: BFlhan0mT1+jrlpGZCKRYQ
+! Last modified: 2013-01-26 10:02:38 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4448,6 +4448,7 @@ _teasers_
 ||picbucks.com^$popup
 ||picleet.com/*_picleet.$script
 ||picleet.com/modalfiles/modal.$script
+||pictela.net^
 ||pillendienst.com^$third-party
 ||ads.pimote.net^
 ||pipe-ejac.net^
