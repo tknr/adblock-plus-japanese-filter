@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 7lB58+Lpa6BgFwfXwdg5vA
-! Last modified: 2013-01-25 20:36:27 JST
+! Checksum: 9mS7nxuFfl1SUoDth54ybQ
+! Last modified: 2013-01-26 09:31:42 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4425,6 +4425,7 @@ _teasers_
 ||overture.co.jp^$third-party
 ||p-advg.com^$third-party
 ||p-bxm.com^$third-party
+||p-td.com^
 ||pardot.com^$third-party
 ||partypoker.$popup
 ||pasadserver.com^$third-party
@@ -4923,6 +4924,7 @@ _teasers_
 ||the-adult-company.com^$popup
 ||the-adult-company.com^$third-party
 ||theadultcompany.biz^
+||thebrighttag.com^
 ||thefilter.com^$third-party
 ||theloungenet.com^$third-party
 ||themediaplanets.com^$third-party
