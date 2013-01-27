@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: xiArjOSeRPL1soayb9GWHg
-! Last modified: 2013-01-26 19:25:22 JST
+! Checksum: 3CkeHXGAgf7fwJ87njlSuw
+! Last modified: 2013-01-27 19:42:43 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -721,6 +721,7 @@ _s_code2_$script
 ##a[href*="amazon."][href*="?tag="][href*="-22"]
 ##a[href*="amazon."][href*="%26tag%3D"][href*="-22"]
 ##a[href*="amazon."][href*="%3Ftag%3D"][href*="-22"]
+##a[href*="://astore.amazon."][href*="-22/detail/"]
 ! ----- Amazon Affiliate killer ----- END -----
 
 ! ===== Amazon discount banners ===== START =====
