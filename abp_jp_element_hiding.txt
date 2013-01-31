@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: dXUHlO/jRQphNA/LRWN0+Q
-! Last modified: 2013-01-31 21:30:21 JST
+! Checksum: RBKPUo7a8dTsxStzVUuOOQ
+! Last modified: 2013-01-31 21:40:46 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -106,6 +106,7 @@
 ###adv
 ###advertise
 ###AMN-large-banner
+###attypeJob
 ###bannerAd
 ###bannerad
 ###block_whitepaper
