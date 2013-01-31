@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: oIDPZj8E/mdmd1FCarNTqA
-! Last modified: 2013-01-31 16:59:19 JST
+! Checksum: 2VIpeQgRgEQXfHhIJKrAuA
+! Last modified: 2013-01-31 19:50:38 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -412,6 +412,10 @@
 ! -stat_
 -textad.
 -utm.$script
+-yahooads-
+-yahooads.
+-yahooads^
+-yahooads_
 |http:*.ad-
 |https:*.ad-
 ! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
@@ -548,6 +552,10 @@
 ! .stat_
 .TieupNotification.
 .vipmobile.
+.yahooads-
+.yahooads.
+.yahooads^
+.yahooads_
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
 /__onedot?c=
@@ -2283,6 +2291,10 @@
 ^urchin.
 ^urchin^
 ^urchin_
+^yahooads-
+^yahooads.
+^yahooads^
+^yahooads_
 ^yjaxc-$third-party
 ^yjaxc.$third-party
 ^yjaxc^$third-party
@@ -2482,6 +2494,10 @@ _teasers-
 _teasers.
 _teasers^
 _teasers_
+_yahooads-
+_yahooads.
+_yahooads^
+_yahooads_
 ||ad-cdn.
 |http://ad.
 |https://ad.
