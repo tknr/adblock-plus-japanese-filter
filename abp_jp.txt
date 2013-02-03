@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: drjZ6CZ+bh68Ob3IallRWw
-! Last modified: 2013-02-02 15:24:03 JST
+! Checksum: x4IFCPDesr6bCxD+D8iYEA
+! Last modified: 2013-02-03 22:10:15 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -843,6 +843,7 @@
 /csm-base/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /customerIsLegality?
 /d2ptoolbar/*
+/dac1.download.akamai.com/*
 /dart.$script
 ! /data/js/ad
 /delivery/?zoneid=
@@ -2680,6 +2681,7 @@ _yahooads_
 ||ad-maker.info^
 ||ad-mastering.net^
 ||ad-recommend.com^
+||ad-traffic.jp^
 ||ad-trak2.jp^$third-party
 |http:*.ad-v.jp^
 |https:*.ad-v.jp^
