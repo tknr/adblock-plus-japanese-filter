@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: /oLtE1fMm7lqrdeWfmONHQ
-! Last modified: 2013-02-03 15:32:00 JST
+! Checksum: dvI1aLmdwD+794Z7Ai+8QA
+! Last modified: 2013-02-03 15:37:02 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -603,289 +603,289 @@
 ##img[alt$="_pr]"]
 ! ---------- Images with alt attribute END ----------
 ! ========== All elements START ==========
-##*[id^="AD-"]:not(body):not(input)
-##*[id^="AD_"]:not(body):not(input)
-##*[id^="AD0"]:not(body):not(input)
-##*[id^="AD1"]:not(body):not(input)
-##*[id^="AD2"]:not(body):not(input)
-##*[id^="AD3"]:not(body):not(input)
-##*[id^="AD4"]:not(body):not(input)
-##*[id^="AD5"]:not(body):not(input)
-##*[id^="AD6"]:not(body):not(input)
-##*[id^="AD7"]:not(body):not(input)
-##*[id^="AD8"]:not(body):not(input)
-##*[id^="AD9"]:not(body):not(input)
-##*[id^="ADS-"]:not(body):not(input)
-##*[id^="ADS_"]:not(body):not(input)
-##*[id^="ADV-"]:not(body):not(input)
-##*[id^="ADV_"]:not(body):not(input)
-##*[id^="ADs-"]:not(body):not(input)
-##*[id^="ADs_"]:not(body):not(input)
-! ##*[id^="PR-"]:not(body):not(input)
-! ##*[id^="PR_"]:not(body):not(input)
-##*[id^="ad-"]:not(body):not(input)
-~pc-zero.jp##*[id^="ad_"]:not(body):not(input)
-##*[id^="ad0"]:not(body):not(input)
-##*[id^="ad1"]:not(body):not(input)
-##*[id^="ad2"]:not(body):not(input)
-##*[id^="ad3"]:not(body):not(input)
-##*[id^="ad4"]:not(body):not(input)
-##*[id^="ad5"]:not(body):not(input)
-##*[id^="ad6"]:not(body):not(input)
-##*[id^="ad7"]:not(body):not(input)
-##*[id^="ad8"]:not(body):not(input)
-##*[id^="ad9"]:not(body):not(input)
-##*[id^="adBox"]:not(body):not(input)
-##*[id^="ads-"]:not(body):not(input)
+##[id^="AD-"]:not(body):not(input)
+##[id^="AD_"]:not(body):not(input)
+##[id^="AD0"]:not(body):not(input)
+##[id^="AD1"]:not(body):not(input)
+##[id^="AD2"]:not(body):not(input)
+##[id^="AD3"]:not(body):not(input)
+##[id^="AD4"]:not(body):not(input)
+##[id^="AD5"]:not(body):not(input)
+##[id^="AD6"]:not(body):not(input)
+##[id^="AD7"]:not(body):not(input)
+##[id^="AD8"]:not(body):not(input)
+##[id^="AD9"]:not(body):not(input)
+##[id^="ADS-"]:not(body):not(input)
+##[id^="ADS_"]:not(body):not(input)
+##[id^="ADV-"]:not(body):not(input)
+##[id^="ADV_"]:not(body):not(input)
+##[id^="ADs-"]:not(body):not(input)
+##[id^="ADs_"]:not(body):not(input)
+! ##[id^="PR-"]:not(body):not(input)
+! ##[id^="PR_"]:not(body):not(input)
+##[id^="ad-"]:not(body):not(input)
+~pc-zero.jp##[id^="ad_"]:not(body):not(input)
+##[id^="ad0"]:not(body):not(input)
+##[id^="ad1"]:not(body):not(input)
+##[id^="ad2"]:not(body):not(input)
+##[id^="ad3"]:not(body):not(input)
+##[id^="ad4"]:not(body):not(input)
+##[id^="ad5"]:not(body):not(input)
+##[id^="ad6"]:not(body):not(input)
+##[id^="ad7"]:not(body):not(input)
+##[id^="ad8"]:not(body):not(input)
+##[id^="ad9"]:not(body):not(input)
+##[id^="adBox"]:not(body):not(input)
+##[id^="ads-"]:not(body):not(input)
 ! False positive with #ads_backsplashSkin at news.cnet.com reported via Issue Report 2011-11-21
-##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
-##*[id^="adv-"]:not(body):not(input)
-##*[id^="adv_"]:not(body):not(input)
-##*[id^="advert"]:not(body):not(input)
-##*[id^="deqwas"]:not(body):not(input)
-##*[id^="deteql"]:not(body):not(input)
-##*[id^="gAdsense"]:not(body):not(input)
-##*[id^="geniee_overray"]:not(body):not(input)
-##*[id^="google_ad"]:not(body):not(input)
-##*[id^="google_afc_"]:not(body):not(input)
-! ##*[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
-! ~books.com.tw##*[id^="pr_"]:not(body):not(input)
-##*[id*="-AD-"]:not(body):not(input)
-##*[id*="-ADS-"]:not(body):not(input)
-##*[id*="-ADV-"]:not(body):not(input)
-##*[id*="-ADs-"]:not(body):not(input)
-! ##*[id*="-PR-"]:not(body):not(input)
-~foreignaffairs.com##*[id*="-ad-"]:not(body):not(input)
-##*[id*="-ads-"]:not(body):not(input)
-##*[id*="-adv-"]:not(body):not(input)
-! ##*[id*="-pr-"]:not(body):not(input)
-~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##*[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
-##*[id*="_AD_"]:not(body):not(input)
-##*[id*="_ADS_"]:not(body):not(input)
-##*[id*="_ADV_"]:not(body):not(input)
-##*[id*="_ADs_"]:not(body):not(input)
-! ##*[id*="_PR_"]:not(body):not(input)
-##*[id*="_ads_"]:not(body):not(input)
-##*[id*="_adv_"]:not(body):not(input)
-! ##*[id*="_pr_"]:not(body):not(input)
-##*[id*="ADVERTISEMENT"]:not(body):not(input)
-##*[id*="ADVERTISING"]:not(body):not(input)
-##*[id*="AFFILIATE"]:not(body):not(input)
-##*[id*="AdSense"]:not(body):not(input)
-##*[id*="Advertisement"]:not(body):not(input)
-##*[id*="Advertising"]:not(body):not(input)
-##*[id*="Affiliate"]:not(body):not(input)
-##*[id*="OVERTURE"]:not(body):not(input)
-##*[id*="Overture"]:not(body):not(input)
-! ##*[id*="PRtext"]:not(body):not(input)
-##*[id*="SPONSOR"]:not(body):not(input)
-##*[id*="Sponsor"]:not(body):not(input)
-##*[id*="adsense"]:not(body):not(input)
-##*[id*="advertisement"]:not(body):not(input)
-##*[id*="advertising"]:not(body):not(input)
-##*[id*="affiliate"]:not(body):not(input)
-##*[id*="overture"]:not(body):not(input)
+##[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
+##[id^="adv-"]:not(body):not(input)
+##[id^="adv_"]:not(body):not(input)
+##[id^="advert"]:not(body):not(input)
+##[id^="deqwas"]:not(body):not(input)
+##[id^="deteql"]:not(body):not(input)
+##[id^="gAdsense"]:not(body):not(input)
+##[id^="geniee_overray"]:not(body):not(input)
+##[id^="google_ad"]:not(body):not(input)
+##[id^="google_afc_"]:not(body):not(input)
+! ##[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
+! ~books.com.tw##[id^="pr_"]:not(body):not(input)
+##[id*="-AD-"]:not(body):not(input)
+##[id*="-ADS-"]:not(body):not(input)
+##[id*="-ADV-"]:not(body):not(input)
+##[id*="-ADs-"]:not(body):not(input)
+! ##[id*="-PR-"]:not(body):not(input)
+~foreignaffairs.com##[id*="-ad-"]:not(body):not(input)
+##[id*="-ads-"]:not(body):not(input)
+##[id*="-adv-"]:not(body):not(input)
+! ##[id*="-pr-"]:not(body):not(input)
+~video.fc2.com,~nocutnews.co.kr,~kukuru.yahoo.co.jp##[id*="_ad_"]:not([id*="no_ad"]):not([class^="artical"]):not(body):not(input)
+##[id*="_AD_"]:not(body):not(input)
+##[id*="_ADS_"]:not(body):not(input)
+##[id*="_ADV_"]:not(body):not(input)
+##[id*="_ADs_"]:not(body):not(input)
+! ##[id*="_PR_"]:not(body):not(input)
+##[id*="_ads_"]:not(body):not(input)
+##[id*="_adv_"]:not(body):not(input)
+! ##[id*="_pr_"]:not(body):not(input)
+##[id*="ADVERTISEMENT"]:not(body):not(input)
+##[id*="ADVERTISING"]:not(body):not(input)
+##[id*="AFFILIATE"]:not(body):not(input)
+##[id*="AdSense"]:not(body):not(input)
+##[id*="Advertisement"]:not(body):not(input)
+##[id*="Advertising"]:not(body):not(input)
+##[id*="Affiliate"]:not(body):not(input)
+##[id*="OVERTURE"]:not(body):not(input)
+##[id*="Overture"]:not(body):not(input)
+! ##[id*="PRtext"]:not(body):not(input)
+##[id*="SPONSOR"]:not(body):not(input)
+##[id*="Sponsor"]:not(body):not(input)
+##[id*="adsense"]:not(body):not(input)
+##[id*="advertisement"]:not(body):not(input)
+##[id*="advertising"]:not(body):not(input)
+##[id*="affiliate"]:not(body):not(input)
+##[id*="overture"]:not(body):not(input)
 ! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
-! ##*[id*="prtext"]:not(body):not(input)
-! ##*[id*="prText"]:not(body):not(input)
-~accuweather.com##*[id*="sponsor"]:not(body):not(input)
-##*[id$="-AD"]:not(body):not(input)
-##*[id$="-AD1"]:not(body):not(input)
-##*[id$="-AD2"]:not(body):not(input)
-##*[id$="-AD3"]:not(body):not(input)
-##*[id$="-AD4"]:not(body):not(input)
-##*[id$="-AD5"]:not(body):not(input)
-##*[id$="-AD6"]:not(body):not(input)
-##*[id$="-AD7"]:not(body):not(input)
-##*[id$="-AD8"]:not(body):not(input)
-##*[id$="-AD9"]:not(body):not(input)
-##*[id$="-ADS"]:not(body):not(input)
-##*[id$="-ADV"]:not(body):not(input)
-##*[id$="-ADs"]:not(body):not(input)
-! ##*[id$="-PR"]:not(body):not(input)
-~tcmagazine.com##*[id$="-ad"]:not(body):not(input)
-##*[id$="-ad1"]:not(body):not(input)
-##*[id$="-ad2"]:not(body):not(input)
-##*[id$="-ad3"]:not(body):not(input)
-##*[id$="-ad4"]:not(body):not(input)
-##*[id$="-ad5"]:not(body):not(input)
-##*[id$="-ad6"]:not(body):not(input)
-##*[id$="-ad7"]:not(body):not(input)
-##*[id$="-ad8"]:not(body):not(input)
-##*[id$="-ad9"]:not(body):not(input)
-~mobile01.com##*[id$="-ads"]:not(body):not(input)
-##*[id$="-adv"]:not(body):not(input)
-! ~kakaku.com##*[id$="-pr"]:not(body):not(input)
-##*[id$="_AD"]:not(body):not(input)
-##*[id$="_AD1"]:not(body):not(input)
-##*[id$="_AD2"]:not(body):not(input)
-##*[id$="_AD3"]:not(body):not(input)
-##*[id$="_AD4"]:not(body):not(input)
-##*[id$="_AD5"]:not(body):not(input)
-##*[id$="_AD6"]:not(body):not(input)
-##*[id$="_AD7"]:not(body):not(input)
-##*[id$="_AD8"]:not(body):not(input)
-##*[id$="_AD9"]:not(body):not(input)
-##*[id$="_ADs"]:not(body):not(input)
-##*[id$="_ADS"]:not(body):not(input)
-##*[id$="_ADV"]:not(body):not(input)
-! ##*[id$="_PR"]:not(body):not(input)
-##*[id$="_ad"]:not(body):not(input)
-##*[id$="_ad1"]:not(body):not(input)
-##*[id$="_ad2"]:not(body):not(input)
-##*[id$="_ad3"]:not(body):not(input)
-##*[id$="_ad4"]:not(body):not(input)
-##*[id$="_ad5"]:not(body):not(input)
-##*[id$="_ad6"]:not(body):not(input)
-##*[id$="_ad7"]:not(body):not(input)
-##*[id$="_ad8"]:not(body):not(input)
-##*[id$="_ad9"]:not(body):not(input)
-##*[id$="_ads"]:not(body):not(input)
-##*[id$="_adv"]:not(body):not(input)
-! ##*[id$="_pr"]:not(body):not(input)
-##*[class^="AD-"]:not(body):not(input)
-##*[class^="AD_"]:not(body):not(input):not(table)
-##*[class^="AD0"]:not(body):not(input)
-##*[class^="AD1"]:not(body):not(input)
-##*[class^="AD2"]:not(body):not(input)
-##*[class^="AD3"]:not(body):not(input)
-##*[class^="AD4"]:not(body):not(input)
-##*[class^="AD5"]:not(body):not(input)
-##*[class^="AD6"]:not(body):not(input)
-##*[class^="AD7"]:not(body):not(input)
-##*[class^="AD8"]:not(body):not(input)
-##*[class^="AD9"]:not(body):not(input)
-##*[class^="ADS-"]:not(body):not(input)
-##*[class^="ADS_"]:not(body):not(input)
-##*[class^="ADV-"]:not(body):not(input)
-##*[class^="ADV_"]:not(body):not(input)
-##*[class^="ADs-"]:not(body):not(input)
-##*[class^="ADs_"]:not(body):not(input)
-! ##*[class^="PR-"]:not(body):not(input)
-! ##*[class^="PR_"]:not(body):not(input)
-~vmware.com##*[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
-~collegehumor.com##*[class^="ad_"]:not(body):not(input)
-##*[class^="ad0"]:not(body):not(input)
-##*[class^="ad1"]:not(body):not(input)
-##*[class^="ad2"]:not(body):not(input)
+! ##[id*="prtext"]:not(body):not(input)
+! ##[id*="prText"]:not(body):not(input)
+~accuweather.com##[id*="sponsor"]:not(body):not(input)
+##[id$="-AD"]:not(body):not(input)
+##[id$="-AD1"]:not(body):not(input)
+##[id$="-AD2"]:not(body):not(input)
+##[id$="-AD3"]:not(body):not(input)
+##[id$="-AD4"]:not(body):not(input)
+##[id$="-AD5"]:not(body):not(input)
+##[id$="-AD6"]:not(body):not(input)
+##[id$="-AD7"]:not(body):not(input)
+##[id$="-AD8"]:not(body):not(input)
+##[id$="-AD9"]:not(body):not(input)
+##[id$="-ADS"]:not(body):not(input)
+##[id$="-ADV"]:not(body):not(input)
+##[id$="-ADs"]:not(body):not(input)
+! ##[id$="-PR"]:not(body):not(input)
+~tcmagazine.com##[id$="-ad"]:not(body):not(input)
+##[id$="-ad1"]:not(body):not(input)
+##[id$="-ad2"]:not(body):not(input)
+##[id$="-ad3"]:not(body):not(input)
+##[id$="-ad4"]:not(body):not(input)
+##[id$="-ad5"]:not(body):not(input)
+##[id$="-ad6"]:not(body):not(input)
+##[id$="-ad7"]:not(body):not(input)
+##[id$="-ad8"]:not(body):not(input)
+##[id$="-ad9"]:not(body):not(input)
+~mobile01.com##[id$="-ads"]:not(body):not(input)
+##[id$="-adv"]:not(body):not(input)
+! ~kakaku.com##[id$="-pr"]:not(body):not(input)
+##[id$="_AD"]:not(body):not(input)
+##[id$="_AD1"]:not(body):not(input)
+##[id$="_AD2"]:not(body):not(input)
+##[id$="_AD3"]:not(body):not(input)
+##[id$="_AD4"]:not(body):not(input)
+##[id$="_AD5"]:not(body):not(input)
+##[id$="_AD6"]:not(body):not(input)
+##[id$="_AD7"]:not(body):not(input)
+##[id$="_AD8"]:not(body):not(input)
+##[id$="_AD9"]:not(body):not(input)
+##[id$="_ADs"]:not(body):not(input)
+##[id$="_ADS"]:not(body):not(input)
+##[id$="_ADV"]:not(body):not(input)
+! ##[id$="_PR"]:not(body):not(input)
+##[id$="_ad"]:not(body):not(input)
+##[id$="_ad1"]:not(body):not(input)
+##[id$="_ad2"]:not(body):not(input)
+##[id$="_ad3"]:not(body):not(input)
+##[id$="_ad4"]:not(body):not(input)
+##[id$="_ad5"]:not(body):not(input)
+##[id$="_ad6"]:not(body):not(input)
+##[id$="_ad7"]:not(body):not(input)
+##[id$="_ad8"]:not(body):not(input)
+##[id$="_ad9"]:not(body):not(input)
+##[id$="_ads"]:not(body):not(input)
+##[id$="_adv"]:not(body):not(input)
+! ##[id$="_pr"]:not(body):not(input)
+##[class^="AD-"]:not(body):not(input)
+##[class^="AD_"]:not(body):not(input):not(table)
+##[class^="AD0"]:not(body):not(input)
+##[class^="AD1"]:not(body):not(input)
+##[class^="AD2"]:not(body):not(input)
+##[class^="AD3"]:not(body):not(input)
+##[class^="AD4"]:not(body):not(input)
+##[class^="AD5"]:not(body):not(input)
+##[class^="AD6"]:not(body):not(input)
+##[class^="AD7"]:not(body):not(input)
+##[class^="AD8"]:not(body):not(input)
+##[class^="AD9"]:not(body):not(input)
+##[class^="ADS-"]:not(body):not(input)
+##[class^="ADS_"]:not(body):not(input)
+##[class^="ADV-"]:not(body):not(input)
+##[class^="ADV_"]:not(body):not(input)
+##[class^="ADs-"]:not(body):not(input)
+##[class^="ADs_"]:not(body):not(input)
+! ##[class^="PR-"]:not(body):not(input)
+! ##[class^="PR_"]:not(body):not(input)
+~vmware.com##[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
+~collegehumor.com##[class^="ad_"]:not(body):not(input)
+##[class^="ad0"]:not(body):not(input)
+##[class^="ad1"]:not(body):not(input)
+##[class^="ad2"]:not(body):not(input)
 ! False positive with chat at Gmail reported by @zirweed, Feb 14, 2012
-~mail.google.com##*[class^="ad3"]:not(body):not(input)
-##*[class^="ad4"]:not(body):not(input)
-##*[class^="ad5"]:not(body):not(input)
-##*[class^="ad6"]:not(body):not(input)
-##*[class^="ad7"]:not(body):not(input)
-##*[class^="ad8"]:not(body):not(input)
-##*[class^="ad9"]:not(body):not(input)
-##*[class^="adBox"]:not(body):not(input)
-##*[class^="ads-"]:not(body):not(input)
-##*[class^="ads_"]:not(body):not(input)
+~mail.google.com##[class^="ad3"]:not(body):not(input)
+##[class^="ad4"]:not(body):not(input)
+##[class^="ad5"]:not(body):not(input)
+##[class^="ad6"]:not(body):not(input)
+##[class^="ad7"]:not(body):not(input)
+##[class^="ad8"]:not(body):not(input)
+##[class^="ad9"]:not(body):not(input)
+##[class^="adBox"]:not(body):not(input)
+##[class^="ads-"]:not(body):not(input)
+##[class^="ads_"]:not(body):not(input)
 ! Added domain exception to avoid a false positive hiding "advanced option", reported by TORI via blog comment, Nov 22, 2012
-~mail.yahoo.com##*[class^="adv-"]:not(body):not(input)
-##*[class^="adv_"]:not(body):not(input)
-##*[class^="advert"]:not(body):not(input)
-##*[class^="deqwas"]:not(body):not(input)
-##*[class^="deteql"]:not(body):not(input)
-##*[class^="google-ads"]:not(body):not(input)
-! ##*[class^="pr-"]:not(body):not(input)
-! ##*[class^="pr_"]:not(body):not(input)
-##*[class*="-AD-"]:not(body):not(input)
-##*[class*="-ADS-"]:not(body):not(input)
-##*[class*="-ADV-"]:not(body):not(input)
-##*[class*="-ADs-"]:not(body):not(input)
-! ##*[class*="-PR-"]:not(body):not(input)
-~foreignaffairs.com##*[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
-##*[class*="-ads-"]:not(body):not(input)
-##*[class*="-adv-"]:not(body):not(input)
-! ##*[class*="-pr-"]:not(body):not(input)
-~video.fc2.com,~gamespot.com,~megaupload.com##*[class*="_ad_"]:not(body):not(input)
-##*[class*="_AD_"]:not(body):not(input)
-##*[class*="_ADS_"]:not(body):not(input)
-##*[class*="_ADV_"]:not(body):not(input)
-##*[class*="_ADs_"]:not(body):not(input)
-! ##*[class*="_PR_"]:not(body):not(input)
-##*[class*="_ads_"]:not(body):not(input)
-##*[class*="_adv_"]:not(body):not(input)
-! ##*[class*="_pr_"]:not(body):not(input)
-##*[class*="ADVERTISEMENT"]:not(body):not(input)
-##*[class*="ADVERTISING"]:not(body):not(input)
-##*[class*="AFFILIATE"]:not(body):not(input)
-##*[class*="OVERTURE"]:not(body):not(input)
-##*[class*="SPONSOR"]:not(body):not(input)
-##*[class*="AdSense"]:not(body):not(input)
-##*[class*="AdWords"]:not(body):not(input)
-##*[class*="Advertisement"]:not(body):not(input)
-##*[class*="Advertising"]:not(body):not(input)
-##*[class*="Affiliate"]:not(body):not(input)
-##*[class*="adlantis"]:not(body):not(input)
-##*[class*="Overture"]:not(body):not(input)
-! ##*[class*="PRtext"]:not(body):not(input)
-##*[class*="Sponsor"]:not(body):not(input)
-~wikia.com##*[class*="adsense"]:not(body):not(input)
-~slideboom.com##*[class*="advertisement"]:not(body):not(input)
-##*[class*="advertising"]:not(body):not(input)
-##*[class*="affiliate"]:not(body):not(input)
-##*[class*="overture"]:not(body):not(input)
+~mail.yahoo.com##[class^="adv-"]:not(body):not(input)
+##[class^="adv_"]:not(body):not(input)
+##[class^="advert"]:not(body):not(input)
+##[class^="deqwas"]:not(body):not(input)
+##[class^="deteql"]:not(body):not(input)
+##[class^="google-ads"]:not(body):not(input)
+! ##[class^="pr-"]:not(body):not(input)
+! ##[class^="pr_"]:not(body):not(input)
+##[class*="-AD-"]:not(body):not(input)
+##[class*="-ADS-"]:not(body):not(input)
+##[class*="-ADV-"]:not(body):not(input)
+##[class*="-ADs-"]:not(body):not(input)
+! ##[class*="-PR-"]:not(body):not(input)
+~foreignaffairs.com##[class*="-ad-"]:not([class*="st-ad-"]):not(body):not(input)
+##[class*="-ads-"]:not(body):not(input)
+##[class*="-adv-"]:not(body):not(input)
+! ##[class*="-pr-"]:not(body):not(input)
+~video.fc2.com,~gamespot.com,~megaupload.com##[class*="_ad_"]:not(body):not(input)
+##[class*="_AD_"]:not(body):not(input)
+##[class*="_ADS_"]:not(body):not(input)
+##[class*="_ADV_"]:not(body):not(input)
+##[class*="_ADs_"]:not(body):not(input)
+! ##[class*="_PR_"]:not(body):not(input)
+##[class*="_ads_"]:not(body):not(input)
+##[class*="_adv_"]:not(body):not(input)
+! ##[class*="_pr_"]:not(body):not(input)
+##[class*="ADVERTISEMENT"]:not(body):not(input)
+##[class*="ADVERTISING"]:not(body):not(input)
+##[class*="AFFILIATE"]:not(body):not(input)
+##[class*="OVERTURE"]:not(body):not(input)
+##[class*="SPONSOR"]:not(body):not(input)
+##[class*="AdSense"]:not(body):not(input)
+##[class*="AdWords"]:not(body):not(input)
+##[class*="Advertisement"]:not(body):not(input)
+##[class*="Advertising"]:not(body):not(input)
+##[class*="Affiliate"]:not(body):not(input)
+##[class*="adlantis"]:not(body):not(input)
+##[class*="Overture"]:not(body):not(input)
+! ##[class*="PRtext"]:not(body):not(input)
+##[class*="Sponsor"]:not(body):not(input)
+~wikia.com##[class*="adsense"]:not(body):not(input)
+~slideboom.com##[class*="advertisement"]:not(body):not(input)
+##[class*="advertising"]:not(body):not(input)
+##[class*="affiliate"]:not(body):not(input)
+##[class*="overture"]:not(body):not(input)
 ! Negative condition is added to avoid false positives with default class name of Drupal 7 reported aaron@madlon-kay.com via https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=25 , Feb 14, 2012
-! ##*[class*="prtext"]:not(body):not(input)
-~bbc.co.uk,~linuxmint.com##*[class*="sponsor"]:not(body):not(input)
-##*[class$="-AD"]:not(body):not(input)
-##*[class$="-AD1"]:not(body):not(input)
-##*[class$="-AD2"]:not(body):not(input)
-##*[class$="-AD3"]:not(body):not(input)
-##*[class$="-AD4"]:not(body):not(input)
-##*[class$="-AD5"]:not(body):not(input)
-##*[class$="-AD6"]:not(body):not(input)
-##*[class$="-AD7"]:not(body):not(input)
-##*[class$="-AD8"]:not(body):not(input)
-##*[class$="-AD9"]:not(body):not(input)
-##*[class$="-ADS"]:not(body):not(input)
-##*[class$="-ADs"]:not(body):not(input)
-##*[class$="-ADV"]:not(body):not(input)
-! ##*[class$="-PR"]:not(body):not(input)
+! ##[class*="prtext"]:not(body):not(input)
+~bbc.co.uk,~linuxmint.com##[class*="sponsor"]:not(body):not(input)
+##[class$="-AD"]:not(body):not(input)
+##[class$="-AD1"]:not(body):not(input)
+##[class$="-AD2"]:not(body):not(input)
+##[class$="-AD3"]:not(body):not(input)
+##[class$="-AD4"]:not(body):not(input)
+##[class$="-AD5"]:not(body):not(input)
+##[class$="-AD6"]:not(body):not(input)
+##[class$="-AD7"]:not(body):not(input)
+##[class$="-AD8"]:not(body):not(input)
+##[class$="-AD9"]:not(body):not(input)
+##[class$="-ADS"]:not(body):not(input)
+##[class$="-ADs"]:not(body):not(input)
+##[class$="-ADV"]:not(body):not(input)
+! ##[class$="-PR"]:not(body):not(input)
 ! Negative conditions are added to avoid false positives around plus.google.com
-##*[class$="-ad"]:not(body):not(input):not([class^="a-"]):not([class^="f-"])
-##*[class$="-ad1"]:not(body):not(input)
-##*[class$="-ad2"]:not(body):not(input)
-##*[class$="-ad3"]:not(body):not(input)
-##*[class$="-ad4"]:not(body):not(input)
-##*[class$="-ad5"]:not(body):not(input)
-##*[class$="-ad6"]:not(body):not(input)
-##*[class$="-ad7"]:not(body):not(input)
-##*[class$="-ad8"]:not(body):not(input)
-##*[class$="-ad9"]:not(body):not(input)
+##[class$="-ad"]:not(body):not(input):not([class^="a-"]):not([class^="f-"])
+##[class$="-ad1"]:not(body):not(input)
+##[class$="-ad2"]:not(body):not(input)
+##[class$="-ad3"]:not(body):not(input)
+##[class$="-ad4"]:not(body):not(input)
+##[class$="-ad5"]:not(body):not(input)
+##[class$="-ad6"]:not(body):not(input)
+##[class$="-ad7"]:not(body):not(input)
+##[class$="-ad8"]:not(body):not(input)
+##[class$="-ad9"]:not(body):not(input)
 ! False positive in right column named "with-ads" of the flickr.com search result
-~flickr.com##*[class$="-ads"]:not(body):not(input)
-##*[class$="-adv"]:not(body):not(input)
-! ##*[class$="-pr"]:not(body):not(input)
-##*[class$="_AD"]:not(body):not(input)
-##*[class$="_AD1"]:not(body):not(input)
-##*[class$="_AD2"]:not(body):not(input)
-##*[class$="_AD3"]:not(body):not(input)
-##*[class$="_AD4"]:not(body):not(input)
-##*[class$="_AD5"]:not(body):not(input)
-##*[class$="_AD6"]:not(body):not(input)
-##*[class$="_AD7"]:not(body):not(input)
-##*[class$="_AD8"]:not(body):not(input)
-##*[class$="_AD9"]:not(body):not(input)
-##*[class$="_ADS"]:not(body):not(input)
-##*[class$="_ADV"]:not(body):not(input)
-##*[class$="_ADs"]:not(body):not(input)
-! ##*[class$="_PR"]:not(body):not(input)
-~cnepub.com,~itoyokado.co.jp##*[class$="_ad"]:not(.gs_ad):not(body):not(input)
-##*[class$="_ad1"]:not(body):not(input)
-##*[class$="_ad2"]:not(body):not(input)
-##*[class$="_ad3"]:not(body):not(input)
-##*[class$="_ad4"]:not(body):not(input)
-##*[class$="_ad5"]:not(body):not(input)
-##*[class$="_ad6"]:not(body):not(input)
-##*[class$="_ad7"]:not(body):not(input)
-##*[class$="_ad8"]:not(body):not(input)
-##*[class$="_ad9"]:not(body):not(input)
+~flickr.com##[class$="-ads"]:not(body):not(input)
+##[class$="-adv"]:not(body):not(input)
+! ##[class$="-pr"]:not(body):not(input)
+##[class$="_AD"]:not(body):not(input)
+##[class$="_AD1"]:not(body):not(input)
+##[class$="_AD2"]:not(body):not(input)
+##[class$="_AD3"]:not(body):not(input)
+##[class$="_AD4"]:not(body):not(input)
+##[class$="_AD5"]:not(body):not(input)
+##[class$="_AD6"]:not(body):not(input)
+##[class$="_AD7"]:not(body):not(input)
+##[class$="_AD8"]:not(body):not(input)
+##[class$="_AD9"]:not(body):not(input)
+##[class$="_ADS"]:not(body):not(input)
+##[class$="_ADV"]:not(body):not(input)
+##[class$="_ADs"]:not(body):not(input)
+! ##[class$="_PR"]:not(body):not(input)
+~cnepub.com,~itoyokado.co.jp##[class$="_ad"]:not(.gs_ad):not(body):not(input)
+##[class$="_ad1"]:not(body):not(input)
+##[class$="_ad2"]:not(body):not(input)
+##[class$="_ad3"]:not(body):not(input)
+##[class$="_ad4"]:not(body):not(input)
+##[class$="_ad5"]:not(body):not(input)
+##[class$="_ad6"]:not(body):not(input)
+##[class$="_ad7"]:not(body):not(input)
+##[class$="_ad8"]:not(body):not(input)
+##[class$="_ad9"]:not(body):not(input)
 ! Added a negative condition #playerCommentPanel to avoid false positives with comment panel of movie player at nicovideo.jp, Oct 18th, 2012
 ! Added a negative condition #content to avoid false positives with main contents at sendspace.com/file/, reported by ぽちょ via blog, Jan 12, 2013
-##*[class$="_ads"]:not(#content):not(#playerCommentPanel):not(body):not(input)
-##*[class$="_adv"]:not(body):not(input)
-! ##*[class$="_pr"]:not(body):not(input)
+##[class$="_ads"]:not(#content):not(#playerCommentPanel):not(body):not(input)
+##[class$="_adv"]:not(body):not(input)
+! ##[class$="_pr"]:not(body):not(input)
 ! ---------- All elements END ----------
 !
 ! ########## Element Hiding with domains START ##########
@@ -902,9 +902,9 @@ akb48matome.com##.akbantena
 ! amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it###ap_container
 amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it###cbcc_banner_container
 amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##.adNoOutline
-amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[id^="DA"]
-amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[href*="/redirect."][href*="?tag="][href*="-22&"]
-amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##*[href*="/redirect."][href*="%3Ftag%3D"][href*="-22%26"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##[id^="DA"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##[href*="/redirect."][href*="?tag="][href*="-22&"]
+amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##[href*="/redirect."][href*="%3Ftag%3D"][href*="-22%26"]
 ! Fallback for not working Element-Hiding filter above, Mar 10, 2012
 amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##img[usemap^="#Javari"]
 ameblo.jp###amebaBar
@@ -933,12 +933,12 @@ atmarkit.co.jp##.monosp
 atmarkit.co.jp##.pr-l
 atmarkit.co.jp##.rspecial
 atmarkit.co.jp##.ttl-techtarget
-atmarkit.co.jp##*[id^="rcspSFlash"]:not(body):not(input)
+atmarkit.co.jp##[id^="rcspSFlash"]:not(body):not(input)
 atmarkit.co.jp##a[href*="://dlv.itmedia.jp/rd/"]
 atmarkit.co.jp##a[href*="/ct.php?id="]
 biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
 news.biglobe.ne.jp##.praTB
-bing.com##*[class^="sb_ads"]
+bing.com##[class^="sb_ads"]
 bioimpact.jp###pr
 bioimpact.jp##div[class^="sn-box"]
 businessnetwork.jp##.specialtopics
@@ -1023,7 +1023,7 @@ diamond.jp##div[class*="box"][class*="dolplus"]
 diamond.jp##div[class*="box"][class*="side_business-info"]
 diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
-diamond.jp##*[class*="campaign"]:not(body):not(input)
+diamond.jp##[class*="campaign"]:not(body):not(input)
 e-words.jp###l
 e-words.jp##.ladsby
 e-words.jp##.ladsby ~ table
@@ -1057,13 +1057,13 @@ fileserve.com###bonus_promo
 fileserve.com###dialog_overlay
 free-codecs.com###bannerTop
 free-codecs.com###rightBar
-gci-klug.jp##*[class*="AdBox"]:not(body):not(input)
-gci-klug.jp##*[class*="AdsBox"]:not(body):not(input)
-gendai.net##*[id^="adingo_"]:not(body):not(input)
+gci-klug.jp##[class*="AdBox"]:not(body):not(input)
+gci-klug.jp##[class*="AdsBox"]:not(body):not(input)
+gendai.net##[id^="adingo_"]:not(body):not(input)
 gigafree.net###spl
 gigafree.net##.spl
 gigazine.net###headertop
-gigazine.net##*[src*="/tnemesitrevda/"]:not(body):not(input)
+gigazine.net##[src*="/tnemesitrevda/"]:not(body):not(input)
 gihyo.jp###contentHotspot
 gihyo.jp###secondary > .textPR
 gihyo.jp###secondary > .banner
@@ -1150,7 +1150,7 @@ marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
 marsflag.jugem.jp###contLeft > h2.colTitle1 ~ table div[onclick^="window.open("]
 kabumap.com##.KM_VERS_TABLEAREA > div:not([id]):not([class])
-kget.jp##*[class^="ad"]:not([class^="add"]):not(body):not(input)
+kget.jp##[class^="ad"]:not([class^="add"]):not(body):not(input)
 l-tike.com###mhInner
 lavasoft.jp###firstpagebanner
 livedoor.com###become
@@ -1177,7 +1177,7 @@ mainichi.jp##.AdGraph
 mainichi.jp##.AffAD
 mainichi.jp##.NaviAd
 mainichi.jp##.SquareAd
-mainichi.jp##*[class^="ArticleAd"]:not(body):not(input)
+mainichi.jp##[class^="ArticleAd"]:not(body):not(input)
 mainichi.jp##a[href*=".mainichi.co.jp/rd/"]
 mapion.co.jp###adTxtInMain
 markezine.jp###header > .navi > div
@@ -1204,8 +1204,8 @@ mycom.co.jp###adspecial
 mycom.co.jp##.adspecial
 mycom.co.jp##a[href*="adspecial"]
 mycom.co.jp##a[href*="kali.mycom.co.jp"]
-mycom.co.jp##*[src*="adspecial"]:not(body):not(input)
-mycom.co.jp##*[src*="kali.mycom.co.jp"]:not(body):not(input)
+mycom.co.jp##[src*="adspecial"]:not(body):not(input)
+mycom.co.jp##[src*="kali.mycom.co.jp"]:not(body):not(input)
 download.hr###mediaget_box
 download.hr##.AddCenterRight
 download.hr##.file_download_box:nth-of-type(2)
@@ -1244,7 +1244,7 @@ itpro.nikkeibp.co.jp###subContent .rectangle
 itpro.nikkeibp.co.jp###subContent .rightRectangle
 itpro.nikkeibp.co.jp###leaf_datascope
 itpro.nikkeibp.co.jp##.leaf_datascope
-itpro.nikkeibp.co.jp##*[href^="/data/"]:not(body):not(input)
+itpro.nikkeibp.co.jp##[href^="/data/"]:not(body):not(input)
 pc.nikkeibp.co.jp###bs_bigsky
 pc.nikkeibp.co.jp###visual_box_iframe_margin
 www.nikkeibp.co.jp##.bpselection
@@ -1265,11 +1265,11 @@ phpspot.org###rightbar
 publickey.jp,publickey1.jp##.topbanner
 pya.cc##.tk
 rakuten.co.jp###sc_lidAdd_js_banner
-rakuten.co.jp##*[id$="Esper"]
-rakuten.co.jp##*[id$="EsperHead"]
-rakuten.co.jp##*[id*="sponcer"]
-rakuten.co.jp##*[id*="Sponcer"]
-rakuten.co.jp##*[id^="sttl"]
+rakuten.co.jp##[id$="Esper"]
+rakuten.co.jp##[id$="EsperHead"]
+rakuten.co.jp##[id*="sponcer"]
+rakuten.co.jp##[id*="Sponcer"]
+rakuten.co.jp##[id^="sttl"]
 reddit.com##.organic-listing
 jp.reuters.com###adArticleText
 jp.reuters.com##.adArticleText
@@ -1278,9 +1278,9 @@ revouninstaller.com##.header-flash
 revouninstaller.com##.row-banner
 ribbon.to##body > p[align="center"]
 robtex.com##.topper
-robtex.com##*[id^="xad"]:not(body):not(input)
+robtex.com##[id^="xad"]:not(body):not(input)
 ip.robtex.com##a[rel="nofollow"] > img
-rue89japon.com##*[id^="ad_"]:not(body):not(input)
+rue89japon.com##[id^="ad_"]:not(body):not(input)
 sanspo.com###lBoard2
 sanspo.com##.lBoard2
 sbisec.co.jp##a[href*="/campaign"]
@@ -1301,7 +1301,7 @@ slideshare.net##.noAdForLead
 software.com###promo_aside
 sophia-it.com##.adtx
 sophia-it.com##.shin3
-sophia-it.com##*[class^="banner"]:not(body):not(input)
+sophia-it.com##[class^="banner"]:not(body):not(input)
 sourceforge.jp###adaptive-prtext
 sourceforge.jp###adbar > .sidebar-ad-text~div:nth-of-type(2)
 sourceforge.jp###adbar > :first-child
@@ -1311,9 +1311,9 @@ surfcanyon.com###eastAds
 surfcanyon.com##.splink
 tabelog.com###targeting_restaurants
 tabelog.com##.areamatch-box
-tbs.co.jp##*[id^="banner-"]:not(body):not(input)
+tbs.co.jp##[id^="banner-"]:not(body):not(input)
 tbs.co.jp###promotion
-technobahn.com##*[src*=".technobahn.com/cgi-bin/dart/display"]:not(body):not(input)
+technobahn.com##[src*=".technobahn.com/cgi-bin/dart/display"]:not(body):not(input)
 technobahn.com##a[href*=".technobahn.com/cgi-bin/dart/click"]
 technobahn.com##tr.ch[id^="taw"]
 technobahn.com##tr.ch[id^="taw"]+tr
@@ -1373,10 +1373,10 @@ www.vector.co.jp###top_special
 www.vector.co.jp###top_special + center
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ff9933"]
 www.vector.co.jp##td[width="426"] > table[bgcolor="#ffffff"][align="center"]
-virtualdub.org##*[alt$="Ad]"]:not(body):not(input)
+virtualdub.org##[alt$="Ad]"]:not(body):not(input)
 special.visualzoo.com###sidebar > .side_banner
 special.visualzoo.com###container > .banner_area
-weblio.jp##*[class^="ad"]:not([class^="add"])
+weblio.jp##[class^="ad"]:not([class^="add"])
 wsj.com##.adSummary
 yahoo.com,yahoo.co.jp###northbanner
 yahoo.co.jp###centralPosition
@@ -1399,13 +1399,13 @@ yahoo.co.jp##.lbad
 yahoo.co.jp##.prCT
 yahoo.co.jp##.yschec
 yahoo.co.jp##.yschspns
-yahoo.co.jp##*[id^="ad"]:not([id^="add"])
-yahoo.co.jp##*[id^="modAd"]
-yahoo.co.jp##*[id^="pos-"]:not([id="pos-s"])
-~used.realestate.yahoo.co.jp,yahoo.co.jp##*[class^="ad"]:not([class^="add"])
-yahoo.co.jp##*[class*="pos-"]
-yahoo.co.jp##*[class^="pr300"]
-yahoo.co.jp##*[class^="prCenter"]
+yahoo.co.jp##[id^="ad"]:not([id^="add"])
+yahoo.co.jp##[id^="modAd"]
+yahoo.co.jp##[id^="pos-"]:not([id="pos-s"])
+~used.realestate.yahoo.co.jp,yahoo.co.jp##[class^="ad"]:not([class^="add"])
+yahoo.co.jp##[class*="pos-"]
+yahoo.co.jp##[class^="pr300"]
+yahoo.co.jp##[class^="prCenter"]
 blogs.yahoo.co.jp##a.blog_IMp
 search.yahoo.co.jp##.ss
 finance.yahoo.com###yfi_ysm
@@ -1417,14 +1417,14 @@ login.yahoo.co.jp###yregtxt
 mail.yahoo.co.jp###lbadspr
 mail.yahoo.co.jp##.dashcontent
 mail.yahoo.co.jp##.lbadspr
-mail.yahoo.co.jp##*[id^="dashview"]:not(body):not(input)
-mail.yahoo.co.jp##*[id^="jpwelcomeinsideyahoo"]:not(body):not(input)
-mail.yahoo.co.jp##*[id^="jpwelcomeym"]:not(body):not(input)
-mail.yahoo.co.jp##*[class$="topfilled"]
+mail.yahoo.co.jp##[id^="dashview"]:not(body):not(input)
+mail.yahoo.co.jp##[id^="jpwelcomeinsideyahoo"]:not(body):not(input)
+mail.yahoo.co.jp##[id^="jpwelcomeym"]:not(body):not(input)
+mail.yahoo.co.jp##[class$="topfilled"]
 quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
 yomiuri.co.jp##a[href*="/adv/"]
-yomiuri.co.jp##*[class*="-txtad-"]
+yomiuri.co.jp##[class*="-txtad-"]
 youtube.com##.ads-pyv
 youtube.com##.watch-pyv-vid
 ! ---------- Element Hiding with domains END ----------
