@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: RBKPUo7a8dTsxStzVUuOOQ
-! Last modified: 2013-01-31 21:40:46 JST
+! Checksum: /oLtE1fMm7lqrdeWfmONHQ
+! Last modified: 2013-02-03 15:32:00 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -35,232 +35,292 @@
 !
 !
 ! ########## Element Hiding START ##########
-###AD
-###Ad
-~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad
+###AD:not(body):not(input)
+###Ad:not(body):not(input)
+~id.dwmail.jp,~login.mail.goo.ne.jp,~kukuru.yahoo.co.jp###ad:not(body):not(input)
+###ADS:not(body):not(input)
+###ADs:not(body):not(input)
+###ads:not(body):not(input)
 ! Eliminated duplicated filters, Mar 26, 2012
-! ###AD-text
-! ###AD_bottom
-! ###AD_left
-! ###AD_right
-! ###AD_text
-! ###AD_top
-! ###ad-text
-! ###ad_bottom
-! ###ad_container
-! ###ad_frame
-! ###ad_left
-! ###ad_listing
-! ###ad_right
-! ###ad_text
-! ###ad_rs
-! ###ad_top
+! ###AD-text:not(body):not(input)
+! ###AD_bottom:not(body):not(input)
+! ###AD_left:not(body):not(input)
+! ###AD_right:not(body):not(input)
+! ###AD_text:not(body):not(input)
+! ###AD_top:not(body):not(input)
+! ###ad-text:not(body):not(input)
+! ###ad_bottom:not(body):not(input)
+! ###ad_container:not(body):not(input)
+! ###ad_frame:not(body):not(input)
+! ###ad_left:not(body):not(input)
+! ###ad_listing:not(body):not(input)
+! ###ad_right:not(body):not(input)
+! ###ad_text:not(body):not(input)
+! ###ad_rs:not(body):not(input)
+! ###ad_top:not(body):not(input)
 ! Eliminated duplicated filters, Feb 14, 2012
-! ###AD1
-! ###AD2
-! ###AD3
-! ###AD4
-! ###AD5
-! ###AD6
-! ###AD7
-! ###AD8
-! ###AD9
-! ###ad1
-! ###ad2
-! ###ad3
-! ###ad4
-! ###ad5
-! ###ad6
-! ###ad7
-! ###ad8
-! ###ad9
-###adAms
-###AdArea
-###adArea
-###adarea
-###adBottom
-###adbottom
-###AdBox
-###adBox
-###adbox
+! ###AD1:not(body):not(input)
+! ###AD2:not(body):not(input)
+! ###AD3:not(body):not(input)
+! ###AD4:not(body):not(input)
+! ###AD5:not(body):not(input)
+! ###AD6:not(body):not(input)
+! ###AD7:not(body):not(input)
+! ###AD8:not(body):not(input)
+! ###AD9:not(body):not(input)
+! ###ad1:not(body):not(input)
+! ###ad2:not(body):not(input)
+! ###ad3:not(body):not(input)
+! ###ad4:not(body):not(input)
+! ###ad5:not(body):not(input)
+! ###ad6:not(body):not(input)
+! ###ad7:not(body):not(input)
+! ###ad8:not(body):not(input)
+! ###ad9:not(body):not(input)
+###adAms:not(body):not(input)
+###ADArea:not(body):not(input)
+###AdArea:not(body):not(input)
+###adArea:not(body):not(input)
+###adarea:not(body):not(input)
+###ADBottom:not(body):not(input)
+###AdBottom:not(body):not(input)
+###adBottom:not(body):not(input)
+###adbottom:not(body):not(input)
+###ADsBottom:not(body):not(input)
+###AdsBottom:not(body):not(input)
+###adsBottom:not(body):not(input)
+###adsbottom:not(body):not(input)
+###ADBox:not(body):not(input)
+###AdBox:not(body):not(input)
+###adBox:not(body):not(input)
+###adbox:not(body):not(input)
+###ADsBox:not(body):not(input)
+###AdsBox:not(body):not(input)
+###adsBox:not(body):not(input)
+###adsbox:not(body):not(input)
 ~train.yoyaku.jrkyushu.co.jp###adContainer
-###adFrame
-###adLeft
-###adleft
-###adlink
-###adPRtext
-###adRight
-###adright
-###ADS
-###ADs
-###ads
-###adsBottom
-###adsbottom
-###AdsBox
-###adsBox
-###adsbox
-###adsTop
-###adstop
-###adTop
-###adtop
-###adv
-###advertise
-###AMN-large-banner
-###attypeJob
-###bannerAd
-###bannerad
-###block_whitepaper
-###bottomAds
-###bottomads
-###boxad
-###boxad1
-###defaultAd
-###flashAD
-###FooterAd
-###footerAd
-###geniee_overray_base
-###googleAds
-###HeaderAd
-###headerAd
-###headerPR
-###overture_cm
-###pr-area
-###PR-txt
-###pr-txt
-###PR_txt
-###pr_txt
-###prbox
-###prTxt
-###prtxt
-###sideadbnr
-###sideRecommend
-###textAd
-###textad
-###textad-top
-###textAds
-###top_banner_area
-###topAd
-###topAds
-~mail.google.com##.AD
-##.Ad
+###ADFrame:not(body):not(input)
+###AdFrame:not(body):not(input)
+###adFrame:not(body):not(input)
+###adframe:not(body):not(input)
+###ADLeft:not(body):not(input)
+###AdLeft:not(body):not(input)
+###adLeft:not(body):not(input)
+###adleft:not(body):not(input)
+###ADlink:not(body):not(input)
+###Adlink:not(body):not(input)
+###adLink:not(body):not(input)
+###adlink:not(body):not(input)
+###adPRtext:not(body):not(input)
+###ADRight:not(body):not(input)
+###AdRight:not(body):not(input)
+###adRight:not(body):not(input)
+###adright:not(body):not(input)
+###AdSlot:not(body):not(input)
+###adSlot:not(body):not(input)
+###ADTop:not(body):not(input)
+###AdTop:not(body):not(input)
+###adTop:not(body):not(input)
+###adtop:not(body):not(input)
+###ADsTop:not(body):not(input)
+###AdsTop:not(body):not(input)
+###adsTop:not(body):not(input)
+###adstop:not(body):not(input)
+###adv:not(body):not(input)
+###AMN-large-banner:not(body):not(input)
+###attypeJob:not(body):not(input)
+###bannerAD:not(body):not(input)
+###bannerAd:not(body):not(input)
+###bannerad:not(body):not(input)
+###block_whitepaper:not(body):not(input)
+###bottomADs:not(body):not(input)
+###bottomAds:not(body):not(input)
+###bottomads:not(body):not(input)
+###boxAD:not(body):not(input)
+###boxAd:not(body):not(input)
+###boxad:not(body):not(input)
+###boxad1:not(body):not(input)
+###defaultAD:not(body):not(input)
+###defaultAd:not(body):not(input)
+###flashAd:not(body):not(input)
+###flashAD:not(body):not(input)
+###FooterAD:not(body):not(input)
+###FooterAd:not(body):not(input)
+###footerAD:not(body):not(input)
+###footerAd:not(body):not(input)
+###googleAD:not(body):not(input)
+###googleAd:not(body):not(input)
+###googleADs:not(body):not(input)
+###googleAds:not(body):not(input)
+###HeaderAd:not(body):not(input)
+###headerAd:not(body):not(input)
+###headerPR:not(body):not(input)
+! ###overture_cm:not(body):not(input)
+###PR-area:not(body):not(input)
+###pr-area:not(body):not(input)
+###PR_area:not(body):not(input)
+###pr_area:not(body):not(input)
+###PR-txt:not(body):not(input)
+###pr-txt:not(body):not(input)
+###PR_txt:not(body):not(input)
+###pr_txt:not(body):not(input)
+###prBox:not(body):not(input)
+###prbox:not(body):not(input)
+###prTxt:not(body):not(input)
+###prtxt:not(body):not(input)
+###sideadbnr:not(body):not(input)
+###sideRecommend:not(body):not(input)
+###textAD:not(body):not(input)
+###textAd:not(body):not(input)
+###textad:not(body):not(input)
+###textad-top:not(body):not(input)
+###textADs:not(body):not(input)
+###textAds:not(body):not(input)
+###top_banner_area:not(body):not(input)
+###topAD:not(body):not(input)
+###topAd:not(body):not(input)
+###topADs:not(body):not(input)
+###topAds:not(body):not(input)
+~mail.google.com##.AD:not(body):not(input)
+##.Ad:not(body):not(input)
 ! Added negative condition to avoid false positives with Google+ notifications at Google Reader and Gmail, reported by @zirweed, Jun 27 and 29, 2012
-~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad:not(body)
-! Eliminated duplicated filters, Mar 26, 2012
-! ##.AD-text
-! ##.ad-text
-! ##.ad_banner
-! ##.ad_frame
-! ##.ad_left
-! ##.ad_link
-! ##.ad_right
-! ##.ad_rectangle
-! ##.ad_square
-! ##.ad_special_badge
-! ##.AD_text
-! ##.ad_text
-! ##.ad_textlink
-! ##.ad_textlink_box
-! ##.ad_top
-! Eliminated duplicated filters, Feb 14, 2012
-! ##.AD1
-! ##.AD2
-! ##.AD3
-! ##.AD4
-! ##.AD5
-! ##.AD6
-! ##.AD7
-! ##.AD8
-! ##.AD9
-! ##.ad1
-! ##.ad2
-! ##.ad3
-! ##.ad300
-! ##.ad4
-! ##.ad5
-! ##.ad6
-! ##.ad7
-! ##.ad728
-! ##.ad8
-! ##.ad9
-##.AdArea
-##.adArea
-##.AdBox
-##.adBox
-##.adLeft
-##.adPRtext
-##.adRight
-##.ADS
-##.ADs
+~used.realestate.yahoo.co.jp,~justin.tv,~mapion.co.jp,~rocketnews24.com##.ad:not(body):not(input)
+##.ADS:not(body):not(input)
+##.ADs:not(body):not(input)
 ! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
-##.ads:not(.adf):not(.adn)
-##.ads_adingo
-##.AdsBox
-##.adSlot
-##.adText
-##.adTop
-##.adarea
-##.adbox
-##.addescription
-##.adleft
-##.adlink
-##.adright
-##.adsBox
-##.adsTop
-##.adspace
-##.adsbox
-##.adslot
-##.adstop
-##.adtitle
-##.adtop
-##.adurl
+##.ads:not(.adf):not(.adn):not(body):not(input)
+! Eliminated duplicated filters, Mar 26, 2012
+! ##.AD-text:not(body):not(input)
+! ##.ad-text:not(body):not(input)
+! ##.ad_banner:not(body):not(input)
+! ##.ad_frame:not(body):not(input)
+! ##.ad_left:not(body):not(input)
+! ##.ad_link:not(body):not(input)
+! ##.ad_right:not(body):not(input)
+! ##.ad_rectangle:not(body):not(input)
+! ##.ad_square:not(body):not(input)
+! ##.ad_special_badge:not(body):not(input)
+! ##.AD_text:not(body):not(input)
+! ##.ad_text:not(body):not(input)
+! ##.ad_textlink:not(body):not(input)
+! ##.ad_textlink_box:not(body):not(input)
+! ##.ad_top:not(body):not(input)
+! Eliminated duplicated filters, Feb 14, 2012
+! ##.AD1:not(body):not(input)
+! ##.AD2:not(body):not(input)
+! ##.AD3:not(body):not(input)
+! ##.AD4:not(body):not(input)
+! ##.AD5:not(body):not(input)
+! ##.AD6:not(body):not(input)
+! ##.AD7:not(body):not(input)
+! ##.AD8:not(body):not(input)
+! ##.AD9:not(body):not(input)
+! ##.ad1:not(body):not(input)
+! ##.ad2:not(body):not(input)
+! ##.ad3:not(body):not(input)
+! ##.ad300:not(body):not(input)
+! ##.ad4:not(body):not(input)
+! ##.ad5:not(body):not(input)
+! ##.ad6:not(body):not(input)
+! ##.ad7:not(body):not(input)
+! ##.ad728:not(body):not(input)
+! ##.ad8:not(body):not(input)
+! ##.ad9:not(body):not(input)
+##.AdArea:not(body):not(input)
+##.adArea:not(body):not(input)
+##.adarea:not(body):not(input)
+##.AdBottom:not(body):not(input)
+##.adBottom:not(body):not(input)
+##.adbottom:not(body):not(input)
+##.AdBox:not(body):not(input)
+##.adBox:not(body):not(input)
+##.adbox:not(body):not(input)
+##.addescription:not(body):not(input)
+##.AdLeft:not(body):not(input)
+##.adLeft:not(body):not(input)
+##.adleft:not(body):not(input)
+##.AdLink:not(body):not(input)
+##.adLink:not(body):not(input)
+##.adlink:not(body):not(input)
+##.adPRtext:not(body):not(input)
+##.AdRight:not(body):not(input)
+##.adRight:not(body):not(input)
+##.adright:not(body):not(input)
+! Eliminated a duplicated filter, Feb 3, 2013
+! ##.ads_adingo:not(body):not(input)
+##.AdSlot:not(body):not(input)
+##.adSlot:not(body):not(input)
+##.adslot:not(body):not(input)
+##.AdSpace:not(body):not(input)
+##.adSpace:not(body):not(input)
+##.adspace:not(body):not(input)
+##.AdText:not(body):not(input)
+##.adText:not(body):not(input)
+##.adtext:not(body):not(input)
+##.AdTop:not(body):not(input)
+##.adTop:not(body):not(input)
+##.adtop:not(body):not(input)
+##.adtitle:not(body):not(input)
+##.adurl:not(body):not(input)
 ! False positives with the class named adv as ADVANCED found at [http://p.eagate.573.jp/game/jubeat/saucer/p/playdata/music.html], reported by *@mushroom080*
-~p.eagate.573.jp,~jma.go.jp##.adv
-##.advert
-##.AMN-sponsor-rolls
-##.AMN-large-banner
-##.FooterAd
-##.HeaderAd
-##.PR-txt
-##.PR_txt
-##.bannerAd
-##.bannerad
-##.block_whitepaper
-##.boxad
-##.defaultAd
-##.flashAD
-##.footerAd
-##.footerBanner
-##.gAdsense
-##.googleAds
-##.gsc-adBlock
-##.header-banner
-~photobucket.com##.headerAd
-##.headerPR
-##.leaderboardAd
-##.pr-txt
-##.pr_txt
-##.prbox
-~apple.com##.promos
-##.promoted
-##.promoted-videos
-##.prTxt
-##.prtxt
-##.randomBanner
-##.showcaseAd
-##.sideAd
-##.sideBanner
-##.sideRecommend
-##.sideTxtAd
-##.spotlightAd
-##.staticAd
-##.tdftad
-##.textAd
-##.textad
-##.textad-top
-##.textAds
-##.topAd
-##.topAds
-~kent-web.com##a[href="http://www.kent-web.com/"]
+~p.eagate.573.jp,~jma.go.jp##.adv:not(body):not(input)
+##.AMN-sponsor-rolls:not(body):not(input)
+##.AMN-large-banner:not(body):not(input)
+##.bannerAd:not(body):not(input)
+##.bannerADs:not(body):not(input)
+##.bannerAds:not(body):not(input)
+##.block_whitepaper:not(body):not(input)
+##.bottomAd:not(body):not(input)
+##.bottomAds:not(body):not(input)
+##.boxAd:not(body):not(input)
+##.boxad:not(body):not(input)
+##.boxADs:not(body):not(input)
+##.boxAds:not(body):not(input)
+##.defaultAd:not(body):not(input)
+##.flashAd:not(body):not(input)
+##.flashAD:not(body):not(input)
+##.flashAds:not(body):not(input)
+##.footerAd:not(body):not(input)
+##.footerADs:not(body):not(input)
+##.footerAds:not(body):not(input)
+##.footerBanner:not(body):not(input)
+##.footerBanners:not(body):not(input)
+##.gAdsense:not(body):not(input)
+##.googleAd:not(body):not(input)
+##.googleAds:not(body):not(input)
+##.gsc-adBlock:not(body):not(input)
+##.header-banner:not(body):not(input)
+~photobucket.com##.headerAd:not(body):not(input)
+##.headerADs:not(body):not(input)
+##.headerAds:not(body):not(input)
+##.headerBanner:not(body):not(input)
+##.headerBanners:not(body):not(input)
+##.headerPR:not(body):not(input)
+##.leaderboardAd:not(body):not(input)
+##.PR-txt:not(body):not(input)
+##.PR_txt:not(body):not(input)
+##.pr-txt:not(body):not(input)
+##.pr_txt:not(body):not(input)
+##.prbox:not(body):not(input)
+~apple.com##.promos:not(body):not(input)
+##.promoted:not(body):not(input)
+##.promoted-videos:not(body):not(input)
+##.prTxt:not(body):not(input)
+##.prtxt:not(body):not(input)
+##.randomBanner:not(body):not(input)
+##.showcaseAd:not(body):not(input)
+##.sideAd:not(body):not(input)
+##.sideBanner:not(body):not(input)
+##.sideRecommend:not(body):not(input)
+##.sideTxtAd:not(body):not(input)
+##.spotlightAd:not(body):not(input)
+##.staticAd:not(body):not(input)
+##.tdftad:not(body):not(input)
+##.textAd:not(body):not(input)
+##.textAds:not(body):not(input)
+##.textad-top:not(body):not(input)
+##.topAd:not(body):not(input)
+##.topAds:not(body):not(input)
 ! ========== Links with keywords START ==========
 ##a[href*="/A-affiliate2/"]
 ~famitsu.com##a[href*="&ad="]
@@ -581,9 +641,11 @@
 ##*[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
 ##*[id^="adv-"]:not(body):not(input)
 ##*[id^="adv_"]:not(body):not(input)
+##*[id^="advert"]:not(body):not(input)
 ##*[id^="deqwas"]:not(body):not(input)
 ##*[id^="deteql"]:not(body):not(input)
 ##*[id^="gAdsense"]:not(body):not(input)
+##*[id^="geniee_overray"]:not(body):not(input)
 ##*[id^="google_ad"]:not(body):not(input)
 ##*[id^="google_afc_"]:not(body):not(input)
 ! ##*[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
@@ -720,6 +782,7 @@
 ! Added domain exception to avoid a false positive hiding "advanced option", reported by TORI via blog comment, Nov 22, 2012
 ~mail.yahoo.com##*[class^="adv-"]:not(body):not(input)
 ##*[class^="adv_"]:not(body):not(input)
+##*[class^="advert"]:not(body):not(input)
 ##*[class^="deqwas"]:not(body):not(input)
 ##*[class^="deteql"]:not(body):not(input)
 ##*[class^="google-ads"]:not(body):not(input)
