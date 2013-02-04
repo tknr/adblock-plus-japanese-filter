@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: j+1mcS9wYIt5sDPwQhQBeA
-! Last modified: 2013-02-03 19:32:32 JST
+! Checksum: KxaEEgFKaKrrQPr3FApNjg
+! Last modified: 2013-02-04 23:46:34 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1068,6 +1068,7 @@ gigafree.net##.spl
 gigazine.net###headertop
 gigazine.net##[src*="/tnemesitrevda/"]:not(body):not(input)
 gihyo.jp###contentHotspot
+gihyo.jp###gihyojpSpecial
 gihyo.jp###secondary > .textPR
 gihyo.jp###secondary > .banner
 gizmodo.com,lifehacker.com###header
