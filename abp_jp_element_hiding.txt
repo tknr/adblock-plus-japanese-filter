@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: KxaEEgFKaKrrQPr3FApNjg
-! Last modified: 2013-02-04 23:46:34 JST
+! Checksum: PuLiNcbaASKWDELYNB7wKw
+! Last modified: 2013-02-05 15:54:52 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -558,7 +558,7 @@
 ##a[href*="://searchpartner.jp/"]
 ##a[href*="://sell4.info/"]
 ##a[href*="shareasale.com/r."]
-##a[href*=".softonic.jp/"]
+##a[href*=".softonic."]
 ##a[href*=".softpicks.net/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
 ##a[href*="://g.subcul.net"]
