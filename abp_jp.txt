@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: YflYUFL9BCAkopy6fVbw3Q
-! Last modified: 2013-02-09 16:06:13 JST
+! Checksum: yxt4ntGhZAGRjw4L8xBRsw
+! Last modified: 2013-02-10 01:15:31 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4178,6 +4178,7 @@ _yahooads_
 ||marsflag.com/adimg/
 ||master-quiz.nl^$popup
 ||masudel.com^
+||match.com^$third-party
 ||mate-et-tchat.com^
 ||mate-sa-cam.com^
 ||matesacam.com^
