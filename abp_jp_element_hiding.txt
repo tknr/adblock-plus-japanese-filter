@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: tKOhlrT7BtAVLeEjuItvWw
-! Last modified: 2013-02-05 17:58:01 JST
+! Checksum: GpmMpDH+MmatKez/+IXRZA
+! Last modified: 2013-02-13 20:42:22 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1148,6 +1148,7 @@ jorudan.co.jp##a[href*="://book.jorudan.co.jp/cgi-bin/"] ~ *
 jorudan.co.jp##.bookList
 jorudan.co.jp##.imgBanner
 kakaku.com###mainRight .alignC
+kakaku.com##.bnrBb
 kakaku.com##.prBn
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1
 marsflag.jugem.jp,marsflag.com###contLeft > h2.colTitle1 + p
