@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: H+pLYOEEJE2b7PMyBLLdmA
-! Last modified: 2013-02-15 01:54:34 JST
+! Checksum: jrsUaHQ7tOCUY0CTkt+n9w
+! Last modified: 2013-02-15 21:20:09 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -417,6 +417,14 @@
 -retargeting.
 -retargeting^
 -retargeting_
+-showad-
+-showad.
+-showad^
+-showad_
+-showads-
+-showads.
+-showads^
+-showads_
 -sponsored-
 -sponsored.
 -sponsored^
@@ -573,6 +581,14 @@
 .retargeting^
 .retargeting_
 .rpxnow.com/$third-party
+.showad-
+.showad.
+.showad^
+.showad_
+.showads-
+.showads.
+.showads^
+.showads_
 .sponsored-
 .sponsored.
 .sponsored^
@@ -2262,6 +2278,10 @@
 ^retargeting.
 ^retargeting^
 ^retargeting_
+^showad-
+^showad.
+^showad^
+^showad_
 ^showads-
 ^showads.
 ^showads^
