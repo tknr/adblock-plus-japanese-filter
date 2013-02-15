@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: eb/rcz64UCW+AClqP4EJKw
-! Last modified: 2013-02-16 01:32:15 JST
+! Checksum: nE/Qm9t2fjHr+8JCsIrWFQ
+! Last modified: 2013-02-16 03:05:17 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2616,6 +2616,7 @@ _yahooads_
 ||ocp.
 ||openadext.
 ||openxmarket.$third-party
+||optimizedby.$third-party
 ||servedby.openxmarket.
 |http://ox-d.
 |https://ox-d.
@@ -3188,6 +3189,7 @@ _yahooads_
 ||brainient.com^$third-party
 ||brandreachsys.com^$third-party
 ||brazzers.com^$third-party
+||brealtime.com^$third-party
 ! Note: Probably, blocking the whole domain is too strict, Apr 29, 2012
 ||brightcove.com^$third-party
 ||brightcove.com/1pix.
