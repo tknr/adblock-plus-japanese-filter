@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: cSLNrPaEYfa4jfNURQZ2lQ
-! Last modified: 2013-02-17 02:27:51 JST
+! Checksum: UYBz+1l0RrC56NVxIfHtnw
+! Last modified: 2013-02-17 02:56:30 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -958,7 +958,7 @@
 /img/p_banner/*
 /img/pr_.$domain=diamond.jp
 /img/watch/tag_sync/*
-! Merged into ".php?zoneid="
+! Merged into .php?zoneid=
 ! /iml.php?zoneid=
 /imp?Z=
 /impression_measure.*?$image,object
@@ -3407,6 +3407,7 @@ _yahooads_
 ||cross-a.net^$third-party
 ||crosspixel.net^$third-party
 ||crowdscience.com^$third-party
+||crsspxl.com^$third-party
 ||cruiseflorida.com^$third-party
 ||crwdcntrl.net^
 ||crystalmark.info/images/banner/
