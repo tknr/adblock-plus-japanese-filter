@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: VWTKN9dzp75TycuFYgbc8Q
-! Last modified: 2013-02-16 23:54:37 JST
+! Checksum: Yn9fPWdajs3h0DYZYl46Cg
+! Last modified: 2013-02-17 01:47:30 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4838,6 +4838,7 @@ _yahooads_
 ||sexycool.net^
 ||shareasale.com^$third-party
 ||sharecash.org^$third-party
+||shareaholic.com^$third-party
 ||sharereactor.com^$third-party
 ||sharethis.com^$third-party
 ||shendu.cc^$third-party
