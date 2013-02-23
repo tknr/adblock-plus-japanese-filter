@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Bv6gilqpHuIg0+kaFIfQFA
-! Last modified: 2013-02-23 20:33:17 JST
+! Checksum: UnqAUcW/RUrvmLzxkt4fiQ
+! Last modified: 2013-02-23 23:06:12 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1941,8 +1941,8 @@ _tracking_
 ! Added domain exception to avoid ugly false positives with CATEGORY HIGHLIGHT, Apr 16, 2012
 ~ustream.tv##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
-##a[onClick*="pageTracker"]:not([href$=".exe"]):not([href$=".zip"])
-##a[onclick*="pageTracker"]:not([href$=".exe"]):not([href$=".zip"])
+##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".zip?"])
+##a[onclick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".zip?"])
 
 ##*[id*="PROMO"]:not(body):not(input)
 ~transifex.com##*[id*="promo"]:not(body):not(input):not(#secpromo)
