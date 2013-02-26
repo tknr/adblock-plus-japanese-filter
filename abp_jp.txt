@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: t4I9NTruOdvVQsn8TKH3CQ
-! Last modified: 2013-02-18 00:24:44 JST
+! Checksum: hPt06JdLjKk01gYKr1/Wrg
+! Last modified: 2013-02-27 02:20:20 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4807,7 +4807,8 @@ _yahooads_
 ||searchonline24.com^
 ||searchpeack.com^$popup
 ||secret-de-cindy.com^
-||secunia.com/?action=fetch&filename=$image,object
+! False positives with valid images like download icons, Feb 27, 2013
+! ||secunia.com/?action=fetch&filename=$image,object
 ||secure-locked.com^$third-party
 ||secure-softwaremanager.com^
 ||securerequestform.com^$third-party
