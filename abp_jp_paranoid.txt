@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: pfN1UrsyteTCVaZvIZQJyQ
-! Last modified: 2013-03-02 16:39:50 JST
+! Checksum: 8fCVUaYbDPIIbV6hSnrMTg
+! Last modified: 2013-03-03 03:36:29 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -79,6 +79,8 @@
 @@||wikipedia.org^$elemhide
 ! False positive at mail.live.com when you click folder on the left side column, reported via Issue Report, Dec 17, 2011
 @@||wlxrs.com^*Popover.$script
+! False positives with ^count^$~image, Mar 3, 2013
+@@||pipes.yahoo.com^*&count=
 ! ---------- Default white list END ----------
 
 
