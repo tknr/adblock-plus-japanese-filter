@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: zzV1wp2urRzByh+/dgiCvw
-! Last modified: 2013-02-27 19:04:49 JST
+! Checksum: lf+mTNF4CyIARsx9/nV2Zg
+! Last modified: 2013-03-02 13:02:39 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2050,6 +2050,10 @@ google.co.jp###vspb
 google.com##.vspib
 google.co.jp##.vspib
 ! ----- Google Instant Preview ----- END -----
+
+! ----- MajorGeeks.com Software Updater ----- START -----
+majorgeeks.com##a[href*="/MajorGeeks_Software_Updater"]
+! ----- MajorGeeks.com Software Updater ----- END -----
 
 ! ===== mycom.co.jp ===== START =====
 mycom.co.jp##a[href*="mycom.co.jp/cgi-bin/pr/"]
