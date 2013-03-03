@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 1M5DPWHbi9BBug4PFCUDLg
-! Last modified: 2013-03-03 21:10:59 JST
+! Checksum: A69PsbRm8TvzicMIbR4wMQ
+! Last modified: 2013-03-03 21:51:47 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -604,6 +604,7 @@
 .yahooads.
 .yahooads^
 .yahooads_
+/?a=RTA-
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
 /__onedot?c=
@@ -1084,6 +1085,7 @@
 ! /right-ad.
 ! /right-ad^
 ! /right-ad_
+/Rtads.$script
 /Rtoaster.$script
 /rpx.$script
 /rss.$script,subdocument
