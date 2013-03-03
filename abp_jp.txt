@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: A69PsbRm8TvzicMIbR4wMQ
-! Last modified: 2013-03-03 21:51:47 JST
+! Checksum: dYi37AhjDR8RqOVrU15aJg
+! Last modified: 2013-03-03 22:10:31 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4934,6 +4934,7 @@ _yahooads_
 ||so-net.ne.jp/tv/advertisement/
 ||so-net.ne.jp/tv/gtv/img/banner/
 ||smr.so-net.ne.jp^
+||socdm.com^
 ||sociomantic.com^$third-party
 ||sodomie-anale.biz^
 ||softpedia-static.com/images/afh/
