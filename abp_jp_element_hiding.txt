@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: xOfCzx55HWD0Jsrss/4+pg
-! Last modified: 2013-03-03 15:51:11 JST
+! Checksum: W6g3sW91yD3tIpCwuDf6pA
+! Last modified: 2013-03-03 16:02:48 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -672,23 +672,26 @@
 ##[id*="_ads_"]:not(body):not(input)
 ##[id*="_adv_"]:not(body):not(input)
 ! ##[id*="_pr_"]:not(body):not(input)
+##[id*="ADVERTISE"]:not(body):not(input)
+##[id*="Advertise"]:not(body):not(input)
+##[id*="advertise"]:not(body):not(input)
 ##[id*="ADVERTISEMENT"]:not(body):not(input)
-##[id*="ADVERTISING"]:not(body):not(input)
-##[id*="AFFILIATE"]:not(body):not(input)
-##[id*="AdSense"]:not(body):not(input)
 ##[id*="Advertisement"]:not(body):not(input)
+##[id*="advertisement"]:not(body):not(input)
+##[id*="ADVERTISING"]:not(body):not(input)
 ##[id*="Advertising"]:not(body):not(input)
+##[id*="advertising"]:not(body):not(input)
+##[id*="AFFILIATE"]:not(body):not(input)
 ##[id*="Affiliate"]:not(body):not(input)
+##[id*="affiliate"]:not(body):not(input)
+##[id*="AdSense"]:not(body):not(input)
+##[id*="adsense"]:not(body):not(input)
 ##[id*="OVERTURE"]:not(body):not(input)
 ##[id*="Overture"]:not(body):not(input)
+##[id*="overture"]:not(body):not(input)
 ! ##[id*="PRtext"]:not(body):not(input)
 ##[id*="SPONSOR"]:not(body):not(input)
 ##[id*="Sponsor"]:not(body):not(input)
-##[id*="adsense"]:not(body):not(input)
-##[id*="advertisement"]:not(body):not(input)
-##[id*="advertising"]:not(body):not(input)
-##[id*="affiliate"]:not(body):not(input)
-##[id*="overture"]:not(body):not(input)
 ! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
 ! ##[id*="prtext"]:not(body):not(input)
 ! ##[id*="prText"]:not(body):not(input)
@@ -815,17 +818,20 @@
 ##[class*="_ads_"]:not(body):not(input)
 ##[class*="_adv_"]:not(body):not(input)
 ! ##[class*="_pr_"]:not(body):not(input)
+##[class*="adlantis"]:not(body):not(input)
+##[class*="AdSense"]:not(body):not(input)
+##[class*="ADVERTISE"]:not(body):not(input)
+##[class*="Advertise"]:not(body):not(input)
+##[class*="advertise"]:not(body):not(input)
 ##[class*="ADVERTISEMENT"]:not(body):not(input)
+##[class*="Advertisement"]:not(body):not(input)
 ##[class*="ADVERTISING"]:not(body):not(input)
+##[class*="Advertising"]:not(body):not(input)
+##[class*="AdWords"]:not(body):not(input)
 ##[class*="AFFILIATE"]:not(body):not(input)
+##[class*="Affiliate"]:not(body):not(input)
 ##[class*="OVERTURE"]:not(body):not(input)
 ##[class*="SPONSOR"]:not(body):not(input)
-##[class*="AdSense"]:not(body):not(input)
-##[class*="AdWords"]:not(body):not(input)
-##[class*="Advertisement"]:not(body):not(input)
-##[class*="Advertising"]:not(body):not(input)
-##[class*="Affiliate"]:not(body):not(input)
-##[class*="adlantis"]:not(body):not(input)
 ##[class*="Overture"]:not(body):not(input)
 ! ##[class*="PRtext"]:not(body):not(input)
 ##[class*="Sponsor"]:not(body):not(input)
@@ -1250,7 +1256,6 @@ nicovideo.jp##.sidewallAd
 seiga.nicovideo.jp##a[href*="://rd.nicovideo.jp/cc/seiga_top/"]
 nifty.com###gifAD
 nifty.com###subBnr
-nikkei.com##[id^="ADVERTISE_"]
 nikkei.com##[class$=""_banner"]
 nikkei.com##[class$="_recommend"]
 nikkeibp.co.jp##.media-campaign
