@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: n88ksRJThGva3hAg5HV58g
-! Last modified: 2013-03-03 16:06:55 JST
+! Checksum: yw4vxo5eYocKb2uypyQcrg
+! Last modified: 2013-03-03 16:09:54 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1257,6 +1257,7 @@ seiga.nicovideo.jp##a[href*="://rd.nicovideo.jp/cc/seiga_top/"]
 nifty.com###gifAD
 nifty.com###subBnr
 nikkei.com##[class$="_banner"]
+nikkei.com##[class$="_pr"]
 nikkei.com##[class$="_recommend"]
 nikkeibp.co.jp##.media-campaign
 business.nikkeibp.co.jp###articlekeyword
