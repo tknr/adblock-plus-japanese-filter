@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: GVD5FH/xeXbfngbF+U0/Cg
-! Last modified: 2013-03-05 13:04:35 JST
+! Checksum: kLnEaPNnmhBaFUH5fTJdFQ
+! Last modified: 2013-03-05 13:16:10 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1196,6 +1196,7 @@
 /uedata/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /userad.
 /utag.$script
+/utm.$script
 /view.gif?
 /view.png?
 /views.gif?
