@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 8fCVUaYbDPIIbV6hSnrMTg
-! Last modified: 2013-03-03 03:36:29 JST
+! Checksum: H9KNSSPSDQYX5uyQ3rFz8g
+! Last modified: 2013-03-09 10:44:24 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2637,9 +2637,13 @@ www.yahoo.co.jp###local
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
 
-! ===== URL shortner ===== START =====
+! ===== URL shortning Services ===== START =====
 ##a[href*=".9-1.jp"]
-! ----- URL shortner ----- END -----
+||adf.ly^$third-party
+##a[href*="://adf.ly/"]
+! ----- URL shortning Services ----- END -----
+
+
 
 ! ---------- Annoyance type END ----------
 
