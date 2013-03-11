@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: /vSQWk3eOoYThyPwyo1tOA
-! Last modified: 2013-03-09 20:10:40 JST
+! Checksum: L3aHzr3T7/a2tLgBKWGcRQ
+! Last modified: 2013-03-11 10:18:46 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -474,6 +474,7 @@
 ##a[href*="ad-v.jp/*/click/"]
 ! Moved to the paranoid subscription, Mar 9, 2013
 ! ##a[href*="://adf.ly/"]
+##a[href*="://adjc.biz/"]
 ##a[href*="://cou.adjust-net.jp"]
 ##a[href*="adjustnetwork.com/aan/"]
 ##a[href*="adpath.net/click?"]
