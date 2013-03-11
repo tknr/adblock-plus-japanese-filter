@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: igXt/UkfKHOZxPGIwcP19g
-! Last modified: 2013-03-10 09:14:42 JST
+! Checksum: IryBO7ydhC/MYVDTrP4jHA
+! Last modified: 2013-03-11 22:53:58 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3163,13 +3163,12 @@ _yahooads_
 ||blogimg.jp/hamusoku-occult/imgs/*.gif
 ||blogmura.com^$third-party
 ||blogpeople.net^$third-party
-||blogranking.net^$third-party
-||blogtoy.net^$third-party
-||blomotion.jp^$third-party
-||blogpeople.net^$third-party
 ||blogpeta.jp^$third-party
+||blogranking.net^$third-party
 ||blogroll.livedoor.net^
+||blogtoy.net^$third-party
 ||blogupp.com^$third-party
+||blomotion.jp^$third-party
 ||bloomberg.co.jp/jscommon/RBBJ.$script
 ||blue-cloud.net^$third-party
 ||bluecava.com^$third-party
