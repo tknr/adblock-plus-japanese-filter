@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: KjoqdJko8/yQ/scIf+y6FQ
-! Last modified: 2013-03-12 15:59:26 JST
+! Checksum: 8Ffwg5pGDhy3dR3fUFtwoA
+! Last modified: 2013-03-12 22:22:22 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -44,6 +44,8 @@
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
+! ^urchin. filter causes false positives with the Japanese Amazon external audio player at web-cache.chocomaru.com, reporeted by 鳥 via blog, May 12, 2013
+@@||google-analytics.com/urchin.js$domain=web-cache.chocomaru.com
 ! A ^beacon^ filter causes false positives with css sprite images below, Oct 3rd, 2012
 ! http://g-ec2.images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
 ! http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01._V394051227_.png
