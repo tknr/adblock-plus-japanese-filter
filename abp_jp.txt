@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: Lgf4ru4OQNIv2FjlYFC8nw
-! Last modified: 2013-03-12 15:57:06 JST
+! Checksum: KjoqdJko8/yQ/scIf+y6FQ
+! Last modified: 2013-03-12 15:59:26 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2762,7 +2762,6 @@ _yahooads_
 |http:*.ad-v.jp^
 |https:*.ad-v.jp^
 ||ad-ya.net^
-||ad.nttnavi.co.jp^
 ||ad1.ru^$third-party
 ||ad2games.com^$third-party
 ||ad4game.com^$third-party
@@ -5500,7 +5499,6 @@ _yahooads_
 ! ---------- ValueClick alias domains: 216.34.207.62 END ----------
 ! 
 ! ========== Samurai Factory START ==========
-||shinobi.jp/analyze/
 ||shinobi.jp/bin/
 ||shinobi.jp/ufo/
 ||shinobi.jp/Zen?
