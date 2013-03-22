@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: In6IvXTo/sufy9mvN7gkNA
-! Last modified: 2013-03-21 01:58:02 JST
+! Checksum: gUyDZf3u5HRBC6vlDC8lWg
+! Last modified: 2013-03-23 00:55:50 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4213,6 +4213,7 @@ _yahooads_
 ||ludoprize.com^
 ||ludoprizes.com^
 ||ludostart.com^
+||luminate.com^$third-party
 ||luocbao.com/adv/
 ||luxup.ru^
 ||luxure.tv^
