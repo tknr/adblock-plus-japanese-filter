@@ -2155,6 +2155,7 @@ www.yahoo.co.jp###local
 /main.php?page=$third-party
 /rebots.php^$third-party
 /redirect.php^$third-party
+/TDS/*$third-party
 /update.php^$third-party
 /vc.php?go=$third-party
 /wp-content/upgrade/update.php^$third-party
