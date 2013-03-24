@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ntfK2NezAJ8nPuSyHQcHig
-! Last modified: 2013-03-24 21:10:14 JST
+! Checksum: 0lHY2a8HhuFjBTZuY/pr1g
+! Last modified: 2013-03-24 21:18:15 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -105,7 +105,7 @@
 ! False positive with non-AD images, reported via Issue Report, Mar 19, 2012
 @@||upload.wikimedia.org/wikipedia/commons/a/ad/$image
 ! False positives registering for watch list, reported by koyama via blog, Mar 24, 2013
-@@||rd.yahoo.co.jp/auction/config/*http*auctions.yahoo.co.jp/jp/config/remember?$script
+@@||rd.yahoo.co.jp/auction/config/*http*.auctions.yahoo.co.jp/jp/config/remember?$script
 ! Can NOT open other folders(no response...loading...white screen...) at Yahoo Mail if http://ai.yimg.jp/bdv/yahoo/javascript/csc/20060824/lib2obf_b3.js beacon generator is blocked.
 @@||ai.yimg.jp/bdv/yahoo/javascript/csc/$domain=mail.yahoo.co.jp
 ! Some elements in the main column like unread mails are missing at Yahoo Mail BETA if http://ai.yimg.jp/bdv/yahoo/darla/2-2-4_3/js/darla-dynamic-beacons-min.js beacon generator is blocked.
