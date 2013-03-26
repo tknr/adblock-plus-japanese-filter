@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: KHeJIFaqWIwPXEmp0FaT0A
-! Last modified: 2013-03-25 03:47:37 JST
+! Checksum: 7haalORfiGx7Nyw15iJ1rA
+! Last modified: 2013-03-26 21:16:55 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -163,6 +163,8 @@
 ! SCRIPT SAMPLE: http://i2.msdn.microsoft.com/ja-jp/magazine/mtps-bn1651.js?l=ja-jp&i=magazine&ct=AlternateSelector;CCEditor;CCSection;CCTagEditor;ContentFallback;EyebrowSimple;FeedViewerBasic;InstrumentedLink;InteractiveToolbar;MtpsRating;MtViewDropDown;Omniture;RedVelvetInstrumentedLink;StoCodeHighlighter;StoFooter;StoLocaleManagementFlyout;StoMastheadMSDN;StoMtpsLoginStatus;StoProfileLink;StoSearch;StoTabStrip;SurveyLauncher;TemplatedFlyout;TransWikiPopupEditor;WebMetrix;WebTrends
 ! STYLESHEET SAMPLE: http://i3.msdn.microsoft.com/ja-jp/magazine/mtps-bn1651.css?l=ja-jp&i=magazine&ct=AlternateSelector;CCEditor;CCSection;CCTagEditor;ContentFallback;EyebrowSimple;FeedViewerBasic;InstrumentedLink;InteractiveToolbar;MtpsRating;MtViewDropDown;Omniture;RedVelvetInstrumentedLink;StoCodeHighlighter;StoFooter;StoLocaleManagementFlyout;StoMastheadMSDN;StoMtpsLoginStatus;StoProfileLink;StoSearch;StoTabStrip;SurveyLauncher;TemplatedFlyout;TransWikiPopupEditor;WebMetrix;WebTrends&clustimg=1
 @@||microsoft.com/*/mtps-bn*?*;$script,stylesheet
+! False positives with combined stylesheets conflicting with ^teaser^, reported by sasami via blog, Mar 26, 2013
+@@||microsoft.com/Combined.css?resources=
 ! False positives with combined scripts including Omniture and WebTrends as parameters, Dec 21, 2012
 ! Sample: http://i2.msdn.microsoft.com/Combined.js?resources=0:webtrendsscript,1:omni_rsid_MSDN;/Areas/Global/Content/Webtrends/resources:0,/Areas/Global/Content/Omniture/resources/MSDN:1&amp;hashKey=16進数32桁
 @@||microsoft.com/Combined.js?resources=
