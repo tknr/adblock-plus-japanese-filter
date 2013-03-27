@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: vg8oCYopW6GsdxFQO0vPAA
-! Last modified: 2013-03-27 14:07:04 JST
+! Checksum: LMk9VZbtJBDt9BH7YrRyLw
+! Last modified: 2013-03-27 17:13:34 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -892,6 +892,7 @@
 ! /cgi-bin/ad_
 /cgi-bin/webtrend/*
 /click/body.php?id=*&hash=$popup
+/cloudflare.$script,third-party
 /cnet_scode.
 /cnwk.1d/Aud/*
 /comscorePlugin.
