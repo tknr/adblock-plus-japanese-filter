@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: etK71waFS+1ayiU2yjUbhw
-! Last modified: 2013-03-28 03:22:52 JST
+! Checksum: 82jQsjU9PO0/Ysd4hbeZVQ
+! Last modified: 2013-03-28 03:47:04 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3832,6 +3832,7 @@ _yahooads_
 ||guide-des-bonnes-affaires.com^
 ||gumgum.com^$third-party
 ||gunggo.com^$third-party
+||gutto.jp^$third-party
 ||guzeloyunlar.web.tr^$third-party
 ||gyutto.jp/data/*banner_img^$third-party
 ||adcreative.hangame.co.jp^
