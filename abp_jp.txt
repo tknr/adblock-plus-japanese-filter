@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 82jQsjU9PO0/Ysd4hbeZVQ
-! Last modified: 2013-03-28 03:47:04 JST
+! Checksum: GfGv3A2HsK8h4bQCLM1XJg
+! Last modified: 2013-03-30 01:05:20 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3902,6 +3902,7 @@ _yahooads_
 ||ib-ibi.com^$third-party
 ||ibase.fr^
 ||icetraffic.com^
+||ichijinsha.co.jp^$third-party
 ||icidating.com^
 ||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
