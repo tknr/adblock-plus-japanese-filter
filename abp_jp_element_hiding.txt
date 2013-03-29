@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 81fsouodZFJ9+M/bFLmUhQ
-! Last modified: 2013-03-25 03:51:54 JST
+! Checksum: tNnr9os6UAWJPdqPzqoWbA
+! Last modified: 2013-03-29 20:03:06 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -928,6 +928,7 @@ amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,ama
 amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##img[usemap^="#Javari"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
+dot.asahi.com##.GallerySpace
 ascii.jp###adSiteTitle
 ascii.jp###bargain
 ascii.jp###prWindow
