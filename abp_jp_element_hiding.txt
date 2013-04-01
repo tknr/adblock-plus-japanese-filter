@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: sqw/V1JkAWVvXKpbAH9wLw
-! Last modified: 2013-04-01 21:18:31 JST
+! Checksum: 2UV9yemt0RGOxoq0XTeBSg
+! Last modified: 2013-04-02 03:33:33 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1346,6 +1346,7 @@ sourceforge.jp###adaptive-prtext
 sourceforge.jp###adbar > .sidebar-ad-text~div:nth-of-type(2)
 sourceforge.jp###adbar > :first-child
 sourceforge.jp###main-content > a:not([id]):not([class])
+sourceforge.jp##*[id^="gpt-"]
 sourceforge.net##.recommended
 stackasterisk.jp##table.tableCaution
 surfcanyon.com###eastAds
