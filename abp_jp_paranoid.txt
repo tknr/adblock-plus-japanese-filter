@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: H4IxMx9fzNvr7U9QNEVv8w
-! Last modified: 2013-04-02 21:09:32 JST
+! Checksum: XsNR8DkKt1Elx68SalHrxA
+! Last modified: 2013-04-02 22:12:31 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2142,7 +2142,12 @@ www.yahoo.co.jp###local
 ||maxmind.com^$third-party
 ! ----- geoip ----- END -----
 
-! ===== Malicious objects like Hidden iframes and encoded javascripts found at http://labs.sucuri.net/ ===== START =====
+! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
+! https://twitter.com/unixfreaxjp/status/316813507653947392
+/rss/*$script,subdocument
+! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
+
+! ===== Malicious objects like Hidden iframes or encoded javascripts reported at http://labs.sucuri.net/ ===== START =====
 /abuset.php^$third-party
 /cb.php^$third-party
 /feed/frames.php?uid=$third-party
@@ -2567,7 +2572,7 @@ www.yahoo.co.jp###local
 ||us/Multifunction?$third-party
 ||us/trqifai.cgi?$third-party
 ||us/wireless?$third-party
-! ----- Malicious objects like Hidden iframes and encoded javascripts found at http://labs.sucuri.net/ ----- END -----
+! ----- Malicious objects like Hidden iframes and encoded javascripts reported at http://labs.sucuri.net/ ----- END -----
 
 ! ===== Link generator ===== START =====
 ||excite.co.jp/feed/news/js/$script
