@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: XsNR8DkKt1Elx68SalHrxA
-! Last modified: 2013-04-02 22:12:31 JST
+! Checksum: Fi7iVv20ubgTNZ3I1fCdsA
+! Last modified: 2013-04-02 22:23:46 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2143,6 +2143,13 @@ www.yahoo.co.jp###local
 ! ----- geoip ----- END -----
 
 ! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
+! https://twitter.com/unixfreaxjp/status/318023174589661185
+! https://twitter.com/unixfreaxjp/status/318028022051635202
+.html?h=$subdocument,third-party
+! https://twitter.com/unixfreaxjp/status/316889112219090945
+! https://twitter.com/unixfreaxjp/status/316892076216311808
+! https://twitter.com/unixfreaxjp/status/318410595777007616
+.html?i=$subdocument,third-party
 ! https://twitter.com/unixfreaxjp/status/316813507653947392
 /rss/*$script,subdocument
 ! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
