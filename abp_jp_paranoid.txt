@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: SnKcCULEsqY6hAOnAIQtsA
-! Last modified: 2013-04-02 23:43:21 JST
+! Checksum: 25o3qFeR0Llmhb5KIYTFVg
+! Last modified: 2013-04-02 23:50:09 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -42,8 +42,6 @@
 @@&sort=count^
 @@/analytics/*$domain=dear.my.salesforce.com
 @@/jquery.form.track.changes.$script
-! False positives with the WordPress lazyloading plugin, Apr 12, 2012
-@@/lazy-load/images/1x1.
 @@/log-$domain=comodo.com
 @@/tracker.$domain=dominos.com
 @@/tracker/*$domain=dominos.com
