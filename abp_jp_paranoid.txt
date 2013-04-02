@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: OnTpkkSE/yXmyhO6H3Aazg
-! Last modified: 2013-04-02 22:27:34 JST
+! Checksum: SnKcCULEsqY6hAOnAIQtsA
+! Last modified: 2013-04-02 23:43:21 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -979,7 +979,6 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /null.$third-party
 /ping.$third-party
 /pixel.$third-party,domain=~pcgameshardware.de|~avatar.yahoo.co.jp
-/pixel?
 /pop.$third-party
 /pops.$third-party
 /spacer.$third-party
@@ -990,7 +989,6 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ! ?log=
 ! ?slot=
 ! ?tracking=$third-party
-?zoneid=
 
 ^tracker.
 ^bnr-$third-party
@@ -2139,7 +2137,6 @@ www.yahoo.co.jp###local
 /geoip.$third-party
 /geoipAPI.$third-party
 /geolocation.$third-party
-||maxmind.com^$third-party
 ! ----- geoip ----- END -----
 
 ! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
@@ -2642,10 +2639,6 @@ www.yahoo.co.jp###local
 ||so-net.ne.jp/_common/js/select_search.$script
 ! ----- Selected text event hijacking ----- END -----
 
-! ===== Stealth Link Converter for Affiliate sake ===== START =====
-||viglink.com^$third-party
-! ----- Stealth Link Converter for Affiliate sake ----- END -----
-
 ! ===== Third-party scripts which manage user feedback ===== START =====
 ||disqus.com^$third-party
 ||livefyre.com^$third-party
@@ -2654,7 +2647,6 @@ www.yahoo.co.jp###local
 
 ! ===== Toolbar ===== START =====
 ||conduit.com^$third-party
-||conduit-banners.com^
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
 
