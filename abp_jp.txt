@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: RV1f4e5xS/7V2EK2+mOdWg
-! Last modified: 2013-04-02 00:56:58 JST
+! Checksum: a1wKxscCZFdDEZnYTwlA2A
+! Last modified: 2013-04-03 16:04:26 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3781,6 +3781,7 @@ _yahooads_
 ||gigatizer.com^
 ||gigazine.asia^
 ||gigya.com^$third-party
+||gimite.net^$third-party
 ||girlsteachsex.com^$third-party
 ||giveawayoftheday.com^$third-party
 ||gl-cash.com^$third-party
