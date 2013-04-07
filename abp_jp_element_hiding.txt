@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: cuDV2MZRxq74uECl2jWV2Q
-! Last modified: 2013-04-06 00:16:07 JST
+! Checksum: IhiGDT6ewf1FDOo7b3rxRQ
+! Last modified: 2013-04-07 21:54:22 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1058,6 +1058,7 @@ diamond.jp##div[class*="box"][class*="side_lead"]
 diamond.jp##div[class^="yBanner0"]
 diamond.jp##[class*="campaign"]:not(body):not(input)
 diamond.jp##[class*="-recommend-"]:not(body):not(input)
+drk7.jp##.column2
 e-words.jp###l
 e-words.jp##.ladsby
 e-words.jp##.ladsby ~ table
