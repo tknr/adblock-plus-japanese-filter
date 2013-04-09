@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: d1SqfROHAiu7/znzyJSqlA
-! Last modified: 2013-04-06 14:01:25 JST
+! Checksum: UvjmTfn+ddRB5wheqWflMA
+! Last modified: 2013-04-09 15:02:51 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1945,10 +1945,16 @@ _tracking_
 ! ##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 ! ##a[onclick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 
-##*[id*="PROMO"]:not(body):not(input)
-~transifex.com##*[id*="promo"]:not(body):not(input):not(#secpromo)
-##*[class*="PROMO"]:not(body):not(input)
-~transifex.com##*[class*="promo"]:not(body):not(input):not(.node-promoted)
+##[id^="pickup"]:not(body):not(input)
+##[id$="Pickup"]:not(body):not(input)
+##[id$="pickup"]:not(body):not(input)
+##[id*="PROMO"]:not(body):not(input)
+~transifex.com##[id*="promo"]:not(body):not(input):not(#secpromo)
+##[class^="pickup"]:not(body):not(input)
+##[class$="Pickup"]:not(body):not(input)
+##[class$="pickup"]:not(body):not(input)
+##[class*="PROMO"]:not(body):not(input)
+~transifex.com##[class*="promo"]:not(body):not(input):not(.node-promoted)
 ! ---------- Generic filters END ----------
 
 
