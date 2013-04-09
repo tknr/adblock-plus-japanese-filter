@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 9k2Tonb6MInpu9aMYZMfhA
-! Last modified: 2013-04-09 16:29:53 JST
+! Checksum: MmNziqz64Q+tzja+p7fZtA
+! Last modified: 2013-04-09 17:18:34 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1913,7 +1913,7 @@ _tracking_
 ||ct9.$~image
 ||log.
 ||pixel.
-||ru:8080/$third-party
+||ru:8080^$third-party
 ||stats.
 ||statistics.
 ||track.
@@ -2181,6 +2181,7 @@ www.yahoo.co.jp###local
 |http://*/vd/92;$third-party
 |https://*/vd/92;$third-party
 ||click.$third-party
+||no-ip.$third-party
 ||biz/barklasmendaf.cgi?$third-party
 ||biz/facebook.cgi?$third-party
 ||biz/gjgdyrzd77.cgi?$third-party
@@ -2196,7 +2197,6 @@ www.yahoo.co.jp###local
 ||biz/yrehwegweg.cgi?$third-party
 ||dhcp.biz^$third-party
 ||freewww.biz^$third-party
-||no-ip.biz^$third-party
 ||com.br^*.php^$script,domain=~br
 ||com/barklasmendaf.cgi?$third-party
 ||com/bsecuresbigpicture.cgi?$third-party
@@ -2332,7 +2332,6 @@ www.yahoo.co.jp###local
 ||dnsalias.org^$third-party
 ||doesntexist.org^$third-party
 ||mynumber.org^$third-party
-||no-ip.org^$third-party
 ||zapto.org^$third-party
 ||ru:8080/forum/$third-party
 ||ru/acceptpandora.cgi?$third-party
@@ -2619,7 +2618,6 @@ www.yahoo.co.jp###local
 ||shoutmix.com^$third-party
 ||snapabug.com^$third-party
 ||snapengage.com^$third-party
-||uservoice.com^$third-party
 ||zoosnet.net^$third-party
 ! ----- Live chat or support ----- END -----
 
@@ -2655,6 +2653,7 @@ www.yahoo.co.jp###local
 ! ===== Third-party scripts which manage user feedback ===== START =====
 ||disqus.com^$third-party
 ||livefyre.com^$third-party
+||uservoice.com^$third-party
 ! ----- Third-party scripts which manage user feedback ----- END -----
 
 ! ===== Toolbar ===== START =====
