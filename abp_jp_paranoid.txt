@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: fHyZAkk60aWLRM5oIWoTrQ
-! Last modified: 2013-04-10 20:24:53 JST
+! Checksum: zB1vR7o9LYMKPrpuUsCOng
+! Last modified: 2013-04-10 20:28:11 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2198,6 +2198,7 @@ www.yahoo.co.jp###local
 ||biz/yrehwegweg.cgi?$third-party
 ||dhcp.biz^$third-party
 ||freewww.biz^$third-party
+||ninth.biz^$third-party
 ||com.br^*.php^$script,domain=~br
 ||com/barklasmendaf.cgi?$third-party
 ||com/bsecuresbigpicture.cgi?$third-party
@@ -2225,6 +2226,7 @@ www.yahoo.co.jp###local
 ||com/valcunatrop.cgi?$third-party
 ||com/weranisz.cgi?$third-party
 ||com/yrehwegweg.cgi?$third-party
+||4mydomain.com^$third-party
 ||dns-stuff.com^$third-party
 ||dnsrd.com^$third-party
 ||dsmtp.com^$third-party
@@ -2233,6 +2235,7 @@ www.yahoo.co.jp###local
 ||longmusic.com^$third-party
 ||mrslove.com^$third-party
 ||myddns.com^$third-party
+||organiccrap.com^$third-party
 ||proxydns.com^$third-party
 ||qhigh.com^$third-party
 ||serveftp.com^$third-party
