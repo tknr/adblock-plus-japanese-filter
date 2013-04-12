@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: rCAQ9sIzY8DCP3BV8ALxkw
-! Last modified: 2013-04-12 19:39:12 JST
+! Checksum: 6WH6tQq+0WtWtPGF22BPAw
+! Last modified: 2013-04-12 21:25:53 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -324,6 +324,7 @@
 ##.topAds:not(body):not(input)
 ! ========== Links with keywords START ==========
 ##a[href*="/A-affiliate2/"]
+##a[href*="/aclk?bid="]
 ~famitsu.com##a[href*="&ad="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
@@ -561,6 +562,7 @@
 ##a[href*="://rd.rakuten.co.jp/c/?"]
 ! ##a[href*="://rd.rakuten.co.jp/s/?"]
 ##a[href*="rssad.jp/trendmatch/"]
+##a[href*="samuraiclick.com/"]
 ##a[href*="://searchpartner.jp/"]
 ##a[href*="://sell4.info/"]
 ##a[href*="shareasale.com/r."]
