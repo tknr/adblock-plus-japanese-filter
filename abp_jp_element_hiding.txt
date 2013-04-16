@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 6WH6tQq+0WtWtPGF22BPAw
-! Last modified: 2013-04-12 21:25:53 JST
+! Checksum: PBMP/VEjD5iXT/9Uuiu2Uw
+! Last modified: 2013-04-16 16:26:01 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1136,6 +1136,7 @@ encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][styl
 encrypted.google.com,www.google.com,www.google.co.jp##a[href*="://ceron.jp/"]
 gqjapan.jp,wired.jp###rectangle
 gqjapan.jp,wired.jp###tile
+gundari.info##[class^="box_"]
 h-online.com##.teaser_priceinsight
 hamusoku.com##.topbox
 hatena.ne.jp###asin-rel-item
