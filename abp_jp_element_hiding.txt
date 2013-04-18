@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: F7XuAof9l9i6U6IrTzC2sA
-! Last modified: 2013-04-18 10:44:18 JST
+! Checksum: yIWuoJ4n17y2RrAF+akfAw
+! Last modified: 2013-04-19 01:45:25 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -467,26 +467,26 @@
 ##a[target="_blank"][href$="/premium"]
 ! ---------- Links with keywords END ----------
 ! ========== Links with URLs START ==========
-##a[href*="://203.86.249.80/"]
-##a[href*="://210.155.151.148/"]
-##a[href*="://123direct.info/"]
+##a[href*="//203.86.249.80/"]
+##a[href*="//210.155.151.148/"]
+##a[href*="//123direct.info/"]
 ##a[href*="/9lick.net/"]
 ##a[href*="px.a8.net/svt/ejp"]
 ##a[href*=".accesstrade.net/at/c.html"]
-##a[href*="://acnt.biz/ac."]
+##a[href*="//acnt.biz/ac."]
 ##a[href*="ad-v.jp/*/click/"]
 ! Moved to the paranoid subscription, Mar 9, 2013
-! ##a[href*="://adf.ly/"]
-##a[href*="://adjc.biz/"]
-##a[href*="://cou.adjust-net.jp"]
+! ##a[href*="//adf.ly/"]
+##a[href*="//adjc.biz/"]
+##a[href*="//cou.adjust-net.jp"]
 ##a[href*="adjustnetwork.com/aan/"]
 ##a[href*="adpath.net/click?"]
 ##a[href*="adsmarket.com/click/"]
 ##a[href*=".advg.jp/ad"]
-##a[href*="://ad.agilemedia.jp"]
+##a[href*="//ad.agilemedia.jp"]
 ##a[href*="affbuzzads.com"]
 ##a[href*="ainte.jp/cid/"]
-##a[href*="://sos.allabout.co.jp"]
+##a[href*="//sos.allabout.co.jp"]
 ##a[href*="auc-life.org/?"]
 ##a[href*=".bb-chat.tv/"]
 ##a[href*="partner.become.co.jp/rd"]
@@ -495,11 +495,11 @@
 ##a[href*="bidders.co.jp/pitem/"][href*="/aff/"]
 ##a[href*=".bingshopping.jp/price/isearch/"]
 ##a[href*=".blogmura.com/in/"]
-##a[href*="://extlink.blogsys.jp/"]
+##a[href*="//extlink.blogsys.jp/"]
 ##a[href*=".brothersoft."]
 ##a[href*=".ca-mpr.jp/"]
-##a[href*="://refer.ccbill.com"]
-##a[href*="://ccrt.biz/"]
+##a[href*="//refer.ccbill.com"]
+##a[href*="//ccrt.biz/"]
 ##a[href*="clget.jp/"]
 ##a[href*=".counter-hosting.com"]
 ##a[href*=".cpalead.com"]
@@ -510,15 +510,15 @@
 ##a[href*="dmm.com/click."]
 ##a[href*="dmm.co"][href*="/-/detail/=/cid="][href*="-00"]
 ##a[href*=".doubleclick.net/aclk?"]
-##a[href*="://ad.doubleclick.net"]
-##a[href*="://click.dtiserv2.com/"]
+##a[href*="//ad.doubleclick.net"]
+##a[href*="//click.dtiserv2.com/"]
 ##a[href*=".ebis.ne.jp"][href*="_rd."]
 ##a[href*=".ebis.ne.jp"][href*="/tr_"]
-##a[href*="://ec-design.jp/cc/"]
-##a[href*="://ever-adsense.com"]
-##a[href*="://ever-click.com"]
-##a[href*="://ever-clix.com"]
-##a[href*="://ever-website.com"]
+##a[href*="//ec-design.jp/cc/"]
+##a[href*="//ever-adsense.com"]
+##a[href*="//ever-click.com"]
+##a[href*="//ever-clix.com"]
+##a[href*="//ever-website.com"]
 ##a[href*=".google.co.jp/aclk?sa="]
 ##a[href*=".google.co.jp%2Faclk%3Fsa%3D"]
 ##a[href*=".google.com/aclk?sa="]
@@ -532,27 +532,28 @@
 ##a[href*=".infoseek.co.jp/redirect?sv="]
 ##a[href*="infotop.jp/click."]
 ##a[href*="infotop.jp/order."]
-##a[href*="://ngs.impress.co.jp"]
-##a[href*="://click.j-a-net.jp"]
-##a[href*="://j-a-net.jp/gateway/click.cgi"]
-##a[href*="://cl.jlisting.jp"]
-##a[href*="://36.jpn.org/"]
-##a[href*="://on.jpn.org/"]
-##a[href*="://search.jword.jp"]
-##a[href*="://kvors.com/click/?"]
+##a[href*="//ngs.impress.co.jp"]
+##a[href*="//click.j-a-net.jp"]
+##a[href*="//j-a-net.jp/gateway/click.cgi"]
+##a[href*="//cl.jlisting.jp"]
+##a[href*="//36.jpn.org/"]
+##a[href*="//on.jpn.org/"]
+##a[href*="//search.jword.jp"]
+##a[href*="//kvors.com/click/?"]
 ##a[href*=".linksynergy.com/fs-bin/"]
 ##a[href*=".linksynergy.com/php-bin/"]
 ##a[href*=".liutilities.com/affcb/"]
 ##a[href*=".liveads.jp/widgets_src/"]
 ##a[href*=".loka.jp"]
-##a[href*="://a.mag2.jp/"]
+##a[href*="//a.mag2.jp/"]
 ##a[href*="media-b.jp"][href*="count/"]
 ##a[href*=".mediaplex.com"]
-##a[href*="://ads.mixi.jp"]
+##a[href*="//ads.mixi.jp"]
 ##a[href*="mobile-click.org"]
 ##a[href*=".movja.info/?"]
 ##a[href*=".r.msn.com/?ld="]
-##a[href*="://itpro.nikkeibp.co.jp/as/"]
+##a[href*="//itpro.nikkeibp.co.jp/as/"]
+##a[href*="//nreic.info/"]
 ##a[href*="okone.jp/?"]
 ##a[href*=".overture.co.jp/ja_JP/legal/"]
 ##a[href*=".overture.com/d/sr/"]
@@ -560,42 +561,42 @@
 ##a[href*="pheedo.jp/feeds/"]
 ##a[href*=".afl.rakuten.co.jp%2Fhgc%2F"]
 ##a[href*=".afl.rakuten.co.jp/hsc/"]
-##a[href*="://rd.rakuten.co.jp/c/?"]
-! ##a[href*="://rd.rakuten.co.jp/s/?"]
+##a[href*="//rd.rakuten.co.jp/c/?"]
+! ##a[href*="//rd.rakuten.co.jp/s/?"]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="samuraiclick.com/"]
-##a[href*="://searchpartner.jp/"]
-##a[href*="://sell4.info/"]
+##a[href*="//searchpartner.jp/"]
+##a[href*="//sell4.info/"]
 ##a[href*="shareasale.com/r."]
 ##a[href*=".softonic."]
 ##a[href*=".softpicks.net/"]
 ##a[href*="sp-affiliaters.com/adinfo/"]
-##a[href*="://g.subcul.net"]
+##a[href*="//g.subcul.net"]
 ##a[href*=".super-search.jp/"]
 ##a[href*=".tcs-asp.net/"]
 ##a[href*=".trafficgate.net/"]
 ##a[href*="type.jp/s/navi/"]
 ##a[href*=".uniblue.com/cm/"]
-##a[href*="://rd.userlocal.jp/"]
+##a[href*="//rd.userlocal.jp/"]
 ##a[href*="ap.valuecommerce.com/"]
 ##a[href*="ck.valuecommerce.com/"]
 ##a[href*="visionavi.net/motivation/"]
-##a[href*="://adrd.weblio.jp"]
-##a[href*="://blog.with2.net/link."]
+##a[href*="//adrd.weblio.jp"]
+##a[href*="//blog.with2.net/link."]
 ##a[href*="world-auctions.org/?aid="]
 ##a[href*="ii.xii.jp"]
-##a[href*="://rd.xlisting.jp"]
+##a[href*="//rd.xlisting.jp"]
 ##a[href*="xmax.jp/click/"]
 ##a[href*="xtendmedia.com/clk?"]
 ##a[href*="ard.yahoo.com"]
 ! Temporarily commented out a filter which caused a false positive at cm.tw.my.yahoo.com, reported via Issue Report 2011-08-05
 ! ##a[href*="lrd.yahoo.com"]
-##a[href*="://ard.yahoo."]:not([href*="//account."]):not([href*="//chiebukuro."]):not([href*="//disaster."]):not([href*="//emergency."]):not([href*="//help."]):not([href*="//login."]):not([href*="//setsuden."]):not([href*="//weather.yahoo.co.jp"]):not([href*="//www.yahoo.co.jp"])
-##a[href*="://krd.yahoo."]
-##a[href*="://promotion.yahoo."]
-##a[href*="://rd.ane.yahoo."]
-##a[href*="://rd.listing.yahoo."]
-##a[href*="://yjaxcrd.yahoo."]
+##a[href*="//ard.yahoo."]:not([href*="//account."]):not([href*="//chiebukuro."]):not([href*="//disaster."]):not([href*="//emergency."]):not([href*="//help."]):not([href*="//login."]):not([href*="//setsuden."]):not([href*="//weather.yahoo.co.jp"]):not([href*="//www.yahoo.co.jp"])
+##a[href*="//krd.yahoo."]
+##a[href*="//promotion.yahoo."]
+##a[href*="//rd.ane.yahoo."]
+##a[href*="//rd.listing.yahoo."]
+##a[href*="//yjaxcrd.yahoo."]
 ##a[href*=".ziyu.net/jump."]
 ! ---------- Links with URLs END ----------
 ! ========== images with alt attribute START ==========
@@ -970,7 +971,7 @@ atmarkit.co.jp##.pr-l
 atmarkit.co.jp##.rspecial
 atmarkit.co.jp##.ttl-techtarget
 atmarkit.co.jp##[id^="rcspSFlash"]:not(body):not(input)
-atmarkit.co.jp##a[href*="://dlv.itmedia.jp/rd/"]
+atmarkit.co.jp##a[href*="//dlv.itmedia.jp/rd/"]
 atmarkit.co.jp##a[href*="/ct.php?id="]
 biglobe.ne.jp##a[href*="go.biglobe.ne.jp/c/"]
 news.biglobe.ne.jp##.praTB
@@ -1012,18 +1013,18 @@ cgdigg.com##.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
 chosunonline.com###infotext
 chosunonline.com###postsub > .ad300x250
-cnet.com##a[href*="://offers.cnet.com/redir?"]
-cnet.com##a[href*="://adlog.com.com"]
+cnet.com##a[href*="//offers.cnet.com/redir?"]
+cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
-! cnet.com##a[href*="://dw.com.com/redir?"]
+! cnet.com##a[href*="//dw.com.com/redir?"]
 japan.cnet.com,japan.zdnet.com##.tieup
 japan.cnet.com,japan.zdnet.com##.tieup_box
 japan.cnet.com,japan.zdnet.com##.tieup_list_box
-japan.cnet.com,japan.zdnet.com##a[href*="://japan.cnet.com/click/"]
-japan.cnet.com,japan.zdnet.com##a[href*="://japan.cnet.com/extra/"]
-japan.cnet.com,japan.zdnet.com##a[href*="://japan.zdnet.com/click/"]
-japan.cnet.com,japan.zdnet.com##a[href*="://japan.zdnet.com/click/"]
-japan.cnet.com,japan.zdnet.com##a[href*="://japan.zdnet.com/extra/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/extra/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
+japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
 codezine.jp###shoeisha_gnavi
 codezine.jp##.app
 codezine.jp##.shoeisha_gnavi
@@ -1135,7 +1136,7 @@ encrypted.google.com,www.google.com,www.google.co.jp##.pmoabs
 ! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
 encrypted.google.com,www.google.com,www.google.co.jp##.ra:not([class*="jb"])
 encrypted.google.com,www.google.com,www.google.co.jp##.ts[style*="height:"][style*="92px"]
-encrypted.google.com,www.google.com,www.google.co.jp##a[href*="://ceron.jp/"]
+encrypted.google.com,www.google.com,www.google.co.jp##a[href*="//ceron.jp/"]
 gqjapan.jp,wired.jp###rectangle
 gqjapan.jp,wired.jp###tile
 gundari.info##[class^="box_"]
@@ -1185,7 +1186,7 @@ j-cast.com##div[id^="RCAscii"]
 j-cast.com##div[id^="RCChumokuJoho"]
 j-cast.com##div[id^="MCAd"]
 jiji.com##img[src$="/images/spacer.gif"]
-jorudan.co.jp##a[href*="://book.jorudan.co.jp/cgi-bin/"] ~ *
+jorudan.co.jp##a[href*="//book.jorudan.co.jp/cgi-bin/"] ~ *
 jorudan.co.jp##.bookList
 jorudan.co.jp##.imgBanner
 kakaku.com###mainRight .alignC
@@ -1205,8 +1206,8 @@ livedoor.com###osusume
 livedoor.com###otoku-info
 livedoor.com###ranking-amazon
 livedoor.com##.powerd-by-google
-livedoor.com,livedoor.jp##a[href*="://app.click.livedoor.com"]
-livedoor.com,livedoor.jp##a[href*="://ck.rd.livedoor.com/"]
+livedoor.com,livedoor.jp##a[href*="//app.click.livedoor.com"]
+livedoor.com,livedoor.jp##a[href*="//ck.rd.livedoor.com/"]
 search.livedoor.com###content h3
 search.livedoor.com###menu > div:first-child
 search.livedoor.com##.searchresult_sponsor
@@ -1256,7 +1257,7 @@ download.hr###mediaget_box
 download.hr##.AddCenterRight
 download.hr##.file_download_box:nth-of-type(2)
 download.hr##.file_infoleft
-download.hr##a[href*="://media.download.hr/"]
+download.hr##a[href*="//media.download.hr/"]
 download.hr##a[href*="hotfile.com/dl/"]
 download.hr##a[href*="mediaget.com/torrent.php?r="]
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
@@ -1277,7 +1278,7 @@ nicovideo.jp###flogbox
 nicovideo.jp###Recommend
 nicovideo.jp###web_pc_prime
 nicovideo.jp##.sidewallAd
-seiga.nicovideo.jp##a[href*="://rd.nicovideo.jp/cc/seiga_top/"]
+seiga.nicovideo.jp##a[href*="//rd.nicovideo.jp/cc/seiga_top/"]
 nifty.com###gifAD
 nifty.com###subBnr
 nikkei.com##[class$="_banner"]
@@ -1423,7 +1424,7 @@ vector.co.jp###PCSHOP_listAD
 vector.co.jp###softDetail ~ *
 vector.co.jp###special-box
 vector.co.jp###v_sub > noscript + .article:first-of-type
-vector.co.jp##a[href*="://vafs.vector.co.jp/"]
+vector.co.jp##a[href*="//vafs.vector.co.jp/"]
 vector.co.jp##div[id^="gad_"]
 vector.co.jp##div[class^="gad_"]
 vector.co.jp##div[id^="shop_"]
@@ -1479,7 +1480,7 @@ mail.yahoo.co.jp##[id^="dashview"]:not(body):not(input)
 mail.yahoo.co.jp##[id^="jpwelcomeinsideyahoo"]:not(body):not(input)
 mail.yahoo.co.jp##[id^="jpwelcomeym"]:not(body):not(input)
 mail.yahoo.co.jp##[class$="topfilled"]
-quote.yahoo.co.jp##img[src="http://i.yimg.jp/images/clear.gif"]
+quote.yahoo.co.jp##img[src="//i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
 yomiuri.co.jp##a[href*="/adv/"]
 yomiuri.co.jp##[class*="-txtad-"]
