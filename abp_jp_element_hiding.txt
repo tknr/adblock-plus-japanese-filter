@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: PBMP/VEjD5iXT/9Uuiu2Uw
-! Last modified: 2013-04-16 16:26:01 JST
+! Checksum: F7XuAof9l9i6U6IrTzC2sA
+! Last modified: 2013-04-18 10:44:18 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -191,6 +191,7 @@
 ! At gmail.com, adding exception .adf excludes false positives with each mail header and .adn with with each mail body 2011-11-18
 ##.ads:not(.adf):not(.adn):not(body):not(input)
 ! Eliminated duplicated filters, Mar 26, 2012
+! ##.ad-area:not(body):not(input)
 ! ##.AD-text:not(body):not(input)
 ! ##.ad-text:not(body):not(input)
 ! ##.ad_banner:not(body):not(input)
@@ -1003,6 +1004,7 @@ bizmakoto.jp,itmedia.co.jp##strong.logo
 block.fm###banner
 blogos.com###axis_navigator_container
 blogos.com,news.livedoor.com###nav-theme
+bombermine.com##.oh-you
 bspeedtest.jp##td > table[width="385"] ~ *
 number.bunshun.jp##.banner-area
 burusoku-vip.com##.column-inner-2 > .column-inner-2
