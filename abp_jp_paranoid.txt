@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: qAxo/lekqD6gk01UDPvp4Q
-! Last modified: 2013-04-18 15:30:54 JST
+! Checksum: 4ZLvkRGw1gWsYv0wTX20Og
+! Last modified: 2013-04-18 15:38:49 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2222,6 +2222,7 @@ www.yahoo.co.jp###local
 |http://*/vd/92;$third-party
 |https://*/vd/92;$third-party
 ||click.$third-party
+||ddns.$third-party
 ||myftp.$third-party
 |http://*.no-ip.$third-party
 |https://*.no-ip.$third-party
@@ -2282,11 +2283,12 @@ www.yahoo.co.jp###local
 ||organiccrap.com^$third-party
 ||proxydns.com^$third-party
 ||qhigh.com^$third-party
-||servebeer.com
+||servebeer.com^$third-party
 ||serveftp.com^$third-party
-||servegame.com
-||servepics.com
+||servegame.com^$third-party
+||servepics.com^$third-party
 ||servequake.com^$third-party
+||serveusers.com^$third-party
 ||wikaba.com^$third-party
 ||youdontcare.com^$third-party
 ||info/balance.cgi?$third-party
@@ -2342,14 +2344,14 @@ www.yahoo.co.jp###local
 ||name/trendmade.cgi?$third-party
 ||name/valcunatrop.cgi?$third-party
 ||changeip.name^$third-party
-||ddns.name^$third-party
 ||ns2.name^$third-party
 ||ns3.name^$third-party
 ||net/nighttrend.cgi?$third-party
 ||net/Softgoods?$third-party
 ||net/valcunatrop.cgi?$third-party
+||dynamic-dns.net^$third-party
 ||pcanywhere.net^$third-party
-||redirectme.net
+||redirectme.net^$third-party
 ||serveblog.net^$third-party
 ! ||rr.nu/?go=
 ||rr.nu/nl.php^
