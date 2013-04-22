@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: bTkxM2ASdswnHJH0P3URbg
-! Last modified: 2013-04-22 09:52:17 JST
+! Checksum: 8BpZv83zV+m0OO99fT+GgQ
+! Last modified: 2013-04-22 13:25:11 JST
 !
 ! Title: ABP Japanese 3rd party SNS filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -16,7 +16,7 @@
 ! ########## Default white list START ##########
 ! False positives with ||twitter.com^$third-party from abs.twimg.com displaying tweets including other quoted tweets, Apr 22, 2013
 ! example) https://api.twitter.com/1/statuses/show.json?callback=...
-@@api.twitter.com/1/statuses/show.json?
+@@||api.twitter.com/1/statuses/show.json?
 ! ---------- Default white list END ----------
 
 ||facebook.$third-party
