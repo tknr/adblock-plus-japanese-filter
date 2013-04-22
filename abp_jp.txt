@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: LiXs6HvSuDUvfyX119Gd4A
-! Last modified: 2013-04-22 17:19:22 JST
+! Checksum: yvCeWRtkPVMqliXM2aFwlw
+! Last modified: 2013-04-22 17:57:12 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3007,6 +3007,7 @@ _yahooads_
 ||amazonaws.com/*.cetrk.com/
 ||amazonaws.com/getsatisfaction.com/
 ||amazonaws.com/sniffer/
+||cd-ladsp-com.s3.amazonaws.com^
 ||load.s3.amazonaws.com^
 ||amazon-cornerstone.com^
 ||ameba.jp/common_style/js/user/dropdown*$script
@@ -4119,6 +4120,7 @@ _yahooads_
 ||lacest.com^
 ||lachest.com^
 ||ladmp.com^
+||ladsp.com^
 ||ladycash.ru^$third-party
 ||laly-filmsx.com^
 ||land.to/ad/
