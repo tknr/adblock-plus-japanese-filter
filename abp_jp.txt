@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: hWJLbqoFIUCOs27GdkCRbQ
-! Last modified: 2013-04-27 04:35:19 JST
+! Checksum: 0HC2eXe2dAOuyVBrrdv7Rg
+! Last modified: 2013-04-27 05:23:45 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4917,6 +4917,7 @@ _yahooads_
 ||shinobi.jp/tadaima/
 ||adm.shinobi.jp^
 ||analysis.shinobi.jp^$domain=~analysis.shinobi.jp
+||dumbo.shinobi.jp^
 ||nsm.shinobi.jp^
 ||axad.shinobi.jp^
 ||ba1.shinobi.jp^$~image
