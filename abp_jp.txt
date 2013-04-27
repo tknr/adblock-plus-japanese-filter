@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: k7owYunNpnhjolPW8uELhw
-! Last modified: 2013-04-27 20:19:47 JST
+! Checksum: Eg62k3SYLI852fiavTNZuw
+! Last modified: 2013-04-27 20:32:47 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4315,9 +4315,9 @@ _yahooads_
 ||mediatraffic.com.ua^$third-party
 ||mediaunder.$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
-||ad*.mediba.jp^
+||mediba.jp^$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
-||ad*.medibaad.com^
+||medibaad.com^$third-party
 ||medleyads.com^
 ||meebo.com^$third-party
 ||meebocdn.net^$domain=~meebo.com
