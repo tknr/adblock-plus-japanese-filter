@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: qFk1MZfOI0KPGWuXmpWWsQ
-! Last modified: 2013-04-27 06:55:17 JST
+! Checksum: WoWjm4YCMeq1pl9Hbz8Ulg
+! Last modified: 2013-05-04 18:33:14 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -406,6 +406,7 @@
 ##a[href*="&affiliate="]
 ! Commented out too generic element hiding filter: 2011-06-02
 ! ##a[href*="affiliate"]
+##a[href*="&afguid="]
 ##a[href*="afi_link"]
 ##a[href*="?afrno="]
 ##a[href*="/aftype-"]
