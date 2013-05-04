@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: WoWjm4YCMeq1pl9Hbz8Ulg
-! Last modified: 2013-05-04 18:33:14 JST
+! Checksum: oQV6cxLYLJoApKLlcY48xA
+! Last modified: 2013-05-04 19:10:37 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -327,6 +327,7 @@
 ##a[href*="/A-affiliate2/"]
 ##a[href*="/aclk?bid="]
 ~famitsu.com##a[href*="&ad="]
+##a[href*="&amp;ad="]
 ##a[href*="-ad."]
 ##a[href*="-AD."]
 ~ipss.go.jp##a[href*="-ad/"]
@@ -351,6 +352,7 @@
 ##a[href*="?adid="]
 ##a[href*="/adpromo/"]
 ##a[href*="&adptg_"]
+##a[href*="&amp;adptg_"]
 ##a[href*="/adrotate-out."]
 ~blocklistpro.com##a[href*="-ads-"]
 ##a[href*="-ADs-"]
@@ -397,16 +399,21 @@
 ##a[href*="/aff.php?"]
 ##a[href*="/affiliate.php?"]
 ##a[href*="&aff="]
+##a[href*="&amp;aff="]
 ##a[href*="?aff="]
 ##a[href*="?affid="]
 ##a[href*="?AFFILIATE="]
 ##a[href*="?affiliate="]
 ##a[href*="&afftrack="]
+##a[href*="&amp;afftrack="]
 ##a[href*="&AFFILIATE="]
+##a[href*="&amp;AFFILIATE="]
 ##a[href*="&affiliate="]
+##a[href*="&amp;affiliate="]
 ! Commented out too generic element hiding filter: 2011-06-02
 ! ##a[href*="affiliate"]
 ##a[href*="&afguid="]
+##a[href*="&amp;afguid="]
 ##a[href*="afi_link"]
 ##a[href*="?afrno="]
 ##a[href*="/aftype-"]
@@ -427,6 +434,7 @@
 ##a[href*="/kokoku/"]
 ##a[href*="/lsplus."]
 ##a[href*="&partnerId="]
+##a[href*="&amp;partnerId="]
 ! ~capote.posterous.com##a[href*="-pr-"]
 ##a[href*="-PR-"]
 ##a[href*="-pr."]
@@ -465,6 +473,7 @@
 ##a[href*="/?vpcz0"]
 ##a[href*="/?vpee0"]
 ##a[href*="&waad="]
+##a[href*="&amp;waad="]
 ##a[href*="?waad="]
 ##a[target="_blank"][href$="/premium"]
 ! ---------- Links with keywords END ----------
@@ -1084,6 +1093,7 @@ excite.co.jp###resultsBody > .hit > *[id*="jls"]
 excite.co.jp###resultsBody > .hit > *[id*="jwd"]
 excite.co.jp###season-keywords
 excite.co.jp##a[href*="&target=ss"]
+excite.co.jp##a[href*="&amp;target=ss"]
 f-secure.jp##img[src$="/is_banner_jpn.gif"]
 facebook.com##.fbEmu
 fc2.com###sh_fc2blogheadbar
