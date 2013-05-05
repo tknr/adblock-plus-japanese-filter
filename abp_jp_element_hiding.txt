@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: oQV6cxLYLJoApKLlcY48xA
-! Last modified: 2013-05-04 19:10:37 JST
+! Checksum: 2ypvfBq/HnmiX+w0P/hpAA
+! Last modified: 2013-05-05 20:06:48 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1497,6 +1497,7 @@ quote.yahoo.co.jp##img[src="//i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
 yomiuri.co.jp##a[href*="/adv/"]
 yomiuri.co.jp##[class*="-txtad-"]
+youtube.com###ticker
 youtube.com##.ads-pyv
 youtube.com##.watch-pyv-vid
 ! ---------- Element Hiding with domains END ----------
