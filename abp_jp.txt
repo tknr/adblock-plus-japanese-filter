@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: T+iX0tuh0ISBT3QYiWwCxg
-! Last modified: 2013-05-07 20:52:02 JST
+! Checksum: 2TKEZAjpRMmHnGlVDUn1Rg
+! Last modified: 2013-05-09 13:55:16 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3213,6 +3213,7 @@ _yahooads_
 ||bmmetrix.com^
 ||bmnq.com^
 ||bnx.me^$third-party
+||bombermine.com/i/misc/
 ||bon-plan-rencontres.net^
 ||bon-plans-du-jour.com^
 ||bon-plans-malin.com^
