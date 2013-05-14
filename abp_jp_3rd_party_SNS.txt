@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: a3vta2rh+DTJ7/E1o7ESqQ
-! Last modified: 2013-04-23 03:35:11 JST
+! Checksum: jmTP6XflWscITK9heAp0MQ
+! Last modified: 2013-05-14 20:15:51 JST
 !
 ! Title: ABP Japanese 3rd party SNS filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -22,6 +22,7 @@
 ||facebook.$third-party
 ||fbcdn.net^
 ||fbstatic-a.akamaihd.net^
+||getpocket.com^$third-party
 ||apis.google.com/js/plusone.js
 ||plus.google.com^$third-party
 ||plusone.google.com^$third-party
