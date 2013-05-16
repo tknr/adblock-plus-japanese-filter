@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: XY262kS83QHVUfcKJ76rlQ
-! Last modified: 2013-05-16 21:31:40 JST
+! Checksum: CT9125b19a+eX3ENGx7iVQ
+! Last modified: 2013-05-16 21:35:44 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1860,6 +1860,10 @@
 ^beacon.
 ^beacon^
 ^beacon_
+^beacons-
+^beacons.
+^beacons^
+^beacons_
 ^become-$third-party
 ^become.$third-party
 ^become^$third-party
@@ -2486,6 +2490,10 @@ _beacon-
 _beacon.
 _beacon^
 _beacon_
+_beacons-
+_beacons.
+_beacons^
+_beacons_
 _cellcast-media-
 _cellcast-media.
 _cellcast-media^
