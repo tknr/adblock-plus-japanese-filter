@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: YY3oVk3rG3jKRH3yRdLQZw
-! Last modified: 2013-05-15 17:00:48 JST
+! Checksum: XY262kS83QHVUfcKJ76rlQ
+! Last modified: 2013-05-16 21:31:40 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3848,11 +3848,13 @@ _yahooads_
 ||gpotato.eu^$popup
 ||glavrich.$third-party
 ||gratuit-porno-xxx.com^
+||gravity.com^$third-party
 ||gravure-dvd.net^
 ||gremz.com^$third-party
 ||gros-nichons.biz^
 ||grosses3x.net^
 ||groupon.jp/jb/javascript/lib/thickbox.$script
+||grvcdn.com^
 ||csi.gstatic.com^
 ||metric.gstatic.com^
 ||gueur.com^
