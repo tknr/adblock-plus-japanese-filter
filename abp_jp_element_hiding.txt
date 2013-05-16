@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ymTSs+u97VRYC/vngYrLLA
-! Last modified: 2013-05-08 17:10:17 JST
+! Checksum: wnRkykkrfj2zHJ1OVsMx2g
+! Last modified: 2013-05-16 23:58:50 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1433,8 +1433,8 @@ ustream.tv###getStartedBanner
 ustream.tv##.channelContextAd
 ustream.tv##.channelTopBannerWrapper
 ustream.tv##.topLeaderBoardContainer
-ustream.tv##.ui-widget-content[aria-labelledby="ui-dialog-title-SoftBankDialog"]
-ustream.tv##.ui-widget-content[aria-labelledby="ui-dialog-title-SoftBankDialog"]+.ui-widget-overlay
+ustream.tv##.ui-widget-content[aria-labelledby^="ui-dialog-title-"][aria-labelledby$="Dialog"]
+ustream.tv##.ui-widget-content[aria-labelledby^="ui-dialog-title-"][aria-labelledby$="Dialog"]+.ui-widget-overlay
 vector.co.jp###PCSHOP_listAD
 vector.co.jp###softDetail ~ *
 vector.co.jp###special-box
