@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: qlqGmdAk71zxuH0VIxSxRQ
-! Last modified: 2013-05-20 22:35:15 JST
+! Checksum: YPFdAPR+c8qL+zqgusgQvQ
+! Last modified: 2013-05-20 22:44:33 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1924,6 +1924,7 @@
 ^customads.
 ^customads^
 ^customads_
+^dmmad^
 ^doubleclick-
 ^doubleclick.
 ^doubleclick^
@@ -3555,6 +3556,7 @@ _yahooads_
 ||dmcdn.net/js/gen/lib/feature_promotion.
 ||dmm-rank.com^$third-party
 ||dmm.co.jp^$domain=~dmm.co.jp|~dmm.com
+||aqua.dmm.co.jp^
 ||dmm.com^$domain=~dmm.co.jp|~dmm.com
 ||dmtracker.com^$third-party
 ||dn888.com^
