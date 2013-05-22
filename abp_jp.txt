@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: pp+PTCKBwkfxudUdIadANw
-! Last modified: 2013-05-22 22:03:31 JST
+! Checksum: C1lqCxrAOaZH5EsAzteVuw
+! Last modified: 2013-05-22 22:13:37 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4550,6 +4550,7 @@ _yahooads_
 ||nimg.jp/js/index.$script
 ! ||nimg.jp/swf/appli/ cause false positives at app.nicovideo.jp
 ||nimg.jp/swf/appli/$domain=~app.nicovideo.jp
+||nizigenero.com^$third-party
 ||nnlian.info^$third-party
 ||nnn.ru^$third-party
 ||nomura.co.jp/resource/image/sideparts/
@@ -5244,6 +5245,7 @@ _yahooads_
 ! ||ui-portal.de^
 ||undertone.com^$third-party
 ||ubcpm.com^
+||udedokei-catalog.com^$third-party
 ||uimserv.net^
 ||ultimedia.com^$third-party
 ||ultrapay.net^$third-party
