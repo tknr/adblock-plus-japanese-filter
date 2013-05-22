@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: YPFdAPR+c8qL+zqgusgQvQ
-! Last modified: 2013-05-20 22:44:33 JST
+! Checksum: 7A/xhdwdy82cgmvPpjiZuQ
+! Last modified: 2013-05-22 19:31:23 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5392,6 +5392,7 @@ _yahooads_
 ||adult-monster.webwindow.jp^$third-party
 ||wec.co.kr^$third-party
 ||wekiss.com^$third-party
+||wespoland.jp^$third-party
 ||whaleads.com^
 ||whoson.com^$third-party
 ||widdit.com^$third-party
