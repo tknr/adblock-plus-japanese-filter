@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 1PLDZuGuUwcoBPpJawZBgQ
-! Last modified: 2013-05-22 21:21:51 JST
+! Checksum: YOWtxZyBvMKsGkDtfORnIw
+! Last modified: 2013-05-22 21:27:44 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3268,6 +3268,7 @@ _yahooads_
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||calamel.jp^$third-party
 ||cam-a-cam.com^
 ||cam-seduction.com^
 ||cam-visio.com^
