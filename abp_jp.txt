@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: I7gUukolkGmB4ML2ofuhJw
-! Last modified: 2013-05-23 23:18:18 JST
+! Checksum: 8rYKWsJP3vYJTwZWMSuw6Q
+! Last modified: 2013-05-25 22:10:04 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4568,6 +4568,7 @@ _yahooads_
 ||nuggad.net^$third-party
 ||numerikart.com^
 ||nxtck.com^
+||files.nyaa.eu/ab
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
 ||obtenir-de-l-argent.com^
