@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 8Q0NMHCjR93GE9zMvjGnRA
-! Last modified: 2013-05-26 18:38:59 JST
+! Checksum: yaxjBNf53nQE4CJ93H520g
+! Last modified: 2013-05-26 20:17:21 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -194,6 +194,8 @@
 @@||yahooapis.*/combo?$script,stylesheet
 ! False positives with HIGHLIGHT.JS scripts, reported by @dullneko via blog comment, Aug 29, 2012
 @@||yandex.st/highlightjs/
+! False positives with jQuery, reported by 誤ブロック via blog comment, May 26, 2013
+@@||yandex.st/jquery/
 @@||yimg.*/combo/$script,stylesheet
 @@||yimg.*/combo?$script,stylesheet
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
