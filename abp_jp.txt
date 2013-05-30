@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: VZHlbBqQADcJQWr4dj1/6g
-! Last modified: 2013-05-31 02:47:15 JST
+! Checksum: Ph21uZzN/3flp2/XmNg1SA
+! Last modified: 2013-05-31 02:51:20 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3893,6 +3893,7 @@ _yahooads_
 ||gyutto.jp/data/*banner_img^$third-party
 ||adcreative.hangame.co.jp^
 ||hannist.com^
+||happymail.co.jp^$third-party
 ||hardsextubepremium.com^$third-party
 ||harrenmedianetwork.com^$third-party
 ||ad.hatena.ne.jp^
