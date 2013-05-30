@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: U8pjvV6hWO8hFJShlqgqCA
-! Last modified: 2013-05-28 10:53:01 JST
+! Checksum: 2Hr2pmoGFO++mwkn0JyvLg
+! Last modified: 2013-05-30 10:09:25 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3426,6 +3426,7 @@ _yahooads_
 ||conteresso.com^
 ||contextweb.com^$third-party
 ||contrat-de-pret.com^
+||conversioncounter.jp^$third-party
 ||conversionruler.com^$third-party
 ! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
 ! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
