@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 2Hr2pmoGFO++mwkn0JyvLg
-! Last modified: 2013-05-30 10:09:25 JST
+! Checksum: VZHlbBqQADcJQWr4dj1/6g
+! Last modified: 2013-05-31 02:47:15 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -135,6 +135,8 @@
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
 ! False positives with combined scripts including "&ad=" 2012-04-06
 @@||cookpad.com/loading/all_in_one?
+! Exception for its own site logo, May 31, 2013
+@@||distrowatch.com/images/jruiakuzm/dwbanner.$image
 ! False positives with product zooming, reported by @tanahata via Issue Report
 @@||ir.ebaystatic.com^
 ! False positives with combined scripts at soccernet.espn.go.com, Jan 21, 2012
@@ -3557,6 +3559,7 @@ _yahooads_
 ||displaymarketplace.com^
 ||disterme.com^
 ||distributique.com^
+||distrowatch.com/images/jruiakuzm/
 ||divertura.com^
 ||divxporno.net^
 ||dl-rms.com^$third-party
