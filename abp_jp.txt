@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: SxMU3FR9BZuj9VHAnFq1hA
-! Last modified: 2013-06-01 07:36:59 JST
+! Checksum: 3Ted8zWq4ecJm3cE9gUcnA
+! Last modified: 2013-06-01 16:33:41 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4484,7 +4484,7 @@ _yahooads_
 ||na-secure.com^
 ||naiadsystems.com^$third-party
 ||nakanohito.jp/ap/
-||nakanohito.jp/b1/
+||nakanohito.jp/b
 ||bsap.nakanohito.jp^
 ||f*.nakanohito.jp^$script
 ||le.nakanohito.jp^
@@ -5280,6 +5280,7 @@ _yahooads_
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
 ||usagc.org^$third-party
+||userlocal.jp/b
 ||ustream.tv^*/images/softbank-
 ||ustream.tv^*/images/special/
 ||d.ustream.tv^
