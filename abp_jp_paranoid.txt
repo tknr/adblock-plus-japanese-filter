@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: WvwJyXqPzJZ7xvaNkDN1yw
-! Last modified: 2013-05-30 10:09:14 JST
+! Checksum: c+VT6B/eYw1AZudhKv3Kyg
+! Last modified: 2013-06-06 02:49:44 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2695,6 +2695,7 @@ www.yahoo.co.jp###local
 ||snapabug.com^$third-party
 ||snapengage.com^$third-party
 ||zoosnet.net^$third-party
+||zopim.com^$third-party
 ! ----- Live chat or support ----- END -----
 
 ! ===== Notorious CDN ===== START =====
