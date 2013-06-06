@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: c+VT6B/eYw1AZudhKv3Kyg
-! Last modified: 2013-06-06 02:49:44 JST
+! Checksum: jgf2JlhIIRR1Tj316SOrJg
+! Last modified: 2013-06-06 21:50:17 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2704,6 +2704,11 @@ www.yahoo.co.jp###local
 ! http://www.robtex.com/dns/cachefly.net.html#blacklists
 ||cachefly.net^$third-party
 ! ----- Notorious CDN ----- END -----
+
+! ===== Questionnaire ===== START =====
+||amazonaws.com/*.kissinsights.com/
+||amazonaws.com/ki.js/
+! ----- Questionnaire ----- END -----
 
 ! ===== Replace contents or ADs dynamically ===== START =====
 ||toprelatedtopics.com^$third-party
