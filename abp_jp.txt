@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: UjFFhPyRgBrmii/dFfXm7g
-! Last modified: 2013-06-06 20:55:47 JST
+! Checksum: pGkdHA5uCy9TRh1iC2K+wA
+! Last modified: 2013-06-08 15:02:25 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2978,6 +2978,7 @@ _yahooads_
 ||affiz.net^
 ||afilio.com.br^
 ||afpbb.com^*banner
+||afpbb.com/flash/*newsFeed.$object
 ||afpbb.com/js/curvycorners.$script
 ||afpbb.com/js/mustRead.
 ||a-img.afpbb.com^
