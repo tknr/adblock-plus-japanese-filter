@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: pGkdHA5uCy9TRh1iC2K+wA
-! Last modified: 2013-06-08 15:02:25 JST
+! Checksum: D9Hwu8ry471qBRXiM8K60w
+! Last modified: 2013-06-09 02:28:25 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -4248,6 +4248,7 @@ _yahooads_
 ||livedoor.jp/js/google_jp.
 ||livedoor.jp/js/google_plugin.
 ||blog.livedoor.jp/*/settings/header.$script
+||blog.livedoor.jp/adt7777/$third-party
 ||livejasmin.com^$popup
 ||livejasmin.com^$third-party
 ||liwiosarl.appspot.com^
