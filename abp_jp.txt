@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: G2YCqP/yT4MD4QzIiTYipA
-! Last modified: 2013-06-10 23:38:38 JST
+! Checksum: SuSd4CUUjlqKZERXVIRsMQ
+! Last modified: 2013-06-10 23:50:55 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -182,6 +182,8 @@
 @@||api.nicodic.jp^*__nicopedia_api_*_AD/*%AD|
 @@||api.nicodic.jp^*__nicopedia_api_*_AD_*%AD%
 @@||uad.nicovideo.jp/assets/$domain=uad.nicovideo.jp
+! A false positive with dynamic header script, using the |http:*^ad_ filter, reported by MASA, Jun 10, 2013
+@@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
 @@||researchmap.jp^*/counter/$stylesheet
 ! False positive with management page, reported via Issue Report, Jan 27, 2012
 @@||ct*.shinobi.jp^$document
