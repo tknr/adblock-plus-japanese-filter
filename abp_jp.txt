@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: ihJEudN818i8Fv0JeeijkA
-! Last modified: 2013-06-13 17:06:53 JST
+! Checksum: wzdlt79CdqB7z0ZWJ48vew
+! Last modified: 2013-06-13 18:58:46 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -5516,6 +5516,8 @@ _yahooads_
 ||yadro.ru^
 ||yahoo.*/b?
 ||yahoo.*/c?
+||yahoo.*/images/rt.
+||yahoo.*/images/rt_
 ||yahoo.*/js/geov2.$script
 ||yahoo.*/js/no.$script
 ||yahoo.*/js/sq.$script
@@ -5529,12 +5531,16 @@ _yahooads_
 ||dcs.yahoo.
 ||geo.yahoo.
 ||bc.geocities.yahoo.*/js/
+||bc.ipv6.yahoo.
 ||logoole.yahoo.$third-party
 ! False positives with mail folders, Nov 30, 2012
 ! ||mail.yahoo.co.jp/neo/socialmailtop_neo/js/soc.$script
 ||wa.marketingsolutions.yahoo.
 ||ov.yahoo.
+||rtb.pclick.yahoo.
 ||rd.yahoo.
+||rtb.pclick.secure.yahoo.
+||tomlin.yahoo.
 ||ybx.yahoo.
 ||yeas.yahoo.
 ||yjaxc.yahoo.
@@ -5570,6 +5576,7 @@ _yahooads_
 ||yimg.com^*/lib/*/bc_$script
 ||yimg.com^*/lib/3pm/$script
 ||yimg.com^*/lib/bc/$script
+||yimg.com/qb/
 ! ||ads.yimg.com^
 ||yiqiwin.com^$third-party
 ||yllix.com^$third-party
