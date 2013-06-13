@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: gx2W9NG00Rsc7BkrERNxog
-! Last modified: 2013-06-09 02:00:52 JST
+! Checksum: gK3+m80OG8mLYvVEMNQiSw
+! Last modified: 2013-06-13 16:03:14 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -21,6 +21,8 @@
 ! ########## Default white list START ##########
 @@||adblockplus.org^$elemhide
 @@||advertban.com^$elemhide
+! A false positive with TV CM link including -ads- , reported by 通りすがりの火狐ユーザー via blog, Jun 13, 2013
+@@||apple.com^$elemhide
 @@||code.google.com^$elemhide
 @@||indeep76.com^$elemhide
 @@||lavasoft.com^$elemhide
