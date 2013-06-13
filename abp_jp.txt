@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 77nU66tHYoBrTMoMMRrUuQ
-! Last modified: 2013-06-13 16:31:17 JST
+! Checksum: /LWk6rUwODjD4boDFDf2Nw
+! Last modified: 2013-06-13 16:44:45 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3406,7 +3406,7 @@ _yahooads_
 ||collarity.com^$third-party
 ||collective-media.net^
 ||adlog.com.com^
-||ads.com.com^
+! ||ads.com.com^
 ||dw.com.com^$third-party
 ||dw-eu.com.com^$third-party
 ||img.com.com/b.$image,object
@@ -3583,7 +3583,7 @@ _yahooads_
 ||dn888.com^
 ||docodoco.jp^$third-party
 ||adapp.doko.jp^
-||ads.doko.jp^
+! ||ads.doko.jp^
 ||match.doko.jp^
 ||domainadvertising.com^$third-party
 ||domainnamesales.com^$third-party
@@ -3780,7 +3780,7 @@ _yahooads_
 ||fnac.com^$third-party
 ||focus-marketing.net^$third-party
 ||follolin.com^$third-party
-||ads.forbes.com^
+! ||ads.forbes.com^
 ||forexwebtools.com^$third-party
 ||formatdynamics.com^$third-party
 ||fotocash.ru^$third-party
@@ -3986,7 +3986,7 @@ _yahooads_
 ||iesnare.com^
 ||iforex.com^$third-party
 ||ign-omy.com^
-||ads.ign.com^
+! ||ads.ign.com^
 ||atax.ign.com^
 ||ubt.ign.com^
 ||wrapper.ign.com^
@@ -4412,7 +4412,7 @@ _yahooads_
 ||minpos.com^$third-party
 ||miraikensaku.jp^$third-party
 ||mirskidok.net^
-||ads.mixi.jp^
+! ||ads.mixi.jp^
 ||mixmarket.biz^$third-party
 ||mixpanel.com^$third-party
 ||mizuhobank.co.jp^*/js/rotation.$script
@@ -4539,7 +4539,7 @@ _yahooads_
 ||nicoseiga.jp/material/
 ||nicovideo.jp/flog.
 ||ad.nicovideo.jp^
-||ads.nicovideo.jp^
+! ||ads.nicovideo.jp^
 ! Commented out to avoid closing connection 2011-10-23
 ! ||ow.live.nicovideo.jp^
 ||urc.live.nicovideo.jp^
@@ -4637,7 +4637,7 @@ _yahooads_
 ||orangeads.fr^
 ||oret.jp^$third-party
 ||osa.pl^
-||ads.osdn.jp^
+! ||ads.osdn.jp^
 ||osmozes.com^
 ||otherprofit.com^
 ||ourstats.de^$third-party
@@ -4677,7 +4677,7 @@ _yahooads_
 ||pict-navi.net/img/
 ||pictela.net^
 ||pillendienst.com^$third-party
-||ads.pimote.net^
+! ||ads.pimote.net^
 ||pipe-ejac.net^
 ||ad.pitattomatch.com^
 ||ad.pitta.ne.jp^
@@ -5038,7 +5038,7 @@ _yahooads_
 ||sitesnapi.com^$third-party
 ||sitestat.com^$third-party
 ||sitetag.us^$third-party
-||ads.sixapart.com^
+! ||ads.sixapart.com^
 ||skillupjapan.net^$third-party
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
@@ -5567,7 +5567,7 @@ _yahooads_
 ||yimg.jp/images/rapid/
 ||yimg.com^*/js/geov3.$script
 ||yimg.com^*/lib/bc/$script
-||ads.yimg.com^
+! ||ads.yimg.com^
 ||yiqiwin.com^$third-party
 ||yllix.com^$third-party
 ||ymads.com^$third-party
