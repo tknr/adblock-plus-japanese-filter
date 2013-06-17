@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: HYO+NS7Yy8wj1Moue5hClg
-! Last modified: 2013-06-18 04:44:43 JST
+! Checksum: CdgWP2OCqsPLdkNpS0lM7w
+! Last modified: 2013-06-18 04:56:22 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -3031,6 +3031,7 @@ _yahooads_
 ||am12.ru^
 ||amalily.com^
 ||amaprop.net^$third-party
+||amazon-adsystem.com^
 ||amazon.*/aan/$domaon=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 ||fls-*.amazon.
 ||rcm*.amazon.$third-party
