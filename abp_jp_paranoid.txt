@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 1sF87Ykvkq2UeaH+xOtuUw
-! Last modified: 2013-06-07 12:34:35 JST
+! Checksum: As3E//hzV0Uc8Kgo1LJqwQ
+! Last modified: 2013-06-20 02:32:33 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1994,7 +1994,7 @@ _tracking_
 ##[class$="Pickup"]:not(body):not(input)
 ##[class$="pickup"]:not(body):not(input)
 ##[class*="PROMO"]:not(body):not(input)
-~transifex.com##[class*="promo"]:not(body):not(input):not(.node-promoted)
+~personalfirewall.comodo.com,~transifex.com##[class*="promo"]:not(body):not(input):not(.node-promoted)
 ! ---------- Generic filters END ----------
 
 
