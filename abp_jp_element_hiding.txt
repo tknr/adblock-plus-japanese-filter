@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: xjpaFl5ft5ypaVjf1uMDwA
-! Last modified: 2013-06-20 16:54:59 JST
+! Checksum: /Xkive+5rFF9d0V4Mp3oMQ
+! Last modified: 2013-06-21 02:33:02 JST
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -1335,6 +1335,7 @@ pcworld.com##div[id$="Ads"]
 pcworld.com##div[class$="Ad"]
 pcworld.com##div[class$="Ads"]
 phpspot.org###rightbar
+president.jp##.subcolumn-dancyu
 publickey.jp,publickey1.jp##.topbanner
 pya.cc##.tk
 qiita.com###bottom-introduction
