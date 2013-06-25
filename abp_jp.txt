@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 5im1LHUDaHAxIJM2+OA8vA
-! Last modified: 2013-06-22 23:30:04 JST
+! Checksum: DxsNvizq37q/BLq3fwu+ug
+! Last modified: 2013-06-26 01:40:46 JST
 !
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -171,6 +171,8 @@
 ! Sample: http://i2.msdn.microsoft.com/Combined.js?resources=0:webtrendsscript,1:omni_rsid_MSDN;/Areas/Global/Content/Webtrends/resources:0,/Areas/Global/Content/Omniture/resources/MSDN:1&amp;hashKey=16進数32桁
 @@||microsoft.com/Combined.js?resources=
 @@||mozilla.com/media/img/promo.
+! False positives with images usded at the top page of www.mozilla.org, Jun 26, 2013
+@@||mozilla.net/media/img/home/promo
 @@||mozilla.org/affiliates/
 ! False positve at Collusion demo page
 @@||mozilla.org^*/collusion/demo/$document
