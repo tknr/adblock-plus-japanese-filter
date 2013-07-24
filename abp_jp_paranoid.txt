@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
-! Checksum: 2R3ya8RfRm5ziPOueS/9Bg
-! Last modified: 2013-07-18 05:15:27 JST
+! Checksum: p3FHGMJzZpnC1Z+eddfJBA
+! Last modified: 2013-07-25 03:53:51 JST
 !
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
@@ -2192,10 +2192,24 @@ www.yahoo.co.jp###local
 ! https://twitter.com/unixfreaxjp/status/316892076216311808
 ! https://twitter.com/unixfreaxjp/status/318410595777007616
 .html?i=$subdocument,third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
+/clik.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
+/cnt.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-011-iframe.html
+/dtd.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-114.html
+/esd.php^$third-party
 ! https://twitter.com/unixfreaxjp/status/318633389789966337
 /ga.php^
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
+/rel.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
+/relay.php^$third-party
 ! https://twitter.com/unixfreaxjp/status/316813507653947392
 /rss/*$script,subdocument
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
+/traf.php^$third-party
 ! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
 
 ! ===== Malicious objects like Hidden iframes or encoded javascripts reported at http://labs.sucuri.net/ ===== START =====
