@@ -1,6 +1,6 @@
-[Adblock Plus 2.1]
-! Checksum: 8rhOz93biUcqhyVWtf92tw
-! Last modified: 2013-07-21 21:32:01 JST
+[Adblock Plus 2.3.1]
+! Checksum: ijbvUsinyXCaeRxo9JFnew
+! Version: 20130805073305
 !
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
