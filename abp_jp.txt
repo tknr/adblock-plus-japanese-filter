@@ -1,14 +1,14 @@
 [Adblock Plus 2.3.1]
-! Checksum: DdwNpB7BZ3xi95wadlgkjw
-! Version: 20130805073305
-!
-! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
+! Checksum: Ponj/6KE8l5OZ8Q4h3B1gw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
-! Change Log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
-! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
-! Content License: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
-! Support Policy:  https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy
+! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
+! Version: 20130805083541
+!
+! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
+! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
+! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
+! Support policy:  https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy
 ! Project owners: k2japan
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
