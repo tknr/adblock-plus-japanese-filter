@@ -22,15 +22,16 @@ my $file = $ARGV[0];
 my $data = readFile($file);
 
 my $time    = localtime();
-#my $strTime = $time->strftime("%d %b %Y %H:%M JST");
-#my $strTime = $time->strftime("%F %T JST");
-my $strTime = $time->strftime("%Y%m%d%H%M%S");
+#my $strDateTime = $time->strftime("%d %b %Y %H:%M JST");
+my $strDateTime = $time->strftime("%F %T %z");
+my $strVersion = $time->strftime("%Y%m%d%H%M%S");
 
-die "[ERR] Failed to Generate Date String!" unless $strTime;
+die "[ERR] Failed to Generate DateTime String!" unless $strDateTime;
+die "[ERR] Failed to Generate Version String!"  unless $strVersion;
 
 # Replace already existing "! Last modified: DATE TIME JST"
-#$data =~ s/^.*!\s*Last\s+modified[\s\-:]+([\w\+\/=]+).*$/! Last modified: $strTime/gmi;
-$data =~ s/^.*!\s*Version[\s\-:]+([\w\+\/=]+).*$/! Version: $strTime/gmi;
+$data =~ s/^.*!\s*Last\s+modified[\s\-:]+([\w\+\/=]+).*$/! Last modified: $strDateTime/gmi;
+$data =~ s/^.*!\s*Version[\s\-:]+([\w\+\/=]+).*$/! Version: $strVersion/gmi;
 
 writeFile($file, $data);
 
