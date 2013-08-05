@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: EAY1OQTduLR27UlwsPZHtQ
+! Checksum: WbtQ1+YdEdwSibXYji9msw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 20130805212326
+! Version: 20130805221411
 !
-! Last modified: 2013-08-05 21:23:26 +0900
+! Last modified: 2013-08-05 22:14:11 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -326,7 +326,7 @@
 ##.textad-top:not(body):not(input)
 ##.topAd:not(body):not(input)
 ##.topAds:not(body):not(input)
-! ========== Links with keywords START ==========
+! ========== Links with a keyword START ==========
 ##a[href*="/A-affiliate2/"]
 ##a[href*="/aclk?bid="]
 ~famitsu.com##a[href*="&ad="]
@@ -480,8 +480,8 @@
 ##a[href*="&amp;waad="]
 ##a[href*="?waad="]
 ##a[target="_blank"][href$="/premium"]
-! ---------- Links with keywords END ----------
-! ========== Links with URLs START ==========
+! ---------- Links with a keyword END ----------
+! ========== Links with a domain START ==========
 ##a[href*="//203.86.249.80/"]
 ##a[href*="//210.155.151.148/"]
 ##a[href*="//123direct.info/"]
@@ -615,9 +615,10 @@
 ##a[href*="//rd.ane.yahoo."]
 ##a[href*="//rd.listing.yahoo."]
 ##a[href*="//yjaxcrd.yahoo."]
+##a[href*="//z99pc.com/"]
 ##a[href*=".ziyu.net/jump."]
-! ---------- Links with URLs END ----------
-! ========== images with alt attribute START ==========
+! ---------- Links with a domain END ----------
+! ========== images with an alt attribute START ==========
 ##img[alt^="[PR-"]
 ##img[alt^="[PR_"]
 ##img[alt^="[pr-"]
@@ -632,7 +633,7 @@
 ##img[alt$="-pr]"]
 ##img[alt$="_PR]"]
 ##img[alt$="_pr]"]
-! ---------- Images with alt attribute END ----------
+! ---------- Images with an alt attribute END ----------
 ! ========== All elements START ==========
 ##[id^="AD-"]:not(body):not(input)
 ##[id^="AD_"]:not(body):not(input)
