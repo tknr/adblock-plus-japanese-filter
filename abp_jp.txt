@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: i2pm2j749siuUO+U8ZS10g
+! Checksum: /hOQA2K2R4O9gcM4juStYw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 20130806030408
+! Version: 20130807051042
 !
-! Last modified: 2013-08-06 03:04:08 +0900
+! Last modified: 2013-08-07 05:10:42 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3053,6 +3053,7 @@ _yahooads_
 ||cd-ladsp-com.s3.amazonaws.com^
 ||isocket-creatives.s3.amazonaws.com^
 ||load.s3.amazonaws.com^
+||simple-cdn.s3.amazonaws.com^
 ||amazon-cornerstone.com^
 ||ameba.jp/common_style/js/user/dropdown*$script
 ||act.ameba.jp^
@@ -3403,6 +3404,7 @@ _yahooads_
 ||d5nxst8fruw4z.cloudfront.net^
 ||d5phz18u4wuww.cloudfront.net^
 ||d7p9czrvs14ne.cloudfront.net^
+||d8rk54i4mohrb.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||doug1izaerwt3.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net^
@@ -5049,6 +5051,7 @@ _yahooads_
 ||showdysl.com^
 ||silveregg.net^$third-party
 ||similarad.com^
+||simplereach.com^$third-party
 ||simply.com^$third-party
 ||simplyhired.com^$third-party
 ||siouxi.com^
