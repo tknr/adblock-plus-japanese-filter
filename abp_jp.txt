@@ -867,7 +867,7 @@
 /applibar_$domain=live.nicovideo.jp|www.nicovideo.jp
 /AppMeasurementExtension.
 /arj?o=
-/artisan/sns_park/$script
+/artisan/sns_park/*$script
 /AS3AdPlayer.
 |http:*/at.js.$script
 |https:*/at.js.$script
