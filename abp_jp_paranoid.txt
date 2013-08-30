@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: PId6EH/R/nfI9LNV4FAN2g
+! Checksum: dbgQzR4HyxGipoJcz4jhEA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201308272136
+! Version: 201308302119
 !
-! Last modified: 2013-08-27 21:36 +0900
+! Last modified: 2013-08-30 21:19 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2051,6 +2051,7 @@ _s_code2_$script
 
 ! ===== Amazon Affiliate killer ===== START =====
 ##a[href*="amazon."][href*="/ASIN/"][href*="-22"]
+##a[href*="amazon."][href*="/dp/"][href*="-22"]
 ##a[href*="amazon."][href*="/gp/product/"][href*="-22"]
 ##a[href*="amazon."][href*="/ref=nosim"]
 ##a[href*="amazon."][href*="&tag="][href*="-22"]
