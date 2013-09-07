@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 2jKsH6+zz9Mu0/OopBox2A
+! Checksum: O/SBmrOtL2Lk90VdTLgx9w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309070331
+! Version: 201309072209
 !
-! Last modified: 2013-09-07 03:31 +0900
+! Last modified: 2013-09-07 22:09 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -544,7 +544,7 @@
 .cellcastmedia_
 .cherry-chat.
 .histats.$third-party
-.impact-ad.jp/rc/
+.impact-ad.jp^$third-party
 .impression_id-
 .impression_id.
 .impression_id^
@@ -4106,7 +4106,6 @@ _yahooads_
 ||imgfarm.com^
 ||imgshots.com^$third-party
 ||imlive.com^$third-party
-||impact-ad.jp^$third-party
 ||impannon.com^
 ||imparfum.com^
 ||impresionesweb.com^$third-party
