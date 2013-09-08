@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 59FsTxaBoSTB9MG6OLiJ2g
+! Checksum: 28MqqxzcvFtK4AvYvbkYUA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309090303
+! Version: 201309090324
 !
-! Last modified: 2013-09-09 03:03 +0900
+! Last modified: 2013-09-09 03:24 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5441,6 +5441,7 @@ _yahooads_
 ||valuecommerce.com^$third-party
 ||vatgia.com^
 ||vcm.jp^$third-party
+||vdna-assets.com^
 ||vector.co.jp/adinfo/
 ||vector.co.jp/advertise/
 ||vector.co.jp/vpack/*banner
@@ -5499,6 +5500,7 @@ _yahooads_
 ||visit-x.net^$third-party
 ||visitor-track.com^$third-party
 ||visitorpath.com^$third-party
+||visualdna.com^$third-party
 ||visualrevenue.com^$third-party
 ||visualwebsiteoptimizer.com^$third-party
 ||vitalads.net^$third-party
