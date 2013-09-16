@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: BaCXPsSs0mS94rfwRpqRtg
+! Checksum: 0lMxL4yXfQahvHme9RAfHA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309072156
+! Version: 201309170159
 !
-! Last modified: 2013-09-07 21:56 +0900
+! Last modified: 2013-09-17 01:59 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -580,10 +580,13 @@
 ##a[href*=".overture.com/d/sr/"]
 ##a[href*="p-advg.com/adpCnt/"]
 ##a[href*="pheedo.jp/feeds/"]
+~r-agent.com##a[href*=".r-agent.com/"][href*="?vos="]
 ##a[href*=".afl.rakuten.co.jp%2Fhgc%2F"]
 ##a[href*=".afl.rakuten.co.jp/hsc/"]
 ##a[href*="//rd.rakuten.co.jp/c/?"]
 ! ##a[href*="//rd.rakuten.co.jp/s/?"]
+~rikunabi.com##a[href*=".rikunabi.com/"][href*=";vos="]
+~rikunabi.com##a[href*=".rikunabi.com/"][href*="?vos="]
 ##a[href*="rssad.jp/trendmatch/"]
 ##a[href*="samuraiclick.com/"]
 ##a[href*="//searchpartner.jp/"]
