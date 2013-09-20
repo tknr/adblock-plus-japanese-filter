@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: xEXxqIYf6aA7OyHbs3aFuA
+! Checksum: r1CsyvYdEGwEsUC8fdoPDg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309170350
+! Version: 201309200931
 !
-! Last modified: 2013-09-17 03:50 +0900
+! Last modified: 2013-09-20 09:31 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -863,6 +863,7 @@
 /ana2/icon.
 /ana2/processor.
 /analys.$script
+/analyticsengine/*$third-party
 /analyticsid.
 /applibar.$domain=live.nicovideo.jp|www.nicovideo.jp
 /applibar_$domain=live.nicovideo.jp|www.nicovideo.jp
@@ -3103,6 +3104,7 @@ _yahooads_
 ||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/sniffer/
 ||amazonaws.com/totango-cdn/
+||analyticsengine.s3.amazonaws.com^
 ||cd-ladsp-com.s3.amazonaws.com^
 ||isocket-creatives.s3.amazonaws.com^
 ||load.s3.amazonaws.com^
@@ -3472,6 +3474,7 @@ _yahooads_
 ||dc8na2hxrj29i.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||doug1izaerwt3.cloudfront.net^
+||dpp750yjcl65g.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net^
 ||club-ama.com^$third-party
 ||club-xxx.net^$third-party
