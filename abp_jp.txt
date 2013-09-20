@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: cQ8vyDQMBxMBdfJFLLoKAg
+! Checksum: zgLyn5Y02ssrC5NeEBbrLw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309201039
+! Version: 201309201144
 !
-! Last modified: 2013-09-20 10:39 +0900
+! Last modified: 2013-09-20 11:44 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1263,6 +1263,7 @@
 /xtclicks.$script
 /xtcore.$script
 /yad.
+/yieldbot.$third-party
 /yim.$script,subdocument
 /ystat.
 /ywa.$script
@@ -5697,6 +5698,7 @@ _yahooads_
 ||yabs.yandex.
 ||yandex.st^$domain=~yandex.ru|~yandex.ua
 ||yardbarker.com^$third-party
+||yb0t.com^
 ||yellowmedia.biz^$third-party
 ||yfum.com^
 ||yieldads.com^$third-party
@@ -5718,6 +5720,7 @@ _yahooads_
 ||yimg.com/qb/
 ! ||ads.yimg.com^
 ||yiqiwin.com^$third-party
+||yldbt.com^
 ||yllix.com^$third-party
 ||ymads.com^$third-party
 ||yontoo.com^$third-party
