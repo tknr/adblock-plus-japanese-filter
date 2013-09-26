@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 2vuJTHrcK1FLKOsWNOXLuQ
+! Checksum: zi8J7wfEO1un0yVTNCfnCw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309261003
+! Version: 201309270424
 !
-! Last modified: 2013-09-26 10:03 +0900
+! Last modified: 2013-09-27 04:24 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1982,6 +1982,27 @@ _tracking_
 ##a[href*="/click?"]
 ##a[href*="/click_"]
 ##a[href*="/pickup/"]
+! ~capote.posterous.com##a[href*="-pr-"]
+##a[href*="-PR-"]
+##a[href*="-pr."]
+##a[href*="-PR."]
+##a[href*="-pr/"]
+! False positive at amazon.co.jp conflicting over product code like "...SM-JA48-PR/dp/..."
+~amazon.co.jp##a[href*="-PR/"]
+! ~ipss.go.jp##a[href*="/pr-"]
+##a[href*="/PR-"]
+! ~cr.mufg.jp##a[href*="/pr."]
+##a[href*="/PR."]
+! ~smbc-card.com##a[href*="/pr/"]
+##a[href*="/PR/"]
+! ~sanyeicorp.com##a[href*="/pr_"]
+##a[href*="/PR_"]
+! ~yamagata-np.jp##a[href*="_pr."]
+##a[href*="_PR."]
+! ~twitter.com##a[href*="_pr/"]
+! ~twitter.com##a[href*="_PR/"]
+! ~amazon.co.jp##a[href*="_pr_"]
+##a[href*="_PR_"]
 ##a[href*="/promo/"]
 ##a[href*="/r.php?"]
 ##a[href*="/refer.php?"]
@@ -1995,11 +2016,38 @@ _tracking_
 ##[id^="pickup"]:not(body):not(input)
 ##[id$="Pickup"]:not(body):not(input)
 ##[id$="pickup"]:not(body):not(input)
+! ##[id^="PR-"]:not(body):not(input)
+! ##[id^="PR_"]:not(body):not(input)
+! ##[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
+! ~books.com.tw##[id^="pr_"]:not(body):not(input)
+! ##[id*="-PR-"]:not(body):not(input)
+! ##[id*="-pr-"]:not(body):not(input)
+! ##[id*="_PR_"]:not(body):not(input)
+! ##[id*="_pr_"]:not(body):not(input)
+! ##[id$="-PR"]:not(body):not(input)
+! ~kakaku.com##[id$="-pr"]:not(body):not(input)
+! ##[id$="_PR"]:not(body):not(input)
+! ##[id$="_pr"]:not(body):not(input)
 ##[id*="PROMO"]:not(body):not(input)
 ~transifex.com##[id*="promo"]:not(body):not(input):not(#secpromo)
+
 ~sports.yahoo.co.jp##[class^="pickup"]:not(body):not(input)
 ##[class$="Pickup"]:not(body):not(input)
 ##[class$="pickup"]:not(body):not(input)
+! ##[class^="PR-"]:not(body):not(input)
+! ##[class^="PR_"]:not(body):not(input)
+! ##[class^="pr-"]:not(body):not(input)
+! ##[class^="pr_"]:not(body):not(input)
+! ##[class*="-PR-"]:not(body):not(input)
+! ##[class*="-pr-"]:not(body):not(input)
+! ##[class*="_PR_"]:not(body):not(input)
+! ##[class*="_pr_"]:not(body):not(input)
+! Negative condition is added to avoid false positives with default class name of Drupal 7 reported aaron@madlon-kay.com via https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=25 , Feb 14, 2012
+! ##[class*="prtext"]:not(body):not(input)
+! ##[class$="-PR"]:not(body):not(input)
+! ##[class$="-pr"]:not(body):not(input)
+! ##[class$="_PR"]:not(body):not(input)
+! ##[class$="_pr"]:not(body):not(input)
 ##[class*="PROMO"]:not(body):not(input)
 ~personalfirewall.comodo.com,~transifex.com##[class*="promo"]:not(body):not(input):not(.node-promoted):not(.node-not-promoted)
 ! ---------- Generic filters END ----------
