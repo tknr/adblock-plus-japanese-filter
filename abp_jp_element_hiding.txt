@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: h592BFQCwi5VcmGz4pIXpQ
+! Checksum: MSTqatdD9NRuo1F8fNyHUw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309270440
+! Version: 201309270444
 !
-! Last modified: 2013-09-27 04:40 +0900
+! Last modified: 2013-09-27 04:44 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -886,9 +886,10 @@
 ##[id*="Overture"]:not(body):not(input)
 ##[id*="overture"]:not(body):not(input)
 ##[id*="PRtext"]:not(body):not(input)
+##[id*="PrText"]:not(body):not(input)
+##[id*="prText"]:not(body):not(input)
 ! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
 ~amd.com##[id*="prtext"]:not(body):not(input)
-##[id*="prText"]:not(body):not(input)
 ##[id*="SPONSOR"]:not(body):not(input)
 ##[id*="Sponsor"]:not(body):not(input)
 ~accuweather.com##[id*="sponsor"]:not(body):not(input)
@@ -1315,6 +1316,9 @@
 ##[class*="Overture"]:not(body):not(input)
 ##[class*="overture"]:not(body):not(input)
 ##[class*="PRtext"]:not(body):not(input)
+##[class*="Prtext"]:not(body):not(input)
+##[class*="prText"]:not(body):not(input)
+##[class*="prtext"]:not(body):not(input)
 ##[class*="Sponsor"]:not(body):not(input)
 ~bbc.co.uk,~linuxmint.com##[class*="sponsor"]:not(body):not(input)
 ##[class$="-AD"]:not(body):not(input)
