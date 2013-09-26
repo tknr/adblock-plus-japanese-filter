@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: X/Vv0E8AJrYAaEoU8Kyyfg
+! Checksum: h592BFQCwi5VcmGz4pIXpQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309270424
+! Version: 201309270440
 !
-! Last modified: 2013-09-27 04:24 +0900
+! Last modified: 2013-09-27 04:40 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -885,10 +885,10 @@
 ##[id*="OVERTURE"]:not(body):not(input)
 ##[id*="Overture"]:not(body):not(input)
 ##[id*="overture"]:not(body):not(input)
-! ##[id*="PRtext"]:not(body):not(input)
+##[id*="PRtext"]:not(body):not(input)
 ! False positive with inconsistently named id "secpromo" at http://sites.amd.com/us/game/downloads/Pages/radeon_win7-32.aspx
-! ##[id*="prtext"]:not(body):not(input)
-! ##[id*="prText"]:not(body):not(input)
+~amd.com##[id*="prtext"]:not(body):not(input)
+##[id*="prText"]:not(body):not(input)
 ##[id*="SPONSOR"]:not(body):not(input)
 ##[id*="Sponsor"]:not(body):not(input)
 ~accuweather.com##[id*="sponsor"]:not(body):not(input)
@@ -1296,26 +1296,26 @@
 ##[class*="_adv9"]:not(body):not(input)
 ##[class*="adlantis"]:not(body):not(input)
 ##[class*="AdSense"]:not(body):not(input)
+~wikia.com##[class*="adsense"]:not(body):not(input)
 ##[class*="ADVERTISE"]:not(body):not(input)
 ##[class*="Advertise"]:not(body):not(input)
 ##[class*="advertise"]:not(body):not(input)
 ##[class*="ADVERTISEMENT"]:not(body):not(input)
 ##[class*="Advertisement"]:not(body):not(input)
+~slideboom.com##[class*="advertisement"]:not(body):not(input)
 ##[class*="ADVERTISING"]:not(body):not(input)
 ##[class*="Advertising"]:not(body):not(input)
+##[class*="advertising"]:not(body):not(input)
 ##[class*="AdWords"]:not(body):not(input)
 ##[class*="AFFILIATE"]:not(body):not(input)
 ##[class*="Affiliate"]:not(body):not(input)
+##[class*="affiliate"]:not(body):not(input)
 ##[class*="OVERTURE"]:not(body):not(input)
 ##[class*="SPONSOR"]:not(body):not(input)
 ##[class*="Overture"]:not(body):not(input)
-! ##[class*="PRtext"]:not(body):not(input)
-##[class*="Sponsor"]:not(body):not(input)
-~wikia.com##[class*="adsense"]:not(body):not(input)
-~slideboom.com##[class*="advertisement"]:not(body):not(input)
-##[class*="advertising"]:not(body):not(input)
-##[class*="affiliate"]:not(body):not(input)
 ##[class*="overture"]:not(body):not(input)
+##[class*="PRtext"]:not(body):not(input)
+##[class*="Sponsor"]:not(body):not(input)
 ~bbc.co.uk,~linuxmint.com##[class*="sponsor"]:not(body):not(input)
 ##[class$="-AD"]:not(body):not(input)
 ##[class$="-AD1"]:not(body):not(input)
