@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: zi8J7wfEO1un0yVTNCfnCw
+! Checksum: n5L5jc+j5d6rFykYh4Wgig
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309270424
+! Version: 201309302340
 !
-! Last modified: 2013-09-27 04:24 +0900
+! Last modified: 2013-09-30 23:40 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2009,6 +2009,11 @@ _tracking_
 ! Added domain exception to avoid ugly false positives with CATEGORY HIGHLIGHT, Apr 16, 2012
 ~ustream.tv##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
+
+! Obfuscated short URL link with a banner AD image used to avoid adblocking, Sep 30, 2013
+##a[href*="bit.ly"]>img
+##a[href*="goo.gl"]>img
+
 ! Comment out to avoid too many false positives, Feb 27, 2013
 ! ##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 ! ##a[onclick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
