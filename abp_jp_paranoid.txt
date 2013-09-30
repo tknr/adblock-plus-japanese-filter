@@ -2011,8 +2011,8 @@ _tracking_
 ##a[href*="utm_medium=banner"]
 
 ! Obfuscated short URL link with a banner AD image used to avoid adblocking, Sep 30, 2013
-##a[href*="bit.ly"]>img
-##a[href*="goo.gl"]>img
+##a[href*="//bit.ly/"]>img
+##a[href*="//goo.gl/"]>img
 
 ! Comment out to avoid too many false positives, Feb 27, 2013
 ! ##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
