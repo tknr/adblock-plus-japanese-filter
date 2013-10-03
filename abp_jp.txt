@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: /riAC9590S4rs4uUAmgQLw
+! Checksum: qtoYTH/rP4ppFpv/MjqpnA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310040203
+! Version: 201310040241
 !
-! Last modified: 2013-10-04 02:03 +0900
+! Last modified: 2013-10-04 02:41 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3466,6 +3466,7 @@ _yahooads_
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d27jt7xr4fq3e8.cloudfront.net^
 ||d2bbvl6dq48fa6.cloudfront.net^
+||d2o7lat8cdoi27.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d35tca7vmefkrc.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
@@ -3874,6 +3875,7 @@ _yahooads_
 ||flirt4free.com^$third-party
 ||flirtporn.com^
 ||flirtvisio.com^
+||flxpxl.com^
 ||fmpub.net^$third-party
 ||fnac.com^$third-party
 ||focus-marketing.net^$third-party
