@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: +t5J0C7/754c1IQ75T5t6w
+! Checksum: XsY3V+GnuSZwcLKBaerNLw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201309302300
+! Version: 201310041630
 !
-! Last modified: 2013-09-30 23:00 +0900
+! Last modified: 2013-10-04 16:30 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1953,7 +1953,8 @@ twitter.com##.promoted-account
 twitter.com##.promptbird
 twitter.com##.promoted-trend
 twitter.com##.promoted-tweet
-twitter.com##.stream-items > .stream-user-gallery.separation-module
+! Commented out because a user gallery block in the search result page is located on the top now and NOT annoying anymore, Oct 4, 2013
+! twitter.com##.stream-items > .stream-user-gallery.separation-module
 twitteranalyzer.com###BannerHolder
 uniangel.info###cgi
 uniangel.info###globalheader
