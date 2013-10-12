@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8Z8v/sbrcuTu5NV0zfS8dQ
+! Checksum: +xURF0UuvCKudx7JObBwTw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310092114
+! Version: 201310122328
 !
-! Last modified: 2013-10-09 21:14 +0900
+! Last modified: 2013-10-12 23:28 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -149,6 +149,7 @@
 @@||r.fc2.com/rss-disp/rss.$script
 ! False positives with Google Reader when users search for "ads", reported by @SYuno308, July 18, 2012
 @@||google.*/reader/api/*/search/items/ids?q=
+@@||google.*/settings^$document
 @@||google.com/adsense/$document
 @@||google.com/analytics/$document
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
