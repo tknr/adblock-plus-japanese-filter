@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: WjC02aBRFUov9306A4QfhA
+! Checksum: BDmNKlPt1Xg5EForQduRpw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310041636
+! Version: 201310210305
 !
-! Last modified: 2013-10-04 16:36 +0900
+! Last modified: 2013-10-21 03:05 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2193,8 +2193,10 @@ live.nicovideo.jp###watch_zapping_box
 ! ----- live.nicovideo.jp other channels under the ZERO player 2012-08-06 ----- END -----
 
 ! ===== seiga.nicovideo.jp digital book ADs 2012-08-11 ===== START =====
-||lohas.nicoseiga.jp//material/$image,object
-||seiga.nicovideo.jp/book/static/img/book/$image,object
+! Commented out a too strict filter, Oct 21, 2013
+! ||lohas.nicoseiga.jp//material/$image,object
+! Commented out a too strict filter, Oct 21, 2013
+! ||seiga.nicovideo.jp/book/static/img/book/$image,object
 seiga.nicovideo.jp###book_area_container
 seiga.nicovideo.jp###book_ranking_box
 seiga.nicovideo.jp###illust_block_event
