@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: sOe+nehasf0QUWwaLLqfrg
+! Checksum: mvaw7eyhD5qr+BylS6kAig
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310230643
+! Version: 201310230652
 !
-! Last modified: 2013-10-23 06:43 +0900
+! Last modified: 2013-10-23 06:52 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2061,6 +2061,14 @@ _tracking_
 ! ########## Each Service START ##########
 
 ! ===== Omniture SiteCatalyst ===== START =====
+-omni-$script
+-omni.$script
+-omni^$script
+-omni_$script
+-omniture-
+-omniture.
+-omniture^
+-omniture_
 -s_code-$script
 -s_code.$script
 -s_code^$script
@@ -2069,6 +2077,14 @@ _tracking_
 -s_code2.$script
 -s_code2^$script
 -s_code2_$script
+.omni-$script
+.omni.$script
+.omni^$script
+.omni_$script
+.omniture-
+.omniture.
+.omniture^
+.omniture_
 .s_code-$script
 .s_code.$script
 .s_code^$script
@@ -2093,6 +2109,10 @@ _tracking_
 ^s_code2.$script
 ^s_code2^$script
 ^s_code2_$script
+_omni-$script
+_omni.$script
+_omni^$script
+_omni_$script
 _omniture-
 _omniture.
 _omniture^
