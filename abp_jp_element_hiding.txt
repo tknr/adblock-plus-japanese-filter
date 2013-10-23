@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: kYuljp2QaTVGiqC7qKaYZw
+! Checksum: eVnJd9lGf9/7wZ5TDgp12g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310070101
+! Version: 201310240234
 !
-! Last modified: 2013-10-07 01:01 +0900
+! Last modified: 2013-10-24 02:34 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -500,6 +500,7 @@ appbank.net##a[href*="//bit.ly/"]
 ##a[href*=".ca-mpr.jp/"]
 ##a[href*="//refer.ccbill.com"]
 ##a[href*="//ccrt.biz/"]
+##a[href*="//clcount.com/"]
 ##a[href*="clget.jp/"]
 ##a[href*="//clk-fm-report.net"]
 ##a[href*=".counter-hosting.com"]
