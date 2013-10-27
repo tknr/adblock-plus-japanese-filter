@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: U/94DamYjZVsFUXkjnoACg
+! Checksum: SDJtaZwDueQK+y5auEmCLA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201310251209
+! Version: 201310280551
 !
-! Last modified: 2013-10-25 12:09 +0900
+! Last modified: 2013-10-28 05:51 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4733,6 +4733,7 @@ _yahooads_
 ||numerikart.com^
 ||nxtck.com^
 ||files.nyaa.eu/ab
+||files.nyaa.se/ac
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
 ||obtenir-de-l-argent.com^
