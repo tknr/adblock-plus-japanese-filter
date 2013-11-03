@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: u6DHN6q0KnS8PjRlhPmejw
+! Checksum: BWBbMXoUAQCy2RjGk+DPaQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201311021901
+! Version: 201311032218
 !
-! Last modified: 2013-11-02 19:01 +0900
+! Last modified: 2013-11-03 22:18 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1276,7 +1276,8 @@ appbank.net##a[href*="//bit.ly/"]
 ##[class*="_ADs7"]:not(body):not(input)
 ##[class*="_ADs8"]:not(body):not(input)
 ##[class*="_ADs9"]:not(body):not(input)
-##[class*="_ads_"]:not(body):not(input)
+! Added a negative condition #content to avoid a false positive with the main player at www.nicovideo.jp/watch/sm12345678, Nov 3, 2013
+##[class*="_ads_"]:not(#content):not(body):not(input)
 ##[class*="_ads0"]:not(body):not(input)
 ##[class*="_ads1"]:not(body):not(input)
 ##[class*="_ads2"]:not(body):not(input)
@@ -1426,7 +1427,8 @@ appbank.net##a[href*="//bit.ly/"]
 ##[class$="_ad9"]:not(body):not(input)
 ! Added a negative condition #playerCommentPanel to avoid false positives with comment panel of movie player at nicovideo.jp, Oct 18th, 2012
 ! Added a negative condition #content to avoid false positives with main contents at sendspace.com/file/, reported by ぽちょ via blog, Jan 12, 2013
-##[class$="_ads"]:not(#content):not(#playerCommentPanel):not(body):not(input)
+! Added a negative condition #playerTabContainer to avoid false positives with the main player at www.nicovideo.jp/watch/sm12345678, Nov 3, 2013
+##[class$="_ads"]:not(#content):not(#playerCommentPanel):not(#playerTabContainer):not(body):not(input)
 ##[class$="_ads0"]:not(body):not(input)
 ##[class$="_ads1"]:not(body):not(input)
 ##[class$="_ads2"]:not(body):not(input)
