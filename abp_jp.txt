@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: /j7i/noZPT3FAB496jVZAQ
+! Checksum: 8Zd+bTrxwgWrX4zsiUYMIg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201311212254
+! Version: 201311240006
 !
-! Last modified: 2013-11-21 22:54 +0900
+! Last modified: 2013-11-24 00:06 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -388,6 +388,10 @@
 -comscore.
 -comscore^
 -comscore_
+-evercookie-
+-evercookie.
+-evercookie^
+-evercookie_
 -impression_id-
 -impression_id.
 -impression_id^
@@ -552,6 +556,10 @@
 .cellcastmedia^
 .cellcastmedia_
 .cherry-chat.
+.evercookie-
+.evercookie.
+.evercookie^
+.evercookie_
 .histats.$third-party
 .impact-ad.jp^$third-party
 .impression_id-
@@ -1972,6 +1980,10 @@
 ^eas.$third-party
 ^eas^$third-party
 ^eas_$third-party
+^evercookie-
+^evercookie.
+^evercookie^
+^evercookie_
 ^foresee-$script
 ^foresee.$script
 ^foresee^$script
@@ -2551,6 +2563,10 @@ _comscore.
 _comscore^
 _comscore_
 _customads_
+_evercookie-
+_evercookie.
+_evercookie^
+_evercookie_
 _google_afc-
 _google_afc.
 _google_afc^
