@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: aWQdU/HLzEzOypc62tD6ZA
+! Checksum: n+F3P4gIq4t3bXAujFaWnA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201311242239
+! Version: 201312042045
 !
-! Last modified: 2013-11-24 22:39 +0900
+! Last modified: 2013-12-04 20:45 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -872,6 +872,8 @@
 /afr?auid=
 ! merged into .php?zoneid=
 ! /ajs.php?zoneid=
+/amazon-right$script
+/amazon_right$script
 /ana/*?uid=
 /ana/analyzer.
 /ana/icon.
@@ -1226,6 +1228,12 @@
 ! /text_ads.
 ! /text_ads^
 ! /text_ads_
+/textmore-footer$script
+/textmore-header$script
+/textmore-middle$script
+/textmore_footer$script
+/textmore_header$script
+/textmore_middle$script
 ! Commented out duplicated filters, Feb 26, 2012
 ! /tii_ads.$script
 /tirjs2.$script
@@ -3871,6 +3879,7 @@ _yahooads_
 ||fastpic.ru^$third-party
 ||tracking.fathomseo.com^
 ||fbchatplus.com^
+||fc2-master.sakura.ne.jp^$third-party
 ||fc2.com^*/random.$script
 ||fc2.com^*janre.$script
 ||fc2.com/ad/
