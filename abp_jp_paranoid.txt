@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: sDNT4tuN6Nu74xMvNOInWA
+! Checksum: a/fiQHwNkOsEwUTAHFjeFA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201312031916
+! Version: 201312060018
 !
-! Last modified: 2013-12-03 19:16 +0900
+! Last modified: 2013-12-06 00:18 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -53,6 +53,8 @@
 @@||ameba.jp/blog/ucs/js/editor/popups/
 ! False positives with with ^stats.$domain=~beta.babelzilla.org at player score pages, Sep 4, 2013
 @@||bombermine.com/tmpl/profile/
+! False positives with ||cachefly.net^$third-party loading Ext JS, Dec 6, 2013
+@@||extjs.cachefly.net^
 @@||clustrmaps.com/stats/$~third-party
 @@||sci.la.coocan.jp^*/log/
 ! False positive at crowdin.net with a user-role configuration script with a filter ^tracker^
