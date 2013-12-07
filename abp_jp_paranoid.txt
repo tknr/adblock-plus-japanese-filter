@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: EU4pxFNWFOx/UsmCjKkArQ
+! Checksum: kva5u94kTAFRDesdUyGxaA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201312060113
+! Version: 201312072136
 !
-! Last modified: 2013-12-06 01:13 +0900
+! Last modified: 2013-12-07 21:36 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2498,6 +2498,7 @@ www.yahoo.co.jp###local
 ||name/trendmade.cgi?$third-party
 ||name/valcunatrop.cgi?$third-party
 ||changeip.name^$third-party
+||ns1.name^$third-party
 ||ns2.name^$third-party
 ||ns3.name^$third-party
 ||net/nighttrend.cgi?$third-party
