@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: OLePwcI7xqC8vnxW0J7PoA
+! Checksum: 5OjYB2/OSzeuuNNoXVsNPg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401010520
+! Version: 201401010556
 !
-! Last modified: 2014-01-01 05:20 +0900
+! Last modified: 2014-01-01 05:56 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -251,9 +251,10 @@
 &adsource_
 &adSpace=
 &adtype=
-! Commented out a duplicated filter with the ^adv^ filter, Oct 9, 2013
+! Commented out a duplicated filter with ^adv^, Oct 9, 2013
 ! &adv=
-&advertiser=
+! Commented out a duplicated filter with ^advertiser^, Jan 1, 2014
+! &advertiser=
 &advTile=
 &adx-
 &adx.
@@ -340,6 +341,22 @@
 -advert.
 -advert^
 -advert_
+-advertise-
+-advertise.
+-advertise^
+-advertise_
+-advertiser-
+-advertiser.
+-advertiser^
+-advertiser_
+-advertisers-
+-advertisers.
+-advertisers^
+-advertisers_
+-advertising-
+-advertising.
+-advertising^
+-advertising_
 -adverts-
 -adverts.
 -adverts^
@@ -518,6 +535,30 @@
 .adv.
 .adv^
 .adv_
+.advert-
+.advert.
+.advert^
+.advert_
+.advertise-
+.advertise.
+.advertise^
+.advertise_
+.advertiser-
+.advertiser.
+.advertiser^
+.advertiser_
+.advertisers-
+.advertisers.
+.advertisers^
+.advertisers_
+.advertising-
+.advertising.
+.advertising^
+.advertising_
+.adverts-
+.adverts.
+.adverts^
+.adverts_
 .advertstream-
 .advertstream.
 .advertstream^
@@ -1355,13 +1396,14 @@
 ?adthinkmedia^
 ?adthinkmedia_
 ?adunitid=
-! Commented out a duplicated filter with the ^adv^ filter, Oct 9, 2013
+! Commented out a duplicated filter with ^adv^ filter, Oct 9, 2013
 ! ?adv=
-?advertiser=
-?advertstream-
-?advertstream.
-?advertstream^
-?advertstream_
+! Commented out duplicated filters with ^advert... , Jan 1, 2014
+! ?advertiser=
+! ?advertstream-
+! ?advertstream.
+! ?advertstream^
+! ?advertstream_
 ?advTile=
 ?adx-
 ?adx.
@@ -1817,6 +1859,18 @@
 ^advertisement.
 ^advertisement^
 ^advertisement_
+^advertiser-
+^advertiser.
+^advertiser^
+^advertiser_
+^advertisers-
+^advertisers.
+^advertisers^
+^advertisers_
+^advertising-
+^advertising.
+^advertising^
+^advertising_
 ^advertisingcom-
 ^advertisingcom.
 ^advertisingcom^
@@ -2530,6 +2584,30 @@ _adv_
 ! _adv_imgs.
 ! _adv_imgs^
 ! _adv_imgs_
+_advert-
+_advert.
+_advert^
+_advert_
+_advertise-
+_advertise.
+_advertise^
+_advertise_
+_advertiser-
+_advertiser.
+_advertiser^
+_advertiser_
+_advertisers-
+_advertisers.
+_advertisers^
+_advertisers_
+_advertising-
+_advertising.
+_advertising^
+_advertising_
+_adverts-
+_adverts.
+_adverts^
+_adverts_
 _advertstream-
 _advertstream.
 _advertstream^
