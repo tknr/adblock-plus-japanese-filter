@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: pR39gKJWycVjmoSbs+xW6Q
+! Checksum: BHSijMyYMLkB0Hd5bVbGRA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401082209
+! Version: 201401082249
 !
-! Last modified: 2014-01-08 22:09 +0900
+! Last modified: 2014-01-08 22:49 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3529,6 +3529,7 @@ _yahooads_
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
 ||boo-box.com^$third-party
+||bootstrapcdn.com^$third-party
 ||boyfriendtv.com^$third-party
 ||brainient.com^$third-party
 ||brandreachsys.com^$third-party
@@ -3816,6 +3817,7 @@ _yahooads_
 ||dapper.net^
 ||daredac.com^
 ||data-ero-advertising.com^
+||datafastguru.info^
 ||datefree.com^$third-party
 ||datelycu.com^
 ||dating-express.net^
@@ -4856,6 +4858,8 @@ _yahooads_
 ||netaffiliation.$third-party
 ||netavenir.com^$third-party
 ||netaxle.com^$third-party
+||netdna-cdn.com^$third-party
+||netdna.com^$third-party
 ||netgy.com^$third-party
 ||netsecurity.ne.jp/bnr/
 ||netshelter.net^$third-party
