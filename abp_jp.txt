@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7vPVDDeA2O6GWc2XqIgoyA
+! Checksum: G1+NftM5fEtHBoepyi/yfQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401082126
+! Version: 201401082141
 !
-! Last modified: 2014-01-08 21:26 +0900
+! Last modified: 2014-01-08 21:41 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -306,6 +306,14 @@
 -adgear.
 -adgear^
 -adgear_
+-adimg-
+-adimg.
+-adimg^
+-adimg_
+-adimgs-
+-adimgs.
+-adimgs^
+-adimgs_
 -ads-
 -ads.$domain=~retweet-ads.net
 -ads^
@@ -366,6 +374,14 @@
 -advertstream.
 -advertstream^
 -advertstream_
+-advimg-
+-advimg.
+-advimg^
+-advimg_
+-advimgs-
+-advimgs.
+-advimgs^
+-advimgs_
 -adways-
 -adways.
 -adways^
@@ -507,6 +523,14 @@
 .adgear.
 .adgear^
 .adgear_
+.adimg-
+.adimg.
+.adimg^
+.adimg_
+.adimgs-
+.adimgs.
+.adimgs^
+.adimgs_
 .adInfo.
 .adobe.com/uber/$script
 .adriver.
@@ -566,6 +590,14 @@
 .advertstream.
 .advertstream^
 .advertstream_
+.advimg-
+.advimg.
+.advimg^
+.advimg_
+.advimgs-
+.advimgs.
+.advimgs^
+.advimgs_
 .adways-
 .adways.
 .adways^
@@ -1604,6 +1636,14 @@
 ^adimages.
 ^adimages^
 ^adimages_
+^adimg-
+^adimg.
+^adimg^
+^adimg_
+^adimgs-
+^adimgs.
+^adimgs^
+^adimgs_
 ^adinfo-
 ^adinfo.
 ^adinfo^
@@ -1896,6 +1936,14 @@
 ^adview.
 ^adview^
 ^adview_
+^advimg-
+^advimg.
+^advimg^
+^advimg_
+^advimgs-
+^advimgs.
+^advimgs^
+^advimgs_
 ^adways-
 ^adways.
 ^adways^
@@ -2540,6 +2588,14 @@ _adgear-
 _adgear.
 _adgear^
 _adgear_
+_adimg-
+_adimg.
+_adimg^
+_adimg_
+_adimgs-
+_adimgs.
+_adimgs^
+_adimgs_
 _AdPlugin-
 _AdPlugin.
 _AdPlugin^
@@ -2617,6 +2673,14 @@ _advertstream-
 _advertstream.
 _advertstream^
 _advertstream_
+_advimg-
+_advimg.
+_advimg^
+_advimg_
+_advimgs-
+_advimgs.
+_advimgs^
+_advimgs_
 _adways-
 _adways.
 _adways^
