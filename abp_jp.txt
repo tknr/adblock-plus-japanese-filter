@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: jfcl9ldzEGiEBWIPg5BUvw
+! Checksum: 9CNdwM9gEAE/w63o2m2TPg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401100253
+! Version: 201401100310
 !
-! Last modified: 2014-01-10 02:53 +0900
+! Last modified: 2014-01-10 03:10 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3036,6 +3036,7 @@ _yahooads_
 ||actaads.com^$third-party
 ||actinside.com^
 ||actionallocator.com^
+||actionpay.ru^$third-party
 ||activecore.jp^$third-party
 ||actu-bons-plan.com^
 ||actu-rencontre.com^
@@ -4461,6 +4462,7 @@ _yahooads_
 ||jxliu.com^$third-party
 ||k-img.com^*/Rdm$script
 ||k-img.com^*_catalyst.$script
+||k1nomania.com^
 ||kadtd.com^
 ||kakaku.com^*/Rdm
 ||kakaku.com/images/rex-card/
@@ -4701,6 +4703,7 @@ _yahooads_
 ||mediadakine.com^
 ||mediaforge.com^$third-party
 ||mediagra.com^$third-party
+||mediaground.org^$third-party
 ||medialand.ru^$third-party
 ||mediaplex.com^$third-party
 ||mediarich.cc^$third-party
