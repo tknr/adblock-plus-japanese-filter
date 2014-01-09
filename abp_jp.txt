@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: pmdT64eF+sWeHTgayA/xtA
+! Checksum: mnsKpkFMyTIlshIGp8mUqw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401100057
+! Version: 201401100231
 !
-! Last modified: 2014-01-10 00:57 +0900
+! Last modified: 2014-01-10 02:31 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3112,6 +3112,7 @@ _yahooads_
 ||admagnet.net^$popup
 ||admagnet.net^$third-party
 ||admarvel.com^$third-party
+||admaster.net^$third-party
 ||admaxasia.com^
 ||admeld.com^$third-party
 ||admitad.com^$third-party
@@ -5405,6 +5406,7 @@ _yahooads_
 ||simplyhired.com^$third-party
 ||siouxi.com^
 ||site-plan.jp^$third-party
+||site4write.ru^$third-party
 ||sitebro.com^
 ||sitebro.com.tw^
 ||sitebro.jp^$third-party
@@ -5423,6 +5425,7 @@ _yahooads_
 ||skinected.com^$third-party
 ||slidesharecdn.com^*/proCtaBox.
 ||sm-miracle.com^$third-party
+||smaclick.com^$third-party
 ||smaero.jp^$third-party
 ||smanavi.net^$third-party
 ||smart-c.jp^$third-party
