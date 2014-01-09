@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ST/rYxPdDApSGmDCW8HbBg
+! Checksum: TKngUAyGByMfzFASm2RzOg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401100124
+! Version: 201401100126
 !
-! Last modified: 2014-01-10 01:24 +0900
+! Last modified: 2014-01-10 01:26 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2022,6 +2022,7 @@ yahoo.co.jp,yahoo.com###northbanner
 ! Temporarily commented out a filter which caused a false positive at cm.tw.my.yahoo.com, reported via Issue Report 2011-08-05
 ! yahoo.co.jp,yahoo.com##a[href*="lrd.yahoo.com"]
 yahoo.co.jp,yahoo.com##a[href*="//ard.yahoo."]:not([href*="//account."]):not([href*="//chiebukuro."]):not([href*="//disaster."]):not([href*="//emergency."]):not([href*="//help."]):not([href*="//login."]):not([href*="//setsuden."]):not([href*="//weather.yahoo.co.jp"]):not([href*="//www.yahoo.co.jp"])
+yahoo.co.jp,yahoo.com##a[href*=".bc.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//krd.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//promotion.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//rd.ane.yahoo."]
