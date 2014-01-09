@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: mnsKpkFMyTIlshIGp8mUqw
+! Checksum: jfcl9ldzEGiEBWIPg5BUvw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401100231
+! Version: 201401100253
 !
-! Last modified: 2014-01-10 02:31 +0900
+! Last modified: 2014-01-10 02:53 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3057,6 +3057,8 @@ _yahooads_
 |http:*.ad-v.jp^
 |https:*.ad-v.jp^
 ||ad-ya.net^
+|http://*.ad.ru^$third-party
+|https://*.ad.ru^$third-party
 ||ad1.ru^$third-party
 ||ad2games.com^$third-party
 ||ad4game.com^$third-party
@@ -3821,6 +3823,7 @@ _yahooads_
 ||daredac.com^
 ||data-ero-advertising.com^
 ||datafastguru.info^
+||datamind.ru^$third-party
 ||datefree.com^$third-party
 ||datelycu.com^
 ||dating-express.net^
@@ -4270,6 +4273,7 @@ _yahooads_
 ||hotlog.ru^$third-party
 ||d.href.asia^
 ||huagu.com^$third-party
+||hubrus.com^$third-party
 ||hubspot.com^$third-party
 ||hulu.*/cram.
 ||hulu.*/gc?
@@ -5165,7 +5169,7 @@ _yahooads_
 ||rd.rakuten.co.jp/p/
 ||rakuten-static.com^*/prm_sender.
 ||rakuword.com^$third-party
-||counter.rambler.ru^
+||rambler.ru^$third-party
 ||rapidocam.com^
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
@@ -5279,6 +5283,7 @@ _yahooads_
 ||blacknews.sakura.ne.jp^
 ||sakuralive.com^$popup
 ||sakuralive.com^$third-party
+||sale-promo.ru^$third-party
 ||samuraiworks.com^$third-party
 ||adcl.sankei.co.jp^
 ||sarenza.com^$popup
@@ -5680,6 +5685,8 @@ _yahooads_
 ||unitag.jp^$third-party
 ||unthem.com^
 ||untily.com^
+|http://*.up.ru
+|https://*.up.ru
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
 ||usagc.org^$third-party
