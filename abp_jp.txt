@@ -215,7 +215,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=1channel.ch|adnxs.com|animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|megaupload.com|megavideo.com|mk-sniper.net|pornbus.org|primewire.ag|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com
+|http:$popup,domain=1channel.ch|adnxs.com|animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|pornbus.org|primewire.ag|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -3273,6 +3273,7 @@ _yahooads_
 ||alfalfalfa.com/headline$subdocument
 ||alianzis.com^$third-party
 ||alibaba.com^$third-party
+||aliexpress.com^$popup
 ||alimama.cn^$third-party
 ||allabout.co.jp/js/aa/
 ||allabout.co.jp/js/gm/
