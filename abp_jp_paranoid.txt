@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: dqzYH+aHaz/L5Dhyybl8Pw
+! Checksum: xh7bsPXIyCy0aAXyngQHqw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401081851
+! Version: 201401160235
 !
-! Last modified: 2014-01-08 18:51 +0900
+! Last modified: 2014-01-16 02:35 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2137,6 +2137,10 @@ _s_code2_$script
 
 
 ! ########## Each Domain START ##########
+
+! ===== Adobe SiteCatalyst =====
+.adobe.com/uber/$script
+! ----- Adobe SiteCatalyst -----
 
 ! ===== Amazon Affiliate killer ===== START =====
 ##a[href*="amazon."][href*="/ASIN/"][href*="-22"]
