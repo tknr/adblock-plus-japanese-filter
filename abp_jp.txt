@@ -1,5 +1,5 @@
 [Adblock Plus 2.3.1]
-! Checksum: y2nhogH+Q8pXQg9DxxZmMA
+! Checksum: bo6DXHZ9KktvNhk+Irucog
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
@@ -2327,6 +2327,10 @@
 ^js^omni.
 ^js^omni^
 ^js^omni_
+^jspopunder-
+^jspopunder.
+^jspopunder^
+^jspopunder_
 ^kokoku-
 ^kokoku.
 ^kokoku^
