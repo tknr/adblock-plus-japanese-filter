@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: LV7trk0Lu2nI1u+vQDfa8w
+! Checksum: n5aeycQWZPzd1AM1rQIacA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401122315
+! Version: 201401172115
 !
-! Last modified: 2014-01-12 23:15 +0900
+! Last modified: 2014-01-17 21:15 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1999,6 +1999,7 @@ urlvoid.com###content > *[style^="text-align: center;"]
 urlvoid.com###main-banner
 ustream.tv###AdFreePromo
 ustream.tv###getStartedBanner
+ustream.tv##.banner-wrapper
 ustream.tv##.channelContextAd
 ustream.tv##.channelTopBannerWrapper
 ustream.tv##.topLeaderBoardContainer
