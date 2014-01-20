@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rtM/jx1oLKb5Zj1RCV6Szg
+! Checksum: yF7M7ymcQrdxh7bVP/9MZw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401201546
+! Version: 201401201626
 !
-! Last modified: 2014-01-20 15:46 +0900
+! Last modified: 2014-01-20 16:26 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -507,6 +507,50 @@
 ! -stat.
 ! -stat^
 ! -stat_
+-teaser-
+-teaser.
+-teaser^
+-teaser_
+-teaser0-
+-teaser0.
+-teaser0^
+-teaser0_
+-teaser1-
+-teaser1.
+-teaser1^
+-teaser1_
+-teaser2-
+-teaser2.
+-teaser2^
+-teaser2_
+-teaser3-
+-teaser3.
+-teaser3^
+-teaser3_
+-teaser4-
+-teaser4.
+-teaser4^
+-teaser4_
+-teaser5-
+-teaser5.
+-teaser5^
+-teaser5_
+-teaser6-
+-teaser6.
+-teaser6^
+-teaser6_
+-teaser7-
+-teaser7.
+-teaser7^
+-teaser7_
+-teaser8-
+-teaser8.
+-teaser8^
+-teaser8_
+-teaser9-
+-teaser9.
+-teaser9^
+-teaser9_
 -textad.
 -utm.$script
 -yahooads-
@@ -728,6 +772,50 @@
 ! .stat.
 ! .stat^
 ! .stat_
+.teaser-
+.teaser.
+.teaser^
+.teaser_
+.teaser0-
+.teaser0.
+.teaser0^
+.teaser0_
+.teaser1-
+.teaser1.
+.teaser1^
+.teaser1_
+.teaser2-
+.teaser2.
+.teaser2^
+.teaser2_
+.teaser3-
+.teaser3.
+.teaser3^
+.teaser3_
+.teaser4-
+.teaser4.
+.teaser4^
+.teaser4_
+.teaser5-
+.teaser5.
+.teaser5^
+.teaser5_
+.teaser6-
+.teaser6.
+.teaser6^
+.teaser6_
+.teaser7-
+.teaser7.
+.teaser7^
+.teaser7_
+.teaser8-
+.teaser8.
+.teaser8^
+.teaser8_
+.teaser9-
+.teaser9.
+.teaser9^
+.teaser9_
 .TieupNotification.
 .vipmobile.
 .yahooads-
@@ -2546,6 +2634,46 @@
 ^teaser.
 ^teaser^
 ^teaser_
+^teaser0-
+^teaser0.
+^teaser0^
+^teaser0_
+^teaser1-
+^teaser1.
+^teaser1^
+^teaser1_
+^teaser2-
+^teaser2.
+^teaser2^
+^teaser2_
+^teaser3-
+^teaser3.
+^teaser3^
+^teaser3_
+^teaser4-
+^teaser4.
+^teaser4^
+^teaser4_
+^teaser5-
+^teaser5.
+^teaser5^
+^teaser5_
+^teaser6-
+^teaser6.
+^teaser6^
+^teaser6_
+^teaser7-
+^teaser7.
+^teaser7^
+^teaser7_
+^teaser8-
+^teaser8.
+^teaser8^
+^teaser8_
+^teaser9-
+^teaser9.
+^teaser9^
+^teaser9_
 ^teasers-
 ^teasers.
 ^teasers^
@@ -2859,6 +2987,46 @@ _teaser-
 _teaser.
 _teaser^
 _teaser_
+_teaser0-
+_teaser0.
+_teaser0^
+_teaser0_
+_teaser1-
+_teaser1.
+_teaser1^
+_teaser1_
+_teaser2-
+_teaser2.
+_teaser2^
+_teaser2_
+_teaser3-
+_teaser3.
+_teaser3^
+_teaser3_
+_teaser4-
+_teaser4.
+_teaser4^
+_teaser4_
+_teaser5-
+_teaser5.
+_teaser5^
+_teaser5_
+_teaser6-
+_teaser6.
+_teaser6^
+_teaser6_
+_teaser7-
+_teaser7.
+_teaser7^
+_teaser7_
+_teaser8-
+_teaser8.
+_teaser8^
+_teaser8_
+_teaser9-
+_teaser9.
+_teaser9^
+_teaser9_
 _teasers-
 _teasers.
 _teasers^
