@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: DXdnabWJ/yGgn3R0gkEY7g
+! Checksum: rtM/jx1oLKb5Zj1RCV6Szg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401200323
+! Version: 201401201546
 !
-! Last modified: 2014-01-20 03:23 +0900
+! Last modified: 2014-01-20 15:46 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -251,7 +251,8 @@
 &adsource^
 &adsource_
 &adSpace=
-&adtype=
+! Commented out a duplicated filter with ^adtype^, Jan 20, 2014
+! &adtype=
 ! Commented out a duplicated filter with ^adv^, Oct 9, 2013
 ! &adv=
 ! Commented out a duplicated filter with ^advertiser^, Jan 1, 2014
@@ -316,6 +317,10 @@
 -adimgs.
 -adimgs^
 -adimgs_
+-adlink-
+-adlink.
+-adlink^
+-adlink_
 -ads-
 -ads.$domain=~retweet-ads.net
 -ads^
@@ -344,6 +349,10 @@
 -adtracker.
 -adtracker^
 -adtracker_
+-adtype-
+-adtype.
+-adtype^
+-adtype_
 -adv-
 -adv.
 -adv^
@@ -534,6 +543,10 @@
 .adimgs^
 .adimgs_
 .adInfo.
+.adlink-
+.adlink.
+.adlink^
+.adlink_
 .adriver.
 ! Preparing to move to whitelist 2011-12-07
 ! .adsense-$domain=~google.com
@@ -559,6 +572,10 @@
 .adtracker.
 .adtracker^
 .adtracker_
+.adtype-
+.adtype.
+.adtype^
+.adtype_
 .adv-
 .adv.
 .adv^
@@ -1668,6 +1685,10 @@
 ^adlayers.
 ^adlayers^
 ^adlayers_
+^adlink-
+^adlink.
+^adlink^
+^adlink_
 ^adListing-
 ^adListing.
 ^adListing^
@@ -1856,6 +1877,10 @@
 ^adtracker.
 ^adtracker^
 ^adtracker_
+^adtype-
+^adtype.
+^adtype^
+^adtype_
 ^adv-
 ^adv.
 ^adv^
@@ -2608,6 +2633,10 @@ _adimgs-
 _adimgs.
 _adimgs^
 _adimgs_
+_adlink-
+_adlink.
+_adlink^
+_adlink_
 _AdPlugin-
 _AdPlugin.
 _AdPlugin^
@@ -2644,6 +2673,10 @@ _adtracker-
 _adtracker.
 _adtracker^
 _adtracker_
+_adtype-
+_adtype.
+_adtype^
+_adtype_
 _adv-
 _adv.
 _adv^
