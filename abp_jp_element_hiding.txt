@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: PQNshY8bQVaujaEs4gqhsA
+! Checksum: PwzEtvieX337no2DUhhmdw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401200113
+! Version: 201401241951
 !
-! Last modified: 2014-01-20 01:13 +0900
+! Last modified: 2014-01-24 19:51 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1695,8 +1695,9 @@ encrypted.google.com,www.google.com,www.google.co.jp###resultStats + div[style*=
 encrypted.google.com,www.google.com,www.google.co.jp###rtpl
 encrypted.google.com,www.google.com,www.google.co.jp###tads
 encrypted.google.com,www.google.com,www.google.co.jp###tadsb
-encrypted.google.com,www.google.com,www.google.co.jp###taw
-! false positives: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
+! False positive with typo-fixed note over the first result, Jan 24, 2014
+! encrypted.google.com,www.google.com,www.google.co.jp###taw
+! False positives: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
 ! encrypted.google.com,www.google.com,www.google.co.jp###topstuff
 encrypted.google.com,www.google.com,www.google.co.jp###wmxmsg
 encrypted.google.com,www.google.com,www.google.co.jp##.commercial-unit
