@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: +GVqcJohyPmheO5MiuD7Ng
+! Checksum: O8krCjfZbtmVCxVhN0jqtQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401260444
+! Version: 201401262147
 !
-! Last modified: 2014-01-26 04:44 +0900
+! Last modified: 2014-01-26 21:47 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5541,9 +5541,10 @@ _yahooads_
 ||saisoncard.co.jp/netanswer/kakakucom/
 ||saisoncard.co.jp/netanswer/na_top/if_banner
 ||ac.saisoncard.co.jp^
+||netanswerplus.saisoncard.co.jp^*/iframe.$subdocument
+||netanswerplus.saisoncard.co.jp^*/jquery.shuffle.$script
 ||netanswerplus.saisoncard.co.jp^*/phonnin.
 ||netanswerplus.saisoncard.co.jp^*/top.$script
-||netanswerplus.saisoncard.co.jp^*/jquery.shuffle.$script
 ||animalch.sakura.ne.jp^
 ||blacknews.sakura.ne.jp^
 ||sakuralive.com^$popup
