@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: FynPJR5viyHNCVhQMklNtw
+! Checksum: /4KM9K6Es7ofM+UZ61td9g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401290312
+! Version: 201401290409
 !
-! Last modified: 2014-01-29 03:12 +0900
+! Last modified: 2014-01-29 04:09 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5316,6 +5316,7 @@ _yahooads_
 ||pillendienst.com^$third-party
 ! ||ads.pimote.net^
 ||pingdom.net^$third-party
+||pingoo.jp^$third-party
 ||pinoyfullmovies.com^$third-party
 ||log.pinterest.com^
 ||pipe-ejac.net^
