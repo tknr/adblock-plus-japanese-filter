@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UWidNL419A+OzjOgS0A94w
+! Checksum: J0VoI78XMltMXmE+UB3cnA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401170005
+! Version: 201401310101
 !
-! Last modified: 2014-01-17 00:05 +0900
+! Last modified: 2014-01-31 01:01 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2171,12 +2171,6 @@ amazon.co.jp,amazon.com###hlb-upsell
 amazon.co.jp,amazon.com##.rcm
 amazon.co.jp,amazon.com##.rcmBody
 ! ----- Amazon recommending products ----- END -----
-
-! ===== Facebook external scripts ===== START =====
-||connect.facebook.
-||fbcdn-$domain=~facebook.com
-||fbcdn.$domain=~facebook.com
-! ----- Facebook external scripts ----- END -----
 
 ! ===== fc2 Video recommendation ===== START =====
 video.fc2.com##.recommend
