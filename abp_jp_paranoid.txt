@@ -53,6 +53,7 @@
 ! False positives with with ^stats.$domain=~beta.babelzilla.org at player score pages, Sep 4, 2013
 @@||bombermine.com/tmpl/profile/
 @@||bootstrapcdn.com/bootstrap/
+@@||bootstrapcdn.com/font-awesome/
 ! False positives with ||cachefly.net^$third-party loading Ext JS, Dec 6, 2013
 @@||extjs.cachefly.net^
 @@||clustrmaps.com/stats/$~third-party
