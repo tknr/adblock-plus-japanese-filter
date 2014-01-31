@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZArBCA7FGjj1Pl7Tux3/LQ
+! Checksum: 7HwmEAzTRBDAs8oJCKtZFQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401301730
+! Version: 201402010434
 !
-! Last modified: 2014-01-30 17:30 +0900
+! Last modified: 2014-02-01 04:34 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3773,7 +3773,8 @@ _yahooads_
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
 ||boo-box.com^$third-party
-||bootstrapcdn.com^$third-party
+! Moved to the Paranoid subscription to avoid false positives, Feb 1, 2014
+! ||bootstrapcdn.com^$third-party
 ||boyfriendtv.com^$third-party
 ||brainient.com^$third-party
 ||brandreachsys.com^$third-party
@@ -5141,7 +5142,8 @@ _yahooads_
 ||netaffiliation.$third-party
 ||netavenir.com^$third-party
 ||netaxle.com^$third-party
-||netdna-cdn.com^$third-party
+! Moved to the Paranoid subscription to avoid false positives, Feb 1, 2014
+! ||netdna-cdn.com^$third-party
 ||netdna.com^$third-party
 ||netgy.com^$third-party
 ||netmng.com^$third-party
