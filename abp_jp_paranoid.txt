@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: J0VoI78XMltMXmE+UB3cnA
+! Checksum: 5BLKmlw540hMDlLbdsX4fw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201401310101
+! Version: 201402010434
 !
-! Last modified: 2014-01-31 01:01 +0900
+! Last modified: 2014-02-01 04:34 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -52,6 +52,7 @@
 @@||ameba.jp/blog/ucs/js/editor/popups/
 ! False positives with with ^stats.$domain=~beta.babelzilla.org at player score pages, Sep 4, 2013
 @@||bombermine.com/tmpl/profile/
+@@||bootstrapcdn.com/bootstrap/
 ! False positives with ||cachefly.net^$third-party loading Ext JS, Dec 6, 2013
 @@||extjs.cachefly.net^
 @@||clustrmaps.com/stats/$~third-party
@@ -68,6 +69,7 @@
 ! False positive with ^stats- paranoid filter at statistics page of each addon, Nov 29, 2013
 @@||mozilla.net/media/*/stats-min.
 @@||nimg.jp/images/1x1.$image
+@@||netdna-cdn.com/jquery-
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
@@ -2859,10 +2861,13 @@ www.yahoo.co.jp###local
 ! ----- Live chat or support ----- END -----
 
 ! ===== Notorious CDN ===== START =====
+||bootstrapcdn.com^$third-party
 ! http://google.com/safebrowsing/diagnostic?site=cachefly.net
 ! http://www.siteadvisor.com/sites/cachefly.net/msgpage
 ! http://www.robtex.com/dns/cachefly.net.html#blacklists
 ||cachefly.net^$third-party
+! http://www.google.com/safebrowsing/diagnostic?hl=ja&site=netdna-cdn.com
+||netdna-cdn.com^$third-party
 ! ----- Notorious CDN ----- END -----
 
 ! ===== Questionnaire ===== START =====
