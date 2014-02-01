@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 2QIp3Ei4K3wHWO1KZHwDHw
+! Checksum: CHXanaC9pF9op4eiMTWK+A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402012249
+! Version: 201402012303
 !
-! Last modified: 2014-02-01 22:49 +0900
+! Last modified: 2014-02-01 23:03 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -189,6 +189,8 @@
 @@||api.nicodic.jp^*__nicopedia_api_*_AD/*%AD|
 @@||api.nicodic.jp^*__nicopedia_api_*_AD_*%AD%
 @@||uad.nicovideo.jp/assets/$domain=uad.nicovideo.jp
+! False positives with |http:*.ad^ filter when combined scripts and stylesheets include .Ad, in their url, Feb 1, 2014
+@@||store.nike.com^*?assets=$script,stylesheet
 ! A false positive with dynamic header script, using the |http:*^ad_ filter, reported by MASA, Jun 10, 2013
 @@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
 @@||researchmap.jp^*/counter/$stylesheet
