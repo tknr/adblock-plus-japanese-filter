@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: xcOO0YmLTkCieVv2gqruPg
+! Checksum: Dfr9sZpQ6TjBbunIzz9+Lg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402040458
+! Version: 201402050231
 !
-! Last modified: 2014-02-04 04:58 +0900
+! Last modified: 2014-02-05 02:31 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1693,23 +1693,23 @@ goo.ne.jp##.sponser
 blog.goo.ne.jp###global-header
 books.google.co.jp,books.google.com###main_content + td
 maps.google.co.jp,maps.google.com###mclip
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###mbEnd
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###resultStats + div[style*="border:"]:not([id]):not([class])
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###rtpl
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###tads
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###tadsb
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###mbEnd
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###resultStats + div[style*="border:"]:not([id]):not([class])
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###rtpl
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###tads
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###tadsb
 ! False positive with typo-fixed note over the first result, Jan 24, 2014
-! www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###taw
+! www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###taw
 ! False positives: When searching for "1x1" or 0 result, no contents are displayed... Reported by liesel.einstein
-! www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###topstuff
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com###wmxmsg
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##.commercial-unit
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##.pmoabs
+! www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###topstuff
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl###wmxmsg
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##.commercial-unit
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##.pmoabs
 ! Added for custom search, false positive occured at google notebook reported via Issue Report, fixed by @dullneko
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##.ra:not([class*="jb"])
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##.ts[style*="height:"][style*="92px"]
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##.ts[style*="padding:"]
-www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com##a[href*="//ceron.jp/"]
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##.ra:not([class*="jb"])
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##.ts[style*="height:"][style*="92px"]
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##.ts[style*="padding:"]
+www.google.co.jp,www.google.co.uk,encrypted.google.com,www.google.com,www.google.pl##a[href*="//ceron.jp/"]
 foobar2000.org##.navad
 foobar2000.org##table:not(#menu)
 gqjapan.jp,wired.jp###rectangle
