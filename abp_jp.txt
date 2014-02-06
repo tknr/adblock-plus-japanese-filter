@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: G+JFCOCX9c0UzF+H0B60+Q
+! Checksum: fYkz5mfCJa1rc0+O5EfFmw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402060908
+! Version: 201402062326
 !
-! Last modified: 2014-02-06 09:08 +0900
+! Last modified: 2014-02-06 23:26 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5049,8 +5049,7 @@ _yahooads_
 ||meteo-locale-gratuite.fr^
 ||mgid.com^$popup
 ||mgid.com^$third-party
-||mmaaxx.com^$popup
-||mmaaxx.com^$third-party
+||miapex.com^$third-party
 ||microad.jp^$third-party
 ||microsoft.com/library/svy/
 ||c.microsoft.com^
@@ -5069,6 +5068,8 @@ _yahooads_
 ||mkfst.com^$third-party
 ||mlera.com^
 ||mlstat.com^
+||mmaaxx.com^$popup
+||mmaaxx.com^$third-party
 ||moatads.com^
 ||moba8.net^$third-party
 ||mobalives.com^
@@ -5431,6 +5432,8 @@ _yahooads_
 ||projectsunblock.com^$third-party
 ||projectwonderful.com^$third-party
 ||propermediadeals.com^
+||ptengine.jp^$third-party
+||ptmind.com^$third-party
 ||pubblicitazio.com^
 ||pubdirecte.com^$third-party
 ||pubgears.com^$third-party
@@ -5753,6 +5756,7 @@ _yahooads_
 ||skimlinks.com^$third-party
 ||skimresources.com^$third-party
 ||skinected.com^$third-party
+||skyglue.com^$third-party
 ||slidesharecdn.com^*/proCtaBox.
 ||sm-miracle.com^$third-party
 ||smaclick.com^$third-party
