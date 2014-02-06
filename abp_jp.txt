@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Ad6MSqRmVGSn+ST3A+SutQ
+! Checksum: G+JFCOCX9c0UzF+H0B60+Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402050304
+! Version: 201402060908
 !
-! Last modified: 2014-02-05 03:04 +0900
+! Last modified: 2014-02-06 09:08 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5730,6 +5730,7 @@ _yahooads_
 ||showdysl.com^
 ||silveregg.net^$third-party
 ||similarad.com^
+||similarsites.com^$third-party
 ||simplereach.com^$third-party
 ||simply.com^$third-party
 ||simplyhired.com^$third-party
@@ -5809,6 +5810,7 @@ _yahooads_
 ||red.st-hatena.com^
 ||st00.net^
 ||star-advertising.com^
+||starwebnet.com^
 ||stat24.com^$third-party
 ||statcounter.com^$third-party
 ||static-db.com^
@@ -5894,6 +5896,7 @@ _yahooads_
 ||theloungenet.com^$third-party
 ||themediaplanets.com^$third-party
 ||thesettlersonline.fr^$popup
+||thetrafficstat.net^
 ||thewheelof.com^
 ||ticketchic.com^
 ||tidaltv.com^$third-party
@@ -6159,6 +6162,7 @@ _yahooads_
 ||rws.weblio.jp^$third-party
 ||weblmi.com^
 ||weborama.fr^$third-party
+||webovernet.com^
 ||webpagetest.org/custom/
 ||webrotator.net^
 ||webstats4u.com^
