@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HmtAj1I4GevDHX5cr/eOgQ
+! Checksum: YSDt2S8YmR7xNEOGpE3EzA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402070413
+! Version: 201402070417
 !
-! Last modified: 2014-02-07 04:13 +0900
+! Last modified: 2014-02-07 04:17 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -221,7 +221,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=1channel.ch|6brj.com|adnxs.com|airliners.net|alphatv.gr|animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com
+|http:$popup,domain=1channel.ch|6brj.com|adnxs.com|adspirit.de|airliners.net|alphatv.gr|animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
