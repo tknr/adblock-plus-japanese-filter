@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: uY6cIJP5O86WJQUvPlmKaQ
+! Checksum: /b1Y4u/2t3VR0F/7EtMoEg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402082328
+! Version: 201402090014
 !
-! Last modified: 2014-02-08 23:28 +0900
+! Last modified: 2014-02-09 00:14 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3237,6 +3237,7 @@ _yahooads_
 ||2o7.net^$third-party
 ||3393.com^
 ||33across.com^$third-party
+||35d4738a.info^$third-party
 ||360yield.com^$third-party
 ||365ip.info^$third-party
 ||37cpm.com^$third-party
@@ -3247,6 +3248,8 @@ _yahooads_
 ||track.47news.jp^
 ||4allclick.ru^
 ||4clvr.jp^
+||4dsply.com^$third-party
+||4dtrk.com^$third-party
 ||5068.com^$third-party
 ||users.51.la^
 ||51yes.com^$third-party
@@ -4903,6 +4906,7 @@ _yahooads_
 ||liverail.com^$third-party
 ||liveundnackt.com^$third-party
 ||liveuniversenetwork.com^
+||lnkrdr.com^$third-party
 ||loading-resource.com^
 ||loading321.com^
 ||log-marketing.jp^
@@ -5503,6 +5507,7 @@ _yahooads_
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
+||rdrtrk.com^$third-party
 ||rdvmaghreb.com^
 ||re-cherche.com^
 ||reachword.com^$third-party
