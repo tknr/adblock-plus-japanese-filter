@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: pP6rK2xgwhTyAFECMsB6yA
+! Checksum: p5BUv7T/KSBcVREU93r5GQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402141315
+! Version: 201402141334
 !
-! Last modified: 2014-02-14 13:15 +0900
+! Last modified: 2014-02-14 13:34 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -476,9 +476,13 @@
 -pagead^
 -pagead_
 -PopUnder-
+-PopUnder-$popup
 -PopUnder.
+-PopUnder.$popup
 -PopUnder^
+-PopUnder^$popup
 -PopUnder_
+-PopUnder_$popup
 -ppc-
 ! Added an option to exclude a false positive domain, reported by G.O.G via blog, Jan 8, 2014
 -ppc.$domain=~hirama-ppc.jp
@@ -749,9 +753,13 @@
 ! .php?zoneid=
 .poptracking?
 .popunder-
+.popunder-$popup
 .popunder.
+.popunder.$popup
 .popunder^
+.popunder^$popup
 .popunder_
+.popunder_$popup
 .ppc-
 .ppc.
 .ppc^
@@ -2571,13 +2579,29 @@
 ^payclick^
 ^payclick_
 ^popunder-
+^popunder-$popup
 ^popunder.
+^popunder.$popup
 ^popunder^
+^popunder^$popup
 ^popunder_
+^popunder_$popup
 ^popunder2-
+^popunder2-$popup
 ^popunder2.
+^popunder2.$popup
 ^popunder2^
+^popunder2^$popup
 ^popunder2_
+^popunder2_$popup
+^popupclick-
+^popupclick-$popup
+^popupclick.
+^popupclick.$popup
+^popupclick^
+^popupclick^$popup
+^popupclick_
+^popupclick_$popup
 ^ppc-
 ^ppc.
 ^ppc^
@@ -2973,9 +2997,13 @@ _pagead.
 _pagead^
 _pagead_
 _popunder-
+_popunder-$popup
 _popunder.
+_popunder.$popup
 _popunder^
+_popunder^$popup
 _popunder_
+_popunder_$popup
 _ppc-
 _ppc.
 _ppc^
@@ -4916,6 +4944,7 @@ _yahooads_
 ||liveundnackt.com^$third-party
 ||liveuniversenetwork.com^
 ||lnkrdr.com^$third-party
+||loading-delivery1.com^$popup
 ||loading-resource.com^
 ||loading321.com^
 ||log-marketing.jp^
