@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: TevyKOoxk8C0pd4vWqfORw
+! Checksum: jraiTrYA3JGZ7WdCWakJAQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402171350
+! Version: 201402171424
 !
-! Last modified: 2014-02-17 13:50 +0900
+! Last modified: 2014-02-17 14:24 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1345,6 +1345,7 @@
 /promoPlayer.
 /promoDisplay/*
 /pubc0m/js/*
+/pubjs?pid=
 /publisher/*$third-party
 /Publishers/*$third-party
 /Publishers/*?random=
@@ -4270,6 +4271,7 @@ _yahooads_
 ||earthly-p.com^$third-party
 ||easydate.biz^$third-party
 ||easydating.fr^
+||easyinline.com^$third-party
 ||rover.ebay.com^
 ||ebayrtm.com^
 ||ebis.ne.jp^$third-party
@@ -4280,6 +4282,7 @@ _yahooads_
 ||eco-tag.jp^
 ||econdus.com^
 ||edenflirt.com^$third-party
+||edgecastcdn.net/800952/
 ! Commented out to avoid false positives with ooyala.com embeded movie player at jp.techcrunch.com 2011-10-17
 ! ||edgefcs.net^
 ||yieldmanager.edgesuite.net^$third-party
