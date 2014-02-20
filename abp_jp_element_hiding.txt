@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Dfr9sZpQ6TjBbunIzz9+Lg
+! Checksum: lOfCUOlN4zI2NeUq9axgjg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402050231
+! Version: 201402201049
 !
-! Last modified: 2014-02-05 02:31 +0900
+! Last modified: 2014-02-20 10:49 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -687,7 +687,10 @@ appbank.net##a[href*="//bit.ly/"]
 ##[id^="ad7"]:not(body):not(input)
 ##[id^="ad8"]:not(body):not(input)
 ##[id^="ad9"]:not(body):not(input)
+##[id^="adArticle"]:not(body):not(input)
 ##[id^="adBox"]:not(body):not(input)
+##[id^="adFooter"]:not(body):not(input)
+##[id^="adHeader"]:not(body):not(input)
 ##[id^="ads-"]:not(body):not(input)
 ! False positive with #ads_backsplashSkin at news.cnet.com reported via Issue Report 2011-11-21
 ##[id^="ads_"]:not(#ads_backsplashSkin):not(body):not(input)
@@ -1122,8 +1125,11 @@ appbank.net##a[href*="//bit.ly/"]
 ##[class^="ad7"]:not(body):not(input)
 ##[class^="ad8"]:not(body):not(input)
 ##[class^="ad9"]:not(body):not(input)
+##[class^="adArticle"]:not(body):not(input)
 ##[class^="adBox"]:not(body):not(input)
 ##[class^="adbox"]:not(body):not(input)
+##[class^="adFooter"]:not(body):not(input)
+##[class^="adHeader"]:not(body):not(input)
 ##[class^="adRect"]:not(body):not(input)
 ##[class^="adrect"]:not(body):not(input)
 ##[class^="ads-"]:not(body):not(input)
