@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Qpma+EWpZxWUP1GNbaojaQ
+! Checksum: y+jeqS2xQs/e9hH5C8I78g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402201157
+! Version: 201402212343
 !
-! Last modified: 2014-02-20 11:57 +0900
+! Last modified: 2014-02-21 23:43 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -528,10 +528,8 @@ appbank.net##a[href*="//bit.ly/"]
 ##a[href*="//ever-clix.com"]
 ##a[href*="//ever-website.com"]
 ##a[href*="//exaf.jp/"]
-##a[href*=".google.co.jp/aclk?sa="]
-##a[href*=".google.co.jp%2Faclk%3Fsa%3D"]
-##a[href*=".google.com/aclk?sa="]
-##a[href*=".google.com%2Faclk%3Fsa%3D"]
+##a[href*=".google."][href*="/aclk?sa="]
+##a[href*=".google."][href*="%2Faclk%3Fsa%3D"]
 ##a[href*=".googlesyndication.com/aclk?sa="]
 ##a[href*="harvest-z.jp"]
 ##a[href*="i2i.jp/click."]
