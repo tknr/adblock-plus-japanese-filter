@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: NpPvS/hQzbZVnNwTu5shog
+! Checksum: 4DwR7Qlt2oCTdhA9UVJGAA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402221341
+! Version: 201402231935
 !
-! Last modified: 2014-02-22 13:41 +0900
+! Last modified: 2014-02-23 19:35 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -490,6 +490,9 @@
 ##a[href*="affbuzzads.com"]
 ##a[href*="ainte.jp/cid/"]
 ##a[href*="//sos.allabout.co.jp"]
+##a[href*=".apple.com/"][href*="/id"][href*="&amp;at="]
+##a[href*=".apple.com/"][href*="/id"][href*="&at="]
+##a[href*=".apple.com/"][href*="/id"][href*="?at="]
 ##a[href*="auc-life.org/?"]
 ##a[href*=".bb-chat.tv/"]
 ##a[href*="partner.become.co.jp/rd"]
@@ -497,7 +500,6 @@
 ##a[href*="bidders.co.jp/aff/"]
 ##a[href*="bidders.co.jp/pitem/"][href*="/aff/"]
 ##a[href*=".bingshopping.jp/price/isearch/"]
-appbank.net##a[href*="//bit.ly/"]
 ##a[href*=".bizreach.jp/"]
 ##a[href*=".blogmura.com/in/"]
 ##a[href*="//extlink.blogsys.jp/"]
@@ -1507,6 +1509,7 @@ amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,ama
 amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.de,amazon.es,amazon.fr,amazon.it##img[usemap^="#Javari"]
 ameblo.jp###amebaBar
 ameblo.jp###eco_head
+appbank.net##a[href*="//bit.ly/"]
 dot.asahi.com##.GallerySpace
 ascii.jp###adSiteTitle
 ascii.jp###bargain
