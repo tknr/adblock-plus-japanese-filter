@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: f9PXwRHrMcNcYlkw82TXDw
+! Checksum: iwShGc+t7A+H7VzPepRphg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402221330
+! Version: 201402261602
 !
-! Last modified: 2014-02-22 13:30 +0900
+! Last modified: 2014-02-26 16:02 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2355,6 +2355,7 @@ www.yahoo.co.jp###local
 /upload/upload.php^$third-party
 /vc.php?go=$third-party
 /webstats/all^$third-party
+/wp-content/plugins/rotr^$third-party
 ! Duplicated filter. See two lines above  2013-08-03
 ! /wp-content/upgrade/update.php^$third-party
 /wp-includes/class-wp-ajax.php^$third-party
@@ -2421,6 +2422,7 @@ www.yahoo.co.jp###local
 ||com/yrehwegweg.cgi?$third-party
 ||3utilities.com^$third-party
 ||4mydomain.com^$third-party
+||dfdsfadfsd.com^$third-party
 ||dns-stuff.com^$third-party
 ||dnsrd.com^$third-party
 ||dsmtp.com^$third-party
@@ -2428,6 +2430,7 @@ www.yahoo.co.jp###local
 ||freeddns.com^$third-party
 ||ikwb.com^$third-party
 ||itemdb.com^$third-party
+||kreotceonite.com^
 ||longmusic.com^$third-party
 ||mefound.com^$third-party
 ||mrslove.com^$third-party
@@ -2513,6 +2516,7 @@ www.yahoo.co.jp###local
 ||net/valcunatrop.cgi?$third-party
 ||dynamic-dns.net^$third-party
 ||gets-it.net^$third-party
+||lemmel.net^$third-party
 ||lflinkup.net^$third-party
 ||pcanywhere.net^$third-party
 ||redirectme.net^$third-party
