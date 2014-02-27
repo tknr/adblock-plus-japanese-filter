@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: DmEkD/QRbbs8JlNA4UHU2Q
+! Checksum: 8mdZOJVEs8J5YCM9oV3B7A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402261608
+! Version: 201402272036
 !
-! Last modified: 2014-02-26 16:08 +0900
+! Last modified: 2014-02-27 20:36 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2838,7 +2838,7 @@ www.yahoo.co.jp###local
 ||widget.zenback.jp^$third-party
 ! ----- Link generator ----- END -----
 
-! ===== Live Chat or support ===== START =====
+! ===== Online Chat or support ===== START =====
 /pusher.min.$script
 ||53kf.com^$third-party
 ||boldchat.com^$third-party
@@ -2867,9 +2867,10 @@ www.yahoo.co.jp###local
 ||shoutmix.com^$third-party
 ||snapabug.com^$third-party
 ||snapengage.com^$third-party
+||zendesk.com^$third-party
 ||zoosnet.net^$third-party
 ||zopim.com^$third-party
-! ----- Live chat or support ----- END -----
+! ----- Online chat or support ----- END -----
 
 ! ===== Notorious CDN ===== START =====
 ||bootstrapcdn.com^$third-party
