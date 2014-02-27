@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rmCTNvH+f/7/EUSCQQv3Vw
+! Checksum: cmFv1qAS5JOeLPvqvjDqaw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402272143
+! Version: 201402272246
 !
-! Last modified: 2014-02-27 21:43 +0900
+! Last modified: 2014-02-27 22:46 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -221,7 +221,7 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=1channel.ch|6brj.com|adnxs.com|adspirit.de|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
+|http:$popup,domain=1channel.ch|6brj.com|adnxs.com|adspirit.de|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|co-co-co.co|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|xhamster.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -4243,6 +4243,7 @@ _yahooads_
 ||doublepimp.com^$third-party
 ||doubleverify.com^$third-party
 ||douteure.com^
+||downloadchop.com^$popup
 ||doyadosearch.com^$third-party
 ||dpmsrv.com^
 ||ad4u.drecom.jp^
@@ -5932,6 +5933,7 @@ _yahooads_
 ||synapse-interactive.
 ||synasender.com^
 ||syoh.jp^$third-party
+||systweak.com^$popup
 ||syxy.com^
 ||t3leads.com^$third-party
 ||r.tabelog.com/contents/index?
