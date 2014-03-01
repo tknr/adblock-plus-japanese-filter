@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: VGJX919VFlHQw/T8+Hu1kw
+! Checksum: Zbomp5s2+2wooDP0Iu6/NA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403010051
+! Version: 201403020230
 !
-! Last modified: 2014-03-01 00:51 +0900
+! Last modified: 2014-03-02 02:30 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2892,7 +2892,7 @@ www.yahoo.co.jp###local
 ||toprelatedtopics.com^$third-party
 ! ----- Replace contents or ADs dynamically ----- END -----
 
-! ===== Search keyword tapping, including RE-search overlay ===== START =====
+! ===== Search keyword tapping, including re-search overlay ===== START =====
 /search_frame.$script
 ||excite.co.jp/jp/succession/front/scroll.$script
 ||biglobe.ne.jp/searchbox.$script
@@ -2902,7 +2902,7 @@ www.yahoo.co.jp###local
 ||livedoor.jp/js/*search_frame.$script
 ||seesaa.jp/js/trace_searcher.$script
 ||so-net.ne.jp/search/javascripts/research/
-! ----- Search keyword tapping, including RE-search overlay ----- END -----
+! ----- Search keyword tapping, including re-search overlay ----- END -----
 
 ! ===== Selected text event hijacking ===== START =====
 /apture.$script
