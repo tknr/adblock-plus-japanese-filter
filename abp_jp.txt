@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: P9CKtFp7IYoEMbDYpEXu1Q
+! Checksum: L0xmjA++hBFLqzGkXr6WwQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403022028
+! Version: 201403022039
 !
-! Last modified: 2014-03-02 20:28 +0900
+! Last modified: 2014-03-02 20:39 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -249,6 +249,7 @@
 &adconfig^
 &adconfig_
 &adid=
+&adid=$popup
 &admeld_
 &adpds_
 &AdPlan=
@@ -272,16 +273,22 @@
 &adx^
 &adx_
 &aff_id=
+&aff_id=$popup
 &affid=
+&affid=$popup
 &affiliate=$popup
 &affiliateid=
+&affiliateid=$popup
 &afid=
+&afid=$popup
 &banner=
 &banner_link=
 &banner_url=
 &click=*&random=
 &Click_ID=
+&Click_ID=$popup
 &ClickID=
+&ClickID=$popup
 &clickTag=
 &file=ads&
 &iad=
@@ -291,14 +298,19 @@
 &popundersPerIP=
 &promo_type=
 &Pub_ID=
+&Pub_ID=$popup
 &PubID=
+&PubID=$popup
 &publisherID=
+&publisherID=$popup
 &rakuten_affili=
 &random=*&referrer=
 &random=*&size=1x1&
 &referrer=$third-party
 &trackerid=
+&trackerid=$popup
 &trackid=
+&trackid=$popup
 ! &view=ad&
 &yad=
 &zoneid=
@@ -1565,6 +1577,7 @@
 ?adconfig^
 ?adconfig_
 ?adid=
+?adid=$popup
 ?adpds_
 ?AdPlan=
 ?adsize=
@@ -1597,12 +1610,15 @@
 ?adx^
 ?adx_
 ?aff_id=
+?aff_id=$popup
 ?affid=
+?affid=$popup
 ?affiliate-
 ?affiliate.
 ?affiliate^
 ?affiliate_
 ?afid=
+?afid=$popup
 ?analytics-
 ?analytics.
 ?analytics^
@@ -1618,7 +1634,9 @@
 ?cellcastmedia^
 ?cellcastmedia_
 ?Click_ID=
+?Click_ID=$popup
 ?ClickID=
+?ClickID=$popup
 ?clickTAG=
 ?file=ads&
 ?id_promo=
@@ -1631,7 +1649,9 @@
 ?numerik-art_
 ?promo_type=
 ?Pub_ID=
+?Pub_ID=$popup
 ?PubID=
+?PubID=$popup
 ?referer=$image,object,script
 ?referrer=$third-party
 ! Commented out duplicated filters, Nov 1, 2013
@@ -1644,7 +1664,9 @@
 ! ?retargeting^
 ! ?retargeting_
 ?trackerid=
+?trackerid=$popup
 ?trackid=
+?trackid=$popup
 ?url=$image,object,domain=fc2.com
 ! ?view=ad&
 ?yad=
