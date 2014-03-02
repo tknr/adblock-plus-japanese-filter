@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: L0xmjA++hBFLqzGkXr6WwQ
+! Checksum: H3BmyriUCJbV6gIma+FxUQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403022039
+! Version: 201403030453
 !
-! Last modified: 2014-03-02 20:39 +0900
+! Last modified: 2014-03-03 04:53 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -40,7 +40,8 @@
 ! False positives with Google Custom Search(.com), reported via Issue Report, Feb 7, 2012
 @@||google.*/cse?*&ad=
 ! Workaround to avoid false positives when you test a new filter via Gmail config, reported by pooh via blog, Jun 16, 2012
-@@||mail.google.com/mail/?ui=*&search=adv^
+! Another workaroud to avoid possible false positives when you try advanced search, reported by @mushroom080 via issue report, Mar 3, 2014
+@@||mail.google.com/mail/*?ui=*&search=adv^
 ! A filter -ads^ causes a false positive with a [http://translate.google.com/translate/static/kcpbtI_-aDs/css/desktop_ltr.css css stylesheet] at translate.google.com and translate.google.co.jp, reported by @dullneko, July 18, 2012
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
