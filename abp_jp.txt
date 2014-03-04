@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HhlbFp0cEFW9DsX+RJ3xwA
+! Checksum: Py31BFNfiSEWiELdGhTOuw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403042042
+! Version: 201403050150
 !
-! Last modified: 2014-03-04 20:42 +0900
+! Last modified: 2014-03-05 01:50 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -315,6 +315,7 @@
 ! &view=ad&
 &yad=
 &zoneid=
+&zoneid=$popup
 |http:*-ad-
 |https:*-ad-
 |http:*-ad.
@@ -1673,7 +1674,9 @@
 ?yad=
 ?zname=$third-party
 ?zone_id=
+?zone_id=$popup
 ?zoneid=
+?zoneid=$popup
 |http:*^ad-
 |https:*^ad-
 |http:*^ad.
@@ -3212,6 +3215,7 @@ _yahooads_
 ||image.*/bnr.gif?$third-party
 ||kanasoku.*/thumb/
 ||krxd.
+||landing.$popup
 ||log.$third-party
 ||log0.
 ||mads.
@@ -3423,6 +3427,7 @@ _yahooads_
 ||adapter-mon-credit.com^
 ||adaptiveblue.com^
 ||adblade.com^$third-party
+||adbooth.com^$popup
 ||adbooth.com^$third-party
 ||adbrite.com^$third-party
 ||adbull.com^$third-party
@@ -5420,6 +5425,7 @@ _yahooads_
 ||omtrdc.net^
 ||on-se-mate.com^
 ||onclickads.net^
+||onclickads.net^$popup
 ||one2one-sexy.com^
 ||one2onesexy.com^
 ||onenetworkdirect.$third-party
