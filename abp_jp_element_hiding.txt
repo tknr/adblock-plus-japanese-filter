@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: oCUbMOKEmSffYi0S9u7INg
+! Checksum: 9604C2N0NPGOZyC0ymp4sw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201402261401
+! Version: 201403050603
 !
-! Last modified: 2014-02-26 14:01 +0900
+! Last modified: 2014-03-05 06:03 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -352,6 +352,8 @@
 ##a[href*="_AD_"]
 ##a[href*="/adcl."]
 ##a[href*="/ADCLICK/"]
+##a[href*="&adgroup="]
+##a[href*="?adgroup="]
 ##a[href*="?adid="]
 ##a[href*="/adpeeps."]
 ##a[href*="/adpromo/"]
