@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Zbomp5s2+2wooDP0Iu6/NA
+! Checksum: vjO5zNHUEvBSeYVYs8sMpw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403020230
+! Version: 201403070516
 !
-! Last modified: 2014-03-02 02:30 +0900
+! Last modified: 2014-03-07 05:16 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2295,6 +2295,8 @@ www.yahoo.co.jp###local
 ! https://twitter.com/unixfreaxjp/status/316892076216311808
 ! https://twitter.com/unixfreaxjp/status/318410595777007616
 .html?i=$subdocument,third-party
+! https://twitter.com/unixfreaxjp/status/441304810646548480
+/apilink/api.php^
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
 /clik.php^$third-party
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-011-iframe.html
@@ -2303,6 +2305,8 @@ www.yahoo.co.jp###local
 /esd.php^$third-party
 ! https://twitter.com/unixfreaxjp/status/318633389789966337
 /ga.php^
+! https://twitter.com/unixfreaxjp/status/441304810646548480
+/redir.php^$third-party
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
 /rel.php^$third-party
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
