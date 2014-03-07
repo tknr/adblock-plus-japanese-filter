@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: vjO5zNHUEvBSeYVYs8sMpw
+! Checksum: /a5cCAoUJuIXyKbm7xqZvg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403070516
+! Version: 201403071840
 !
-! Last modified: 2014-03-07 05:16 +0900
+! Last modified: 2014-03-07 18:40 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2239,7 +2239,13 @@ seiga.nicovideo.jp###illust_block_event
 seiga.nicovideo.jp###top_pickup_area
 seiga.nicovideo.jp##.rank_book
 seiga.nicovideo.jp##.xlarge_banner
-! ===== seiga.nicovideo.jp digital book ADs 2012-08-11 ----- END -----
+! ----- seiga.nicovideo.jp digital book ADs 2012-08-11 ----- END -----
+
+! ===== itpro.nikkeibp.co.jp/active/ 2014-03-07 ===== START =====
+! Links to the pages requiring agreement for analytics passed to sponsor or third-party
+##a[href*="//itpro.nikkeibp.co.jp/active/"]
+##a[href*="//itpro.nikkeibp.co.jp/article/Active"]
+! ----- itpro.nikkeibp.co.jp/active/ 2014-03-07 ----- END -----
 
 ! ===== rakuten affiliate stronger filter ===== START =====
 ||afl.rakuten.co.jp^
