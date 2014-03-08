@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: fHU8/lCGIyWgY0Quibpd7A
+! Checksum: dDOJbsBOVqYpj14jjgMawg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403072353
+! Version: 201403090003
 !
-! Last modified: 2014-03-07 23:53 +0900
+! Last modified: 2014-03-09 00:03 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -317,13 +317,21 @@
 &zoneid=
 &zoneid=$popup
 |http:*-ad-
+|http:*-ad-$popup
 |https:*-ad-
+|https:*-ad-$popup
 |http:*-ad.
+|http:*-ad.$popup
 |https:*-ad.
+|https:*-ad.$popup
 |http:*-ad^
+|http:*-ad^$popup
 |https:*-ad^
+|https:*-ad^$popup
 |http:*-ad_
+|http:*-ad_$popup
 |https:*-ad_
+|https:*-ad_$popup
 -adframe-
 -adframe.
 -adframe^
@@ -597,14 +605,20 @@
 -yahooads^
 -yahooads_
 |http:*.ad-
+|http:*.ad-$popup
 |https:*.ad-
+|https:*.ad-$popup
 ! Commented out to avoid false positives with domain name ad.jp, Dec 29, 2011
 ! |http:*.ad.
 ! |https:*.ad.
 |http:*.ad^
+|http:*.ad^$popup
 |https:*.ad^
+|https:*.ad^$popup
 |http:*.ad_
+|http:*.ad_$popup
 |https:*.ad_
+|https:*.ad_$popup
 .adframe-
 .adframe.
 .adframe^
@@ -1690,13 +1704,21 @@
 ?zoneid=
 ?zoneid=$popup
 |http:*^ad-
+|http:*^ad-$popup
 |https:*^ad-
+|https:*^ad-$popup
 |http:*^ad.
+|http:*^ad.$popup
 |https:*^ad.
+|https:*^ad.$popup
 |http:*^ad^
+|http:*^ad^$popup
 |https:*^ad^
+|https:*^ad^$popup
 |http:*^ad_
+|http:*^ad_$popup
 |https:*^ad_
+|https:*^ad_$popup
 ^ad1-
 ^ad1.
 ^ad1^
@@ -2891,13 +2913,21 @@
 ^yjaxc^$third-party
 ^yjaxc_$third-party
 |http:*_ad-
+|http:*_ad-$popup
 |https:*_ad-
+|https:*_ad-$popup
 |http:*_ad.
+|http:*_ad.$popup
 |https:*_ad.
+|https:*_ad.$popup
 |http:*_ad^
+|http:*_ad^$popup
 |https:*_ad^
+|https:*_ad^$popup
 |http:*_ad_
+|http:*_ad_$popup
 |https:*_ad_
+|https:*_ad_$popup
 ! _ad.jsp?
 ! _ad.jsp^
 ! _ad.ptv?
