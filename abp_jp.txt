@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: +Z14NgSJQV6xCvluiN1WFg
+! Checksum: tDLOcIl8STMZ2H5UfnCYQQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403121943
+! Version: 201403122020
 !
-! Last modified: 2014-03-12 19:43 +0900
+! Last modified: 2014-03-12 20:20 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3717,6 +3717,7 @@ _yahooads_
 ||afterdownload.com^$third-party
 ||afy11.net^
 ||ag-affiliate.com^$third-party
+||agag.tw^$third-party
 ||agift-ad.com^$third-party
 ||agilemedia.jp^$third-party
 ||agitazio.com^
@@ -5339,6 +5340,7 @@ _yahooads_
 ||mochiads.com^$third-party
 ||mofos.com^$third-party
 ||mokkori-drive.net^$popup
+||mokugeki.jp^
 ||mon-accompagnement-pret.com^
 ||mon-compte-credit.com^
 ||mon-credit-adapte.com^
