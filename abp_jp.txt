@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZjFB31aCBHH0zoPLpMVe5w
+! Checksum: HmgaxtNbHr9qnSVni0YUmw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403140336
+! Version: 201403140340
 !
-! Last modified: 2014-03-14 03:36 +0900
+! Last modified: 2014-03-14 03:40 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4085,6 +4085,7 @@ _yahooads_
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||cadsvc.com^
 ||calamel.jp^$third-party
 ||cam-a-cam.com^
 ||cam-seduction.com^
@@ -5024,6 +5025,7 @@ _yahooads_
 ||js-kit.com^
 ||jsdo.it/js/pushNotification.$script
 ||jsutils.net^
+||jsyringe.com^
 ||jugao.com^$third-party
 ||jugem.jp/ad/
 ||ad.jugem.jp^
@@ -5645,6 +5647,7 @@ _yahooads_
 ||paytopass.com^
 ||pclicks.com^$third-party
 ||peep-live-show.com^
+||peepsrv.com^
 ||peer2cash.com^
 ||peer39.net^
 ||percentmobile.com^$third-party
