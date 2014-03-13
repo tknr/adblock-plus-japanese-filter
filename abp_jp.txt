@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UbPxGtecNdRqzYgnCW1n5Q
+! Checksum: R0IKa2x6SkOZvs0gaZSPzg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403140132
+! Version: 201403140317
 !
-! Last modified: 2014-03-14 01:32 +0900
+! Last modified: 2014-03-14 03:17 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1871,6 +1871,10 @@
 ^adjs2.
 ^adjs2^
 ^adjs2_
+^adk2-$third-party
+^adk2.$third-party
+^adk2^$third-party
+^adk2_$third-party
 ^adlayer-
 ^adlayer.
 ^adlayer^
@@ -2339,6 +2343,10 @@
 ^crdrjs.
 ^crdrjs^
 ^crdrjs_
+^criteo-
+^criteo.
+^criteo^
+^criteo_
 ^customad-
 ^customad.
 ^customad^
@@ -2347,6 +2355,10 @@
 ^customads.
 ^customads^
 ^customads_
+^dlvr-$third-party
+^dlvr.$third-party
+^dlvr^$third-party
+^dlvr_$third-party
 ^dmmad^
 ^doubleclick-
 ^doubleclick.
@@ -2582,6 +2594,10 @@
 ! ^js^ad.
 ! ^js^ad^
 ! ^js^ad_
+^jsads-
+^jsads.
+^jsads^
+^jsads_
 ^js^app^analytics^
 ^js^banner-
 ^js^banner.
@@ -2791,6 +2807,10 @@
 ^showads.
 ^showads^
 ^showads_
+^sitescout-
+^sitescout.
+^sitescout^
+^sitescout_
 ^sitesnapi-
 ^sitesnapi.
 ^sitesnapi^
@@ -2812,6 +2832,10 @@
 ^sponsors^
 ^sponsors_
 ^sposor^
+^tblb-$third-party
+^tblb.$third-party
+^tblb^$third-party
+^tblb_$third-party
 ^tds-$third-party
 ^tds.$third-party
 ^tds^$third-party
@@ -3572,6 +3596,7 @@ _yahooads_
 ||adjuggler.net^$popup
 ||adjust-net.jp^$third-party
 ||adjustnetwork.com^$third-party
+||adk2.$third-party
 ||adkontekst.pl^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
@@ -3582,6 +3607,7 @@ _yahooads_
 ||admarvel.com^$third-party
 ||admaster.net^$third-party
 ||admaxasia.com^
+||admedia.$third-party
 ||admeld.com^$third-party
 ||admin6.com^$third-party
 ||admitad.com^$third-party
@@ -3644,6 +3670,7 @@ _yahooads_
 ||adsmarket.com^
 ||adsmarketplace.com^
 ||adsonar.com^$third-party
+||adsplats.com^$third-party
 ||adspot-rich.info^$third-party
 ||adsupply.com^$third-party
 ||adsurve.com^
@@ -4345,6 +4372,7 @@ _yahooads_
 ||datingdiscret.com^
 ||datingfactory.com^$third-party
 ||datinglabel.com^
+||datropy.com^$third-party
 ||daum.net^$third-party,subdocument
 ||ddestiny.ru^$third-party
 ||dealply.com^$third-party
@@ -4514,6 +4542,7 @@ _yahooads_
 ||entrevue-discrete.com^
 ||eorezo.com^$third-party
 ||epicurious.com^$popup
+||epom.com^$third-party
 ||epoquels.com^
 ||eqads.com^$third-party
 ||eravage.com^
@@ -4982,6 +5011,7 @@ _yahooads_
 ||jino.ru^$third-party
 ||jlisting.jp^$third-party
 ||jmg.com^$third-party
+||jntwrk.com^
 ||job.ws^$third-party
 ||jobfindgold.info^$popup
 ||jobrendez-vous.com^
@@ -5165,6 +5195,7 @@ _yahooads_
 ||loading-delivery1.com^$popup
 ||loading-resource.com^
 ||loading321.com^
+||loadk.net^
 ||log-marketing.jp^
 ||logly.co.jp^$third-party
 ||logtwit.com^$third-party
@@ -5779,6 +5810,7 @@ _yahooads_
 ||re-cherche.com^
 ||reachword.com^$third-party
 ||read-scope.com^$third-party
+||readserver.net^$third-party
 ||real4traf.ru^$third-party
 ||realclick.cn^
 ||realclick.co.kr^$third-party
@@ -6015,6 +6047,7 @@ _yahooads_
 ||simply.com^$third-party
 ||simplyhired.com^$third-party
 ||siouxi.com^
+||site-analytics.info^
 ||site-plan.jp^$third-party
 ||site4write.ru^$third-party
 ||sitebro.com^
@@ -6025,6 +6058,7 @@ _yahooads_
 ||sitemeter.com^$third-party
 ||sitescout.com^$third-party
 ||sitescoutadserver.com^$popup
+||sitescoutadserver.com^$third-party
 ||siteshots.com^$third-party
 ||sitesnapi.com^$third-party
 ||sitestat.com^$third-party
@@ -6421,6 +6455,7 @@ _yahooads_
 ||voyeurszone.com^
 ||vs.com^$third-party
 ||vsp-online.com^
+||vtkea.net^
 ||vuiads.net^
 ||w55c.net^$third-party
 ||w6w4d3q2.ssl.hwcdn.net^
