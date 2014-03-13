@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: T75i+eelslBDQ3rPzl4oxg
+! Checksum: Hw1jTYPHOz+EWDQk1a0CtA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403092238
+! Version: 201403132254
 !
-! Last modified: 2014-03-09 22:38 +0900
+! Last modified: 2014-03-13 22:54 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1433,14 +1433,14 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ^logger.
 ^logger^
 ^logger_
-^popover-$script
-^popover.$script
-^popover^$script
-^popover_$script
-^popup-$script
-^popup.$script
-^popup^$script
-^popup_$script
+^popover-$script,object-subrequest,subdocument
+^popover.$script,object-subrequest,subdocument
+^popover^$script,object-subrequest,subdocument
+^popover_$script,object-subrequest,subdocument
+^popup-$script,object-subrequest,subdocument
+^popup.$script,object-subrequest,subdocument
+^popup^$script,object-subrequest,subdocument
+^popup_$script,object-subrequest,subdocument
 ^slot-
 ^slot.
 ^slot^
