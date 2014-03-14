@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8RUX+WI27pymaLBn1NrLOQ
+! Checksum: +maF5kqpci0te5lED0EhqQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403140553
+! Version: 201403142047
 !
-! Last modified: 2014-03-14 05:53 +0900
+! Last modified: 2014-03-14 20:47 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3417,6 +3417,7 @@ _yahooads_
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 ||00h10.com^
+||0427d7.se^$popup
 ||0aac4e6a54c170b0.se^
 ||0aac4e6a54c170b0.se^$popup
 ||0info.net^$third-party
@@ -4237,6 +4238,7 @@ _yahooads_
 ||mads.cnet.com^
 ||cnxad.com^$third-party
 ||cnzz.com^$third-party
+||co-co-co.co^$popup
 ||coadvertise.com^$third-party
 ||analytics.cocolog-nifty.com^
 ||ax*.cocolog-nifty.com^
@@ -4777,6 +4779,7 @@ _yahooads_
 ||goojue.com^
 ||gosquared.com^$third-party
 ||gostats.com^$third-party
+||gowildcasino.com^$popup
 ||gpotato.eu^$popup
 ||glavrich.$third-party
 ||gratuit-porno-xxx.com^
