@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: zpg4/6WMx7McP21bC0j3AA
+! Checksum: Kc9BaJpT0DHpjh/H9K0Vgg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403181015
+! Version: 201403181024
 !
-! Last modified: 2014-03-18 10:15 +0900
+! Last modified: 2014-03-18 10:24 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -437,9 +437,13 @@
 -adways^
 -adways_
 -affiliate-
+-affiliate-$popup
 -affiliate.
+-affiliate.$popup
 -affiliate^
+-affiliate^$popup
 -affiliate_
+-affiliate_$popup
 -analytics-
 ! Commented out because many false positives happen with "http://www.google-analytics.com/ga.js", Jan 28, 2012
 ! -analytics.
@@ -726,9 +730,13 @@
 .adways^
 .adways_
 .affiliate-
+.affiliate-$popup
 .affiliate.
+.affiliate.$popup
 .affiliate^
+.affiliate^$popup
 .affiliate_
+.affiliate_$popup
 .analytics-
 .analytics.
 .analytics^
@@ -2219,14 +2227,22 @@
 ^adZone.
 ^adZone^
 ^adZone_
+^aff-$popup
 ^aff-$third-party
+^aff.$popup
 ^aff.$third-party
+^aff^$popup
 ^aff^$third-party
+^aff_$popup
 ^aff_$third-party
 ^affiliate-
+^affiliate-$popup
 ^affiliate.
+^affiliate.$popup
 ^affiliate^
+^affiliate^$popup
 ^affiliate_
+^affiliate_$popup
 ^affiliatebanner-
 ^affiliatebanner.
 ^affiliatebanner^
@@ -3097,9 +3113,13 @@ _adways.
 _adways^
 _adways_
 _affiliate-
+_affiliate-$popup
 _affiliate.
+_affiliate.$popup
 _affiliate^
+_affiliate^$popup
 _affiliate_
+_affiliate_$popup
 _amazontcg_
 _analytics-
 _analytics.
