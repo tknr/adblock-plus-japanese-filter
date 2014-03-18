@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: FjmD4AqdRNRqnl5o4AUu1w
+! Checksum: xSYnkvBc6+bH/On4p2mqxg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403190308
+! Version: 201403190318
 !
-! Last modified: 2014-03-19 03:08 +0900
+! Last modified: 2014-03-19 03:18 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4731,6 +4731,7 @@ _yahooads_
 ||frestime.com^
 ||friendlyduck.com^$third-party
 ||frivole.net^
+||frmclstr.net^
 ||froggie-mm.net^$popup
 ||fspot.net^$third-party
 ||fukugan.com^$third-party
@@ -5053,6 +5054,7 @@ _yahooads_
 ||ixnp.com^$third-party
 ||j-a-net.jp^$third-party
 ||japanmetrix.jp^
+||javadriver.net^
 ||javhd.com^$third-party
 ||javplus.com^$third-party
 ||jeetyetmedia.com^$third-party
@@ -5252,6 +5254,7 @@ _yahooads_
 ||loading-resource.com^
 ||loading321.com^
 ||loadk.net^
+||loadresync.net^
 ||log-marketing.jp^
 ||logly.co.jp^$third-party
 ||logtwit.com^$third-party
