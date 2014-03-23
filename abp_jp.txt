@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ySHzNuUZjxYu1gSKcKKWmQ
+! Checksum: bgoAHO+kCBVrDQRKVqvC6Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403230951
+! Version: 201403231005
 !
-! Last modified: 2014-03-23 09:51 +0900
+! Last modified: 2014-03-23 10:05 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3816,10 +3816,9 @@ _yahooads_
 ||aintes.com^
 ||aiueo.bz^
 ||ajaxcdn.org^
+||akamaihd.net^$popup
 ||apikozakanet-a.akamaihd.net^
-||apikozakanet-a.akamaihd.net^$popup
 ||hdapp1003-a.akamaihd.net^
-||hdapp1003-a.akamaihd.net^$popup
 ||aknod.com^$third-party
 ||alc.co.jp/content/js/alcom/
 ||alc.co.jp/content/js/eow_infobar_
@@ -3861,38 +3860,23 @@ _yahooads_
 ||rcm*.amazon.$third-party
 ||ws.amazon.$third-party
 ||sis.amazon.com^
+||amazonaws.com^$popup
 ||amazonaws.com/ai-img/
-||amazonaws.com/ai-img/$popup
 ||amazonaws.com/*.cetrk.com/
-||amazonaws.com/*.cetrk.com/$popup
 ||amazonaws.com/getsatisfaction.com/
-||amazonaws.com/getsatisfaction.com/$popup
 ||amazonaws.com/*.kissmetrics.com/
-||amazonaws.com/*.kissmetrics.com/$popup
 ||amazonaws.com/*.pagefair.com/
-||amazonaws.com/*.pagefair.com/$popup
 ||amazonaws.com/saaspulse-cdn/
-||amazonaws.com/saaspulse-cdn/$popup
 ||amazonaws.com/sniffer/
-||amazonaws.com/sniffer/$popup
 ||amazonaws.com/totango-cdn/
-||amazonaws.com/totango-cdn/$popup
 ||analyticsengine.s3.amazonaws.com^
-||analyticsengine.s3.amazonaws.com^$popup
 ||cd-ladsp-com.s3.amazonaws.com^
-||cd-ladsp-com.s3.amazonaws.com^$popup
 ||ib-cdn.s3.amazonaws.com^
-||ib-cdn.s3.amazonaws.com^$popup
 ||isocket-creatives.s3.amazonaws.com^
-||isocket-creatives.s3.amazonaws.com^$popup
 ||load.s3.amazonaws.com^
-||load.s3.amazonaws.com^$popup
 ||p790p8a.s3.amazonaws.com^
-||p790p8a.s3.amazonaws.com^$popup
 ||prp11ahda.s3.amazonaws.com^
-||prp11ahda.s3.amazonaws.com^$popup
 ||simple-cdn.s3.amazonaws.com^
-||simple-cdn.s3.amazonaws.com^$popup
 ||amazon-cornerstone.com^
 ||ameba.jp/common_style/js/user/dropdown*$script
 ||act.ameba.jp^
@@ -4271,71 +4255,40 @@ _yahooads_
 ||clo-saison.com^
 ||np7beacon.cloudapp.net^
 ||ajax.cloudflare.com^
+||cloudfront.net^$popup
 ||cloudfront.net^*/storage.$object
 ||d1bzh9wdftmzm0.cloudfront.net^
-||d1bzh9wdftmzm0.cloudfront.net^$popup
 ||d1c299r1rms8s6.cloudfront.net^
-||d1c299r1rms8s6.cloudfront.net^$popup
 ||d1ivexoxmp59q7.cloudfront.net^
-||d1ivexoxmp59q7.cloudfront.net^$popup
 ||d1l6p2sc9645hc.cloudfront.net^
-||d1l6p2sc9645hc.cloudfront.net^$popup
 ||d1ros97qkrwjf5.cloudfront.net^
-||d1ros97qkrwjf5.cloudfront.net^$popup
 ||d1z2jf7jlzjs58.cloudfront.net^
-||d1z2jf7jlzjs58.cloudfront.net^$popup
 ||d27jk9dqha8met.cloudfront.net^
-||d27jk9dqha8met.cloudfront.net^$popup
 ||d27jt7xr4fq3e8.cloudfront.net^
-||d27jt7xr4fq3e8.cloudfront.net^$popup
 ||d2bbvl6dq48fa6.cloudfront.net^
-||d2bbvl6dq48fa6.cloudfront.net^$popup
 ||d2o7lat8cdoi27.cloudfront.net^
-||d2o7lat8cdoi27.cloudfront.net^$popup
 ||d2sj2omw0azr1m.cloudfront.net^
-||d2sj2omw0azr1m.cloudfront.net^$popup
 ||d31qbv1cthcecs.cloudfront.net^
-||d31qbv1cthcecs.cloudfront.net^$popup
 ||d35tca7vmefkrc.cloudfront.net^
-||d35tca7vmefkrc.cloudfront.net^$popup
 ||d36lvucg9kzous.cloudfront.net^
-||d36lvucg9kzous.cloudfront.net^$popup
 ||d38nxuujfh0i4p.cloudfront.net^
-||d38nxuujfh0i4p.cloudfront.net^$popup
 ||d3axbhddqqtnzn.cloudfront.net^
-||d3axbhddqqtnzn.cloudfront.net^$popup
 ||d3c3cq33003psk.cloudfront.net^
-||d3c3cq33003psk.cloudfront.net^$popup
 ||d3nslu0hdya83q.cloudfront.net^
-||d3nslu0hdya83q.cloudfront.net^$popup
 ||d3oxij66pru1i3.cloudfront.net^
-||d3oxij66pru1i3.cloudfront.net^$popup
 ||d3qvjte1qyuqqp.cloudfront.net^
-||d3qvjte1qyuqqp.cloudfront.net^$popup
 ||d5nxst8fruw4z.cloudfront.net^
-||d5nxst8fruw4z.cloudfront.net^$popup
 ||d5phz18u4wuww.cloudfront.net^
-||d5phz18u4wuww.cloudfront.net^$popup
 ||d7p9czrvs14ne.cloudfront.net^
-||d7p9czrvs14ne.cloudfront.net^$popup
 ||d8rk54i4mohrb.cloudfront.net^
-||d8rk54i4mohrb.cloudfront.net^$popup
 ||dc8na2hxrj29i.cloudfront.net^
-||dc8na2hxrj29i.cloudfront.net^$popup
 ||ddts0bzupd01y.cloudfront.net^
-||ddts0bzupd01y.cloudfront.net^$popup
 ||dgy6rx5roq02d.cloudfront.net^
-||dgy6rx5roq02d.cloudfront.net^$popup
 ||dnn506yrbagrg.cloudfront.net^
-||dnn506yrbagrg.cloudfront.net^$popup
 ||doug1izaerwt3.cloudfront.net^
-||doug1izaerwt3.cloudfront.net^$popup
 ||dpp750yjcl65g.cloudfront.net^
-||dpp750yjcl65g.cloudfront.net^$popup
 ||dtmvdvtzf8rz0.cloudfront.net^
-||dtmvdvtzf8rz0.cloudfront.net^$popup
 ||dtym7iokkjlif.cloudfront.net^
-||dtym7iokkjlif.cloudfront.net^$popup
 ||cltrda.com^
 ||club-ama.com^$third-party
 ||club-xxx.net^$third-party
