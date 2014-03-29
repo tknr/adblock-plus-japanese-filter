@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: yPLizh3My6S3dlh6VmSzsQ
+! Checksum: mde8wEEq3V/ESDQO7gxvOw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403291021
+! Version: 201403291037
 !
-! Last modified: 2014-03-29 10:21 +0900
+! Last modified: 2014-03-29 10:37 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5723,12 +5723,14 @@ _yahooads_
 ||n-mobile.net^$popup
 ||na-secure.com^
 ||naiadsystems.com^$third-party
-||nakanohito.jp/ap/
-||nakanohito.jp/b
-||nakanohito.jp/ua/
-||bsap.nakanohito.jp^
-||f*.nakanohito.jp^$script
-||le.nakanohito.jp^
+! Merged into one filter because nakanohito.jp no longer exists, Mar 29, 2014
+! ||nakanohito.jp/ap/
+! ||nakanohito.jp/b
+! ||nakanohito.jp/ua/
+! ||bsap.nakanohito.jp^
+! ||f*.nakanohito.jp^$script
+! ||le.nakanohito.jp^
+||nakanohito.jp^
 ||nan-net.com^$third-party
 ||nan.co.jp^$third-party
 ||nasads.com^
