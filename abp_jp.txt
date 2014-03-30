@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: q++EqH4n3DZVGQIMK9TG8Q
+! Checksum: LRS8fVIjDpP7hfi+oovCZQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403302039
+! Version: 201403302057
 !
-! Last modified: 2014-03-30 20:39 +0900
+! Last modified: 2014-03-30 20:57 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -229,8 +229,8 @@
 !
 ! ########## Option only START ##########
 |http:$image,script,subdocument,object,object-subrequest,ping,xmlhttprequest,domain=ime.nu|ime.st
-|http:$popup,domain=1channel.ch|6brj.com|adexprt.com|adnxs.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|cloudfront.net|co-co-co.co|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrentlive.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|viooz.co|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
-|https:$popup,domain=1channel.ch|6brj.com|adexprt.com|adnxs.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|cloudfront.net|co-co-co.co|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrentlive.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|viooz.co|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
+|http:$popup,domain=1channel.ch|6brj.com|adexprt.com|adnxs.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|cloudfront.net|co-co-co.co|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrentlive.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|swesub.tv|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|viooz.co|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
+|https:$popup,domain=1channel.ch|6brj.com|adexprt.com|adnxs.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|bitshare.com|cinerip.com|cloudfront.net|co-co-co.co|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrentlive.com|filesonic.com|filesonic.fr|filesonic.jp|freakshare.com|freebunker.com|freshremix.ru|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|libertyland.tv|lumfile.com|megaupload.com|megavideo.com|mk-sniper.net|nuvid.com|openadserving.com|pornbus.org|primewire.ag|qponning.com|rueducommerce.fr|slickdeals.net|swesub.tv|telechargementz.org|torrentbox.com|torrentfrancais.com|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|veoh.com|viooz.co|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
 ! ---------- Option only END ----------
 !
 ! ########## URL Fragments START ##########
@@ -4221,6 +4221,7 @@ _yahooads_
 ||benaughty.com^$third-party
 ||besonders.ru^$third-party
 ||bestadbid.com^
+||bet365.com^$popup
 ||betrad.com^
 ||bidvertiser.com^$third-party
 ||bigbord.net^$third-party
@@ -5229,6 +5230,7 @@ _yahooads_
 ||topics.news.www.infoseek.co.jp^$subdocument
 ||ax*.www.infoseek.co.jp/bin/
 ||infotop.$third-party
+||inkomst.se.com^$popup
 ||insightexpress.com^$third-party
 ||insightexpressai.com^
 ||integral-marketing.com^$third-party
@@ -6636,6 +6638,7 @@ _yahooads_
 ||undere.com^
 ||unebonneaffaire.com^
 ||unhomme.fr^
+||unibet.com^$popup
 ||unibet.com^$third-party
 ||unica.com^$third-party
 ||union178.com^
