@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: kbKawO9hQ4sV7tf/OmwhzA
+! Checksum: DT9vBT551dQTDhea5rj3TA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403311353
+! Version: 201403311430
 !
-! Last modified: 2014-03-31 13:53 +0900
+! Last modified: 2014-03-31 14:30 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5642,6 +5642,7 @@ _yahooads_
 ||millioncounter.com^$~image
 ||miniinthebox.com^$popup
 ||minisalopes.com^
+||ministerial5.com^$third-party
 ||minpos.com^$third-party
 ||miraikensaku.jp^$third-party
 ||mirskidok.net^
@@ -6168,6 +6169,7 @@ _yahooads_
 ||rfihub.com^
 ||richmediaadspot.info^$third-party
 ||rides.ac^$third-party
+||right-ads.com^$third-party
 ||rikiki.biz^
 ||rinad.jp^$third-party
 ||ringtonepartner.com^
