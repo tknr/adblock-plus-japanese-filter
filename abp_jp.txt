@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 11GdqhUP6y4BLkZoCeNneA
+! Checksum: toIOoOXM35jJRnjmrRCnZw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201403312047
+! Version: 201404041905
 !
-! Last modified: 2014-03-31 20:47 +0900
+! Last modified: 2014-04-04 19:05 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1306,16 +1306,27 @@
 /dart.$script
 ! /data/js/ad
 /delivery/?zoneid=
+/delivery/?zoneid=$popup
 /delivery/afr.
+/delivery/afr.$popup
 /delivery/avw.
+/delivery/avw.$popup
 /delivery/ajs.
+/delivery/ajs.$popup
 /delivery/fl.
+/delivery/fl.$popup
 /delivery/fp?
+/delivery/fp?$popup
 /delivery/fpi.
+/delivery/fpi.$popup
 /delivery/impression?
+/delivery/impression?$popup
 /delivery/lg.
+/delivery/lg.$popup
 /delivery/showid
+/delivery/showid$popup
 /delivery/spc.
+/delivery/spc.$popup
 /demdex.$script
 /DigiChat/*$third-party
 /dmm.$script
@@ -1660,6 +1671,7 @@
 /wtbase.$script
 /wtinit.$script
 /www/delivery/*
+/www/delivery/*$popup
 /X_Store/*$script
 /xaLogger.
 /xenoLogger.
@@ -6882,6 +6894,7 @@ _yahooads_
 ||xgraph.net^$third-party
 ||xhamster.com/js/mediagra.$script
 ||xiti.com^
+||xlanding.com.ar^$popup
 ||xlisting.$third-party
 ||xlovecam.com^$popup
 ||xmatch.com^$third-party
