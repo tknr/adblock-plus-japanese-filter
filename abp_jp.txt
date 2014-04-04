@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: toIOoOXM35jJRnjmrRCnZw
+! Checksum: 9RUStoPyS30slyfsGouBSA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404041905
+! Version: 201404041948
 !
-! Last modified: 2014-04-04 19:05 +0900
+! Last modified: 2014-04-04 19:48 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4008,6 +4008,7 @@ _yahooads_
 ||akamaihd.net^$popup
 ||apikozakanet-a.akamaihd.net^
 ||hdapp1003-a.akamaihd.net^
+||hdapp1008-a.akamaihd.net^
 ||aknod.com^$third-party
 ||alc.co.jp/content/js/alcom/
 ||alc.co.jp/content/js/eow_infobar_
@@ -4257,6 +4258,7 @@ _yahooads_
 ||bkrtx.com^
 ||black-sexy.org^
 ||blackcherry.jp^$third-party
+||blankbase.com^
 ||blendac.com^
 ||blehar.com^$third-party
 ||blinkdr.com^$third-party
