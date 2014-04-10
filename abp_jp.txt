@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: yqcu6EZVaPYqw6Hd3u6UOg
+! Checksum: +iNlOiiEL1sWjCH29Pal3Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404101934
+! Version: 201404102019
 !
-! Last modified: 2014-04-10 19:34 +0900
+! Last modified: 2014-04-10 20:19 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5009,6 +5009,7 @@ _yahooads_
 ||getfoxyproxy.org/mozilla/standard/update.html^$popup
 ||getiton.com^$popup
 ||getiton.com^$third-party
+||getjs.net^
 ||getsavin.com^$third-party
 ||getsoftfree.com^$popup
 ||gezidotojyk.org^
@@ -5456,6 +5457,7 @@ _yahooads_
 ||lexament.com^
 ||lfstmedia.com^$third-party
 ||libertins31.com^
+||libfast.net^
 ||libpack.net^
 ||liendans.com^
 ||ad.lifehacker.jp^
@@ -6420,6 +6422,7 @@ _yahooads_
 ||smrtlnks.com^$third-party
 ||smspartnerprogramm.com^$third-party
 ||snap.com^$third-party
+||snapze.com^
 ||snyu.com^$third-party
 ||so-net.ne.jp/advertisement
 ||so-net.ne.jp/omn-js/
@@ -6502,6 +6505,7 @@ _yahooads_
 ||swcs.jp^$third-party
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
+||swtresync.net^
 ||synapse-interactive.
 ||synasender.com^
 ||syoh.jp^$third-party
