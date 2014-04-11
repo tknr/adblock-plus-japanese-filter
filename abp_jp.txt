@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: iDHYM7WtB4eI143wx454cA
+! Checksum: wj4sc1xZBm4jwTrIlqi+6w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404102150
+! Version: 201404112041
 !
-! Last modified: 2014-04-10 21:50 +0900
+! Last modified: 2014-04-11 20:41 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -21,8 +21,8 @@
 @@/history/external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 ! False positives with theme css by adaptivethemes.com, Jun 11, 2012
 @@_Ad/css/theme/
-! False positives with Ameblo skin named "colors_ad", reported via Issue Report, Jan 12, 2012 and Dec 29, 2011
-@@||ameba.jp/p_skin/*_ad/
+! False positives with Ameblo skin named "colors_ad" or "ad_viva-cutieblog", reported via Issue Report, Jan 12, 2012, Dec 29, 2011, Apr 11, 2014
+@@||ameba.jp/p_skin/
 ! autoblog(AOL) sucks! It requires some trackings to render correctly, reported twice by Issue Report
 @@||aolcdn.com/js/mg2.$domain=autoblog.com
 @@||aolcdn.com/omniunih.$domain=autoblog.com
