@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: FNd8vFV8MFo4v/zXJ9k+qg
+! Checksum: MopC3LRSPgUXuEiPLA8xqw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404142024
+! Version: 201404150458
 !
-! Last modified: 2014-04-14 20:24 +0900
+! Last modified: 2014-04-15 04:58 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4475,6 +4475,7 @@ _yahooads_
 ||d1ivexoxmp59q7.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
+||d1sywn6q49ki6d.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d27jk9dqha8met.cloudfront.net^
 ||d27jt7xr4fq3e8.cloudfront.net^
@@ -6808,6 +6809,7 @@ _yahooads_
 ||visualrevenue.com^$third-party
 ||visualwebsiteoptimizer.com^$third-party
 ||vitalads.net^$third-party
+||vitruvianleads.com^$third-party
 ||vk.com^$domain=~vk.com|~vkontakte.ru
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
