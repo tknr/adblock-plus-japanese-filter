@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 4vGoRiwJL061xQpeTCOzyw
+! Checksum: 39vt97AxwF76f2qQICu07Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404220002
+! Version: 201404220214
 !
-! Last modified: 2014-04-22 00:02 +0900
+! Last modified: 2014-04-22 02:14 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -507,6 +507,10 @@
 -amazon.com^*/browser-scripts/DA-
 -amazon.com^*/browser-scripts/DAE-
 -amazon.com^*/msa/
+-autolinkmaker-
+-autolinkmaker.
+-autolinkmaker^
+-autolinkmaker_
 -azlink-$script,subdocument
 -azlink.$script,subdocument
 -azlink^$script,subdocument
@@ -836,6 +840,10 @@
 .analytics9.
 .analytics9^
 .analytics9_
+.autolinkmaker-
+.autolinkmaker.
+.autolinkmaker^
+.autolinkmaker_
 .azlink-$script,subdocument
 .azlink.$script,subdocument
 .azlink^$script,subdocument
@@ -3349,6 +3357,10 @@ _analytics9-
 _analytics9.
 _analytics9^
 _analytics9_
+_autolinkmaker-
+_autolinkmaker.
+_autolinkmaker^
+_autolinkmaker_
 _azlink-$script,subdocument
 _azlink.$script,subdocument
 _azlink^$script,subdocument
@@ -4134,15 +4146,16 @@ _yahooads_
 ||aolcdn.com/js/mg1.$script
 ||aolcdn.com/js/mg2.$script
 ||aondenamoro.com^
-||metrics.apple.com^
-||securemetrics.apple.com^
-||apple.com/metrics/
 ||apicit.net^
 ||apmebf.com^
 ||apmmedia.net^$third-party
 ||apocence.com^
 ||appgiga.jp/files/*/sample
 ||appgiga.jp/files/*/eb3e7affbcbcddd74b2c6125a008d5f2.jpg
+||apple.com/metrics/
+||autolinkmaker.itunes.apple.com^$third-party
+||metrics.apple.com^
+||securemetrics.apple.com^
 ||applelinkage.com/js/banner
 ||applieda.com^
 ||applipromotion.com^$popup
