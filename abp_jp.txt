@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: c+Tw2PcphoNLCG99XXnNPQ
+! Checksum: fBVmAKuIBIu+430DGbPgzg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404221916
+! Version: 201404231918
 !
-! Last modified: 2014-04-22 19:16 +0900
+! Last modified: 2014-04-23 19:18 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6707,15 +6707,7 @@ _yahooads_
 ||txtsrving.info^
 ||tynt.com^$third-party
 ||typekit.net/p.$image
-||ucoz.ae^$third-party
-||ucoz.com^$third-party
-||ucoz.de^$third-party
-||ucoz.es^$third-party
-||ucoz.fr^$third-party
-||ucoz.hu^$third-party
-||ucoz.net^$third-party
-||ucoz.ru^$third-party
-||ucoz.ua^$third-party
+||ucoz.$third-party
 ||udmserve.net^
 ! This rough filter occasionally causes false positives, reported via Issue Report , Jan 26, 2012
 ! ||ui-portal.de^
