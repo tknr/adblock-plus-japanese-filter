@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: wDYfiwiimTa0g6vWJdlc9w
+! Checksum: w4uYDS3aV1kLLJk3dj4L1Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404232012
+! Version: 201404232051
 !
-! Last modified: 2014-04-23 20:12 +0900
+! Last modified: 2014-04-23 20:51 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4277,6 +4277,7 @@ _yahooads_
 ||belboon.de^
 ||bellerencontre.fr^
 ||benaughty.com^$third-party
+||beriche.ru^
 ||besonders.ru^$third-party
 ||bestadbid.com^
 ||bestbuys.com^$popup
@@ -4368,6 +4369,7 @@ _yahooads_
 ||btbuckets.$third-party
 ||btstatic.com^
 ||bubblestat.com^$third-party
+||bumperich.ru^
 ||bunshun.jp/oo/
 ||buonisconto.it^$popup
 ||burstnet.com^$third-party
@@ -4574,12 +4576,14 @@ _yahooads_
 ||conseil-emprunt.com^
 ||conseil-rencontre.com^
 ||conseils-pret.com^
+||contactsin.com^
 ||content.ad^$third-party
 ||contentabc.com^
 ||contentlink.co.kr^$third-party
 ||conteresse.com^
 ||conteresso.com^
 ||contextweb.com^$third-party
+||contlist.com^
 ||contrat-de-pret.com^
 ||conversioncounter.jp^$third-party
 ||conversionruler.com^$third-party
@@ -4867,9 +4871,11 @@ _yahooads_
 ||epoquels.com^
 ||eqads.com^$third-party
 ||eravage.com^
+||ergodob.ru^
 ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
 ||erovinmo.com^
+||erwoved.ru^
 ||esdizi.com^
 ||esearchvision.com^$third-party
 ||esecure-transaction.com^
@@ -5719,6 +5725,7 @@ _yahooads_
 ||microsoft.com/library/svy/
 ||c.microsoft.com^
 ||c1.microsoft.com^
+||midlemee.ru^
 ||mieuxchoisir.com^
 ||millioncounter.com^$~image
 ||miniinthebox.com^$popup
@@ -5738,13 +5745,25 @@ _yahooads_
 ||mmaaxx.com^$popup
 ||mmaaxx.com^$third-party
 ||moatads.com^
+||mob2web.com^
 ||moba8.net^$third-party
 ||mobalives.com^
 ||mobalives.com^$popup
+||mobatory.com^
+||mobbober.com^
+||mobbobr.com^
+||mobicont.com^
 ||mobifiesta.com^$popup
+||mobikano.com^
+||mobikont.com^
 ||mobilcom-debitel.de^
+||mobiledirectors.com^
 ||mobileraffles.com^$popup
+||mobiloba.com^
+||moborobot.com^
+||mobraner.com^
 ||mobylog.jp^$third-party
+||mobyrol.com^
 ||mochiads.com^$third-party
 ||mofos.com^$third-party
 ||mokkori-drive.net^$popup
@@ -5936,6 +5955,8 @@ _yahooads_
 ||ad.nttnavi.co.jp^
 ||ad.ntv.co.jp^
 ||nuggad.net^$third-party
+||numberium.com^
+||numberiya.com^
 ||numerikart.com^
 ||nxtck.com^
 ||files.nyaa.eu/ab
@@ -5943,6 +5964,7 @@ _yahooads_
 ||files.nyaa.se/af*.jpg|
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
+||obnale.ru^
 ||obtenir-de-l-argent.com^
 ! Possibly false positive, commented out, Mar 3, 2012
 ! ||odnoklassniki.ru^*scriptToolbar.$script
@@ -5994,6 +6016,7 @@ _yahooads_
 ||oret.jp^$third-party
 ||osa.pl^
 ! ||ads.osdn.jp^
+||oskale.ru^
 ||osmozes.com^
 ||otherprofit.com^
 ||ourstats.de^$third-party
@@ -6075,10 +6098,12 @@ _yahooads_
 ||pointroll.com^$third-party
 ||ponpare.jp^$third-party
 ||poollast.com^
+||pop-under.ru^
 ||pop6.com^$third-party
 ||popads.net^$popup
 ||popads.net^$third-party
 ||popadscdn.net^
+||popander.in^
 ||popcash.net^$third-party
 ||popin.cc^$third-party
 ||poponclick.com^$third-party
@@ -6243,6 +6268,7 @@ _yahooads_
 ||rss-rank.com^$third-party
 ||rssad.jp^$third-party
 ||research-artisan.com^$third-party
+||retokho.ru^
 ||reussissonsensemble.fr^
 ||reviewplus.jp^$third-party
 ||rsz.sk^
@@ -6267,8 +6293,10 @@ _yahooads_
 ||rmbn.ru^$third-party
 ||rmdown.com/pc1.$image,object
 ||rmgserving.com^
+||robimobi.com^
 ||rocketgames.com^$popup
 ||roia.biz^$third-party
+||ronetu.ru^
 ||rotaban.ru^$third-party
 ||rpxnow.com^$third-party
 ||rss.tc^$third-party
@@ -6327,6 +6355,7 @@ _yahooads_
 ||searchdiscovered.com^$popup
 ||searchforce.net^
 ||searchfun.in^
+||searchlinker.ru^
 ||searchonline24.com^
 ||searchpeack.com^$popup
 ||secret-de-cindy.com^
@@ -6565,6 +6594,7 @@ _yahooads_
 ||taboolasyndication.com^
 ||tacdn.com^$domain=~tripadvisor.ca|~tripadvisor.co|~tripadvisor.co.id|~tripadvisor.co.uk|~tripadvisor.com|~tripadvisor.com.au|~tripadvisor.com.br|~tripadvisor.com.gr|~tripadvisor.com.mx|~tripadvisor.com.my|~tripadvisor.com.sg|~tripadvisor.com.tr|~tripadvisor.com.tw|~tripadvisor.es|~tripadvisor.fr|~tripadvisor.ie|~tripadvisor.in|~tripadvisor.it|~tripadvisor.jp|~tripadvisor.ma|~tripadvisor.net|~tripadvisor.nl|~tripadvisor.org|~tripadvisor.se
 ||tacoda.net^$third-party
+||takealldir.ru^
 ||takensparks.com^$third-party
 ||tanzuki.net^
 ||tapad.com^$third-party
@@ -6680,6 +6710,7 @@ _yahooads_
 ||trafidet.ru^
 ||traforet.ru^$popup
 ||traforet.ru^$third-party
+||trahic.ru^
 ||traient.com^
 ||travian.$popup
 ||trekmedia.net^
@@ -6795,6 +6826,7 @@ _yahooads_
 ||verticalnetwork.de^$third-party
 ||veruta.com^$third-party
 ||veryselect.com^
+||verzala.ru^
 ||videoegg.com^
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
 ! ||videoplaza.tv^
