@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: iCy5fMwxXiScX00g0Fz3KQ
+! Checksum: VL+pY9otdOwV5k2zP4yzmQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404132308
+! Version: 201404241104
 !
-! Last modified: 2014-04-13 23:08 +0900
+! Last modified: 2014-04-24 11:04 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -611,6 +611,7 @@
 ##a[href*="//rd.xlisting.jp"]
 ##a[href*="xmax.jp/click/"]
 ##a[href*="xtendmedia.com/clk?"]
+##a[href*="//rd.listing.yahoo."]
 ##a[href*="//z99pc.com/"]
 ##a[href*=".ziyu.net/jump."]
 ! ---------- Links with a domain END ----------
@@ -2056,7 +2057,6 @@ yahoo.co.jp,yahoo.com##a[href*=".bc.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//krd.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//promotion.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//rd.ane.yahoo."]
-yahoo.co.jp,yahoo.com##a[href*="//rd.listing.yahoo."]
 ! Commented out to avoid too many false positives at sports.yahoo.co.jp, Nov 17, 2013
 ! yahoo.co.jp,yahoo.com##a[href*="//rdsig.yahoo."]
 yahoo.co.jp,yahoo.com##a[href*="//yjaxcrd.yahoo."]
