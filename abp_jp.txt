@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: w4uYDS3aV1kLLJk3dj4L1Q
+! Checksum: vNqZ5aevxFzdoFYE5Y31vA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404232051
+! Version: 201404240925
 !
-! Last modified: 2014-04-23 20:51 +0900
+! Last modified: 2014-04-24 09:25 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1327,6 +1327,7 @@
 /delivery/avw.$popup
 /delivery/ajs.
 /delivery/ajs.$popup
+/delivery/ck.$popup
 /delivery/fl.
 /delivery/fl.$popup
 /delivery/fp?
@@ -3818,6 +3819,7 @@ _yahooads_
 |https://*.ad.ru^$third-party
 ||ad1.ru^$third-party
 ||ad2games.com^$third-party
+||ad4game.com^$popup
 ||ad4game.com^$third-party
 ||ad6media.fr^$third-party
 ||adadvisor.net^$third-party
@@ -5099,6 +5101,7 @@ _yahooads_
 ||x.goo.ne.jp^
 ||x5.goo.ne.jp^
 ||goodadvert.ru^$third-party
+||goodgamestudios.com^$popup
 ||goodsbrowser.com^
 ! False positive: No google custom search result. 2011-08-18
 ! ||google.*/afsonline/
