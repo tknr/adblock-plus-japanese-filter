@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: fE8oaJ0YWvwoHZ4Yl2UR0g
+! Checksum: Rf0rQoNOydBeZQModkQS8Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201404242006
+! Version: 201404262105
 !
-! Last modified: 2014-04-24 20:06 +0900
+! Last modified: 2014-04-26 21:05 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -379,6 +379,46 @@
 -ads^$popup
 -ads_
 -ads_$popup
+-adsense-
+-adsense.
+-adsense^
+-adsense_
+-adsense1-
+-adsense1.
+-adsense1^
+-adsense1_
+-adsense2-
+-adsense2.
+-adsense2^
+-adsense2_
+-adsense3-
+-adsense3.
+-adsense3^
+-adsense3_
+-adsense4-
+-adsense4.
+-adsense4^
+-adsense4_
+-adsense5-
+-adsense5.
+-adsense5^
+-adsense5_
+-adsense6-
+-adsense6.
+-adsense6^
+-adsense6_
+-adsense7-
+-adsense7.
+-adsense7^
+-adsense7_
+-adsense8-
+-adsense8.
+-adsense8^
+-adsense8_
+-adsense9-
+-adsense9.
+-adsense9^
+-adsense9_
 -adsenser-
 -adsenser.
 -adsenser^
@@ -720,6 +760,49 @@
 ! .adsense-$domain=~google.com
 ! Domain-restricting option has moved to the whitelist 2011-12-07
 .adsense-
+.adsense.
+.adsense^
+.adsense_
+.adsense1-
+.adsense1.
+.adsense1^
+.adsense1_
+.adsense2-
+.adsense2.
+.adsense2^
+.adsense2_
+.adsense3-
+.adsense3.
+.adsense3^
+.adsense3_
+.adsense4-
+.adsense4.
+.adsense4^
+.adsense4_
+.adsense5-
+.adsense5.
+.adsense5^
+.adsense5_
+.adsense6-
+.adsense6.
+.adsense6^
+.adsense6_
+.adsense7-
+.adsense7.
+.adsense7^
+.adsense7_
+.adsense8-
+.adsense8.
+.adsense8^
+.adsense8_
+.adsense9-
+.adsense9.
+.adsense9^
+.adsense9_
+.adsenser-
+.adsenser.
+.adsenser^
+.adsenser_
 .adserver-
 .adserver.
 .adserver^
@@ -2176,6 +2259,42 @@
 ^adsense.
 ^adsense^
 ^adsense_
+^adsense1-
+^adsense1.
+^adsense1^
+^adsense1_
+^adsense2-
+^adsense2.
+^adsense2^
+^adsense2_
+^adsense3-
+^adsense3.
+^adsense3^
+^adsense3_
+^adsense4-
+^adsense4.
+^adsense4^
+^adsense4_
+^adsense5-
+^adsense5.
+^adsense5^
+^adsense5_
+^adsense6-
+^adsense6.
+^adsense6^
+^adsense6_
+^adsense7-
+^adsense7.
+^adsense7^
+^adsense7_
+^adsense8-
+^adsense8.
+^adsense8^
+^adsense8_
+^adsense9-
+^adsense9.
+^adsense9^
+^adsense9_
 ^adsenser-
 ^adsenser.
 ^adsenser^
@@ -3225,6 +3344,46 @@ _adsense-
 _adsense.
 _adsense^
 _adsense_
+_adsense1-
+_adsense1.
+_adsense1^
+_adsense1_
+_adsense2-
+_adsense2.
+_adsense2^
+_adsense2_
+_adsense3-
+_adsense3.
+_adsense3^
+_adsense3_
+_adsense4-
+_adsense4.
+_adsense4^
+_adsense4_
+_adsense5-
+_adsense5.
+_adsense5^
+_adsense5_
+_adsense6-
+_adsense6.
+_adsense6^
+_adsense6_
+_adsense7-
+_adsense7.
+_adsense7^
+_adsense7_
+_adsense8-
+_adsense8.
+_adsense8^
+_adsense8_
+_adsense9-
+_adsense9.
+_adsense9^
+_adsense9_
+_adsenser-
+_adsenser.
+_adsenser^
+_adsenser_
 _adserver-
 _adserver.
 _adserver^
