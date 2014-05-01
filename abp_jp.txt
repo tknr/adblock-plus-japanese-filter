@@ -1529,8 +1529,8 @@
 /load_lcs.$script
 /log1.
 /logwrite.$image,object
-|http://*/lp/*$popup,third-party
-|https://*/lp/*$popup,third-party
+|http://*/lp/$popup,third-party
+|https://*/lp/$popup,third-party
 /makePCookie_
 /marquee/*
 /marqueeplayer.
