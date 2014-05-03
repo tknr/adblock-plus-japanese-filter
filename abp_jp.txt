@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: WalVkoff2SeMrFzCcc1ScA
+! Checksum: ICh/YLNlJS+g43PfLp2gWA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201405020247
+! Version: 201405031334
 !
-! Last modified: 2014-05-02 02:47 +0900
+! Last modified: 2014-05-03 13:34 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -142,6 +142,8 @@
 @@||livepassdl.conviva.com^*/LivePassModuleMain.$object-subrequest
 ! False positives with combined scripts including "&ad=" 2012-04-06
 @@||cookpad.com/loading/all_in_one?
+! False positives with random path including /ad/, reported via Issue Report, May 3, 2014
+@@||hydra-media.cursecdn.com/*.gamepedia.com*/a/ad/$image,domain=gamepedia.com
 ! Exception for its own site logo, May 31, 2013
 @@||distrowatch.com/images/jruiakuzm/dwbanner.$image
 ! False positives with product zooming, reported by @tanahata via Issue Report
