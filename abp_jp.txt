@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HpXaRNs9sj/zJls2hAaZjQ
+! Checksum: zjzudb6yx6JiAeg2H+TtCA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201405142339
+! Version: 201405150050
 !
-! Last modified: 2014-05-14 23:39 +0900
+! Last modified: 2014-05-15 00:50 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3915,6 +3915,7 @@ _yahooads_
 ||777town.net^$popup
 ||7794.com^$third-party
 ||7sur7-credit.com^
+||824js.info^
 ||82d914.se^
 ||82d914.se^$popup
 ||85dcf732d593.se^
@@ -4580,6 +4581,7 @@ _yahooads_
 ||nad.cbs.co.kr^
 ||cbsinteractive.com/plugins/adp/
 ||cdn-image.com^
+||cdnbd.com^
 ||cdneurope.com^
 ||cedexis-radar.net^
 ||cedexis.com^$third-party
@@ -4776,6 +4778,7 @@ _yahooads_
 ||countby.com^
 ||counter-hosting.com^$third-party
 ||countomat.com^$third-party
+||coupishjs.info^
 ||couponsvc.com^
 ||cpalead.com^$third-party
 ||cpm360.com^$third-party
@@ -4787,6 +4790,7 @@ _yahooads_
 ||crateac.com^
 ||crazylead.com^$third-party
 ||crazytall.com^
+||crdrjs.info^
 ||creafi-online-media.com^$third-party
 ||creamu.com^*rsswidget.
 ||createsend1.com^
@@ -4862,11 +4866,12 @@ _yahooads_
 ||datropy.com^$third-party
 ||daum.net^$third-party,subdocument
 ||ddestiny.ru^$third-party
-||dealply.com^$third-party
+||dealply.$third-party
 ||deconnade.com^
 ||dadegid.ru^
 ||dedicatedmedia.com^$third-party
 ||dedicatednetworks.com^$third-party
+||defaulttabjs.info^
 ||defiques.com^
 ||deguiste.com^
 ||delivery45.com^$third-party
@@ -4941,6 +4946,7 @@ _yahooads_
 ||download.hr/modules/editor_pick/giveaway/
 ||downloadchop.com^$popup
 ||doyadosearch.com^$third-party
+||dpcdn.com^
 ||dpmsrv.com^
 ||dpstack.com^
 ||ad4u.drecom.jp^
@@ -5095,6 +5101,7 @@ _yahooads_
 ||fairfax.com.au^$third-party
 ||fastclick.net^
 ||fastdiscountz.com^$third-party
+||fastestjs.info^
 ||fastpic.ru^$third-party
 ||tracking.fathomseo.com^
 ||fbchatplus.com^
@@ -5464,6 +5471,7 @@ _yahooads_
 ||industrybrains.com^$third-party
 ||inedomedia.com^$third-party
 ||info-style.co.jp^$third-party
+||infoatomsjs.info^
 ||infolinks.com^$third-party
 ||informer.com^$third-party
 ||infosecisland.com/bannershow/zone/
@@ -5566,6 +5574,7 @@ _yahooads_
 ||juicyads.com^$third-party
 ||jukujo-club.com^$third-party
 ||jumbaexchange.com^
+||jumbofiles.com^$third-party
 ||justhookup.com^$popup
 ||stats.justin.tv^
 ||jword.jp^$third-party
@@ -5699,6 +5708,7 @@ _yahooads_
 ||linkfeed.org^
 ||linksmart.com^$third-party
 ||linksynergy.com^
+||linkuryjs.info^
 ||linkwithin.com^$third-party
 ||list-finder.jp^$third-party
 ||list.ru^$third-party
@@ -6326,6 +6336,7 @@ _yahooads_
 ||pussycash.com^$third-party
 ||px10.net^
 ||pya.cc/banner/bb_
+||pzcdn.com^
 ||q1media.com^$third-party
 ||q1mediahydraplatform.com^$third-party
 ||qiyou.com^$third-party
@@ -6480,6 +6491,7 @@ _yahooads_
 ||rue-des-credits.com^
 ||runadtag.com^
 ||rusrestbest.
+||rvzrjs.info^
 ||s-msn.com/br/*track*.$script
 ||s-msn.com/br/*/navigation.$script
 ||s-msn.com/br/*/report.$script
@@ -6725,6 +6737,7 @@ _yahooads_
 ||statcounter.com^$third-party
 ||static-db.com^
 ||static2img.com^
+||staticpm.com^
 ||ipic.staticsdo.com^
 ||statimgs2.com^
 ||statistik-gallup.net^
@@ -6756,6 +6769,7 @@ _yahooads_
 ||sv2.biz^
 ||svlu.net^
 ||swcs.jp^$third-party
+||swebjs.info^
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
 ||swtresync.net^
@@ -6907,6 +6921,7 @@ _yahooads_
 ||trustadnetwork.net^
 ||trustclick.ne.jp^
 ||truste.com^$third-party
+||tubejs.info^
 ||tubemogul.com^$third-party
 ||tuigoo.com^$third-party
 ||tumblr.com/analytics.
