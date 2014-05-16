@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HmR6TVyxxYrUtNtqepv+Bg
+! Checksum: /UWpAv0rWFGOZIhij0Diow
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201405151923
+! Version: 201405170012
 !
-! Last modified: 2014-05-15 19:23 +0900
+! Last modified: 2014-05-17 00:12 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1466,6 +1466,9 @@
 /google300.$script
 /google728.$script
 /grack.$script
+/gscf^$subdocument,third-party
+/gscs^$script,third-party
+/gsrs^$script,third-party
 /header_bnr_
 /headline.$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
 /hist_count.$~image
@@ -4213,6 +4216,7 @@ _yahooads_
 ||aiueo.bz^
 ||ajaxcdn.org^
 ||akamaihd.net^$popup
+||apibrowsesmartne-a.akamaihd.net^
 ||apikozakanet-a.akamaihd.net^
 ||apiscantacknet-a.akamaihd.net^
 ||appnext-a.akamaihd.net^
@@ -4532,6 +4536,7 @@ _yahooads_
 ||brilig.com^$third-party
 ||brothersoft.com^$third-party
 ||brothersoft.jp^$third-party
+||browsesmart.net^$third-party
 ||brsrvr.com^
 ||brucelead.com^
 ||btbuckets.$third-party
@@ -4868,7 +4873,7 @@ _yahooads_
 ||datingfactory.com^$third-party
 ||datinglabel.com^
 ||datropy.com^$third-party
-||daum.net^$third-party,subdocument
+||daum.net^$subdocument,third-party
 ||ddestiny.ru^$third-party
 ||dealply.$third-party
 ||deconnade.com^
