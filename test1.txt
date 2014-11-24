@@ -1,0 +1,5 @@
+[Adblock Plus 2.6.6]
+! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
+! Title: ABP test1 filters
+!
+||example1.com^
